@@ -40,13 +40,14 @@ jobs:
         key: ${{ secrets.SERVER_KEY }}
         source: "."
         target: /data/pdanetwork/stories/
+        overwrite: yes
         
     - name: Sync Files
       uses: SamKirkland/web-deploy@v1
       with:
-        target-server: 34.138.20.76
-        remote-user: maksim_prygunov
-        private-ssh-key: ${{ secrets.private_key }}
+        target-server: ${{ secrets.SERVER_HOST }}
+        remote-user: ${{ secrets.SERVER_USERNAME }}
+        private-ssh-key: ${{ secrets.SERVER_KEY }}
         destination-path: /data/pdanetwork/stories/
   notify:
     needs: web-deploy
