@@ -32,7 +32,7 @@ jobs:
     steps:
     - name: Download all stories
       uses: actions/checkout@v2
-    - name: Upload docker-compose.yml
+    - name: Sync files
       uses: appleboy/scp-action@master
       with:
         host: ${{ secrets.SERVER_HOST }}
