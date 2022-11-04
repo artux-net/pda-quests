@@ -5313,14 +5313,35 @@
   "transfers": [
     {
       "text": "Выйти",
-      "stage_id": "1",
+      "stage_id": "248",
       "condition": {}
     }
   ],
     "actions": {
     }
+},
+{
+  "id": 248,
+  "type_stage": 1,
+  "background_url": "/story/prologue/screen/chapter_2_31.jpg",
+  "title": "Пролог завершен!",
+  "type_message": 0,
+  "texts": [
+    {
+      "text": "Выходим...",
+      "condition": {}
+    },
+    {
+      "text": "",
+      "condition": {}
+    }
+  ],
+  "transfers": [
+  ],
+    "actions": {
+      "over":["1"]
+    }
 }
-
 	
 	]
 }
