@@ -17,11 +17,14 @@ jobs:
     - name: Download all stories
       uses: actions/checkout@v2
         
-    - name: Upload to FTP server
-      uses: sebastianpopp/ftp-action@releases/v2
+    - name: Syntax check
+      uses: limitusus/json-syntax-check@v1    
+        
+    - name: Sync Files
+      uses: SamKirkland/web-deploy@v1
       with:
-        host: 35.185.126.21
-        user: admin-pda
-        password: ${{ secrets.password }}
-        remoteDir: "stories"
+        target-server: 34.138.20.76
+        remote-user: maksim_prygunov
+        private-ssh-key: ${{ secrets.private_key }}
+        destination-path: /data/pdanetwork/stories/
        
