@@ -100,7 +100,7 @@
     "stage":"85"},
     "condition": 
     {
-        "has": ["quest_chaplin"]
+        "!has": ["quest_matvienko_final"]
               }
     }
 
