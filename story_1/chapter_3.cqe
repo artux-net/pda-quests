@@ -813,7 +813,7 @@
 	  "music": [],
       "message": "",
       "type_message": 0,
-      "texts": ["condition": {}
+      "texts": [
         {
           "text": "400 рублей будет?",
           "condition": {}
