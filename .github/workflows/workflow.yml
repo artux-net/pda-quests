@@ -1,0 +1,27 @@
+name: Загрузка историй на сервер
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # ручной запуск
+  workflow_dispatch:
+
+jobs:
+  web-deploy:
+    name: Deploy stories to server
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download all stories
+      uses: actions/checkout@v2
+
+    - name: Upload to FTP server
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      with:
+        server: 35.185.126.21
+        username: admin-pda
+        server-dir: stories/
+        password: ${{ secrets.password }}
+        protocol: ftps

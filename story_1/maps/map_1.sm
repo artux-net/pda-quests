@@ -100,7 +100,7 @@
     "stage":"85"},
     "condition": 
     {
-        "has": ["quest_chaplin"]
+        "!has": ["quest_matvienko_final"]
               }
     }
 
@@ -113,6 +113,12 @@
         "n":"5",
         "r":"50",
         "pos":"880:468"
+        },
+    {
+        "id":"0",
+        "n":"1",
+        "r":"1",
+        "pos":"669:1043" 
         },
     {
         "id":"1",
