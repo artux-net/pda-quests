@@ -10,11 +10,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  web-deploy:
-    name: Deploy stories to server
+  check:
     runs-on: ubuntu-latest
+    name: Проверка синтаксиса файлов
     steps:
-    - name: Download all stories
+    - name: Checkout
       uses: actions/checkout@v2
         
     - name: Validate files
@@ -24,6 +24,14 @@ jobs:
         ignore-files: 'README.md,changelog.txt'
         ignore-directories: '.github'
         read-path: '.'
+        
+  web-deploy:
+    needs: check
+    name: Загрузка на сервер
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download all stories
+      uses: actions/checkout@v2
         
     - name: Sync Files
       uses: SamKirkland/web-deploy@v1
