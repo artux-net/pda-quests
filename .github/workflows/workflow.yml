@@ -40,4 +40,14 @@ jobs:
         remote-user: maksim_prygunov
         private-ssh-key: ${{ secrets.private_key }}
         destination-path: /data/pdanetwork/stories/
+  notify:
+    needs: web-deploy
+    name: Обновление на сервере
+    runs-on: ubuntu-latest
+    steps:
+    - name: Update stories trigger
+      uses: distributhor/workflow-webhook@v2
+      env:
+        webhook_url: ${{ secrets.WEBHOOK_URL }}
+        webhook_auth: ${{ secrets.WEBHOOK_AUTH }}
        
