@@ -23,3 +23,7 @@ ID предмета брать как последнее число в URL от 
 13. ДТ - Янтарь: 2:2:212
 14. Янтарь - ДТ: 2:2:213
 Для удобства, через запуск стадии в ПДА.
+
+# Редакторы
+Онлайн редактор: https://pda-quest-editor.pages.dev/
+Оффлайн редактор: https://drive.google.com/file/d/1bHlyZ9tyy8C3JAAQ8LfRSp2Gr3Ls1K-X/view?usp=sharing
