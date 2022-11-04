@@ -41,6 +41,7 @@ jobs:
         key: ${{ secrets.SERVER_KEY }}
         source: .
         target: /data/pdanetwork/stories
+        rm: true
         overwrite: true
         
 
