@@ -16,14 +16,12 @@ jobs:
     steps:
     - name: Download all stories
       uses: actions/checkout@v2
-
+        
     - name: Upload to FTP server
-      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      uses: sebastianpopp/ftp-action@releases/v2
       with:
-        server: 35.185.126.21
-        security: loose
-        protocol: ftps
-        username: admin-pda
+        host: 35.185.126.21
+        user: admin-pda
         password: ${{ secrets.password }}
-        server-dir: stories/
+        remoteDir: "stories"
        
