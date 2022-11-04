@@ -40,7 +40,7 @@ jobs:
         key: ${{ secrets.SERVER_KEY }}
         source: "."
         target: /data/pdanetwork/stories/
-        overwrite: yes
+        overwrite: true
         
     - name: Sync Files
       uses: SamKirkland/web-deploy@v1
