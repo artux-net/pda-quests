@@ -17,8 +17,8 @@ jobs:
     - name: Download all stories
       uses: actions/checkout@v2
         
-    - name: Syntax check
-      uses: limitusus/json-syntax-check@v1    
+    - name: Validate files
+      uses: docker://orrosenblatt/validate-json-action:latest  
         
     - name: Sync Files
       uses: SamKirkland/web-deploy@v1
