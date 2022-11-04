@@ -55,4 +55,5 @@ jobs:
       env:
         webhook_url: ${{ secrets.WEBHOOK_URL }}
         webhook_auth: ${{ secrets.WEBHOOK_AUTH }}
+        webhook_secret: "secret"
        
