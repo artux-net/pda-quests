@@ -37,7 +37,7 @@ jobs:
       uses: SamKirkland/web-deploy@v1
       with:
         target-server: 34.138.20.76
-        remote-user: maxim
+        remote-user: maksim_prygunov
         private-ssh-key: ${{ secrets.private_key }}
         destination-path: /data/pdanetwork/stories/
   notify:
