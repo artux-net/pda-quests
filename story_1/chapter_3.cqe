@@ -4621,7 +4621,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage_id": "1",
+          "stage_id": "247",
           "condition": {}
         }
       ],
@@ -4940,7 +4940,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage_id": "1",
+          "stage_id": "247",
           "condition": {}
         }
       ],
