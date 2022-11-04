@@ -1,0 +1,271 @@
+{
+  "id":3,
+	"stages": [
+	{
+      "id": 0,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "Новый квест: Понюхать яйца.",
+      "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Здравия желаю. Предъяви документы",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я же только что показывал их вашему коллеге",
+          "stage_id": "1",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+{
+      "id": 1,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Хорошие яйца",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "У тебя тоже",
+          "stage_id": "2",
+          "condition": {}
+        },
+		{
+          "text": "А у тебя воняют, сука",
+          "stage_id": "3",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+	{
+      "id": 2,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "Получено: 1000 рублей",
+      "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Молодец, держи награду",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "SPS",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_1_0_jajca_woniajut"], 
+		"money": ["1000"]
+        }
+		},
+
+	{
+      "id": 3,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Держи маслину, падла",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Смэрть",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_1_0_smierc"]
+        }
+		},
+
+	{
+      "id": 4,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Текст текст текст",
+          "condition": {
+			  "has": ["quest_1_0_jajca_woniajut"]
+		  }
+        },
+        {
+          "text": "Lorem ipsum dolor",
+          "condition": {
+			  "has": ["quest_1_0_smierc"]
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Текст ответа 2",
+          "stage_id": "5",
+          "condition": {
+			  "has": ["quest_1_0_jajca_woniajut"]
+		  
+          }
+          },
+		  
+		  {
+          "text": "Текст ответа 3",
+          "stage_id": "6",
+          "condition": {
+			  "has": ["quest_1_0_smierc"]
+		  }
+        }
+      ],
+        "actions": {
+
+        }
+		},
+
+	{
+      "id": 5,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "Потерян предмет: Вонючие яйца. Получено: Мыло, Репутация: +10",
+      "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Trzymaj rieputacju",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Даб даб я пажилая гадза",
+          "stage_id": "1",
+          "condition": {}
+        }
+      ],
+        "actions": {
+			"xp": ["10"]
+
+        }
+		},
+
+	{
+      "id": 6,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Осуждаю, -репка от группировки",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я же только что показывал их вашему коллеге",
+          "stage_id": "1",
+          "condition": {}
+        }
+      ],
+        "actions": {
+			"-": ["relation_2:3"]
+        }
+		},
+
+	{
+      "id": 7,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Koniec",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я же только что показывал их вашему коллеге",
+          "stage_id": "8",
+          "condition": {}
+        }
+      ],
+        "actions": {
+			"remove": ["quest_1_0_jajca_woniajut", "quest_1_0_smierc"]
+
+        }
+		},		
+		{
+        "id": 8,
+        "type_stage": 4,
+        "data":{
+        "map":"1",
+        "pos":"124:817"
+}
+}
+		]
+		}
+		
+		
+		

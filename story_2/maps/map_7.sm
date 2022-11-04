@@ -1,0 +1,56 @@
+{
+"id":"7",
+"title":"Армейские склады",
+"texture":"maps/map_military.png",
+"boundsTexture":"maps/bounds_garbage_t.png",
+"blurTexture":"maps/blur.jpg",
+"defPos":"330:960",
+"points":[
+{
+"type":"0",
+"name": "Охранник",
+"pos":"901:426",
+"data":{
+"chapter":"2",
+"stage":"190"
+},
+"condition": 
+{
+
+          }
+},
+{
+    "type":"7",
+    "name": "Армейские склады - Бар",
+    "pos":"230:359",
+    "data":{
+    "chapter":"2",
+    "stage":"211"},
+    "condition": {
+
+    }
+}
+],
+"transfers":[
+],
+"spawns":[
+	{
+    "id":"13",
+    "n":"3",
+    "r":"15",
+    "pos":"1722:1115"
+    },
+{
+    "id":"13",
+    "n":"8",
+    "r":"60",
+    "pos":"1647:1384"
+    },
+	{
+    "id":"3",
+    "n":"7",
+    "r":"70",
+    "pos":"495:363"
+    }
+]
+}

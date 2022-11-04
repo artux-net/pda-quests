@@ -1,0 +1,5848 @@
+{
+"id":2,
+    "music":[
+        {
+		"id":"0",
+		"name": "Fire 1 20% | Prologue chapter 0",
+		"url":"story/prologue/sound/fire.mp3",
+		"params":[
+			"loop",
+			"volume:0.2"
+		]
+	},
+	{
+		"id":"1",
+		"name": "Fire 1 50%| Prologue chapter 0",
+		"url":"story/prologue/sound/fire.mp3",
+		"params":[
+		"loop",
+		"volume:0.5"
+		]
+	},
+	{
+		"id":"2",
+		"name": "Guitar 1 50% | Prologue chapter 0",
+		"url":"story/prologue/sound/guitar.mp3",
+		"params":[
+		"volume:0.5"
+		]
+	},
+	{
+		"id":"3",
+		"name": "Guitar 1 100% | Prologue chapter 0",
+		"url":"story/prologue/sound/guitar.mp3",
+		"params":[
+		]
+	},
+	{
+		"id":"4",
+		"name": "PDA новое уведомление",
+		"url":"story/prologue/sound/PDA1.mp3",
+		"params":[
+		]
+	},
+	{
+		"id":"5",
+		"name": "PDA новый квест",
+		"url":"story/prologue/sound/PDA2.mp3",
+		"params":[
+		]
+	},
+	{
+		"id":"6",
+		"name": "PDA новое сообщение",
+		"url":"story/prologue/sound/PDA3.mp3",
+		"params":[
+		]
+	}
+    ],
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Здравия желаю. Предъяви документы.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я же только что показывал их вашему коллеге",
+          "stage_id": "1",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 1,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я должен проверить их перед тем, как ты пройдешь пост.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держите",
+          "stage_id": "2",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 2,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ага... Опять Киргизов продает пропуск в Зону, все понятно. В общем, держи эту повязку - завяжи на руке, чтобы военные по тебе палить сразу не начали. А там уже если сможешь договориться - проблем не будет.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо",
+          "stage_id": "3",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		"id": 3,
+		"type_stage": 4,
+		"data":{
+		"map":"1",
+		"pos":"299:514"
+}
+},
+		{
+      "id": 4,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Чего тебе?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я по поводу работы",
+          "stage_id": "29",
+          "condition": {}
+        },
+		{
+          "text": "Мне нужна информация",
+          "stage_id": "6",
+          "condition": {}
+        },
+		{
+          "text": "Я бы хотел посмотреть ассортимент",
+          "stage_id": "6",
+          "condition": {}
+        },
+		{
+          "text": "Пока",
+          "stage_id": "9",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 5,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Выбирай",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+		{
+          "text": "Найти флешку",
+          "stage_id": "7",
+          "condition": {
+		  "!has": ["quest_1_0_flash_sidor_rem","add_quest_1_0_flash_sidor"]
+		  
+		  }
+        },
+		{
+          "text": "Вопрос с торговцем",
+          "stage_id": "33",
+          "condition": {
+		  "!has": ["quest_1_0_sapyr_sidor_rem","add_quest_1_0_sapyr_sidor"]
+		  }
+        },
+		{
+          "text": "Монолитовец на Кордоне",
+          "stage_id": "60",
+          "condition": {
+		  "has": ["quest_1_0_sapyr_sidor_rem","quest_1_0_flash_sidor_rem"],
+		  "!has": ["quest_1_0_monsvalka_sidor_rem","1add_quest_1_0_monsvalka_sidor"]
+		  }
+        },
+		{
+          "text": "Я передумал",
+          "stage_id": "4",
+          "condition": {}
+        }
+		
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 29,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Что именно ты хочешь?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+		{
+          "text": "Получить работу",
+          "stage_id": "5",
+          "condition": {}
+        },
+		{
+          "text": "Сдать работу",
+          "stage_id": "30",
+          "condition": {}
+        },
+		{
+          "text": "Я передумал",
+          "stage_id": "4",
+          "condition": {}
+        }
+		
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 30,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, рассказывай.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+		{
+          "text": "Я принес флешку",
+          "stage_id": "31",
+          "condition": {
+		  "has": ["quest_1_0_flash_sidor_fin"]
+		  }
+        },
+		{
+          "text": "Я разобрался с торговцем",
+          "stage_id": "49",
+          "condition": {
+		  "has": ["quest_1_0_sapyr_sidor_fin"]
+		  }
+        },
+		{
+          "text": "Я узнал про монолитовца",
+          "stage_id": "87",
+          "condition": {
+		  "has": ["quest_1_0_monsvalka_sidor_fin"]
+		  }
+        },
+		{
+          "text": "Я передумал",
+          "stage_id": "4",
+          "condition": {}
+        }
+		
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 6,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Спрашивай, что интересует, может быть, подскажу",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        
+		{
+          "text": "Группа сталкеров",
+          "stage_id": "126",
+          "condition": {
+		  "has": ["quest_99_1_segun_gotosidor"]
+		  }
+        },
+		{
+          "text": "Хочу купить схрон",
+          "stage_id": "191",
+          "condition": {}
+        },
+		{
+          "text": "Пока ничего",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 7,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Короче, тут такое дело. Шёл до меня один человек с инфой важной. Дошёл до Элеватора и пропал сигнал его ПДА. Сходи проверь, мне все равно живой он или мертвый, инфу с него принеси.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Берусь",
+          "stage_id": "8",
+          "condition": {}
+        },
+		{
+          "text": "В другой раз",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 8,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Повредишь флешку - возместишь ущерб. Координаты на ПДА я тебе скинул.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Понял",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_1_0_flash_sidor","add_quest_1_0_flash_sidor"]
+        }
+		},
+		{
+		"id": 9,
+		"type_stage": 4,
+		"data":{
+		"map":"1",
+		"pos":"145:891"
+}
+},
+		{
+      "id": 10,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/15.jpg",
+      "title": "Элеватор",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В помещении лежал труп сталкера.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Осмотреть",
+          "stage_id": "11",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 11,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/15.jpg",
+      "title": "Неизвестный сталкер",
+      "music": ["4"],
+      "message": "Создана заметка: Тайник Вовка Легкий",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "PDA #****. позывной: Вовка Легкий. Ранг: опытный. Тайник: 1. Данные загружены в ПДА.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Далее",
+          "stage_id": "12",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"note": ["Тайник Вовка Легкий","В Тёмной Долине, в районе "]
+        }
+		},
+		{
+      "id": 12,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/15.jpg",
+      "title": "Вовка Легкий",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Заметка №44: Нашел какой-то странный ПДА, он сильно отличается от всех, которые я видел раньше. Надо бы Сидоровичу показать его.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Далее",
+          "stage_id": "14",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 14,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/15.jpg",
+      "title": "Вовка Легкий",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Заметка №46: На этом ПДА моргает какой-то индикатор. Пробовал выключать его, вытаскивать аккумулятор - все равно моргает. Странно очень.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Далее",
+          "stage_id": "15",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 15,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/15.jpg",
+      "title": "Вовка Легкий",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Заметка №54: На мой ПДА пришло сообщение, в нем кто-то пишет, чтобы я пришел на Элеватор, иначе следующим утром не проснусь. Кто это может быть? Отправил маяк Сидоровичу, надеюсь, он поймет, если что.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Далее",
+          "stage_id": "16",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 16,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/15.jpg",
+      "title": "Вовка Легкий",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Заметка №55: Я пришел на Элеватор, 20 минут наблюдал из кустов за местностью, но ничего не заметил. Зашел во внутрь, тоже ничего. Отправил повторный маяк Сидоровичу. Все очень странно. Может быть, это как-то связано с ПДА?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Далее",
+          "stage_id": "17",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"note":["Вовка Легкий: Заметки","PDA #****. позывной: Вовка Легкий. Ранг: опытный. Заметка №44: Нашел какой-то странный ПДА, он сильно отличается от всех, которые я видел раньше. Надо бы Сидоровичу показать его...\n Заметка №46: На этом ПДА моргает какой-то индикатор. Пробовал выключать его, вытаскивать аккумулятор - все равно моргает. Странно очень... Заметка №54: На мой ПДА пришло сообщение, в нем кто-то пишет, чтобы я пришел на Элеватор, иначе следующим утром не проснусь. Кто это может быть? Отправил маяк Сидоровичу, надеюсь, он поймет, если что... Заметка №55: Я пришел на Элеватор, 20 минут наблюдал из кустов за местностью, но ничего не заметил. Зашел во внутрь, тоже ничего. Отправил повторный маяк Сидоровичу. Все очень странно. Может быть, это как-то связано с ПДА?"]
+        }
+		},
+		{
+      "id": 17,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/15.jpg",
+      "title": "Вовка Легкий",
+	  "music": ["4"],
+      "message": "Создана заметка: Вовка Легкий: Заметки",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Конец записи. Заметки скачаны.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Забрать флешку",
+          "stage_id": "18",
+          "condition": {}
+        },
+		{
+          "text": "Забрать флешку и ПДА",
+          "stage_id": "19",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 18,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/16.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Стой где стоишь, либо словишь пулю между глаз",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ты кто такой?",
+          "stage_id": "20",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_1_1_fleshka_sidora"]
+        }
+		},
+		{
+      "id": 19,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/16.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Стой где стоишь, либо словишь пулю между глаз.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ты кто такой?",
+          "stage_id": "20",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_1_1_fleshka_sidora_pda","quest_1_1_fleshka_sidora"]
+        }
+		},
+		{
+      "id": 20,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/16.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А это не так важно, кто я такой. Ты что здесь делаешь?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Услышал шорох, заглянул, а тут над трупом бандит орудует. Хотел подстрелить, но он сбежал.",
+          "stage_id": "21",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 21,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/16.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Бандит, говоришь? А зачем копался сам в вещах сталкера?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Проверял, вдруг живой",
+          "stage_id": "22",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 22,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/17.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, давай и мы взглянем, живой он или нет.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Взгляните, нового не увидите",
+          "stage_id": "23",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 23,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/17.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ты что-то находил у него?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я и не смотрел ничего, только пульс проверил",
+          "stage_id": "24",
+          "condition": {}
+        },
+		{
+          "text": "Находил какой-то ПДА",
+          "stage_id": "25",
+          "condition": {
+		  "has": ["quest_1_1_fleshka_sidora_pda"]
+		  }
+		  }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 24,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/17.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Аппарат на месте.",
+          "condition": {
+		   "!has": ["quest_1_1_fleshka_sidora_pda"]}
+        },
+        {
+          "text": "Аппарата нет.",
+          "condition": {
+		  "has": ["quest_1_1_fleshka_sidora_pda"]}
+		  }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "27",
+          "condition": {
+		  "!has": ["quest_1_1_fleshka_sidora_pda"]}
+        },
+		{
+          "text": "...",
+          "stage_id": "25",
+          "condition": {
+		   "has": ["quest_1_1_fleshka_sidora_pda"]}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 25,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/18.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Может быть, ты хочешь все таки хочешь отдать нам наш ПДА? А мы тебе заплатим за него.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Сколько заплатишь?",
+          "stage_id": "26",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 26,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/18.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Опа. А ну-ка, покажи машинку, я посмотрю, она или нет.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Смотри",
+          "stage_id": "27",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_1_1_fleshka_sidora_pda"]
+        }
+		},
+		{
+      "id": 27,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/18.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Отлично... А теперь пошел вон от сюда, пока дырку в голове не заработал.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Уйти",
+          "stage_id": "28",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_1_0_flash_sidor_fin"],
+		"remove": ["quest_1_0_flash_sidor"]
+		
+        }
+		},
+		{
+		"id": 28,
+		"type_stage": 4,
+		"data":{
+		"map":"1",
+		"pos":"570:1246"
+}
+},
+		{
+      "id": 31,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Отлично. Трудностей никаких не возникло?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Мелочи, ничего серьезного",
+          "stage_id": "32",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 32,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Хорошо. Держи, ты заработал 1000 рублей",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"money": ["1000"],
+		"remove": ["quest_1_1_fleshka_sidora","add_quest_1_0_flash_sidor","quest_1_0_flash_sidor_fin"],
+		"add": ["quest_1_0_flash_sidor_rem","quest_99_1_segun_sogl"]
+        }
+		},
+		{
+      "id": 33,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Короче, если тебе нужна работа — на развалинах хутора засел один засранец, который торгует некачественным товаром. К тому же на моей территории, хех. Мне нужно чтобы его не было.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "И как мне это сделать?",
+          "stage_id": "34",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 34,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Как душа подскажет, мне все равно.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я берусь",
+          "stage_id": "35",
+          "condition": {}
+        },
+		{
+          "text": "Я передумал",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 35,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Поторопись тогда",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_1_0_sapyr_sidor","add_quest_1_0_sapyr_sidor"]
+        }
+		},
+		{
+      "id": 37,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/19.jpg",
+      "title": "Неизвестный торговец",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, здравствуй.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Здравствуй, здравствуй. Слышал, что ты здесь новый торговец?",
+          "stage_id": "38",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 38,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/19.jpg",
+      "title": "Сапыр",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Все верно, меня Сапыр кличат. Будем знакомы",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "@name. Давно тут?",
+          "stage_id": "39",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 39,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/19.jpg",
+      "title": "Сапыр",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да нет, недавно только тут. С какой целью интересуешься?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да вот, Сапыр, вопросы тут к тебе от Сидоровича. Зачем на его территории торгуешь?",
+          "stage_id": "40",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 40,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/19.jpg",
+      "title": "Сапыр",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот оно что. Понимаешь, в чем каламбур: Сидорович обдирает новичков, не дает им закупаться по нормальным ценам. Я же сам буквально из низов поднялся, выживал и выполнял дешевые задания этого барыги... А сейчас у меня есть возможность продавать товар намного дешевле.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Это все хорошо, но ты портишь бизнес тому, на кого я работаю",
+          "stage_id": "41",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 41,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/19.jpg",
+      "title": "Сапыр",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я понимаю тебя. Поэтому задам вопрос: ты сильно дорожишь работой у Сидоровича?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "К чему вопрос?",
+          "stage_id": "42",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 42,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/19.jpg",
+      "title": "Сапыр",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я хочу предложить тебе сотрудничество. Ты скажешь Сидоровичу, что решил со мной вопрос. И я действительно переберусь от сюда в другое место, подальше от Сидоровича. За это я заплачу тебе 1000 рублей, плюс буду давать тебе выгодные задания и скидку на товар.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я согласен",
+          "stage_id": "43",
+          "condition": {}
+        },
+		 {
+          "text": "Нет уж. Заканчивай свои движения по-хорошему, иначе вопрос будем по другому решать",
+          "stage_id": "45",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 43,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/19.jpg",
+      "title": "Сапыр",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я рад, что наш вопрос решился именно так. Здесь ты меня больше не увидишь. Держи деньги, я свяжусь с тобой в ближайшее время.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Удачи",
+          "stage_id": "44",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"money": ["1000"],
+		"add": ["quest_1_0_sapyr_sidor_fin"],
+		"remove": ["quest_1_0_sapyr_sidor"]
+        }
+		},
+		{
+		"id": 44,
+		"type_stage": 4,
+		"data":{
+		"map":"1",
+		"pos":"807:1656"
+}
+},
+		{
+      "id": 45,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/19.jpg",
+      "title": "Сапыр",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "И что же ты мне предлагаешь? Вот так просто взять и прикрыть лавочку?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Именно так",
+          "stage_id": "46",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 46,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/19.jpg",
+      "title": "Сапыр",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "И что же ты мне сделаешь? У меня охрана вооруженная тут стоит, а ты всего лишь новичок без толкового снаряжения.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Логично. И все таки, ломать бизнес тому, кто уже много лет тут - не есть хорошо. Он ведь может и не только меня отправить сюда",
+          "stage_id": "47",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 47,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/19.jpg",
+      "title": "Сапыр",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Намёк понят. Однако не забывай, что все в этом мире не вечно, и Сидорович тоже не вечен. А что будет дальше - вопрос интересный. Удачи.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "48",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_1_0_sapyr_sidor"],
+		"add": ["quest_1_0_sapyr_sidor_fin"]
+        }
+		},
+		{
+		"id": 48,
+		"type_stage": 4,
+		"data":{
+		"map":"1",
+		"pos":"807:1656"
+}
+},
+		{
+      "id": 49,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Как поживает этот барыга?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Он больше не побеспокоит",
+          "stage_id": "50",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 50,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Молодец. Держи денежку, выручил торговца.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_1_0_sapyr_sidor_fin","add_quest_1_0_sapyr_sidor"],
+		"add": ["quest_1_0_sapyr_sidor_rem"],
+		"money": ["1000"]
+        }
+		},
+		{
+      "id": 51,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/20.jpg",
+      "title": "Майор Силлов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Чего стоишь, сталкер? Хочешь пройти — иди сюда, говорить будем. Нет — вали отсюда по-хорошему.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Мне нужно пройти",
+          "stage_id": "52",
+          "condition": {}
+        }
+      ],
+	  "actions": {
+	  }
+    },
+	{
+      "id": 52,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/20.jpg",
+      "title": "Майор Силлов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А нельзя! Но если очень хочется... то можно. Например, за 500 денег.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держи",
+          "stage_id": "53",
+          "condition": {
+            "money>=": ["500"]
+          }
+        },
+		{
+          "text": "Пока",
+          "stage_id": "218",
+          "condition": {
+          }
+        }
+		
+      ],
+	  "actions": {
+
+        }
+    },
+	{
+      "id": 53,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/20.jpg",
+      "music": ["4"],
+      "title": "Майор Силлов",
+      "message": "Потеряно денег: 500р",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Отлично. Чтобы через минуту я тебя тут не видел.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока.",
+          "stage_id": "54",
+          "condition": {}
+        }
+      ],
+	  "actions": {
+		"money": ["-500"]
+      }
+    },
+	{
+      "id": 217,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/20.jpg",
+      "title": "Майор Силлов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да ты охренел, молодой. Бойцы, огонь!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "218",
+          "condition": {}
+        }
+      ]
+    },
+	{
+		"id": 218,
+		"type_stage": 4,
+		"data":{
+		"map":"1",
+		"pos":"690:1289"
+	}
+},
+	{
+      "id": 555,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/20.jpg",
+      "music": ["4"],
+      "title": "Майор Силлов",
+      "message": "Потеряно денег: 500р",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Отлично. Чтобы через минуту я тебя тут не видел.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока.",
+          "stage_id": "219",
+          "condition": {}
+        }
+      ],
+	  "actions": {
+		"money": ["-500"]
+      }
+    },
+{
+		"id": 54,
+		"type_stage": 4,
+		"data":{
+		"map":"1",
+		"pos":"690:1488"
+	}
+},
+{
+      "id": 55,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/21.jpg",
+      "title": "Лейтенант Мыслов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Расценки знаешь, проход - 500 рублей.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держи",
+          "stage_id": "56",
+          "condition": {
+            "money>=": ["500"]
+          }
+        },
+		{
+          "text": "Пока",
+          "stage_id": "57",
+          "condition": {}
+        }
+      ],
+	  "actions": {
+	  }
+    },
+	{
+      "id": 56,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/21.jpg",
+      "title": "Лейтенант Мыслов",
+      "message": "Потеряно денег: 500р",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Чтобы через минуту я тебя не видел!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "58",
+          "condition": {}
+        }
+      ],
+	  "actions": {
+	  "money": ["-500"]
+	  }
+    },
+	{
+		"id": 58,
+		"type_stage": 4,
+		"data":{
+		"map":"1",
+		"pos":"690:1289"
+	}
+},
+{
+		"id": 57,
+		"type_stage": 4,
+		"data":{
+		"map":"1",
+		"pos":"690:1488"
+	}
+},
+		{
+      "id": 60,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Задание значит... Надо подумать, есть у меня тут одно задание. Я вижу ты опытный и уже знаешь Зону нормально, тогда слушай сюда внимательно. Недавно на Свалке нашли тело бойца Монолита, как он там оказался хрен знает, свидетелей тоже них... Нет. Пойди поспрашивай всех кого сможешь, если кто валыну на тебя поднимет, скажи, что от меня, отстанут, а если нет, тогда сам за себя ручайся, ха-ха-ха... ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "61",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 61,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Шучу, там все спокойные, на бандитов только не лезь, они матёрые и порядки знают. Тебе надо сейчас найти на Свалке Ворона, но слушай сюда внимательно, он скрывается где-то в Депо и к себе никого не подпускает, но зато он знает всё, что происходит на Свалке. Скажи, что от меня, он должен будет тебя спросить, то что знаю только я и он, просто скажи Книга, после этого он сам подойдёт к тебе, но смотри, ты ещё его должен найти.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо, я берусь",
+          "stage_id": "62",
+          "condition": {}
+        },
+		{
+          "text": "В другой раз",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 62,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Двигай тогда на Свалку, а там увидишь метку мою.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_1_0_monsvalka_sidor","add_quest_1_0_monsvalka_sidor","1add_quest_1_0_monsvalka_sidor"]
+        }
+		},
+		{
+      "id": 63,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/22.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Лови маслину!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Что тут происходит?",
+          "stage_id": "64",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 64,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/22.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А ты не видишь? Война, тут! Какого хрена ты здесь забыл?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Мне нужен сталкер по кличке Ворон, где он?",
+          "stage_id": "65",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 65,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/22.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А я, че, знаю!? Его тут давно никто не видел, говорят из-за наших тут междоусобиц он свалил, так сказать переждать где-нибудь, где спокойнее.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "А ты не знаешь никакой информации по поводу бойца Монолита, которого тут нашли?",
+          "stage_id": "66",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 66,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/22.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ничего я не знаю! Иди уже отсюда, если не будешь нам помогать...",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я помогу вам",
+          "stage_id": "67",
+          "condition": {}
+        },
+		{
+          "text": "Я подожду",
+          "stage_id": "68",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_1_0_monsvalka_sidor"],
+		"add": ["quest_1_0_monsvalka_sidor1"]
+        }
+		},
+		{
+      "id": 67,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/22.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Будем благодарны за помощь!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Что нужно делать?",
+          "stage_id": "69",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 68,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/22.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ах ты сволочь, потеряйся с глаз моих!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "70",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"-":["relation_0:1"]
+        }
+		},
+		{
+      "id": 69,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/23.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Уже вроде все. Спасибо, что хотел помочь, но мы справились сами.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Но мне всё-таки нужно узнать, куда делся Ворон?",
+          "stage_id": "71",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"+":["relation_0:1"]
+        }
+		},
+		{
+      "id": 70,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/23.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Уже все равно все закончилось. Но ты мог бы и помочь, а не как крыса сливаться.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Слушай, расскажи, что знаешь, а я тебе отсыплю деньжат",
+          "stage_id": "72",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 71,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/23.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "Новый квест: идти к трубам",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ладно, ты нам помог, недавно, как он отсюда свалил, его видели несколько раз в укрытии рядом с трубами, говорят, там после него даже плоти убежали, но не верю, но знаю одно, человек мне это говорил, проверенный, опытный. Всё, что знал рассказал, удачи, Сталкер.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Счастливо",
+          "stage_id": "73",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 72,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/23.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "Потеряны деньги: 500 рублей.",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ладно, подкупил, тебе повезло, что мне срочно нужны деньги. Говорят, что Ворон ошивается в укрытии рядом с трубами, по крайней мере, рассказал мне это проверенный человек, я ему доверяю. Всё, иди.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Счастливо",
+          "stage_id": "73",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"money": ["-500"]
+        }
+		},
+		{
+		"id": 73,
+		"type_stage": 4,
+		"data":{
+		"map":"2",
+		"pos":"533:757"
+}
+},
+		{
+      "id": 74,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/24.jpg",
+      "title": "Ворон",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Какого ты здесь забыл? Проваливай!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я от Сидоровича, он сказал, что ты знаешь, откуда тут тело монолитовца",
+          "stage_id": "75",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 75,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/24.jpg",
+      "title": "Ворон",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "С чего я должен тебе поверить, а не пустить пулю в лоб?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Книга",
+          "stage_id": "76",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 76,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/24.jpg",
+      "title": "Ворон",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ладно. Подходи сюда.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Что ты знаешь о том мёртвом монолитовце?",
+          "stage_id": "77",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 77,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/25.jpg",
+      "title": "Ворон",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Его сюда притащили...",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Видел кто это сделал?",
+          "stage_id": "78",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 78,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/25.jpg",
+      "title": "Ворон",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Бандиты, они принесли его сюда уже мёртвым для отвлечения внимания.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "А зачем отвлекать внимание? Что случится?",
+          "stage_id": "79",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 79,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/25.jpg",
+      "title": "Ворон",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Они планируют напасть на Депо огромной толпой, мать твою, вряд ли там вообще сталкеры выживут!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо за информацию, я должен предупредить их!",
+          "stage_id": "80",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 80,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/25.jpg",
+      "title": "Ворон",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Светлая у тебя душа, я это вижу, удачи желать не буду, это Зона, сам понимаешь.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Счастливо",
+          "stage_id": "81",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_1_0_monsvalka_sidor1"],
+		"add": ["quest_1_0_monsvalka_sidor2"]
+        }
+		},
+		{
+		"id": 81,
+		"type_stage": 4,
+		"data":{
+		"map":"2",
+		"pos":"318:817"
+}
+},
+		{
+      "id": 82,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/26.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну чего тебе опять надо?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Вам срочно надо уходить отсюда",
+          "stage_id": "83",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 83,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/26.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Зачем? Мы прекрасно справляемся, вон даже отряд послали, что бы узнать, что за монолитовце там был.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Это ловушка. Ворон сказал мне, что они готовят огромное наступление на Депо",
+          "stage_id": "84",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 84,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/26.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ох мать! Эй мужики! Быстро готовимся оборонять Депо, на нас скоро нападут.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Вы уверены, что сможете отстоять Депо?",
+          "stage_id": "85",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 85,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/26.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "Новый квест: Вернуться к Сидоровичу",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да, Конечно! Сейчас мы засядем в самых потайных местах и сделаем засаду, будь им неповадно. Спасибо, брат.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Удачи",
+          "stage_id": "86",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_1_0_monsvalka_sidor2"],
+		"add": ["quest_1_0_monsvalka_sidor_fin"]
+        }
+		},
+		{
+		"id": 86,
+		"type_stage": 4,
+		"data":{
+		"map":"2",
+		"pos":"533:757"
+}
+},
+		{
+      "id": 87,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А ну, выкладывай.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Монолитовец оказался там не случайно, его притащили туда бандиты, а вот откуда, я понятия не имею",
+          "stage_id": "88",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 88,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Значит вот так. Интересно, отвлекали внимание, что бы напасть на Депо, знаю я их маневры, но что б такое? Ладно, свою часть уговора ты выполнил, держи 1500 рублей и проваливай!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_1_0_monsvalka_sidor_rem"],
+		"remove": ["quest_1_0_monsvalka_sidor_fin","1add_quest_1_0_monsvalka_sidor"]
+        }
+		},
+		{
+      "id": 89,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Слушаю тебя внимательно.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я по поводу работы",
+          "stage_id": "90",
+          "condition": {}
+        },
+		{
+          "text": "Мне нужна информация",
+          "stage_id": "93",
+          "condition": {}
+        },
+		{
+          "text": "Я хочу посмотреть ассортимент",
+          "stage_id": "85",
+          "condition": {}
+        },
+		{
+          "text": "Пока",
+          "stage_id": "94",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 90,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Что именно ты хочешь?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Получить работу",
+          "stage_id": "91",
+          "condition": {}
+        },
+		{
+          "text": "Сдать работу",
+          "stage_id": "92",
+          "condition": {}
+        },
+		{
+          "text": "Я передумал",
+          "stage_id": "89",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 91,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Выбирай.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Поиск сталкера",
+          "stage_id": "95",
+          "condition": {
+		  "!has": ["quest_2_0_flash_barmen_rem","add_quest_2_0_flash_barmen"]
+		  }
+        },
+		{
+          "text": "Поиск сталкера",
+          "stage_id": "95",
+          "condition": {
+		  "!has": ["quest_2_0_flash_barmen_rem","add_quest_2_0_flash_barmen"]
+		  }
+        },
+		
+         { "text": "Я передумал",
+          "stage_id": "89",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 92,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, рассказывай.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+	  {
+          "text": "Я нашел сталкера и флешку",
+          "stage_id": "106",
+          "condition": {
+		  "has": ["quest_2_0_flash_barmen2_fin"]
+		  }
+        },
+		{
+          "text": "Я отдал долг Сявы",
+          "stage_id": "113",
+          "condition": {
+		  "has": ["quest_2_0_flash_barmen_money_fin"]
+		  }
+        },
+        {
+          "text": "Я передумал",
+          "stage_id": "89",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 93,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Что именно ты хочешь узнать?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока ничего",
+          "stage_id": "89",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		"id": 94,
+		"type_stage": 4,
+		"data":{
+		"map":"3",
+		"pos":"1501:1255"
+}
+},
+		{
+      "id": 95,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В общем, смотри. Все, как обычно, сталкер нёс мне флешку с информацией, сталкер потерялся. Последний раз его ПДА был замечен в районе фермы, посмотри там, может быть, нароешь что-то. Найдешь его флешку или ПДА, будет хорошо, а если еще и его самого - накину сверху.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я берусь",
+          "stage_id": "96",
+          "condition": {}
+        },
+		{
+          "text": "В другой раз",
+          "stage_id": "89",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 96,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "Новый квест: Идти в Темную долину к ферме",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Тогда жду тебя, удачи.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "89",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_2_0_flash_barmen","add_quest_2_0_flash_barmen"]
+        }
+		},
+		{
+      "id": 97,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/31.jpg",
+      "title": "Ферма",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Изучите территорию фермы.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Продолжить",
+          "stage_id": "98",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_2_0_flash_barmen"],
+		"add": ["quest_2_0_flash_barmen1"]
+        }
+		},
+		{
+		"id": 98,
+		"type_stage": 4,
+		"data":{
+		"map":"5",
+		"pos":"135:340"
+}
+},
+		{
+      "id": 99,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/28.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ты кто?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "А ты?",
+          "stage_id": "100",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 100,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/28.jpg",
+      "title": "Неизвестный сталкер",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, допустим, Сява я. Слушаю тебя.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "@name я. Я ищу сталкера одного, он нёс важную информацию для Бармена. Не встречал тут никого?",
+          "stage_id": "101",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 101,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/28.jpg",
+      "title": "Сява",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А я и есть тот самый сталкер, который несет информацию Бармену. Меня потеряли уже?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Как видишь, раз я тут",
+          "stage_id": "102",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 102,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/28.jpg",
+      "title": "Сява",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Тут такая движуха: задолжал я одному долговцу на блокпосте, обещал колено прострелить, если увидит меня без денег. Все бы ничего, но когда я пытался пройти с инфой через пост, меня не пустили и чуть не подстрелили, хех. Кое как ушел сюда, но принести флешку не могу сейчас. Поможешь доставить её?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Давай, раз уж я тут",
+          "stage_id": "103",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 103,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/28.jpg",
+      "title": "Сява",
+      "message": "Получен предмет: Флешка, водка х2, бинт х2",
+	  "music": ["4"],
+      "texts": [
+        {
+          "text": "От души, сталкер. Держи немного хабара, пока что это все, что есть. И флешка. Даст Бог, пересечемся с тобой при лучшем раскладе. ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Бывай",
+          "stage_id": "104",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_2_0_flash_barmen2_fin"]
+        }
+		},
+		{
+      "id": 104,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/28.jpg",
+      "title": "Сява",
+      "message": "Новый квест: Идти к Бармену",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Кстати, если не затруднит, извинись перед Барменом за меня.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "105",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_2_0_flash_barmen1"]
+        }
+		},
+		{
+		"id": 105,
+		"type_stage": 4,
+		"data":{
+		"map":"5",
+		"pos":"154:201"
+}
+},
+		{
+      "id": 106,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "И что же произошло?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Он задолжал долговцам на блокпосте, не пропустили его и подстрелить хотели. Скрылся от них на ферме. Сердечно извинялся и просил передать флешку, обещал, что скоро придет сам и объяснится.",
+          "stage_id": "107",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 107,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "Потерян предмет: Флешка. Получено: 500 рублей, армейская аптечка х2",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот оно как. Долг крутит своей территорией и полномочиями, как хочет. Ладно, как обещал, сверху накину немного.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "108",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"money": ["3500"]
+		
+        }
+		},
+		{
+      "id": 108,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да подожди ты. Человек этот ценный, помочь ему надо. Пойди на блокпост на Свалке, найди Молотова и отнеси ему деньги за Сяву, он говорил, что вроде 3000 должен. Отнеси и возвращайся.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Понял",
+          "stage_id": "89",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_2_0_flash_barmen2_fin"],
+		"add": ["add_quest_2_0_flash_barmen_money","quest_2_0_flash_barmen_money1","quest_2_0_flash_barmen_rem"]
+        }
+		},
+		{
+      "id": 109,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/29.jpg",
+      "title": "Блокпост Долга",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Проходи давай, не суети тут.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Мужики, мне нужен Молотов, где его найти?",
+          "stage_id": "110",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 110,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/30.jpg",
+      "title": "Молотов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я Молотов. Что тебе нужно?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я пришел отдать долг за Сяву. От Бармена",
+          "stage_id": "111",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_2_0_flash_barmen_money_fin"]
+        }
+		},
+		{
+      "id": 111,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/30.jpg",
+      "title": "Молотов",
+      "message": "Потеряно денег: 3000 рублей",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Уже даже Бармен впрягается за него, интересно. Ладно, давай сюда и иди своей дорогой.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Счастливо",
+          "stage_id": "112",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_2_0_flash_barmen_money1"],
+		"money": ["-3000"]
+        }
+		},
+		{
+		"id": 112,
+		"type_stage": 4,
+		"data":{
+		"map":"2",
+		"pos":"699:1088"
+}
+},
+		{
+      "id": 113,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Молодец. Проблем не было?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Нет, все нормально",
+          "stage_id": "114",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 114,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "Получено: колбаса х2, водка",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Хорошо. Держи немного еды, пригодится.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage_id": "89",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_2_0_flash_barmen_money_rem"],
+		"remove": ["quest_2_0_flash_barmen_money_fin"]
+        }
+		},
+		{
+      "id": 115,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/32.jpg",
+      "title": "Сёгун",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Привет, сталкер. Можешь помочь мне?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Что случилось?",
+          "stage_id": "116",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 116,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/32.jpg",
+      "title": "Сёгун",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я возвращался с рейда, со Свалки, и вижу идёт группа сталкеров, ну я и подумал, что вроде, ничего страшного. Но... не тут-то было, один из них огрел сзади по голове, пока двое других общались со мной, узнавая, что там на Свалке. И все бы ничего, но они украли семейную реликвию. Можешь помочь её вернуть? Я бы и сам, но ,видимо, тот, кто бил, не слабо так приложил, в глазах до сих пор всё двоится.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "А что за реликвию они украли?",
+          "stage_id": "117",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 117,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/32.jpg",
+      "title": "Сёгун",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Танто. На ручке изображён изумрудный дракон, а на лезвие символы. ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо, я постараюсь помочь",
+          "stage_id": "120",
+          "condition": {}
+        },
+		{
+          "text": "Извини, времени нет совсем, не смогу помочь",
+          "stage_id": "118",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		
+		{
+      "id": 118,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/32.jpg",
+      "title": "Сёгун",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Понял, извини, что побеспокоил",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Удачи",
+          "stage_id": "119",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_99_1_segun_sogl"]
+        }
+		},
+		{
+		"id": 119,
+		"type_stage": 4,
+		"data":{
+		"map":"1",
+		"pos":"266:813"
+}
+},
+		{
+      "id": 120,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/32.jpg",
+      "title": "Сёгун",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Спасибо тебе большое.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "А приметы были какие-либо или прозвище, может быть? ",
+          "stage_id": "121",
+          "condition": {}
+        }
+      ],
+        "actions": {
+        }
+		},
+		{
+      "id": 121,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сёгун",
+      "message": "Новый квест: Пообщаться с Волком",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Что-то было... У одного из них был шрам на пол лица, а у второго прозвище на 'С' вроде как начинается. Это всё, что я помню. ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо, жди тут. Скоро буду",
+          "stage_id": "119",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_99_1_segun_gotowolf"],
+		"remove": ["quest_99_1_segun_sogl"]
+        }
+		},
+		{
+      "id": 122,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/33.jpg",
+      "title": "Волк",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Слушаю внимательно",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Приветствую, Волк. Вопрос у меня к тебе",
+          "stage_id": "123",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 123,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/33.jpg",
+      "title": "Волк",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Привет. Задавай",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Видел ли ты какой-нибудь отряд, который собирался в сторону Свалки? У одного из них шрам на пол лица",
+          "stage_id": "124",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 124,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/33.jpg",
+      "title": "Волк",
+      "message": "Новый квест: Задать вопрос Сидоровичу",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Не, прости, мимо меня столько новичков бегает, за всеми не уследишь. Спроси у Сидоровича, может он что подскажет, раз на Свалку собрались, то закупить снаряжения им явно необходимо.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "125",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_99_1_segun_gotosidor"],
+		"remove": ["quest_99_1_segun_gotowolf"]
+        }
+		},
+		{
+		"id": 125,
+		"type_stage": 4,
+		"data":{
+		"map":"1",
+		"pos":"224:861"
+}
+},
+		{
+      "id": 126,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, интересуйся.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Не подскажешь информацию о группе из трёх и более человек направляющихся в сторону Свалки у одного шрам на пол лица а у второго прозвище вроде как на 'С' начинается?",
+          "stage_id": "127",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 127,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Тебе может сразу рассказать, кто мои поставщики?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да я же не за просто так",
+          "stage_id": "128",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 128,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "500 рублей",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держи",
+          "stage_id": "129",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"money": ["-500"]
+        }
+		},
+		{
+      "id": 129,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "Потеряно: 500 рублей.",
+	   "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "И еще 200, за моральную компенсацию. Я, знаешь ли, очень ранимая душа.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держи. Ну так что?",
+          "stage_id": "130",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"money": ["-200"]
+        }
+		},
+		{
+      "id": 130,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "Потеряно: 200 рублей.",
+	   "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот. Так кто лучше. А то им помогай, а они в ответ ещё дерзят, а потом говорят, какой я жадный. Знаю я группу эту, быть точнее главного их шайки. Стриж его кличут. У него в шайке 2-3 человека. А зачем он тебе? ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да он сталкера одного ограбил",
+          "stage_id": "131",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 131,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "Новый квест: Пообщаться с Волком.",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Так это не первый случай! Можешь спросить у Волка, может он что подскажет. ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Понял",
+          "stage_id": "8",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_99_1_segun_gotosidor"],
+		"add": ["quest_99_1_segun_gotowolf2"]
+		
+        }
+		},
+		{
+      "id": 132,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/33.jpg",
+      "title": "Волк",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Опять ты?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Волк, можешь рассказать о шайке Стрижа? ",
+          "stage_id": "133",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 133,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/33.jpg",
+      "title": "Волк",
+      "message": "Новый квест: Найти Стрижа.",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да что рассказывать-то. Был сталкером, притом неумелым. На КМБ чуть в Карусель не влетел на чистом поле, то от собак тут носился, понял, что честно заработать ему не под силу вот и решил рэкет устроить и нашёл таких же сообщников. Устроили себе лагерь недалеко от АТП и за тридевять земель обходят деревню, чтоб к Сидоровичу зайти за припасами. ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "125",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_99_1_segun_gotowolf2"],
+		"add": ["quest_99_1_segun_gotostrizh"]
+        }
+		},
+		{
+      "id": 134,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/34.jpg",
+      "title": "Стриж",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Чего тебе?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "У тебя есть то, что тебе не принадлежит. Верни это.",
+          "stage_id": "135",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 135,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/34.jpg",
+      "title": "Стриж",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "ха-ха-ха. Иначе что? Ты тут один, нас трое, хлопним тебя и дело с концом! Твой труп найдут возле аномалии, а хабар твой останется у нас.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "А ты уверен, что я здесь один? Сталкер нанял нас с отрядом, чтоб забрать танто, а каким путём, уже не важно. Сейчас голова твоего друга виднеется в оптический прицел и по одному лишь взамаху руки...",
+          "stage_id": "136",
+          "condition": {}
+        },
+		{
+          "text": "Ну так посмотрим, кто с чего трупа, заберёт ещё хабар!",
+          "stage_id": "136",
+          "condition": {}
+        },
+		{
+          "text": "Ладно парни, извините, погорячился, пойду пожалуй",
+          "stage_id": "137",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 136,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/34.jpg",
+      "title": "Стриж",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Эй, полегче! Ладно, что тебе нужно?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Танто",
+          "stage_id": "143",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 143,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/34.jpg",
+      "title": "Стриж",
+      "message": "Новый квест: Вернуть Танто Сёгуну.",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Хорошо. Держи.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Больше чтобы я вас не видел",
+          "stage_id": "121",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_99_1_segun_gotostrizh"],
+		"add": ["quest_99_1_segun_vernul"]
+        }
+		},
+		{
+      "id": 137,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/34.jpg",
+      "title": "Стриж",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Куда это ты собрался?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "138",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 138,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/34.jpg",
+      "title": "Стриж",
+      "message": "Квест провален: Принести Танто",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вы погибли, квест провален.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Продолжить",
+          "stage_id": "139",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"xp": ["-30"]
+        }
+		},
+		{
+		"id": 139,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"2373:947"
+}
+},
+		{
+      "id": 140,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/32.jpg",
+      "title": "Сёгун",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну как?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Вот. Забирай танто. Пришлось повозиться.",
+          "stage_id": "141",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 141,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/32.jpg",
+      "title": "Сёгун",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Спасибо тебе! Ты не представляешь, как много она для меня значит. Если тебе потребуется помощь, ты знаешь, где меня искать. И... вот держи награду.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Обращайся",
+          "stage_id": "142",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 142,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/32.jpg",
+      "title": "Сёгун",
+      "message": "Получено: 1500 рублей, колбаса х2",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Удачи тебе, брат.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "119",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"xp": ["10"],
+		"money": ["1500"]
+        }
+		},
+		{
+      "id": 144,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/35.jpg",
+      "title": "Профессор Сахаров",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да-да?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я по поводу работы",
+          "stage_id": "145",
+          "condition": {}
+        },
+		{
+          "text": "Мне нужна информация",
+          "stage_id": "148",
+          "condition": {}
+        },
+		{
+          "text": "Я бы хотел посмотреть ассортимент",
+          "stage_id": "121",
+          "condition": {}
+        },
+		{
+          "text": "Пока",
+          "stage_id": "164",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 145,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/35.jpg",
+      "title": "Профессор Сахаров",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Что именно вам нужно?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Получить работу",
+          "stage_id": "146",
+          "condition": {}
+        },
+		{
+          "text": "Сдать работу",
+          "stage_id": "147",
+          "condition": {}
+        },
+		{
+          "text": "Нет, ничего",
+          "stage_id": "144",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 146,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/35.jpg",
+      "title": "Профессор Сахаров",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Пожалуйста, выбирайте",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Установить сканеры на Янтаре",
+          "stage_id": "150",
+          "condition": {
+		  "!has": ["quest_2_0_scan_sahar_rem","add_quest_2_0_scan_sahar"]
+		  }
+        },
+		{
+          "text": "В другой раз",
+          "stage_id": "144",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 147,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/35.jpg",
+      "title": "Профессор Сахаров",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, рассказывайте",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "В другой раз",
+          "stage_id": "144",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 148,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/35.jpg",
+      "title": "Профессор Сахаров",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Какая информация вам нужна?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока никакая",
+          "stage_id": "144",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		"id": 149,
+		"type_stage": 4,
+		"data":{
+		"map":"6",
+		"pos":"746:310"
+}
+},
+		{
+      "id": 150,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/35.jpg",
+      "title": "Профессор Сахаров",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Сразу к делу: у нас накрылись передатчики, стоявшие на востоке Янтаря. С их помощью мы получали замеры пси-активности и знали, когда можно туда отправлять наших сотрудников для сбора данных. Но после последнего выброса аппаратура дала сбой. Не могли бы вы сходить туда и установить новое оборудование на замену старому?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я берусь",
+          "stage_id": "151",
+          "condition": {}
+        },
+		 {
+          "text": "В другой раз",
+          "stage_id": "144",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 151,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/35.jpg",
+      "title": "Профессор Сахаров",
+     "message": "Новый квест: Добраться до Сергея.",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Отлично. На месте вас будет ждать наш сотрудник - Сергей. Вместе с ним установите сканеры. Всего 3 штуки, они не очень тяжелые. Держите",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Понял",
+          "stage_id": "144",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add":["quest_2_0_scan_sahar_go_serg","add_quest_2_0_scan_sahar"]
+        }
+		},
+		{
+      "id": 152,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/36.jpg",
+      "title": "Учёный",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Здравствуйте. Вы @name?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Доброго, да. А вы, видимо, Сергей?",
+          "stage_id": "153",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 153,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/36.jpg",
+      "title": "Сергей",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да-да, всё верно, я полевой сотрудник профессора Сахарова. Суть задачи очень простая - вам необходимо установить 3 сканера на точках, которые я вам покажу. Я буду вас прикрывать.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Всё ясно. Тогда, давайте начнём",
+          "stage_id": "154",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 154,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/36.jpg",
+      "title": "Сергей",
+      "message": "Новый квест: Установить сканер.",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да, конечно. Мы как раз находимся на первой точке - бетонная плита.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Установить сканер",
+          "stage_id": "155",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 155,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/37.jpg",
+      "title": "Сергей",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот видите, совсем ничего сложного. Следующая точка - труба, я отметил у вас на картё точное место.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Идти",
+          "stage_id": "156",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		"id": 156,
+		"type_stage": 4,
+		"data":{
+		"map":"6",
+		"pos":"746:310"
+}
+},
+		{
+      "id": 157,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/39.jpg",
+      "title": "Сергей",
+      "message": "Новый квест: Установить сканер.",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Итак, вы на месте. Установить сканер нужно прям на землю, туда, где вы стоите.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Установить сканер",
+          "stage_id": "158",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 158,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/39.jpg",
+      "title": "Сергей",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Сканер установлен и исправно функционирует. Последняя точка уже отмечена в вашем ПДА.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Идти",
+          "stage_id": "159",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 159,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/40.jpg",
+      "title": "Сергей",
+       "message": "Новый квест: Установить сканер.",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Итак, последний сканер должен быть установлен на этом камне.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Установить сканер",
+          "stage_id": "160",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 160,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/41.jpg",
+      "title": "Сергей",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Великолепная работа, молодой человек. Полевой отдел НИИЧАЗ о вас не забудет.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Приятно слышать",
+          "stage_id": "161",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 161,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/38.jpg",
+      "title": "Сергей",
+      "message": "Новый квест: Вернуться к Сахарову.",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Можете возвращаться к Сахарову и сообщить ему, что сканеры успешно установлены и исправно функционируют. А я останусь здесь и буду наблюдать за их работой. Всего доброго.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "162",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 162,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/35.jpg",
+      "title": "Профессор Сахаров",
+       "message": "Получено: 500 рублей.",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Очент рад, что вы смогли так оперативно справиться с установкой сканеров. Сергей уже связался со мной и сообщил, что вы великолепно выполнили работу. Премного благодарен. ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Рад стараться",
+          "stage_id": "163",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 163,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/35.jpg",
+      "title": "Профессор Сахаров",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот ваша награда, еще раз благодарю.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Продолжить",
+          "stage_id": "144",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		"id": 164,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"746:310"
+}
+},
+		{
+      "id": 158,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сергей",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Сканер установлен и исправно функционирует. Последняя точка уже отмечена в вашем ПДА",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Идти",
+          "stage_id": "159",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 165,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/42.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Э-эй, чувачок, подь сюды!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Чего тебе?",
+          "stage_id": "166",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+{
+      "id": 166,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/42.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Кароче, чувак, слухай, бабок хошь заработать?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Конечно «хошу»",
+          "stage_id": "167",
+          "condition": {}
+        },
+		{
+          "text": "Не-а",
+          "stage_id": "174",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+	{
+      "id": 167,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/42.jpg",
+      "title": "Бандит",
+      "message": "Новый квест: Коробок.",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Уот эта по-нашему! Короче, братэльник: нужно моим браткам на базе «Свободы» доставить пару калашей и вот этот коробок.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "У вас разве со свободой не лады?",
+          "stage_id": "168",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		
+        }
+		},
+
+	{
+      "id": 168,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/42.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Не лады. Но тока ты об этом никому не рассказывай — будет наш с тобой секрет. Лады?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "А что в коробке-то?",
+          "stage_id": "169",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		
+        }
+		},
+
+	{
+      "id": 169,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/42.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А вот это вы узнаете в следующей серии.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "А что по оплате?",
+          "stage_id": "170",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},
+
+	{
+      "id": 170,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/42.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Получишь деньги по факту доставки груза.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я согласен. Давай, тащи сюда и калаши свои, и коробок.",
+          "stage_id": "171",
+          "condition": {}
+        },
+		{
+          "text": "Не, что-то это мутно всё, рискованно. Пока.",
+          "stage_id": "174",
+          "condition": {}
+        }
+      ]
+		},
+		{
+      "id": 171,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/42.jpg",
+      "title": "Бандит",
+      "message": "Получено: АКС-74у х2",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Во, на… Вот один АКС-74 укороченный… Так, а вот второй.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Такие побитые... Второй вообще изолентой перемотан.",
+          "stage_id": "172",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+		"add": ["quest_1_0_aksuotbandita"]
+        }
+		},
+		
+		{
+      "id": 172,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/42.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да ты на это не смотри. Тут главное что?",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Чтоб оружие стреляло?",
+          "stage_id": "173",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+		"add":["quest_1_0_aksuotbandita_korobok"]
+        }
+		},
+		
+		{
+      "id": 173,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/42.jpg",
+      "title": "Бандит",
+      "message": "Новый квест: добраться до базы Свободы",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Неа, тут главное – вот этот самый коробок. Калаши это так - прикрытие, а то если долговцы на пути к базе будут, то они и обшманать могут. На кой ляд им эти калаши раздолбанные. Они их не то шо проверять не захотят, а даже прикасаться не будут, а то ещё развалятся. Ща я этот коробок в магазин «Ксюхи» припрячу, ни одна гнида не найдёт. Со спокойной душой всё донесёшь… Ну сё, по коням.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока.",
+          "stage_id": "174",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+		"add":["quest_1_0_aksuotbandita_start"]
+        }
+		},
+
+	
+		{
+        "id": 174,
+        "type_stage": 4,
+        "data":{
+        "map":"3",
+        "pos":"1484:1451"
+}
+},
+
+		
+		{
+      "id": 175,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/43.jpg",
+      "title": "Охранник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Фамилия, имя, отчество, цель визита!",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "176",
+          "condition": {
+		  
+          }
+          },
+		  {
+          "text": "Ну-у... Э-э...",
+          "stage_id": "176",
+          "condition": {
+		  
+          }
+          },
+		  {
+          "text": "Зачем?",
+          "stage_id": "176",
+          "condition": {
+		  
+          }
+          },
+		  {
+          "text": "Да пошёл ты.",
+          "stage_id": "176",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		      "id": 176,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/43.jpg",
+      "title": "Охранник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Та чё ты - шутка была! Чувствуй себя как дома.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ладно, у меня тут посылка - пара калашей. Кто-то заказывал?",
+          "stage_id": "177",
+          "condition": {
+		  
+          }
+          },
+		  {
+          "text": "Лучше скажи, кому мне эти калаши отдать.",
+          "stage_id": "177",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		
+		      "id": 177,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/43.jpg",
+      "title": "Охранник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А, это, кажись, нашему торговцу. Он как раз здесь, сейчас позову.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "180",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		
+		      "id": 178,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/14.jpg",
+      "title": "Охранник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А, ну так это, прямо до перекрёстка и направо. Там дальше строение будет – тебе туда.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Понял, бывай.",
+          "stage_id": "179",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},
+		
+		{
+        "id": 179,
+        "type_stage": 4,
+        "data":{
+        "map":"7",
+        "pos":"901:426"
+}
+},
+		{
+		
+		      "id": 180,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/44.jpg",
+      "title": "Получатель",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Здарова. За чем пожаловал? Ствол поменять или чего другого прикупить?",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "У меня здесь посылка.",
+          "stage_id": "181",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		
+		      "id": 181,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/44.jpg",
+      "title": "Получатель",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "И что же там?",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Два калаша раздолбанных и коробок какой-то.",
+          "stage_id": "182",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		
+		      "id": 182,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/44.jpg",
+      "title": "Получатель",
+      "message": "Потеряно: Коробок",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Не раздолбанные, а раритетные. Такие можно за тройную цену запросто каким-нибудь богатым шишкам на сафари загнать… А не, нифига это не раритет... Они в натуре раздолбанные. 93-ий год выпуска – последний… Ладно, посмотрим, что там по загадочному коробку… Нормально так припрятали, даже пальцами не вытащить, но, благо, плоскогубцы-то вот они – всегда под рукой!",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Что по оплате?",
+          "stage_id": "183",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+		"remove":["quest_1_0_aksuotbandita_korobok"]
+        }
+		},
+		{
+		
+		      "id": 183,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/44.jpg",
+      "title": "Получатель",
+      "message": "Получено: 1000 рублей",
+	   "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот. И отправителю скажи, чтобы в следующий раз коробки всякие не так сильно в магазины запихивал – Долг в окрестностях уже давно не появлялся.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Лады.",
+          "stage_id": "184",
+          "condition": {
+		  
+          }
+          }
+		  
+		  
+      ],
+        "actions": { 
+		"money": ["1000"]
+        }
+		},
+		{
+		
+		      "id": 184,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/44.jpg",
+      "title": "Получатель",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Если хочешь ещё пятихатку заработать, то можешь эти калаши обратно отнести. Оплата полностью по доставке.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "По рукам",
+          "stage_id": "185",
+          "condition": {
+		  
+          }
+          },
+		  {
+          "text": "Не, оставь себе",
+          "stage_id": "186",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		
+		      "id": 185,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/44.jpg",
+      "title": "Получатель",
+      "message": "Новый квест: Вернуться к бандитам",
+	   "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, счастливо тогда",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока.",
+          "stage_id": "179",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		
+		      "id": 186,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/44.jpg",
+      "title": "Получатель",
+       "message": "Выполнен квест: отнести Свободе груз",
+	   "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, счастливо тогда",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока.",
+          "stage_id": "179",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+		"remove": ["quest_1_0_aksuotbandita"]
+        }
+		},
+		{
+		
+		      "id": 187,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/45.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Оп-па! Ну как, всё путём?",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да, всё доставил. И Получатель просил передать, чтоб в следующий раз коробки не так сильно в магазины запихивал – Долг в тех окрестностях давно не появлялся.",
+          "stage_id": "188",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},
+		
+		{
+		
+		      "id": 188,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/45.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ага. Награду ты уже получил.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "174",
+          "condition": {
+		  
+          }
+          },
+	      {
+          "text": "Получатель ещё попросил калаши тебе вернуть за дополнительную плату.",
+          "stage_id": "189",
+          "condition": {
+		  "has": ["quest_1_0_aksuotbandita"]
+          }
+          }
+		  
+      ],
+        "actions": {
+        }
+		},
+		
+		{
+		
+		      "id": 189,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/45.jpg",
+      "title": "Бандит",
+      "message": "Выполнен квест: отнести Свободе груз",
+	   "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ага, вот - держи.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока.",
+          "stage_id": "174",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+			"money": ["500"],
+			"remove": ["quest_1_0_aksuotbandita"]
+
+        }
+		},
+		{
+		
+		      "id": 190,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/44.jpg",
+      "title": "Охранник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Проход на территорию базы Свободы временно закрыт!",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "У меня информация для вас",
+          "stage_id": "175",
+          "condition": {
+		  "has":["quest_1_0_aksuotbandita_korobok"]
+          }
+          },
+		  {
+          "text": "Пока",
+          "stage_id": "179",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		
+		      "id": 191,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Выбирай",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Схрон за 1000",
+          "stage_id": "192",
+          "condition": {
+		  "!has":["stash_1_0_start"]
+          }
+          },
+		  {
+          "text": "Схрон за 2000",
+          "stage_id": "192",
+          "condition": {
+		  "!has":["stash_2_0_start"]
+          }
+          },
+		  {
+          "text": "Схрон за 5000",
+          "stage_id": "192",
+          "condition": {
+		  "!has":["stash_3_0_start"]
+          }
+          },
+		  {
+          "text": "В другой раз",
+          "stage_id": "4",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		
+		      "id": 192,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Значит, смотри. Информацию о схроне мне принесли с ПДА мёртвого сталкера, поэтому не могу гарантировать, что он вообще еще существует. Тем не менее, там должны лежать патроны и аптечки, конкретнее не знаю. Схрон находится на Свалке, за Барахолкой. Точные координаты и описание из ПДА я тебе перешлю. Стоит это добро 1000 рублей.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Беру",
+          "stage_id": "193",
+          "condition": {
+          }
+          },
+		  {
+          "text": "Не подходит",
+          "stage_id": "191",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},{
+		
+		      "id": 193,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Проверяй заметки, информацию я тебе отправил.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Увидел",
+          "stage_id": "198",
+          "condition": {
+          }
+          }
+		  
+      ],
+        "actions": {
+		"note": ["Тайник за Барахолкой","...снаряжение припрятал за Барахолкой на Свалке, как идти в сторону Тёмной Долины... Лежит в стопке шин..."]
+        }
+		},
+		{
+		
+		      "id": 198,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Если что, приноси товар, выкуплю, хех.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "4",
+          "condition": {
+          }
+          }
+		  
+      ],
+        "actions": {
+		"add": ["stash_1_0_start","stash_1_0"],
+		"money": ["-1000"]
+        }
+		},{
+		
+		      "id": 194,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/46.jpg",
+      "title": "Барахолка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Осмотрите тайник.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Осмотреть",
+          "stage_id": "195",
+          "condition": {
+          }
+          }
+		  
+      ],
+        "actions": {
+		
+        }
+		},{
+		
+		      "id": 195,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Тайник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В тайнике: Аптечка х2, патроны 9х18 х30, Гадюка.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Забрать",
+          "stage_id": "196",
+          "condition": {
+          }
+          },
+		  {
+          "text": "Уйти",
+          "stage_id": "197",
+          "condition": {
+		  
+          }
+          }
+		  
+      ],
+        "actions": {
+
+        }
+		},{
+		
+		      "id": 196,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Тайник",
+      "message": "Получено: Аптечка х2, патроны 9х18 х30, Гадюка.",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Тайник пуст.",
+          "condition": {
+		  }
+        },
+        {
+          "text": "",
+          "condition": {
+		  }
+        }
+      ],
+      "transfers": [
+		  {
+          "text": "Уйти",
+          "stage_id": "197",
+          "condition": {
+		  "remove": ["stash_1_0"]
+          }
+          }
+		  
+      ],
+        "actions": {
+		
+        }
+		},
+		{
+        "id": 197,
+        "type_stage": 4,
+        "data":{
+        "map":"2",
+        "pos":"951:1087"
+}
+},
+{
+  "id": 200,
+  "_comment": "Transfer Kordon-Swalka",
+  "type_stage": 4,
+  "data":{
+  "map":"2",
+  "pos":"721:188"
+}
+},
+{
+  "id": 201,
+  "_comment": "Transfer Swalka-Kordon",
+  "type_stage": 4,
+  "data":{
+  "map":"1",
+  "pos":"671:2346"
+}
+},
+{
+  "id": 202,
+  "_comment": "Transfer Kordon-ch4",
+  "type_stage": 4,
+  "data":{
+  "map":"0",
+  "pos":"1178:1425"
+}
+},
+{
+  "id": 203,
+  "_comment": "Transfer ch4-Kordon",
+  "type_stage": 4,
+  "data":{
+  "map":"1",
+  "pos":"321:429"
+}
+},
+{
+  "id": 204,
+  "_comment": "Transfer Swalka-Bar",
+  "type_stage": 4,
+  "data":{
+  "map":"3",
+  "pos":"2104:539"
+}
+},
+{
+  "id": 205,
+  "_comment": "Transfer Bar-Swalka",
+  "type_stage": 4,
+  "data":{
+  "map":"2",
+  "pos":"722:1143"
+}
+},
+{
+  "id": 206,
+  "_comment": "Transfer Swalka-Dark",
+  "type_stage": 4,
+  "data":{
+  "map":"5",
+  "pos":"46:678"
+}
+},
+{
+  "id": 207,
+  "_comment": "Transfer Dark-Swalka",
+  "type_stage": 4,
+  "data":{
+  "map":"2",
+  "pos":"1173:1071"
+}
+},
+{
+  "id": 208,
+  "_comment": "Transfer Bar-Wild",
+  "type_stage": 4,
+  "data":{
+  "map":"4",
+  "pos":"1270:1483"
+}
+},
+{
+  "id": 209,
+  "_comment": "Transfer Wild-Bar",
+  "type_stage": 4,
+  "data":{
+  "map":"3",
+  "pos":"1330:1483"
+}
+},
+{
+  "id": 210,
+  "_comment": "Transfer Bar-Army",
+  "type_stage": 4,
+  "data":{
+  "map":"7",
+  "pos":"230:359"
+}
+},
+{
+  "id": 211,
+  "_comment": "Transfer Army-Bar",
+  "type_stage": 4,
+  "data":{
+  "map":"3",
+  "pos":"1315:1810"
+}
+},
+{
+  "id": 212,
+  "_comment": "Transfer Wild-Yantar",
+  "type_stage": 4,
+  "data":{
+  "map":"6",
+  "pos":"1072:382"
+}
+},
+{
+  "id": 213,
+  "_comment": "Transfer Yantar-Wild",
+  "type_stage": 4,
+  "data":{
+  "map":"4",
+  "pos":"1042:691"
+}
+}
+		
+		
+			]
+}

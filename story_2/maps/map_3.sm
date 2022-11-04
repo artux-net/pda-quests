@@ -1,0 +1,122 @@
+{
+"id":"3",
+"title":"Бар",
+"texture":"maps/map_bar_test.png",
+"boundsTexture":"maps/bounds/map_bar.png",
+"blurTexture":"maps/blur.jpg",
+"tilesTexture":"maps/tiles/map_bar.png",
+"points":[
+{
+"type":"4",
+"name": "Бармен",
+"pos":"1501:1255",
+"data":{
+"chapter":"2",
+"stage":"89"
+},
+"condition": 
+{
+          }
+},
+{
+"type":"6",
+"name": "Коробок",
+"pos":"1484:1451",
+"data":{
+"chapter":"2",
+"stage":"165"
+},
+"condition": 
+{
+ "!has": ["quest_1_0_aksuotbandita_start"]
+          }
+},
+{
+"type":"6",
+"name": "Коробок 2",
+"pos":"1484:1451",
+"data":{
+"chapter":"2",
+"stage":"187"
+},
+"condition": 
+{
+ "!has": ["quest_1_0_aksuotbandita_korobok"],
+ "has": ["quest_1_0_aksuotbandita"]
+          }
+},
+{
+    "type":"7",
+    "name": "Бар - Свалка",
+    "pos":"2104:539",
+    "data":{
+    "chapter":"2",
+    "stage":"205"},
+    "condition": {
+
+    }
+},
+{
+    "type":"7",
+    "name": "Бар - Дикая территория",
+    "pos":"1330:1483",
+    "data":{
+    "chapter":"2",
+    "stage":"208"},
+    "condition": {
+
+    }
+},
+{
+    "type":"7",
+    "name": "Бар - Армейские склады",
+    "pos":"1315:1810",
+    "data":{
+    "chapter":"2",
+    "stage":"210"},
+    "condition": {
+
+    }
+}
+],
+"transfers":[
+],
+"spawns":[
+    {
+        "id":"13",
+        "n":"3",
+        "r":"25",
+        "pos":"1737:1130"
+        },
+    {
+        "id":"13",
+        "n":"7",
+        "r":"50",
+        "pos":"1700:1400"
+        },
+        {
+        "id":"0",
+        "n":"6",
+        "r":"13",
+        "pos":"1501:1255"
+        },
+        {
+        "id":"13",
+        "n":"6",
+        "r":"25",
+        "pos":"1582:1381"
+        },
+        {
+        "id":"13",
+        "n":"3",
+        "r":"25",
+        "pos":"1386:1500"
+        },
+       {
+        "id":"0",
+        "n":"6",
+        "r":"30",
+        "pos":"1487:1404"
+        }
+    ]
+}

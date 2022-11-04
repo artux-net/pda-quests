@@ -1,0 +1,156 @@
+{
+"id":"1",
+"title":"Свалка",
+"texture":"maps/map_garbage.png",
+"boundsTexture":"maps/bounds/map_garbage.png",
+"blurTexture":"maps/blur.jpg",
+"tilesTexture":"maps/tiles/map_garbage.png",
+"defPos":"330:960",
+"points":[
+{
+"type":"1",
+"name": "От бандитов к бару",
+"pos":"722:1143",
+"data":{
+"chapter":"2",
+"stage":"22"
+},
+"condition": 
+{
+          }
+},
+{
+"type":"0",
+"name": "От свалки к диггерам",
+"pos":"789:1068",
+"data":{
+"chapter":"3",
+"stage":"25"},
+"condition": 
+{
+"has": ["quest_matvienko1"]
+          }
+}
+,
+{
+"type":"0",
+"name": "От диггеров к бандитам",
+"pos":"296:682",
+"data":{
+"chapter":"3",
+"stage":"34"},
+"condition": 
+{
+"has": ["quest_matvienko2"]
+          }
+},
+{
+"type":"0",
+"name": "От бандитов к туннелю",
+"pos":"312:763",
+"data":{
+"chapter":"3",
+"stage":"52"},
+"condition": 
+{
+"has": ["quest_matvienko3"]
+          }
+},
+{
+"type":"0",
+"name": "От туннелю в лес",
+"pos":"927:652",
+"data":{
+"chapter":"3",
+"stage":"61"},
+"condition": 
+{
+"has": ["quest_matvienko4"]
+          }
+},
+{
+"type":"0",
+"name": "От Матвиенко к новичку у аномалии",
+"pos":"669:1043",
+"data":{
+"chapter":"3",
+"stage":"71"},
+"condition": 
+{
+"has": ["quest_stalker_anomaly"]
+          }
+},
+{
+"type":"7",
+"name": "В Бар",
+"pos":"722:1143",
+"data":{
+"chapter":"3",
+"stage":"244"},
+"condition": 
+{
+          }
+}, 
+{
+    "type":"7",
+    "name": "На Свалку",
+    "pos":"726:162",
+    "data":{
+    "chapter":"3",
+    "stage":"85"},
+    "condition": 
+    {
+        "has": ["quest_chaplin"]
+              }
+    }
+
+],
+"transfers":[
+],
+"spawns":[
+	{
+        "id":"1",
+        "n":"5",
+        "r":"50",
+        "pos":"880:468"
+        },
+    {
+        "id":"1",
+        "n":"9",
+        "r":"70",
+        "pos":"497:378"
+        },
+    {
+        "ignorePlayer":"true",
+        "id":"4",
+        "n":"3",
+         "r":"40",
+        "pos":"265:718"
+        },
+    {
+        "id":"1",
+        "n":"15",
+         "r":"100",
+        "pos":"494:757"
+        },
+    {
+        "id":"13",
+        "n":"5",
+         "r":"60",
+        "pos":"746:1145"
+        },
+    {
+        "id":"0",
+        "n":"3",
+         "r":"40",
+        "pos":"813:1041"
+        },
+    {
+        "id":"3",
+        "n":"3",
+         "r":"40",
+        "pos":"883:921"
+        }
+        
+]
+}

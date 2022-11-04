@@ -1,0 +1,339 @@
+{
+"id":0,
+    "music":[
+        {
+		"id":"0",
+		"name": "Fire 1 20% | Prologue chapter 0",
+		"url":"https://pda.artux.net/story/prologue/sound/fire.mp3",
+		"params":[
+			"loop",
+			"volume:0.2"
+		]
+	},
+	{
+		"id":"1",
+		"name": "Fire 1 50%| Prologue chapter 0",
+		"url":"https://pda.artux.net/story/prologue/sound/fire.mp3",
+		"params":[
+		"loop",
+		"volume:0.5"
+		]
+	},
+	{
+		"id":"2",
+		"name": "Guitar 1 50% | Prologue chapter 0",
+		"url":"https://pda.artux.net/story/prologue/sound/guitar.mp3",
+		"params":[
+		"volume:0.5"
+		]
+	},
+	{
+		"id":"3",
+		"name": "Guitar 1 100% | Prologue chapter 0",
+		"url":"https://pda.artux.net/story/prologue/sound/guitar.mp3",
+		"params":[
+		]
+	},
+	{
+		"id":"4",
+		"name": "PDA новое уведомление",
+		"url":"https://pda.artux.net/story/prologue/sound/PDA1.mp3",
+		"params":[
+		]
+	},
+	{
+		"id":"5",
+		"name": "PDA новый квест",
+		"url":"https://pda.artux.net/story/prologue/sound/PDA2.mp3",
+		"params":[
+		]
+	},
+	{
+		"id":"6",
+		"name": "PDA новое сообщение",
+		"url":"https://pda.artux.net/story/prologue/sound/PDA3.mp3",
+		"params":[
+		]
+	}
+    ],
+  "stages": [
+  {
+      "id": 0,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/155019505.jpg",
+      "title": "Техническое меню",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Выберите нужный пункт",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Сбросы",
+          "stage_id": "1",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+   {
+      "id": 1,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/155019505.jpg",
+      "title": "Сбросы",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Выберите нужный пункт",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Сбросить все отношения группировок",
+          "stage_id": "2",
+          "condition": {}
+        },
+        {
+          "text": "Сбросить всё снаряжение",
+          "stage_id": "3",
+          "condition": {}
+        },
+        {
+          "text": "Сбросить деньги",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+   {
+      "id": 2,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/155019505.jpg",
+      "title": "Отношения группировок",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Все отношения сброшены. Для сохранения результата покиньте эту стадию через кнопку ниже.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "В главное меню",
+          "stage_id": "0",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"reset":["relation_0","relation_1","relation_2","relation_3","relation_4","relation_5","relation_6"]
+        }
+		},
+		{
+      "id": 3,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/155019505.jpg",
+      "title": "Снаряжение",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Всё снаряжение сброшено. Для сохранения результата покиньте эту стадию через кнопку ниже.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "В главное меню",
+          "stage_id": "0",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"reset":[]
+        }
+		},
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/155019505.jpg",
+      "title": "Деньги",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Выберите, сколько сбросить денег.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Сбросить 10 000",
+          "stage_id": "5",
+          "condition": {}
+        },
+        {
+          "text": "Сбросить 1 000",
+          "stage_id": "6",
+          "condition": {}
+        },
+        {
+          "text": "Сбросить 500",
+          "stage_id": "7",
+          "condition": {}
+        },
+        {
+          "text": "Сбросить 100",
+          "stage_id": "8",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		
+        }
+		},
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/155019505.jpg",
+      "title": "Деньги",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "10 000 сброшено. Для сохранения результата покиньте эту стадию через кнопку ниже.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "В главное меню",
+          "stage_id": "0",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"money": ["-10000"]
+        }
+		},
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/155019505.jpg",
+      "title": "Деньги",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "1 000 сброшена. Для сохранения результата покиньте эту стадию через кнопку ниже.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "В главное меню",
+          "stage_id": "0",
+          "condition": {}
+        }
+      ],
+        "actions": {
+          "money": ["-1000"]
+        }
+		},
+    {
+      "id": 7,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/155019505.jpg",
+      "title": "Деньги",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "500 сброшено. Для сохранения результата покиньте эту стадию через кнопку ниже.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "В главное меню",
+          "stage_id": "0",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"money": ["-500"]
+        }
+		},
+    {
+      "id": 8,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/155019505.jpg",
+      "title": "Деньги",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "100 сброшено. Для сохранения результата покиньте эту стадию через кнопку ниже.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "В главное меню",
+          "stage_id": "0",
+          "condition": {}
+        }
+      ],
+        "actions": {
+          "money": ["-100"]
+        }
+		}
+  
+  ]
+}

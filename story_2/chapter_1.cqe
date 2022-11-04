@@ -1,0 +1,2825 @@
+{
+"id":1,
+    "music":[
+        {
+		"id":"0",
+		"name": "Fire 1 20% | Prologue chapter 0",
+		"url":"story/prologue/sound/fire.mp3",
+		"params":[
+			"loop",
+			"volume:0.2"
+		]
+	},
+	{
+		"id":"1",
+		"name": "Fire 1 50%| Prologue chapter 0",
+		"url":"story/prologue/sound/fire.mp3",
+		"params":[
+		"loop",
+		"volume:0.5"
+		]
+	},
+	{
+		"id":"2",
+		"name": "Guitar 1 50% | Prologue chapter 0",
+		"url":"story/prologue/sound/guitar.mp3",
+		"params":[
+		"volume:0.5"
+		]
+	},
+	{
+		"id":"3",
+		"name": "Guitar 1 100% | Prologue chapter 0",
+		"url":"story/prologue/sound/guitar.mp3",
+		"params":[
+		]
+	},
+	{
+		"id":"4",
+		"name": "PDA новое уведомление",
+		"url":"story/prologue/sound/PDA1.mp3",
+		"params":[
+		]
+	},
+	{
+		"id":"5",
+		"name": "PDA новый квест",
+		"url":"story/prologue/sound/PDA2.mp3",
+		"params":[
+		]
+	},
+	{
+		"id":"6",
+		"name": "PDA новое сообщение",
+		"url":"story/prologue/sound/PDA3.mp3",
+		"params":[
+		]
+	}
+    ],
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Привет, Сталкер. Чего хочешь?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Здравствуйте, вы не подскажите, как мне попасть в Зону?",
+          "stage_id": "1",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"reset":["relation_0","relation_1","relation_2","relation_3","relation_4","relation_5","relation_6"]
+        }
+		},
+		{
+      "id": 1,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Турист? С Большой Земли?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Так заметно?",
+          "stage_id": "2",
+          "condition": {}
+        }
+      ],
+        "actions": {
+        }
+		},
+		{
+      "id": 2,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Перестань говорить: «Здравствуйте», склячь спину – будешь похож на дебила-новичка.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "3",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"-":["relation_2:3","relation_5:5","relation_1:3"]
+        }
+		},
+		{
+      "id": 3,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Давай знакомиться, что-ли. Мать окрестила меня Айваром, но тут все зовут меня Джо.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "@name",
+          "stage_id": "4",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 4,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Будем знакомы, @name. В армии служил хотя бы?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Было дело",
+          "stage_id": "5",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 5,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Уже лучше, чем ничего. А теперь слушай меня: лезть в Зону тебе сейчас - самоубийство. Освойся тут для начала. У тебя документы есть?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Паспорт только",
+          "stage_id": "6",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 6,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да на кой хрен мне твой паспорт, разрешение на нахождение в Чернобыле-4.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Тогда нет",
+          "stage_id": "7",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 7,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "И денег, я так понимаю, у тебя не густо, да? ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Около 500 рублей",
+          "stage_id": "8",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 8,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, этого, конечно же, не хватит, чтобы оформить документы. Предлагаю тебе немного поработать на меня, побегаешь в безопасной зоне, заработаешь на документы, чтобы хоть передвигаться мог без переживаний о том, что тебя в КПЗ посадят и увезут судить в Киев.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Что мне нужно будет делать?",
+          "stage_id": "9",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 9,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "Получен предмет: Документы для НИИЧАЗ",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ничего сложного. Для начала, отнеси эти бумажки научникам в НИИЧАЗ, сейчас я выпишу тебе пропуск к ним.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Зона, что она такое?",
+          "stage_id": "10",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 10,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Зона, она… Я вижу ты подготовленный, читал фольклор? На самом деле все страшнее и чужде. Как говорили старики: «Если ты хочешь сыграть с ней в карты, она берет шахматы, или другую игру, в которой понимаешь разве что с гулькин хрен». С народом местным: как относишься к ним – так к тебе, но я не верю в это дерьмо. Бывает, что одного человека спас, а через день он тебя убивает. Все остальное – сам узнаешь. Держи эту штуку, ПДА называется, карманный персональный компьютер, разберешься.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Зачем она мне?",
+          "stage_id": "11",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 11,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Без неё тебе тут не выжить. В ПДА встроен дозиметр, детектор аномалий, карта, ну и своеборазный коммуникатор между сталкерами - сталкерской сетью называют. Там же есть энциклопедия Зоны, изучи на досуге, поможет выжить, хе-хе. Тьфу, набрался этого хе-хе от одного бедолаги, которого, собственно, так и кличат. Засранец. ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "12",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 12,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "Новый квест: Отправиться в НИИЧАЗ",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот твой пропуск, метку на ПДА я тебе скинул. Вперед и с песней, постарайся не сдохнуть.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Многообещающее напутствие. Пока",
+          "stage_id": "13",
+          "condition": {}
+        }
+      ],
+        "actions": {
+            "add": [
+              "quest_0_0"
+            ]
+          }
+		},
+		{
+		"id": 13,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"1311:662"
+}
+},
+		{
+      "id": 14,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/1.jpg",
+      "title": "Блокпост",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Стоять. С какой целью направляешься в НИИЧАЗ?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Передать документы. Вот мой пропуск",
+          "stage_id": "15",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 15,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/1.jpg",
+      "title": "Блокпост",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "От Джо, значит. А разрешение на нахождение в закрытой территории у тебя есть?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Нет",
+          "stage_id": "16",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 16,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/1.jpg",
+      "title": "Блокпост",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "И как же ты собрался проходить на закрытый объект?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Не знаю, начальник. Может быть договоримся?",
+          "stage_id": "17",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 17,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/1.jpg",
+      "title": "Блокпост",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "1000 рублей и проходи.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "У меня только 500 рублей.",
+          "stage_id": "18",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 18,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/1.jpg",
+      "title": "Блокпост",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, 500 рублей вход, 500 рублей выход. Пустить - пущу, но бесплатно от сюда не выйдешь. Либо заходи и думай на месте, где деньги взять, либо вали туда, от куда пришел.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пропускай, я найду",
+          "stage_id": "20",
+          "condition": {}
+        },
+		{
+          "text": "Пойду поищу, скоро вернусь",
+          "stage_id": "19",
+          "condition": {}
+        }
+      ],
+        "actions": {
+            "remove": [
+              "quest_0_0"
+            ]
+          }
+		},
+		{
+      "id": 19,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/1.jpg",
+      "title": "Блокпост",
+      "message": "Новый квест: Вернуться в бар",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Давай-давай.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока.",
+          "stage_id": "21",
+          "condition": {}
+        }
+      ],
+        "actions": {
+            "add": [
+              "quest_0_0_post_bar"
+            ]
+          }
+		},
+		{
+      "id": 20,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/1.jpg",
+      "title": "Блокпост",
+      "message": "Новый квест: Идти к ученому",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну-ну, давай, удачи.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "46",
+          "condition": {}
+        }
+      ],
+        "actions": {
+            "add": ["quest_0_0_post_uch1"]
+          }
+		},
+		{
+      "id": 46,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/1.jpg",
+      "title": "Блокпост",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "У тебя 15 минут, поторопись.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да понял я",
+          "stage_id": "22",
+          "condition": {}
+        }
+      ],
+        "actions": {
+            "add": ["quest_0_0_post_uch_dolg"]
+          }
+		},
+		{
+		"id": 21,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"2374:947"
+}
+},
+{
+		"id": 22,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"2373:1007"
+}
+},
+		{
+      "id": 47,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/2.jpg",
+      "title": "Ученый",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Здравствуйте. Чем могу помочь?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Здравствуйте. Айвар просил передать вам документы",
+          "stage_id": "23",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 23,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/2.jpg",
+      "title": "Ученый",
+      "message": "Потерян предмет: Документы для НИИЧАЗ",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Джо? Отлично, давно жду от него эти материалы. Простите, как вас зовут?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "@name",
+          "stage_id": "24",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 24,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/2.jpg",
+      "title": "Ученый",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "@name, говорите? Не припомню вас. Полагаю, меня вы тоже не знаете. Моя фамилия Клементьев, будем знакомы.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Очень приятно",
+          "stage_id": "25",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 25,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/2.jpg",
+      "title": "Клементьев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да-да. Если у вас будут какие-либо вопросы, которые касаются деятельности в Зоне, обращайтесь.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я могу получить у вас пропуск в Зону?",
+          "stage_id": "26",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 26,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/2.jpg",
+      "title": "Клементьев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "К сожалению, сейчас мы не набираем внештатных сотрудников и не готовы ничего вам предложить.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "И как же мне попасть туда?",
+          "stage_id": "27",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 27,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/2.jpg",
+      "title": "Клементьев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Не подскажу, но через НИИЧАЗ, опять же, на данный момент это невозможно.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я вас понял. В таком случае, не смею задерживать вас",
+          "stage_id": "28",
+          "condition": {
+            "!has": [
+              "quest_0_0_post_uch_dolg"
+            ]
+          }
+        },
+		{
+          "text": "У меня к вам нестандартная просьба: могу ли я попросить у вас в долг 500 рублей, чтобы выйти от сюда? Охрана без взятки не выпускает",
+          "stage_id": "29",
+          "condition": {
+            "has": [
+              "quest_0_0_post_uch_dolg"
+            ]
+          }
+        }
+      ],
+        "actions": {
+            "add": [
+              "quest_0_0_post_uch_bar"
+            ],
+			"remove": [
+              "quest_0_0_post_uch1"
+            ]
+          }
+		},
+		{
+      "id": 28,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/2.jpg",
+      "title": "Клементьев",
+      "message": "Новый квест: Вернуться в бар",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Всего доброго.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Уйти",
+          "stage_id": "33",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		"id": 33,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"2374:947"
+}
+},
+		{
+      "id": 29,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/2.jpg",
+      "title": "Клементьев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Какой ужас! Я немедленно свяжусь с начальством и потребую, чтобы вас выпустили.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Буду благодарен",
+          "stage_id": "30",
+          "condition": {}
+        },
+		{
+          "text": "Подождите...",
+          "stage_id": "34",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": [
+              "quest_0_0_post_uch_dolg"
+            ]
+        }
+		},
+		{
+      "id": 30,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/2.jpg",
+      "title": "Клементьев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Товарищ сержант! Проводите этого молодого человека до выхода и проконтролируйте, чтобы его выпустили. Это мое личное поручение!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо, я пошел. Счастливо",
+          "stage_id": "31",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 31,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/3.jpg",
+      "title": "Блокпост",
+      "message": "Новый квест: Вернуться в бар",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот же засранец ты. Я тебе это еще припомню.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Уйти",
+          "stage_id": "32",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"xp": ["-100"]
+        }
+		},
+		{
+		"id": 32,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"2373:947"
+}
+},
+		{
+      "id": 34,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/2.jpg",
+      "title": "Клементьев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В чем дело?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Мне очень не хотелось бы начинать свое взаимодействие с НИИЧАЗ с негативной ноты, тем более, я сам виноват, что без документов. Может быть, все таки получится занять мне 500 рублей?",
+          "stage_id": "35",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 35,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/2.jpg",
+      "title": "Клементьев",
+      "message": "Получен предмет: 500 рублей",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я вас понял, хорошо, держите деньги. Попрошу вас занести их в ближайшее время.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо, я пошел. Счастливо",
+          "stage_id": "36",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": [
+              "quest_0_0_post_uch1_exit"
+            ]
+        }
+		},
+				{
+		"id": 36,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"2448:1291"
+}
+},
+		{
+      "id": 37,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/3.jpg",
+      "title": "Блокпост",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну что, боец, принес, что обещал?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держи",
+          "stage_id": "38",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 38,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/3.jpg",
+      "title": "Блокпост",
+      "message": "Новый квест: Вернуться в бар",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот и отлично. Без документов не возвращайся!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "39",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_0_0_post_uch1_exit"]
+        }
+		},
+		{
+		"id": 39,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"2374:947"
+}
+},
+		{
+      "id": 40,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ты что, так быстро отнес документы?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Еще нет. Охрана на блокпосте не пустила. Можно попросить в долг 500 рублей, чтобы зайти к ним?",
+          "stage_id": "41",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_0_0_post_bar1"]
+        }
+		},
+		{
+      "id": 41,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "Новый квест: Вернуться в НИИЧАЗ",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ты дурак? Не мог договориться на месте с ним? Хорошо, держи, отработаешь.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо, я пошел",
+          "stage_id": "42",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_0_0_post_bar"],
+    "money": ["500"]
+        }
+		},
+		{
+		"id": 42,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"1311:662"
+}
+},
+		{
+      "id": 43,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/1.jpg",
+      "title": "Блокпост",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Принес косарь?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Принес, держи",
+          "stage_id": "44",
+          "condition": {}
+        }
+      ],
+        "actions": {
+        }
+		},
+		{
+      "id": 44,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/1.jpg",
+      "title": "Блокпост",
+      "message": "Новый квест: Идти к ученому",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Бегом, туда и обратно. Чтобы через 15 минут тебя уже не было на территории НИИЧАЗ.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо",
+          "stage_id": "45",
+          "condition": {}
+        }
+      ],
+        "actions": {
+            "add": [
+              "quest_0_0_post_uch1"
+            ],
+			"remove": ["quest_0_0_post_bar1"],
+      "money": ["-1000"]
+          }
+		},
+		{
+		"id": 45,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"2373:1007"
+}
+},
+		{
+      "id": 48,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну что, отнес документы?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да, все сделано",
+          "stage_id": "49",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 49,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Молодец. Проблем не возникло?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "На блокпосте не хотели без денег пропускать из-за того, что у меня нет разрешения",
+          "stage_id": "50",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 50,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Это нормальное явление, смирись и живи с этим, пока не получишь пропуск. Кстати, новое задание тебе. Сзади тебя за столиком стоит один перец, Калиной кличат, он должен мне лавандос. Пойди пообщайся, чтобы вернул.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "И что же мне ему сказать?",
+          "stage_id": "51",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_0_0_post_uch_bar"]
+        }
+		},
+		{
+      "id": 51,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "Новый квест: Идти к Калине",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Решай сам.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я понял тебя",
+          "stage_id": "52",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 52,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/4.jpg",
+      "title": "Калина",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Чего тебе?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Здравствуйте. Вы Калина?",
+          "stage_id": "53",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 53,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/4.jpg",
+      "title": "Калина",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну допустим я, а че?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Бармен попросил меня передать вам, что вы должны ему деньги и просит вернуть их",
+          "stage_id": "54",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 54,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/4.jpg",
+      "title": "Калина",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Молодой, пипипка еще не выросла бабки требовать с людей, гуляй.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Вы не поняли, это не просьба была. Бармен требует деньги.",
+          "stage_id": "55",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 55,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/5.jpg",
+      "title": "Калина",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну ты борзый, конечно, Алёша. Генка, а ну-ка, текай сюда",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Что происходит?",
+          "stage_id": "56",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 56,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/6.jpg",
+      "title": "Генка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Слышь, Васян, это ты тут барагозишь и из моего кента чужие долги выбиваешь? ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я всего лишь делаю то, что мне поручили...",
+          "stage_id": "57",
+          "condition": {}
+        },
+		{
+          "text": "Девочка, иди гуляй, с тобой никто не общался",
+          "stage_id": "59",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 57,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/6.jpg",
+      "title": "Генка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну вот разворачивайся и иди туда, от куда пришел.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Может быть, твой друг что-то все таки скажет, с которым я изначально общался?",
+          "stage_id": "58",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_0_0_kalina_loh"]
+        }
+		},
+		{
+      "id": 58,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/6.jpg",
+      "title": "Калина",
+      "message": "Получен предмет: 700 рублей",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Базара ноль, бабки должен, бабки верну. Иди метнись, отдай лавандос, чушка.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "И тебе желаю не сдохнуть",
+          "stage_id": "64",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 59,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/6.jpg",
+      "title": "Генка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Фуфел, ты совсем края попутал? Я тебе бошку отстрелю сейчас? ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "В самом охраняемом баре? Удачи братан",
+          "stage_id": "60",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_0_0_kalina_krasawa"]
+        }
+		},
+		{
+      "id": 60,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/6.jpg",
+      "title": "Охранник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я вам бошки всем троим сейчас прострелю! Заткнулись и успокоились. В чем базар? Калина, опять бабки должен бармену? Метнулся и отдал, хоть налом хоть аналом, но не отдашь, я тебя завалю нахер.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "61",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 61,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/6.jpg",
+      "title": "Калина",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Слышал, что старшой сказал? Держи бабки и кабанчиком к Бармену, хах.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Значит так, таблетка, берешь сейчас жопу свою в руки и идешь отдаешь свой долг сам. Иначе ходи оборачивайся, пустослов корявый",
+          "stage_id": "62",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 62,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/6.jpg",
+      "title": "Калина",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну все, все, не кипишуй, сейчас отдам.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Кабанчиком",
+          "stage_id": "63",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 63,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/7.jpg",
+      "title": "Калина",
+      "message": "Новый квест: Подойти к Джо",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Джо, не обессудь, не было совсем финансов, чтобы должок наш закрыть, постараюсь не допускать такое больше.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "64",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 64,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, как с деньгами обстоит вопрос?",
+          "condition": {"has": ["quest_0_0_kalina_loh"]}
+        },
+        {
+          "text": "Красиво ты их осадил, уважаю.",
+          "condition": {"has": ["quest_0_0_kalina_krasawa"]}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Принес деньги. Кто это такие?",
+          "stage_id": "65",
+          "condition": {"has": ["quest_0_0_kalina_loh"]}
+        },
+		{
+          "text": "Кто это такие?",
+          "stage_id": "65",
+          "condition": {"has": ["quest_0_0_kalina_krasawa"]}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 65,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Двое блатных пацанчиков, а по факту - лошки, которые постоянно торчат бабки и дальше Кордона не суются. Надо было с ними пожестче, а то ты, честно говоря, опозорился на весь бар.",
+          "condition": {"has": ["quest_0_0_kalina_loh"]}
+        },
+        {
+          "text": "Двое блатных пацанчиков, а по факту - лошки, которые постоянно торчат бабки и дальше Кордона не суются. Правильно сделал, что надавил на них, весь бар оценил.",
+          "condition": {"has": ["quest_0_0_kalina_krasawa"]}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Какие мои дальнейшие действия?",
+          "stage_id": "66",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 66,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "Получен предмет: 7000 рублей",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вижу я, что парень ты уверенный, характер имеешь. Я дам тебе деньги на пропуск и оружие, в долг, естественно. Отдать сможешь любому торговцу, мне передадут. Надеюсь, ты не сдохнешь раньше, чем отдашь бабки, хе-хе. В общем, держи 7 тысяч, хватит на пропуск и на Макарова, купишь у Сидоровича в деревне новичков, на карте найдешь. Изучи внимательно энциклопедию, чтобы не сдохнуть в аномалии. Удачи, сталкер.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо тебе, Джо",
+          "stage_id": "67",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_0_0_kalina_loh","quest_0_0_kalina_krasawa"],
+		"money": ["7000"],
+		"+":["relation_0:1"]
+        }
+		},
+		{
+      "id": 67,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Бармен Джо",
+      "message": "Новый квест: Отправиться к базе СНГ",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Сейчас иди на базу СНГ, скажешь, что к майору Киргизову, тебя пропустят. У него получишь разрешение на пребывание в Чернобыле-4 и контракт на выполнение заданий в Зоне, для пропуска от НИИЧАЗ. Дальше тебе расскажут. ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "68",
+          "condition": {}
+        }
+      ],
+        "actions": {
+	"add": ["quest_0_0_naebka"]
+        }
+		},
+		{
+		"id": 68,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"1311:662"
+}
+},
+		{
+      "id": 69,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/8.jpg",
+      "title": "Валерка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Псс, сталкер, новичок?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да, а что?",
+          "stage_id": "70",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_0_0_naebka"]
+        }
+		},
+		{
+      "id": 70,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/8.jpg",
+      "title": "Валерка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Есть предложение. Хочешь получить пропуск в Зону по дешевке? Скажем, за 800 рублей.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ну, допустим, хочу. Что нужно делать? ",
+          "stage_id": "74",
+          "condition": {}
+        },
+		{
+          "text": "Нет, спасибо, я сам как-нибудь",
+          "stage_id": "71",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 71,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/8.jpg",
+      "title": "Валерка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Уверен? Таких предложений больше не будет.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ладно, выкладывай",
+          "stage_id": "74",
+          "condition": {}
+        },
+		{
+          "text": "Уверен, пока",
+          "stage_id": "72",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 72,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/8.jpg",
+      "title": "Валерка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, удачи, пацанчик.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Уйти",
+          "stage_id": "73",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_0_0_sng1"]
+        }
+		},
+		{
+		"id": 73,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"1323:705"
+}
+},
+		{
+      "id": 74,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/8.jpg",
+      "title": "Валерка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В общем, все просто. Говори своё погоняло, я отправлю его человеку. Плати деньги и иди к нему.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держи 800 рублей",
+          "stage_id": "75",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_0_0_naebka1"]
+        }
+		},
+		{
+      "id": 75,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/8.jpg",
+      "title": "Валерка",
+      "message": "Новый квест: Отправиться за пропуском",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Спасибо. Координаты на ПДА я скинул тебе, можешь уже прямо сейчас идти к нему.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "76",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+		"id": 76,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"1323:705"
+}
+},
+		{
+      "id": 77,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Дом",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "На заднем дворе никого не было.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Подождать 20 минут",
+          "stage_id": "78",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"remove": ["quest_0_0_naebka1"]
+        }
+		},
+		{
+      "id": 78,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/0.jpg",
+      "title": "Дом",
+      "message": "Новый квест: Идти на базу СНГ",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Никто так и не пришел.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Идти на базу войск СНГ",
+          "stage_id": "79",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_0_0_sng1"]
+        }
+		},
+		{
+		"id": 79,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"2254:486"
+}
+},
+		{
+      "id": 80,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/9.jpg",
+      "title": "Сержат Крупов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Стой, кто такой?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Привет, мне к майору Киргизову",
+          "stage_id": "81",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 81,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/9.jpg",
+      "title": "Сержант Крупов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "По какому вопросу?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Устроиться на работу",
+          "stage_id": "82",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 82,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/9.jpg",
+      "title": "Сержант Крупов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Как зовут?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "@name",
+          "stage_id": "83",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 83,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/9.jpg",
+      "title": "Сержант Крупов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Товарищ майор, тут к вам гражданин @name хочет попасть, говорит, по поводу работы.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "84",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 84,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/9.jpg",
+      "title": "Сержант Крупов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я вас провожу к майору, пройдите за мной.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо",
+          "stage_id": "85",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 85,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/10.jpg",
+      "title": "Майор Киргизов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну здравствуй, @name. Ты от Джо, верно?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "А Вам разве не доложили?",
+          "stage_id": "86",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 86,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/10.jpg",
+      "title": "Майор Киргизов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Доложили, конечно же. Итак, тебе нужен официальный пропуск в Зону?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Все верно",
+          "stage_id": "87",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 87,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/10.jpg",
+      "title": "Майор Киргизов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Значит так, запоминай свою легенду. Ты - контрактник, отличаешься хорошими исследовательскими и стратегическими навыками. По рекомендации был вызван сюда для выполнения служебных поручений. При этом официальным сотрудником ВС не являешься, по сути, обычный человек с пропуском в Зону, классно, да? Держи бумажки и передавай мне 5 документов, о которых говорил бармен.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держите",
+          "stage_id": "88",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 88,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/10.jpg",
+      "title": "Майор Киргизов",
+      "message": "Потерян предмет: 5000 рублей. Получен предмет: Документы для пропуска в Зону",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Отлично, вот твои бумажки, с ними в НИИЧАЗ к Василию Алексеевичу. Тут, кстати, уже есть разрешение на нахождение в Чернобыле-4, так что можешь передвигаться спокойно. Только учти, ты все таки не просто так будешь сотрудником, придется выполнять иногда задания. Я буду высылать тебе их на ПДА.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Понял, я пошел, спасибо",
+          "stage_id": "89",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_0_0_sng2"],
+		"remove":["quest_0_0_sng1"]
+        }
+		},
+		{
+      "id": 89,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/10.jpg",
+      "title": "Майор Киргизов",
+      "message": "Новый квест: Идти в НИИЧАЗ",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Сержант проводит тебя до выхода, удачи.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage_id": "90",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"+":["relation_2:15"]
+        }
+		},
+		{
+		"id": 90,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"2093:1139"
+}
+},
+		{
+      "id": 91,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/11.jpg",
+      "title": "Капитан Русин",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ты куда?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "К Василию Алексеевичу, вот мой пропуск",
+          "stage_id": "92",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 92,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/11.jpg",
+      "title": "Капитан Русин",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Это у тебя терки были с бойцом на соседнем посте?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Если это можно назвать терками",
+          "stage_id": "93",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 93,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/11.jpg",
+      "title": "Капитан Русин",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Он новенький тут, контрактник. Под трибунал отправили за то, что взятки брал.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Больше мы его тут не увидим? ",
+          "stage_id": "94",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 94,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/11.jpg",
+      "title": "Капитан Русин",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В ближайшие несколько лет мы его нигде не увидим. Ладно, сейчас проводим тебя до Василия Алексеевича.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "95",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 95,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/12.jpg",
+      "title": "Василий Алексеевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Здравствуйте, @name. Мне майор уже сообщил о вас. С какой целью прибыли сюда?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Здравствуйте. Выполнять поручения майора Киргизова, я контрактник с большой земли",
+          "stage_id": "96",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 96,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/12.jpg",
+      "title": "Василий Алексеевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Это хорошо. Базовые знания о Зоне имеете?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Само собой, я прошел инструктаж и лекции",
+          "stage_id": "97",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 97,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/12.jpg",
+      "title": "Василий Алексеевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Отлично, про навыки ведения боевых действий можно не спрашивать?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Конечно",
+          "stage_id": "98",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 98,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/12.jpg",
+      "title": "Василий Алексеевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Разумеется. Собственно, давайте знакомиться. Я - Василий Алексеевич, ваш куратор от НИИЧАЗ. Я буду вас консультировать по различным вопросам, которые касаются Зоны. А также буду выдавать задания от НИИ. Задания будут не частые, так как все таки мы в разных подразделениях находимся, но тем не менее. Может быть, у вас есть какие-либо вопросы?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Когда я смогу получить пропуск? ",
+          "stage_id": "99",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 99,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/12.jpg",
+      "title": "Василий Алексеевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Разумеется. Сейчас мы заполним с вами документы и выдадим пропуск. Передайте, пожалуйста, паспорт или военный билет.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держите",
+          "stage_id": "100",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 100,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/12.jpg",
+      "title": "Василий Алексеевич",
+      "message": "Получен предмет: Пропуск в Зону",
+	  "music": ["4"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ага... Секундочку... Готово, держите ваш пропуск. Он действует месяц, далее придется продлить. Теперь вы можете без препятствий перемещаться по территории Зоны. Есть еще вопросы?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Вопросов нет",
+          "stage_id": "101",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["propusk_001"]
+        }
+		},
+		{
+      "id": 101,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/12.jpg",
+      "title": "Василий Алексеевич",
+      "message": "Новый квест: Идти к Периметру",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Прекрасно. Не смею вас больше задерживать, капитан проводит вас к блокпосту.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Счастливо",
+          "stage_id": "102",
+          "condition": {}
+        }
+      ],
+        "actions": {
+		"add": ["quest_0_0_sng3"],
+		"remove": ["quest_0_0_sng2"]
+        }
+		},
+		{
+		"id": 102,
+		"type_stage": 4,
+		"data":{
+		"map":"0",
+		"pos":"2374:977"
+}
+},
+		{
+      "id": 103,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/13.jpg",
+      "title": "Блокпост",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Стой! Кто такой?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Позывной @name. Прибыл для выполнения поручений от базы СНГ. Вот мой пропуск",
+          "stage_id": "104",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 104,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/13.jpg",
+      "title": "Блокпост",
+      "message": "Новый квест: Пересечь Периметр",
+	  "music": ["5"],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Все хорошо, можете проходить",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Счастливо",
+          "stage_id": "105",
+          "condition": {}
+        }
+      ],
+        "actions": {
+
+        }
+		},
+		{
+      "id": 105,
+      "type_stage": 1,
+      "background_url": "story/freeplay/screen/13.jpg",
+      "music": [],
+      "title": "Глава окончена!",
+      "message": "",
+      "type_message": 0,
+	  "value": 0,
+      "texts": [
+        {
+          "text": "Вот так и закончилась 1 глава",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Окей",
+          "stage_id": "106",
+          "condition": {}
+        }
+      ],
+	  "actions": {
+
+	  }  
+    },
+	{
+"id": 106,
+"type_stage": 5,
+"data":{
+"chapter":"2",
+"stage":"0"
+}
+}
+		
+		
+		]
+}

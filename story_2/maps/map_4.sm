@@ -1,0 +1,35 @@
+{
+"id":"4",
+"title":"Дикая территория",
+"texture":"maps/map_bar.png",
+"boundsTexture":"maps/bounds_garbage_t.png",
+"blurTexture":"maps/blur.jpg",
+"defPos":"330:960",
+"points":[
+{
+    "type":"7",
+    "name": "Дикая территория - Бар",
+    "pos":"1270:1483",
+    "data":{
+    "chapter":"2",
+    "stage":"209"},
+    "condition": {
+
+    }
+},
+{
+    "type":"7",
+    "name": "Дикая территория - Янтарь",
+    "pos":"1042:691",
+    "data":{
+    "chapter":"2",
+    "stage":"212"},
+    "condition": {
+
+    }
+}
+],
+"transfers":[],
+"spawns":[
+]
+}

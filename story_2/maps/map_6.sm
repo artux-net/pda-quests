@@ -1,0 +1,42 @@
+{
+"id":"6",
+"title":"Янтарь",
+"texture":"maps/map_yantar.png",
+"boundsTexture":"maps/bounds_garbage_t.png",
+"blurTexture":"maps/blur.jpg",
+"defPos":"330:960",
+"points":[
+{
+"type":"4",
+"name": "Бункер ученых",
+"pos":"746:310",
+"data":{
+"chapter":"2",
+"stage":"89"
+},
+"condition": 
+{
+          }
+},
+{
+    "type":"7",
+    "name": "Янтарь - Дикая территория",
+    "pos":"1072:382",
+    "data":{
+    "chapter":"2",
+    "stage":"213"},
+    "condition": {
+
+    }
+}
+],
+"transfers":[],
+"spawns":[
+	{
+    "id":"3",
+    "n":"7",
+    "r":"70",
+    "pos":"495:363"
+    }
+]
+}
