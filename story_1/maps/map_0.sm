@@ -130,63 +130,72 @@
     "spawns":[
     {
     "ignorePlayer":"true",
-    "id":"6",
+    "group":"MILITARY",
+    "strength": "WEAK",
     "n":"3",
     "r":"30",
     "pos":"681:1338"
     },
 	    {
     "ignorePlayer":"true",
-    "id":"6",
+    "group":"MILITARY",
+    "strength": "WEAK",
     "n":"4",
     "r":"30",
     "pos":"689:1403"
     },
     {
     "ignorePlayer":"true",
-    "id":"6",
+    "group":"MILITARY",
+    "strength": "WEAK",
     "n":"5",
     "r":"20",
     "pos":"316:502"
     },
     {
-        "id":"6",
+        "group":"MILITARY",
+        "strength": "MIDDLE",
         "n":"5",
         "r":"20",
         "pos":"366:437"
         },
     {
-    "id":"0",
-    "n":"7",
+    "group":"MILITARY",
+    "strength": "MIDDLE",
     "r":"40",
     "pos":"234:843"
     },
 	{
-    "id":"0",
+    "group":"LONERS",
+    "strength": "WEAK",
     "n":"1",
     "r":"1",
     "pos":"644:2314"
     },
     {
-    "id":"1",
+    "group":"LONERS",
+    "strength": "MIDDLE",
     "n":"3",
     "r":"50",
     "pos":"148:1060"
     },
     {
-    "id":"3",
+    "group":"BANDITS",
+    "strength": "WEAK",
     "n":"5",
     "r":"40",
     "pos":"792:1073"
     },
     {
-    "id":"0",
+    "group":"MILITARY",
+    "strength": "WEAK",
     "n":"2",
     "r":"30",
     "pos":"576:1592"
     },
     {
-    "id":"1",
+    "group":"MILITARY",
+    "strength": "MIDDLE",
     "n":"5",
     "r":"30",
     "pos":"1009:1668"
