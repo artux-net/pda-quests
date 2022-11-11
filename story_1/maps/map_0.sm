@@ -132,6 +132,7 @@
     "ignorePlayer":"true",
     "group":"MILITARY",
     "strength": "WEAK",
+    "title": "Тестовый тайтл",
     "n":"3",
     "r":"30",
     "pos":"681:1338"
