@@ -3,8 +3,10 @@ name: Загрузка историй на сервер
 on:
   push:
     branches: [ "main" ]
+    types: [closed]
   pull_request:
     branches: [ "main" ]
+    types: [closed]
 
   # ручной запуск
   workflow_dispatch:
