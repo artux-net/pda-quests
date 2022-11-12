@@ -985,7 +985,7 @@
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-      "message": "",
+      "message": "Получено: 1000 рублей",
       "type_message": 0,
       "texts": [
         {
@@ -1277,7 +1277,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/19.jpg",
       "title": "Сапыр",
-      "message": "",
+      "message": "Получено: 1000 рублей",
       "type_message": 0,
       "texts": [
         {
@@ -1436,7 +1436,7 @@
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-      "message": "",
+      "message": "Получено: 1000 рублей",
       "type_message": 0,
       "texts": [
         {
@@ -2448,7 +2448,7 @@
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-      "message": "",
+      "message": "Получено: 500 рублей",
       "type_message": 0,
       "texts": [
         {
@@ -5370,7 +5370,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/45.jpg",
       "title": "Бандит",
-      "message": "Выполнен квест: отнести Свободе груз",
+      "message": "Выполнен квест: отнести Свободе груз. Получено: 500 рублей",
 	   "music": ["5"],
       "type_message": 0,
       "texts": [
@@ -5542,7 +5542,7 @@
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-      "message": "",
+      "message": "Потеряно денег: 1000р",
       "type_message": 0,
       "texts": [
         {

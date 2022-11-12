@@ -1107,7 +1107,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/3.jpg",
       "title": "Блокпост",
-      "message": "Новый квест: Вернуться в бар",
+      "message": "Новый квест: Вернуться в бар. Потеряно: 1000 рублей",
 	  "music": ["5"],
       "type_message": 0,
       "texts": [
@@ -1172,7 +1172,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
-      "message": "Новый квест: Вернуться в НИИЧАЗ",
+      "message": "Новый квест: Вернуться в НИИЧАЗ. Получено: 500 рублей",
 	  "music": ["5"],
       "type_message": 0,
       "texts": [
@@ -1237,7 +1237,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
-      "message": "Новый квест: Идти к ученому",
+      "message": "Новый квест: Идти к ученому. Потеряно: 1000 рублей",
 	  "music": ["5"],
       "type_message": 0,
       "texts": [
@@ -1767,7 +1767,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
-      "message": "",
+      "message": "Потеряно: 700 рублей",
       "type_message": 0,
       "texts": [
         {
@@ -2021,7 +2021,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/8.jpg",
       "title": "Валерка",
-      "message": "Новый квест: Отправиться за пропуском",
+      "message": "Новый квест: Отправиться за пропуском. Потеряно: 800 рублей",
 	  "music": ["5"],
       "type_message": 0,
       "texts": [
