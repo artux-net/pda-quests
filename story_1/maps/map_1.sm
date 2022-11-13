@@ -122,7 +122,11 @@
         "strength": "WEAK",
         "n":"1",
         "r":"1",
-        "pos":"669:1043" 
+        "pos":"669:1043",
+        "condition": 
+    {
+        "has": ["quest_matvienko_final"]
+              }
         },
     {
         "group":"LONERS",
