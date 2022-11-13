@@ -33,7 +33,8 @@
 "transfers":[],
 "spawns":[
 	{
-    "id":"3",
+    "group":"BANDITS",
+    "strength": "WEAK",
     "n":"7",
     "r":"70",
     "pos":"495:363"

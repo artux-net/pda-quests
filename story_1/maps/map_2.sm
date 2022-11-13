@@ -53,37 +53,43 @@
 ],
 "spawns":[
 {
-    "id":"13",
+    "group":"DUTY",
+    "strength": "WEAK",
     "n":"3",
     "r":"25",
     "pos":"1737:1130"
     },
 {
-    "id":"13",
+    "group":"DUTY",
+    "strength": "WEAK",
     "n":"7",
     "r":"50",
     "pos":"1700:1400"
     },
 	{
-    "id":"0",
+    "group":"LONERS",
+    "strength": "WEAK",
     "n":"6",
     "r":"13",
     "pos":"1501:1255"
     },
     {
-    "id":"13",
+    "group":"DUTY",
+    "strength": "WEAK",
     "n":"6",
     "r":"25",
     "pos":"1582:1381"
     },
     {
-    "id":"13",
+    "group":"DUTY",
+    "strength": "WEAK",
     "n":"3",
     "r":"25",
     "pos":"1386:1500"
     },
    {
-    "id":"0",
+    "group":"LONERS",
+    "strength": "WEAK",
     "n":"6",
     "r":"30",
     "pos":"1487:1404"
