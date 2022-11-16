@@ -7,18 +7,18 @@
         "title":"Поговорить с Максимом Матерым",
         "parameter":"",
         "chapter":"",
-        "stage":"",
+        "stage":""
       },
       {
         "title":"Передать информацию Даниилу на Кордоне",
         "parameter":"",
         "chapter":"",
-        "stage":"",
+        "stage":""
       },{
         "title":"Идти на свалку",
         "parameter":"go_to_the_cumminist",
         "chapter":"",
-        "stage":"",
+        "stage":""
       }
     ]
   }
