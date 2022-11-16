@@ -2578,13 +2578,6 @@
 		  "!has": ["quest_2_0_flash_barmen_rem","add_quest_2_0_flash_barmen"]
 		  }
         },
-		{
-          "text": "Поиск сталкера",
-          "stage_id": "95",
-          "condition": {
-		  "!has": ["quest_2_0_flash_barmen_rem","add_quest_2_0_flash_barmen"]
-		  }
-        },
 		
          { "text": "Я передумал",
           "stage_id": "89",

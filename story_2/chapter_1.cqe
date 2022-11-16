@@ -1669,6 +1669,7 @@
         }
       ],
         "actions": {
+          "force": []
 
         }
 		},
@@ -1742,8 +1743,8 @@
           "condition": {"has": ["quest_0_0_kalina_loh"]}
         },
         {
-          "text": "Красиво ты их осадил, уважаю.",
-          "condition": {"has": ["quest_0_0_kalina_krasawa"]}
+          "text": "Красиво ты их осадил, уважаю."
+
         }
       ],
       "transfers": [
