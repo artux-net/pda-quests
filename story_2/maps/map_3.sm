@@ -1,7 +1,7 @@
 {
 "id":"3",
 "title":"Бар",
-"texture":"maps/map_bar_test.png",
+"texture":"maps/map_bar.png",
 "boundsTexture":"maps/bounds/map_bar.png",
 "blurTexture":"maps/blur.jpg",
 "tilesTexture":"maps/tiles/map_bar.png",
