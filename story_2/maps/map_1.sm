@@ -1,7 +1,7 @@
 {
     "id": "1",
     "title": "Кордон",
-    "texture": "maps/map_escape_test.png",
+    "texture": "maps/map_escape.png",
     "boundsTexture": "maps/bounds/map_escape.png",
     "blurTexture": "maps/blur.jpg",
     "tilesTexture": "maps/tiles/map_escape.png",

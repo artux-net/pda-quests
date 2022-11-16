@@ -89,6 +89,7 @@
 "stage":"244"},
 "condition": 
 {
+    "!has": ["quest_matvienko_final"]
           }
 }, 
 {
@@ -100,7 +101,6 @@
     "stage":"85"},
     "condition": 
     {
-        "!has": ["quest_matvienko_final"]
               }
     }
 
