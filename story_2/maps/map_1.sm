@@ -156,12 +156,14 @@
     ],
     "transfers": [],
     "spawns": [{
-            "ignorePlayer": "true",
             "group":"MILITARY",
             "strength": "WEAK",
             "n": "8",
             "r": "45",
-            "pos": "689:1393"
+            "pos": "689:1393",
+            "data": {
+                "ignorePlayer": "true"
+            }
         },
         {
             "group":"MILITARY",
