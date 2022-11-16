@@ -2882,7 +2882,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/28.jpg",
       "title": "Сява",
-      "message": "Получен предмет: Флешка, водка х2, бинт х2",
+      "message": "Получен предмет: Флешка, водка х2, прокладка х2",
 	  "music": ["4"],
       "texts": [
         {
@@ -2902,7 +2902,7 @@
         }
       ],
         "actions": {
-		"add": ["quest_2_0_flash_barmen2_fin"]
+		"add": ["quest_2_0_flash_barmen2_fin","83:2","86:2","88:1"]
         }
 		},
 		{
