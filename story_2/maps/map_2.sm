@@ -9,18 +9,6 @@
 "points":[
 {
 "type":"0",
-"name": "Писюн+жопа",
-"pos":"921:1087",
-"data":{
-"chapter":"2",
-"stage":"220"
-},
-"condition": 
-{
-          }
-},
-{
-"type":"0",
 "name": "Ангар",
 "pos":"533:757",
 "data":{

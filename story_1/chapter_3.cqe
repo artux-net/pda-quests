@@ -1879,7 +1879,7 @@
       ],
       "transfers": [
         {
-          "text": "Пока.",
+          "text": "Пока",
           "stage_id": "68",
           "condition": {}
         }
