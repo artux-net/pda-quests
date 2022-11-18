@@ -162,7 +162,7 @@
             "r": "45",
             "pos": "689:1393",
             "data": {
-                "ignorePlayer": "true"
+                "ignorePlayer": []
             }
         },
         {
