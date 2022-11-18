@@ -1,0 +1,103 @@
+{
+    "id": "0",
+    "title": "Кордон",
+    "texture": "maps/map_escape.png",
+    "boundsTexture": "maps/bounds/map_escape.png",
+    "blurTexture": "maps/blur.jpg",
+    "tilesTexture": "maps/tiles/map_escape.png",
+    "defPos": "330:960",
+    "points": [
+        {
+            "type": "0",
+            "name": "Информация о истории, про параметры",
+            "pos": "450:500",
+            "data": {
+                "chapter": "1",
+                "stage": "1"
+            },
+            "condition": {}
+        },
+        {
+            "type": "0",
+            "name": "Эта точка видна только с параметром",
+            "pos": "475:520",
+            "data": {
+                "chapter": "1",
+                "stage": "1"
+            },
+            "condition": {
+                "has":["kill_bill"]
+            }
+        }
+    ],
+    "transfers": [],
+    "spawns": [
+        {
+            "id": "6",
+            "n": "3",
+            "r": "30",
+            "pos": "681:1338",
+            "data":{
+                "ignorePlayer":[]
+            }
+        },
+        {
+            "id": "6",
+            "n": "4",
+            "r": "30",
+            "pos": "689:1403",
+            "data":{
+                "ignorePlayer":[]
+            }
+        },
+        {
+            "ignorePlayer": "true",
+            "id": "6",
+            "n": "5",
+            "r": "20",
+            "pos": "316:502"
+        },
+        {
+            "id": "6",
+            "n": "5",
+            "r": "20",
+            "pos": "366:437"
+        },
+        {
+            "id": "0",
+            "n": "7",
+            "r": "40",
+            "pos": "234:843"
+        },
+        {
+            "id": "0",
+            "n": "1",
+            "r": "1",
+            "pos": "644:2314"
+        },
+        {
+            "id": "1",
+            "n": "3",
+            "r": "50",
+            "pos": "148:1060"
+        },
+        {
+            "id": "3",
+            "n": "5",
+            "r": "40",
+            "pos": "792:1073"
+        },
+        {
+            "id": "0",
+            "n": "2",
+            "r": "30",
+            "pos": "576:1592"
+        },
+        {
+            "id": "1",
+            "n": "5",
+            "r": "30",
+            "pos": "1009:1668"
+        }
+    ]
+}
