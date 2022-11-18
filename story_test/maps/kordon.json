@@ -37,18 +37,16 @@
             "n": "3",
             "r": "30",
             "pos": "681:1338",
-            "data":{
-                "ignorePlayer":[]
-            }
+            "data":[
+                "ignorePlayer"
+            ]
         },
         {
             "id": "6",
             "n": "4",
             "r": "30",
             "pos": "689:1403",
-            "data":{
-                "ignorePlayer":[]
-            }
+            "data":["ignorePlayer"]
         },
         {
             "ignorePlayer": "true",
