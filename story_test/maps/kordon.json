@@ -49,7 +49,7 @@
             "data":["ignorePlayer"]
         },
         {
-            "ignorePlayer": "true",
+            "angryOnPlayer": "true",
             "id": "6",
             "n": "5",
             "r": "20",
