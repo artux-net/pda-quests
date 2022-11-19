@@ -5755,7 +5755,137 @@
       "transfers": [
         {
           "text": "Ух ты, весело тут у вас",
-          "stage_id": "193",
+          "stage_id": "215",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 215,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Лыжник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ээээээй, ой да конь мой воронооой! Ээээээй, да обрез стальнооой!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ээээй, да густой тумааан",
+          "stage_id": "216",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 216,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Лыжник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ээээй, ой да батька атаман, Да батька атаман! Эх, здорово ребята порой распеваются, это еще мы только первую бутылку пьем. А между прочим, тут Кастет расхорохорился, мол, тебе, такому храбрецу, не страшно будет и в Темную лощину прогуляться!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "А зачем мне туда, собственно, топать? Какая мзда?",
+          "stage_id": "217",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 217,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Лыжник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Сейчас позову старшего.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "218",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 218,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А? чеееа там? Привет! Как раз вспоминал тебя тут добрым словом.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Мне тут Лыжник сказал, что ты обо мне за спиной прохвастал, типо мне по плечу по темной лощине прогуляться и не обосраться. Действительно ли это так?",
+          "stage_id": "219",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 219,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ох, если бы я был трезв… Мог бы и попроще выражаться. Нннда вообщем, тебе я думаю по плечу будет кое-куда сгонять. Ты знаешь, что такое бартер?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да, знаю, когда деньги в обществе были не в ходу, люди менялись товаром на товар",
+          "stage_id": "219",
           "condition": {}
         }
       ],
