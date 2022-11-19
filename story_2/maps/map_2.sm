@@ -1,24 +1,12 @@
 {
 "id":"2",
 "title":"Свалка",
-"texture":"maps/map_garbage_test.png",
+"texture":"maps/map_garbage.png",
 "boundsTexture":"maps/bounds/map_garbage.png",
 "blurTexture":"maps/blur.jpg",
 "tilesTexture":"maps/tiles/map_garbage.png",
 "defPos":"330:960",
 "points":[
-{
-"type":"0",
-"name": "Писюн+жопа",
-"pos":"921:1087",
-"data":{
-"chapter":"2",
-"stage":"220"
-},
-"condition": 
-{
-          }
-},
 {
 "type":"0",
 "name": "Ангар",
@@ -122,44 +110,51 @@
 ],
 "spawns":[
 	{
-        "id":"1",
+        "group":"LONERS",
+        "strength": "MIDDLE",
         "n":"5",
         "r":"50",
         "pos":"880:468"
         },
     {
-        "id":"1",
+        "group":"LONERS",
+        "strength": "MIDDLE",
         "n":"9",
         "r":"70",
         "pos":"497:378"
         },
     {
         "ignorePlayer":"true",
-        "id":"4",
+        "group":"BANDITS",
+        "strength": "MIDDLE",
         "n":"3",
          "r":"40",
         "pos":"265:718"
         },
     {
-        "id":"1",
+        "group":"LONERS",
+        "strength": "MIDDLE",
         "n":"15",
          "r":"100",
         "pos":"494:757"
         },
     {
-        "id":"13",
+        "group":"DUTY",
+        "strength": "WEAK",
         "n":"5",
          "r":"60",
         "pos":"746:1145"
         },
     {
-        "id":"0",
+        "group":"LONERS",
+        "strength": "WEAK",
         "n":"3",
          "r":"40",
         "pos":"813:1041"
         },
     {
-        "id":"3",
+        "group":"BANDITS",
+        "strength": "WEAK",
         "n":"3",
          "r":"40",
         "pos":"883:921"

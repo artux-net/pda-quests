@@ -1,7 +1,7 @@
 {
     "id": "1",
     "title": "Кордон",
-    "texture": "maps/map_escape_test.png",
+    "texture": "maps/map_escape.png",
     "boundsTexture": "maps/bounds/map_escape.png",
     "blurTexture": "maps/blur.jpg",
     "tilesTexture": "maps/tiles/map_escape.png",
@@ -156,50 +156,60 @@
     ],
     "transfers": [],
     "spawns": [{
-            "ignorePlayer": "true",
-            "id": "6",
+            "group":"MILITARY",
+            "strength": "WEAK",
             "n": "8",
             "r": "45",
-            "pos": "689:1393"
+            "pos": "689:1393",
+            "data": {
+                "ignorePlayer": []
+            }
         },
         {
-            "id": "6",
+            "group":"MILITARY",
+            "strength": "WEAK",
             "n": "5",
             "r": "50",
             "pos": "318:441"
         },
         {
-            "id": "0",
+            "group":"LONERS",
+            "strength": "WEAK",
             "n": "7",
             "r": "40",
             "pos": "234:843"
         },
         {
-            "id": "0",
+            "group":"LONERS",
+            "strength": "WEAK",
             "n": "1",
             "r": "1",
             "pos": "644:2314"
         },
         {
-            "id": "1",
+            "group":"LONERS",
+            "strength": "MIDDLE",
             "n": "3",
             "r": "50",
             "pos": "148:1060"
         },
         {
-            "id": "3",
+            "group":"BANDITS",
+            "strength": "WEAK",
             "n": "5",
             "r": "40",
             "pos": "792:1073"
         },
         {
-            "id": "0",
+            "group":"LONERS",
+            "strength": "WEAK",
             "n": "2",
             "r": "30",
             "pos": "576:1592"
         },
         {
-            "id": "1",
+            "group":"LONERS",
+            "strength": "MIDDLE",
             "n": "5",
             "r": "30",
             "pos": "1009:1668"

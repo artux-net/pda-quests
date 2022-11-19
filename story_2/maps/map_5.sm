@@ -48,19 +48,22 @@
 ],
 "spawns":[
 	{
-    "id":"13",
+    "group":"DUTY",
+    "strength": "WEAK",
     "n":"3",
     "r":"15",
     "pos":"1722:1115"
     },
 {
-    "id":"13",
+    "group":"DUTY",
+    "strength": "WEAK",
     "n":"8",
     "r":"60",
     "pos":"1647:1384"
     },
 	{
-    "id":"3",
+    "group":"BANDITS",
+    "strength": "WEAK",
     "n":"7",
     "r":"70",
     "pos":"495:363"

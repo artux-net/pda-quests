@@ -88,7 +88,7 @@
                 },
                 {
                     "text": "Открыть карту",
-                    "stage_id": "2"
+                    "stage_id": "5"
                 }
             ]
         },
@@ -174,7 +174,8 @@
             "actions": {
                 "remove": [
                     "kill_bill"
-                ]
+                ],
+                "force":[]
             }
         },
         {
