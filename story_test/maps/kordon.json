@@ -39,7 +39,7 @@
             "group":"MILITARY",
             "pos": "436:775",
             "data":{
-               "ignorePlayer":[]
+               "alwaysIgnored":[]
             }
         },
         {
