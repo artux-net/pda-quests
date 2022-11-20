@@ -142,7 +142,9 @@
                 "chapter": "2",
                 "stage": "214"
             },
-            "condition": {}
+            "condition": {
+                "!has": ["quest_samagon_1"]
+            }
         },
         {
             "type": "7",
