@@ -6061,7 +6061,8 @@
         }
       ],
       "actions": {
-        "remove": ["quest_samagon_1"]
+        "remove": ["quest_samagon_1"],
+        "add": ["quest_samagon_end"]
     }
     },
     {
