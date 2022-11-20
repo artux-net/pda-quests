@@ -1,0 +1,26 @@
+[
+    {
+      "title":"Дойти до Кастета",
+      "name":"QUEST_SAMAGON",
+      "checkpoints": [
+        {
+          "title":"Передать припасы военным",
+          "parameter":"quest_samagon_1",
+          "chapter":"",
+          "stage":""
+        },
+        {
+          "title":"Передать посылку Кастету",
+          "parameter":"quest_samagon_box",
+          "chapter":"",
+          "stage":""
+        },
+        {
+          "title":"Передать аппарат военным",
+          "parameter":"quest_samagon_device",
+          "chapter":"",
+          "stage":""
+        }
+      ]
+    }
+]  
