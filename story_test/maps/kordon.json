@@ -37,9 +37,9 @@
             "n": "10",
             "r": "30",
             "group":"MILITARY",
-            "pos": "175:873",
+            "pos": "436:775",
             "data":{
-               "angry":[]
+               "ignorePlayer":[]
             }
         },
         {
