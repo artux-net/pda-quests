@@ -1,61 +1,57 @@
 {
-"id":2,
-    "music":[
-        {
-		"id":"0",
-		"name": "Fire 1 20% | Prologue chapter 0",
-		"url":"story/prologue/sound/fire.mp3",
-		"params":[
-			"loop",
-			"volume:0.2"
-		]
-	},
-	{
-		"id":"1",
-		"name": "Fire 1 50%| Prologue chapter 0",
-		"url":"story/prologue/sound/fire.mp3",
-		"params":[
-		"loop",
-		"volume:0.5"
-		]
-	},
-	{
-		"id":"2",
-		"name": "Guitar 1 50% | Prologue chapter 0",
-		"url":"story/prologue/sound/guitar.mp3",
-		"params":[
-		"volume:0.5"
-		]
-	},
-	{
-		"id":"3",
-		"name": "Guitar 1 100% | Prologue chapter 0",
-		"url":"story/prologue/sound/guitar.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"4",
-		"name": "PDA новое уведомление",
-		"url":"story/prologue/sound/PDA1.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"5",
-		"name": "PDA новый квест",
-		"url":"story/prologue/sound/PDA2.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"6",
-		"name": "PDA новое сообщение",
-		"url":"story/prologue/sound/PDA3.mp3",
-		"params":[
-		]
-	}
-    ],
+  "id": 2,
+  "music": [
+    {
+      "id": "0",
+      "name": "Fire 1 20% | Prologue chapter 0",
+      "url": "story/prologue/sound/fire.mp3",
+      "params": [
+        "loop",
+        "volume:0.2"
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Fire 1 50%| Prologue chapter 0",
+      "url": "story/prologue/sound/fire.mp3",
+      "params": [
+        "loop",
+        "volume:0.5"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Guitar 1 50% | Prologue chapter 0",
+      "url": "story/prologue/sound/guitar.mp3",
+      "params": [
+        "volume:0.5"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Guitar 1 100% | Prologue chapter 0",
+      "url": "story/prologue/sound/guitar.mp3",
+      "params": []
+    },
+    {
+      "id": "4",
+      "name": "PDA новое уведомление",
+      "url": "story/prologue/sound/PDA1.mp3",
+      "params": []
+    },
+    {
+      "id": "5",
+      "name": "PDA новый квест",
+      "url": "story/prologue/sound/PDA2.mp3",
+      "params": []
+    },
+    {
+      "id": "6",
+      "name": "PDA новое сообщение",
+      "url": "story/prologue/sound/PDA3.mp3",
+      "params": []
+    }
+  ],
   "stages": [
     {
       "id": 0,
@@ -81,11 +77,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 1,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/14.jpg",
@@ -109,11 +103,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 2,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/14.jpg",
@@ -137,19 +129,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
-		"id": 3,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"299:514"
-}
-},
-		{
+      "actions": {}
+    },
+    {
+      "id": 3,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "299:514"
+      }
+    },
+    {
       "id": 4,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -172,27 +162,25 @@
           "stage_id": "29",
           "condition": {}
         },
-		{
+        {
           "text": "Мне нужна информация",
           "stage_id": "6",
           "condition": {}
         },
-		{
+        {
           "text": "Я бы хотел посмотреть ассортимент",
           "stage_id": "6",
           "condition": {}
         },
-		{
+        {
           "text": "Пока",
           "stage_id": "9",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 5,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -210,41 +198,49 @@
         }
       ],
       "transfers": [
-		{
+        {
           "text": "Найти флешку",
           "stage_id": "7",
           "condition": {
-		  "!has": ["quest_1_0_flash_sidor_rem","add_quest_1_0_flash_sidor"]
-		  
-		  }
+            "!has": [
+              "quest_1_0_flash_sidor_rem",
+              "add_quest_1_0_flash_sidor"
+            ]
+          }
         },
-		{
+        {
           "text": "Вопрос с торговцем",
           "stage_id": "33",
           "condition": {
-		  "!has": ["quest_1_0_sapyr_sidor_rem","add_quest_1_0_sapyr_sidor"]
-		  }
+            "!has": [
+              "quest_1_0_sapyr_sidor_rem",
+              "add_quest_1_0_sapyr_sidor"
+            ]
+          }
         },
-		{
+        {
           "text": "Монолитовец на Кордоне",
           "stage_id": "60",
           "condition": {
-		  "has": ["quest_1_0_sapyr_sidor_rem","quest_1_0_flash_sidor_rem"],
-		  "!has": ["quest_1_0_monsvalka_sidor_rem","1add_quest_1_0_monsvalka_sidor"]
-		  }
+            "has": [
+              "quest_1_0_sapyr_sidor_rem",
+              "quest_1_0_flash_sidor_rem"
+            ],
+            "!has": [
+              "quest_1_0_monsvalka_sidor_rem",
+              "1add_quest_1_0_monsvalka_sidor"
+            ]
+          }
         },
-		{
+        {
           "text": "Я передумал",
           "stage_id": "4",
           "condition": {}
         }
-		
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 29,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -262,28 +258,25 @@
         }
       ],
       "transfers": [
-		{
+        {
           "text": "Получить работу",
           "stage_id": "5",
           "condition": {}
         },
-		{
+        {
           "text": "Сдать работу",
           "stage_id": "30",
           "condition": {}
         },
-		{
+        {
           "text": "Я передумал",
           "stage_id": "4",
           "condition": {}
         }
-		
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 30,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -301,39 +294,42 @@
         }
       ],
       "transfers": [
-		{
+        {
           "text": "Я принес флешку",
           "stage_id": "31",
           "condition": {
-		  "has": ["quest_1_0_flash_sidor_fin"]
-		  }
+            "has": [
+              "quest_1_0_flash_sidor_fin"
+            ]
+          }
         },
-		{
+        {
           "text": "Я разобрался с торговцем",
           "stage_id": "49",
           "condition": {
-		  "has": ["quest_1_0_sapyr_sidor_fin"]
-		  }
+            "has": [
+              "quest_1_0_sapyr_sidor_fin"
+            ]
+          }
         },
-		{
+        {
           "text": "Я узнал про монолитовца",
           "stage_id": "87",
           "condition": {
-		  "has": ["quest_1_0_monsvalka_sidor_fin"]
-		  }
+            "has": [
+              "quest_1_0_monsvalka_sidor_fin"
+            ]
+          }
         },
-		{
+        {
           "text": "Я передумал",
           "stage_id": "4",
           "condition": {}
         }
-		
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 6,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -351,30 +347,29 @@
         }
       ],
       "transfers": [
-        
-		{
+        {
           "text": "Группа сталкеров",
           "stage_id": "126",
           "condition": {
-		  "has": ["quest_99_1_segun_gotosidor"]
-		  }
+            "has": [
+              "quest_99_1_segun_gotosidor"
+            ]
+          }
         },
-		{
+        {
           "text": "Хочу купить схрон",
           "stage_id": "191",
           "condition": {}
         },
-		{
+        {
           "text": "Пока ничего",
           "stage_id": "4",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 7,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -397,17 +392,15 @@
           "stage_id": "8",
           "condition": {}
         },
-		{
+        {
           "text": "В другой раз",
           "stage_id": "4",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 8,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -431,19 +424,22 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_1_0_flash_sidor","add_quest_1_0_flash_sidor"]
-        }
-		},
-		{
-		"id": 9,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"145:891"
-}
-},
-		{
+      "actions": {
+        "add": [
+          "quest_1_0_flash_sidor",
+          "add_quest_1_0_flash_sidor"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "145:891"
+      }
+    },
+    {
       "id": 10,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/15.jpg",
@@ -467,16 +463,16 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 11,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/15.jpg",
       "title": "Неизвестный сталкер",
-      "music": ["4"],
+      "music": [
+        "4"
+      ],
       "message": "Создана заметка: Тайник Вовка Легкий",
       "type_message": 0,
       "texts": [
@@ -496,11 +492,14 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"note": ["Тайник Вовка Легкий","В Тёмной Долине, в районе "]
-        }
-		},
-		{
+      "actions": {
+        "note": [
+          "Тайник Вовка Легкий",
+          "В Тёмной Долине, в районе "
+        ]
+      }
+    },
+    {
       "id": 12,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/15.jpg",
@@ -524,11 +523,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 14,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/15.jpg",
@@ -552,11 +549,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 15,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/15.jpg",
@@ -580,11 +575,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 16,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/15.jpg",
@@ -608,16 +601,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"note":["Вовка Легкий: Заметки","PDA #****. позывной: Вовка Легкий. Ранг: опытный. Заметка №44: Нашел какой-то странный ПДА, он сильно отличается от всех, которые я видел раньше. Надо бы Сидоровичу показать его...\n Заметка №46: На этом ПДА моргает какой-то индикатор. Пробовал выключать его, вытаскивать аккумулятор - все равно моргает. Странно очень... Заметка №54: На мой ПДА пришло сообщение, в нем кто-то пишет, чтобы я пришел на Элеватор, иначе следующим утром не проснусь. Кто это может быть? Отправил маяк Сидоровичу, надеюсь, он поймет, если что... Заметка №55: Я пришел на Элеватор, 20 минут наблюдал из кустов за местностью, но ничего не заметил. Зашел во внутрь, тоже ничего. Отправил повторный маяк Сидоровичу. Все очень странно. Может быть, это как-то связано с ПДА?"]
-        }
-		},
-		{
+      "actions": {
+        "note": [
+          "Вовка Легкий: Заметки",
+          "PDA #****. позывной: Вовка Легкий. Ранг: опытный. Заметка №44: Нашел какой-то странный ПДА, он сильно отличается от всех, которые я видел раньше. Надо бы Сидоровичу показать его...\n Заметка №46: На этом ПДА моргает какой-то индикатор. Пробовал выключать его, вытаскивать аккумулятор - все равно моргает. Странно очень... Заметка №54: На мой ПДА пришло сообщение, в нем кто-то пишет, чтобы я пришел на Элеватор, иначе следующим утром не проснусь. Кто это может быть? Отправил маяк Сидоровичу, надеюсь, он поймет, если что... Заметка №55: Я пришел на Элеватор, 20 минут наблюдал из кустов за местностью, но ничего не заметил. Зашел во внутрь, тоже ничего. Отправил повторный маяк Сидоровичу. Все очень странно. Может быть, это как-то связано с ПДА?"
+        ]
+      }
+    },
+    {
       "id": 17,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/15.jpg",
       "title": "Вовка Легкий",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "message": "Создана заметка: Вовка Легкий: Заметки",
       "type_message": 0,
       "texts": [
@@ -636,17 +634,15 @@
           "stage_id": "18",
           "condition": {}
         },
-		{
+        {
           "text": "Забрать флешку и ПДА",
           "stage_id": "19",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 18,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/16.jpg",
@@ -670,11 +666,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_1_1_fleshka_sidora"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_1_1_fleshka_sidora"
+        ]
+      }
+    },
+    {
       "id": 19,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/16.jpg",
@@ -698,11 +696,14 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_1_1_fleshka_sidora_pda","quest_1_1_fleshka_sidora"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_1_1_fleshka_sidora_pda",
+          "quest_1_1_fleshka_sidora"
+        ]
+      }
+    },
+    {
       "id": 20,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/16.jpg",
@@ -726,11 +727,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 21,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/16.jpg",
@@ -754,11 +753,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 22,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/17.jpg",
@@ -782,11 +779,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 23,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/17.jpg",
@@ -809,19 +804,19 @@
           "stage_id": "24",
           "condition": {}
         },
-		{
+        {
           "text": "Находил какой-то ПДА",
           "stage_id": "25",
           "condition": {
-		  "has": ["quest_1_1_fleshka_sidora_pda"]
-		  }
-		  }
-      ],
-        "actions": {
-
+            "has": [
+              "quest_1_1_fleshka_sidora_pda"
+            ]
+          }
         }
-		},
-		{
+      ],
+      "actions": {}
+    },
+    {
       "id": 24,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/17.jpg",
@@ -832,33 +827,43 @@
         {
           "text": "Аппарат на месте.",
           "condition": {
-		   "!has": ["quest_1_1_fleshka_sidora_pda"]}
+            "!has": [
+              "quest_1_1_fleshka_sidora_pda"
+            ]
+          }
         },
         {
           "text": "Аппарата нет.",
           "condition": {
-		  "has": ["quest_1_1_fleshka_sidora_pda"]}
-		  }
+            "has": [
+              "quest_1_1_fleshka_sidora_pda"
+            ]
+          }
+        }
       ],
       "transfers": [
         {
           "text": "...",
           "stage_id": "27",
           "condition": {
-		  "!has": ["quest_1_1_fleshka_sidora_pda"]}
+            "!has": [
+              "quest_1_1_fleshka_sidora_pda"
+            ]
+          }
         },
-		{
+        {
           "text": "...",
           "stage_id": "25",
           "condition": {
-		   "has": ["quest_1_1_fleshka_sidora_pda"]}
+            "has": [
+              "quest_1_1_fleshka_sidora_pda"
+            ]
+          }
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 25,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/18.jpg",
@@ -882,11 +887,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 26,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/18.jpg",
@@ -910,11 +913,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_1_1_fleshka_sidora_pda"]
-        }
-		},
-		{
+      "actions": {
+        "remove": [
+          "quest_1_1_fleshka_sidora_pda"
+        ]
+      }
+    },
+    {
       "id": 27,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/18.jpg",
@@ -938,21 +943,24 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_1_0_flash_sidor_fin"],
-		"remove": ["quest_1_0_flash_sidor"]
-		
-        }
-		},
-		{
-		"id": 28,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"570:1246"
-}
-},
-		{
+      "actions": {
+        "add": [
+          "quest_1_0_flash_sidor_fin"
+        ],
+        "remove": [
+          "quest_1_0_flash_sidor"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "570:1246"
+      }
+    },
+    {
       "id": 31,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -976,11 +984,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 32,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -1004,13 +1010,22 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"money": ["1000"],
-		"remove": ["quest_1_1_fleshka_sidora","add_quest_1_0_flash_sidor","quest_1_0_flash_sidor_fin"],
-		"add": ["quest_1_0_flash_sidor_rem","quest_99_1_segun_sogl"]
-        }
-		},
-		{
+      "actions": {
+        "money": [
+          "1000"
+        ],
+        "remove": [
+          "quest_1_1_fleshka_sidora",
+          "add_quest_1_0_flash_sidor",
+          "quest_1_0_flash_sidor_fin"
+        ],
+        "add": [
+          "quest_1_0_flash_sidor_rem",
+          "quest_99_1_segun_sogl"
+        ]
+      }
+    },
+    {
       "id": 33,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -1034,11 +1049,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 34,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -1061,17 +1074,15 @@
           "stage_id": "35",
           "condition": {}
         },
-		{
+        {
           "text": "Я передумал",
           "stage_id": "4",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 35,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -1095,11 +1106,14 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_1_0_sapyr_sidor","add_quest_1_0_sapyr_sidor"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_1_0_sapyr_sidor",
+          "add_quest_1_0_sapyr_sidor"
+        ]
+      }
+    },
+    {
       "id": 37,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/19.jpg",
@@ -1123,11 +1137,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 38,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/19.jpg",
@@ -1151,11 +1163,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 39,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/19.jpg",
@@ -1179,11 +1189,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 40,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/19.jpg",
@@ -1207,11 +1215,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 41,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/19.jpg",
@@ -1235,11 +1241,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 42,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/19.jpg",
@@ -1262,17 +1266,15 @@
           "stage_id": "43",
           "condition": {}
         },
-		 {
+        {
           "text": "Нет уж. Заканчивай свои движения по-хорошему, иначе вопрос будем по другому решать",
           "stage_id": "45",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 43,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/19.jpg",
@@ -1296,21 +1298,27 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"money": ["1000"],
-		"add": ["quest_1_0_sapyr_sidor_fin"],
-		"remove": ["quest_1_0_sapyr_sidor"]
-        }
-		},
-		{
-		"id": 44,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"807:1656"
-}
-},
-		{
+      "actions": {
+        "money": [
+          "1000"
+        ],
+        "add": [
+          "quest_1_0_sapyr_sidor_fin"
+        ],
+        "remove": [
+          "quest_1_0_sapyr_sidor"
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "807:1656"
+      }
+    },
+    {
       "id": 45,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/19.jpg",
@@ -1334,11 +1342,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 46,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/19.jpg",
@@ -1362,11 +1368,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 47,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/19.jpg",
@@ -1390,20 +1394,24 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_1_0_sapyr_sidor"],
-		"add": ["quest_1_0_sapyr_sidor_fin"]
-        }
-		},
-		{
-		"id": 48,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"807:1656"
-}
-},
-		{
+      "actions": {
+        "remove": [
+          "quest_1_0_sapyr_sidor"
+        ],
+        "add": [
+          "quest_1_0_sapyr_sidor_fin"
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "807:1656"
+      }
+    },
+    {
       "id": 49,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -1427,11 +1435,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 50,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -1455,13 +1461,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_1_0_sapyr_sidor_fin","add_quest_1_0_sapyr_sidor"],
-		"add": ["quest_1_0_sapyr_sidor_rem"],
-		"money": ["1000"]
-        }
-		},
-		{
+      "actions": {
+        "remove": [
+          "quest_1_0_sapyr_sidor_fin",
+          "add_quest_1_0_sapyr_sidor"
+        ],
+        "add": [
+          "quest_1_0_sapyr_sidor_rem"
+        ],
+        "money": [
+          "1000"
+        ]
+      }
+    },
+    {
       "id": 51,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/20.jpg",
@@ -1485,10 +1498,9 @@
           "condition": {}
         }
       ],
-	  "actions": {
-	  }
+      "actions": {}
     },
-	{
+    {
       "id": 52,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/20.jpg",
@@ -1510,26 +1522,26 @@
           "text": "Держи",
           "stage_id": "53",
           "condition": {
-            "money>=": ["500"]
+            "money>=": [
+              "500"
+            ]
           }
         },
-		{
+        {
           "text": "Пока",
           "stage_id": "218",
-          "condition": {
-          }
+          "condition": {}
         }
-		
       ],
-	  "actions": {
-
-        }
+      "actions": {}
     },
-	{
+    {
       "id": 53,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/20.jpg",
-      "music": ["4"],
+      "music": [
+        "4"
+      ],
       "title": "Майор Силлов",
       "message": "Потеряно денег: 500р",
       "type_message": 0,
@@ -1550,11 +1562,13 @@
           "condition": {}
         }
       ],
-	  "actions": {
-		"money": ["-500"]
+      "actions": {
+        "money": [
+          "-500"
+        ]
       }
     },
-	{
+    {
       "id": 217,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/20.jpg",
@@ -1579,19 +1593,21 @@
         }
       ]
     },
-	{
-		"id": 218,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"690:1289"
-	}
-},
-	{
+    {
+      "id": 218,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "690:1289"
+      }
+    },
+    {
       "id": 555,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/20.jpg",
-      "music": ["4"],
+      "music": [
+        "4"
+      ],
       "title": "Майор Силлов",
       "message": "Потеряно денег: 500р",
       "type_message": 0,
@@ -1612,19 +1628,21 @@
           "condition": {}
         }
       ],
-	  "actions": {
-		"money": ["-500"]
+      "actions": {
+        "money": [
+          "-500"
+        ]
       }
     },
-{
-		"id": 54,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"690:1488"
-	}
-},
-{
+    {
+      "id": 54,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "690:1488"
+      }
+    },
+    {
       "id": 55,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/21.jpg",
@@ -1646,25 +1664,28 @@
           "text": "Держи",
           "stage_id": "56",
           "condition": {
-            "money>=": ["500"]
+            "money>=": [
+              "500"
+            ]
           }
         },
-		{
+        {
           "text": "Пока",
           "stage_id": "57",
           "condition": {}
         }
       ],
-	  "actions": {
-	  }
+      "actions": {}
     },
-	{
+    {
       "id": 56,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/21.jpg",
       "title": "Лейтенант Мыслов",
       "message": "Потеряно денег: 500р",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -1683,27 +1704,29 @@
           "condition": {}
         }
       ],
-	  "actions": {
-	  "money": ["-500"]
-	  }
+      "actions": {
+        "money": [
+          "-500"
+        ]
+      }
     },
-	{
-		"id": 58,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"690:1289"
-	}
-},
-{
-		"id": 57,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"690:1488"
-	}
-},
-		{
+    {
+      "id": 58,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "690:1289"
+      }
+    },
+    {
+      "id": 57,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "690:1488"
+      }
+    },
+    {
       "id": 60,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -1727,11 +1750,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 61,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -1754,17 +1775,15 @@
           "stage_id": "62",
           "condition": {}
         },
-		{
+        {
           "text": "В другой раз",
           "stage_id": "4",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 62,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -1788,11 +1807,15 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_1_0_monsvalka_sidor","add_quest_1_0_monsvalka_sidor","1add_quest_1_0_monsvalka_sidor"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_1_0_monsvalka_sidor",
+          "add_quest_1_0_monsvalka_sidor",
+          "1add_quest_1_0_monsvalka_sidor"
+        ]
+      }
+    },
+    {
       "id": 63,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/22.jpg",
@@ -1816,11 +1839,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 64,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/22.jpg",
@@ -1844,11 +1865,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 65,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/22.jpg",
@@ -1872,11 +1891,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 66,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/22.jpg",
@@ -1899,18 +1916,22 @@
           "stage_id": "67",
           "condition": {}
         },
-		{
+        {
           "text": "Я подожду",
           "stage_id": "68",
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_1_0_monsvalka_sidor"],
-		"add": ["quest_1_0_monsvalka_sidor1"]
-        }
-		},
-		{
+      "actions": {
+        "remove": [
+          "quest_1_0_monsvalka_sidor"
+        ],
+        "add": [
+          "quest_1_0_monsvalka_sidor1"
+        ]
+      }
+    },
+    {
       "id": 67,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/22.jpg",
@@ -1934,11 +1955,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 68,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/22.jpg",
@@ -1962,11 +1981,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"-":["relation_0:1"]
-        }
-		},
-		{
+      "actions": {
+        "-": [
+          "relation_0:1"
+        ]
+      }
+    },
+    {
       "id": 69,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/23.jpg",
@@ -1990,11 +2011,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"+":["relation_0:1"]
-        }
-		},
-		{
+      "actions": {
+        "+": [
+          "relation_0:1"
+        ]
+      }
+    },
+    {
       "id": 70,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/23.jpg",
@@ -2018,17 +2041,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 71,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/23.jpg",
       "title": "Неизвестный сталкер",
       "message": "Новый квест: идти к трубам",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -2047,17 +2070,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 72,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/23.jpg",
       "title": "Неизвестный сталкер",
       "message": "Потеряны деньги: 500 рублей.",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -2076,19 +2099,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"money": ["-500"]
-        }
-		},
-		{
-		"id": 73,
-		"type_stage": 4,
-		"data":{
-		"map":"2",
-		"pos":"533:757"
-}
-},
-		{
+      "actions": {
+        "money": [
+          "-500"
+        ]
+      }
+    },
+    {
+      "id": 73,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "533:757"
+      }
+    },
+    {
       "id": 74,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/24.jpg",
@@ -2112,11 +2137,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 75,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/24.jpg",
@@ -2140,11 +2163,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 76,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/24.jpg",
@@ -2168,11 +2189,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 77,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/25.jpg",
@@ -2196,11 +2215,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 78,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/25.jpg",
@@ -2224,11 +2241,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 79,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/25.jpg",
@@ -2252,11 +2267,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 80,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/25.jpg",
@@ -2280,20 +2293,24 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_1_0_monsvalka_sidor1"],
-		"add": ["quest_1_0_monsvalka_sidor2"]
-        }
-		},
-		{
-		"id": 81,
-		"type_stage": 4,
-		"data":{
-		"map":"2",
-		"pos":"318:817"
-}
-},
-		{
+      "actions": {
+        "remove": [
+          "quest_1_0_monsvalka_sidor1"
+        ],
+        "add": [
+          "quest_1_0_monsvalka_sidor2"
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "318:817"
+      }
+    },
+    {
       "id": 82,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/26.jpg",
@@ -2317,11 +2334,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 83,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/26.jpg",
@@ -2345,11 +2360,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 84,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/26.jpg",
@@ -2373,17 +2386,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 85,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/26.jpg",
       "title": "Неизвестный сталкер",
       "message": "Новый квест: Вернуться к Сидоровичу",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -2402,20 +2415,24 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_1_0_monsvalka_sidor2"],
-		"add": ["quest_1_0_monsvalka_sidor_fin"]
-        }
-		},
-		{
-		"id": 86,
-		"type_stage": 4,
-		"data":{
-		"map":"2",
-		"pos":"533:757"
-}
-},
-		{
+      "actions": {
+        "remove": [
+          "quest_1_0_monsvalka_sidor2"
+        ],
+        "add": [
+          "quest_1_0_monsvalka_sidor_fin"
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "533:757"
+      }
+    },
+    {
       "id": 87,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -2439,11 +2456,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 88,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -2467,12 +2482,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_1_0_monsvalka_sidor_rem"],
-		"remove": ["quest_1_0_monsvalka_sidor_fin","1add_quest_1_0_monsvalka_sidor"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_1_0_monsvalka_sidor_rem"
+        ],
+        "remove": [
+          "quest_1_0_monsvalka_sidor_fin",
+          "1add_quest_1_0_monsvalka_sidor"
+        ]
+      }
+    },
+    {
       "id": 89,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/27.jpg",
@@ -2495,27 +2515,25 @@
           "stage_id": "90",
           "condition": {}
         },
-		{
+        {
           "text": "Мне нужна информация",
           "stage_id": "93",
           "condition": {}
         },
-		{
+        {
           "text": "Я хочу посмотреть ассортимент",
           "stage_id": "85",
           "condition": {}
         },
-		{
+        {
           "text": "Пока",
           "stage_id": "94",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 90,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/27.jpg",
@@ -2538,22 +2556,20 @@
           "stage_id": "91",
           "condition": {}
         },
-		{
+        {
           "text": "Сдать работу",
           "stage_id": "92",
           "condition": {}
         },
-		{
+        {
           "text": "Я передумал",
           "stage_id": "89",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 91,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/27.jpg",
@@ -2575,20 +2591,21 @@
           "text": "Поиск сталкера",
           "stage_id": "95",
           "condition": {
-		  "!has": ["quest_2_0_flash_barmen_rem","add_quest_2_0_flash_barmen"]
-		  }
+            "!has": [
+              "quest_2_0_flash_barmen_rem",
+              "add_quest_2_0_flash_barmen"
+            ]
+          }
         },
-		
-         { "text": "Я передумал",
+        {
+          "text": "Я передумал",
           "stage_id": "89",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 92,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/27.jpg",
@@ -2606,19 +2623,23 @@
         }
       ],
       "transfers": [
-	  {
+        {
           "text": "Я нашел сталкера и флешку",
           "stage_id": "106",
           "condition": {
-		  "has": ["quest_2_0_flash_barmen2_fin"]
-		  }
+            "has": [
+              "quest_2_0_flash_barmen2_fin"
+            ]
+          }
         },
-		{
+        {
           "text": "Я отдал долг Сявы",
           "stage_id": "113",
           "condition": {
-		  "has": ["quest_2_0_flash_barmen_money_fin"]
-		  }
+            "has": [
+              "quest_2_0_flash_barmen_money_fin"
+            ]
+          }
         },
         {
           "text": "Я передумал",
@@ -2626,11 +2647,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 93,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/27.jpg",
@@ -2654,19 +2673,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
-		"id": 94,
-		"type_stage": 4,
-		"data":{
-		"map":"3",
-		"pos":"1501:1255"
-}
-},
-		{
+      "actions": {}
+    },
+    {
+      "id": 94,
+      "type_stage": 4,
+      "data": {
+        "map": "3",
+        "pos": "1501:1255"
+      }
+    },
+    {
       "id": 95,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/27.jpg",
@@ -2689,23 +2706,23 @@
           "stage_id": "96",
           "condition": {}
         },
-		{
+        {
           "text": "В другой раз",
           "stage_id": "89",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 96,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/27.jpg",
       "title": "Бармен",
       "message": "Новый квест: Идти в Темную долину к ферме",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -2724,11 +2741,14 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_2_0_flash_barmen","add_quest_2_0_flash_barmen"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_2_0_flash_barmen",
+          "add_quest_2_0_flash_barmen"
+        ]
+      }
+    },
+    {
       "id": 97,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/31.jpg",
@@ -2752,20 +2772,24 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_2_0_flash_barmen"],
-		"add": ["quest_2_0_flash_barmen1"]
-        }
-		},
-		{
-		"id": 98,
-		"type_stage": 4,
-		"data":{
-		"map":"5",
-		"pos":"135:340"
-}
-},
-		{
+      "actions": {
+        "remove": [
+          "quest_2_0_flash_barmen"
+        ],
+        "add": [
+          "quest_2_0_flash_barmen1"
+        ]
+      }
+    },
+    {
+      "id": 98,
+      "type_stage": 4,
+      "data": {
+        "map": "5",
+        "pos": "135:340"
+      }
+    },
+    {
       "id": 99,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/28.jpg",
@@ -2789,11 +2813,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 100,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/28.jpg",
@@ -2817,11 +2839,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 101,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/28.jpg",
@@ -2845,11 +2865,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 102,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/28.jpg",
@@ -2873,17 +2891,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 103,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/28.jpg",
       "title": "Сява",
-      "message": "Получен предмет: Флешка, водка х2, бинт х2",
-	  "music": ["4"],
+      "message": "Получен предмет: Флешка, водка х2, прокладка х2",
+      "music": [
+        "4"
+      ],
       "texts": [
         {
           "text": "От души, сталкер. Держи немного хабара, пока что это все, что есть. И флешка. Даст Бог, пересечемся с тобой при лучшем раскладе. ",
@@ -2901,17 +2919,24 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_2_0_flash_barmen2_fin"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_2_0_flash_barmen2_fin",
+          "83:2",
+          "86:2",
+          "88:1"
+        ]
+      }
+    },
+    {
       "id": 104,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/28.jpg",
       "title": "Сява",
       "message": "Новый квест: Идти к Бармену",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -2930,19 +2955,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_2_0_flash_barmen1"]
-        }
-		},
-		{
-		"id": 105,
-		"type_stage": 4,
-		"data":{
-		"map":"5",
-		"pos":"154:201"
-}
-},
-		{
+      "actions": {
+        "remove": [
+          "quest_2_0_flash_barmen1"
+        ]
+      }
+    },
+    {
+      "id": 105,
+      "type_stage": 4,
+      "data": {
+        "map": "5",
+        "pos": "154:201"
+      }
+    },
+    {
       "id": 106,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/27.jpg",
@@ -2966,17 +2993,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 107,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/27.jpg",
       "title": "Бармен",
       "message": "Потерян предмет: Флешка. Получено: 500 рублей, армейская аптечка х2",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -2995,12 +3022,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"money": ["3500"]
-		
-        }
-		},
-		{
+      "actions": {
+        "money": [
+          "3500"
+        ]
+      }
+    },
+    {
       "id": 108,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/27.jpg",
@@ -3024,12 +3052,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_2_0_flash_barmen2_fin"],
-		"add": ["add_quest_2_0_flash_barmen_money","quest_2_0_flash_barmen_money1","quest_2_0_flash_barmen_rem"]
-        }
-		},
-		{
+      "actions": {
+        "remove": [
+          "quest_2_0_flash_barmen2_fin"
+        ],
+        "add": [
+          "add_quest_2_0_flash_barmen_money",
+          "quest_2_0_flash_barmen_money1",
+          "quest_2_0_flash_barmen_rem"
+        ]
+      }
+    },
+    {
       "id": 109,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/29.jpg",
@@ -3053,11 +3087,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 110,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/30.jpg",
@@ -3081,17 +3113,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_2_0_flash_barmen_money_fin"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_2_0_flash_barmen_money_fin"
+        ]
+      }
+    },
+    {
       "id": 111,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/30.jpg",
       "title": "Молотов",
       "message": "Потеряно денег: 3000 рублей",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -3110,20 +3146,24 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_2_0_flash_barmen_money1"],
-		"money": ["-3000"]
-        }
-		},
-		{
-		"id": 112,
-		"type_stage": 4,
-		"data":{
-		"map":"2",
-		"pos":"699:1088"
-}
-},
-		{
+      "actions": {
+        "remove": [
+          "quest_2_0_flash_barmen_money1"
+        ],
+        "money": [
+          "-3000"
+        ]
+      }
+    },
+    {
+      "id": 112,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "699:1088"
+      }
+    },
+    {
       "id": 113,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/27.jpg",
@@ -3147,17 +3187,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 114,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/27.jpg",
       "title": "Бармен",
       "message": "Получено: колбаса х2, водка",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -3176,12 +3216,16 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_2_0_flash_barmen_money_rem"],
-		"remove": ["quest_2_0_flash_barmen_money_fin"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_2_0_flash_barmen_money_rem"
+        ],
+        "remove": [
+          "quest_2_0_flash_barmen_money_fin"
+        ]
+      }
+    },
+    {
       "id": 115,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/32.jpg",
@@ -3205,11 +3249,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 116,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/32.jpg",
@@ -3233,11 +3275,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 117,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/32.jpg",
@@ -3260,18 +3300,15 @@
           "stage_id": "120",
           "condition": {}
         },
-		{
+        {
           "text": "Извини, времени нет совсем, не смогу помочь",
           "stage_id": "118",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		
-		{
+      "actions": {}
+    },
+    {
       "id": 118,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/32.jpg",
@@ -3295,19 +3332,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_99_1_segun_sogl"]
-        }
-		},
-		{
-		"id": 119,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"266:813"
-}
-},
-		{
+      "actions": {
+        "remove": [
+          "quest_99_1_segun_sogl"
+        ]
+      }
+    },
+    {
+      "id": 119,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "266:813"
+      }
+    },
+    {
       "id": 120,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/32.jpg",
@@ -3331,16 +3370,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 121,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сёгун",
       "message": "Новый квест: Пообщаться с Волком",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -3359,12 +3399,16 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_99_1_segun_gotowolf"],
-		"remove": ["quest_99_1_segun_sogl"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_99_1_segun_gotowolf"
+        ],
+        "remove": [
+          "quest_99_1_segun_sogl"
+        ]
+      }
+    },
+    {
       "id": 122,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/33.jpg",
@@ -3388,11 +3432,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 123,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/33.jpg",
@@ -3416,17 +3458,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 124,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/33.jpg",
       "title": "Волк",
       "message": "Новый квест: Задать вопрос Сидоровичу",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -3445,20 +3487,24 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_99_1_segun_gotosidor"],
-		"remove": ["quest_99_1_segun_gotowolf"]
-        }
-		},
-		{
-		"id": 125,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"224:861"
-}
-},
-		{
+      "actions": {
+        "add": [
+          "quest_99_1_segun_gotosidor"
+        ],
+        "remove": [
+          "quest_99_1_segun_gotowolf"
+        ]
+      }
+    },
+    {
+      "id": 125,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "224:861"
+      }
+    },
+    {
       "id": 126,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -3482,11 +3528,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 127,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -3510,11 +3554,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 128,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -3538,17 +3580,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"money": ["-500"]
-        }
-		},
-		{
+      "actions": {
+        "money": [
+          "-500"
+        ]
+      }
+    },
+    {
       "id": 129,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
       "message": "Потеряно: 500 рублей.",
-	   "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -3567,17 +3613,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"money": ["-200"]
-        }
-		},
-		{
+      "actions": {
+        "money": [
+          "-200"
+        ]
+      }
+    },
+    {
       "id": 130,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
       "message": "Потеряно: 200 рублей.",
-	   "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -3596,17 +3646,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 131,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
       "message": "Новый квест: Пообщаться с Волком.",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -3625,13 +3675,16 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_99_1_segun_gotosidor"],
-		"add": ["quest_99_1_segun_gotowolf2"]
-		
-        }
-		},
-		{
+      "actions": {
+        "remove": [
+          "quest_99_1_segun_gotosidor"
+        ],
+        "add": [
+          "quest_99_1_segun_gotowolf2"
+        ]
+      }
+    },
+    {
       "id": 132,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/33.jpg",
@@ -3655,17 +3708,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 133,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/33.jpg",
       "title": "Волк",
       "message": "Новый квест: Найти Стрижа.",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -3684,12 +3737,16 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_99_1_segun_gotowolf2"],
-		"add": ["quest_99_1_segun_gotostrizh"]
-        }
-		},
-		{
+      "actions": {
+        "remove": [
+          "quest_99_1_segun_gotowolf2"
+        ],
+        "add": [
+          "quest_99_1_segun_gotostrizh"
+        ]
+      }
+    },
+    {
       "id": 134,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/34.jpg",
@@ -3713,11 +3770,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 135,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/34.jpg",
@@ -3740,22 +3795,20 @@
           "stage_id": "136",
           "condition": {}
         },
-		{
+        {
           "text": "Ну так посмотрим, кто с чего трупа, заберёт ещё хабар!",
           "stage_id": "136",
           "condition": {}
         },
-		{
+        {
           "text": "Ладно парни, извините, погорячился, пойду пожалуй",
           "stage_id": "137",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 136,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/34.jpg",
@@ -3779,17 +3832,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 143,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/34.jpg",
       "title": "Стриж",
       "message": "Новый квест: Вернуть Танто Сёгуну.",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -3808,12 +3861,16 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_99_1_segun_gotostrizh"],
-		"add": ["quest_99_1_segun_vernul"]
-        }
-		},
-		{
+      "actions": {
+        "remove": [
+          "quest_99_1_segun_gotostrizh"
+        ],
+        "add": [
+          "quest_99_1_segun_vernul"
+        ]
+      }
+    },
+    {
       "id": 137,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/34.jpg",
@@ -3837,11 +3894,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 138,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/34.jpg",
@@ -3865,19 +3920,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"xp": ["-30"]
-        }
-		},
-		{
-		"id": 139,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"2373:947"
-}
-},
-		{
+      "actions": {
+        "xp": [
+          "-30"
+        ]
+      }
+    },
+    {
+      "id": 139,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2373:947"
+      }
+    },
+    {
       "id": 140,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/32.jpg",
@@ -3901,11 +3958,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 141,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/32.jpg",
@@ -3929,17 +3984,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 142,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/32.jpg",
       "title": "Сёгун",
       "message": "Получено: 1500 рублей, колбаса х2",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -3958,12 +4013,16 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"xp": ["10"],
-		"money": ["1500"]
-        }
-		},
-		{
+      "actions": {
+        "xp": [
+          "10"
+        ],
+        "money": [
+          "1500"
+        ]
+      }
+    },
+    {
       "id": 144,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/35.jpg",
@@ -3986,27 +4045,25 @@
           "stage_id": "145",
           "condition": {}
         },
-		{
+        {
           "text": "Мне нужна информация",
           "stage_id": "148",
           "condition": {}
         },
-		{
+        {
           "text": "Я бы хотел посмотреть ассортимент",
           "stage_id": "121",
           "condition": {}
         },
-		{
+        {
           "text": "Пока",
           "stage_id": "164",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 145,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/35.jpg",
@@ -4029,22 +4086,20 @@
           "stage_id": "146",
           "condition": {}
         },
-		{
+        {
           "text": "Сдать работу",
           "stage_id": "147",
           "condition": {}
         },
-		{
+        {
           "text": "Нет, ничего",
           "stage_id": "144",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 146,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/35.jpg",
@@ -4066,20 +4121,21 @@
           "text": "Установить сканеры на Янтаре",
           "stage_id": "150",
           "condition": {
-		  "!has": ["quest_2_0_scan_sahar_rem","add_quest_2_0_scan_sahar"]
-		  }
+            "!has": [
+              "quest_2_0_scan_sahar_rem",
+              "add_quest_2_0_scan_sahar"
+            ]
+          }
         },
-		{
+        {
           "text": "В другой раз",
           "stage_id": "144",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 147,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/35.jpg",
@@ -4103,11 +4159,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 148,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/35.jpg",
@@ -4131,19 +4185,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
-		"id": 149,
-		"type_stage": 4,
-		"data":{
-		"map":"6",
-		"pos":"746:310"
-}
-},
-		{
+      "actions": {}
+    },
+    {
+      "id": 149,
+      "type_stage": 4,
+      "data": {
+        "map": "6",
+        "pos": "746:310"
+      }
+    },
+    {
       "id": 150,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/35.jpg",
@@ -4166,23 +4218,23 @@
           "stage_id": "151",
           "condition": {}
         },
-		 {
+        {
           "text": "В другой раз",
           "stage_id": "144",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 151,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/35.jpg",
       "title": "Профессор Сахаров",
-     "message": "Новый квест: Добраться до Сергея.",
-	  "music": ["5"],
+      "message": "Новый квест: Добраться до Сергея.",
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -4201,11 +4253,14 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add":["quest_2_0_scan_sahar_go_serg","add_quest_2_0_scan_sahar"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_2_0_scan_sahar_go_serg",
+          "add_quest_2_0_scan_sahar"
+        ]
+      }
+    },
+    {
       "id": 152,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/36.jpg",
@@ -4229,11 +4284,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 153,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/36.jpg",
@@ -4257,17 +4310,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 154,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/36.jpg",
       "title": "Сергей",
       "message": "Новый квест: Установить сканер.",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -4286,11 +4339,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 155,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/37.jpg",
@@ -4314,25 +4365,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
-		"id": 156,
-		"type_stage": 4,
-		"data":{
-		"map":"6",
-		"pos":"746:310"
-}
-},
-		{
+      "actions": {}
+    },
+    {
+      "id": 156,
+      "type_stage": 4,
+      "data": {
+        "map": "6",
+        "pos": "746:310"
+      }
+    },
+    {
       "id": 157,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/39.jpg",
       "title": "Сергей",
       "message": "Новый квест: Установить сканер.",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -4351,11 +4402,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 158,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/39.jpg",
@@ -4379,17 +4428,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 159,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/40.jpg",
       "title": "Сергей",
-       "message": "Новый квест: Установить сканер.",
-	  "music": ["5"],
+      "message": "Новый квест: Установить сканер.",
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -4408,11 +4457,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 160,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/41.jpg",
@@ -4436,17 +4483,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 161,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/38.jpg",
       "title": "Сергей",
       "message": "Новый квест: Вернуться к Сахарову.",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -4465,17 +4512,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 162,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/35.jpg",
       "title": "Профессор Сахаров",
-       "message": "Получено: 500 рублей.",
-	  "music": ["4"],
+      "message": "Получено: 500 рублей.",
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -4494,11 +4541,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 163,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/35.jpg",
@@ -4522,19 +4567,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
-		"id": 164,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"746:310"
-}
-},
-		{
+      "actions": {}
+    },
+    {
+      "id": 164,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "746:310"
+      }
+    },
+    {
       "id": 158,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
@@ -4558,11 +4601,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {}
+    },
+    {
       "id": 165,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/42.jpg",
@@ -4586,11 +4627,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-{
+      "actions": {}
+    },
+    {
       "id": 166,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/42.jpg",
@@ -4613,23 +4652,23 @@
           "stage_id": "167",
           "condition": {}
         },
-		{
+        {
           "text": "Не-а",
           "stage_id": "174",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-	{
+      "actions": {}
+    },
+    {
       "id": 167,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/42.jpg",
       "title": "Бандит",
       "message": "Новый квест: Коробок.",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -4648,12 +4687,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
-		},
-
-	{
+      "actions": {}
+    },
+    {
       "id": 168,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/42.jpg",
@@ -4677,12 +4713,9 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
-		},
-
-	{
+      "actions": {}
+    },
+    {
       "id": 169,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/42.jpg",
@@ -4692,31 +4725,23 @@
       "texts": [
         {
           "text": "А вот это вы узнаете в следующей серии.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "А что по оплате?",
           "stage_id": "170",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},
-
-	{
+      ],
+      "actions": {}
+    },
+    {
       "id": 170,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/42.jpg",
@@ -4739,49 +4764,47 @@
           "stage_id": "171",
           "condition": {}
         },
-		{
+        {
           "text": "Не, что-то это мутно всё, рискованно. Пока.",
           "stage_id": "174",
           "condition": {}
         }
       ]
-		},
-		{
+    },
+    {
       "id": 171,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/42.jpg",
       "title": "Бандит",
       "message": "Получено: АКС-74у х2",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
           "text": "Во, на… Вот один АКС-74 укороченный… Так, а вот второй.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Такие побитые... Второй вообще изолентой перемотан",
           "stage_id": "172",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-		"add": ["quest_1_0_aksuotbandita"]
+          "condition": {}
         }
-		},
-		
-		{
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_aksuotbandita"
+        ]
+      }
+    },
+    {
       "id": 172,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/42.jpg",
@@ -4791,77 +4814,68 @@
       "texts": [
         {
           "text": "Да ты на это не смотри. Тут главное что?",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Чтоб оружие стреляло?",
           "stage_id": "173",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-		"add":["quest_1_0_aksuotbandita_korobok"]
+          "condition": {}
         }
-		},
-		
-		{
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_aksuotbandita_korobok"
+        ]
+      }
+    },
+    {
       "id": 173,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/42.jpg",
       "title": "Бандит",
       "message": "Новый квест: добраться до базы Свободы",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
           "text": "Неа, тут главное – вот этот самый коробок. Калаши это так - прикрытие, а то если долговцы на пути к базе будут, то они и обшманать могут. На кой ляд им эти калаши раздолбанные. Они их не то шо проверять не захотят, а даже прикасаться не будут, а то ещё развалятся. Ща я этот коробок в магазин «Ксюхи» припрячу, ни одна гнида не найдёт. Со спокойной душой всё донесёшь… Ну сё, по коням.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Пока",
           "stage_id": "174",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-		"add":["quest_1_0_aksuotbandita_start"]
+          "condition": {}
         }
-		},
-
-	
-		{
-        "id": 174,
-        "type_stage": 4,
-        "data":{
-        "map":"3",
-        "pos":"1484:1451"
-}
-},
-
-		
-		{
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_aksuotbandita_start"
+        ]
+      }
+    },
+    {
+      "id": 174,
+      "type_stage": 4,
+      "data": {
+        "map": "3",
+        "pos": "1484:1451"
+      }
+    },
+    {
       "id": 175,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/43.jpg",
@@ -4871,52 +4885,39 @@
       "texts": [
         {
           "text": "Фамилия, имя, отчество, цель визита!",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "...",
           "stage_id": "176",
-          "condition": {
-		  
-          }
-          },
-		  {
+          "condition": {}
+        },
+        {
           "text": "Ну-у... Э-э...",
           "stage_id": "176",
-          "condition": {
-		  
-          }
-          },
-		  {
+          "condition": {}
+        },
+        {
           "text": "Зачем?",
           "stage_id": "176",
-          "condition": {
-		  
-          }
-          },
-		  {
+          "condition": {}
+        },
+        {
           "text": "Да пошёл ты.",
           "stage_id": "176",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},
-		{
-		      "id": 176,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 176,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/43.jpg",
       "title": "Охранник",
@@ -4925,39 +4926,29 @@
       "texts": [
         {
           "text": "Та чё ты - шутка была! Чувствуй себя как дома.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Ладно, у меня тут посылка - пара калашей. Кто-то заказывал?",
           "stage_id": "177",
-          "condition": {
-		  
-          }
-          },
-		  {
+          "condition": {}
+        },
+        {
           "text": "Лучше скажи, кому мне эти калаши отдать.",
           "stage_id": "177",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},
-		{
-		
-		      "id": 177,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 177,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/43.jpg",
       "title": "Охранник",
@@ -4966,32 +4957,24 @@
       "texts": [
         {
           "text": "А, это, кажись, нашему торговцу. Он как раз здесь, сейчас позову.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "...",
           "stage_id": "180",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},
-		{
-		
-		      "id": 178,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 178,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/14.jpg",
       "title": "Охранник",
@@ -5000,41 +4983,32 @@
       "texts": [
         {
           "text": "А, ну так это, прямо до перекрёстка и направо. Там дальше строение будет – тебе туда.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Понял, бывай.",
           "stage_id": "179",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},
-		
-		{
-        "id": 179,
-        "type_stage": 4,
-        "data":{
-        "map":"7",
-        "pos":"901:426"
-}
-},
-		{
-		
-		      "id": 180,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 179,
+      "type_stage": 4,
+      "data": {
+        "map": "7",
+        "pos": "901:426"
+      }
+    },
+    {
+      "id": 180,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/44.jpg",
       "title": "Получатель",
@@ -5043,32 +5017,24 @@
       "texts": [
         {
           "text": "Здарова. За чем пожаловал? Ствол поменять или чего другого прикупить?",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "У меня здесь посылка.",
           "stage_id": "181",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},
-		{
-		
-		      "id": 181,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 181,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/44.jpg",
       "title": "Получатель",
@@ -5077,32 +5043,24 @@
       "texts": [
         {
           "text": "И что же там?",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Два калаша раздолбанных и коробок какой-то.",
           "stage_id": "182",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},
-		{
-		
-		      "id": 182,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 182,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/44.jpg",
       "title": "Получатель",
@@ -5111,68 +5069,61 @@
       "texts": [
         {
           "text": "Не раздолбанные, а раритетные. Такие можно за тройную цену запросто каким-нибудь богатым шишкам на сафари загнать… А не, нифига это не раритет... Они в натуре раздолбанные. 93-ий год выпуска – последний… Ладно, посмотрим, что там по загадочному коробку… Нормально так припрятали, даже пальцами не вытащить, но, благо, плоскогубцы-то вот они – всегда под рукой!",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Что по оплате?",
           "stage_id": "183",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-		"remove":["quest_1_0_aksuotbandita_korobok"]
+          "condition": {}
         }
-		},
-		{
-		
-		      "id": 183,
+      ],
+      "actions": {
+        "remove": [
+          "quest_1_0_aksuotbandita_korobok"
+        ]
+      }
+    },
+    {
+      "id": 183,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/44.jpg",
       "title": "Получатель",
       "message": "Получено: 1000 рублей",
-	   "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
           "text": "Вот. И отправителю скажи, чтобы в следующий раз коробки всякие не так сильно в магазины запихивал – Долг в окрестностях уже давно не появлялся.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Лады.",
           "stage_id": "184",
-          "condition": {
-		  
-          }
-          }
-		  
-		  
-      ],
-        "actions": { 
-		"money": ["1000"]
+          "condition": {}
         }
-		},
-		{
-		
-		      "id": 184,
+      ],
+      "actions": {
+        "money": [
+          "1000"
+        ]
+      }
+    },
+    {
+      "id": 184,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/44.jpg",
       "title": "Получатель",
@@ -5181,109 +5132,91 @@
       "texts": [
         {
           "text": "Если хочешь ещё пятихатку заработать, то можешь эти калаши обратно отнести. Оплата полностью по доставке.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "По рукам",
           "stage_id": "185",
-          "condition": {
-		  
-          }
-          },
-		  {
+          "condition": {}
+        },
+        {
           "text": "Не, оставь себе",
           "stage_id": "186",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},
-		{
-		
-		      "id": 185,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 185,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/44.jpg",
       "title": "Получатель",
       "message": "Новый квест: Вернуться к бандитам",
-	   "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
           "text": "Ну, счастливо тогда",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Пока.",
           "stage_id": "179",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},
-		{
-		
-		      "id": 186,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 186,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/44.jpg",
       "title": "Получатель",
-       "message": "Выполнен квест: отнести Свободе груз",
-	   "music": ["5"],
+      "message": "Выполнен квест: отнести Свободе груз",
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
           "text": "Ну, счастливо тогда",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Пока.",
           "stage_id": "179",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-		"remove": ["quest_1_0_aksuotbandita"]
+          "condition": {}
         }
-		},
-		{
-		
-		      "id": 187,
+      ],
+      "actions": {
+        "remove": [
+          "quest_1_0_aksuotbandita"
+        ]
+      }
+    },
+    {
+      "id": 187,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/45.jpg",
       "title": "Бандит",
@@ -5292,33 +5225,24 @@
       "texts": [
         {
           "text": "Оп-па! Ну как, всё путём?",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Да, всё доставил. И Получатель просил передать, чтоб в следующий раз коробки не так сильно в магазины запихивал – Долг в тех окрестностях давно не появлялся.",
           "stage_id": "188",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},
-		
-		{
-		
-		      "id": 188,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 188,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/45.jpg",
       "title": "Бандит",
@@ -5327,76 +5251,69 @@
       "texts": [
         {
           "text": "Ага. Награду ты уже получил.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Пока",
           "stage_id": "174",
-          "condition": {
-		  
-          }
-          },
-	      {
+          "condition": {}
+        },
+        {
           "text": "Получатель ещё попросил калаши тебе вернуть за дополнительную плату.",
           "stage_id": "189",
           "condition": {
-		  "has": ["quest_1_0_aksuotbandita"]
+            "has": [
+              "quest_1_0_aksuotbandita"
+            ]
           }
-          }
-		  
-      ],
-        "actions": {
         }
-		},
-		
-		{
-		
-		      "id": 189,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 189,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/45.jpg",
       "title": "Бандит",
       "message": "Выполнен квест: отнести Свободе груз. Получено: 500 рублей",
-	   "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
           "text": "Ага, вот - держи.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Пока.",
           "stage_id": "174",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-			"money": ["500"],
-			"remove": ["quest_1_0_aksuotbandita"]
-
+          "condition": {}
         }
-		},
-		{
-		
-		      "id": 190,
+      ],
+      "actions": {
+        "money": [
+          "500"
+        ],
+        "remove": [
+          "quest_1_0_aksuotbandita"
+        ]
+      }
+    },
+    {
+      "id": 190,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/44.jpg",
       "title": "Охранник",
@@ -5405,13 +5322,11 @@
       "texts": [
         {
           "text": "Проход на территорию базы Свободы временно закрыт!",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
@@ -5419,25 +5334,21 @@
           "text": "У меня информация для вас",
           "stage_id": "175",
           "condition": {
-		  "has":["quest_1_0_aksuotbandita_korobok"]
+            "has": [
+              "quest_1_0_aksuotbandita_korobok"
+            ]
           }
-          },
-		  {
+        },
+        {
           "text": "Пока",
           "stage_id": "179",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},
-		{
-		
-		      "id": 191,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 191,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
@@ -5446,13 +5357,11 @@
       "texts": [
         {
           "text": "Выбирай",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
@@ -5460,42 +5369,48 @@
           "text": "Схрон за 1000",
           "stage_id": "192",
           "condition": {
-		  "!has":["stash_1_0_start"],
-      "money>=": ["1000"]
+            "!has": [
+              "stash_1_0_start"
+            ],
+            "money>=": [
+              "1000"
+            ]
           }
-          },
-		  {
+        },
+        {
           "text": "Схрон за 2000",
           "stage_id": "192",
           "condition": {
-		  "!has":["stash_2_0_start"],
-      "money>=": ["2000"]
+            "!has": [
+              "stash_2_0_start"
+            ],
+            "money>=": [
+              "2000"
+            ]
           }
-          },
-		  {
+        },
+        {
           "text": "Схрон за 5000",
           "stage_id": "192",
           "condition": {
-		  "!has":["stash_3_0_start"],
-      "money>=": ["5000"]
+            "!has": [
+              "stash_3_0_start"
+            ],
+            "money>=": [
+              "5000"
+            ]
           }
-          },
-		  {
+        },
+        {
           "text": "В другой раз",
           "stage_id": "4",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},
-		{
-		
-		      "id": 192,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 192,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
@@ -5504,37 +5419,29 @@
       "texts": [
         {
           "text": "Значит, смотри. Информацию о схроне мне принесли с ПДА мёртвого сталкера, поэтому не могу гарантировать, что он вообще ещё существует. Тем не менее, там должны лежать патроны и аптечки, конкретнее не знаю. Схрон находится на Свалке, за Барахолкой. Точные координаты и описание из ПДА я тебе перешлю. Стоит это добро 1000 рублей.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Беру",
           "stage_id": "193",
-          "condition": {
-          }
-          },
-		  {
+          "condition": {}
+        },
+        {
           "text": "Не подходит",
           "stage_id": "191",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},{
-		
-		      "id": 193,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 193,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
@@ -5543,32 +5450,33 @@
       "texts": [
         {
           "text": "Проверяй заметки, информацию я тебе отправил.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Увидел",
           "stage_id": "198",
-          "condition": {
-          }
-          }
-		  
-      ],
-        "actions": {
-		"note": ["Тайник за Барахолкой","...снаряжение припрятал за Барахолкой на Свалке, как идти в сторону Тёмной Долины... Лежит в стопке шин..."],
-    "add": ["stash_1_0_start","stash_1_0"]
+          "condition": {}
         }
-		},
-		{
-		
-		      "id": 198,
+      ],
+      "actions": {
+        "note": [
+          "Тайник за Барахолкой",
+          "...снаряжение припрятал за Барахолкой на Свалке, как идти в сторону Тёмной Долины... Лежит в стопке шин..."
+        ],
+        "add": [
+          "stash_1_0_start",
+          "stash_1_0"
+        ]
+      }
+    },
+    {
+      "id": 198,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
@@ -5577,31 +5485,29 @@
       "texts": [
         {
           "text": "Если что, приноси товар, выкуплю, хех.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Пока",
           "stage_id": "4",
-          "condition": {
-          }
-          }
-		  
-      ],
-        "actions": {
-		"money": ["-1000"],
-    "force": []
+          "condition": {}
         }
-		},{
-		
-		      "id": 194,
+      ],
+      "actions": {
+        "money": [
+          "-1000"
+        ],
+        "force": []
+      }
+    },
+    {
+      "id": 194,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/46.jpg",
       "title": "Барахолка",
@@ -5610,30 +5516,24 @@
       "texts": [
         {
           "text": "Осмотрите тайник.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Осмотреть",
           "stage_id": "195",
-          "condition": {
-          }
-          }
-		  
-      ],
-        "actions": {
-		
+          "condition": {}
         }
-		},{
-		
-		      "id": 195,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 195,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/47.jpg",
       "title": "Тайник",
@@ -5642,205 +5542,416 @@
       "texts": [
         {
           "text": "В тайнике: Аптечка х2, патроны 9х18 х30, Гадюка.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": {
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
         {
           "text": "Забрать",
           "stage_id": "196",
-          "condition": {
-          }
-          },
-		  {
+          "condition": {}
+        },
+        {
           "text": "Уйти",
           "stage_id": "197",
-          "condition": {
-		  
-          }
-          }
-		  
-      ],
-        "actions": {
-
+          "condition": {}
         }
-		},{
-		
-		      "id": 196,
+      ],
+      "actions": {}
+    },
+    {
+      "id": 196,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/47.jpg",
       "title": "Тайник",
       "message": "Получено: Аптечка х2, патроны 9х18 х30, Гадюка.",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
           "text": "Тайник пуст.",
-          "condition": {
-		  }
+          "condition": {}
         },
         {
           "text": "",
-          "condition": { 
-
-		  }
+          "condition": {}
         }
       ],
       "transfers": [
-		  {
+        {
           "text": "Уйти",
           "stage_id": "197",
-          "condition": {
-          }
-          }
-		  
-      ],
-        "actions": {
-          "add": ["84:2","10:1","29:30"],
-          "remove": ["stash_1_0"]
+          "condition": {}
         }
-		},
-		{
-        "id": 197,
-        "type_stage": 4,
-        "data":{
-        "map":"2",
-        "pos":"951:1087"
-}
-},
-{
-  "id": 200,
-  "_comment": "Transfer Kordon-Swalka",
-  "type_stage": 4,
-  "data":{
-  "map":"2",
-  "pos":"721:188"
-}
-},
-{
-  "id": 201,
-  "_comment": "Transfer Swalka-Kordon",
-  "type_stage": 4,
-  "data":{
-  "map":"1",
-  "pos":"671:2346"
-}
-},
-{
-  "id": 202,
-  "_comment": "Transfer Kordon-ch4",
-  "type_stage": 4,
-  "data":{
-  "map":"0",
-  "pos":"1178:1425"
-}
-},
-{
-  "id": 203,
-  "_comment": "Transfer ch4-Kordon",
-  "type_stage": 4,
-  "data":{
-  "map":"1",
-  "pos":"321:429"
-}
-},
-{
-  "id": 204,
-  "_comment": "Transfer Swalka-Bar",
-  "type_stage": 4,
-  "data":{
-  "map":"3",
-  "pos":"2104:539"
-}
-},
-{
-  "id": 205,
-  "_comment": "Transfer Bar-Swalka",
-  "type_stage": 4,
-  "data":{
-  "map":"2",
-  "pos":"722:1143"
-}
-},
-{
-  "id": 206,
-  "_comment": "Transfer Swalka-Dark",
-  "type_stage": 4,
-  "data":{
-  "map":"5",
-  "pos":"46:678"
-}
-},
-{
-  "id": 207,
-  "_comment": "Transfer Dark-Swalka",
-  "type_stage": 4,
-  "data":{
-  "map":"2",
-  "pos":"1173:1071"
-}
-},
-{
-  "id": 208,
-  "_comment": "Transfer Bar-Wild",
-  "type_stage": 4,
-  "data":{
-  "map":"4",
-  "pos":"1270:1483"
-}
-},
-{
-  "id": 209,
-  "_comment": "Transfer Wild-Bar",
-  "type_stage": 4,
-  "data":{
-  "map":"3",
-  "pos":"1330:1483"
-}
-},
-{
-  "id": 210,
-  "_comment": "Transfer Bar-Army",
-  "type_stage": 4,
-  "data":{
-  "map":"7",
-  "pos":"230:359"
-}
-},
-{
-  "id": 211,
-  "_comment": "Transfer Army-Bar",
-  "type_stage": 4,
-  "data":{
-  "map":"3",
-  "pos":"1315:1810"
-}
-},
-{
-  "id": 212,
-  "_comment": "Transfer Wild-Yantar",
-  "type_stage": 4,
-  "data":{
-  "map":"6",
-  "pos":"1072:382"
-}
-},
-{
-  "id": 213,
-  "_comment": "Transfer Yantar-Wild",
-  "type_stage": 4,
-  "data":{
-  "map":"4",
-  "pos":"1042:691"
-}
-}
-		
-		
-			]
+      ],
+      "actions": {
+        "add": [
+          "84:2",
+          "10:1",
+          "29:30"
+        ],
+        "remove": [
+          "stash_1_0"
+        ]
+      }
+    },
+    {
+      "id": 197,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "951:1087"
+      }
+    },
+    {
+      "id": 200,
+      "_comment": "Transfer Kordon-Swalka",
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "721:188"
+      }
+    },
+    {
+      "id": 201,
+      "_comment": "Transfer Swalka-Kordon",
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "671:2346"
+      }
+    },
+    {
+      "id": 202,
+      "_comment": "Transfer Kordon-ch4",
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1178:1425"
+      }
+    },
+    {
+      "id": 203,
+      "_comment": "Transfer ch4-Kordon",
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "321:429"
+      }
+    },
+    {
+      "id": 204,
+      "_comment": "Transfer Swalka-Bar",
+      "type_stage": 4,
+      "data": {
+        "map": "3",
+        "pos": "2104:539"
+      }
+    },
+    {
+      "id": 205,
+      "_comment": "Transfer Bar-Swalka",
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "722:1143"
+      }
+    },
+    {
+      "id": 206,
+      "_comment": "Transfer Swalka-Dark",
+      "type_stage": 4,
+      "data": {
+        "map": "5",
+        "pos": "46:678"
+      }
+    },
+    {
+      "id": 207,
+      "_comment": "Transfer Dark-Swalka",
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "1173:1071"
+      }
+    },
+    {
+      "id": 208,
+      "_comment": "Transfer Bar-Wild",
+      "type_stage": 4,
+      "data": {
+        "map": "4",
+        "pos": "1270:1483"
+      }
+    },
+    {
+      "id": 209,
+      "_comment": "Transfer Wild-Bar",
+      "type_stage": 4,
+      "data": {
+        "map": "3",
+        "pos": "1330:1483"
+      }
+    },
+    {
+      "id": 210,
+      "_comment": "Transfer Bar-Army",
+      "type_stage": 4,
+      "data": {
+        "map": "7",
+        "pos": "230:359"
+      }
+    },
+    {
+      "id": 211,
+      "_comment": "Transfer Army-Bar",
+      "type_stage": 4,
+      "data": {
+        "map": "3",
+        "pos": "1315:1810"
+      }
+    },
+    {
+      "id": 212,
+      "_comment": "Transfer Wild-Yantar",
+      "type_stage": 4,
+      "data": {
+        "map": "6",
+        "pos": "1072:382"
+      }
+    },
+    {
+      "id": 213,
+      "_comment": "Transfer Yantar-Wild",
+      "type_stage": 4,
+      "data": {
+        "map": "4",
+        "pos": "1042:691"
+      }
+    },
+    {
+      "id": 214,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "ПДА",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Кастет сидит в своем окружении, парни жарят на гриле кабаньи окорочка… Молодой парнишка, в центре всеобщего внимания, виртуозно играет на гитаре. Бойцы подпевают в такт голосов струн: «…Но шашкою меня комиссар достал - Покачнулся я и с коня упал!»",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ух ты, весело тут у вас",
+          "stage_id": "215",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 215,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Лыжник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ээээээй, ой да конь мой воронооой! Ээээээй, да обрез стальнооой!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ээээй, да густой тумааан",
+          "stage_id": "216",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 216,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Лыжник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ээээй, ой да батька атаман, Да батька атаман! Эх, здорово ребята порой распеваются, это еще мы только первую бутылку пьем. А между прочим, тут Кастет расхорохорился, мол, тебе, такому храбрецу, не страшно будет и в Темную лощину прогуляться!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "А зачем мне туда, собственно, топать? Какая мзда?",
+          "stage_id": "217",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 217,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Лыжник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Сейчас позову старшего.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage_id": "218",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 218,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А? чеееа там? Привет! Как раз вспоминал тебя тут добрым словом.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Мне тут Лыжник сказал, что ты обо мне за спиной прохвастал, типо мне по плечу по темной лощине прогуляться и не обосраться. Действительно ли это так?",
+          "stage_id": "219",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 219,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ох, если бы я был трезв… Мог бы и попроще выражаться. Нннда вообщем, тебе я думаю по плечу будет кое-куда сгонять. Ты знаешь, что такое бартер?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да, знаю, когда деньги в обществе были не в ходу, люди менялись товаром на товар",
+          "stage_id": "220",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 220,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Молодец, пррравильна.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Что у тебя на уме?",
+          "stage_id": "221",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 221,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Кастет",
+      "message": "Получен предмет:Припасы для военных",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Нужно доставить вот этот баул с припасами военным, что в Темной лощине обитают. Они в гастрономе дежурят, наряд там у них «особый». А у них потом нужно флешку забрать. Скажешь от Кастета пришел.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Понял",
+          "stage_id": "222",
+          "condition": {}
+        }
+      ],
+      "actions": { 
+        "add":["quest_samagon_1"]
+      }
+    },
+    {
+      "id": 222,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "1258:1614"
+      }
+    }
+  ]
 }

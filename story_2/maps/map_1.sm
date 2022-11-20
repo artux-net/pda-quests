@@ -6,7 +6,8 @@
     "blurTexture": "maps/blur.jpg",
     "tilesTexture": "maps/tiles/map_escape.png",
     "defPos": "330:960",
-    "points": [{
+    "points": [
+        {
             "type": "4",
             "name": "Сидорович",
             "pos": "145:891",
@@ -134,6 +135,16 @@
             "condition": {}
         },
         {
+            "type": "3",
+            "name": "Кастет",
+            "pos": "1258:1614",
+            "data": {
+                "chapter": "2",
+                "stage": "214"
+            },
+            "condition": {}
+        },
+        {
             "type": "7",
             "name": "Кордон - Свалка",
             "pos": "671:2346",
@@ -155,8 +166,9 @@
         }
     ],
     "transfers": [],
-    "spawns": [{
-            "group":"MILITARY",
+    "spawns": [
+        {
+            "group": "MILITARY",
             "strength": "WEAK",
             "n": "8",
             "r": "45",
@@ -166,49 +178,49 @@
             }
         },
         {
-            "group":"MILITARY",
+            "group": "MILITARY",
             "strength": "WEAK",
             "n": "5",
             "r": "50",
             "pos": "318:441"
         },
         {
-            "group":"LONERS",
+            "group": "LONERS",
             "strength": "WEAK",
             "n": "7",
             "r": "40",
             "pos": "234:843"
         },
         {
-            "group":"LONERS",
+            "group": "LONERS",
             "strength": "WEAK",
             "n": "1",
             "r": "1",
             "pos": "644:2314"
         },
         {
-            "group":"LONERS",
+            "group": "LONERS",
             "strength": "MIDDLE",
             "n": "3",
             "r": "50",
             "pos": "148:1060"
         },
         {
-            "group":"BANDITS",
+            "group": "BANDITS",
             "strength": "WEAK",
             "n": "5",
             "r": "40",
             "pos": "792:1073"
         },
         {
-            "group":"LONERS",
+            "group": "LONERS",
             "strength": "WEAK",
             "n": "2",
             "r": "30",
             "pos": "576:1592"
         },
         {
-            "group":"LONERS",
+            "group": "LONERS",
             "strength": "MIDDLE",
             "n": "5",
             "r": "30",
