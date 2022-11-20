@@ -34,12 +34,12 @@
     "spawns": [
         {
             "id": "0",
-            "n": "50",
-            "r": "100",
+            "n": "10",
+            "r": "40",
             "group":"MILITARY",
             "pos": "500:500",
             "data":{
-               "angryOnPlayer":[]
+               "untarget":[]
             }
         },
         {
