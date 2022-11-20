@@ -143,7 +143,7 @@
                 "stage": "214"
             },
             "condition": {
-                "!has": ["quest_samagon_1"]
+                "!has": ["quest_samagon_1", "quest_samagon_end"]
             }
         },
         {
