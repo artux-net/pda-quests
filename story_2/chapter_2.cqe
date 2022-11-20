@@ -5885,11 +5885,73 @@
       "transfers": [
         {
           "text": "Да, знаю, когда деньги в обществе были не в ходу, люди менялись товаром на товар",
-          "stage_id": "219",
+          "stage_id": "220",
           "condition": {}
         }
       ],
       "actions": {}
+    },
+    {
+      "id": 220,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Молодец, пррравильна.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Что у тебя на уме?",
+          "stage_id": "221",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 221,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Кастет",
+      "message": "Получен предмет:Припасы для военных",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Нужно доставить вот этот баул с припасами военным, что в Темной лощине обитают. Они в гастрономе дежурят, наряд там у них «особый». А у них потом нужно флешку забрать. Скажешь от Кастета пришел.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Понял",
+          "stage_id": "222",
+          "condition": {}
+        }
+      ],
+      "actions": { 
+        "add":["quest_samagon_1"]
+      }
+    },
+    {
+      "id": 222,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "1258:1614"
+      }
     }
   ]
 }
