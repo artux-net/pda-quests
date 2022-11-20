@@ -39,7 +39,7 @@
             "group":"BANDITS",
             "pos": "171:873",
             "data":{
-               "alwaysIgnored":[]
+               "hide":[]
             }
         },
         {
