@@ -34,12 +34,12 @@
     "spawns": [
         {
             "id": "0",
-            "n": "3",
+            "n": "10",
             "r": "30",
             "group":"MILITARY",
-            "pos": "681:1338",
+            "pos": "548:813",
             "data":{
-               "ignorePlayer":[]
+               "untarget":[]
             }
         },
         {
