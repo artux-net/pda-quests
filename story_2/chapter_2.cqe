@@ -5952,6 +5952,289 @@
         "map": "1",
         "pos": "1202:1497"
       }
+    },
+    {
+      "id": 223,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Военный",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Стоять! Кто таков?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спокойно, сталкер я. От Кастета сумка к вам на ногах приперлась",
+          "stage_id": "224",
+          "condition": {}
+        }
+      ],
+      "actions": { 
+
+    }
+    },
+    {
+      "id": 224,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Военный",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Мы получили сообщение буквально недавно от него. Заходи внутрь.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Войти",
+          "stage_id": "225",
+          "condition": {}
+        }
+      ],
+      "actions": { 
+
+    }
+    },
+    {
+      "id": 225,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "ПДА",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Внутри помещения организован базовый быт. Есть деревянная мебель, рабочая плита, откуда-то перетасканы кровати. Даже сушка для сапог есть. В центре комнаты под лампой сидят четверо вояк, один из которых самый здоровый амбал (видимо командир) жестом позвал вас к столу.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Вот сумка, Кастет сказал передать ее вам, там припасы",
+          "stage_id": "226",
+          "condition": {}
+        }
+      ],
+      "actions": {
+    }
+    },
+    {
+      "id": 226,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Cт.сержант Подгорный",
+      "message": "Потерян предмет:Припасы для военных",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Все верно. А ты сталкер тут давно гуляешь?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Поскольку постольку…",
+          "stage_id": "227",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": ["quest_samagon_1"]
+    }
+    },
+    {
+      "id": 227,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Cт.сержант Подгорный",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ты в курсе, что мне тебя повязать положено?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Эээ...",
+          "stage_id": "228",
+          "condition": {}
+        }
+      ],
+      "actions": {
+    }
+    },
+    {
+      "id": 228,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Cт.сержант Подгорный",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Твое счастье, что у тебя с этим контрабандистом подвяз есть. Нам всем иногда тут в Чернобыльской Зоне Отчуждения нужно быть начеку. Но пока начальства нет, почему бы не позволить себе передышку? Верно говорю?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Верно-верно, надо и таким суровым воякам иногда отдыхать",
+          "stage_id": "229",
+          "condition": {}
+        }
+      ],
+      "actions": {
+    }
+    },
+    {
+      "id": 229,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Cт.сержант Подгорный",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот. На одном языке почти с тобой беседуем. Поэтому так решим: я тебе свободу дарю, трогать не буду с моими орлами, но ты вон ту штуковину моим коллегам отнеси.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Что это?",
+          "stage_id": "230",
+          "condition": {}
+        }
+      ],
+      "actions": {
+    }
+    },
+    {
+      "id": 230,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Cт.сержант Подгорный",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Это старый агрегат, которому я благодарен. Ручки не хиленькие? Спинка не отвалится у тебя? Тащи его к южному хутору.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Окей, попробую донести. Кастет говорил, что у вас и для него есть товар",
+          "stage_id": "231",
+          "condition": {}
+        }
+      ],
+      "actions": {
+    }
+    },
+    {
+      "id": 231,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Cт.сержант Подгорный",
+      "message": "Получен предмет:Самогонный аппарат, ящик для Кастета",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да, есть тут боезапас. Если б ты не сказал, то пришел бы к нему ни с чем, он бы тебе яички оторвал, в рот бы засунул. Хехе-хе-хе… Бери. Смотри! Если узнаю, что ваши шакалята на Кордоне в военных с этих боеприпасов стреляют, то я вас со своим стрелковым взводом найду быстро.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я понял",
+          "stage_id": "232",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add":["quest_samagon_device", "quest_samagon_box"]
+    }
+    },
+    {
+      "id": 232,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Cт.сержант Подгорный",
+      "message": "Получен предмет:Самогонный аппарат, ящик для Кастета",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да, есть тут боезапас. Если б ты не сказал, то пришел бы к нему ни с чем, он бы тебе яички оторвал, в рот бы засунул. Хехе-хе-хе… Бери. Смотри! Если узнаю, что ваши шакалята на Кордоне в военных с этих боеприпасов стреляют, то я вас со своим стрелковым взводом найду быстро.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я понял",
+          "stage_id": "233",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add":["quest_samagon_device", "quest_samagon_box"]
+    }
+    },
+    {
+      "id": 233,
+      "type_stage": 4,
+      "data": {
+        "map": "5",
+        "pos": "147:223"
+      }
     }
   ]
 }
