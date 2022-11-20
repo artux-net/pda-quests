@@ -6204,8 +6204,163 @@
       "id": 232,
       "type_stage": 4,
       "data": {
-        "map": "5",
-        "pos": "147:223"
+        "map": "1",
+        "pos": "506:576"
+      }
+    },
+    {
+      "id": 233,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "С чем пришёл?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Вот держи. Веселый мужик этот твой старший сержантик. Боевичок еще тот: днем - как на параде, вечером – под шафе",
+          "stage_id": "234",
+          "condition": {}
+        }
+      ],
+      "actions": {
+    }
+    },
+    {
+      "id": 234,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Кастет",
+      "message": "Потерян предмет:Ящик для Кастета",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну а чего ты думал, блин? Наша служба и опасна и трудна, и на первый взгляд как-будто не видна… Ну ты понимаешь.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Доволен?",
+          "stage_id": "235",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove":["quest_samagon_box"]
+    }
+    },
+    {
+      "id": 235,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Кастет",
+      "message": "Потерян предмет:Ящик для Кастета. Получен предмет:1500р, 7Н1 7.62x54 50шт",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Дыыаа. Патрончики, мои патрончики. Это сейчас они у меня, а в моей голове, в моих планах они уже разошлись по базе Свободы, Бармену в лапы, даже Чистонебовцам перепадает. А тебе положено за труды!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо",
+          "stage_id": "222",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "1500"
+        ],
+        "xp": [
+          "20"
+        ],
+        "add":[
+          "44:50"
+        ]
+    }
+    },
+    {
+      "id": 236,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Военный",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Стоять! Кто такой?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Посылка от Подгорного",
+          "stage_id": "237",
+          "condition": {}
+        }
+      ],
+      "actions": {
+    }
+    },
+    {
+      "id": 237,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Военный",
+      "message": "Потерян предмет:Самогонный аппарат",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Молодец, теперь чеши отсюда по быстрому. А про аппарат никому!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Счастливо",
+          "stage_id": "238",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove":["quest_samagon_device"],
+        "xp":["20"]
+    }
+    },
+    {
+      "id": 238,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "1202:1497"
       }
     }
   ]
