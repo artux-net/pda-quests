@@ -2,7 +2,7 @@
   {
     "title":"Дойти до Еврея",
     "name":"PROLOG_EVREY",
-    "checkponts":[
+    "checkpoints":[
       {
         "title":"Поговорить с Максимом Матерым",
         "parameter":"",
@@ -16,7 +16,7 @@
         "stage":""
       },{
         "title":"Идти на свалку",
-        "parameter":"go_to_the_cumminist",
+        "parameter":"go_to_the_cummunist",
         "chapter":"",
         "stage":""
       }
