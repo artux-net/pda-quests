@@ -6207,6 +6207,97 @@
         "map": "5",
         "pos": "147:223"
       }
+    },
+    {
+      "id": 233,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "С чем пришёл?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Вот держи. Веселый мужик этот твой старший сержантик. Боевичок еще тот: днем - как на параде, вечером – под шафе",
+          "stage_id": "234",
+          "condition": {}
+        }
+      ],
+      "actions": {
+    }
+    },
+    {
+      "id": 234,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Кастет",
+      "message": "Потерян предмет:Ящик для Кастета",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну а чего ты думал, блин? Наша служба и опасна и трудна, и на первый взгляд как-будто не видна… Ну ты понимаешь.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Доволен?",
+          "stage_id": "235",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove":["quest_samagon_box"]
+    }
+    },
+    {
+      "id": 235,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Кастет",
+      "message": "Потерян предмет:Ящик для Кастета",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Дыыаа. Патрончики, мои патрончики. Это сейчас они у меня, а в моей голове, в моих планах они уже разошлись по базе Свободы, Бармену в лапы, даже Чистонебовцам перепадает. А тебе положено за труды!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо",
+          "stage_id": "222",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "1000"
+        ],
+        "xp": [
+          "20"
+        ],
+        "add":[
+          "44:50"
+        ]
+    }
     }
   ]
 }
