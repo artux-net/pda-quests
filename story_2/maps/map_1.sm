@@ -168,7 +168,9 @@
                 "chapter": "2",
                 "stage": "233"
             },
-            "condition": {}
+            "condition": { 
+                "has":["quest_samagon_box"] 
+            }
         },
         {
             "type": "7",
