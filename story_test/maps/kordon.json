@@ -36,8 +36,8 @@
             "id": "0",
             "n": "10",
             "r": "30",
-            "group":"MILITARY",
-            "pos": "436:775",
+            "group":"BANDITS",
+            "pos": "171:873",
             "data":{
                "alwaysIgnored":[]
             }
