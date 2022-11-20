@@ -162,9 +162,9 @@
                 "chapter": "2",
                 "stage": "202"
             },
-            "condition": {"!has": [
-                "quest_samagon_1"
-            ]}
+            "condition": {
+                "!has": ["quest_samagon_1"]
+            }
         }
     ],
     "transfers": [],
