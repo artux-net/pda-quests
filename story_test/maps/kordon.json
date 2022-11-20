@@ -35,15 +35,10 @@
         {
             "id": "0",
             "n": "10",
- test
             "r": "30",
             "group":"MILITARY",
             "pos": "548:813",
 
-            "r": "30",
-            "group":"MILITARY",
-            "pos": "548:813",
-main
             "data":{
                "untarget":[]
             }
