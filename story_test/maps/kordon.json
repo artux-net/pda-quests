@@ -35,9 +35,15 @@
         {
             "id": "0",
             "n": "10",
-            "r": "40",
+ test
+            "r": "30",
             "group":"MILITARY",
-            "pos": "500:500",
+            "pos": "548:813",
+
+            "r": "30",
+            "group":"MILITARY",
+            "pos": "548:813",
+main
             "data":{
                "untarget":[]
             }
