@@ -6931,7 +6931,7 @@
     "type_stage": 0,
     "background_url": "story/prologue/screen/chapter_2_21.jpg",
     "title": "Сидорович",
-    "message": "",
+    "message": "Выполенен квест:Принести чемодан Сидоровичу. Потерян предмет:Закрытый чемодан",
     "type_message": 0,
     "texts": [
       {
@@ -6951,6 +6951,7 @@
       }
     ],
     "actions": {
+      "remove": ["quest_kastet_chemodan"]
     }
   },
   {
@@ -6979,6 +6980,62 @@
     ],
     "actions": {
       "add": ["quest_kastet_konvert"]
+    }
+  },
+  {
+    "id": 261,
+    "type_stage": 0,
+    "background_url": "story/prologue/screen/chapter_2_21.jpg",
+    "title": "Кастет",
+    "message": "",
+    "type_message": 0,
+    "texts": [
+      {
+        "text": "С чем пожаловал?",
+        "condition": {}
+      },
+      {
+        "text": "",
+        "condition": {}
+      }
+    ],
+    "transfers": [
+      {
+        "text": "Отнес я твой чемодан, держи от торговца конверт, он просил передать",
+        "stage_id": "262",
+        "condition": {}
+      }
+    ],
+    "actions": {
+    }
+  },
+  {
+    "id": 262,
+    "type_stage": 0,
+    "background_url": "story/prologue/screen/chapter_2_21.jpg",
+    "title": "Кастет",
+    "message": "",
+    "type_message": 0,
+    "texts": [
+      {
+        "text": "Молодец. Передохни, выпей.",
+        "condition": {}
+      },
+      {
+        "text": "",
+        "condition": {}
+      }
+    ],
+    "transfers": [
+      {
+        "text": "Отнес я твой чемодан, держи от торговца конверт, он просил передать",
+        "stage_id": "262",
+        "condition": {}
+      }
+    ],
+    "actions": {
+      "remove": ["quest_kastet_konvert"],
+      "xp": ["200000"]
     }
   }
   ]
