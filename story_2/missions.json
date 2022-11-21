@@ -4,7 +4,7 @@
       "name":"QUEST_SAMAGON",
       "checkpoints": [
         {
-          "title":"Передать припасы военным",
+          "title":"Доставить припасы военным",
           "parameter":"quest_samagon_1",
           "chapter":"",
           "stage":""

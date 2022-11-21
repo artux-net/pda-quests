@@ -5922,7 +5922,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/47.jpg",
       "title": "Кастет",
-      "message": "Получен предмет:Припасы для военных",
+      "message": "Новый квест:Доставить припасы военным. Получен предмет:Припасы для военных",
       "type_message": 0,
       "texts": [
         {
@@ -6041,7 +6041,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/48.jpg",
       "title": "Cт.сержант Подгорный",
-      "message": "Потерян предмет:Припасы для военных",
+      "message": "Выполнен квест:Доставить припасы военным. Потерян предмет:Припасы для военных",
       "type_message": 0,
       "texts": [
         {
@@ -6062,8 +6062,8 @@
       ],
       "actions": {
         "remove": ["quest_samagon_1"],
-        "add": ["quest_samagon_end"]
-    }
+        "add": ["quest_samagon_start"]
+      }
     },
     {
       "id": 227,
@@ -6178,7 +6178,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/48.jpg",
       "title": "Cт.сержант Подгорный",
-      "message": "Получен предмет:Самогонный аппарат, ящик для Кастета",
+      "message": "Новый квест:Передать посылку Кастету, передать аппарат военным. Получен предмет:Самогонный аппарат, ящик для Кастета",
       "type_message": 0,
       "texts": [
         {
@@ -6241,7 +6241,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/48.jpg",
       "title": "Кастет",
-      "message": "Потерян предмет:Ящик для Кастета",
+      "message": "Выполнен квест:Передать посылку Кастету. Потерян предмет:Ящик для Кастета",
       "type_message": 0,
       "texts": [
         {
@@ -6261,7 +6261,8 @@
         }
       ],
       "actions": {
-        "remove":["quest_samagon_box"]
+        "remove":["quest_samagon_box", "quest_samagon_start"],
+        "add": ["quest_samagon_end"]
     }
     },
     {
@@ -6332,7 +6333,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/48.jpg",
       "title": "Военный",
-      "message": "Потерян предмет:Самогонный аппарат",
+      "message": "Выполенен квест:Передать аппарат военным. Потерян предмет:Самогонный аппарат",
       "type_message": 0,
       "texts": [
         {
@@ -6363,6 +6364,255 @@
         "map": "5",
         "pos": "147:237"
       }
+    },
+    {
+      "id": 239,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "За чем пожаловал?",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Есть работа?",
+          "stage_id": "240",
+          "condition": {}
+        }
+      ],
+      "actions": {
     }
+    },
+    {
+      "id": 240,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Есть тут задание для тебя. Мне не хватает времени все собрать. Бармен заказал у меня поставить ему любой крепкий алкоголь в большом количестве. Я подключил было дело оптовиков, но у них цены не такие уж и низкие, морока не стоит «моржи». Поскреб по предприятиям, выторговал, что мог, но количества не хватает. Еще сотню литров как минимум нужно достать. Предприятия на такой малый литраж партию не отпустят…",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ого сколько пойла тебе нужно. Весь Росток хочется напоить?",
+          "stage_id": "241",
+          "condition": {}
+        }
+      ],
+      "actions": {
+    }
+    },
+    {
+      "id": 241,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/48.jpg",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да мне плевать кого и как Бармену нужно будет напоить, мне нужно с кровью этот заказ выполнить. Это же Бармен! Срока осталось полторы недели…",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Но где взять столько спирного?",
+          "stage_id": "242",
+          "condition": {}
+        }
+      ],
+      "actions": {
+    }
+  },
+  {
+    "id": 242,
+    "type_stage": 0,
+    "background_url": "story/freeplay/screen/48.jpg",
+    "title": "Кастет",
+    "message": "",
+    "type_message": 0,
+    "texts": [
+      {
+        "text": "Он сказал, что вообще не важно, что за алкоголь. Важно, чтобы он был крепкий и не паленый. Придется самому нагнать, причем это дожна быть очень крупная перегонка за раз.",
+        "condition": {}
+      },
+      {
+        "text": "",
+        "condition": {}
+      }
+    ],
+    "transfers": [
+      {
+        "text": "Почему все так масштабно?",
+        "stage_id": "243",
+        "condition": {}
+      }
+    ],
+    "actions": {
+    }
+  },
+  {
+    "id": 243,
+    "type_stage": 0,
+    "background_url": "story/freeplay/screen/48.jpg",
+    "title": "Кастет",
+    "message": "",
+    "type_message": 0,
+    "texts": [
+      {
+        "text": "Сам понимаешь перекупать у Сидоровича или у других барыг крайне убыточно. Здесь ЗОНА, братан! Каждый зорко следит за возможностю нажиться друг на друге.",
+        "condition": {}
+      },
+      {
+        "text": "",
+        "condition": {}
+      }
+    ],
+    "transfers": [
+      {
+        "text": "Неее, имею ввиду другое. Ты решил алкозавод возвести за полторы недели?",
+        "stage_id": "244",
+        "condition": {}
+      }
+    ],
+    "actions": {
+    }
+  },
+  {
+    "id": 244,
+    "type_stage": 0,
+    "background_url": "story/freeplay/screen/48.jpg",
+    "title": "Кастет",
+    "message": "",
+    "type_message": 0,
+    "texts": [
+      {
+        "text": "Хм. Завод. А ведь мысль. Крупная перегонка нужна, поскольку я не успею все сделать за несколько этапов, брага не успеет забродить. Ну раза три настояться может. Но эти самые три раза за 11 дней должны либо в нескольких цистернах храниться, либо в огромном чане. Блин сколько всего нужно сделать… Вот тебе лопата, сходи накопай корней, я тебе отмечу на карте. Дуй в сторону Болот. Чем больше накопаешь, тем лучше. Да, и сюда не тащи, тащи к элеватору.",
+        "condition": {}
+      },
+      {
+        "text": "",
+        "condition": {}
+      }
+    ],
+    "transfers": [
+      {
+        "text": "Почему Бармен сам не нагонит себе остальное?",
+        "stage_id": "245",
+        "condition": {}
+      }
+    ],
+    "actions": {
+    }
+  },
+  {
+    "id": 245,
+    "type_stage": 0,
+    "background_url": "story/freeplay/screen/48.jpg",
+    "title": "Кастет",
+    "message": "",
+    "type_message": 0,
+    "texts": [
+      {
+        "text": "Потому, что я у него уже запряженный все это делать, дорогой ты мой! Ступай.",
+        "condition": {}
+      },
+      {
+        "text": "",
+        "condition": {}
+      }
+    ],
+    "transfers": [
+      {
+        "text": "Ладно, приду как накопаю",
+        "stage_id": "247",
+        "condition": {}
+      },
+      {
+        "text": "Не, стремное делишко, я отказвываюсь",
+        "stage_id": "246",
+        "condition": {}
+      }
+    ],
+    "actions": {
+    }
+  },
+  {
+    "id": 246,
+    "type_stage": 0,
+    "background_url": "story/freeplay/screen/48.jpg",
+    "title": "Кастет",
+    "message": "",
+    "type_message": 0,
+    "texts": [
+      {
+        "text": "Ну иди отсюда, надумаешь - приходи.",
+        "condition": {}
+      },
+      {
+        "text": "",
+        "condition": {}
+      }
+    ],
+    "transfers": [
+      {
+        "text": "Уйти",
+        "stage_id": "222",
+        "condition": {}
+      }
+    ],
+    "actions": {
+    }
+  },
+  {
+    "id": 247,
+    "type_stage": 0,
+    "background_url": "story/freeplay/screen/48.jpg",
+    "title": "Кастет",
+    "message": "Новый квест:Накопать корней",
+    "type_message": 0,
+    "texts": [
+      {
+        "text": "Вот и правильно.",
+        "condition": {}
+      },
+      {
+        "text": "",
+        "condition": {}
+      }
+    ],
+    "transfers": [
+      {
+        "text": "Уйти",
+        "stage_id": "222",
+        "condition": {}
+      }
+    ],
+    "actions": {
+      "add": ["quest_distillery_start"]
+    }
+  }
   ]
 }
