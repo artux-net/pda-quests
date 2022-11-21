@@ -5931,7 +5931,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/47.jpg",
       "title": "Кастет",
-      "message": "Новый квест:Доставить припасы военным. Получен предмет:Припасы для военных",
+      "message": "Новый квест:Доставить припасы военным",
       "type_message": 0,
       "texts": [
         {
@@ -6050,7 +6050,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/48.jpg",
       "title": "Cт.сержант Подгорный",
-      "message": "Выполнен квест:Доставить припасы военным. Потерян предмет:Припасы для военных",
+      "message": "Выполнен квест:Доставить припасы военным",
       "type_message": 0,
       "texts": [
         {
@@ -6187,7 +6187,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/48.jpg",
       "title": "Cт.сержант Подгорный",
-      "message": "Новый квест:Передать посылку Кастету, передать аппарат военным. Получен предмет:Самогонный аппарат, ящик для Кастета",
+      "message": "Новый квест:Передать посылку Кастету, передать аппарат военным",
       "type_message": 0,
       "texts": [
         {
@@ -6250,7 +6250,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/48.jpg",
       "title": "Кастет",
-      "message": "Выполнен квест:Передать посылку Кастету. Потерян предмет:Ящик для Кастета",
+      "message": "Выполнен квест:Передать посылку Кастету",
       "type_message": 0,
       "texts": [
         {
@@ -6279,7 +6279,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/48.jpg",
       "title": "Кастет",
-      "message": "Потерян предмет:Ящик для Кастета. Получен предмет:1500р, 7Н1 7.62x54 50шт",
+      "message": "Получен предмет:1500р, 7Н1 7.62x54 50шт",
       "type_message": 0,
       "texts": [
         {
@@ -6342,7 +6342,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/48.jpg",
       "title": "Военный",
-      "message": "Выполенен квест:Передать аппарат военным. Потерян предмет:Самогонный аппарат",
+      "message": "Выполенен квест:Передать аппарат военным",
       "type_message": 0,
       "texts": [
         {
@@ -6903,7 +6903,7 @@
     "type_stage": 0,
     "background_url": "story/freeplay/screen/48.jpg",
     "title": "Кастет",
-    "message": "Новый квест:Принести чемодан Сидоровичу. Получен предмет:Закрытый чемодан",
+    "message": "Новый квест:Принести чемодан Сидоровичу",
     "type_message": 0,
     "texts": [
       {
@@ -6931,7 +6931,7 @@
     "type_stage": 0,
     "background_url": "story/prologue/screen/chapter_2_21.jpg",
     "title": "Сидорович",
-    "message": "Выполенен квест:Принести чемодан Сидоровичу. Потерян предмет:Закрытый чемодан",
+    "message": "Выполенен квест:Принести чемодан Сидоровичу",
     "type_message": 0,
     "texts": [
       {
@@ -6959,7 +6959,7 @@
     "type_stage": 0,
     "background_url": "story/prologue/screen/chapter_2_21.jpg",
     "title": "Сидорович",
-    "message": "Новый квест:Отнести конверт Кастету. Получен предмет:Конверт",
+    "message": "Новый квест:Отнести конверт Кастету",
     "type_message": 0,
     "texts": [
       {
@@ -7014,7 +7014,7 @@
     "type_stage": 0,
     "background_url": "story/prologue/screen/chapter_2_21.jpg",
     "title": "Кастет",
-    "message": "",
+    "message": "Выполенен квест:Отнести конверт Кастету. Получен предмет:Энергетик",
     "type_message": 0,
     "texts": [
       {
