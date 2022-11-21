@@ -148,14 +148,15 @@
         },
         {
             "type": "3",
-            "name": "Кастет",
+            "name": "Кастет 2 квест",
             "pos": "1258:1614",
             "data": {
                 "chapter": "2",
                 "stage": "239"
             },
             "condition": {
-                "has": ["quest_samagon_end"]
+                "has": ["quest_samagon_end"],
+                "!has": ["quest_distillery_start"]
             }
         },
         {
@@ -268,6 +269,18 @@
             "n": "5",
             "r": "30",
             "pos": "1009:1668"
+        },
+        {
+            "group": "LONERS",
+            "strength": "MIDDLE",
+            "n": "4",
+            "r": "20",
+            "pos": "1285:1624",
+            "data": {
+                "ignorePlayer": [],
+                "immortal": [],
+                "alwaysIgnored": []
+            }
         }
     ]
 }
