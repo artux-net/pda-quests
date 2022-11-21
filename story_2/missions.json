@@ -1,6 +1,24 @@
 [
     {
-      "title":"Дойти до Кастета",
+      "title":"Знакомство с кастетом",
+      "name":"QUEST_KASTET_START",
+      "checkpoints": [
+        {
+          "title":"Доставить посылку Сидоровичу",
+          "parameter":"quest_kastet_chemodan",
+          "chapter":"",
+          "stage":""
+        },
+        {
+          "title":"Доставить конверт Кастету",
+          "parameter":"quest_kastet_konvert",
+          "chapter":"",
+          "stage":""
+        }
+      ]
+    },
+    {
+      "title":"Самогоноварение",
       "name":"QUEST_SAMAGON",
       "checkpoints": [
         {
