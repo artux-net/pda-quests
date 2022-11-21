@@ -6532,7 +6532,7 @@
     "type_stage": 0,
     "background_url": "story/freeplay/screen/48.jpg",
     "title": "Кастет",
-    "message": "Новый квест:Накопать корней",
+    "message": "",
     "type_message": 0,
     "texts": [
       {
@@ -6546,7 +6546,66 @@
     ],
     "transfers": [
       {
-        "text": "Ладно, приду как накопаю.",
+        "text": "Ладно, приду как накопаю",
+        "stage_id": "247",
+        "condition": {}
+      },
+      {
+        "text": "Не, стремное делишко, я отказвываюсь",
+        "stage_id": "246",
+        "condition": {}
+      }
+    ],
+    "actions": {
+    }
+  },
+  {
+    "id": 246,
+    "type_stage": 0,
+    "background_url": "story/freeplay/screen/48.jpg",
+    "title": "Кастет",
+    "message": "",
+    "type_message": 0,
+    "texts": [
+      {
+        "text": "Ну иди отсюда, надумаешь - приходи.",
+        "condition": {}
+      },
+      {
+        "text": "",
+        "condition": {}
+      }
+    ],
+    "transfers": [
+      {
+        "text": "Уйти",
+        "stage_id": "222",
+        "condition": {}
+      }
+    ],
+    "actions": {
+    }
+  },
+  {
+    "id": 247,
+    "type_stage": 0,
+    "background_url": "story/freeplay/screen/48.jpg",
+    "title": "Кастет",
+    "message": "Новый квест:Накопать корней",
+    "type_message": 0,
+    "texts": [
+      {
+        "text": "Вот и правильно.",
+        "condition": {}
+      },
+      {
+        "text": "",
+        "condition": {}
+      }
+    ],
+    "transfers": [
+      {
+        "text": "Уйти",
         "stage_id": "222",
         "condition": {}
       }
