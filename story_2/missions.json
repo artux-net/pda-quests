@@ -6,14 +6,14 @@
         {
           "title":"Доставить посылку Сидоровичу",
           "parameter":"quest_kastet_chemodan",
-          "chapter":"",
-          "stage":""
+          "chapter":"2",
+          "stage":"259"
         },
         {
           "title":"Доставить конверт Кастету",
           "parameter":"quest_kastet_konvert",
-          "chapter":"",
-          "stage":""
+          "chapter":"2",
+          "stage":"261"
         }
       ]
     },
@@ -24,19 +24,19 @@
         {
           "title":"Доставить припасы военным",
           "parameter":"quest_samagon_1",
-          "chapter":"",
-          "stage":""
+          "chapter":"2",
+          "stage":"223"
         },
         {
           "title":"Передать посылку Кастету",
           "parameter":"quest_samagon_box",
-          "chapter":"",
-          "stage":""
+          "chapter":"2",
+          "stage":"233"
         },
         {
           "title":"Передать аппарат военным",
           "parameter":"quest_samagon_device",
-          "chapter":"",
+          "chapter":"2",
           "stage":""
         }
       ]

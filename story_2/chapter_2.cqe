@@ -6985,7 +6985,7 @@
   {
     "id": 261,
     "type_stage": 0,
-    "background_url": "story/prologue/screen/chapter_2_21.jpg",
+    "background_url": "story/prologue/screen/chapter_2_20.jpg",
     "title": "Кастет",
     "message": "",
     "type_message": 0,
@@ -7012,7 +7012,7 @@
   {
     "id": 262,
     "type_stage": 0,
-    "background_url": "story/prologue/screen/chapter_2_21.jpg",
+    "background_url": "story/prologue/screen/chapter_2_20.jpg",
     "title": "Кастет",
     "message": "Выполенен квест:Отнести конверт Кастету. Получен предмет:Энергетик",
     "type_message": 0,
@@ -7028,7 +7028,7 @@
     ],
     "transfers": [
       {
-        "text": "Отнес я твой чемодан, держи от торговца конверт, он просил передать",
+        "text": "Уйти",
         "stage_id": "222",
         "condition": {}
       }
