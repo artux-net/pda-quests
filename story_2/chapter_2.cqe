@@ -6902,7 +6902,7 @@
     "id": 258,
     "type_stage": 0,
     "background_url": "story/freeplay/screen/48.jpg",
-    "title": "ПДА",
+    "title": "Кастет",
     "message": "Новый квест:Принести чемодан Сидоровичу. Получен предмет:Закрытый чемодан",
     "type_message": 0,
     "texts": [
@@ -7029,7 +7029,7 @@
     "transfers": [
       {
         "text": "Отнес я твой чемодан, держи от торговца конверт, он просил передать",
-        "stage_id": "262",
+        "stage_id": "222",
         "condition": {}
       }
     ],
