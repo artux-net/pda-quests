@@ -5951,7 +5951,7 @@
         }
       ],
       "actions": { 
-        "add":["quest_samagon_1"]
+        "add":["quest_samagon_1", "quest_samagon_start"]
       }
     },
     {
@@ -6070,8 +6070,7 @@
         }
       ],
       "actions": {
-        "remove": ["quest_samagon_1"],
-        "add": ["quest_samagon_start"]
+        "remove": ["quest_samagon_1"]
       }
     },
     {
@@ -7035,6 +7034,7 @@
     ],
     "actions": {
       "remove": ["quest_kastet_konvert"],
+      "add": ["quest_kastet_1_end"],
       "xp": ["200000"]
     }
   }
