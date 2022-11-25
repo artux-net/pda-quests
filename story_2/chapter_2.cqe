@@ -6973,7 +6973,7 @@
     "transfers": [
       {
         "text": "Уйти",
-        "stage_id": "222",
+        "stage_id": "9",
         "condition": {}
       }
     ],
