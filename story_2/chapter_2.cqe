@@ -5799,7 +5799,7 @@
     {
       "id": 216,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/47.jpg",
+      "background_url": "static/story/freeplay/screen/47.jpg",
       "title": "Лыжник",
       "message": "",
       "type_message": 0,
@@ -6922,7 +6922,7 @@
       }
     ],
     "actions": {
-      "add": ["quest_kastet_chemodan"]
+      "add": ["quest_kastet_chemodan", "quest_kastet_start"]
     }
   },
   {
@@ -7033,7 +7033,7 @@
       }
     ],
     "actions": {
-      "remove": ["quest_kastet_konvert"],
+      "remove": ["quest_kastet_konvert", "querst_kastet_start"],
       "add": ["quest_kastet_1_end"],
       "xp": ["200000"]
     }

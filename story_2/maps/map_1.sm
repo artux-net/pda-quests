@@ -143,11 +143,11 @@
                 "stage": "248"
             },
             "condition": {
-                "!has": ["quest_kastet_chemodan", "quest_kastet_1_end"]
+                "!has": ["quest_kastet_start", "quest_kastet_1_end"]
             }
         },
         {
-            "type": "3",
+            "type": "1",
             "name": "Кастет, начало, возращение от Сидоровича",
             "pos": "1258:1614",
             "data": {
@@ -168,7 +168,7 @@
             },
             "condition": {
                 "has": ["quest_kastet_1_end"],
-                "!has": ["quest_samagon_end", "quest_samagon_start"]
+                "!has": ["quest_samagon_start", "quest_samagon_end"]
             }
         },
         {
@@ -184,7 +184,7 @@
             }
         },
         {
-            "type": "3",
+            "type": "1",
             "name": "Кастет, самагон, возращение",
             "pos": "1258:1614",
             "data": {
@@ -192,7 +192,19 @@
                 "stage": "233"
             },
             "condition": { 
-                "has":["quest_samagon_box"],
+                "has":["quest_samagon_box"]
+            }
+        },
+        {
+            "type": "3",
+            "name": "Кастет, самагонозавод, начало",
+            "pos": "1258:1614",
+            "data": {
+                "chapter": "2",
+                "stage": "239"
+            },
+            "condition": {
+                "has": ["quest_samagon_end"],
                 "!has": ["quest_distillery_start"]
             }
         },
