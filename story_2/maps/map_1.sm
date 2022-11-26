@@ -159,6 +159,19 @@
             }
         },
         {
+            "type": "1",
+            "name": "Кастет, плети косу из ниточек",
+            "pos": "1258:1614",
+            "data": {
+                "chapter": "2",
+                "stage": "263"
+            },
+            "condition": {
+                "has": ["quest_kastet_1_end"],
+                "!has": ["quest_kastet_findstalker"]
+            }
+        },
+        {
             "type": "3",
             "name": "Кастет, самагон, старт",
             "pos": "1258:1614",
@@ -167,7 +180,7 @@
                 "stage": "214"
             },
             "condition": {
-                "has": ["quest_kastet_1_end"],
+                "has": ["quest_kastet_find_stalker_end"],
                 "!has": ["quest_samagon_start", "quest_samagon_end"]
             }
         },
