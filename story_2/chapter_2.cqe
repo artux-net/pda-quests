@@ -7394,7 +7394,7 @@
     "id": 276,
     "type_stage": 0,
     "background_url": "",
-    "title": "Леха Нахрап",
+    "title": "Неизвестный сталкер",
     "message": "",
     "type_message": 0,
     "texts": [
@@ -7449,12 +7449,45 @@
     ],
     "transfers": [
       {
-        "text": "Так бросай все, пошли вместе обратно на Кордон, поешь, отмоешься от грязи",
-        "stage_id": "278",
+        "text": "Ого, как же тебе помочь?",
+        "stage_id": "279",
         "condition": {}
       }
     ],
     "actions": {}
+  },
+  {
+    "id": 279,
+    "type_stage": 0,
+    "background_url": "",
+    "title": "Леха Нахрап",
+    "message": "",
+    "type_message": 0,
+    "texts": [
+      {
+        "text": "Ключ от ошейника, так же как и детонатор, находится у главаря, сходи к нему и возьми ключ.",
+        "condition": {}
+      }
+    ],
+    "transfers": [
+      {
+        "text": "Ладно, пойду поговорю с ними.",
+        "stage_id": "280",
+        "condition": {}
+      }
+    ],
+    "actions": {
+      "add": ["quest_kastet_findstalker_true"],
+      "remove": ["quest_kastet_findstalker"]
+    }
+  },
+  {
+    "id": 280,
+    "type_stage": 4,
+    "data": {
+      "map": "2",
+      "pos": "633:516"
+    }
   }
   ]
 }
