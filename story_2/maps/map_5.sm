@@ -22,6 +22,18 @@
       },
       {
         "type": "1",
+        "name": "Ферма",
+        "pos": "250:99",
+        "data": {
+          "chapter": "2",
+          "stage": "281"
+        },
+        "condition": {
+          "has": ["quest_kastet_findstalker_true"]
+        }
+      },
+      {
+        "type": "1",
         "name": "Передать аппарат военным",
         "pos": "147:237",
         "data": {
