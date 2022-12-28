@@ -1,0 +1,25 @@
+[
+    {
+      "title":"Дойти до Еврея",
+      "name":"PROLOG_EVREY",
+      "checkpoints":[
+        {
+          "title":"Поговорить с Максимом Матерым",
+          "parameter":"",
+          "chapter":"",
+          "stage":""
+        },
+        {
+          "title":"Передать информацию Даниилу на Кордоне",
+          "parameter":"kill_bill",
+          "chapter":"",
+          "stage":""
+        },{
+          "title":"Идти на свалку",
+          "parameter":"kill_bill2",
+          "chapter":"",
+          "stage":""
+        }
+      ]
+    }
+  ]
