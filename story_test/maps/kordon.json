@@ -34,12 +34,15 @@
     "spawns": [
         {
             "id": "0",
-            "n": "10",
+            "n": "3",
             "r": "30",
             "group":"BANDITS",
             "pos": "171:873",
             "data":{
                "hide":[]
+            },
+            "actions":{
+               "add":["kill_bill"] 
             }
         },
         {
