@@ -28,7 +28,25 @@
             "condition": {
                 "has":["kill_bill"]
             }
+        },
+        {
+            "type": "4",
+            "name": "Продавец",
+            "pos": "250:640",
+            "data": {
+                "seller": "0"
+            }
+        },
+        {
+            "type": "4",
+            "name": "Точка выдачи оружия и денег",
+            "pos": "250:680",
+            "data": {
+                "chapter": "1",
+                "stage":6
+            }
         }
+
     ],
     "transfers": [],
     "spawns": [
