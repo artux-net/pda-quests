@@ -7588,38 +7588,11 @@
       "actions": {}
     },
     {
-      "id": 284,
-      "type_stage": 0,
-      "background_url": "",
-      "title": "Серега Репка",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "А знаешь? Ты мне нравишься, сталкер. Никто почти из вашего стада не проявляет должного уважения к братве, корчат из себя храбрых ломовых баранов! 5000 деревянных за ключ от ошейника.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "text": "По рукам",
-          "stage_id": "285",
-          "condition": {}
-        },
-        {
-          "text": "Ну уж нет, сегодня маслины по акции",
-          "stage_id": "286",
-          "condition": {}
-        }
-      ],
-      "actions": {}
-    },
-    {
       "id": 285,
       "type_stage": 0,
       "background_url": "",
       "title": "Серега Репка",
-      "message": ". Получен предмет:Ключ от ошейника. Потеряно:5000 рублей.",
+      "message": "Получен предмет:Ключ от ошейника. Потеряно:5000 рублей.",
       "type_message": 0,
       "texts": [
         {
@@ -7636,7 +7609,7 @@
       ],
       "actions": {
         "add": [
-          "quest_kastet_key"
+          "quest_kastet_findstalker_key"
         ]
       }
     },
@@ -7644,8 +7617,8 @@
       "id": 286,
       "type_stage": 4,
       "data": {
-        "map": "1",
-        "pos": "299:514"
+        "map": "5",
+        "pos": "250:99"
       },
       "actions": {
         "add": [
@@ -7657,8 +7630,8 @@
       "id": 287,
       "type_stage": 4,
       "data": {
-        "map": "1",
-        "pos": "299:514"
+        "map": "5",
+        "pos": "250:99"
       }
     },
     {
@@ -7705,10 +7678,10 @@
       ],
       "actions": {
         "remove": [
-          "quest_kastet_key"
+          "quest_kastet_findstalker_key", "quest_kastet_findstalker_start"
         ],
         "add": [
-          "quest_kastet_key_end"
+          "quest_kastet_findstalker_end"
         ]
       }
     }

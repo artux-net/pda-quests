@@ -80,7 +80,7 @@
     {
       "type": "3",
       "name": "Найти сталкера",
-      "pos": "633:516",
+      "pos": "605:485",
       "data": {
         "chapter": "2",
         "stage": "275"
@@ -94,14 +94,14 @@
     {
       "type": "3",
       "name": "Вернуться к сталкеру",
-      "pos": "633:516",
+      "pos": "605:485",
       "data": {
         "chapter": "2",
         "stage": "288"
       },
       "condition": {
         "has": [
-          "quest_kastet_key"
+          "quest_kastet_findstalker_key"
         ]
       }
     },

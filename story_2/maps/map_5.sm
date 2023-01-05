@@ -81,7 +81,6 @@
         "pos": "1722:1115"
       },
       {
-        "ignorePlayer": "true",
         "group": "BANDITS",
         "strength": "MIDDLE",
         "n": "3",
@@ -91,10 +90,12 @@
           "!has": [
             "quest_kastet_lox_bez_deneg"
           ]
+        },
+        "data":{
+          "ignorePlayer":[]
         }
       },
       {
-        "ignorePlayer": "false",
         "group": "BANDITS",
         "strength": "MIDDLE",
         "n": "3",
@@ -106,7 +107,7 @@
           ]
         },
         "actions": {
-          "add":["quest_kastet_key"],
+          "add":["quest_kastet_findstalker_key"],
           "remove":["quest_kastet_lox_bez_deneg"] 
        }
       },
