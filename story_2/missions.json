@@ -49,19 +49,19 @@
           "title":"Найти новичка",
           "parameter":"quest_kastet_findstalker",
           "chapter":"2",
-          "stage":"223"
+          "stage":"275"
         },
         {
           "title":"Получить ключ от бандитов",
           "parameter":"quest_kastet_findstalker_true",
           "chapter":"2",
-          "stage":"233"
+          "stage":"281"
         },
         {
           "title":"Вернуться к новичку",
-          "parameter":"quest_samagon_device",
+          "parameter":"quest_kastet_findstalker_key",
           "chapter":"2",
-          "stage":""
+          "stage":"288"
         }
       ]
     }

@@ -7610,6 +7610,9 @@
       "actions": {
         "add": [
           "quest_kastet_findstalker_key"
+        ],
+        "remove":[
+          "quest_kastet_findstalker_true"
         ]
       }
     },
@@ -7623,6 +7626,9 @@
       "actions": {
         "add": [
           "quest_kastet_lox_bez_deneg"
+        ],
+        "remove":[
+          "quest_kastet_findstalker_true"
         ]
       }
     },
@@ -7656,6 +7662,7 @@
       ],
       "actions": {}
     },
+
     {
       "id": 289,
       "type_stage": 0,
@@ -7678,11 +7685,59 @@
       ],
       "actions": {
         "remove": [
-          "quest_kastet_findstalker_key", "quest_kastet_findstalker_start"
+          "quest_kastet_findstalker_key"
         ],
         "add": [
-          "quest_kastet_findstalker_end"
+          "quest_kastet_findstalker_pre_end"
         ]
+      }
+    },
+    {
+      "id": 290,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "ПДА",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "У лагеря, Лыжнику обо всем отчитывается Нахрап. Завидев вас, Кастет улыбается и подзывает к себе на разговор.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ну вот и боец твой, Кастет! Хорошо, что жив",
+          "stage_id": "291",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 291,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "ПДА",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну молодцом, ну молодцом! Я все знаю, урки бедолагу схватили, и на каторку помоечную запрягли. Ты протянул руку помощи Лехе, он счастливый ходит до розовых соплей. Держи, достойная оплата думаю.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "",
+          "stage_id": "291",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": ["10000"],
+        "add":["84:2", "quest_kastet_findstalker_end"],
+        "remove":["quest_kastet_findstalker_pre_end"]
       }
     }
   ]
