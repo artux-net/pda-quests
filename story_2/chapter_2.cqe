@@ -7619,7 +7619,7 @@
       "type_stage": 0,
       "background_url": "",
       "title": "Серега Репка",
-      "message": "Потеряно:5000 рублей.",
+      "message": ". Получен предмет:Ключ от ошейника. Потеряно:5000 рублей.",
       "type_message": 0,
       "texts": [
         {
@@ -7635,7 +7635,10 @@
         }
       ],
       "actions": {
-        "add": ["quest_kastet_key"]
+        "add": [
+          "quest_kastet_key"
+        ],
+        "xp": 20
       }
     },
     {
@@ -7646,7 +7649,68 @@
         "pos": "299:514"
       },
       "actions": {
-        "add": ["quest_kastet_lox_bez_deneg"]
+        "add": [
+          "quest_kastet_lox_bez_deneg"
+        ]
+      }
+    },
+    {
+      "id": 287,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "299:514"
+      }
+    },
+    {
+      "id": 288,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Леха Нахрап",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Привет, сталкер, получилось достать ключ?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да, вот держи",
+          "stage_id": "289",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 289,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Леха Нахрап",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Спасибо тебе огромное, как вернусь к Кастету, замолвлю за тебя словечко обещаю!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо, удачи тебе!",
+          "stage_id": "280",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "quest_kastet_key"
+        ],
+        "add": [
+          "quest_kastet_key_end"
+        ]
       }
     }
   ]
