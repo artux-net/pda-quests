@@ -22,6 +22,18 @@
       },
       {
         "type": "1",
+        "name": "Ферма",
+        "pos": "250:99",
+        "data": {
+          "chapter": "2",
+          "stage": "281"
+        },
+        "condition": {
+          "has": ["quest_kastet_findstalker_true"]
+        }
+      },
+      {
+        "type": "1",
         "name": "Передать аппарат военным",
         "pos": "147:237",
         "data": {
@@ -67,6 +79,36 @@
         "n": "3",
         "r": "15",
         "pos": "1722:1115"
+      },
+      {
+        "ignorePlayer": "true",
+        "group": "BANDITS",
+        "strength": "MIDDLE",
+        "n": "3",
+        "r": "40",
+        "pos": "250:99",
+        "condition": {
+          "!has": [
+            "quest_kastet_lox_bez_deneg"
+          ]
+        }
+      },
+      {
+        "ignorePlayer": "false",
+        "group": "BANDITS",
+        "strength": "MIDDLE",
+        "n": "3",
+        "r": "40",
+        "pos": "250:99",
+        "condition": {
+          "has": [
+            "quest_kastet_lox_bez_deneg"
+          ]
+        },
+        "actions": {
+          "add":["quest_kastet_key"],
+          "remove":["quest_kastet_lox_bez_deneg"] 
+       }
       },
       {
         "group": "DUTY",
