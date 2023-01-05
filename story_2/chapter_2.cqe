@@ -7610,6 +7610,9 @@
       "actions": {
         "add": [
           "quest_kastet_findstalker_key"
+        ],
+        "remove":[
+          "quest_kastet_findstalker_true"
         ]
       }
     },
@@ -7623,6 +7626,9 @@
       "actions": {
         "add": [
           "quest_kastet_lox_bez_deneg"
+        ],
+        "remove":[
+          "quest_kastet_findstalker_true"
         ]
       }
     },
