@@ -7739,6 +7739,6 @@
         "add":["84:2", "quest_kastet_findstalker_end"],
         "remove":["quest_kastet_findstalker_pre_end"]
       }
-    },
+    }
   ]
 }
