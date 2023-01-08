@@ -205,6 +205,69 @@
                     "600"
                 ]
             }
+        },
+        ,
+        {
+            "id": 7,
+            "type_stage": 4,
+            "data": {
+                "map": 1,
+                "pos": "500:500"
+            },
+            "actions": {
+            }
+        },
+        {
+            "id": 8,
+            "type_stage": 0,
+            "background_url": "https://ipfs.pixura.io/ipfs/QmeyVETXA2PqNCXPeCpJYmWTdZvQAd8z4ouS9Pjw1NE5Ft",
+            "title": "Стадия на свалке",
+            "texts": [
+                {
+                    "text": "Здесь мы добавили параметр kill_bill, теперь заживем."
+                }
+            ],
+            "transfers": [
+                {
+                    "text": "Проверим на стадии которая была раньше.",
+                    "stage_id": "2"
+                }
+            ],
+            "actions": {
+                "add": [
+                    "kill_bill2"
+                ],
+                "remove": [
+                    "kill_bill"
+                ],
+                "force": []
+            }
+        },
+        {
+            "id": 7,
+            "type_stage": 0,
+            "background_url": "https://ipfs.pixura.io/ipfs/QmeyVETXA2PqNCXPeCpJYmWTdZvQAd8z4ouS9Pjw1NE5Ft",
+            "title": "Стадия на свалке",
+            "texts": [
+                {
+                    "text": "Здесь мы добавили параметр kill_bill, теперь заживем."
+                }
+            ],
+            "transfers": [
+                {
+                    "text": "Проверим на стадии которая была раньше.",
+                    "stage_id": "2"
+                }
+            ],
+            "actions": {
+                "add": [
+                    "kill_bill2"
+                ],
+                "remove": [
+                    "kill_bill"
+                ],
+                "force": []
+            }
         }
     ]
 }
