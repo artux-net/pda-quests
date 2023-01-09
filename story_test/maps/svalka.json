@@ -16,7 +16,7 @@
                 "stage": "8"
             },
             "condition": {
-                "has":"killed_bill"
+                "has":["killed_bill"]
             }
         }
     ],
