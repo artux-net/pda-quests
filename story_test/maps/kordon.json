@@ -79,7 +79,8 @@
                "hide":[]
             },
             "actions":{
-               "add":["killed_bill"] 
+               "add":["killed_bill"],
+               "remove":["kill_bill"]  
             },
             "condition":{
                 "has":["kill_bill"]
