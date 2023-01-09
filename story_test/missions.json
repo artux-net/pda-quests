@@ -5,13 +5,13 @@
       "checkpoints":[
         {
           "title":"Уничтожить группу бандитов рядом с лагерем новичков",
-          "parameter":"kill_bill",
+          "parameter":"killed_bill",
           "chapter":"",
           "stage":""
         },
         {
           "title":"Передать информацию Даниилу на Свалку",
-          "parameter":"killed_bill",
+          "parameter":"kill_bill",
           "chapter":"1",
           "stage":"8"
         },{
