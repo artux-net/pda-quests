@@ -4,21 +4,21 @@
       "name":"PROLOG_EVREY",
       "checkpoints":[
         {
-          "title":"Поговорить с Максимом Матерым",
-          "parameter":"",
+          "title":"Уничтожить группу бандитов рядом с лагерем новичков",
+          "parameter":"kill_bill",
           "chapter":"",
           "stage":""
         },
         {
-          "title":"Передать информацию Даниилу на Кордоне",
-          "parameter":"kill_bill",
+          "title":"Передать информацию Даниилу на Свалку",
+          "parameter":"killed_bill",
           "chapter":"1",
           "stage":"8"
         },{
-          "title":"Идти на свалку",
-          "parameter":"kill_bill2",
-          "chapter":"",
-          "stage":""
+          "title":"Доложить Стрелку",
+          "parameter":"talk_strelok",
+          "chapter":"1",
+          "stage":"9"
         }
       ]
     }

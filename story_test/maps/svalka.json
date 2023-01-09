@@ -15,7 +15,9 @@
                 "chapter": "1",
                 "stage": "8"
             },
-            "condition": {}
+            "condition": {
+                "has":"killed_bill"
+            }
         }
     ],
     "transfers": []
