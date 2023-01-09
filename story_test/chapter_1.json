@@ -234,10 +234,10 @@
             ],
             "actions": {
                 "add": [
-                    "kill_bill2"
+                    "talk_strelok"
                 ],
                 "remove": [
-                    "kill_bill"
+                    "killed_bill"
                 ],
                 "force": []
             }
