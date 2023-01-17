@@ -7718,7 +7718,7 @@
       "id": 291,
       "type_stage": 0,
       "background_url": "",
-      "title": "ПДА",
+      "title": "Кастет",
       "message": "",
       "type_message": 0,
       "texts": [
@@ -7739,6 +7739,29 @@
         "add":["84:2", "quest_kastet_findstalker_end"],
         "remove":["quest_kastet_findstalker_pre_end"]
       }
+    },
+    
+    {
+      "id": 292,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Привет, @name, за чем пришел?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Есть работа?",
+          "stage_id": "293",
+          "condition": {}
+        }
+      ],
+      "actions": {}
     }
   ]
 }
