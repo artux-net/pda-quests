@@ -5388,7 +5388,7 @@
         },
         {
           "text": "Схрон за 2000",
-          "stage_id": "192",
+          "stage_id": "300",
           "condition": {
             "!has": [
               "stash_2_0_start"
