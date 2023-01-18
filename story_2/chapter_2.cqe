@@ -5400,7 +5400,7 @@
         },
         {
           "text": "Схрон за 5000",
-          "stage_id": "300",
+          "stage_id": "192",
           "condition": {
             "!has": [
               "stash_3_0_start"
@@ -7611,7 +7611,7 @@
         "add": [
           "quest_kastet_findstalker_key"
         ],
-        "remove":[
+        "remove": [
           "quest_kastet_findstalker_true"
         ]
       }
@@ -7627,7 +7627,7 @@
         "add": [
           "quest_kastet_lox_bez_deneg"
         ],
-        "remove":[
+        "remove": [
           "quest_kastet_findstalker_true"
         ]
       }
@@ -7662,7 +7662,6 @@
       ],
       "actions": {}
     },
-
     {
       "id": 289,
       "type_stage": 0,
@@ -7735,12 +7734,18 @@
         }
       ],
       "actions": {
-        "money": ["10000"],
-        "add":["84:2", "quest_kastet_findstalker_end"],
-        "remove":["quest_kastet_findstalker_pre_end"]
+        "money": [
+          "10000"
+        ],
+        "add": [
+          "84:2",
+          "quest_kastet_findstalker_end"
+        ],
+        "remove": [
+          "quest_kastet_findstalker_pre_end"
+        ]
       }
     },
-    
     {
       "id": 292,
       "type_stage": 0,
@@ -7758,6 +7763,164 @@
         {
           "text": "Есть работа?",
           "stage_id": "293",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 293,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да, есть кое-что. Возьмешься за рискованное дело? Один прапор мне отправил сообщение с перечнем товаров. Немного лекарств, которые тяжело даже на большой земле найти. Но понимаешь, у меня такое правило для него: денежки вперед. То есть сначала он должен заплатить мне, потом уже я ему дам то, чего он просит.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо, вроде несложно, туда-обратно сгулять. В чем риск?",
+          "stage_id": "294",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 294,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Прапор тот на Агропроме, а тебе нужен пропуск на территорию военных там. Если через южное КПП можно как-то договориться за ящик водки, то там, допуск к базе имеют только ученые или их подрядчики. Сечешь фишку? Там строже все… И Военная полиция туда наведывается все проверяет зорко!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Как же быть?",
+          "stage_id": "295",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 295,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Кастет",
+      "message": "Получен квест:Получить пропуск",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Пойдешь сейчас до НИИ ЧАЗ, знакомый мой там работает, зовут его Вячеслав Анатольевич. Он тебе пропуск выпишет. Только он простых проходимцев бортует, есть пароль, по которому он может понять, что ты мой человек. Как встретишь его, скажешь такую фразу: «Не посоветуете, каких годов лучше консервы брать?». Он тебе ответит: «До нулевых годов толку от выбора нет, с унитаза не слезешь». Все понял?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да, хорошо",
+          "stage_id": "222",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_marafon_start"
+        ]
+      }
+    },
+    {
+      "id": 296,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Вячеслав Анатольевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Доброго дня, молодой человек, вы чего-то хотели?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Вячеслав Анатольевич?",
+          "stage_id": "297",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 297,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Вячеслав Анатольевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да? А вы кто, молодой человек?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я от нашего общего знакомого. Незнаю каких годов консервы выбрать. Не посоветуете?",
+          "stage_id": "298",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 298,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Вячеслав Анатольевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Чего? Откуда мне знать?!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ой простите, я обознался",
+          "stage_id": "299",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 299,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Вячеслав Анатольевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Походив по институту вы натыкаетесь на научного сотрудниками с вышитыми инициалами В.А.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Вячеслав Анатольевич, вы?",
+          "stage_id": "311",
           "condition": {}
         }
       ],
@@ -7793,6 +7956,492 @@
         }
       ],
       "actions": {}
+    },
+    {
+      "id": 311,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Вячеслав Анатольевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да, это я. А вы кто?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я от нашего общего знакомого. Не знаю каких годов консервы выбрать. Не посоветуете?",
+          "stage_id": "312",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 312,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Вячеслав Анатольевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "До нулевых годов толку от выбора нет, с унитаза не слезешь. Ты ведь от Кастета ко мне пришел?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да, мне нужен пропуск на базу военных в НИИ Агропром",
+          "stage_id": "313",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 313,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Вячеслав Анатольевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ого, вот запрос. Давай так, через пол часа пропуск будет готов. Хорошо?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо",
+          "stage_id": "314",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 314,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Вячеслав Анатольевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А денежку ты не забыл?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Денежку, какую?",
+          "stage_id": "315",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 315,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Вячеслав Анатольевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я на фею добрую не похожу внешностью. Пятьсот с тебя за пропуск.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Дежрите вашу денежку",
+          "stage_id": "316",
+          "condition": {
+            "money>=": [
+              "500"
+            ]
+          }
+        },
+        {
+          "text": "Как найду деньги, так занесу",
+          "stage_id": "317",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 316,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Вячеслав Анатольевич",
+      "message": "Потеряно денег: 500р, Квест выполнен:Получить пропуск",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, всё, держи пропуск.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо",
+          "stage_id": "317",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 317,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2374:947"
+      },
+      "actions": {
+        "remove": ["quest_kastet_marafon_start"],
+        "add": ["quest_kastet_marafon_prop_usk"]
+      }
+    },
+    {
+      "id": 318,
+      "type_stage": 0,
+      "background_url": "", 
+      "title": "Прапорщик Микелеев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "У КПП перед базой военных у вас проверяют пропуск, все сошлось. Вы спрашиваете как найти прапорщика Микелеева, вам сообщается, что он сейчас находится со своим патрулем в наряде в центральном лагере.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Здравстуйте, вы прапорщик Микелеев?",
+          "stage_id": "319",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 319,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Прапорщик Микелеев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Тебе чего?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я от Кастета",
+          "stage_id": "320",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 320,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Прапорщик Микелеев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вовремя прибыл, то-то мне голоса прокуроров из военной полиции по ночам мерещатся, чувствую что скоро всплывут мои дела. Принес лекарства?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Нет, я пришел передать от него, что сначала ты должен заплатить за товар",
+          "stage_id": "321",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 321,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Прапорщик Микелеев",
+      "message": "Новый квест:Принести предоплату Кастету",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ммм… Ну раз он так хочет, то пусть. Вот запечатанный конверт, скажи тут больше половины предоплата. Остальное получит, после поставки.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Давай, передам",
+          "stage_id": "322",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": ["quest_kastet_marafon_prop_usk"],
+        "add": ["quest_kastet_marafon_predoplata"]
+      }
+    },
+    {
+      "id": 323,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Кастет",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, как? Принёс деньги?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держи, это от прапора, он сказал тут больше половины предоплата, остальное получишь после того как поставишь ему лекарство",
+          "stage_id": "324",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 324,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Кастет",
+      "message": "Потерян предмет:Предоплата Микелеева",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Так и сказал? Хотя бы предоплата есть. Он заказал редкие медицинские препараты. Держи эту аптечку, передай ему, скажи там все, что он просил.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Окей",
+          "stage_id": "325",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": ["quest_kastet_marafon_predoplata"],
+        "add": ["quest_kastet_marafon_meds"]
+      }
+    },
+    {
+      "id": 325,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Кастет",
+      "message": "Получен предмет:Аптечный набор для Микелеева",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Так и сказал? Хотя бы предоплата есть. Он заказал редкие медицинские препараты. Держи эту аптечку, передай ему, скажи там все, что он просил.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Окей",
+          "stage_id": "222",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 326,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "КПП",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вы подходите к лагерю, на точке сидят пара вояк.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Есть тут кто? Не подскажите, куда пошел прапорщик Микелеев?",
+          "stage_id": "327",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 327,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Старший лейтенант Бибиков",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А кто спрашивает?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я из НИИ ЧАЗ передать посылку нужно",
+          "stage_id": "328",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 328,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Старший лейтенант Бибиков",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Прапорщик Микелеев подозревается в изготовлении и хранении наркотических средств. Скоро он отправится под следствие и предстанет перед военным судом, и ты к нему присоединишься, если не скажешь, что ты ему несешь. Итак?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я не знаю, мне сказали отнести посылку я принес. Особо не просветили",
+          "stage_id": "329",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 329,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Старший лейтенант Бибиков",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну тогда отдай мне ее. Ты слышал? Это арест!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "У меня медикаменты, прапорщик сказал, что эти лекартсва поставляются штурмовой группе, для лечения бойцов",
+          "stage_id": "330",
+          "condition": {}
+        },
+        {
+          "text": "Да, у меня тут медикаменты, для прапорщика, он через барыг заказывает перечень препаратов. Поставка идет с кордона",
+          "stage_id": "331",
+          "condition": {}
+        },
+        {
+          "text": "Да идите вы к чёрту!",
+          "stage_id": "332",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove":["quest_kastet_marafon_meds"],
+        "add": ["quest_kastet_marafon_pre_end"]
+      }
+    },
+    {
+      "id": 330,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Старший лейтенант Бибиков",
+      "message": "Потерян предмет:Аптечный набор",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Он тебе так сказал? Ладно, ступай, но коробку я забираю.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "У меня медикаменты, прапорщик сказал, что эти лекартсва поставляются штурмовой группе, для лечения бойцов",
+          "stage_id": "322",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": ["quest_kastet_marafon_lox_vrun"]
+      }
+    },
+    {
+      "id": 331,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Старший лейтенант Бибиков",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Интересно, очень полезная информация. Раскрутим это дело. Я заберу посылку, ступай. Держи за труды, благодарим за содействие Министерству Обороны!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "У меня медикаменты, прапорщик сказал, что эти лекартсва поставляются штурмовой группе, для лечения бойцов",
+          "stage_id": "322",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": ["quest_kastet_marafon_lox_no_ne_vrun"]
+      }
+    },
+    {
+      "id": 332,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Старший лейтенант Бибиков",
+      "message": "Потерян предмет:Аптечный набор",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ах ты сволочь, потеряйся с глаз моих!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Бой",
+          "stage_id": "322",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": ["quest_kastet_marafon_gigachad_1"]
+      }
     }
   ]
 }

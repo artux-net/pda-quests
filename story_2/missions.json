@@ -64,5 +64,35 @@
           "stage":"288"
         }
       ]
+    },
+    {
+      "title":"Плети косу из ниточек",
+      "name":"QUEST_KASTET_MARAFON",
+      "checkpoints": [
+        {
+          "title":"Получить пропуск",
+          "parameter":"quest_kastet_marafon_start",
+          "chapter":"2",
+          "stage":"296"
+        },
+        {
+          "title":"Передать информацию прапору",
+          "parameter":"quest_kastet_marafon_prop_usk",
+          "chapter":"2",
+          "stage":"318"
+        },
+        {
+          "title":"Принести предоплату Кастету",
+          "parameter":"quest_kastet_marafon_predoplata",
+          "chapter":"2",
+          "stage":"322"
+        },
+        {
+          "title":"Принести аптечный набор прапору",
+          "parameter":"quest_kastet_marafon_meds",
+          "chapter":"2",
+          "stage":"326"
+        }
+      ]
     }
 ]  

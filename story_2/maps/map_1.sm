@@ -169,6 +169,19 @@
             "condition": {
                 "has": ["quest_kastet_1_end"],
                 "!has": ["quest_kastet_findstalker"]
+            } 
+        },
+        {
+            "type": "1",
+            "name": "Кастет, марафон",
+            "pos": "1258:1614",
+            "data": {
+                "chapter": "2",
+                "stage": "292"
+            },
+            "condition": {
+                "has": ["quest_kastet_findstalker_end"],
+                "!has": ["quest_kastet_marafon_start"]
             }
         },
         {
