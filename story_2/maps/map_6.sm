@@ -4,6 +4,7 @@
 "texture":"maps/map_yantar.png",
 "boundsTexture":"maps/bounds_garbage_t.png",
 "blurTexture":"maps/blur.jpg",
+"tilesTexture":"maps/tiles/map_yantar.png",
 "defPos":"330:960",
 "points":[
 {

@@ -7783,7 +7783,7 @@
       "transfers": [
         {
           "text": "Беру",
-          "stage_id": "193",
+          "stage_id": "301",
           "condition": {}
         },
         {
@@ -7793,6 +7793,205 @@
         }
       ],
       "actions": {}
+    },
+    {
+      "id": 301,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "Новая заметка: Тайник на Дикой Территории. Потеряно денег: 2000р.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Проверяй заметки, как придёшь на Дикую Территорию, на карте увидишь метку тайника. Удачи, сталкер. ",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Увидел",
+          "stage_id": "301",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "note": [
+          "Тайник на Дикой Территории",
+          "...рюкзак мой лежит за профлистом, почти сразу как заходишь на дикую территорию, слева будет..."
+        ],
+        "add": [
+          "stash_2_0_start",
+          "stash_2_0"
+        ]
+      }
+    },
+    {
+      "id": 301,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Как всегда, если сильно не нужно будет - приноси, выкуплю.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо",
+          "stage_id": "191",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "-2000"
+        ],
+        "force": []
+      }
+    },
+    {
+      "id": 302,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Тайник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Осмотрите тайник.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Осмотреть",
+          "stage_id": "303",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        
+      }
+    },
+    {
+      "id": 302,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Тайник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Осмотрите тайник.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Осмотреть",
+          "stage_id": "303",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        
+      }
+    },
+    {
+      "id": 303,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Тайник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В тайнике: Аптечка х3, патроны 5.45х39 мм х30, Акм 74/2у.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Забрать",
+          "stage_id": "304",
+          "condition": {}
+        },
+        {
+          "text": "Уйти",
+          "stage_id": "305",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 304,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Тайник",
+      "message": "Получено: Аптечка х2, патроны 9х18 х30, Гадюка.",
+      "music": [
+        "5"
+      ],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Тайник пуст.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Уйти",
+          "stage_id": "305",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "84:2",
+          "11:1",
+          "38:30"
+        ],
+        "remove": [
+          "stash_2_0"
+        ]
+      }
+    },
+    {
+      "id": 305,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "951:1087"
+      }
     }
   ]
 }
