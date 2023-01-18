@@ -4,6 +4,7 @@
     "texture": "maps/map_darkvalley.png",
     "boundsTexture": "maps/bounds_garbage_t.png",
     "blurTexture": "maps/blur.jpg",
+    "tilesTexture":"maps/tiles/map_darkvalley.png",
     "defPos": "330:960",
     "points": [
       {
