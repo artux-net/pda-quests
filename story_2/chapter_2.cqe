@@ -7972,18 +7972,6 @@
         {
           "text": "",
           "condition": {}
-        },
-    {
-      "id": 311,
-      "type_stage": 0,
-      "background_url": "",
-      "title": "Вячеслав Анатольевич",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Да, это я. А вы кто?",
-          "condition": {}
         }
       ],
       "transfers": [
@@ -8001,7 +7989,186 @@
         "add": [
           "stash_2_0_start",
           "stash_2_0"
-            ],
+        ]
+      }
+    },
+    {
+      "id": 301,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Как всегда, если сильно не нужно будет - приноси, выкуплю.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо",
+          "stage_id": "191",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "-2000"
+        ],
+        "force": []
+      }
+    },
+    {
+      "id": 302,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Тайник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Осмотрите тайник.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Осмотреть",
+          "stage_id": "303",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        
+      }
+    },
+    {
+      "id": 302,
+      "type_stage": 0,
+      "background_url": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Тайник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Осмотрите тайник.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Осмотреть",
+          "stage_id": "303",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        
+      }
+    },
+    {
+      "id": 303,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Тайник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В тайнике: Аптечка х3, патроны 5.45х39 мм х30, Акм 74/2у.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Забрать",
+          "stage_id": "304",
+          "condition": {}
+        },
+        {
+          "text": "Уйти",
+          "stage_id": "305",
+          "condition": {}
+        }
+      ],
+      "actions": {}
+    },
+    {
+      "id": 304,
+      "type_stage": 0,
+      "background_url": "story/freeplay/screen/47.jpg",
+      "title": "Тайник",
+      "message": "Получено: Аптечка х2, патроны 9х18 х30, Гадюка.",
+      "music": [
+        "5"
+      ],
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Тайник пуст.",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Уйти",
+          "stage_id": "305",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "84:2",
+          "11:1",
+          "38:30"
+        ],
+        "remove": [
+          "stash_2_0"
+        ]
+      }
+    },
+    {
+      "id": 305,
+      "type_stage": 4,
+      "data": {
+        "map": "4",
+        "pos": "1178:1578"
+      }
+    },
+    {
+      "id": 311,
+      "type_stage": 0,
+      "background_url": "",
+      "title": "Вячеслав Анатольевич",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да, это я. А вы кто?",
+          "condition": {}
+        }
+      ],
       "transfers": [
         {
           "text": "Я от нашего общего знакомого. Не знаю каких годов консервы выбрать. Не посоветуете?",
@@ -8473,173 +8640,6 @@
       ],
       "actions": {
         "add": ["quest_kastet_marafon_gigachad_1"]
-      }
-    }
-  ]
-      }
-    },
-    {
-      "id": 301,
-      "type_stage": 0,
-      "background_url": "story/prologue/screen/chapter_2_21.jpg",
-      "title": "Сидорович",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Как всегда, если сильно не нужно будет - приноси, выкуплю.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "text": "Спасибо",
-          "stage_id": "191",
-          "condition": {}
-        }
-      ],
-      "actions": {
-        "money": [
-          "-2000"
-        ],
-        "force": []
-      }
-    },
-    {
-      "id": 302,
-      "type_stage": 0,
-      "background_url": "story/prologue/screen/chapter_2_21.jpg",
-      "title": "Тайник",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Осмотрите тайник.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "text": "Осмотреть",
-          "stage_id": "303",
-          "condition": {}
-        }
-      ],
-      "actions": {
-        
-      }
-    },
-    {
-      "id": 302,
-      "type_stage": 0,
-      "background_url": "story/prologue/screen/chapter_2_21.jpg",
-      "title": "Тайник",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Осмотрите тайник.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "text": "Осмотреть",
-          "stage_id": "303",
-          "condition": {}
-        }
-      ],
-      "actions": {
-        
-      }
-    },
-    {
-      "id": 303,
-      "type_stage": 0,
-      "background_url": "story/freeplay/screen/47.jpg",
-      "title": "Тайник",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "В тайнике: Аптечка х3, патроны 5.45х39 мм х30, Акм 74/2у.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "text": "Забрать",
-          "stage_id": "304",
-          "condition": {}
-        },
-        {
-          "text": "Уйти",
-          "stage_id": "305",
-          "condition": {}
-        }
-      ],
-      "actions": {}
-    },
-    {
-      "id": 304,
-      "type_stage": 0,
-      "background_url": "story/freeplay/screen/47.jpg",
-      "title": "Тайник",
-      "message": "Получено: Аптечка х2, патроны 9х18 х30, Гадюка.",
-      "music": [
-        "5"
-      ],
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Тайник пуст.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "text": "Уйти",
-          "stage_id": "305",
-          "condition": {}
-        }
-      ],
-      "actions": {
-        "add": [
-          "84:2",
-          "11:1",
-          "38:30"
-        ],
-        "remove": [
-          "stash_2_0"
-        ]
-      }
-    },
-    {
-      "id": 305,
-      "type_stage": 4,
-      "data": {
-        "map": "4",
-        "pos": "1178:1578"
       }
     }
   ]
