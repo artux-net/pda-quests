@@ -1,0 +1,61 @@
+{
+    "id":"8",
+    "title":"НИИ Агропром",
+    "texture":"maps/map_agroprom.png",
+    "boundsTexture":"maps/bounds_garbage_t.png",
+    "blurTexture":"maps/blur.jpg",
+    "tilesTexture":"maps/tiles/map_agroprom.png",
+    "defPos":"330:960",
+    "points":[
+    {
+    "type":"0",
+    "name": "Охранник",
+    "pos":"901:426",
+    "data":{
+    "chapter":"2",
+    "stage":"190"
+    },
+    "condition": 
+    {
+    
+              }
+    },
+    {
+        "type":"7",
+        "name": "Армейские склады - Бар",
+        "pos":"230:359",
+        "data":{
+        "chapter":"2",
+        "stage":"211"},
+        "condition": {
+    
+        }
+    }
+    ],
+    "transfers":[
+    ],
+    "spawns":[
+        {
+        "group":"DUTY",
+        "strength": "WEAK",
+        "n":"3",
+        "r":"15",
+        "pos":"1722:1115"
+        },
+    {
+        "group":"DUTY",
+        "strength": "WEAK",
+        "n":"8",
+        "r":"60",
+        "pos":"1647:1384"
+        },
+        {
+        "group":"BANDITS",
+        "strength": "WEAK",
+        "n":"7",
+        "r":"70",
+        "pos":"495:363"
+        }
+    ]
+    }
+    
