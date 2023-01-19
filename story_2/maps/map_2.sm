@@ -134,6 +134,16 @@
         "stage": "206"
       },
       "condition": {}
+    },
+    {
+      "type": "7",
+      "name": "Свалка - НИИ Агропром",
+      "pos": "160:713",
+      "data": {
+        "chapter": "2",
+        "stage": "306"
+      },
+      "condition": {}
     }
   ],
   "transfers": [],

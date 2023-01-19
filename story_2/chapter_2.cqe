@@ -5745,6 +5745,15 @@
       }
     },
     {
+      "id": 306,
+      "_comment": "Transfer Swalka-Agro",
+      "type_stage": 4,
+      "data": {
+        "map": "8",
+        "pos": "1042:691"
+      }
+    },
+    {
       "id": 214,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/47.jpg",
@@ -6343,7 +6352,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/48.jpg",
       "title": "Военный",
-      "message": "Выполенен квест:Передать аппарат военным",
+      "message": "Выполенен квест: Передать аппарат военным",
       "type_message": 0,
       "texts": [
         {
