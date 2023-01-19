@@ -1597,13 +1597,13 @@
       "transfers": [
         {
           "text": "...",
-          "stage_id": "218",
+          "stage_id": "10000",
           "condition": {}
         }
       ]
     },
     {
-      "id": 218,
+      "id": 10000,
       "type_stage": 4,
       "data": {
         "map": "1",
@@ -1611,7 +1611,7 @@
       }
     },
     {
-      "id": 555,
+      "id": 11000,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/20.jpg",
       "music": [
