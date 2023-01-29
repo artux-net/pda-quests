@@ -169,7 +169,7 @@
         },
         {
           "text": "Я бы хотел посмотреть ассортимент",
-          "stage_id": "6",
+          "stage_id": "307",
           "condition": {}
         },
         {
@@ -8061,34 +8061,6 @@
       }
     },
     {
-      "id": 302,
-      "type_stage": 0,
-      "background_url": "story/prologue/screen/chapter_2_21.jpg",
-      "title": "Тайник",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Осмотрите тайник.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "text": "Осмотреть",
-          "stage_id": "303",
-          "condition": {}
-        }
-      ],
-      "actions": {
-        
-      }
-    },
-    {
       "id": 303,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/47.jpg",
@@ -8649,6 +8621,13 @@
       ],
       "actions": {
         "add": ["quest_kastet_marafon_gigachad_1"]
+      }
+    },
+    {
+      "id": 307,
+      "type_stage": 5,
+      "data": {
+        "seller": "1"
       }
     }
   ]
