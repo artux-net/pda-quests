@@ -9,7 +9,7 @@
     "points": [
         {
             "type": "0",
-            "name": "Информация о истории, про параметры....",
+            "name": "Возвращение в сюжет",
             "pos": "450:500",
             "data": {
                 "chapter": "1",
@@ -28,18 +28,62 @@
             "condition": {
                 "has":["kill_bill"]
             }
+        },
+        {
+            "type": "4",
+            "name": "Продавец",
+            "pos": "250:640",
+            "data": {
+                "seller": "1"
+            }
+        },
+        {
+            "type": "5",
+            "name": "Тайник",
+            "pos": "250:680",
+            "data": {
+                "chapter": "1",
+                "stage":6
+            }
+        },
+        {
+            "type": "7",
+            "name": "Переход на Свалку",
+            "pos": "340:700",
+            "data": {
+                "chapter":1,
+                "stage":7
+            }
+        },
+        {
+            "type": "6",
+            "name": "Стрелок",
+            "pos": "280:700",
+            "data": {
+                "over": "",
+                "chapter":1,
+                "stage":9
+            }
         }
+
     ],
     "transfers": [],
     "spawns": [
         {
             "id": "0",
-            "n": "10",
+            "n": "3",
             "r": "30",
-            "group":"MILITARY",
-            "pos": "548:813",
+            "group":"BANDITS",
+            "pos": "171:873",
             "data":{
-               "untarget":[]
+               "hide":[]
+            },
+            "actions":{
+               "add":["killed_bill"],
+               "remove":["kill_bill"]  
+            },
+            "condition":{
+                "has":["kill_bill"]
             }
         },
         {

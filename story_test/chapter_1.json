@@ -90,11 +90,7 @@
                     "text": "Открыть карту",
                     "stage_id": "5"
                 }
-	    ],
-                "actions": {
-		                "add": ["1:1","14:1","71:1","29:24","40:90"],
-		                "money": ["600"]
-                }
+            ]
         },
         {
             "id": 2,
@@ -114,11 +110,11 @@
                     "stage_id": 5
                 },
                 {
-                    "text": "Это пример перехода без условий, который ведет на стадию с действиями, ниже должен быть еще переход если у тебя есть параметр kill_bill. ",
+                    "text": "Переход на стадию с добавлением kill_bill.",
                     "stage_id": "3"
                 },
                 {
-                    "text": "Есть параметр kill_bill, видимо нас ждут новые открытия в сюжете, перейдем в новую стадию!",
+                    "text": "Есть параметр kill_bill, его удаление.",
                     "stage_id": "4",
                     "condition": {
                         "has": [
@@ -131,11 +127,11 @@
         {
             "id": 3,
             "type_stage": 0,
-            "background_url": "story/prologue/screen/chapter_0_0.jpg",
+            "background_url": "https://ipfs.pixura.io/ipfs/QmeyVETXA2PqNCXPeCpJYmWTdZvQAd8z4ouS9Pjw1NE5Ft",
             "title": "Стадия, которая добавляет параметр",
             "texts": [
                 {
-                    "text": "Здесь мы добавили параметр kill_bill, теперь заживем."
+                    "text": "Здесь мы добавили параметр kill_bill игроку, на карте для него появятся новые точки. Force сразу выполнит действия, а не когда движок захочет."
                 }
             ],
             "transfers": [
@@ -179,7 +175,7 @@
                 "remove": [
                     "kill_bill"
                 ],
-                "force":[]
+                "force": []
             }
         },
         {
@@ -188,6 +184,81 @@
             "data": {
                 "map": "0",
                 "pos": "500:500"
+            }
+        },
+        {
+            "id": 6,
+            "type_stage": 4,
+            "data": {
+                "map": 0,
+                "pos": "500:500"
+            },
+            "actions": {
+                "add": [
+                    "1:1",
+                    "14:1",
+                    "71:1",
+                    "29:24",
+                    "40:90"
+                ],
+                "money": [
+                    "600"
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "type_stage": 4,
+            "data": {
+                "map": 1,
+                "pos": "500:500"
+            },
+            "actions": {
+            }
+        },
+        {
+            "id": 8,
+            "type_stage": 0,
+            "background_url": "https://ipfs.pixura.io/ipfs/QmeyVETXA2PqNCXPeCpJYmWTdZvQAd8z4ouS9Pjw1NE5Ft",
+            "title": "Стадия на свалке",
+            "texts": [
+                {
+                    "text": "Здесь мы добавили параметр kill_bill, теперь заживем."
+                }
+            ],
+            "transfers": [
+                {
+                    "text": "Проверим на стадии которая была раньше.",
+                    "stage_id": "2"
+                }
+            ],
+            "actions": {
+                "add": [
+                    "talk_strelok"
+                ],
+                "remove": [
+                    "killed_bill"
+                ],
+                "force": []
+            }
+        }
+        ,
+        {
+            "id": 9,
+            "type_stage": 0,
+            "background_url": "https://ipfs.pixura.io/ipfs/QmeyVETXA2PqNCXPeCpJYmWTdZvQAd8z4ouS9Pjw1NE5Ft",
+            "title": "Стадия завершения истории, она не отображается",
+            "texts": [
+                {
+                    "text": "Конец"
+                }
+            ],
+            "transfers": [
+
+            ],
+            "actions": {
+                "over":[],
+                "force": []
             }
         }
     ]

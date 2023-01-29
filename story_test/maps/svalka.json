@@ -1,0 +1,24 @@
+{
+    "id": "1",
+    "title": "Свалка",
+    "texture": "maps/map_garbage.png",
+    "boundsTexture": "maps/bounds/map_garbage.png",
+    "blurTexture": "maps/blur.jpg",
+    "tilesTexture": "maps/tiles/map_garbage.png",
+    "defPos": "330:960",
+    "points": [
+        {
+            "type": "0",
+            "name": "Сюда ведет задание с Кордона",
+            "pos": "722:300",
+            "data": {
+                "chapter": "1",
+                "stage": "8"
+            },
+            "condition": {
+                "has":["killed_bill"]
+            }
+        }
+    ],
+    "transfers": []
+}

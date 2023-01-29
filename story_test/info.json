@@ -2,5 +2,6 @@
 	"id":"0",
 	"title":"Тестовая история",
 	"desc":"Используется для тестирования возможностей сюжетного и игрового движков.",
-	"icon":"story/freeplay/screen/0.jpg"
+	"icon":"story/freeplay/screen/0.jpg",
+	"access":"TESTER"
 }
