@@ -6702,7 +6702,7 @@
       ],
       "transfers": [
         {
-          "text": "У вас форма такая, какая-то иная. Вы собственно кто?",
+          "text": "У вас форма такая, какая-то иная. Вы, собственно, кто?",
           "stage_id": "251",
           "condition": {}
         }
@@ -6901,7 +6901,7 @@
       "type_stage": 0,
       "background_url": "story/freeplay/screen/48.jpg",
       "title": "Кастет",
-      "message": "Новый квест:Принести чемодан Сидоровичу",
+      "message": "Новый квест: Принести чемодан Сидоровичу",
       "type_message": 0,
       "texts": [
         {
@@ -6962,7 +6962,7 @@
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-      "message": "Новый квест:Отнести конверт Кастету",
+      "message": "Новый квест: Отнести конверт Кастету",
       "type_message": 0,
       "texts": [
         {
