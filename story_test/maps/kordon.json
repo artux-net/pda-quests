@@ -1,6 +1,7 @@
 {
     "id": "0",
     "title": "Кордон",
+    "tsx": "kordon.tsx",
     "texture": "maps/map_escape.png",
     "boundsTexture": "maps/bounds/map_escape.png",
     "blurTexture": "maps/blur.jpg",
