@@ -1,63 +1,59 @@
 {
-"id":0,
-    "music":[
-        {
-		"id":"0",
-		"name": "Fire 1 20% | Prologue chapter 0",
-		"url":"https://pda.artux.net/story/prologue/sound/fire.mp3",
-		"params":[
-			"loop",
-			"volume:0.2"
-		]
-	},
-	{
-		"id":"1",
-		"name": "Fire 1 50%| Prologue chapter 0",
-		"url":"https://pda.artux.net/story/prologue/sound/fire.mp3",
-		"params":[
-		"loop",
-		"volume:0.5"
-		]
-	},
-	{
-		"id":"2",
-		"name": "Guitar 1 50% | Prologue chapter 0",
-		"url":"https://pda.artux.net/story/prologue/sound/guitar.mp3",
-		"params":[
-		"volume:0.5"
-		]
-	},
-	{
-		"id":"3",
-		"name": "Guitar 1 100% | Prologue chapter 0",
-		"url":"https://pda.artux.net/story/prologue/sound/guitar.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"4",
-		"name": "PDA новое уведомление",
-		"url":"https://pda.artux.net/story/prologue/sound/PDA1.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"5",
-		"name": "PDA новый квест",
-		"url":"https://pda.artux.net/story/prologue/sound/PDA2.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"6",
-		"name": "PDA новое сообщение",
-		"url":"https://pda.artux.net/story/prologue/sound/PDA3.mp3",
-		"params":[
-		]
-	}
-    ],
+  "id": 0,
+  "music": [
+    {
+      "id": "0",
+      "name": "Fire 1 20% | Prologue chapter 0",
+      "url": "https://pda.artux.net/story/prologue/sound/fire.mp3",
+      "params": [
+        "loop",
+        "volume:0.2"
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Fire 1 50%| Prologue chapter 0",
+      "url": "https://pda.artux.net/story/prologue/sound/fire.mp3",
+      "params": [
+        "loop",
+        "volume:0.5"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Guitar 1 50% | Prologue chapter 0",
+      "url": "https://pda.artux.net/story/prologue/sound/guitar.mp3",
+      "params": [
+        "volume:0.5"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Guitar 1 100% | Prologue chapter 0",
+      "url": "https://pda.artux.net/story/prologue/sound/guitar.mp3",
+      "params": []
+    },
+    {
+      "id": "4",
+      "name": "PDA новое уведомление",
+      "url": "https://pda.artux.net/story/prologue/sound/PDA1.mp3",
+      "params": []
+    },
+    {
+      "id": "5",
+      "name": "PDA новый квест",
+      "url": "https://pda.artux.net/story/prologue/sound/PDA2.mp3",
+      "params": []
+    },
+    {
+      "id": "6",
+      "name": "PDA новое сообщение",
+      "url": "https://pda.artux.net/story/prologue/sound/PDA3.mp3",
+      "params": []
+    }
+  ],
   "stages": [
-  {
+    {
       "id": 0,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/155019505.jpg",
@@ -81,11 +77,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-   {
+      "actions": {},
+      "editor": {
+        "x": 281,
+        "y": 491
+      }
+    },
+    {
       "id": 1,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/155019505.jpg",
@@ -119,11 +117,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-   {
+      "actions": {},
+      "editor": {
+        "x": 737,
+        "y": 629
+      }
+    },
+    {
       "id": 2,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/155019505.jpg",
@@ -147,11 +147,23 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"reset":["relation_0","relation_1","relation_2","relation_3","relation_4","relation_5","relation_6"]
-        }
-		},
-		{
+      "actions": {
+        "reset": [
+          "relation_0",
+          "relation_1",
+          "relation_2",
+          "relation_3",
+          "relation_4",
+          "relation_5",
+          "relation_6"
+        ]
+      },
+      "editor": {
+        "x": 790,
+        "y": 8
+      }
+    },
+    {
       "id": 3,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/155019505.jpg",
@@ -175,10 +187,14 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"reset":[]
-        }
-		},
+      "actions": {
+        "reset": []
+      },
+      "editor": {
+        "x": 945,
+        "y": 162
+      }
+    },
     {
       "id": 4,
       "type_stage": 0,
@@ -218,10 +234,12 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
-		},
+      "actions": {},
+      "editor": {
+        "x": 236,
+        "y": 504
+      }
+    },
     {
       "id": 5,
       "type_stage": 0,
@@ -246,10 +264,16 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"money": ["-10000"]
-        }
-		},
+      "actions": {
+        "money": [
+          "-10000"
+        ]
+      },
+      "editor": {
+        "x": 930,
+        "y": 351
+      }
+    },
     {
       "id": 6,
       "type_stage": 0,
@@ -274,10 +298,16 @@
           "condition": {}
         }
       ],
-        "actions": {
-          "money": ["-1000"]
-        }
-		},
+      "actions": {
+        "money": [
+          "-1000"
+        ]
+      },
+      "editor": {
+        "x": 463,
+        "y": 927
+      }
+    },
     {
       "id": 7,
       "type_stage": 0,
@@ -302,10 +332,16 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"money": ["-500"]
-        }
-		},
+      "actions": {
+        "money": [
+          "-500"
+        ]
+      },
+      "editor": {
+        "x": 539,
+        "y": 823
+      }
+    },
     {
       "id": 8,
       "type_stage": 0,
@@ -330,10 +366,15 @@
           "condition": {}
         }
       ],
-        "actions": {
-          "money": ["-100"]
-        }
-		}
-  
+      "actions": {
+        "money": [
+          "-100"
+        ]
+      },
+      "editor": {
+        "x": 423,
+        "y": 469
+      }
+    }
   ]
 }
