@@ -1,68 +1,64 @@
 {
-"id":3,
-"music":[
-        {
-		"id":"0",
-		"name": "Fire 1 20% | Prologue chapter 0",
-		"url":"story/prologue/sound/fire.mp3",
-		"params":[
-			"loop",
-			"volume:0.2"
-		]
-	},
-	{
-		"id":"1",
-		"name": "Fire 1 50%| Prologue chapter 0",
-		"url":"story/prologue/sound/fire.mp3",
-		"params":[
-		"loop",
-		"volume:0.5"
-		]
-	},
-	{
-		"id":"2",
-		"name": "Guitar 1 50% | Prologue chapter 0",
-		"url":"story/prologue/sound/guitar.mp3",
-		"params":[
-		"volume:0.5"
-		]
-	},
-	{
-		"id":"3",
-		"name": "Guitar 1 100% | Prologue chapter 0",
-		"url":"story/prologue/sound/guitar.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"4",
-		"name": "PDA новое уведомление",
-		"url":"story/prologue/sound/PDA1.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"5",
-		"name": "PDA новый квест",
-		"url":"story/prologue/sound/PDA2.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"6",
-		"name": "PDA новое сообщение",
-		"url":"story/prologue/sound/PDA3.mp3",
-		"params":[
-		]
-	}
-    ],
+  "id": 3,
+  "music": [
+    {
+      "id": "0",
+      "name": "Fire 1 20% | Prologue chapter 0",
+      "url": "story/prologue/sound/fire.mp3",
+      "params": [
+        "loop",
+        "volume:0.2"
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Fire 1 50%| Prologue chapter 0",
+      "url": "story/prologue/sound/fire.mp3",
+      "params": [
+        "loop",
+        "volume:0.5"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Guitar 1 50% | Prologue chapter 0",
+      "url": "story/prologue/sound/guitar.mp3",
+      "params": [
+        "volume:0.5"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Guitar 1 100% | Prologue chapter 0",
+      "url": "story/prologue/sound/guitar.mp3",
+      "params": []
+    },
+    {
+      "id": "4",
+      "name": "PDA новое уведомление",
+      "url": "story/prologue/sound/PDA1.mp3",
+      "params": []
+    },
+    {
+      "id": "5",
+      "name": "PDA новый квест",
+      "url": "story/prologue/sound/PDA2.mp3",
+      "params": []
+    },
+    {
+      "id": "6",
+      "name": "PDA новое сообщение",
+      "url": "story/prologue/sound/PDA3.mp3",
+      "params": []
+    }
+  ],
   "stages": [
     {
       "id": 0,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Матёрый",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -82,16 +78,18 @@
           "condition": {}
         }
       ],
-	  "actions": {
-			  
-	  }
+      "actions": {},
+      "editor": {
+        "x": 302,
+        "y": 830
+      }
     },
-	{
+    {
       "id": 1,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -111,16 +109,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-          "reset":[]
-        }
+      "actions": {
+        "reset": []
+      },
+      "editor": {
+        "x": 386,
+        "y": 889
+      }
     },
-	{
+    {
       "id": 2,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -140,17 +142,29 @@
           "condition": {}
         }
       ],
-        "actions": {
-          "add": ["81:1","13:1","8:1","31:50","38:90"],
-		"money": ["6000"]
-        }
+      "actions": {
+        "add": [
+          "81:1",
+          "13:1",
+          "8:1",
+          "31:50",
+          "38:90"
+        ],
+        "money": [
+          "6000"
+        ]
+      },
+      "editor": {
+        "x": 714,
+        "y": 917
+      }
     },
-	{
+    {
       "id": 3,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -170,16 +184,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 561,
+        "y": 871
+      }
     },
-	{
+    {
       "id": 4,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -199,16 +215,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 305,
+        "y": 630
+      }
     },
-	{
+    {
       "id": 5,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_2.jpg",
       "title": "Аркадий Еврей",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -228,16 +246,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 719,
+        "y": 150
+      }
     },
-	{
+    {
       "id": 6,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -257,16 +277,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 904,
+        "y": 427
+      }
     },
-	{
+    {
       "id": 7,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -286,16 +308,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 359,
+        "y": 540
+      }
     },
-	{
+    {
       "id": 8,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -315,16 +339,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 340,
+        "y": 758
+      }
     },
-	{
+    {
       "id": 9,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -344,16 +370,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 663,
+        "y": 634
+      }
     },
-	{
+    {
       "id": 10,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -373,16 +401,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 757,
+        "y": 559
+      }
     },
-	{
+    {
       "id": 11,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -402,16 +432,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 548,
+        "y": 30
+      }
     },
-	{
+    {
       "id": 12,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -431,16 +463,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 546,
+        "y": 701
+      }
     },
-	{
+    {
       "id": 13,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -460,16 +494,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 525,
+        "y": 138
+      }
     },
-	{
+    {
       "id": 14,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_3.jpg",
       "title": "Бар «100 рентген»",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Новый квест: покинуть бар.",
       "type_message": 0,
       "texts": [
@@ -489,26 +527,34 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": [
-		"quest_matvienko0"
-		]
-        }
+      "actions": {
+        "add": [
+          "quest_matvienko0"
+        ]
+      },
+      "editor": {
+        "x": 31,
+        "y": 315
+      }
     },
-	{
-		"id": 15,
-		"type_stage": 4,
-		"data":{
-		"map":"2",
-		"pos":"1544:1285"
-	}
-},
-	{
+    {
+      "id": 15,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "1544:1285"
+      },
+      "editor": {
+        "x": 726,
+        "y": 666
+      }
+    },
+    {
       "id": 16,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_4.jpg",
       "title": "Лейтенант Матвиенко",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -528,15 +574,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-        }
+      "actions": {},
+      "editor": {
+        "x": 234,
+        "y": 928
+      }
     },
-	{
+    {
       "id": 17,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -555,22 +604,28 @@
           "stage_id": "18",
           "condition": {}
         },
-		{
+        {
           "text": "Что у вас там?",
           "stage_id": "20",
           "condition": {}
         }
       ],
-        "actions": {
-          "remove": ["quest_matvienko0"]
-        }
+      "actions": {
+        "remove": [
+          "quest_matvienko0"
+        ]
+      },
+      "editor": {
+        "x": 892,
+        "y": 148
+      }
     },
-	{
+    {
       "id": 18,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -590,16 +645,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 613,
+        "y": 453
+      }
     },
-	{
+    {
       "id": 19,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -619,16 +676,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 201,
+        "y": 584
+      }
     },
-	{
+    {
       "id": 20,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -648,16 +707,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 516,
+        "y": 654
+      }
     },
-	{
+    {
       "id": 21,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -677,16 +738,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 865,
+        "y": 43
+      }
     },
-	{
+    {
       "id": 22,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -706,16 +769,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 433,
+        "y": 128
+      }
     },
-		{
+    {
       "id": 23,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Новый квест: отправиться на барахолку.",
       "type_message": 0,
       "texts": [
@@ -735,26 +802,34 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": [
-		"quest_matvienko1"
-		]
-        }
-    },	
-{
-		"id": 24,
-		"type_stage": 4,
-		"data":{
-		"map":"2",
-		"pos":"1561:1080"
-	}
-},
-	{
+      "actions": {
+        "add": [
+          "quest_matvienko1"
+        ]
+      },
+      "editor": {
+        "x": 894,
+        "y": 18
+      }
+    },
+    {
+      "id": 24,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "1561:1080"
+      },
+      "editor": {
+        "x": 414,
+        "y": 47
+      }
+    },
+    {
       "id": 25,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Барахолка",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -774,15 +849,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
-    },	{
+      "actions": {},
+      "editor": {
+        "x": 285,
+        "y": 239
+      }
+    },
+    {
       "id": 26,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -802,15 +880,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
-    },	{
+      "actions": {},
+      "editor": {
+        "x": 58,
+        "y": 785
+      }
+    },
+    {
       "id": 27,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -828,24 +909,31 @@
           "text": " Да, держи.",
           "stage_id": "28",
           "condition": {
-            "money<=":["400"]
+            "money<=": [
+              "400"
+            ]
           }
         },
-		{
+        {
           "text": " Пока нет.",
           "stage_id": "29",
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
-    },	{
+      "actions": {},
+      "editor": {
+        "x": 370,
+        "y": 170
+      }
+    },
+    {
       "id": 28,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Получено: 60 патронов 5.45х39. Потеряно: 400 рублей.",
       "type_message": 0,
       "texts": [
@@ -865,16 +953,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["38:60"],
-		"money": ["-400"]
-        }
-    },	{
+      "actions": {
+        "add": [
+          "38:60"
+        ],
+        "money": [
+          "-400"
+        ]
+      },
+      "editor": {
+        "x": 452,
+        "y": 915
+      }
+    },
+    {
       "id": 29,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -894,15 +991,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
-    },	{
+      "actions": {},
+      "editor": {
+        "x": 63,
+        "y": 271
+      }
+    },
+    {
       "id": 30,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -922,15 +1022,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
-    },	{
+      "actions": {},
+      "editor": {
+        "x": 137,
+        "y": 633
+      }
+    },
+    {
       "id": 31,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -950,15 +1053,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
-    },	{
+      "actions": {},
+      "editor": {
+        "x": 982,
+        "y": 828
+      }
+    },
+    {
       "id": 32,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Новый квест: отправиться на стоянку между холмов.",
       "type_message": 0,
       "texts": [
@@ -978,25 +1086,37 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_matvienko1"],
-		"add": ["quest_matvienko2"]
-        }
+      "actions": {
+        "remove": [
+          "quest_matvienko1"
+        ],
+        "add": [
+          "quest_matvienko2"
+        ]
+      },
+      "editor": {
+        "x": 439,
+        "y": 326
+      }
     },
-{
-		"id": 33,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"717:1051"
-	}
-},
-	{
+    {
+      "id": 33,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "717:1051"
+      },
+      "editor": {
+        "x": 219,
+        "y": 626
+      }
+    },
+    {
       "id": 34,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_7.jpg",
       "title": "Старший",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1016,15 +1136,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
-    },	{
+      "actions": {},
+      "editor": {
+        "x": 263,
+        "y": 720
+      }
+    },
+    {
       "id": 35,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1042,19 +1165,26 @@
           "text": " Держи",
           "stage_id": "37",
           "condition": {
-            "money<=": ["500"]
+            "money<=": [
+              "500"
+            ]
           }
         }
       ],
-        "actions": {
-		
-        }
-    },	{
+      "actions": {},
+      "editor": {
+        "x": 229,
+        "y": 944
+      }
+    },
+    {
       "id": 37,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Потеряно: 500 рублей.",
       "type_message": 0,
       "texts": [
@@ -1074,15 +1204,22 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"money": ["-500"]
-        }
-    },	{
+      "actions": {
+        "money": [
+          "-500"
+        ]
+      },
+      "editor": {
+        "x": 262,
+        "y": 527
+      }
+    },
+    {
       "id": 38,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1102,15 +1239,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
-    },	{
+      "actions": {},
+      "editor": {
+        "x": 139,
+        "y": 908
+      }
+    },
+    {
       "id": 39,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1130,16 +1270,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 705,
+        "y": 533
+      }
     },
-	{
+    {
       "id": 40,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1157,36 +1299,48 @@
           "text": " А со стволом у башки скажешь бесплатно?",
           "stage_id": "41",
           "condition": {
-		  "!has": ["dead_starshiy_svalka"]
-		  }
+            "!has": [
+              "dead_starshiy_svalka"
+            ]
+          }
         },
-		{
+        {
           "text": "Держи.",
           "stage_id": "44",
           "condition": {
-		  "has": ["dead_starshiy_svalka"],
-      "money<=": ["500"]
-		  }
+            "has": [
+              "dead_starshiy_svalka"
+            ],
+            "money<=": [
+              "500"
+            ]
+          }
         },
-		{
+        {
           "text": "Держи.",
           "stage_id": "43",
           "condition": {
-		  "!has": ["dead_starshiy_svalka"],
-      "money<=": ["500"]
-		  }
+            "!has": [
+              "dead_starshiy_svalka"
+            ],
+            "money<=": [
+              "500"
+            ]
+          }
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 536,
+        "y": 686
+      }
     },
-	{
+    {
       "id": 41,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1206,16 +1360,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 450,
+        "y": 704
+      }
     },
-	{
+    {
       "id": 42,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_9.jpg",
       "title": "Холмы",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "message": "Погиб сталкер: Матёрый. Причина: пулевое ранение.",
       "type_message": 3,
       "texts": [
@@ -1235,17 +1393,27 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["dead_starshiy_svalka"],
-		"xp": ["-2"]
-        }
+      "actions": {
+        "add": [
+          "dead_starshiy_svalka"
+        ],
+        "xp": [
+          "-2"
+        ]
+      },
+      "editor": {
+        "x": 130,
+        "y": 362
+      }
     },
-	{
+    {
       "id": 43,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	 "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Потеряно: 500 рублей.",
       "type_message": 0,
       "texts": [
@@ -1265,16 +1433,24 @@
           "condition": {}
         }
       ],
-        "actions": {
-		        "xp": ["5"]
-        }
+      "actions": {
+        "xp": [
+          "5"
+        ]
+      },
+      "editor": {
+        "x": 145,
+        "y": 744
+      }
     },
-	{
+    {
       "id": 44,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	 "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Потеряно: 500 рублей.",
       "type_message": 0,
       "texts": [
@@ -1294,15 +1470,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-        }
+      "actions": {},
+      "editor": {
+        "x": 888,
+        "y": 766
+      }
     },
-	{
+    {
       "id": 45,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1322,16 +1501,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 401,
+        "y": 652
+      }
     },
-	{
+    {
       "id": 46,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1351,16 +1532,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 404,
+        "y": 770
+      }
     },
-	{
+    {
       "id": 47,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1378,20 +1561,26 @@
           "text": " Не обляпайся только.",
           "stage_id": "48",
           "condition": {
-            "money<=": ["500"]
+            "money<=": [
+              "500"
+            ]
           }
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 891,
+        "y": 817
+      }
     },
-	{
+    {
       "id": 48,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	 "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Потеряно: 500 рублей.",
       "type_message": 0,
       "texts": [
@@ -1411,16 +1600,22 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"money": ["-500"]
-        }
+      "actions": {
+        "money": [
+          "-500"
+        ]
+      },
+      "editor": {
+        "x": 25,
+        "y": 675
+      }
     },
-	{
+    {
       "id": 49,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1440,16 +1635,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 284,
+        "y": 843
+      }
     },
-	{
+    {
       "id": 50,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1469,25 +1666,38 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove":["quest_matvienko2","dead_starshiy_svalka"],
-		"add": ["quest_matvienko3"]
-        }
+      "actions": {
+        "remove": [
+          "quest_matvienko2",
+          "dead_starshiy_svalka"
+        ],
+        "add": [
+          "quest_matvienko3"
+        ]
+      },
+      "editor": {
+        "x": 267,
+        "y": 357
+      }
     },
-	{
-		"id": 51,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"298:687"
-	}
-},
-	{
+    {
+      "id": 51,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "298:687"
+      },
+      "editor": {
+        "x": 505,
+        "y": 176
+      }
+    },
+    {
       "id": 52,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1507,16 +1717,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 747,
+        "y": 577
+      }
     },
-	{
+    {
       "id": 53,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Получено: 1х аптечка, 1х бинт, 1х ПМм, 8х патроны 9х18.",
       "type_message": 0,
       "texts": [
@@ -1536,16 +1750,23 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["29:8","0:1"]
-        }
+      "actions": {
+        "add": [
+          "29:8",
+          "0:1"
+        ]
+      },
+      "editor": {
+        "x": 484,
+        "y": 990
+      }
     },
-	{
+    {
       "id": 54,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1565,16 +1786,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 665,
+        "y": 557
+      }
     },
-	{
+    {
       "id": 55,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1594,16 +1817,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 654,
+        "y": 108
+      }
     },
-	{
+    {
       "id": 56,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1623,16 +1848,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 571,
+        "y": 656
+      }
     },
-	{
+    {
       "id": 57,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1652,16 +1879,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 868,
+        "y": 921
+      }
     },
-	{
+    {
       "id": 58,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
-      "music": ["4"],
+      "music": [
+        "4"
+      ],
       "message": "Создана заметка: Серго Горбатый: Заметки",
       "type_message": 0,
       "texts": [
@@ -1681,17 +1912,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-          "note":["Серго Горбатый: Заметки","PDA #****. позывной: Серго Горбатый. Ранг: опытный. Заметка 15: Получил задание от Свободы. Поручение, вроде, не пыльное: надо найти винтовку. Свободные сказали, что какой-то сталкер стырил её со склада Долга, да обосновался где-то в районе Тёмной Долины или Свалки...Народ местный наблюдательный, так что найти винтовку будет нетрудно. Она, говорят, старая, а на прикладе написано: А. После выполнения обещали не только дать триста вечнозелёных, но и принять в свои ряды. Наконец-то!\n Заметка 24: Сталкеры с блокпоста-приёмника рассказали, что несколько дней назад видели одиночку с СВД, копошившегося у самого северного холма. Куплю антирад и потом уж заберусь.\nЗаметка 26: На кладбище техники встретил двух ребят. Рассказали, что какой-то парень топчется на поле аномалий к западу от кладбища брошенной техники. Винтовку при нём не видели, но, говорят, копается там долго. Маловероятно, что это тот, кто мне нужен.\n  Заметка 29: Диггеры с Барахолки рассказали, что видели парня, шнырявшего по окрестностям. Винтовки при нём видно не было, зато описание точь-в-точь. Говорят, что несколько раз он ходил в туннель за депо. Говорят также, что долгаря видели, ходившего в лес на юго-востоке. Вряд ли это то, что мне нужно, но его хабаром было бы неплохо разжиться."]
-
-        }
+      "actions": {
+        "note": [
+          "Серго Горбатый: Заметки",
+          "PDA #****. позывной: Серго Горбатый. Ранг: опытный. Заметка 15: Получил задание от Свободы. Поручение, вроде, не пыльное: надо найти винтовку. Свободные сказали, что какой-то сталкер стырил её со склада Долга, да обосновался где-то в районе Тёмной Долины или Свалки...Народ местный наблюдательный, так что найти винтовку будет нетрудно. Она, говорят, старая, а на прикладе написано: А. После выполнения обещали не только дать триста вечнозелёных, но и принять в свои ряды. Наконец-то!\n Заметка 24: Сталкеры с блокпоста-приёмника рассказали, что несколько дней назад видели одиночку с СВД, копошившегося у самого северного холма. Куплю антирад и потом уж заберусь.\nЗаметка 26: На кладбище техники встретил двух ребят. Рассказали, что какой-то парень топчется на поле аномалий к западу от кладбища брошенной техники. Винтовку при нём не видели, но, говорят, копается там долго. Маловероятно, что это тот, кто мне нужен.\n  Заметка 29: Диггеры с Барахолки рассказали, что видели парня, шнырявшего по окрестностям. Винтовки при нём видно не было, зато описание точь-в-точь. Говорят, что несколько раз он ходил в туннель за депо. Говорят также, что долгаря видели, ходившего в лес на юго-востоке. Вряд ли это то, что мне нужно, но его хабаром было бы неплохо разжиться."
+        ]
+      },
+      "editor": {
+        "x": 56,
+        "y": 890
+      }
     },
-	{
+    {
       "id": 59,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Новый квест: отправиться в лес.",
       "type_message": 0,
       "texts": [
@@ -1711,26 +1950,40 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_matvienko3"],
-		"add": ["quest_matvienko4"],
-		"xp": ["1"]
-        }
+      "actions": {
+        "remove": [
+          "quest_matvienko3"
+        ],
+        "add": [
+          "quest_matvienko4"
+        ],
+        "xp": [
+          "1"
+        ]
+      },
+      "editor": {
+        "x": 324,
+        "y": 6
+      }
     },
-	{
-		"id": 60,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"315:755"
-	}
-},
-	{
+    {
+      "id": 60,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "315:755"
+      },
+      "editor": {
+        "x": 852,
+        "y": 998
+      }
+    },
+    {
       "id": 61,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_11.jpg",
       "title": "Лес",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1750,16 +2003,24 @@
           "condition": {}
         }
       ],
-        "actions": {
-          "add": ["27:1"]
-        }
+      "actions": {
+        "add": [
+          "27:1"
+        ]
+      },
+      "editor": {
+        "x": 491,
+        "y": 970
+      }
     },
-	{
+    {
       "id": 62,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_12.jpg",
       "title": "Лес",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Новый квест: отправиться к Матвиенко. Получен предмет: Легендарная СВД.",
       "type_message": 0,
       "texts": [
@@ -1779,25 +2040,37 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_matvienko4"],
-		"add": ["quest_matvienko6"]
-        }
+      "actions": {
+        "remove": [
+          "quest_matvienko4"
+        ],
+        "add": [
+          "quest_matvienko6"
+        ]
+      },
+      "editor": {
+        "x": 385,
+        "y": 555
+      }
     },
-	{
-		"id": 63,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"914:644"
-	}
-	},
-	{
+    {
+      "id": 63,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "914:644"
+      },
+      "editor": {
+        "x": 5,
+        "y": 714
+      }
+    },
+    {
       "id": 64,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_13.jpg",
       "title": "Блокпост долга",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1817,25 +2090,37 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_matvienko5"],
-		"add": ["quest_matvienko6"]
-        }
+      "actions": {
+        "remove": [
+          "quest_matvienko5"
+        ],
+        "add": [
+          "quest_matvienko6"
+        ]
+      },
+      "editor": {
+        "x": 341,
+        "y": 151
+      }
     },
-	{
-		"id": 65,
-		"type_stage": 4,
-		"data":{
-		"map":"2",
-		"pos":"2088:630"
-	}
-	},
-	{
+    {
+      "id": 65,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "2088:630"
+      },
+      "editor": {
+        "x": 647,
+        "y": 107
+      }
+    },
+    {
       "id": 66,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_14.jpg",
       "title": "Лейтенант Матвиенко",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1855,16 +2140,24 @@
           "condition": {}
         }
       ],
-        "actions": {
-          "remove": ["27:1"]
-        }
+      "actions": {
+        "remove": [
+          "27:1"
+        ]
+      },
+      "editor": {
+        "x": 340,
+        "y": 829
+      }
     },
-	{
+    {
       "id": 67,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_14.jpg",
       "title": "Лейтенант Матвиенко",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Потеряно: Легендарная СВД. Получено: 3000 рублей, 90х патроны 5.45, 30х патроны 9х19, 2х аптечки, 1х антирад",
       "type_message": 0,
       "texts": [
@@ -1884,18 +2177,31 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["38:90","31:30"],
-		"money": ["3000"],
-		"xp": ["5"]
-        }
+      "actions": {
+        "add": [
+          "38:90",
+          "31:30"
+        ],
+        "money": [
+          "3000"
+        ],
+        "xp": [
+          "5"
+        ]
+      },
+      "editor": {
+        "x": 555,
+        "y": 874
+      }
     },
-	{
+    {
       "id": 68,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_14.jpg",
       "title": "Лейтенант Матвиенко",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Новый квест: Уйти на свалку",
       "type_message": 0,
       "texts": [
@@ -1915,25 +2221,38 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_matvienko6"],
-		"add" :["quest_stalker_anomaly","quest_matvienko_final"]
-        }
+      "actions": {
+        "remove": [
+          "quest_matvienko6"
+        ],
+        "add": [
+          "quest_stalker_anomaly",
+          "quest_matvienko_final"
+        ]
+      },
+      "editor": {
+        "x": 582,
+        "y": 109
+      }
     },
-	{
-		"id": 70,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"631:1214"
-	}
-	},
-	{
+    {
+      "id": 70,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "631:1214"
+      },
+      "editor": {
+        "x": 509,
+        "y": 185
+      }
+    },
+    {
       "id": 71,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Неизвестный сталкер",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1953,16 +2272,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 61,
+        "y": 226
+      }
     },
-	{
+    {
       "id": 72,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Неизвестный сталкер",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -1982,16 +2303,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 737,
+        "y": 812
+      }
     },
-	{
+    {
       "id": 73,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Неизвестный сталкер",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2011,16 +2334,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 661,
+        "y": 400
+      }
     },
-	{
+    {
       "id": 74,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Неизвестный сталкер",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2040,16 +2365,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 454,
+        "y": 409
+      }
     },
-	{
+    {
       "id": 75,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2069,16 +2396,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 981,
+        "y": 643
+      }
     },
-	{
+    {
       "id": 76,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2098,16 +2427,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 857,
+        "y": 276
+      }
     },
-	{
+    {
       "id": 77,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Получен предмет: консерва",
       "type_message": 0,
       "texts": [
@@ -2127,16 +2460,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 614,
+        "y": 897
+      }
     },
-	{
+    {
       "id": 78,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Потерян предмет: консерва",
       "type_message": 0,
       "texts": [
@@ -2156,16 +2493,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 692,
+        "y": 347
+      }
     },
-	{
+    {
       "id": 79,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2185,16 +2524,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 901,
+        "y": 66
+      }
     },
-	{
+    {
       "id": 80,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2214,16 +2555,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 285,
+        "y": 208
+      }
     },
-	{
+    {
       "id": 81,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Новый квест: Перейти на Кордон",
       "type_message": 0,
       "texts": [
@@ -2243,26 +2588,40 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_stalker_anomaly"],
-		"add": ["quest_chaplin"],
-		"xp": ["5"]
-        }
+      "actions": {
+        "remove": [
+          "quest_stalker_anomaly"
+        ],
+        "add": [
+          "quest_chaplin"
+        ],
+        "xp": [
+          "5"
+        ]
+      },
+      "editor": {
+        "x": 749,
+        "y": 633
+      }
     },
-	{
-		"id": 82,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"669:1043"
-	}
-	},
-	{
+    {
+      "id": 82,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "669:1043"
+      },
+      "editor": {
+        "x": 126,
+        "y": 163
+      }
+    },
+    {
       "id": 83,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_16.jpg",
       "title": "Переход на Кордон",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2282,24 +2641,30 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
+      "actions": {},
+      "editor": {
+        "x": 539,
+        "y": 40
+      }
     },
-	{
-		"id": 84,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"741:1095"
-	}
-	},
-	{
+    {
+      "id": 84,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "741:1095"
+      },
+      "editor": {
+        "x": 639,
+        "y": 874
+      }
+    },
+    {
       "id": 85,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Северный блокпост",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2319,16 +2684,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 587,
+        "y": 932
+      }
     },
-	{
+    {
       "id": 86,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2348,16 +2715,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 909,
+        "y": 262
+      }
     },
-	{
+    {
       "id": 87,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2377,16 +2748,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 834,
+        "y": 511
+      }
     },
-	{
+    {
       "id": 88,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2406,16 +2781,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 92,
+        "y": 705
+      }
     },
-	{
+    {
       "id": 89,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2435,16 +2814,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 144,
+        "y": 782
+      }
     },
-	{
+    {
       "id": 90,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2464,16 +2847,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 759,
+        "y": 863
+      }
     },
-	{
+    {
       "id": 91,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2493,16 +2880,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 259,
+        "y": 923
+      }
     },
-	{
+    {
       "id": 92,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2522,16 +2913,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 418,
+        "y": 550
+      }
     },
-	{
+    {
       "id": 93,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2551,16 +2946,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 460,
+        "y": 750
+      }
     },
-	{
+    {
       "id": 94,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2580,16 +2979,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 536,
+        "y": 284
+      }
     },
-	{
+    {
       "id": 95,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2609,16 +3012,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 243,
+        "y": 272
+      }
     },
-	{
+    {
       "id": 96,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2638,16 +3045,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 155,
+        "y": 799
+      }
     },
-	{
+    {
       "id": 97,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2667,16 +3078,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 915,
+        "y": 2
+      }
     },
-	{
+    {
       "id": 98,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
-	  "music": ["2"],
+      "music": [
+        "2"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2696,16 +3111,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 305,
+        "y": 607
+      }
     },
-	{
+    {
       "id": 99,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2725,16 +3144,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 477,
+        "y": 633
+      }
     },
-	{
+    {
       "id": 100,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2754,16 +3177,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 836,
+        "y": 552
+      }
     },
-	{
+    {
       "id": 101,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
-	  "music": ["5","1"],
+      "music": [
+        "5",
+        "1"
+      ],
       "message": "Новый квест: добраться до деревни новичков",
       "type_message": 0,
       "texts": [
@@ -2783,25 +3211,40 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_chaplin"],
-		"add": ["quest_go_derevnya","quest_exit0"]
-        }
+      "actions": {
+        "remove": [
+          "quest_chaplin"
+        ],
+        "add": [
+          "quest_go_derevnya",
+          "quest_exit0"
+        ]
+      },
+      "editor": {
+        "x": 868,
+        "y": 26
+      }
     },
-	{
-		"id": 102,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"608:2259"
-	}
-	},
-	{
+    {
+      "id": 102,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "608:2259"
+      },
+      "editor": {
+        "x": 258,
+        "y": 720
+      }
+    },
+    {
       "id": 103,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_18.jpg",
       "title": "Деревня новичков",
-	  "music": ["6"],
+      "music": [
+        "6"
+      ],
       "message": "Сидорович: Ищу опытного сталкера для выполнения непыльной работы. Обращаться сами знаете куда",
       "type_message": 0,
       "texts": [
@@ -2820,22 +3263,30 @@
           "stage_id": "105",
           "condition": {}
         },
-		{
+        {
           "text": "Зайти к Сидоровичу",
           "stage_id": "104",
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_go_derevnya"]
-        }
+      "actions": {
+        "remove": [
+          "quest_go_derevnya"
+        ]
+      },
+      "editor": {
+        "x": 613,
+        "y": 700
+      }
     },
-	{
+    {
       "id": 104,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_20.jpg",
       "title": "Деревня новичков",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Новый квест: зайти к Сидоровичу",
       "type_message": 0,
       "texts": [
@@ -2855,16 +3306,24 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_sidorovich1"]
-        }
+      "actions": {
+        "add": [
+          "quest_sidorovich1"
+        ]
+      },
+      "editor": {
+        "x": 112,
+        "y": 835
+      }
     },
-	{
+    {
       "id": 105,
       "type_stage": 0,
       "background_url": "",
       "title": "Деревня новичков",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Новый квест: дойти до периметра",
       "type_message": 0,
       "texts": [
@@ -2884,24 +3343,34 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_exit0"]
-        }
+      "actions": {
+        "add": [
+          "quest_exit0"
+        ]
+      },
+      "editor": {
+        "x": 333,
+        "y": 561
+      }
     },
-	{
-		"id": 106,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"368:843"
-	}
-	},
-	{
+    {
+      "id": 106,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "368:843"
+      },
+      "editor": {
+        "x": 695,
+        "y": 603
+      }
+    },
+    {
       "id": 107,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_19.jpg",
       "title": "Сидорович",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2921,16 +3390,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 869,
+        "y": 490
+      }
     },
-	{
+    {
       "id": 108,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2950,16 +3421,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 848,
+        "y": 940
+      }
     },
-	{
+    {
       "id": 109,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -2979,16 +3452,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 584,
+        "y": 534
+      }
     },
-	{
+    {
       "id": 110,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Новый квест: добраться до Тайного Лагеря",
       "type_message": 0,
       "texts": [
@@ -3008,24 +3485,34 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_sidorovich2"]
-        }
+      "actions": {
+        "add": [
+          "quest_sidorovich2"
+        ]
+      },
+      "editor": {
+        "x": 956,
+        "y": 942
+      }
     },
-	{
-		"id": 111,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"128:877"
-	}
-	},
-	{
+    {
+      "id": 111,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "128:877"
+      },
+      "editor": {
+        "x": 131,
+        "y": 714
+      }
+    },
+    {
       "id": 112,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Тайный лагерь",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3045,16 +3532,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 956,
+        "y": 334
+      }
     },
-	{
+    {
       "id": 113,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Неизвестный сталкер",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Получено: ПБ-1с, 16x патроны 9х19, армейская аптечка, антирад, консервы «Завтрак туриста».",
       "type_message": 0,
       "texts": [
@@ -3074,16 +3565,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 530,
+        "y": 793
+      }
     },
-	{
+    {
       "id": 114,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3103,16 +3596,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 388,
+        "y": 284
+      }
     },
-	{
+    {
       "id": 115,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3132,16 +3627,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 208,
+        "y": 546
+      }
     },
-	{
+    {
       "id": 116,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3161,16 +3658,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 607,
+        "y": 675
+      }
     },
-	{
+    {
       "id": 117,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3190,16 +3689,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 691,
+        "y": 620
+      }
     },
-	{
+    {
       "id": 118,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3219,16 +3720,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 402,
+        "y": 719
+      }
     },
-	{
+    {
       "id": 119,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3248,16 +3751,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 348,
+        "y": 275
+      }
     },
-	{
+    {
       "id": 120,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3277,16 +3782,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 698,
+        "y": 316
+      }
     },
-	{
+    {
       "id": 121,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3306,16 +3813,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 618,
+        "y": 682
+      }
     },
-	{
+    {
       "id": 122,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3335,16 +3844,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 91,
+        "y": 109
+      }
     },
-	{
+    {
       "id": 123,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3364,16 +3875,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 152,
+        "y": 148
+      }
     },
-	{
+    {
       "id": 124,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3393,16 +3906,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 822,
+        "y": 894
+      }
     },
-	{
+    {
       "id": 125,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3422,16 +3937,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 681,
+        "y": 100
+      }
     },
-	{
+    {
       "id": 126,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3451,16 +3968,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 972,
+        "y": 763
+      }
     },
-	{
+    {
       "id": 127,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Новый квест: вернуться к Сидоровичу",
       "type_message": 0,
       "texts": [
@@ -3480,26 +4001,40 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_sidorovich2"],
-		"add": ["quest_sidorovich3"],
-		"xp": ["1"]
-        }
+      "actions": {
+        "remove": [
+          "quest_sidorovich2"
+        ],
+        "add": [
+          "quest_sidorovich3"
+        ],
+        "xp": [
+          "1"
+        ]
+      },
+      "editor": {
+        "x": 85,
+        "y": 486
+      }
     },
-	{
-		"id": 128,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"200:1037"
-	}
-	},
-	{
+    {
+      "id": 128,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "200:1037"
+      },
+      "editor": {
+        "x": 507,
+        "y": 261
+      }
+    },
+    {
       "id": 129,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3519,16 +4054,24 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"money": ["1000"]
-        }
+      "actions": {
+        "money": [
+          "1000"
+        ]
+      },
+      "editor": {
+        "x": 47,
+        "y": 435
+      }
     },
-	{
+    {
       "id": 130,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_23.jpg",
       "title": "Сидорович",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Получено: 1000 рублей. Новый квест: Добраться до блокпоста военных.",
       "type_message": 0,
       "texts": [
@@ -3548,18 +4091,29 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_sidorovich3","quest_sidorovich1"],
-		"add": ["quest_exit0"],
-		"xp": ["5"]
-        }
+      "actions": {
+        "remove": [
+          "quest_sidorovich3",
+          "quest_sidorovich1"
+        ],
+        "add": [
+          "quest_exit0"
+        ],
+        "xp": [
+          "5"
+        ]
+      },
+      "editor": {
+        "x": 361,
+        "y": 667
+      }
     },
-	{
+    {
       "id": 131,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_24.jpg",
       "title": "Блокпост военных",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3579,16 +4133,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 779,
+        "y": 406
+      }
     },
-	{
+    {
       "id": 132,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_24.jpg",
       "title": "Сержант Кулицкий",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3608,16 +4164,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 107,
+        "y": 886
+      }
     },
-	{
+    {
       "id": 133,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_24.jpg",
       "title": "Сержант Кулицкий",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Новый квест: пересечь периметр.",
       "type_message": 0,
       "texts": [
@@ -3637,25 +4197,37 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_exit0"],
-		"add": ["quest_ch4_1"]
-        }
+      "actions": {
+        "remove": [
+          "quest_exit0"
+        ],
+        "add": [
+          "quest_ch4_1"
+        ]
+      },
+      "editor": {
+        "x": 56,
+        "y": 985
+      }
     },
-		{
-		"id": 134,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"210:1610"
-	}
-	},
-	{
+    {
+      "id": 134,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "210:1610"
+      },
+      "editor": {
+        "x": 676,
+        "y": 849
+      }
+    },
+    {
       "id": 135,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3675,16 +4247,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 217,
+        "y": 192
+      }
     },
-	{
+    {
       "id": 136,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3704,16 +4278,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 106,
+        "y": 102
+      }
     },
-	{
+    {
       "id": 137,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3733,16 +4309,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 209,
+        "y": 356
+      }
     },
-	{
+    {
       "id": 138,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3761,22 +4339,24 @@
           "stage_id": "139",
           "condition": {}
         },
-		{
+        {
           "text": "Нет, ничего не видел.",
           "stage_id": "141",
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 554,
+        "y": 46
+      }
     },
-	{
+    {
       "id": 139,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3796,16 +4376,22 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"xp": ["2"]
-        }
+      "actions": {
+        "xp": [
+          "2"
+        ]
+      },
+      "editor": {
+        "x": 44,
+        "y": 815
+      }
     },
-	{
+    {
       "id": 140,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3825,16 +4411,22 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"xp": ["2"]
-        }
+      "actions": {
+        "xp": [
+          "2"
+        ]
+      },
+      "editor": {
+        "x": 446,
+        "y": 153
+      }
     },
-	{
+    {
       "id": 141,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3853,22 +4445,24 @@
           "stage_id": "143",
           "condition": {}
         },
-	{
+        {
           "text": "Не могу сказать, ничего особенного.",
           "stage_id": "143",
           "condition": {}
-        }	
-      ],
-        "actions": {
-		
         }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 399,
+        "y": 809
+      }
     },
-	{
+    {
       "id": 142,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3887,22 +4481,24 @@
           "stage_id": "143",
           "condition": {}
         },
-	{
+        {
           "text": "Не могу сказать, ничего особенного.",
           "stage_id": "143",
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 154,
+        "y": 510
+      }
     },
-	{
+    {
       "id": 143,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3922,16 +4518,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 960,
+        "y": 150
+      }
     },
-	{
+    {
       "id": 144,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3951,16 +4549,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 242,
+        "y": 102
+      }
     },
-	{
+    {
       "id": 145,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -3980,16 +4580,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 412,
+        "y": 223
+      }
     },
-	{
+    {
       "id": 146,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Новый квест: снять дом",
       "type_message": 0,
       "texts": [
@@ -4009,25 +4613,37 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_ch4_1"],
-		"add": ["quest_ch4_2"]
-        }
+      "actions": {
+        "remove": [
+          "quest_ch4_1"
+        ],
+        "add": [
+          "quest_ch4_2"
+        ]
+      },
+      "editor": {
+        "x": 448,
+        "y": 512
+      }
     },
-	{
-		"id": 147,
-		"type_stage": 4,
-		"data":{
-		"map":"3",
-		"pos":"2453:1142"
-	}
-	},
-	{
+    {
+      "id": 147,
+      "type_stage": 4,
+      "data": {
+        "map": "3",
+        "pos": "2453:1142"
+      },
+      "editor": {
+        "x": 97,
+        "y": 120
+      }
+    },
+    {
       "id": 148,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_26.jpg",
       "title": "Риелтор",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4047,16 +4663,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 717,
+        "y": 510
+      }
     },
-	{
+    {
       "id": 149,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_26.jpg",
       "title": "Риелтор",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4066,8 +4684,7 @@
         },
         {
           "text": "",
-          "condition": {
-          }
+          "condition": {}
         }
       ],
       "transfers": [
@@ -4075,20 +4692,30 @@
           "text": "Принять",
           "stage_id": "150",
           "condition": {
-            "money<=": ["8000"]
+            "money<=": [
+              "8000"
+            ]
           }
         }
       ],
-        "actions": {
-		"money": ["-8000"]
-        }
+      "actions": {
+        "money": [
+          "-8000"
+        ]
+      },
+      "editor": {
+        "x": 823,
+        "y": 570
+      }
     },
-	{
+    {
       "id": 150,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_26.jpg",
       "title": "Риелтор",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Потеряны деньги: 8000 рублей. Новый квест: пройти в дом.",
       "type_message": 0,
       "texts": [
@@ -4108,25 +4735,37 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_ch4_2"],
-		"add": ["quest_ch4_3"]
-        }
+      "actions": {
+        "remove": [
+          "quest_ch4_2"
+        ],
+        "add": [
+          "quest_ch4_3"
+        ]
+      },
+      "editor": {
+        "x": 291,
+        "y": 190
+      }
     },
-	{
-		"id": 151,
-		"type_stage": 4,
-		"data":{
-		"map":"3",
-		"pos":"1869:724"
-	}
-	},
-	{
+    {
+      "id": 151,
+      "type_stage": 4,
+      "data": {
+        "map": "3",
+        "pos": "1869:724"
+      },
+      "editor": {
+        "x": 79,
+        "y": 275
+      }
+    },
+    {
       "id": 152,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_27.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4146,16 +4785,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 679,
+        "y": 818
+      }
     },
-	{
+    {
       "id": 153,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_27.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4175,16 +4816,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 774,
+        "y": 515
+      }
     },
-	{
+    {
       "id": 154,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_27.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4204,16 +4847,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 387,
+        "y": 707
+      }
     },
-	{
+    {
       "id": 155,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_27.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4232,22 +4877,24 @@
           "stage_id": "156",
           "condition": {}
         },
-		{
+        {
           "text": "Отойти",
           "stage_id": "180",
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 981,
+        "y": 529
+      }
     },
-	{
+    {
       "id": 156,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_28.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4266,27 +4913,29 @@
           "stage_id": "157",
           "condition": {}
         },
-	{
+        {
           "text": "Выпрыгнуть в окно.",
           "stage_id": "169",
           "condition": {}
         },
-			{
+        {
           "text": "Занять оборонительную стойку",
           "stage_id": "170",
           "condition": {}
-        }	
-      ],
-        "actions": {
-		
         }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 986,
+        "y": 822
+      }
     },
-	{
+    {
       "id": 157,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_29.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4306,16 +4955,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 421,
+        "y": 565
+      }
     },
-	{
+    {
       "id": 158,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4335,16 +4986,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 839,
+        "y": 124
+      }
     },
-	{
+    {
       "id": 159,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4364,16 +5017,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 822,
+        "y": 900
+      }
     },
-	{
+    {
       "id": 160,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4393,16 +5048,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 260,
+        "y": 12
+      }
     },
-	{
+    {
       "id": 161,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4422,16 +5079,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 141,
+        "y": 583
+      }
     },
-	{
+    {
       "id": 162,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4451,16 +5110,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 339,
+        "y": 685
+      }
     },
-	{
+    {
       "id": 163,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4480,16 +5141,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 820,
+        "y": 673
+      }
     },
-	{
+    {
       "id": 164,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Лысый",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4509,16 +5172,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 888,
+        "y": 683
+      }
     },
-	{
+    {
       "id": 165,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Шурале",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4538,16 +5203,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 96,
+        "y": 593
+      }
     },
-	{
+    {
       "id": 166,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4567,16 +5234,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 387,
+        "y": 626
+      }
     },
-	{
+    {
       "id": 167,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4596,16 +5265,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 691,
+        "y": 202
+      }
     },
-	{
+    {
       "id": 168,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_31.jpg",
       "title": "Дом",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Квест провален: покинуть зону.",
       "type_message": 0,
       "texts": [
@@ -4625,16 +5298,22 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"xp": ["15"]
-        }
+      "actions": {
+        "xp": [
+          "15"
+        ]
+      },
+      "editor": {
+        "x": 639,
+        "y": 408
+      }
     },
-	{
+    {
       "id": 169,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_32.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4654,16 +5333,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 452,
+        "y": 446
+      }
     },
-	{
+    {
       "id": 170,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_32.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4683,16 +5364,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 66,
+        "y": 114
+      }
     },
-	{
+    {
       "id": 171,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_32.jpg",
       "title": "Цикорий",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4712,16 +5395,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 632,
+        "y": 60
+      }
     },
-	{
+    {
       "id": 172,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_32.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4741,16 +5426,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 5,
+        "y": 735
+      }
     },
-	{
+    {
       "id": 173,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_32.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4770,16 +5457,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 141,
+        "y": 934
+      }
     },
-	{
+    {
       "id": 174,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4799,16 +5488,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 80,
+        "y": 888
+      }
     },
-	{
+    {
       "id": 175,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4828,16 +5519,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 604,
+        "y": 995
+      }
     },
-	{
+    {
       "id": 176,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Особняк",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4857,16 +5550,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 29,
+        "y": 537
+      }
     },
-	{
+    {
       "id": 177,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Яхонт",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4886,16 +5581,18 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 663,
+        "y": 889
+      }
     },
-	{
+    {
       "id": 178,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Яхонт",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4915,16 +5612,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 785,
+        "y": 601
+      }
     },
-	{
+    {
       "id": 179,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_31.jpg",
       "title": "Особняк",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Квест провален: покинуть Зону.",
       "type_message": 0,
       "texts": [
@@ -4944,16 +5645,22 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"xp": ["15"]
-        }
+      "actions": {
+        "xp": [
+          "15"
+        ]
+      },
+      "editor": {
+        "x": 747,
+        "y": 968
+      }
     },
-	{
+    {
       "id": 180,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_33.jpg",
       "title": "Дом",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -4972,27 +5679,29 @@
           "stage_id": "157",
           "condition": {}
         },
-	{
+        {
           "text": "Выпрыгнуть в окно.",
           "stage_id": "169",
           "condition": {}
         },
-			{
+        {
           "text": "Занять оборонительную стойку",
           "stage_id": "170",
           "condition": {}
-        }	
-      ],
-        "actions": {
-		
         }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 171,
+        "y": 906
+      }
     },
-	{
+    {
       "id": 181,
       "type_stage": 0,
       "background_url": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Бар",
-	  "music": [],
+      "music": [],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -5012,19 +5721,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 223,
+        "y": 121
+      }
     },
-	{
-		"id": 182,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"738:1395"
-	}
-},
-{
+    {
+      "id": 182,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "738:1395"
+      },
+      "editor": {
+        "x": 464,
+        "y": 372
+      }
+    },
+    {
       "id": 213,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_0_9.jpg",
@@ -5048,11 +5763,17 @@
           "condition": {}
         }
       ],
-	  "actions": {
-	  "remove": ["go_to_the_cummunist"]
-	  }
+      "actions": {
+        "remove": [
+          "go_to_the_cummunist"
+        ]
+      },
+      "editor": {
+        "x": 227,
+        "y": 78
+      }
     },
-	{
+    {
       "id": 214,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_0_9.jpg",
@@ -5073,26 +5794,31 @@
         {
           "text": "Держи",
           "stage_id": "215",
-          "condition": {
-          }
+          "condition": {}
         },
-		{
+        {
           "text": "Пока",
           "stage_id": "218",
-          "condition": {
-          }
+          "condition": {}
         }
-		
       ],
-	  "actions": {
-		"=":["progress:1"]
-        }
+      "actions": {
+        "=": [
+          "progress:1"
+        ]
+      },
+      "editor": {
+        "x": 369,
+        "y": 129
+      }
     },
-	{
+    {
       "id": 215,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_0_9.jpg",
-      "music": ["4"],
+      "music": [
+        "4"
+      ],
       "title": "Майор Кузнецов",
       "message": "Потеряно денег: 500р",
       "type_message": 0,
@@ -5113,14 +5839,20 @@
           "condition": {}
         }
       ],
-	  "actions": {
+      "actions": {
         "xp": [
           "5"
         ],
-		"money": ["-500"]
+        "money": [
+          "-500"
+        ]
+      },
+      "editor": {
+        "x": 333,
+        "y": 38
       }
     },
-	{
+    {
       "id": 217,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_0_9.jpg",
@@ -5143,21 +5875,31 @@
           "stage_id": "218",
           "condition": {}
         }
-      ]
+      ],
+      "editor": {
+        "x": 863,
+        "y": 1
+      }
     },
-	{
-		"id": 218,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"690:1289"
-	}
-},
-	{
+    {
+      "id": 218,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "690:1289"
+      },
+      "editor": {
+        "x": 364,
+        "y": 322
+      }
+    },
+    {
       "id": 216,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_0_9.jpg",
-      "music": ["4"],
+      "music": [
+        "4"
+      ],
       "title": "Майор Кузнецов",
       "message": "Потеряно денег: 500р",
       "type_message": 0,
@@ -5178,19 +5920,29 @@
           "condition": {}
         }
       ],
-	  "actions": {
-		"money": ["-500"]
+      "actions": {
+        "money": [
+          "-500"
+        ]
+      },
+      "editor": {
+        "x": 779,
+        "y": 875
       }
     },
-{
-		"id": 219,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"690:1488"
-	}
-},
-{
+    {
+      "id": 219,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "690:1488"
+      },
+      "editor": {
+        "x": 490,
+        "y": 347
+      }
+    },
+    {
       "id": 240,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_0_9.jpg",
@@ -5213,22 +5965,27 @@
           "stage_id": "241",
           "condition": {}
         },
-		{
+        {
           "text": "Пока",
           "stage_id": "243",
           "condition": {}
         }
       ],
-	  "actions": {
-	  }
+      "actions": {},
+      "editor": {
+        "x": 789,
+        "y": 266
+      }
     },
-	{
+    {
       "id": 241,
       "type_stage": 7,
       "background_url": "/story/prologue/screen/chapter_0_9.jpg",
       "title": "Лейтенант Мыслов",
       "message": "Потеряно денег: 500р",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -5247,107 +6004,143 @@
           "condition": {}
         }
       ],
-	  "actions": {
-	  "money": ["-500"]
-	  }
-    },
-	{
-		"id": 242,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"690:1289"
-	}
-},
-{
-		"id": 243,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"690:1488"
-	}
-},
-{
-  "id": 244,
-  "_comment": "Переход Свалка-Бар",
-  "type_stage": 4,
-  "data":{
-  "map":"2",
-  "pos":"2104:539"
-}
-},
-{
-  "id": 245,
-  "_comment": "Переход Бар-Свалка",
-  "type_stage": 4,
-  "data":{
-  "map":"1",
-  "pos":"631:1214"
-}
-},
-{
-  "id": 246,
-  "_comment": "Переход Свалка-Кордон",
-  "type_stage": 4,
-  "data":{
-  "map":"0",
-  "pos":"619:2393"
-}
-},
-{
-  "id": 247,
-  "type_stage": 1,
-  "background_url": "/story/prologue/screen/chapter_2_31.jpg",
-  "title": "Пролог завершен!",
-  "type_message": 0,
-  "texts": [
-    {
-      "text": "Вот и кончился пролог!",
-      "condition": {}
+      "actions": {
+        "money": [
+          "-500"
+        ]
+      },
+      "editor": {
+        "x": 843,
+        "y": 482
+      }
     },
     {
-      "text": "",
-      "condition": {}
-    }
-  ],
-  "transfers": [
-    {
-      "text": "Выйти",
-      "stage_id": "248",
-      "condition": {}
-    }
-  ],
-    "actions": {
-      "reset": [""]
-    }
-},
-{
-  "id": 248,
-  "type_stage": 1,
-  "background_url": "/story/prologue/screen/chapter_2_31.jpg",
-  "title": "Пролог завершен!",
-  "type_message": 0,
-  "texts": [
-    {
-      "text": "Выходим...",
-      "condition": {}
+      "id": 242,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "690:1289"
+      },
+      "editor": {
+        "x": 408,
+        "y": 58
+      }
     },
     {
-      "text": "",
-      "condition": {}
-    }
-  ],
-  "transfers": [
+      "id": 243,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "690:1488"
+      },
+      "editor": {
+        "x": 269,
+        "y": 349
+      }
+    },
     {
-      "text": "Не трогай",
-      "stage_id": "248",
-      "condition": {}
+      "id": 244,
+      "_comment": "Переход Свалка-Бар",
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "2104:539"
+      },
+      "editor": {
+        "x": 123,
+        "y": 276
+      }
+    },
+    {
+      "id": 245,
+      "_comment": "Переход Бар-Свалка",
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "631:1214"
+      },
+      "editor": {
+        "x": 36,
+        "y": 776
+      }
+    },
+    {
+      "id": 246,
+      "_comment": "Переход Свалка-Кордон",
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "619:2393"
+      },
+      "editor": {
+        "x": 30,
+        "y": 605
+      }
+    },
+    {
+      "id": 247,
+      "type_stage": 1,
+      "background_url": "/story/prologue/screen/chapter_2_31.jpg",
+      "title": "Пролог завершен!",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот и кончился пролог!",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Выйти",
+          "stage_id": "248",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "reset": [
+          ""
+        ]
+      },
+      "editor": {
+        "x": 40,
+        "y": 850
+      }
+    },
+    {
+      "id": 248,
+      "type_stage": 1,
+      "background_url": "/story/prologue/screen/chapter_2_31.jpg",
+      "title": "Пролог завершен!",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Выходим...",
+          "condition": {}
+        },
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Не трогай",
+          "stage_id": "248",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "over": [],
+        "force": []
+      },
+      "editor": {
+        "x": 275,
+        "y": 299
+      }
     }
-  ],
-    "actions": {
-      "over":["1"]
-    }
-}
-	
-	]
+  ]
 }

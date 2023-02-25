@@ -1,13 +1,15 @@
 {
-  "id":3,
-	"stages": [
-	{
+  "id": 3,
+  "stages": [
+    {
       "id": 0,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "Новый квест: Понюхать яйца.",
-      "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -26,11 +28,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-{
+      "actions": {},
+      "editor": {
+        "x": 608,
+        "y": 718
+      }
+    },
+    {
       "id": 1,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/14.jpg",
@@ -53,23 +57,27 @@
           "stage_id": "2",
           "condition": {}
         },
-		{
+        {
           "text": "А у тебя воняют, сука",
           "stage_id": "3",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-	{
+      "actions": {},
+      "editor": {
+        "x": 356,
+        "y": 952
+      }
+    },
+    {
       "id": 2,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "Получено: 1000 рублей",
-      "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -88,13 +96,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_1_0_jajca_woniajut"], 
-		"money": ["1000"]
-        }
-		},
-
-	{
+      "actions": {
+        "add": [
+          "quest_1_0_jajca_woniajut"
+        ],
+        "money": [
+          "1000"
+        ]
+      },
+      "editor": {
+        "x": 627,
+        "y": 706
+      }
+    },
+    {
       "id": 3,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/14.jpg",
@@ -118,12 +133,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_1_0_smierc"]
-        }
-		},
-
-	{
+      "actions": {
+        "add": [
+          "quest_1_0_smierc"
+        ]
+      },
+      "editor": {
+        "x": 145,
+        "y": 258
+      }
+    },
+    {
       "id": 4,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/14.jpg",
@@ -134,14 +154,18 @@
         {
           "text": "Текст текст текст",
           "condition": {
-			  "has": ["quest_1_0_jajca_woniajut"]
-		  }
+            "has": [
+              "quest_1_0_jajca_woniajut"
+            ]
+          }
         },
         {
           "text": "Lorem ipsum dolor",
           "condition": {
-			  "has": ["quest_1_0_smierc"]
-		  }
+            "has": [
+              "quest_1_0_smierc"
+            ]
+          }
         }
       ],
       "transfers": [
@@ -149,31 +173,36 @@
           "text": "Текст ответа 2",
           "stage_id": "5",
           "condition": {
-			  "has": ["quest_1_0_jajca_woniajut"]
-		  
+            "has": [
+              "quest_1_0_jajca_woniajut"
+            ]
           }
-          },
-		  
-		  {
+        },
+        {
           "text": "Текст ответа 3",
           "stage_id": "6",
           "condition": {
-			  "has": ["quest_1_0_smierc"]
-		  }
+            "has": [
+              "quest_1_0_smierc"
+            ]
+          }
         }
       ],
-        "actions": {
-
-        }
-		},
-
-	{
+      "actions": {},
+      "editor": {
+        "x": 243,
+        "y": 411
+      }
+    },
+    {
       "id": 5,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "Потерян предмет: Вонючие яйца. Получено: Мыло, Репутация: +10",
-      "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -192,13 +221,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-			"xp": ["10"]
-
-        }
-		},
-
-	{
+      "actions": {
+        "xp": [
+          "10"
+        ]
+      },
+      "editor": {
+        "x": 784,
+        "y": 441
+      }
+    },
+    {
       "id": 6,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/14.jpg",
@@ -222,12 +255,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-			"-": ["relation_2:3"]
-        }
-		},
-
-	{
+      "actions": {
+        "-": [
+          "relation_2:3"
+        ]
+      },
+      "editor": {
+        "x": 289,
+        "y": 913
+      }
+    },
+    {
       "id": 7,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/14.jpg",
@@ -251,21 +289,28 @@
           "condition": {}
         }
       ],
-        "actions": {
-			"remove": ["quest_1_0_jajca_woniajut", "quest_1_0_smierc"]
-
-        }
-		},		
-		{
-        "id": 8,
-        "type_stage": 4,
-        "data":{
-        "map":"1",
-        "pos":"124:817"
+      "actions": {
+        "remove": [
+          "quest_1_0_jajca_woniajut",
+          "quest_1_0_smierc"
+        ]
+      },
+      "editor": {
+        "x": 343,
+        "y": 272
+      }
+    },
+    {
+      "id": 8,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "124:817"
+      },
+      "editor": {
+        "x": 504,
+        "y": 783
+      }
+    }
+  ]
 }
-}
-		]
-		}
-		
-		
-		

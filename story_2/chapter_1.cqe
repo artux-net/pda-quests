@@ -1,61 +1,57 @@
 {
-"id":1,
-    "music":[
-        {
-		"id":"0",
-		"name": "Fire 1 20% | Prologue chapter 0",
-		"url":"story/prologue/sound/fire.mp3",
-		"params":[
-			"loop",
-			"volume:0.2"
-		]
-	},
-	{
-		"id":"1",
-		"name": "Fire 1 50%| Prologue chapter 0",
-		"url":"story/prologue/sound/fire.mp3",
-		"params":[
-		"loop",
-		"volume:0.5"
-		]
-	},
-	{
-		"id":"2",
-		"name": "Guitar 1 50% | Prologue chapter 0",
-		"url":"story/prologue/sound/guitar.mp3",
-		"params":[
-		"volume:0.5"
-		]
-	},
-	{
-		"id":"3",
-		"name": "Guitar 1 100% | Prologue chapter 0",
-		"url":"story/prologue/sound/guitar.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"4",
-		"name": "PDA новое уведомление",
-		"url":"story/prologue/sound/PDA1.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"5",
-		"name": "PDA новый квест",
-		"url":"story/prologue/sound/PDA2.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"6",
-		"name": "PDA новое сообщение",
-		"url":"story/prologue/sound/PDA3.mp3",
-		"params":[
-		]
-	}
-    ],
+  "id": 1,
+  "music": [
+    {
+      "id": "0",
+      "name": "Fire 1 20% | Prologue chapter 0",
+      "url": "story/prologue/sound/fire.mp3",
+      "params": [
+        "loop",
+        "volume:0.2"
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Fire 1 50%| Prologue chapter 0",
+      "url": "story/prologue/sound/fire.mp3",
+      "params": [
+        "loop",
+        "volume:0.5"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Guitar 1 50% | Prologue chapter 0",
+      "url": "story/prologue/sound/guitar.mp3",
+      "params": [
+        "volume:0.5"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Guitar 1 100% | Prologue chapter 0",
+      "url": "story/prologue/sound/guitar.mp3",
+      "params": []
+    },
+    {
+      "id": "4",
+      "name": "PDA новое уведомление",
+      "url": "story/prologue/sound/PDA1.mp3",
+      "params": []
+    },
+    {
+      "id": "5",
+      "name": "PDA новый квест",
+      "url": "story/prologue/sound/PDA2.mp3",
+      "params": []
+    },
+    {
+      "id": "6",
+      "name": "PDA новое сообщение",
+      "url": "story/prologue/sound/PDA3.mp3",
+      "params": []
+    }
+  ],
   "stages": [
     {
       "id": 0,
@@ -81,11 +77,23 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"reset":["relation_0","relation_1","relation_2","relation_3","relation_4","relation_5","relation_6"]
-        }
-		},
-		{
+      "actions": {
+        "reset": [
+          "relation_0",
+          "relation_1",
+          "relation_2",
+          "relation_3",
+          "relation_4",
+          "relation_5",
+          "relation_6"
+        ]
+      },
+      "editor": {
+        "x": 529,
+        "y": 317
+      }
+    },
+    {
       "id": 1,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -109,10 +117,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 643,
+        "y": 796
+      }
+    },
+    {
       "id": 2,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -136,11 +147,19 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"-":["relation_2:3","relation_5:5","relation_1:3"]
-        }
-		},
-		{
+      "actions": {
+        "-": [
+          "relation_2:3",
+          "relation_5:5",
+          "relation_1:3"
+        ]
+      },
+      "editor": {
+        "x": 424,
+        "y": 569
+      }
+    },
+    {
       "id": 3,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -164,11 +183,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 609,
+        "y": 950
+      }
+    },
+    {
       "id": 4,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -192,11 +213,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 53,
+        "y": 136
+      }
+    },
+    {
       "id": 5,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -220,11 +243,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 170,
+        "y": 589
+      }
+    },
+    {
       "id": 6,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -248,11 +273,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 229,
+        "y": 760
+      }
+    },
+    {
       "id": 7,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -276,11 +303,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 870,
+        "y": 954
+      }
+    },
+    {
       "id": 8,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -304,17 +333,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 342,
+        "y": 36
+      }
+    },
+    {
       "id": 9,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "Получен предмет: Документы для НИИЧАЗ",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -333,11 +366,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 407,
+        "y": 786
+      }
+    },
+    {
       "id": 10,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -361,11 +396,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 722,
+        "y": 651
+      }
+    },
+    {
       "id": 11,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -389,17 +426,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 476,
+        "y": 698
+      }
+    },
+    {
       "id": 12,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "Новый квест: Отправиться в НИИЧАЗ",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -418,21 +459,29 @@
           "condition": {}
         }
       ],
-        "actions": {
-            "add": [
-              "quest_0_0"
-            ]
-          }
-		},
-		{
-		"id": 13,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"1311:662"
-}
-},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0"
+        ]
+      },
+      "editor": {
+        "x": 808,
+        "y": 879
+      }
+    },
+    {
+      "id": 13,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1311:662"
+      },
+      "editor": {
+        "x": 613,
+        "y": 52
+      }
+    },
+    {
       "id": 14,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/1.jpg",
@@ -456,11 +505,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 167,
+        "y": 780
+      }
+    },
+    {
       "id": 15,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/1.jpg",
@@ -484,11 +535,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 19,
+        "y": 472
+      }
+    },
+    {
       "id": 16,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/1.jpg",
@@ -512,11 +565,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 772,
+        "y": 776
+      }
+    },
+    {
       "id": 17,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/1.jpg",
@@ -540,11 +595,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 316,
+        "y": 616
+      }
+    },
+    {
       "id": 18,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/1.jpg",
@@ -567,25 +624,31 @@
           "stage_id": "20",
           "condition": {}
         },
-		{
+        {
           "text": "Пойду поищу, скоро вернусь",
           "stage_id": "19",
           "condition": {}
         }
       ],
-        "actions": {
-            "remove": [
-              "quest_0_0"
-            ]
-          }
-		},
-		{
+      "actions": {
+        "remove": [
+          "quest_0_0"
+        ]
+      },
+      "editor": {
+        "x": 581,
+        "y": 483
+      }
+    },
+    {
       "id": 19,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
       "message": "Новый квест: Вернуться в бар",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -604,19 +667,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-            "add": [
-              "quest_0_0_post_bar"
-            ]
-          }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_post_bar"
+        ]
+      },
+      "editor": {
+        "x": 350,
+        "y": 369
+      }
+    },
+    {
       "id": 20,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
       "message": "Новый квест: Идти к учёному",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -635,11 +704,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-            "add": ["quest_0_0_post_uch1"]
-          }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_post_uch1"
+        ]
+      },
+      "editor": {
+        "x": 380,
+        "y": 30
+      }
+    },
+    {
       "id": 46,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/1.jpg",
@@ -663,27 +738,41 @@
           "condition": {}
         }
       ],
-        "actions": {
-            "add": ["quest_0_0_post_uch_dolg"]
-          }
-		},
-		{
-		"id": 21,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"2374:947"
-}
-},
-{
-		"id": 22,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"2373:1007"
-}
-},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_post_uch_dolg"
+        ]
+      },
+      "editor": {
+        "x": 499,
+        "y": 732
+      }
+    },
+    {
+      "id": 21,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2374:947"
+      },
+      "editor": {
+        "x": 886,
+        "y": 298
+      }
+    },
+    {
+      "id": 22,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2373:1007"
+      },
+      "editor": {
+        "x": 752,
+        "y": 493
+      }
+    },
+    {
       "id": 47,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/2.jpg",
@@ -707,17 +796,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 944,
+        "y": 604
+      }
+    },
+    {
       "id": 23,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/2.jpg",
       "title": "Ученый",
       "message": "Потерян предмет: Документы для НИИЧАЗ",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -736,11 +829,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 487,
+        "y": 52
+      }
+    },
+    {
       "id": 24,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/2.jpg",
@@ -764,11 +859,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 140,
+        "y": 224
+      }
+    },
+    {
       "id": 25,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/2.jpg",
@@ -792,11 +889,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 846,
+        "y": 75
+      }
+    },
+    {
       "id": 26,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/2.jpg",
@@ -820,11 +919,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 702,
+        "y": 499
+      }
+    },
+    {
       "id": 27,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/2.jpg",
@@ -851,7 +952,7 @@
             ]
           }
         },
-		{
+        {
           "text": "У меня к вам нестандартная просьба: могу ли я попросить у вас в долг 500 рублей, чтобы выйти от сюда? Охрана без взятки не выпускает",
           "stage_id": "29",
           "condition": {
@@ -861,22 +962,28 @@
           }
         }
       ],
-        "actions": {
-            "add": [
-              "quest_0_0_post_uch_bar"
-            ],
-			"remove": [
-              "quest_0_0_post_uch1"
-            ]
-          }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_post_uch_bar"
+        ],
+        "remove": [
+          "quest_0_0_post_uch1"
+        ]
+      },
+      "editor": {
+        "x": 90,
+        "y": 378
+      }
+    },
+    {
       "id": 28,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/2.jpg",
       "title": "Клементьев",
       "message": "Новый квест: Вернуться в бар",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -895,19 +1002,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
-		"id": 33,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"2374:947"
-}
-},
-		{
+      "actions": {},
+      "editor": {
+        "x": 10,
+        "y": 646
+      }
+    },
+    {
+      "id": 33,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2374:947"
+      },
+      "editor": {
+        "x": 741,
+        "y": 399
+      }
+    },
+    {
       "id": 29,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/2.jpg",
@@ -930,19 +1043,23 @@
           "stage_id": "30",
           "condition": {}
         },
-		{
+        {
           "text": "Подождите...",
           "stage_id": "34",
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": [
-              "quest_0_0_post_uch_dolg"
-            ]
-        }
-		},
-		{
+      "actions": {
+        "remove": [
+          "quest_0_0_post_uch_dolg"
+        ]
+      },
+      "editor": {
+        "x": 640,
+        "y": 836
+      }
+    },
+    {
       "id": 30,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/2.jpg",
@@ -966,17 +1083,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 389,
+        "y": 375
+      }
+    },
+    {
       "id": 31,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/3.jpg",
       "title": "Блокпост",
       "message": "Новый квест: Вернуться в бар",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -995,19 +1116,29 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"xp": ["-100"]
-        }
-		},
-		{
-		"id": 32,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"2373:947"
-}
-},
-		{
+      "actions": {
+        "xp": [
+          "-100"
+        ]
+      },
+      "editor": {
+        "x": 29,
+        "y": 859
+      }
+    },
+    {
+      "id": 32,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2373:947"
+      },
+      "editor": {
+        "x": 749,
+        "y": 329
+      }
+    },
+    {
       "id": 34,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/2.jpg",
@@ -1031,17 +1162,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 745,
+        "y": 476
+      }
+    },
+    {
       "id": 35,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/2.jpg",
       "title": "Клементьев",
       "message": "Получен предмет: 500 рублей",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -1060,21 +1195,29 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": [
-              "quest_0_0_post_uch1_exit"
-            ]
-        }
-		},
-				{
-		"id": 36,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"2448:1291"
-}
-},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_post_uch1_exit"
+        ]
+      },
+      "editor": {
+        "x": 343,
+        "y": 243
+      }
+    },
+    {
+      "id": 36,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2448:1291"
+      },
+      "editor": {
+        "x": 407,
+        "y": 532
+      }
+    },
+    {
       "id": 37,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/3.jpg",
@@ -1098,17 +1241,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 409,
+        "y": 96
+      }
+    },
+    {
       "id": 38,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/3.jpg",
       "title": "Блокпост",
       "message": "Новый квест: Вернуться в бар. Потеряно: 1000 рублей",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -1127,19 +1274,29 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_0_0_post_uch1_exit"]
-        }
-		},
-		{
-		"id": 39,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"2374:947"
-}
-},
-		{
+      "actions": {
+        "remove": [
+          "quest_0_0_post_uch1_exit"
+        ]
+      },
+      "editor": {
+        "x": 889,
+        "y": 291
+      }
+    },
+    {
+      "id": 39,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2374:947"
+      },
+      "editor": {
+        "x": 130,
+        "y": 453
+      }
+    },
+    {
       "id": 40,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -1163,17 +1320,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_0_0_post_bar1"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_post_bar1"
+        ]
+      },
+      "editor": {
+        "x": 430,
+        "y": 648
+      }
+    },
+    {
       "id": 41,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "Новый квест: Вернуться в НИИЧАЗ. Получено: 500 рублей",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -1192,20 +1357,32 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_0_0_post_bar"],
-    "money": ["500"]
-        }
-		},
-		{
-		"id": 42,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"1311:662"
-}
-},
-		{
+      "actions": {
+        "remove": [
+          "quest_0_0_post_bar"
+        ],
+        "money": [
+          "500"
+        ]
+      },
+      "editor": {
+        "x": 464,
+        "y": 328
+      }
+    },
+    {
+      "id": 42,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1311:662"
+      },
+      "editor": {
+        "x": 558,
+        "y": 36
+      }
+    },
+    {
       "id": 43,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/1.jpg",
@@ -1229,16 +1406,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 739,
+        "y": 147
+      }
+    },
+    {
       "id": 44,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
       "message": "Новый квест: Идти к ученому. Потеряно: 1000 рублей",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -1257,23 +1439,35 @@
           "condition": {}
         }
       ],
-        "actions": {
-            "add": [
-              "quest_0_0_post_uch1"
-            ],
-			"remove": ["quest_0_0_post_bar1"],
-      "money": ["-1000"]
-          }
-		},
-		{
-		"id": 45,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"2373:1007"
-}
-},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_post_uch1"
+        ],
+        "remove": [
+          "quest_0_0_post_bar1"
+        ],
+        "money": [
+          "-1000"
+        ]
+      },
+      "editor": {
+        "x": 470,
+        "y": 244
+      }
+    },
+    {
+      "id": 45,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2373:1007"
+      },
+      "editor": {
+        "x": 172,
+        "y": 698
+      }
+    },
+    {
       "id": 48,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -1297,11 +1491,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 183,
+        "y": 490
+      }
+    },
+    {
       "id": 49,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -1325,11 +1521,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 66,
+        "y": 712
+      }
+    },
+    {
       "id": 50,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -1353,17 +1551,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_0_0_post_uch_bar"]
-        }
-		},
-		{
+      "actions": {
+        "remove": [
+          "quest_0_0_post_uch_bar"
+        ]
+      },
+      "editor": {
+        "x": 647,
+        "y": 364
+      }
+    },
+    {
       "id": 51,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "Новый квест: Идти к Калине",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -1382,11 +1588,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 164,
+        "y": 404
+      }
+    },
+    {
       "id": 52,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/4.jpg",
@@ -1410,11 +1618,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 878,
+        "y": 904
+      }
+    },
+    {
       "id": 53,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/4.jpg",
@@ -1438,11 +1648,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 320,
+        "y": 249
+      }
+    },
+    {
       "id": 54,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/4.jpg",
@@ -1466,11 +1678,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 134,
+        "y": 55
+      }
+    },
+    {
       "id": 55,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/5.jpg",
@@ -1494,11 +1708,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 673,
+        "y": 834
+      }
+    },
+    {
       "id": 56,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/6.jpg",
@@ -1521,17 +1737,19 @@
           "stage_id": "57",
           "condition": {}
         },
-		{
+        {
           "text": "Девочка, иди гуляй, с тобой никто не общался",
           "stage_id": "59",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 786,
+        "y": 903
+      }
+    },
+    {
       "id": 57,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/6.jpg",
@@ -1555,17 +1773,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_0_0_kalina_loh"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_kalina_loh"
+        ]
+      },
+      "editor": {
+        "x": 784,
+        "y": 24
+      }
+    },
+    {
       "id": 58,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/6.jpg",
       "title": "Калина",
       "message": "Получен предмет: 700 рублей",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -1584,11 +1810,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 890,
+        "y": 944
+      }
+    },
+    {
       "id": 59,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/6.jpg",
@@ -1612,11 +1840,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_0_0_kalina_krasawa"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_kalina_krasawa"
+        ]
+      },
+      "editor": {
+        "x": 375,
+        "y": 255
+      }
+    },
+    {
       "id": 60,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/6.jpg",
@@ -1640,11 +1874,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 3,
+        "y": 102
+      }
+    },
+    {
       "id": 61,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/6.jpg",
@@ -1668,12 +1904,15 @@
           "condition": {}
         }
       ],
-        "actions": {
-          "force": []
-
-        }
-		},
-		{
+      "actions": {
+        "force": []
+      },
+      "editor": {
+        "x": 1000,
+        "y": 170
+      }
+    },
+    {
       "id": 62,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/6.jpg",
@@ -1697,17 +1936,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 311,
+        "y": 750
+      }
+    },
+    {
       "id": 63,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/7.jpg",
       "title": "Калина",
       "message": "Новый квест: Подойти к Джо",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -1726,11 +1969,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 548,
+        "y": 321
+      }
+    },
+    {
       "id": 64,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -1740,30 +1985,43 @@
       "texts": [
         {
           "text": "Ну, как с деньгами обстоит вопрос?",
-          "condition": {"has": ["quest_0_0_kalina_loh"]}
+          "condition": {
+            "has": [
+              "quest_0_0_kalina_loh"
+            ]
+          }
         },
         {
           "text": "Красиво ты их осадил, уважаю."
-
         }
       ],
       "transfers": [
         {
           "text": "Принёс деньги. Кто это такие?",
           "stage_id": "65",
-          "condition": {"has": ["quest_0_0_kalina_loh"]}
+          "condition": {
+            "has": [
+              "quest_0_0_kalina_loh"
+            ]
+          }
         },
-		{
+        {
           "text": "Кто это такие?",
           "stage_id": "65",
-          "condition": {"has": ["quest_0_0_kalina_krasawa"]}
+          "condition": {
+            "has": [
+              "quest_0_0_kalina_krasawa"
+            ]
+          }
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 87,
+        "y": 948
+      }
+    },
+    {
       "id": 65,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -1773,11 +2031,19 @@
       "texts": [
         {
           "text": "Двое блатных пацанчиков, а по факту - лошки, которые постоянно торчат бабки и дальше Кордона не суются. Надо было с ними пожестче, а то ты, честно говоря, опозорился на весь бар.",
-          "condition": {"has": ["quest_0_0_kalina_loh"]}
+          "condition": {
+            "has": [
+              "quest_0_0_kalina_loh"
+            ]
+          }
         },
         {
           "text": "Двое блатных пацанчиков, а по факту - лошки, которые постоянно торчат бабки и дальше Кордона не суются. Правильно сделал, что надавил на них, весь бар оценил.",
-          "condition": {"has": ["quest_0_0_kalina_krasawa"]}
+          "condition": {
+            "has": [
+              "quest_0_0_kalina_krasawa"
+            ]
+          }
         }
       ],
       "transfers": [
@@ -1787,17 +2053,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 724,
+        "y": 760
+      }
+    },
+    {
       "id": 66,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "Получен предмет: 7000 рублей",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -1816,19 +2086,32 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_0_0_kalina_loh","quest_0_0_kalina_krasawa"],
-		"money": ["7000"],
-		"+":["relation_0:1"]
-        }
-		},
-		{
+      "actions": {
+        "remove": [
+          "quest_0_0_kalina_loh",
+          "quest_0_0_kalina_krasawa"
+        ],
+        "money": [
+          "7000"
+        ],
+        "+": [
+          "relation_0:1"
+        ]
+      },
+      "editor": {
+        "x": 15,
+        "y": 479
+      }
+    },
+    {
       "id": 67,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "Новый квест: Отправиться к базе СНГ",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -1847,19 +2130,29 @@
           "condition": {}
         }
       ],
-        "actions": {
-	"add": ["quest_0_0_naebka"]
-        }
-		},
-		{
-		"id": 68,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"1311:662"
-}
-},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_naebka"
+        ]
+      },
+      "editor": {
+        "x": 501,
+        "y": 58
+      }
+    },
+    {
+      "id": 68,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1311:662"
+      },
+      "editor": {
+        "x": 930,
+        "y": 466
+      }
+    },
+    {
       "id": 69,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/8.jpg",
@@ -1883,11 +2176,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_0_0_naebka"]
-        }
-		},
-		{
+      "actions": {
+        "remove": [
+          "quest_0_0_naebka"
+        ]
+      },
+      "editor": {
+        "x": 708,
+        "y": 299
+      }
+    },
+    {
       "id": 70,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/8.jpg",
@@ -1910,17 +2209,19 @@
           "stage_id": "74",
           "condition": {}
         },
-		{
+        {
           "text": "Нет, спасибо, я сам как-нибудь",
           "stage_id": "71",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 744,
+        "y": 260
+      }
+    },
+    {
       "id": 71,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/8.jpg",
@@ -1943,17 +2244,19 @@
           "stage_id": "74",
           "condition": {}
         },
-		{
+        {
           "text": "Уверен, пока",
           "stage_id": "72",
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 340,
+        "y": 799
+      }
+    },
+    {
       "id": 72,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/8.jpg",
@@ -1977,19 +2280,29 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_0_0_sng1"]
-        }
-		},
-		{
-		"id": 73,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"1323:705"
-}
-},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_sng1"
+        ]
+      },
+      "editor": {
+        "x": 520,
+        "y": 901
+      }
+    },
+    {
+      "id": 73,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1323:705"
+      },
+      "editor": {
+        "x": 693,
+        "y": 350
+      }
+    },
+    {
       "id": 74,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/8.jpg",
@@ -2013,17 +2326,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_0_0_naebka1"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_naebka1"
+        ]
+      },
+      "editor": {
+        "x": 272,
+        "y": 102
+      }
+    },
+    {
       "id": 75,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/8.jpg",
       "title": "Валерка",
       "message": "Новый квест: Отправиться за пропуском. Потеряно: 800 рублей",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -2042,19 +2363,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
-		"id": 76,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"1323:705"
-}
-},
-		{
+      "actions": {},
+      "editor": {
+        "x": 967,
+        "y": 464
+      }
+    },
+    {
+      "id": 76,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1323:705"
+      },
+      "editor": {
+        "x": 603,
+        "y": 306
+      }
+    },
+    {
       "id": 77,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
@@ -2078,17 +2405,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["quest_0_0_naebka1"]
-        }
-		},
-		{
+      "actions": {
+        "remove": [
+          "quest_0_0_naebka1"
+        ]
+      },
+      "editor": {
+        "x": 895,
+        "y": 624
+      }
+    },
+    {
       "id": 78,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/0.jpg",
       "title": "Дом",
       "message": "Новый квест: Идти на базу СНГ",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -2107,19 +2442,29 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_0_0_sng1"]
-        }
-		},
-		{
-		"id": 79,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"2254:486"
-}
-},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_sng1"
+        ]
+      },
+      "editor": {
+        "x": 445,
+        "y": 997
+      }
+    },
+    {
+      "id": 79,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2254:486"
+      },
+      "editor": {
+        "x": 624,
+        "y": 680
+      }
+    },
+    {
       "id": 80,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/9.jpg",
@@ -2143,11 +2488,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 383,
+        "y": 308
+      }
+    },
+    {
       "id": 81,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/9.jpg",
@@ -2171,11 +2518,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 442,
+        "y": 789
+      }
+    },
+    {
       "id": 82,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/9.jpg",
@@ -2199,11 +2548,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 549,
+        "y": 320
+      }
+    },
+    {
       "id": 83,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/9.jpg",
@@ -2227,11 +2578,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 682,
+        "y": 409
+      }
+    },
+    {
       "id": 84,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/9.jpg",
@@ -2255,11 +2608,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 943,
+        "y": 131
+      }
+    },
+    {
       "id": 85,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/10.jpg",
@@ -2283,11 +2638,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 371,
+        "y": 819
+      }
+    },
+    {
       "id": 86,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/10.jpg",
@@ -2311,11 +2668,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 462,
+        "y": 562
+      }
+    },
+    {
       "id": 87,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/10.jpg",
@@ -2339,17 +2698,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 501,
+        "y": 396
+      }
+    },
+    {
       "id": 88,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/10.jpg",
       "title": "Майор Киргизов",
       "message": "Потерян предмет: 5000 рублей. Получен предмет: Документы для пропуска в Зону",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -2368,18 +2731,28 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_0_0_sng2"],
-		"remove":["quest_0_0_sng1"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_sng2"
+        ],
+        "remove": [
+          "quest_0_0_sng1"
+        ]
+      },
+      "editor": {
+        "x": 592,
+        "y": 999
+      }
+    },
+    {
       "id": 89,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/10.jpg",
       "title": "Майор Киргизов",
       "message": "Новый квест: Идти в НИИЧАЗ",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -2398,19 +2771,29 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"+":["relation_2:15"]
-        }
-		},
-		{
-		"id": 90,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"2093:1139"
-}
-},
-		{
+      "actions": {
+        "+": [
+          "relation_2:15"
+        ]
+      },
+      "editor": {
+        "x": 601,
+        "y": 185
+      }
+    },
+    {
+      "id": 90,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2093:1139"
+      },
+      "editor": {
+        "x": 601,
+        "y": 172
+      }
+    },
+    {
       "id": 91,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/11.jpg",
@@ -2434,11 +2817,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 477,
+        "y": 323
+      }
+    },
+    {
       "id": 92,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/11.jpg",
@@ -2462,11 +2847,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 458,
+        "y": 907
+      }
+    },
+    {
       "id": 93,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/11.jpg",
@@ -2490,11 +2877,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 383,
+        "y": 982
+      }
+    },
+    {
       "id": 94,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/11.jpg",
@@ -2518,11 +2907,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 696,
+        "y": 70
+      }
+    },
+    {
       "id": 95,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/12.jpg",
@@ -2546,11 +2937,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 786,
+        "y": 919
+      }
+    },
+    {
       "id": 96,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/12.jpg",
@@ -2574,11 +2967,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 480,
+        "y": 749
+      }
+    },
+    {
       "id": 97,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/12.jpg",
@@ -2602,11 +2997,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 824,
+        "y": 998
+      }
+    },
+    {
       "id": 98,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/12.jpg",
@@ -2630,11 +3027,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 584,
+        "y": 132
+      }
+    },
+    {
       "id": 99,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/12.jpg",
@@ -2658,17 +3057,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 381,
+        "y": 587
+      }
+    },
+    {
       "id": 100,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/12.jpg",
       "title": "Василий Алексеевич",
       "message": "Получен предмет: Пропуск в Зону",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -2687,17 +3090,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["propusk_001"]
-        }
-		},
-		{
+      "actions": {
+        "add": [
+          "propusk_001"
+        ]
+      },
+      "editor": {
+        "x": 329,
+        "y": 964
+      }
+    },
+    {
       "id": 101,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/12.jpg",
       "title": "Василий Алексеевич",
       "message": "Новый квест: Идти к Периметру",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -2716,20 +3127,32 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["quest_0_0_sng3"],
-		"remove": ["quest_0_0_sng2"]
-        }
-		},
-		{
-		"id": 102,
-		"type_stage": 4,
-		"data":{
-		"map":"0",
-		"pos":"2374:977"
-}
-},
-		{
+      "actions": {
+        "add": [
+          "quest_0_0_sng3"
+        ],
+        "remove": [
+          "quest_0_0_sng2"
+        ]
+      },
+      "editor": {
+        "x": 561,
+        "y": 977
+      }
+    },
+    {
+      "id": 102,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2374:977"
+      },
+      "editor": {
+        "x": 442,
+        "y": 620
+      }
+    },
+    {
       "id": 103,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/13.jpg",
@@ -2753,17 +3176,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 154,
+        "y": 982
+      }
+    },
+    {
       "id": 104,
       "type_stage": 0,
       "background_url": "story/freeplay/screen/13.jpg",
       "title": "Блокпост",
       "message": "Новый квест: Пересечь Периметр",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "type_message": 0,
       "texts": [
         {
@@ -2782,11 +3209,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-
-        }
-		},
-		{
+      "actions": {},
+      "editor": {
+        "x": 321,
+        "y": 65
+      }
+    },
+    {
       "id": 105,
       "type_stage": 1,
       "background_url": "story/freeplay/screen/13.jpg",
@@ -2794,7 +3223,7 @@
       "title": "Глава окончена!",
       "message": "",
       "type_message": 0,
-	  "value": 0,
+      "value": 0,
       "texts": [
         {
           "text": "Вот так и закончилась 1 глава",
@@ -2808,19 +3237,23 @@
           "condition": {}
         }
       ],
-	  "actions": {
-
-	  }  
+      "actions": {},
+      "editor": {
+        "x": 543,
+        "y": 66
+      }
     },
-	{
-"id": 106,
-"type_stage": 5,
-"data":{
-"chapter":"2",
-"stage":"0"
-}
-}
-		
-		
-		]
+    {
+      "id": 106,
+      "type_stage": 5,
+      "data": {
+        "chapter": "2",
+        "stage": "0"
+      },
+      "editor": {
+        "x": 649,
+        "y": 217
+      }
+    }
+  ]
 }

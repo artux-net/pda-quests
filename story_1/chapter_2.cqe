@@ -1,68 +1,67 @@
 {
-   "id":2,
-   "music":[
-   {
-		"id":"0",
-		"name": "Fire 1 20% | Prologue chapter 0",
-		"url":"story/prologue/sound/fire.mp3",
-		"params":[
-			"loop",
-			"volume:0.2"
-		]
-	},
-	{
-		"id":"1",
-		"name": "Fire 1 50%| Prologue chapter 0",
-		"url":"story/prologue/sound/fire.mp3",
-		"params":[
-		"loop",
-		"volume:0.5"
-		]
-	},
-	{
-		"id":"2",
-		"name": "Guitar 1 50% | Prologue chapter 0",
-		"url":"story/prologue/sound/guitar.mp3",
-		"params":[
-		"volume:0.5"
-		]
-	},
-	{
-		"id":"3",
-		"name": "Guitar 1 100% | Prologue chapter 0",
-		"url":"story/prologue/sound/guitar.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"4",
-		"name": "PDA новое уведомление",
-		"url":"story/prologue/sound/PDA1.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"5",
-		"name": "PDA новый квест",
-		"url":"story/prologue/sound/PDA2.mp3",
-		"params":[
-		]
-	},
-	{
-		"id":"6",
-		"name": "PDA новое сообщение",
-		"url":"story/prologue/sound/PDA3.mp3",
-		"params":[
-		]
-	}
-    ],
+  "id": 2,
+  "music": [
+    {
+      "id": "0",
+      "name": "Fire 1 20% | Prologue chapter 0",
+      "url": "story/prologue/sound/fire.mp3",
+      "params": [
+        "loop",
+        "volume:0.2"
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Fire 1 50%| Prologue chapter 0",
+      "url": "story/prologue/sound/fire.mp3",
+      "params": [
+        "loop",
+        "volume:0.5"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Guitar 1 50% | Prologue chapter 0",
+      "url": "story/prologue/sound/guitar.mp3",
+      "params": [
+        "volume:0.5"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Guitar 1 100% | Prologue chapter 0",
+      "url": "story/prologue/sound/guitar.mp3",
+      "params": []
+    },
+    {
+      "id": "4",
+      "name": "PDA новое уведомление",
+      "url": "story/prologue/sound/PDA1.mp3",
+      "params": []
+    },
+    {
+      "id": "5",
+      "name": "PDA новый квест",
+      "url": "story/prologue/sound/PDA2.mp3",
+      "params": []
+    },
+    {
+      "id": "6",
+      "name": "PDA новое сообщение",
+      "url": "story/prologue/sound/PDA3.mp3",
+      "params": []
+    }
+  ],
   "stages": [
     {
       "id": 0,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_1_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": ["1","3"],
+      "music": [
+        "1",
+        "3"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -82,16 +81,21 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 179,
+        "y": 498
+      }
     },
-	    {
+    {
       "id": 1,
       "type_stage": 7,
       "background_url": "story/prologue/screen/chapter_1_1.jpg",
       "title": "Аркадий Еврей",
-	  "music": ["1","3"],
+      "music": [
+        "1",
+        "3"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -111,11 +115,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-          "money": ["600"]
-        }
+      "actions": {
+        "money": [
+          "600"
+        ]
+      },
+      "editor": {
+        "x": 163,
+        "y": 340
+      }
     },
-	    {
+    {
       "id": 2,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_1_2.jpg",
@@ -138,22 +148,32 @@
           "stage_id": "3",
           "condition": {}
         },
-		{
+        {
           "text": "Пройти мимо",
           "stage_id": "6",
           "condition": {}
         }
       ],
-        "actions": {
-          "add": ["2:1","11:1","38:90"]
-        }
+      "actions": {
+        "add": [
+          "2:1",
+          "11:1",
+          "38:90"
+        ]
+      },
+      "editor": {
+        "x": 382,
+        "y": 435
+      }
     },
-	    {
+    {
       "id": 3,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_1_3.jpg",
       "title": "Блокпост перед Свалкой",
-	  "music": ["1"],
+      "music": [
+        "1"
+      ],
       "message": "",
       "type_message": 0,
       "texts": [
@@ -172,21 +192,26 @@
           "stage_id": "4",
           "condition": {}
         },
-		        {
+        {
           "text": "Вскрыть руками",
           "stage_id": "5",
           "condition": {}
         }
       ],
-        "actions": {
-        }
+      "actions": {},
+      "editor": {
+        "x": 96,
+        "y": 957
+      }
     },
-	    {
+    {
       "id": 4,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_1_3.jpg",
       "title": "Блокпост перед Свалкой",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Получено: бинт х2, стандартная аптечка.",
       "type_message": 0,
       "texts": [
@@ -206,17 +231,29 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["67","67","68"],
-		"xp": ["1"]
-        }
+      "actions": {
+        "add": [
+          "67",
+          "67",
+          "68"
+        ],
+        "xp": [
+          "1"
+        ]
+      },
+      "editor": {
+        "x": 689,
+        "y": 503
+      }
     },
-	    {
+    {
       "id": 5,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_1_3.jpg",
       "title": "Блокпост перед Свалкой",
-	  "music": ["5"],
+      "music": [
+        "5"
+      ],
       "message": "Получено: бинт х2, стандартная аптечка.",
       "type_message": 0,
       "texts": [
@@ -236,12 +273,22 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": ["67","67","68"],
-		"health-": ["0.06"]
-        }
+      "actions": {
+        "add": [
+          "67",
+          "67",
+          "68"
+        ],
+        "health-": [
+          "0.06"
+        ]
+      },
+      "editor": {
+        "x": 611,
+        "y": 257
+      }
     },
-	{
+    {
       "id": 6,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_1_2.jpg",
@@ -265,10 +312,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-        }
+      "actions": {},
+      "editor": {
+        "x": 864,
+        "y": 14
+      }
     },
-	{
+    {
       "id": 7,
       "type_stage": 7,
       "background_url": "story/prologue/screen/chapter_1_4.jpg",
@@ -292,10 +342,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-        }
+      "actions": {},
+      "editor": {
+        "x": 497,
+        "y": 442
+      }
     },
-	{
+    {
       "id": 8,
       "type_stage": 7,
       "background_url": "story/prologue/screen/chapter_1_5.jpg",
@@ -319,10 +372,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-        }
+      "actions": {},
+      "editor": {
+        "x": 370,
+        "y": 469
+      }
     },
-	{
+    {
       "id": 9,
       "type_stage": 7,
       "background_url": "story/prologue/screen/chapter_1_6.jpg",
@@ -346,10 +402,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-        }
+      "actions": {},
+      "editor": {
+        "x": 392,
+        "y": 992
+      }
     },
-	{
+    {
       "id": 10,
       "type_stage": 7,
       "background_url": "story/prologue/screen/chapter_1_6.jpg",
@@ -371,24 +430,31 @@
           "text": "Хорошо, хорошо, отдаю. ",
           "stage_id": "11",
           "condition": {
-            "money<=": ["120"]
+            "money<=": [
+              "120"
+            ]
           }
         },
-		{
+        {
           "text": "Слушайте, у меня один фиг ни черта нет. Давайте я просто развернусь и уйду, будто этого ничего и не было? ",
           "stage_id": "13",
           "condition": {}
         }
       ],
-        "actions": {
-        }
+      "actions": {},
+      "editor": {
+        "x": 331,
+        "y": 559
+      }
     },
-	{
+    {
       "id": 11,
       "type_stage": 7,
       "background_url": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
-	  "music": ["4"],
+      "music": [
+        "4"
+      ],
       "message": "Потеряно денег: 120р",
       "type_message": 0,
       "texts": [
@@ -408,11 +474,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"money": ["-120"]
-        }
+      "actions": {
+        "money": [
+          "-120"
+        ]
+      },
+      "editor": {
+        "x": 242,
+        "y": 65
+      }
     },
-	{
+    {
       "id": 12,
       "type_stage": 7,
       "background_url": "story/prologue/screen/chapter_1_6.jpg",
@@ -436,12 +508,20 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"health-": ["0.5"],
-		"xp": ["5"]
-        }
+      "actions": {
+        "health-": [
+          "0.5"
+        ],
+        "xp": [
+          "5"
+        ]
+      },
+      "editor": {
+        "x": 554,
+        "y": 719
+      }
     },
-		{
+    {
       "id": 13,
       "type_stage": 7,
       "background_url": "story/prologue/screen/chapter_1_6.jpg",
@@ -465,10 +545,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-        }
+      "actions": {},
+      "editor": {
+        "x": 233,
+        "y": 258
+      }
     },
-		{
+    {
       "id": 14,
       "type_stage": 7,
       "background_url": "story/prologue/screen/chapter_1_6.jpg",
@@ -492,10 +575,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-        }
+      "actions": {},
+      "editor": {
+        "x": 372,
+        "y": 436
+      }
     },
-		{
+    {
       "id": 15,
       "type_stage": 7,
       "background_url": "story/prologue/screen/chapter_1_6.jpg",
@@ -517,34 +603,37 @@
           "text": "Тянуться к оружию",
           "stage_id": "16",
           "condition": {
-		  "!has": [
+            "!has": [
               "dead_bandit_garbage"
             ]
-		  }
+          }
         },
-		{
+        {
           "text": "Откупиться",
           "stage_id": "19",
           "condition": {
-		  "!has": [
+            "!has": [
               "dead_bandit_garbage"
             ]
-		  }
+          }
         },
-		{
+        {
           "text": "Откупиться",
           "stage_id": "20",
           "condition": {
-		  "has": [
+            "has": [
               "dead_bandit_garbage"
             ]
-		  }
+          }
         }
       ],
-        "actions": {
-        }
+      "actions": {},
+      "editor": {
+        "x": 309,
+        "y": 126
+      }
     },
-		{
+    {
       "id": 16,
       "type_stage": 7,
       "background_url": "story/prologue/screen/chapter_1_6.jpg",
@@ -568,10 +657,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-        }
+      "actions": {},
+      "editor": {
+        "x": 450,
+        "y": 598
+      }
     },
-		{
+    {
       "id": 17,
       "type_stage": 7,
       "background_url": "story/prologue/screen/chapter_1_6.jpg",
@@ -595,10 +687,13 @@
           "condition": {}
         }
       ],
-        "actions": {
-        }
+      "actions": {},
+      "editor": {
+        "x": 400,
+        "y": 943
+      }
     },
-		{
+    {
       "id": 18,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_1_7.jpg",
@@ -622,13 +717,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"add": [
-              "dead_bandit_garbage"
-            ]
-        }
+      "actions": {
+        "add": [
+          "dead_bandit_garbage"
+        ]
+      },
+      "editor": {
+        "x": 565,
+        "y": 567
+      }
     },
-		{
+    {
       "id": 19,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_1_6.jpg",
@@ -652,13 +751,17 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"xp": [
+      "actions": {
+        "xp": [
           "3"
         ]
-        }
+      },
+      "editor": {
+        "x": 142,
+        "y": 777
+      }
     },
-	{
+    {
       "id": 20,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_1_6.jpg",
@@ -682,19 +785,25 @@
           "condition": {}
         }
       ],
-        "actions": {
-		
-        }
+      "actions": {},
+      "editor": {
+        "x": 470,
+        "y": 126
+      }
     },
-	{
-		"id": 21,
-		"type_stage": 4,
-		"data":{
-		"map":"1",
-		"pos":"747:503"
-	}
-},
-{
+    {
+      "id": 21,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "747:503"
+      },
+      "editor": {
+        "x": 173,
+        "y": 58
+      }
+    },
+    {
       "id": 22,
       "type_stage": 0,
       "background_url": "story/prologue/screen/chapter_1_8.jpg",
@@ -718,12 +827,22 @@
           "condition": {}
         }
       ],
-        "actions": {
-		"remove": ["0:2:1","1:1:1","2:9:90"],
-		"xp": ["15"]
-        }
+      "actions": {
+        "remove": [
+          "0:2:1",
+          "1:1:1",
+          "2:9:90"
+        ],
+        "xp": [
+          "15"
+        ]
+      },
+      "editor": {
+        "x": 390,
+        "y": 823
+      }
     },
-	{
+    {
       "id": 23,
       "type_stage": 1,
       "background_url": "story/prologue/screen/chapter_1_8.jpg",
@@ -731,7 +850,7 @@
       "title": "Глава окончена!",
       "message": "",
       "type_message": 0,
-	  "value": 0,
+      "value": 0,
       "texts": [
         {
           "text": "Вот так и закончилась вторая глава",
@@ -745,18 +864,32 @@
           "condition": {}
         }
       ],
-	  "actions": {
-	  "remove": ["0:1:1","1:4:1","2:11:90"],
-    "reset": ["wearable"]
-	  }  
+      "actions": {
+        "remove": [
+          "0:1:1",
+          "1:4:1",
+          "2:11:90"
+        ],
+        "reset": [
+          "wearable"
+        ]
+      },
+      "editor": {
+        "x": 452,
+        "y": 768
+      }
     },
-   {
-        "id": 24,
-        "type_stage": 5,
-        "data":{
-            "chapter":"3",
-            "stage":"0"
+    {
+      "id": 24,
+      "type_stage": 5,
+      "data": {
+        "chapter": "3",
+        "stage": "0"
+      },
+      "editor": {
+        "x": 761,
+        "y": 666
+      }
     }
-    }
-	]
-	}
+  ]
+}
