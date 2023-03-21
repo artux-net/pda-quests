@@ -39,15 +39,21 @@ jobs:
     - name: Download all stories
       uses: actions/checkout@v2
       
-    - name: Zip stories
+    - name: Compress files to ZIP
       run: zip release.zip ./* -r
       
-    - name: Upload stories to server
-      uses: alikamal1/Form_Data_HTTP_POST_Action@v.1.0
+    - name: Create ZIP - release
+      uses: "marvinpinto/action-automatic-releases@latest"
       with:
-        # The Endpoint of post request
-        url: '${{secrets.UPLOAD_STORIES_ENDPOINT}}'
-        # The Headers of post request
-        headers: '{"t":"${{secrets.UPLOAD_STORIES_TOKEN}}"}'
-        file: 'release.zip'
-        name: 'file'
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: "latest"
+        prerelease: false
+        files: |
+          release.zip
+          
+   # - name: Trigger server to download release
+   #   uses: distributhor/workflow-webhook@v2
+    #  env:
+     #   webhook_url: ${{ secrets.WEBHOOK_URL }}
+     #   webhook_auth: ${{ secrets.WEBHOOK_AUTH }}
+      #  webhook_secret: "secret"
