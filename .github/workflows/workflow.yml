@@ -36,7 +36,7 @@ jobs:
     name: Загрузка на сервер, обновление
     runs-on: ubuntu-latest
     steps:
-    - name: Download all stories
+    - name: Download all files
       uses: actions/checkout@v2
       
     - name: Compress files to ZIP
@@ -51,9 +51,9 @@ jobs:
         files: |
           release.zip
           
-   # - name: Trigger server to download release
-   #   uses: distributhor/workflow-webhook@v2
-    #  env:
-     #   webhook_url: ${{ secrets.WEBHOOK_URL }}
-     #   webhook_auth: ${{ secrets.WEBHOOK_AUTH }}
-      #  webhook_secret: "secret"
+    - name: Trigger server to download release
+      uses: distributhor/workflow-webhook@v2
+      env:
+       webhook_url: ${{ secrets.WEBHOOK_URL }}
+       webhook_auth: ${{ secrets.WEBHOOK_AUTH }}
+       webhook_secret: "secret"
