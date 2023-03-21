@@ -49,4 +49,5 @@ jobs:
         url: '${{secrets.UPLOAD_STORIES_ENDPOINT}}'
         # The Headers of post request
         headers: '{"t":"${{secrets.UPLOAD_STORIES_TOKEN}}"}'
-        file: release.zip          
+        file: 'release.zip'
+        name: 'file'
