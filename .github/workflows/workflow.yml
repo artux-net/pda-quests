@@ -46,7 +46,7 @@ jobs:
       uses: alikamal1/Form_Data_HTTP_POST_Action@v.1.0
       with:
         # The Endpoint of post request
-        url: $UPLOAD_STORIES_ENDPOINT
+        url: ${{env.UPLOAD_STORIES_ENDPOINT}}
         # The Headers of post request
         headers: '{"t":"${{secrets.UPLOAD_STORIES_TOKEN}}"}'
         file: release.zip          
