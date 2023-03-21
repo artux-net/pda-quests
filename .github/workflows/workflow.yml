@@ -33,25 +33,10 @@ jobs:
         
   web-deploy:
     needs: check
-    name: Загрузка на сервер, обновление
+    name: Команда серверу загрузить файлы
     runs-on: ubuntu-latest
     steps:
-    - name: Download all files
-      uses: actions/checkout@v2
-      
-    - name: Compress files to ZIP
-      run: zip release.zip ./* -r
-      
-    - name: Create ZIP - release
-      uses: "marvinpinto/action-automatic-releases@latest"
-      with:
-        repo_token: "${{ secrets.GITHUB_TOKEN }}"
-        automatic_release_tag: "latest"
-        prerelease: false
-        files: |
-          release.zip
-          
-    - name: Trigger server to download release
+    - name: Trigger server to download files
       uses: distributhor/workflow-webhook@v2
       env:
        webhook_url: ${{ secrets.WEBHOOK_URL }}
