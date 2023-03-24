@@ -2,10 +2,6 @@
     "id": "1",
     "title": "Свалка",
     "tmx": "garbage.tmx",
-    "texture": "maps/map_garbage.png",
-    "boundsTexture": "maps/bounds/map_garbage.png",
-    "blurTexture": "maps/blur.jpg",
-    "tilesTexture": "maps/tiles/map_garbage.png",
     "defPos": "330:960",
     "points": [
         {
