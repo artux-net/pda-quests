@@ -1,6 +1,7 @@
 {
     "id": "0",
     "title": "Кордон",
+    "tmx": "kordon.tmx",
     "texture": "maps/map_escape.png",
     "boundsTexture": "maps/bounds/map_escape.png",
     "blurTexture": "maps/blur.jpg",
@@ -9,7 +10,7 @@
     "points": [
         {
             "type": "0",
-            "name": "Возвращение в сюжет",
+            "name": "Возвращение в сюжет ",
             "pos": "450:500",
             "data": {
                 "chapter": "1",

@@ -7,6 +7,10 @@ on:
   pull_request:
     branches: [ "main" ]
     types: [closed]
+  
+  # для вызова с сервера
+  repository_dispatch:
+    types: [on-demand]
 
   # ручной запуск
   workflow_dispatch:
@@ -29,33 +33,12 @@ jobs:
         
   web-deploy:
     needs: check
-    name: Загрузка на сервер
+    name: Команда серверу загрузить файлы
     runs-on: ubuntu-latest
     steps:
-    - name: Download all stories
-      uses: actions/checkout@v2
-      
-    - name: Sync files
-      uses: appleboy/scp-action@master
-      with:
-        host: ${{ secrets.SERVER_HOST }}
-        username: ${{ secrets.SERVER_USERNAME }}
-        key: ${{ secrets.SERVER_KEY }}
-        source: .
-        target: /data/pdanetwork/stories
-        rm: true
-        overwrite: true
-        
-
-  notify:
-    needs: web-deploy
-    name: Обновление на сервере
-    runs-on: ubuntu-latest
-    steps:
-    - name: Update stories trigger
+    - name: Trigger server to download files
       uses: distributhor/workflow-webhook@v2
       env:
-        webhook_url: ${{ secrets.WEBHOOK_URL }}
-        webhook_auth: ${{ secrets.WEBHOOK_AUTH }}
-        webhook_secret: "secret"
-       
+       webhook_url: ${{ secrets.WEBHOOK_URL }}
+       webhook_auth: ${{ secrets.WEBHOOK_AUTH }}
+       webhook_secret: "secret"
