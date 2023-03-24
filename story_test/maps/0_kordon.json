@@ -2,10 +2,6 @@
     "id": "0",
     "title": "Кордон",
     "tmx": "kordon.tmx",
-    "texture": "maps/map_escape.png",
-    "boundsTexture": "maps/bounds/map_escape.png",
-    "blurTexture": "maps/blur.jpg",
-    "tilesTexture": "maps/tiles/map_escape.png",
     "defPos": "330:960",
     "points": [
         {
