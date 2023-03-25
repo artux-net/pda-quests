@@ -12,7 +12,9 @@
                 "chapter": "2",
                 "stage": "22"
             },
-            "condition": {}
+            "condition": {
+                "has":["going_to_bar"]
+            }
         },
         {
             "type": "0",
@@ -109,7 +111,6 @@
             "condition": {}
         }
     ],
-    "transfers": [],
     "spawns": [
         {
             "group": "BANDITS",
