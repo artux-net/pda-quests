@@ -785,7 +785,9 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "add":["going_to_bar"]
+      },
       "editor": {
         "x": 470,
         "y": 126
@@ -831,7 +833,8 @@
         "remove": [
           "0:2:1",
           "1:1:1",
-          "2:9:90"
+          "2:9:90",
+          "going_to_bar"
         ],
         "xp": [
           "15"
