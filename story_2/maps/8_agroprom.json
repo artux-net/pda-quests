@@ -1,10 +1,7 @@
 {
     "id":"8",
     "title":"НИИ Агропром",
-    "texture":"maps/map_agroprom.png",
-    "boundsTexture":"maps/bounds_garbage_t.png",
-    "blurTexture":"maps/blur.jpg",
-    "tilesTexture":"maps/tiles/map_agroprom.png",
+    "tmx": "agroprom.tmx",
     "defPos":"330:960",
     "points":[
     {
