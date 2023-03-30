@@ -1,10 +1,7 @@
 {
 "id":"4",
 "title":"Дикая территория",
-"texture":"maps/map_bar.png",
-"boundsTexture":"maps/bounds_garbage_t.png",
-"blurTexture":"maps/blur.jpg",
-"tilesTexture":"maps/tiles/map_dt.png",
+"tmx": "bar.tmx",
 "defPos":"330:960",
 "points":[
     {

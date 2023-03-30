@@ -96,7 +96,7 @@
             },
             "condition": {
                 "!has": [
-                    "quest_matvienko_final"
+                    "quest_matvienko_final","going_to_bar"
                 ]
             }
         },

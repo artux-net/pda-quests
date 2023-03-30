@@ -514,7 +514,8 @@
         ],
         "xp": [
           "5"
-        ]
+        ],
+        "add":["going_to_bar"]
       },
       "editor": {
         "x": 554,
@@ -785,9 +786,7 @@
           "condition": {}
         }
       ],
-      "actions": {
-        "add":["going_to_bar"]
-      },
+      
       "editor": {
         "x": 470,
         "y": 126
