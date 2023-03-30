@@ -12,7 +12,11 @@
                 "chapter": "1",
                 "stage": "20"
             },
-            "condition": {}
+            "condition": {
+                "!has": [
+                    "quest_go_derevnya"
+                ]
+            }
         },
         {
             "type": "3",

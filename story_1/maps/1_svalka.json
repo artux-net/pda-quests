@@ -108,7 +108,9 @@
                 "chapter": "3",
                 "stage": "85"
             },
-            "condition": {}
+            "condition": {
+                "!has":["going_to_bar"]
+            }
         }
     ],
     "spawns": [
