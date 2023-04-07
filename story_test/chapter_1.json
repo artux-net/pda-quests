@@ -56,7 +56,7 @@
         {
             "id": 0,
             "type_stage": 0,
-            "background_url": "story/prologue/screen/chapter_0_0.jpg",
+            "background": "story/prologue/screen/chapter_0_0.jpg",
             "title": "Тестовая глава",
             "texts": [
                 {
@@ -66,7 +66,7 @@
             "transfers": [
                 {
                     "text": "Далее",
-                    "stage_id": "1",
+                    "stage": "1",
                     "condition": {}
                 }
             ]
@@ -74,7 +74,7 @@
         {
             "id": 1,
             "type_stage": 0,
-            "background_url": "story/prologue/screen/chapter_0_0.jpg",
+            "background": "story/prologue/screen/chapter_0_0.jpg",
             "title": "Вторая стадия тестовой главы",
             "texts": [
                 {
@@ -84,18 +84,18 @@
             "transfers": [
                 {
                     "text": "Еще о движке, про параметры",
-                    "stage_id": "2"
+                    "stage": "2"
                 },
                 {
                     "text": "Открыть карту",
-                    "stage_id": "5"
+                    "stage": "5"
                 }
             ]
         },
         {
             "id": 2,
             "type_stage": 0,
-            "background_url": "story/prologue/screen/chapter_0_0.jpg",
+            "background": "story/prologue/screen/chapter_0_0.jpg",
             "title": "Из чего состоит стадия",
             "message": "",
             "type_message": 0,
@@ -107,15 +107,15 @@
             "transfers": [
                 {
                     "text": "Открыть карту",
-                    "stage_id": 5
+                    "stage": 5
                 },
                 {
                     "text": "Переход на стадию с добавлением kill_bill.",
-                    "stage_id": "3"
+                    "stage": "3"
                 },
                 {
                     "text": "Есть параметр kill_bill, его удаление.",
-                    "stage_id": "4",
+                    "stage": "4",
                     "condition": {
                         "has": [
                             "kill_bill"
@@ -127,30 +127,30 @@
         {
             "id": 3,
             "type_stage": 0,
-            "background_url": "https://ipfs.pixura.io/ipfs/QmeyVETXA2PqNCXPeCpJYmWTdZvQAd8z4ouS9Pjw1NE5Ft",
+            "background": "https://ipfs.pixura.io/ipfs/QmeyVETXA2PqNCXPeCpJYmWTdZvQAd8z4ouS9Pjw1NE5Ft",
             "title": "Стадия, которая добавляет параметр",
             "texts": [
                 {
-                    "text": "Здесь мы добавили параметр kill_bill игроку, на карте для него появятся новые точки. Force сразу выполнит действия, а не когда движок захочет."
+                    "text": "Здесь мы добавили параметр kill_bill игроку, на карте для него появятся новые точки. syncNow сразу выполнит действия, а не когда движок захочет."
                 }
             ],
             "transfers": [
                 {
                     "text": "Проверим на стадии которая была раньше.",
-                    "stage_id": "2"
+                    "stage": "2"
                 }
             ],
             "actions": {
                 "add": [
                     "kill_bill"
                 ],
-                "force": []
+                "syncNow": []
             }
         },
         {
             "id": 4,
             "type_stage": 0,
-            "background_url": "story/prologue/screen/chapter_0_0.jpg",
+            "background": "story/prologue/screen/chapter_0_0.jpg",
             "title": "И вот мы попали туда, где раньше не были.",
             "message": "",
             "type_message": 0,
@@ -163,19 +163,19 @@
             "transfers": [
                 {
                     "text": "Открыть карту",
-                    "stage_id": "5",
+                    "stage": "5",
                     "condition": {}
                 },
                 {
                     "text": "Проверить наличие параметра",
-                    "stage_id": 2
+                    "stage": 2
                 }
             ],
             "actions": {
                 "remove": [
                     "kill_bill"
                 ],
-                "force": []
+                "syncNow": []
             }
         },
         {
@@ -219,7 +219,7 @@
         {
             "id": 8,
             "type_stage": 0,
-            "background_url": "https://ipfs.pixura.io/ipfs/QmeyVETXA2PqNCXPeCpJYmWTdZvQAd8z4ouS9Pjw1NE5Ft",
+            "background": "https://ipfs.pixura.io/ipfs/QmeyVETXA2PqNCXPeCpJYmWTdZvQAd8z4ouS9Pjw1NE5Ft",
             "title": "Стадия на свалке",
             "texts": [
                 {
@@ -229,7 +229,7 @@
             "transfers": [
                 {
                     "text": "Проверим на стадии которая была раньше.",
-                    "stage_id": "2"
+                    "stage": "2"
                 }
             ],
             "actions": {
@@ -239,14 +239,14 @@
                 "remove": [
                     "killed_bill"
                 ],
-                "force": []
+                "syncNow": []
             }
         }
         ,
         {
             "id": 9,
             "type_stage": 0,
-            "background_url": "https://ipfs.pixura.io/ipfs/QmeyVETXA2PqNCXPeCpJYmWTdZvQAd8z4ouS9Pjw1NE5Ft",
+            "background": "https://ipfs.pixura.io/ipfs/QmeyVETXA2PqNCXPeCpJYmWTdZvQAd8z4ouS9Pjw1NE5Ft",
             "title": "Стадия завершения истории, она не отображается",
             "texts": [
                 {
@@ -257,8 +257,8 @@
 
             ],
             "actions": {
-                "over":[],
-                "force": []
+                "finishStory":[],
+                "syncNow": []
             }
         }
     ]

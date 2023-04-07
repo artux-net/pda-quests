@@ -56,7 +56,7 @@
     {
       "id": 0,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Матёрый",
       "music": [],
       "message": "",
@@ -74,7 +74,7 @@
       "transfers": [
         {
           "text": " Сталкер, тебе тут медом намазано?",
-          "stage_id": "1",
+          "stage": "1",
           "condition": {}
         }
       ],
@@ -87,7 +87,7 @@
     {
       "id": 1,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "music": [],
       "message": "",
@@ -105,7 +105,7 @@
       "transfers": [
         {
           "text": " Слушай, я занят. Свали, а?",
-          "stage_id": "2",
+          "stage": "2",
           "condition": {}
         }
       ],
@@ -120,7 +120,7 @@
     {
       "id": 2,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "music": [],
       "message": "",
@@ -138,7 +138,7 @@
       "transfers": [
         {
           "text": " Банный лист к заднице",
-          "stage_id": "3",
+          "stage": "3",
           "condition": {}
         }
       ],
@@ -162,7 +162,7 @@
     {
       "id": 3,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "music": [],
       "message": "",
@@ -180,7 +180,7 @@
       "transfers": [
         {
           "text": "Ты знаешь, что в баре повадились алкаши, которые допивают за другими остатки? Мы их в кругу падонками называем.",
-          "stage_id": "4",
+          "stage": "4",
           "condition": {}
         }
       ],
@@ -193,7 +193,7 @@
     {
       "id": 4,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "music": [],
       "message": "",
@@ -211,7 +211,7 @@
       "transfers": [
         {
           "text": " По фигу больно.",
-          "stage_id": "5",
+          "stage": "5",
           "condition": {}
         }
       ],
@@ -224,7 +224,7 @@
     {
       "id": 5,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_2.jpg",
+      "background": "/story/prologue/screen/chapter_2_2.jpg",
       "title": "Аркадий Еврей",
       "music": [],
       "message": "",
@@ -242,7 +242,7 @@
       "transfers": [
         {
           "text": " У него в следующем месяце должен сын прилететь, с научниками из НИИ ЧАЗ. Там, говорят, одного бывшего сталкера подорвали в его же кабинете.",
-          "stage_id": "6",
+          "stage": "6",
           "condition": {}
         }
       ],
@@ -255,7 +255,7 @@
     {
       "id": 6,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "music": [],
       "message": "",
@@ -273,7 +273,7 @@
       "transfers": [
         {
           "text": "Наёмники, говорят, совсем охренели. Есть такой Сыч, на «Скадовске», он в первые месяцы, когда фигня произошла, торговал информацией о неком наёмнике то ли Кремень, то ли Камень… Потом чё-то произошло, и информация об этом исчезла.",
-          "stage_id": "7",
+          "stage": "7",
           "condition": {}
         }
       ],
@@ -286,7 +286,7 @@
     {
       "id": 7,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "music": [],
       "message": "",
@@ -304,7 +304,7 @@
       "transfers": [
         {
           "text": " Так ты «зелень» совсем.",
-          "stage_id": "8",
+          "stage": "8",
           "condition": {}
         }
       ],
@@ -317,7 +317,7 @@
     {
       "id": 8,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "music": [],
       "message": "",
@@ -335,7 +335,7 @@
       "transfers": [
         {
           "text": " Около «Долга»?",
-          "stage_id": "9",
+          "stage": "9",
           "condition": {}
         }
       ],
@@ -348,7 +348,7 @@
     {
       "id": 9,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "music": [],
       "message": "",
@@ -366,7 +366,7 @@
       "transfers": [
         {
           "text": " А не удивительно. «Долг» арену держит, бандитов нанимает специально для боёв, те наших щемят на публику, да деньги получают. Они же даже стволами барыжат на своем складе.",
-          "stage_id": "10",
+          "stage": "10",
           "condition": {}
         }
       ],
@@ -379,7 +379,7 @@
     {
       "id": 10,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "music": [],
       "message": "",
@@ -397,7 +397,7 @@
       "transfers": [
         {
           "text": " Сталкера известного на днях завалили, а у него Пустынный орёл со звездочками, с грави-концентратом имелся… Ауф пушка, короче. Ну, я решил пройти к складскому, Кугенолу, так эта «крыса» отложила его к уникальным стволам. Неделю выждал, смотрю – уже пропал ствол, нет его!",
-          "stage_id": "11",
+          "stage": "11",
           "condition": {}
         }
       ],
@@ -410,7 +410,7 @@
     {
       "id": 11,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "music": [],
       "message": "",
@@ -428,7 +428,7 @@
       "transfers": [
         {
           "text": " Мало того, я со всеми группировками репутацию имею на «серёдке», ну, кроме совсем отбитых, и вояк. Зайди в ПДА, классная штука: видишь всю статистику.",
-          "stage_id": "12",
+          "stage": "12",
           "condition": {}
         }
       ],
@@ -441,7 +441,7 @@
     {
       "id": 12,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "music": [],
       "message": "",
@@ -459,7 +459,7 @@
       "transfers": [
         {
           "text": " Да чё в реалиях… Был я на Радаре, давно-давно. Там «Долг» прорывался через «Монолит» - не поделили они что-то. Цапались постоянно, одни в других ракетами из РПГ шмаляли. Взрывы, такие, что с Тёмной Долины видно. А тогда военных с какой-то миссией занесло…",
-          "stage_id": "13",
+          "stage": "13",
           "condition": {}
         }
       ],
@@ -472,7 +472,7 @@
     {
       "id": 13,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "music": [],
       "message": "",
@@ -490,7 +490,7 @@
       "transfers": [
         {
           "text": " Рассказать историю",
-          "stage_id": "14",
+          "stage": "14",
           "condition": {}
         }
       ],
@@ -503,7 +503,7 @@
     {
       "id": 14,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_3.jpg",
+      "background": "/story/prologue/screen/chapter_2_3.jpg",
       "title": "Бар «100 рентген»",
       "music": [
         "5"
@@ -523,7 +523,7 @@
       "transfers": [
         {
           "text": " Покинуть бар",
-          "stage_id": "15",
+          "stage": "15",
           "condition": {}
         }
       ],
@@ -552,7 +552,7 @@
     {
       "id": 16,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_4.jpg",
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
       "title": "Лейтенант Матвиенко",
       "music": [],
       "message": "",
@@ -570,7 +570,7 @@
       "transfers": [
         {
           "text": " Я в курсе.",
-          "stage_id": "17",
+          "stage": "17",
           "condition": {}
         }
       ],
@@ -583,7 +583,7 @@
     {
       "id": 17,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_5.jpg",
+      "background": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
       "music": [],
       "message": "",
@@ -601,12 +601,12 @@
       "transfers": [
         {
           "text": "Да нет, пойду-ка я дальше.",
-          "stage_id": "18",
+          "stage": "18",
           "condition": {}
         },
         {
           "text": "Что у вас там?",
-          "stage_id": "20",
+          "stage": "20",
           "condition": {}
         }
       ],
@@ -623,7 +623,7 @@
     {
       "id": 18,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_5.jpg",
+      "background": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
       "music": [],
       "message": "",
@@ -641,7 +641,7 @@
       "transfers": [
         {
           "text": " Вы меня стебать будете, пока я не соглашусь?",
-          "stage_id": "19",
+          "stage": "19",
           "condition": {}
         }
       ],
@@ -654,7 +654,7 @@
     {
       "id": 19,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_5.jpg",
+      "background": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
       "music": [],
       "message": "",
@@ -672,7 +672,7 @@
       "transfers": [
         {
           "text": " Что там у вас?",
-          "stage_id": "20",
+          "stage": "20",
           "condition": {}
         }
       ],
@@ -685,7 +685,7 @@
     {
       "id": 20,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_5.jpg",
+      "background": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
       "music": [],
       "message": "",
@@ -703,7 +703,7 @@
       "transfers": [
         {
           "text": " Продолжай.",
-          "stage_id": "21",
+          "stage": "21",
           "condition": {}
         }
       ],
@@ -716,7 +716,7 @@
     {
       "id": 21,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_5.jpg",
+      "background": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
       "music": [],
       "message": "",
@@ -734,7 +734,7 @@
       "transfers": [
         {
           "text": "Далее...",
-          "stage_id": "22",
+          "stage": "22",
           "condition": {}
         }
       ],
@@ -747,7 +747,7 @@
     {
       "id": 22,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_5.jpg",
+      "background": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
       "music": [],
       "message": "",
@@ -765,7 +765,7 @@
       "transfers": [
         {
           "text": "А мне что с этого будет?",
-          "stage_id": "23",
+          "stage": "23",
           "condition": {}
         }
       ],
@@ -778,7 +778,7 @@
     {
       "id": 23,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_5.jpg",
+      "background": "/story/prologue/screen/chapter_2_5.jpg",
       "title": "Лейтенант Матвиенко",
       "music": [
         "5"
@@ -798,7 +798,7 @@
       "transfers": [
         {
           "text": " Уйти на свалку.",
-          "stage_id": "25",
+          "stage": "25",
           "condition": {}
         }
       ],
@@ -827,7 +827,7 @@
     {
       "id": 25,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_6.jpg",
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Барахолка",
       "music": [],
       "message": "",
@@ -845,7 +845,7 @@
       "transfers": [
         {
           "text": " Как проходит коп?",
-          "stage_id": "26",
+          "stage": "26",
           "condition": {}
         }
       ],
@@ -858,7 +858,7 @@
     {
       "id": 26,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_6.jpg",
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
       "music": [],
       "message": "",
@@ -876,7 +876,7 @@
       "transfers": [
         {
           "text": " Куплю 2 магазина к АК. Сколько с меня?",
-          "stage_id": "27",
+          "stage": "27",
           "condition": {}
         }
       ],
@@ -889,7 +889,7 @@
     {
       "id": 27,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_6.jpg",
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
       "music": [],
       "message": "",
@@ -907,7 +907,7 @@
       "transfers": [
         {
           "text": " Да, держи.",
-          "stage_id": "28",
+          "stage": "28",
           "condition": {
             "money<=": [
               "400"
@@ -916,7 +916,7 @@
         },
         {
           "text": " Пока нет.",
-          "stage_id": "29",
+          "stage": "29",
           "condition": {}
         }
       ],
@@ -929,7 +929,7 @@
     {
       "id": 28,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_6.jpg",
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
       "music": [
         "5"
@@ -949,7 +949,7 @@
       "transfers": [
         {
           "text": " Слушайте, парни, не поможете мне с одним делом?",
-          "stage_id": "30",
+          "stage": "30",
           "condition": {}
         }
       ],
@@ -969,7 +969,7 @@
     {
       "id": 29,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_6.jpg",
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
       "music": [],
       "message": "",
@@ -987,7 +987,7 @@
       "transfers": [
         {
           "text": " Слушайте, парни, не поможете мне с одним делом?",
-          "stage_id": "30",
+          "stage": "30",
           "condition": {}
         }
       ],
@@ -1000,7 +1000,7 @@
     {
       "id": 30,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_6.jpg",
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
       "music": [],
       "message": "",
@@ -1018,7 +1018,7 @@
       "transfers": [
         {
           "text": " Я ищу одну пушку. Может, слышали чего о ней? Старая СВД, которая принадлежала то «Свободе», то «Долгу». На прикладе у неё ещё написана буква А.",
-          "stage_id": "31",
+          "stage": "31",
           "condition": {}
         }
       ],
@@ -1031,7 +1031,7 @@
     {
       "id": 31,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_6.jpg",
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
       "music": [],
       "message": "",
@@ -1049,7 +1049,7 @@
       "transfers": [
         {
           "text": " Это там, где большая яма?",
-          "stage_id": "32",
+          "stage": "32",
           "condition": {}
         }
       ],
@@ -1062,7 +1062,7 @@
     {
       "id": 32,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_6.jpg",
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
       "music": [
         "5"
@@ -1082,7 +1082,7 @@
       "transfers": [
         {
           "text": " Пока.",
-          "stage_id": "33",
+          "stage": "33",
           "condition": {}
         }
       ],
@@ -1114,7 +1114,7 @@
     {
       "id": 34,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_7.jpg",
+      "background": "/story/prologue/screen/chapter_2_7.jpg",
       "title": "Старший",
       "music": [],
       "message": "",
@@ -1132,7 +1132,7 @@
       "transfers": [
         {
           "text": "Я пришёл поговорить.",
-          "stage_id": "35",
+          "stage": "35",
           "condition": {}
         }
       ],
@@ -1145,7 +1145,7 @@
     {
       "id": 35,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [],
       "message": "",
@@ -1163,7 +1163,7 @@
       "transfers": [
         {
           "text": " Держи",
-          "stage_id": "37",
+          "stage": "37",
           "condition": {
             "money<=": [
               "500"
@@ -1180,7 +1180,7 @@
     {
       "id": 37,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [
         "5"
@@ -1200,7 +1200,7 @@
       "transfers": [
         {
           "text": " Значит так, выражаться буду прямо: диггеры сказали, что вы отняли у одного сталкера винтовку СВД.",
-          "stage_id": "38",
+          "stage": "38",
           "condition": {}
         }
       ],
@@ -1217,7 +1217,7 @@
     {
       "id": 38,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [],
       "message": "",
@@ -1235,7 +1235,7 @@
       "transfers": [
         {
           "text": " Дайте сказать, мля: ищу я тут винтовку, мне нахрен не сдались ваши перебранки.",
-          "stage_id": "39",
+          "stage": "39",
           "condition": {}
         }
       ],
@@ -1248,7 +1248,7 @@
     {
       "id": 39,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [],
       "message": "",
@@ -1266,7 +1266,7 @@
       "transfers": [
         {
           "text": " Что вы сделали с винтовкой?",
-          "stage_id": "40",
+          "stage": "40",
           "condition": {}
         }
       ],
@@ -1279,7 +1279,7 @@
     {
       "id": 40,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [],
       "message": "",
@@ -1297,7 +1297,7 @@
       "transfers": [
         {
           "text": " А со стволом у башки скажешь бесплатно?",
-          "stage_id": "41",
+          "stage": "41",
           "condition": {
             "!has": [
               "dead_starshiy_svalka"
@@ -1306,7 +1306,7 @@
         },
         {
           "text": "Держи.",
-          "stage_id": "44",
+          "stage": "44",
           "condition": {
             "has": [
               "dead_starshiy_svalka"
@@ -1318,7 +1318,7 @@
         },
         {
           "text": "Держи.",
-          "stage_id": "43",
+          "stage": "43",
           "condition": {
             "!has": [
               "dead_starshiy_svalka"
@@ -1338,7 +1338,7 @@
     {
       "id": 41,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [],
       "message": "",
@@ -1356,7 +1356,7 @@
       "transfers": [
         {
           "text": " Вот так сразу и надо было.",
-          "stage_id": "42",
+          "stage": "42",
           "condition": {}
         }
       ],
@@ -1369,7 +1369,7 @@
     {
       "id": 42,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_9.jpg",
+      "background": "/story/prologue/screen/chapter_2_9.jpg",
       "title": "Холмы",
       "music": [
         "4"
@@ -1389,7 +1389,7 @@
       "transfers": [
         {
           "text": " Начать заново",
-          "stage_id": "40",
+          "stage": "40",
           "condition": {}
         }
       ],
@@ -1409,7 +1409,7 @@
     {
       "id": 43,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [
         "5"
@@ -1429,7 +1429,7 @@
       "transfers": [
         {
           "text": " Показывай",
-          "stage_id": "45",
+          "stage": "45",
           "condition": {}
         }
       ],
@@ -1446,7 +1446,7 @@
     {
       "id": 44,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [
         "5"
@@ -1466,7 +1466,7 @@
       "transfers": [
         {
           "text": " Показывай",
-          "stage_id": "45",
+          "stage": "45",
           "condition": {}
         }
       ],
@@ -1479,7 +1479,7 @@
     {
       "id": 45,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [],
       "message": "",
@@ -1497,7 +1497,7 @@
       "transfers": [
         {
           "text": " Не та.",
-          "stage_id": "46",
+          "stage": "46",
           "condition": {}
         }
       ],
@@ -1510,7 +1510,7 @@
     {
       "id": 46,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [],
       "message": "",
@@ -1528,7 +1528,7 @@
       "transfers": [
         {
           "text": " Та винтовка свободовская, а это хрень какая-то.",
-          "stage_id": "47",
+          "stage": "47",
           "condition": {}
         }
       ],
@@ -1541,7 +1541,7 @@
     {
       "id": 47,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [],
       "message": "",
@@ -1559,7 +1559,7 @@
       "transfers": [
         {
           "text": " Не обляпайся только.",
-          "stage_id": "48",
+          "stage": "48",
           "condition": {
             "money<=": [
               "500"
@@ -1576,7 +1576,7 @@
     {
       "id": 48,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [
         "5"
@@ -1596,7 +1596,7 @@
       "transfers": [
         {
           "text": " И куда он направился?",
-          "stage_id": "49",
+          "stage": "49",
           "condition": {}
         }
       ],
@@ -1613,7 +1613,7 @@
     {
       "id": 49,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [],
       "message": "",
@@ -1631,7 +1631,7 @@
       "transfers": [
         {
           "text": " Отлично.",
-          "stage_id": "50",
+          "stage": "50",
           "condition": {}
         }
       ],
@@ -1644,7 +1644,7 @@
     {
       "id": 50,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_8.jpg",
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "music": [],
       "message": "",
@@ -1662,7 +1662,7 @@
       "transfers": [
         {
           "text": " Быка, скорее.",
-          "stage_id": "51",
+          "stage": "51",
           "condition": {}
         }
       ],
@@ -1695,7 +1695,7 @@
     {
       "id": 52,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_10.jpg",
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
       "music": [],
       "message": "",
@@ -1713,7 +1713,7 @@
       "transfers": [
         {
           "text": " Обследовать труп.",
-          "stage_id": "53",
+          "stage": "53",
           "condition": {}
         }
       ],
@@ -1726,7 +1726,7 @@
     {
       "id": 53,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_10.jpg",
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
       "music": [
         "5"
@@ -1746,7 +1746,7 @@
       "transfers": [
         {
           "text": " Изучить КПК",
-          "stage_id": "54",
+          "stage": "54",
           "condition": {}
         }
       ],
@@ -1764,7 +1764,7 @@
     {
       "id": 54,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_10.jpg",
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
       "music": [],
       "message": "",
@@ -1782,7 +1782,7 @@
       "transfers": [
         {
           "text": " Далее",
-          "stage_id": "55",
+          "stage": "55",
           "condition": {}
         }
       ],
@@ -1795,7 +1795,7 @@
     {
       "id": 55,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_10.jpg",
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
       "music": [],
       "message": "",
@@ -1813,7 +1813,7 @@
       "transfers": [
         {
           "text": " Далее",
-          "stage_id": "56",
+          "stage": "56",
           "condition": {}
         }
       ],
@@ -1826,7 +1826,7 @@
     {
       "id": 56,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_10.jpg",
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
       "music": [],
       "message": "",
@@ -1844,7 +1844,7 @@
       "transfers": [
         {
           "text": " Далее",
-          "stage_id": "57",
+          "stage": "57",
           "condition": {}
         }
       ],
@@ -1857,7 +1857,7 @@
     {
       "id": 57,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_10.jpg",
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
       "music": [],
       "message": "",
@@ -1875,7 +1875,7 @@
       "transfers": [
         {
           "text": " Далее",
-          "stage_id": "58",
+          "stage": "58",
           "condition": {}
         }
       ],
@@ -1888,7 +1888,7 @@
     {
       "id": 58,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_10.jpg",
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
       "music": [
         "4"
@@ -1908,7 +1908,7 @@
       "transfers": [
         {
           "text": " Далее",
-          "stage_id": "59",
+          "stage": "59",
           "condition": {}
         }
       ],
@@ -1926,7 +1926,7 @@
     {
       "id": 59,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_10.jpg",
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
       "music": [
         "5"
@@ -1946,7 +1946,7 @@
       "transfers": [
         {
           "text": " Покинуть туннель",
-          "stage_id": "60",
+          "stage": "60",
           "condition": {}
         }
       ],
@@ -1981,7 +1981,7 @@
     {
       "id": 61,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_11.jpg",
+      "background": "/story/prologue/screen/chapter_2_11.jpg",
       "title": "Лес",
       "music": [],
       "message": "",
@@ -1999,7 +1999,7 @@
       "transfers": [
         {
           "text": " Идти к тайнику.",
-          "stage_id": "62",
+          "stage": "62",
           "condition": {}
         }
       ],
@@ -2016,7 +2016,7 @@
     {
       "id": 62,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_12.jpg",
+      "background": "/story/prologue/screen/chapter_2_12.jpg",
       "title": "Лес",
       "music": [
         "5"
@@ -2036,7 +2036,7 @@
       "transfers": [
         {
           "text": " Идти в бар",
-          "stage_id": "63",
+          "stage": "63",
           "condition": {}
         }
       ],
@@ -2068,7 +2068,7 @@
     {
       "id": 64,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_13.jpg",
+      "background": "/story/prologue/screen/chapter_2_13.jpg",
       "title": "Блокпост долга",
       "music": [],
       "message": "",
@@ -2086,7 +2086,7 @@
       "transfers": [
         {
           "text": " Продолжить",
-          "stage_id": "65",
+          "stage": "65",
           "condition": {}
         }
       ],
@@ -2118,7 +2118,7 @@
     {
       "id": 66,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_14.jpg",
+      "background": "/story/prologue/screen/chapter_2_14.jpg",
       "title": "Лейтенант Матвиенко",
       "music": [],
       "message": "",
@@ -2136,7 +2136,7 @@
       "transfers": [
         {
           "text": "Подавись.",
-          "stage_id": "67",
+          "stage": "67",
           "condition": {}
         }
       ],
@@ -2153,7 +2153,7 @@
     {
       "id": 67,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_14.jpg",
+      "background": "/story/prologue/screen/chapter_2_14.jpg",
       "title": "Лейтенант Матвиенко",
       "music": [
         "5"
@@ -2173,7 +2173,7 @@
       "transfers": [
         {
           "text": "Пока",
-          "stage_id": "68",
+          "stage": "68",
           "condition": {}
         }
       ],
@@ -2197,7 +2197,7 @@
     {
       "id": 68,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_14.jpg",
+      "background": "/story/prologue/screen/chapter_2_14.jpg",
       "title": "Лейтенант Матвиенко",
       "music": [
         "5"
@@ -2217,7 +2217,7 @@
       "transfers": [
         {
           "text": " Уйти на Свалку",
-          "stage_id": "70",
+          "stage": "70",
           "condition": {}
         }
       ],
@@ -2250,7 +2250,7 @@
     {
       "id": 71,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_15.jpg",
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Неизвестный сталкер",
       "music": [],
       "message": "",
@@ -2268,7 +2268,7 @@
       "transfers": [
         {
           "text": " Что ты делаешь?",
-          "stage_id": "72",
+          "stage": "72",
           "condition": {}
         }
       ],
@@ -2281,7 +2281,7 @@
     {
       "id": 72,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_15.jpg",
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Неизвестный сталкер",
       "music": [],
       "message": "",
@@ -2299,7 +2299,7 @@
       "transfers": [
         {
           "text": "И давно ты его тут ловишь?",
-          "stage_id": "73",
+          "stage": "73",
           "condition": {}
         }
       ],
@@ -2312,7 +2312,7 @@
     {
       "id": 73,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_15.jpg",
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Неизвестный сталкер",
       "music": [],
       "message": "",
@@ -2330,7 +2330,7 @@
       "transfers": [
         {
           "text": " Сам ты неправильный, это просто нужно знать об аномалиях больше. Это твой первый артефакт?",
-          "stage_id": "74",
+          "stage": "74",
           "condition": {}
         }
       ],
@@ -2343,7 +2343,7 @@
     {
       "id": 74,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_15.jpg",
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Неизвестный сталкер",
       "music": [],
       "message": "",
@@ -2361,7 +2361,7 @@
       "transfers": [
         {
           "text": "Каждая аномалия в некоторой степени живая, а значит, к каждой необходим индивидуальный подход. Сейчас перед нами типичный «Лифт». Фуфлом вроде болтов и гаек его не проймёшь. Надо обмануть её чем-то органическим. Тебя как звать, кстати?",
-          "stage_id": "75",
+          "stage": "75",
           "condition": {}
         }
       ],
@@ -2374,7 +2374,7 @@
     {
       "id": 75,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_15.jpg",
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "music": [],
       "message": "",
@@ -2392,7 +2392,7 @@
       "transfers": [
         {
           "text": " Необязательно. Консервы с собой какие-нибудь есть?",
-          "stage_id": "76",
+          "stage": "76",
           "condition": {}
         }
       ],
@@ -2405,7 +2405,7 @@
     {
       "id": 76,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_15.jpg",
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "music": [],
       "message": "",
@@ -2423,7 +2423,7 @@
       "transfers": [
         {
           "text": " Валяй.",
-          "stage_id": "77",
+          "stage": "77",
           "condition": {}
         }
       ],
@@ -2436,7 +2436,7 @@
     {
       "id": 77,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_15.jpg",
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "music": [
         "5"
@@ -2456,7 +2456,7 @@
       "transfers": [
         {
           "text": " … Смотри и учись!",
-          "stage_id": "78",
+          "stage": "78",
           "condition": {}
         }
       ],
@@ -2469,7 +2469,7 @@
     {
       "id": 78,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_15.jpg",
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "music": [
         "5"
@@ -2489,7 +2489,7 @@
       "transfers": [
         {
           "text": " Видишь, отползает. Накрывай!",
-          "stage_id": "79",
+          "stage": "79",
           "condition": {}
         }
       ],
@@ -2502,7 +2502,7 @@
     {
       "id": 79,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_15.jpg",
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "music": [],
       "message": "",
@@ -2520,7 +2520,7 @@
       "transfers": [
         {
           "text": " Да-а-а… Ничем. Гуляй, Вася.",
-          "stage_id": "80",
+          "stage": "80",
           "condition": {}
         }
       ],
@@ -2533,7 +2533,7 @@
     {
       "id": 80,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_15.jpg",
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "music": [],
       "message": "",
@@ -2551,7 +2551,7 @@
       "transfers": [
         {
           "text": " Ну, Фадир значит.",
-          "stage_id": "81",
+          "stage": "81",
           "condition": {}
         }
       ],
@@ -2564,7 +2564,7 @@
     {
       "id": 81,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_15.jpg",
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "music": [
         "5"
@@ -2584,7 +2584,7 @@
       "transfers": [
         {
           "text": " Счастливо",
-          "stage_id": "82",
+          "stage": "82",
           "condition": {}
         }
       ],
@@ -2619,7 +2619,7 @@
     {
       "id": 83,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_16.jpg",
+      "background": "/story/prologue/screen/chapter_2_16.jpg",
       "title": "Переход на Кордон",
       "music": [],
       "message": "",
@@ -2637,7 +2637,7 @@
       "transfers": [
         {
           "text": " Продолжить",
-          "stage_id": "85",
+          "stage": "85",
           "condition": {}
         }
       ],
@@ -2662,7 +2662,7 @@
     {
       "id": 85,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Северный блокпост",
       "music": [],
       "message": "",
@@ -2680,7 +2680,7 @@
       "transfers": [
         {
           "text": " Продолжить",
-          "stage_id": "86",
+          "stage": "86",
           "condition": {}
         }
       ],
@@ -2693,7 +2693,7 @@
     {
       "id": 86,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "music": [],
       "message": "",
@@ -2711,7 +2711,7 @@
       "transfers": [
         {
           "text": " И тебе здорово.",
-          "stage_id": "87",
+          "stage": "87",
           "condition": {}
         }
       ],
@@ -2724,7 +2724,7 @@
     {
       "id": 87,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "music": [
         "1"
@@ -2744,7 +2744,7 @@
       "transfers": [
         {
           "text": " По своим делам",
-          "stage_id": "88",
+          "stage": "88",
           "condition": {}
         }
       ],
@@ -2757,7 +2757,7 @@
     {
       "id": 88,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
       "music": [
         "1"
@@ -2777,7 +2777,7 @@
       "transfers": [
         {
           "text": " Да... Надоело всё. Постоянная грызня, вечный бардак. С меня хватит хавать песок.",
-          "stage_id": "89",
+          "stage": "89",
           "condition": {}
         }
       ],
@@ -2790,7 +2790,7 @@
     {
       "id": 89,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
       "music": [
         "1"
@@ -2810,7 +2810,7 @@
       "transfers": [
         {
           "text": "На неё самую.",
-          "stage_id": "90",
+          "stage": "90",
           "condition": {}
         }
       ],
@@ -2823,7 +2823,7 @@
     {
       "id": 90,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "music": [
         "1"
@@ -2843,7 +2843,7 @@
       "transfers": [
         {
           "text": " Далее",
-          "stage_id": "91",
+          "stage": "91",
           "condition": {}
         }
       ],
@@ -2856,7 +2856,7 @@
     {
       "id": 91,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "music": [
         "1"
@@ -2876,7 +2876,7 @@
       "transfers": [
         {
           "text": " Далее",
-          "stage_id": "92",
+          "stage": "92",
           "condition": {}
         }
       ],
@@ -2889,7 +2889,7 @@
     {
       "id": 92,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "music": [
         "1"
@@ -2909,7 +2909,7 @@
       "transfers": [
         {
           "text": " Далее",
-          "stage_id": "93",
+          "stage": "93",
           "condition": {}
         }
       ],
@@ -2922,7 +2922,7 @@
     {
       "id": 93,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "music": [
         "1"
@@ -2942,7 +2942,7 @@
       "transfers": [
         {
           "text": " Да-а-а… Действительно клоун.",
-          "stage_id": "94",
+          "stage": "94",
           "condition": {}
         }
       ],
@@ -2955,7 +2955,7 @@
     {
       "id": 94,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
       "music": [
         "1"
@@ -2975,7 +2975,7 @@
       "transfers": [
         {
           "text": " Далее",
-          "stage_id": "95",
+          "stage": "95",
           "condition": {}
         }
       ],
@@ -2988,7 +2988,7 @@
     {
       "id": 95,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
       "music": [
         "1"
@@ -3008,7 +3008,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "96",
+          "stage": "96",
           "condition": {}
         }
       ],
@@ -3021,7 +3021,7 @@
     {
       "id": 96,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
       "music": [
         "1"
@@ -3041,7 +3041,7 @@
       "transfers": [
         {
           "text": " И такое бывает. Здесь, в Зоне, удивляться нечему. Даже изменениям в половозрастном составе местного контингента.",
-          "stage_id": "97",
+          "stage": "97",
           "condition": {}
         }
       ],
@@ -3054,7 +3054,7 @@
     {
       "id": 97,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "music": [
         "1"
@@ -3074,7 +3074,7 @@
       "transfers": [
         {
           "text": " Далее",
-          "stage_id": "98",
+          "stage": "98",
           "condition": {}
         }
       ],
@@ -3087,7 +3087,7 @@
     {
       "id": 98,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "music": [
         "2"
@@ -3107,7 +3107,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "99",
+          "stage": "99",
           "condition": {}
         }
       ],
@@ -3120,7 +3120,7 @@
     {
       "id": 99,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "music": [
         "1"
@@ -3140,7 +3140,7 @@
       "transfers": [
         {
           "text": "С контролёрами знаком, ничего нового не рассказал.",
-          "stage_id": "100",
+          "stage": "100",
           "condition": {}
         }
       ],
@@ -3153,7 +3153,7 @@
     {
       "id": 100,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
       "music": [
         "1"
@@ -3173,7 +3173,7 @@
       "transfers": [
         {
           "text": "Да-к это я и был. Смешно, правда?",
-          "stage_id": "101",
+          "stage": "101",
           "condition": {}
         }
       ],
@@ -3186,7 +3186,7 @@
     {
       "id": 101,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_17.jpg",
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "music": [
         "5",
@@ -3207,7 +3207,7 @@
       "transfers": [
         {
           "text": " Ладно, бывайте, а мне пора.",
-          "stage_id": "102",
+          "stage": "102",
           "condition": {}
         }
       ],
@@ -3240,7 +3240,7 @@
     {
       "id": 103,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_18.jpg",
+      "background": "/story/prologue/screen/chapter_2_18.jpg",
       "title": "Деревня новичков",
       "music": [
         "6"
@@ -3260,12 +3260,12 @@
       "transfers": [
         {
           "text": "Продолжить путь",
-          "stage_id": "105",
+          "stage": "105",
           "condition": {}
         },
         {
           "text": "Зайти к Сидоровичу",
-          "stage_id": "104",
+          "stage": "104",
           "condition": {}
         }
       ],
@@ -3282,7 +3282,7 @@
     {
       "id": 104,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_20.jpg",
+      "background": "/story/prologue/screen/chapter_2_20.jpg",
       "title": "Деревня новичков",
       "music": [
         "5"
@@ -3302,7 +3302,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage_id": "107",
+          "stage": "107",
           "condition": {}
         }
       ],
@@ -3319,7 +3319,7 @@
     {
       "id": 105,
       "type_stage": 0,
-      "background_url": "",
+      "background": "",
       "title": "Деревня новичков",
       "music": [
         "5"
@@ -3339,7 +3339,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage_id": "106",
+          "stage": "106",
           "condition": {}
         }
       ],
@@ -3368,7 +3368,7 @@
     {
       "id": 107,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_19.jpg",
+      "background": "/story/prologue/screen/chapter_2_19.jpg",
       "title": "Сидорович",
       "music": [],
       "message": "",
@@ -3386,7 +3386,7 @@
       "transfers": [
         {
           "text": "По поводу работы. Что нужно?",
-          "stage_id": "108",
+          "stage": "108",
           "condition": {}
         }
       ],
@@ -3399,7 +3399,7 @@
     {
       "id": 108,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_21.jpg",
+      "background": "/story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
       "music": [],
       "message": "",
@@ -3417,7 +3417,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "109",
+          "stage": "109",
           "condition": {}
         }
       ],
@@ -3430,7 +3430,7 @@
     {
       "id": 109,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_21.jpg",
+      "background": "/story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
       "music": [],
       "message": "",
@@ -3448,7 +3448,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "110",
+          "stage": "110",
           "condition": {}
         }
       ],
@@ -3461,7 +3461,7 @@
     {
       "id": 110,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_21.jpg",
+      "background": "/story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
       "music": [
         "5"
@@ -3481,7 +3481,7 @@
       "transfers": [
         {
           "text": "Хорошо, я возьмусь.",
-          "stage_id": "111",
+          "stage": "111",
           "condition": {}
         }
       ],
@@ -3510,7 +3510,7 @@
     {
       "id": 112,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Тайный лагерь",
       "music": [],
       "message": "",
@@ -3528,7 +3528,7 @@
       "transfers": [
         {
           "text": "Обыскать тело",
-          "stage_id": "113",
+          "stage": "113",
           "condition": {}
         }
       ],
@@ -3541,7 +3541,7 @@
     {
       "id": 113,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Неизвестный сталкер",
       "music": [
         "5"
@@ -3561,7 +3561,7 @@
       "transfers": [
         {
           "text": " Изучить ПДА.",
-          "stage_id": "114",
+          "stage": "114",
           "condition": {}
         }
       ],
@@ -3574,7 +3574,7 @@
     {
       "id": 114,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [],
       "message": "",
@@ -3592,7 +3592,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "115",
+          "stage": "115",
           "condition": {}
         }
       ],
@@ -3605,7 +3605,7 @@
     {
       "id": 115,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [],
       "message": "",
@@ -3623,7 +3623,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "116",
+          "stage": "116",
           "condition": {}
         }
       ],
@@ -3636,7 +3636,7 @@
     {
       "id": 116,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [],
       "message": "",
@@ -3654,7 +3654,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "117",
+          "stage": "117",
           "condition": {}
         }
       ],
@@ -3667,7 +3667,7 @@
     {
       "id": 117,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [],
       "message": "",
@@ -3685,7 +3685,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "118",
+          "stage": "118",
           "condition": {}
         }
       ],
@@ -3698,7 +3698,7 @@
     {
       "id": 118,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [],
       "message": "",
@@ -3716,7 +3716,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "119",
+          "stage": "119",
           "condition": {}
         }
       ],
@@ -3729,7 +3729,7 @@
     {
       "id": 119,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [],
       "message": "",
@@ -3747,7 +3747,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "120",
+          "stage": "120",
           "condition": {}
         }
       ],
@@ -3760,7 +3760,7 @@
     {
       "id": 120,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [],
       "message": "",
@@ -3778,7 +3778,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "121",
+          "stage": "121",
           "condition": {}
         }
       ],
@@ -3791,7 +3791,7 @@
     {
       "id": 121,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [],
       "message": "",
@@ -3809,7 +3809,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "122",
+          "stage": "122",
           "condition": {}
         }
       ],
@@ -3822,7 +3822,7 @@
     {
       "id": 122,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [],
       "message": "",
@@ -3840,7 +3840,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "123",
+          "stage": "123",
           "condition": {}
         }
       ],
@@ -3853,7 +3853,7 @@
     {
       "id": 123,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [],
       "message": "",
@@ -3871,7 +3871,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "124",
+          "stage": "124",
           "condition": {}
         }
       ],
@@ -3884,7 +3884,7 @@
     {
       "id": 124,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [],
       "message": "",
@@ -3902,7 +3902,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "125",
+          "stage": "125",
           "condition": {}
         }
       ],
@@ -3915,7 +3915,7 @@
     {
       "id": 125,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [],
       "message": "",
@@ -3933,7 +3933,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "126",
+          "stage": "126",
           "condition": {}
         }
       ],
@@ -3946,7 +3946,7 @@
     {
       "id": 126,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [],
       "message": "",
@@ -3964,7 +3964,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage_id": "127",
+          "stage": "127",
           "condition": {}
         }
       ],
@@ -3977,7 +3977,7 @@
     {
       "id": 127,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_22.jpg",
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
       "music": [
         "5"
@@ -3997,7 +3997,7 @@
       "transfers": [
         {
           "text": "Вернуться к Сидоровичу",
-          "stage_id": "128",
+          "stage": "128",
           "condition": {}
         }
       ],
@@ -4032,7 +4032,7 @@
     {
       "id": 129,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_21.jpg",
+      "background": "/story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
       "music": [],
       "message": "",
@@ -4050,7 +4050,7 @@
       "transfers": [
         {
           "text": "Держи машинку.",
-          "stage_id": "130",
+          "stage": "130",
           "condition": {}
         }
       ],
@@ -4067,7 +4067,7 @@
     {
       "id": 130,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_23.jpg",
+      "background": "/story/prologue/screen/chapter_2_23.jpg",
       "title": "Сидорович",
       "music": [
         "5"
@@ -4087,7 +4087,7 @@
       "transfers": [
         {
           "text": "Удачи",
-          "stage_id": "131",
+          "stage": "131",
           "condition": {}
         }
       ],
@@ -4111,7 +4111,7 @@
     {
       "id": 131,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_24.jpg",
+      "background": "/story/prologue/screen/chapter_2_24.jpg",
       "title": "Блокпост военных",
       "music": [],
       "message": "",
@@ -4129,7 +4129,7 @@
       "transfers": [
         {
           "text": "Я на выход из Зоны.",
-          "stage_id": "132",
+          "stage": "132",
           "condition": {}
         }
       ],
@@ -4142,7 +4142,7 @@
     {
       "id": 132,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_24.jpg",
+      "background": "/story/prologue/screen/chapter_2_24.jpg",
       "title": "Сержант Кулицкий",
       "music": [],
       "message": "",
@@ -4160,7 +4160,7 @@
       "transfers": [
         {
           "text": "То есть, сталкеры для вас перестали быть мясом? Надо же.",
-          "stage_id": "133",
+          "stage": "133",
           "condition": {}
         }
       ],
@@ -4173,7 +4173,7 @@
     {
       "id": 133,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_24.jpg",
+      "background": "/story/prologue/screen/chapter_2_24.jpg",
       "title": "Сержант Кулицкий",
       "music": [
         "5"
@@ -4193,7 +4193,7 @@
       "transfers": [
         {
           "text": "Сдать снаряжение",
-          "stage_id": "135",
+          "stage": "135",
           "condition": {}
         }
       ],
@@ -4225,7 +4225,7 @@
     {
       "id": 135,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_25.jpg",
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
       "music": [],
       "message": "",
@@ -4243,7 +4243,7 @@
       "transfers": [
         {
           "text": " Павел Евгеньевич Дубовский",
-          "stage_id": "136",
+          "stage": "136",
           "condition": {}
         }
       ],
@@ -4256,7 +4256,7 @@
     {
       "id": 136,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_25.jpg",
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
       "music": [],
       "message": "",
@@ -4274,7 +4274,7 @@
       "transfers": [
         {
           "text": " Нет, он остался на Большой Земле. Да, скажите, когда я смогу уйти?",
-          "stage_id": "137",
+          "stage": "137",
           "condition": {}
         }
       ],
@@ -4287,7 +4287,7 @@
     {
       "id": 137,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_25.jpg",
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
       "music": [],
       "message": "",
@@ -4305,7 +4305,7 @@
       "transfers": [
         {
           "text": " ...",
-          "stage_id": "138",
+          "stage": "138",
           "condition": {}
         }
       ],
@@ -4318,7 +4318,7 @@
     {
       "id": 138,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_25.jpg",
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
       "music": [],
       "message": "",
@@ -4336,12 +4336,12 @@
       "transfers": [
         {
           "text": "Что именно вам требуется знать?",
-          "stage_id": "139",
+          "stage": "139",
           "condition": {}
         },
         {
           "text": "Нет, ничего не видел.",
-          "stage_id": "141",
+          "stage": "141",
           "condition": {}
         }
       ],
@@ -4354,7 +4354,7 @@
     {
       "id": 139,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_25.jpg",
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
       "music": [],
       "message": "",
@@ -4372,7 +4372,7 @@
       "transfers": [
         {
           "text": " Я встретил по пути, на Свалке, аномалию «Лифт». Она хоть и считается «устоявшейся», я посчитал необходимым вам рассказать.",
-          "stage_id": "140",
+          "stage": "140",
           "condition": {}
         }
       ],
@@ -4389,7 +4389,7 @@
     {
       "id": 140,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_25.jpg",
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
       "music": [],
       "message": "",
@@ -4407,7 +4407,7 @@
       "transfers": [
         {
           "text": " Всё одинаково, ничего более не могу сказать. Разве что хабаром барыжу, консервные банки Сидоровичу тащу. Говорят, этот старый хрыч артефактами решил молодиться.",
-          "stage_id": "142",
+          "stage": "142",
           "condition": {}
         }
       ],
@@ -4424,7 +4424,7 @@
     {
       "id": 141,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_25.jpg",
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
       "music": [],
       "message": "",
@@ -4442,12 +4442,12 @@
       "transfers": [
         {
           "text": "В принципе ничего нового не расскажу, но разговаривающие контролеры конкретно напрягают. Я сам не знаю, как они трансформируются, видимо особо умные сталкеры под Выбросом сходят с ума…",
-          "stage_id": "143",
+          "stage": "143",
           "condition": {}
         },
         {
           "text": "Не могу сказать, ничего особенного.",
-          "stage_id": "143",
+          "stage": "143",
           "condition": {}
         }
       ],
@@ -4460,7 +4460,7 @@
     {
       "id": 142,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_25.jpg",
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
       "music": [],
       "message": "",
@@ -4478,12 +4478,12 @@
       "transfers": [
         {
           "text": "В принципе ничего нового не расскажу, но разговаривающие контролёры конкретно напрягают. Я сам не знаю, как они трансформируются, видимо особо умные сталкеры под Выбросом сходят с ума…",
-          "stage_id": "143",
+          "stage": "143",
           "condition": {}
         },
         {
           "text": "Не могу сказать, ничего особенного.",
-          "stage_id": "143",
+          "stage": "143",
           "condition": {}
         }
       ],
@@ -4496,7 +4496,7 @@
     {
       "id": 143,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_25.jpg",
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
       "music": [],
       "message": "",
@@ -4514,7 +4514,7 @@
       "transfers": [
         {
           "text": "Гастрит-то преобладает у всех сталкеров. Общее состояние? Да водяры хряпнешь, и все хорошо становится по маху.",
-          "stage_id": "144",
+          "stage": "144",
           "condition": {}
         }
       ],
@@ -4527,7 +4527,7 @@
     {
       "id": 144,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_25.jpg",
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
       "music": [],
       "message": "",
@@ -4545,7 +4545,7 @@
       "transfers": [
         {
           "text": "А вам вот так сталкеров расспрашивать не надоело? Вот что вы узнали из моего рассказа?",
-          "stage_id": "145",
+          "stage": "145",
           "condition": {}
         }
       ],
@@ -4558,7 +4558,7 @@
     {
       "id": 145,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_25.jpg",
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
       "music": [],
       "message": "",
@@ -4576,7 +4576,7 @@
       "transfers": [
         {
           "text": "Что значит задержусь?",
-          "stage_id": "146",
+          "stage": "146",
           "condition": {}
         }
       ],
@@ -4589,7 +4589,7 @@
     {
       "id": 146,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_25.jpg",
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
       "title": "Сергей Клементьев",
       "music": [
         "5"
@@ -4609,7 +4609,7 @@
       "transfers": [
         {
           "text": "Уйти",
-          "stage_id": "147",
+          "stage": "147",
           "condition": {}
         }
       ],
@@ -4641,7 +4641,7 @@
     {
       "id": 148,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_26.jpg",
+      "background": "/story/prologue/screen/chapter_2_26.jpg",
       "title": "Риелтор",
       "music": [],
       "message": "",
@@ -4659,7 +4659,7 @@
       "transfers": [
         {
           "text": " Здрасте, мне б жильё снять.",
-          "stage_id": "149",
+          "stage": "149",
           "condition": {}
         }
       ],
@@ -4672,7 +4672,7 @@
     {
       "id": 149,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_26.jpg",
+      "background": "/story/prologue/screen/chapter_2_26.jpg",
       "title": "Риелтор",
       "music": [],
       "message": "",
@@ -4690,7 +4690,7 @@
       "transfers": [
         {
           "text": "Принять",
-          "stage_id": "150",
+          "stage": "150",
           "condition": {
             "money<=": [
               "8000"
@@ -4711,7 +4711,7 @@
     {
       "id": 150,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_26.jpg",
+      "background": "/story/prologue/screen/chapter_2_26.jpg",
       "title": "Риелтор",
       "music": [
         "5"
@@ -4731,7 +4731,7 @@
       "transfers": [
         {
           "text": "Удачи",
-          "stage_id": "151",
+          "stage": "151",
           "condition": {}
         }
       ],
@@ -4763,7 +4763,7 @@
     {
       "id": 152,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_27.jpg",
+      "background": "/story/prologue/screen/chapter_2_27.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -4781,7 +4781,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage_id": "153",
+          "stage": "153",
           "condition": {}
         }
       ],
@@ -4794,7 +4794,7 @@
     {
       "id": 153,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_27.jpg",
+      "background": "/story/prologue/screen/chapter_2_27.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -4812,7 +4812,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage_id": "154",
+          "stage": "154",
           "condition": {}
         }
       ],
@@ -4825,7 +4825,7 @@
     {
       "id": 154,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_27.jpg",
+      "background": "/story/prologue/screen/chapter_2_27.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -4843,7 +4843,7 @@
       "transfers": [
         {
           "text": "Подойти к двери",
-          "stage_id": "155",
+          "stage": "155",
           "condition": {}
         }
       ],
@@ -4856,7 +4856,7 @@
     {
       "id": 155,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_27.jpg",
+      "background": "/story/prologue/screen/chapter_2_27.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -4874,12 +4874,12 @@
       "transfers": [
         {
           "text": "Снять цепочку, открыть дверь.",
-          "stage_id": "156",
+          "stage": "156",
           "condition": {}
         },
         {
           "text": "Отойти",
-          "stage_id": "180",
+          "stage": "180",
           "condition": {}
         }
       ],
@@ -4892,7 +4892,7 @@
     {
       "id": 156,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_28.jpg",
+      "background": "/story/prologue/screen/chapter_2_28.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -4910,17 +4910,17 @@
       "transfers": [
         {
           "text": "Дёрнуться к столовым приборам.",
-          "stage_id": "157",
+          "stage": "157",
           "condition": {}
         },
         {
           "text": "Выпрыгнуть в окно.",
-          "stage_id": "169",
+          "stage": "169",
           "condition": {}
         },
         {
           "text": "Занять оборонительную стойку",
-          "stage_id": "170",
+          "stage": "170",
           "condition": {}
         }
       ],
@@ -4933,7 +4933,7 @@
     {
       "id": 157,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_29.jpg",
+      "background": "/story/prologue/screen/chapter_2_29.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -4951,7 +4951,7 @@
       "transfers": [
         {
           "text": "Встать",
-          "stage_id": "158",
+          "stage": "158",
           "condition": {}
         }
       ],
@@ -4964,7 +4964,7 @@
     {
       "id": 158,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -4982,7 +4982,7 @@
       "transfers": [
         {
           "text": "Увернуться от захвата рук.",
-          "stage_id": "159",
+          "stage": "159",
           "condition": {}
         }
       ],
@@ -4995,7 +4995,7 @@
     {
       "id": 159,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5013,7 +5013,7 @@
       "transfers": [
         {
           "text": "Пытаться вырваться",
-          "stage_id": "160",
+          "stage": "160",
           "condition": {}
         }
       ],
@@ -5026,7 +5026,7 @@
     {
       "id": 160,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5044,7 +5044,7 @@
       "transfers": [
         {
           "text": " Оттолкнуться ногами.",
-          "stage_id": "161",
+          "stage": "161",
           "condition": {}
         }
       ],
@@ -5057,7 +5057,7 @@
     {
       "id": 161,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5075,7 +5075,7 @@
       "transfers": [
         {
           "text": "Оттолкнуться ногами.",
-          "stage_id": "162",
+          "stage": "162",
           "condition": {}
         }
       ],
@@ -5088,7 +5088,7 @@
     {
       "id": 162,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5106,7 +5106,7 @@
       "transfers": [
         {
           "text": "Плюнуть вверх",
-          "stage_id": "163",
+          "stage": "163",
           "condition": {}
         }
       ],
@@ -5119,7 +5119,7 @@
     {
       "id": 163,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5137,7 +5137,7 @@
       "transfers": [
         {
           "text": "За что, с-с-с…уки?",
-          "stage_id": "164",
+          "stage": "164",
           "condition": {}
         }
       ],
@@ -5150,7 +5150,7 @@
     {
       "id": 164,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Лысый",
       "music": [],
       "message": "",
@@ -5168,7 +5168,7 @@
       "transfers": [
         {
           "text": "Что трепать? чё?",
-          "stage_id": "165",
+          "stage": "165",
           "condition": {}
         }
       ],
@@ -5181,7 +5181,7 @@
     {
       "id": 165,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Шурале",
       "music": [],
       "message": "",
@@ -5199,7 +5199,7 @@
       "transfers": [
         {
           "text": "Сопротивляться",
-          "stage_id": "166",
+          "stage": "166",
           "condition": {}
         }
       ],
@@ -5212,7 +5212,7 @@
     {
       "id": 166,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5230,7 +5230,7 @@
       "transfers": [
         {
           "text": "Кричать!",
-          "stage_id": "167",
+          "stage": "167",
           "condition": {}
         }
       ],
@@ -5243,7 +5243,7 @@
     {
       "id": 167,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5261,7 +5261,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage_id": "168",
+          "stage": "168",
           "condition": {}
         }
       ],
@@ -5274,7 +5274,7 @@
     {
       "id": 168,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_31.jpg",
+      "background": "/story/prologue/screen/chapter_2_31.jpg",
       "title": "Дом",
       "music": [
         "5"
@@ -5294,7 +5294,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage_id": "247",
+          "stage": "247",
           "condition": {}
         }
       ],
@@ -5311,7 +5311,7 @@
     {
       "id": 169,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_32.jpg",
+      "background": "/story/prologue/screen/chapter_2_32.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5329,7 +5329,7 @@
       "transfers": [
         {
           "text": "Кричать!",
-          "stage_id": "167",
+          "stage": "167",
           "condition": {}
         }
       ],
@@ -5342,7 +5342,7 @@
     {
       "id": 170,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_32.jpg",
+      "background": "/story/prologue/screen/chapter_2_32.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5360,7 +5360,7 @@
       "transfers": [
         {
           "text": "Какого … вам надо? Вы кто?",
-          "stage_id": "171",
+          "stage": "171",
           "condition": {}
         }
       ],
@@ -5373,7 +5373,7 @@
     {
       "id": 171,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_32.jpg",
+      "background": "/story/prologue/screen/chapter_2_32.jpg",
       "title": "Цикорий",
       "music": [],
       "message": "",
@@ -5391,7 +5391,7 @@
       "transfers": [
         {
           "text": "Отползти",
-          "stage_id": "172",
+          "stage": "172",
           "condition": {}
         }
       ],
@@ -5404,7 +5404,7 @@
     {
       "id": 172,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_32.jpg",
+      "background": "/story/prologue/screen/chapter_2_32.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5422,7 +5422,7 @@
       "transfers": [
         {
           "text": "Сопротивляться",
-          "stage_id": "173",
+          "stage": "173",
           "condition": {}
         }
       ],
@@ -5435,7 +5435,7 @@
     {
       "id": 173,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_32.jpg",
+      "background": "/story/prologue/screen/chapter_2_32.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5453,7 +5453,7 @@
       "transfers": [
         {
           "text": "Попытаться вырваться.",
-          "stage_id": "174",
+          "stage": "174",
           "condition": {}
         }
       ],
@@ -5466,7 +5466,7 @@
     {
       "id": 174,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5484,7 +5484,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage_id": "175",
+          "stage": "175",
           "condition": {}
         }
       ],
@@ -5497,7 +5497,7 @@
     {
       "id": 175,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5515,7 +5515,7 @@
       "transfers": [
         {
           "text": "Осмотреться",
-          "stage_id": "176",
+          "stage": "176",
           "condition": {}
         }
       ],
@@ -5528,7 +5528,7 @@
     {
       "id": 176,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Особняк",
       "music": [],
       "message": "",
@@ -5546,7 +5546,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage_id": "177",
+          "stage": "177",
           "condition": {}
         }
       ],
@@ -5559,7 +5559,7 @@
     {
       "id": 177,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Яхонт",
       "music": [],
       "message": "",
@@ -5577,7 +5577,7 @@
       "transfers": [
         {
           "text": "Кивнуть",
-          "stage_id": "178",
+          "stage": "178",
           "condition": {}
         }
       ],
@@ -5590,7 +5590,7 @@
     {
       "id": 178,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_2_30.jpg",
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
       "title": "Яхонт",
       "music": [],
       "message": "",
@@ -5608,7 +5608,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage_id": "179",
+          "stage": "179",
           "condition": {}
         }
       ],
@@ -5621,7 +5621,7 @@
     {
       "id": 179,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_31.jpg",
+      "background": "/story/prologue/screen/chapter_2_31.jpg",
       "title": "Особняк",
       "music": [
         "5"
@@ -5641,7 +5641,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage_id": "247",
+          "stage": "247",
           "condition": {}
         }
       ],
@@ -5658,7 +5658,7 @@
     {
       "id": 180,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_33.jpg",
+      "background": "/story/prologue/screen/chapter_2_33.jpg",
       "title": "Дом",
       "music": [],
       "message": "",
@@ -5676,17 +5676,17 @@
       "transfers": [
         {
           "text": "Дернуться к столовым приборам.",
-          "stage_id": "157",
+          "stage": "157",
           "condition": {}
         },
         {
           "text": "Выпрыгнуть в окно.",
-          "stage_id": "169",
+          "stage": "169",
           "condition": {}
         },
         {
           "text": "Занять оборонительную стойку",
-          "stage_id": "170",
+          "stage": "170",
           "condition": {}
         }
       ],
@@ -5699,7 +5699,7 @@
     {
       "id": 181,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_1.jpg",
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Бар",
       "music": [],
       "message": "",
@@ -5717,7 +5717,7 @@
       "transfers": [
         {
           "text": " Уйти",
-          "stage_id": "182",
+          "stage": "182",
           "condition": {}
         }
       ],
@@ -5742,7 +5742,7 @@
     {
       "id": 213,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_0_9.jpg",
+      "background": "/story/prologue/screen/chapter_0_9.jpg",
       "title": "Майор Кузнецов",
       "message": "",
       "type_message": 0,
@@ -5759,7 +5759,7 @@
       "transfers": [
         {
           "text": "Мне нужно пройти",
-          "stage_id": "214",
+          "stage": "214",
           "condition": {}
         }
       ],
@@ -5776,7 +5776,7 @@
     {
       "id": 214,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_0_9.jpg",
+      "background": "/story/prologue/screen/chapter_0_9.jpg",
       "title": "Майор Кузнецов",
       "message": "",
       "type_message": 0,
@@ -5793,12 +5793,12 @@
       "transfers": [
         {
           "text": "Держи",
-          "stage_id": "215",
+          "stage": "215",
           "condition": {}
         },
         {
           "text": "Пока",
-          "stage_id": "218",
+          "stage": "218",
           "condition": {}
         }
       ],
@@ -5815,7 +5815,7 @@
     {
       "id": 215,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_0_9.jpg",
+      "background": "/story/prologue/screen/chapter_0_9.jpg",
       "music": [
         "4"
       ],
@@ -5835,7 +5835,7 @@
       "transfers": [
         {
           "text": "Пока.",
-          "stage_id": "219",
+          "stage": "219",
           "condition": {}
         }
       ],
@@ -5855,7 +5855,7 @@
     {
       "id": 217,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_0_9.jpg",
+      "background": "/story/prologue/screen/chapter_0_9.jpg",
       "title": "Майор Кузнецов",
       "message": "",
       "type_message": 0,
@@ -5872,7 +5872,7 @@
       "transfers": [
         {
           "text": "...",
-          "stage_id": "218",
+          "stage": "218",
           "condition": {}
         }
       ],
@@ -5896,7 +5896,7 @@
     {
       "id": 216,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_0_9.jpg",
+      "background": "/story/prologue/screen/chapter_0_9.jpg",
       "music": [
         "4"
       ],
@@ -5916,7 +5916,7 @@
       "transfers": [
         {
           "text": "Пока.",
-          "stage_id": "219",
+          "stage": "219",
           "condition": {}
         }
       ],
@@ -5945,7 +5945,7 @@
     {
       "id": 240,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_0_9.jpg",
+      "background": "/story/prologue/screen/chapter_0_9.jpg",
       "title": "Лейтенант Мыслов",
       "message": "",
       "type_message": 0,
@@ -5962,12 +5962,12 @@
       "transfers": [
         {
           "text": "Держи",
-          "stage_id": "241",
+          "stage": "241",
           "condition": {}
         },
         {
           "text": "Пока",
-          "stage_id": "243",
+          "stage": "243",
           "condition": {}
         }
       ],
@@ -5980,7 +5980,7 @@
     {
       "id": 241,
       "type_stage": 7,
-      "background_url": "/story/prologue/screen/chapter_0_9.jpg",
+      "background": "/story/prologue/screen/chapter_0_9.jpg",
       "title": "Лейтенант Мыслов",
       "message": "Потеряно денег: 500р",
       "music": [
@@ -6000,7 +6000,7 @@
       "transfers": [
         {
           "text": "Пока",
-          "stage_id": "242",
+          "stage": "242",
           "condition": {}
         }
       ],
@@ -6080,7 +6080,7 @@
     {
       "id": 247,
       "type_stage": 1,
-      "background_url": "/story/prologue/screen/chapter_2_31.jpg",
+      "background": "/story/prologue/screen/chapter_2_31.jpg",
       "title": "Пролог завершен!",
       "type_message": 0,
       "texts": [
@@ -6096,7 +6096,7 @@
       "transfers": [
         {
           "text": "Выйти",
-          "stage_id": "248",
+          "stage": "248",
           "condition": {}
         }
       ],
@@ -6113,7 +6113,7 @@
     {
       "id": 248,
       "type_stage": 0,
-      "background_url": "/story/prologue/screen/chapter_2_31.jpg",
+      "background": "/story/prologue/screen/chapter_2_31.jpg",
       "title": "Пролог завершен!",
       "type_message": 0,
       "texts": [
@@ -6129,13 +6129,13 @@
       "transfers": [
         {
           "text": "Не трогай",
-          "stage_id": "248",
+          "stage": "248",
           "condition": {}
         }
       ],
       "actions": {
-        "over": [],
-        "force": []
+        "finishStory": [],
+        "syncNow": []
       },
       "editor": {
         "x": 275,

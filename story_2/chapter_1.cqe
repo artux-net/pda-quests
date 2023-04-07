@@ -56,7 +56,7 @@
     {
       "id": 0,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен",
       "message": "",
       "type_message": 0,
@@ -73,7 +73,7 @@
       "transfers": [
         {
           "text": "Здравствуйте, вы не подскажите, как мне попасть в Зону?",
-          "stage_id": "1",
+          "stage": "1",
           "condition": {}
         }
       ],
@@ -96,7 +96,7 @@
     {
       "id": 1,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен",
       "message": "",
       "type_message": 0,
@@ -113,7 +113,7 @@
       "transfers": [
         {
           "text": "Так заметно?",
-          "stage_id": "2",
+          "stage": "2",
           "condition": {}
         }
       ],
@@ -126,7 +126,7 @@
     {
       "id": 2,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен",
       "message": "",
       "type_message": 0,
@@ -143,7 +143,7 @@
       "transfers": [
         {
           "text": "...",
-          "stage_id": "3",
+          "stage": "3",
           "condition": {}
         }
       ],
@@ -162,7 +162,7 @@
     {
       "id": 3,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен",
       "message": "",
       "type_message": 0,
@@ -179,7 +179,7 @@
       "transfers": [
         {
           "text": "@name",
-          "stage_id": "4",
+          "stage": "4",
           "condition": {}
         }
       ],
@@ -192,7 +192,7 @@
     {
       "id": 4,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "",
       "type_message": 0,
@@ -209,7 +209,7 @@
       "transfers": [
         {
           "text": "Было дело",
-          "stage_id": "5",
+          "stage": "5",
           "condition": {}
         }
       ],
@@ -222,7 +222,7 @@
     {
       "id": 5,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "",
       "type_message": 0,
@@ -239,7 +239,7 @@
       "transfers": [
         {
           "text": "Паспорт только",
-          "stage_id": "6",
+          "stage": "6",
           "condition": {}
         }
       ],
@@ -252,7 +252,7 @@
     {
       "id": 6,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "",
       "type_message": 0,
@@ -269,7 +269,7 @@
       "transfers": [
         {
           "text": "Тогда нет",
-          "stage_id": "7",
+          "stage": "7",
           "condition": {}
         }
       ],
@@ -282,7 +282,7 @@
     {
       "id": 7,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "",
       "type_message": 0,
@@ -299,7 +299,7 @@
       "transfers": [
         {
           "text": "Около 500 рублей",
-          "stage_id": "8",
+          "stage": "8",
           "condition": {}
         }
       ],
@@ -312,7 +312,7 @@
     {
       "id": 8,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "",
       "type_message": 0,
@@ -329,7 +329,7 @@
       "transfers": [
         {
           "text": "Что мне нужно будет делать?",
-          "stage_id": "9",
+          "stage": "9",
           "condition": {}
         }
       ],
@@ -342,7 +342,7 @@
     {
       "id": 9,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "Получен предмет: Документы для НИИЧАЗ",
       "music": [
@@ -362,7 +362,7 @@
       "transfers": [
         {
           "text": "Зона, что она такое?",
-          "stage_id": "10",
+          "stage": "10",
           "condition": {}
         }
       ],
@@ -375,7 +375,7 @@
     {
       "id": 10,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "",
       "type_message": 0,
@@ -392,7 +392,7 @@
       "transfers": [
         {
           "text": "Зачем она мне?",
-          "stage_id": "11",
+          "stage": "11",
           "condition": {}
         }
       ],
@@ -405,7 +405,7 @@
     {
       "id": 11,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "",
       "type_message": 0,
@@ -422,7 +422,7 @@
       "transfers": [
         {
           "text": "...",
-          "stage_id": "12",
+          "stage": "12",
           "condition": {}
         }
       ],
@@ -435,7 +435,7 @@
     {
       "id": 12,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "Новый квест: Отправиться в НИИЧАЗ",
       "music": [
@@ -455,7 +455,7 @@
       "transfers": [
         {
           "text": "Многообещающее напутствие. Пока",
-          "stage_id": "13",
+          "stage": "13",
           "condition": {}
         }
       ],
@@ -484,7 +484,7 @@
     {
       "id": 14,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/1.jpg",
+      "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
       "message": "",
       "type_message": 0,
@@ -501,7 +501,7 @@
       "transfers": [
         {
           "text": "Передать документы. Вот мой пропуск",
-          "stage_id": "15",
+          "stage": "15",
           "condition": {}
         }
       ],
@@ -514,7 +514,7 @@
     {
       "id": 15,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/1.jpg",
+      "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
       "message": "",
       "type_message": 0,
@@ -531,7 +531,7 @@
       "transfers": [
         {
           "text": "Нет",
-          "stage_id": "16",
+          "stage": "16",
           "condition": {}
         }
       ],
@@ -544,7 +544,7 @@
     {
       "id": 16,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/1.jpg",
+      "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
       "message": "",
       "type_message": 0,
@@ -561,7 +561,7 @@
       "transfers": [
         {
           "text": "Не знаю, начальник. Может быть договоримся?",
-          "stage_id": "17",
+          "stage": "17",
           "condition": {}
         }
       ],
@@ -574,7 +574,7 @@
     {
       "id": 17,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/1.jpg",
+      "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
       "message": "",
       "type_message": 0,
@@ -591,7 +591,7 @@
       "transfers": [
         {
           "text": "У меня только 500 рублей.",
-          "stage_id": "18",
+          "stage": "18",
           "condition": {}
         }
       ],
@@ -604,7 +604,7 @@
     {
       "id": 18,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/1.jpg",
+      "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
       "message": "",
       "type_message": 0,
@@ -621,12 +621,12 @@
       "transfers": [
         {
           "text": "Пропускай, я найду",
-          "stage_id": "20",
+          "stage": "20",
           "condition": {}
         },
         {
           "text": "Пойду поищу, скоро вернусь",
-          "stage_id": "19",
+          "stage": "19",
           "condition": {}
         }
       ],
@@ -643,7 +643,7 @@
     {
       "id": 19,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/1.jpg",
+      "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
       "message": "Новый квест: Вернуться в бар",
       "music": [
@@ -663,7 +663,7 @@
       "transfers": [
         {
           "text": "Пока.",
-          "stage_id": "21",
+          "stage": "21",
           "condition": {}
         }
       ],
@@ -680,7 +680,7 @@
     {
       "id": 20,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/1.jpg",
+      "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
       "message": "Новый квест: Идти к учёному",
       "music": [
@@ -700,7 +700,7 @@
       "transfers": [
         {
           "text": "Пока",
-          "stage_id": "46",
+          "stage": "46",
           "condition": {}
         }
       ],
@@ -717,7 +717,7 @@
     {
       "id": 46,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/1.jpg",
+      "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
       "message": "",
       "type_message": 0,
@@ -734,7 +734,7 @@
       "transfers": [
         {
           "text": "Да понял я",
-          "stage_id": "22",
+          "stage": "22",
           "condition": {}
         }
       ],
@@ -775,7 +775,7 @@
     {
       "id": 47,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/2.jpg",
+      "background": "story/freeplay/screen/2.jpg",
       "title": "Ученый",
       "message": "",
       "type_message": 0,
@@ -792,7 +792,7 @@
       "transfers": [
         {
           "text": "Здравствуйте. Айвар просил передать вам документы",
-          "stage_id": "23",
+          "stage": "23",
           "condition": {}
         }
       ],
@@ -805,7 +805,7 @@
     {
       "id": 23,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/2.jpg",
+      "background": "story/freeplay/screen/2.jpg",
       "title": "Ученый",
       "message": "Потерян предмет: Документы для НИИЧАЗ",
       "music": [
@@ -825,7 +825,7 @@
       "transfers": [
         {
           "text": "@name",
-          "stage_id": "24",
+          "stage": "24",
           "condition": {}
         }
       ],
@@ -838,7 +838,7 @@
     {
       "id": 24,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/2.jpg",
+      "background": "story/freeplay/screen/2.jpg",
       "title": "Ученый",
       "message": "",
       "type_message": 0,
@@ -855,7 +855,7 @@
       "transfers": [
         {
           "text": "Очень приятно",
-          "stage_id": "25",
+          "stage": "25",
           "condition": {}
         }
       ],
@@ -868,7 +868,7 @@
     {
       "id": 25,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/2.jpg",
+      "background": "story/freeplay/screen/2.jpg",
       "title": "Клементьев",
       "message": "",
       "type_message": 0,
@@ -885,7 +885,7 @@
       "transfers": [
         {
           "text": "Я могу получить у вас пропуск в Зону?",
-          "stage_id": "26",
+          "stage": "26",
           "condition": {}
         }
       ],
@@ -898,7 +898,7 @@
     {
       "id": 26,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/2.jpg",
+      "background": "story/freeplay/screen/2.jpg",
       "title": "Клементьев",
       "message": "",
       "type_message": 0,
@@ -915,7 +915,7 @@
       "transfers": [
         {
           "text": "И как же мне попасть туда?",
-          "stage_id": "27",
+          "stage": "27",
           "condition": {}
         }
       ],
@@ -928,7 +928,7 @@
     {
       "id": 27,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/2.jpg",
+      "background": "story/freeplay/screen/2.jpg",
       "title": "Клементьев",
       "message": "",
       "type_message": 0,
@@ -945,7 +945,7 @@
       "transfers": [
         {
           "text": "Я вас понял. В таком случае, не смею задерживать вас",
-          "stage_id": "28",
+          "stage": "28",
           "condition": {
             "!has": [
               "quest_0_0_post_uch_dolg"
@@ -954,7 +954,7 @@
         },
         {
           "text": "У меня к вам нестандартная просьба: могу ли я попросить у вас в долг 500 рублей, чтобы выйти от сюда? Охрана без взятки не выпускает",
-          "stage_id": "29",
+          "stage": "29",
           "condition": {
             "has": [
               "quest_0_0_post_uch_dolg"
@@ -978,7 +978,7 @@
     {
       "id": 28,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/2.jpg",
+      "background": "story/freeplay/screen/2.jpg",
       "title": "Клементьев",
       "message": "Новый квест: Вернуться в бар",
       "music": [
@@ -998,7 +998,7 @@
       "transfers": [
         {
           "text": "Уйти",
-          "stage_id": "33",
+          "stage": "33",
           "condition": {}
         }
       ],
@@ -1023,7 +1023,7 @@
     {
       "id": 29,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/2.jpg",
+      "background": "story/freeplay/screen/2.jpg",
       "title": "Клементьев",
       "message": "",
       "type_message": 0,
@@ -1040,12 +1040,12 @@
       "transfers": [
         {
           "text": "Буду благодарен",
-          "stage_id": "30",
+          "stage": "30",
           "condition": {}
         },
         {
           "text": "Подождите...",
-          "stage_id": "34",
+          "stage": "34",
           "condition": {}
         }
       ],
@@ -1062,7 +1062,7 @@
     {
       "id": 30,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/2.jpg",
+      "background": "story/freeplay/screen/2.jpg",
       "title": "Клементьев",
       "message": "",
       "type_message": 0,
@@ -1079,7 +1079,7 @@
       "transfers": [
         {
           "text": "Спасибо, я пошел. Счастливо",
-          "stage_id": "31",
+          "stage": "31",
           "condition": {}
         }
       ],
@@ -1092,7 +1092,7 @@
     {
       "id": 31,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/3.jpg",
+      "background": "story/freeplay/screen/3.jpg",
       "title": "Блокпост",
       "message": "Новый квест: Вернуться в бар",
       "music": [
@@ -1112,7 +1112,7 @@
       "transfers": [
         {
           "text": "Уйти",
-          "stage_id": "32",
+          "stage": "32",
           "condition": {}
         }
       ],
@@ -1141,7 +1141,7 @@
     {
       "id": 34,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/2.jpg",
+      "background": "story/freeplay/screen/2.jpg",
       "title": "Клементьев",
       "message": "",
       "type_message": 0,
@@ -1158,7 +1158,7 @@
       "transfers": [
         {
           "text": "Мне очень не хотелось бы начинать свое взаимодействие с НИИЧАЗ с негативной ноты, тем более, я сам виноват, что без документов. Может быть, все таки получится занять мне 500 рублей?",
-          "stage_id": "35",
+          "stage": "35",
           "condition": {}
         }
       ],
@@ -1171,7 +1171,7 @@
     {
       "id": 35,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/2.jpg",
+      "background": "story/freeplay/screen/2.jpg",
       "title": "Клементьев",
       "message": "Получен предмет: 500 рублей",
       "music": [
@@ -1191,7 +1191,7 @@
       "transfers": [
         {
           "text": "Спасибо, я пошёл. Счастливо",
-          "stage_id": "36",
+          "stage": "36",
           "condition": {}
         }
       ],
@@ -1220,7 +1220,7 @@
     {
       "id": 37,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/3.jpg",
+      "background": "story/freeplay/screen/3.jpg",
       "title": "Блокпост",
       "message": "",
       "type_message": 0,
@@ -1237,7 +1237,7 @@
       "transfers": [
         {
           "text": "Держи",
-          "stage_id": "38",
+          "stage": "38",
           "condition": {}
         }
       ],
@@ -1250,7 +1250,7 @@
     {
       "id": 38,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/3.jpg",
+      "background": "story/freeplay/screen/3.jpg",
       "title": "Блокпост",
       "message": "Новый квест: Вернуться в бар. Потеряно: 1000 рублей",
       "music": [
@@ -1270,7 +1270,7 @@
       "transfers": [
         {
           "text": "Пока",
-          "stage_id": "39",
+          "stage": "39",
           "condition": {}
         }
       ],
@@ -1299,7 +1299,7 @@
     {
       "id": 40,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "",
       "type_message": 0,
@@ -1316,7 +1316,7 @@
       "transfers": [
         {
           "text": "Ещё нет. Охрана на блокпосте не пустила. Можно попросить в долг 500 рублей, чтобы зайти к ним?",
-          "stage_id": "41",
+          "stage": "41",
           "condition": {}
         }
       ],
@@ -1333,7 +1333,7 @@
     {
       "id": 41,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "Новый квест: Вернуться в НИИЧАЗ. Получено: 500 рублей",
       "music": [
@@ -1353,7 +1353,7 @@
       "transfers": [
         {
           "text": "Спасибо, я пошёл",
-          "stage_id": "42",
+          "stage": "42",
           "condition": {}
         }
       ],
@@ -1385,7 +1385,7 @@
     {
       "id": 43,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/1.jpg",
+      "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
       "message": "",
       "type_message": 0,
@@ -1402,7 +1402,7 @@
       "transfers": [
         {
           "text": "Принёс, держи",
-          "stage_id": "44",
+          "stage": "44",
           "condition": {}
         }
       ],
@@ -1415,7 +1415,7 @@
     {
       "id": 44,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/1.jpg",
+      "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
       "message": "Новый квест: Идти к ученому. Потеряно: 1000 рублей",
       "music": [
@@ -1435,7 +1435,7 @@
       "transfers": [
         {
           "text": "Спасибо",
-          "stage_id": "45",
+          "stage": "45",
           "condition": {}
         }
       ],
@@ -1470,7 +1470,7 @@
     {
       "id": 48,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "",
       "type_message": 0,
@@ -1487,7 +1487,7 @@
       "transfers": [
         {
           "text": "Да, всё сделано",
-          "stage_id": "49",
+          "stage": "49",
           "condition": {}
         }
       ],
@@ -1500,7 +1500,7 @@
     {
       "id": 49,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "",
       "type_message": 0,
@@ -1517,7 +1517,7 @@
       "transfers": [
         {
           "text": "На блокпосте не хотели без денег пропускать из-за того, что у меня нет разрешения",
-          "stage_id": "50",
+          "stage": "50",
           "condition": {}
         }
       ],
@@ -1530,7 +1530,7 @@
     {
       "id": 50,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "",
       "type_message": 0,
@@ -1547,7 +1547,7 @@
       "transfers": [
         {
           "text": "И что же мне ему сказать?",
-          "stage_id": "51",
+          "stage": "51",
           "condition": {}
         }
       ],
@@ -1564,7 +1564,7 @@
     {
       "id": 51,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "Новый квест: Идти к Калине",
       "music": [
@@ -1584,7 +1584,7 @@
       "transfers": [
         {
           "text": "Я понял тебя",
-          "stage_id": "52",
+          "stage": "52",
           "condition": {}
         }
       ],
@@ -1597,7 +1597,7 @@
     {
       "id": 52,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/4.jpg",
+      "background": "story/freeplay/screen/4.jpg",
       "title": "Калина",
       "message": "",
       "type_message": 0,
@@ -1614,7 +1614,7 @@
       "transfers": [
         {
           "text": "Здравствуйте. Вы Калина?",
-          "stage_id": "53",
+          "stage": "53",
           "condition": {}
         }
       ],
@@ -1627,7 +1627,7 @@
     {
       "id": 53,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/4.jpg",
+      "background": "story/freeplay/screen/4.jpg",
       "title": "Калина",
       "message": "",
       "type_message": 0,
@@ -1644,7 +1644,7 @@
       "transfers": [
         {
           "text": "Бармен попросил меня передать вам, что вы должны ему деньги и просит вернуть их",
-          "stage_id": "54",
+          "stage": "54",
           "condition": {}
         }
       ],
@@ -1657,7 +1657,7 @@
     {
       "id": 54,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/4.jpg",
+      "background": "story/freeplay/screen/4.jpg",
       "title": "Калина",
       "message": "",
       "type_message": 0,
@@ -1674,7 +1674,7 @@
       "transfers": [
         {
           "text": "Вы не поняли, это не просьба была. Бармен требует деньги.",
-          "stage_id": "55",
+          "stage": "55",
           "condition": {}
         }
       ],
@@ -1687,7 +1687,7 @@
     {
       "id": 55,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/5.jpg",
+      "background": "story/freeplay/screen/5.jpg",
       "title": "Калина",
       "message": "",
       "type_message": 0,
@@ -1704,7 +1704,7 @@
       "transfers": [
         {
           "text": "Что происходит?",
-          "stage_id": "56",
+          "stage": "56",
           "condition": {}
         }
       ],
@@ -1717,7 +1717,7 @@
     {
       "id": 56,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/6.jpg",
+      "background": "story/freeplay/screen/6.jpg",
       "title": "Генка",
       "message": "",
       "type_message": 0,
@@ -1734,12 +1734,12 @@
       "transfers": [
         {
           "text": "Я всего лишь делаю то, что мне поручили...",
-          "stage_id": "57",
+          "stage": "57",
           "condition": {}
         },
         {
           "text": "Девочка, иди гуляй, с тобой никто не общался",
-          "stage_id": "59",
+          "stage": "59",
           "condition": {}
         }
       ],
@@ -1752,7 +1752,7 @@
     {
       "id": 57,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/6.jpg",
+      "background": "story/freeplay/screen/6.jpg",
       "title": "Генка",
       "message": "",
       "type_message": 0,
@@ -1769,7 +1769,7 @@
       "transfers": [
         {
           "text": "Может быть, твой друг что-то все таки скажет, с которым я изначально общался?",
-          "stage_id": "58",
+          "stage": "58",
           "condition": {}
         }
       ],
@@ -1786,7 +1786,7 @@
     {
       "id": 58,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/6.jpg",
+      "background": "story/freeplay/screen/6.jpg",
       "title": "Калина",
       "message": "Получен предмет: 700 рублей",
       "music": [
@@ -1806,7 +1806,7 @@
       "transfers": [
         {
           "text": "И тебе желаю не сдохнуть",
-          "stage_id": "64",
+          "stage": "64",
           "condition": {}
         }
       ],
@@ -1819,7 +1819,7 @@
     {
       "id": 59,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/6.jpg",
+      "background": "story/freeplay/screen/6.jpg",
       "title": "Генка",
       "message": "",
       "type_message": 0,
@@ -1836,7 +1836,7 @@
       "transfers": [
         {
           "text": "В самом охраняемом баре? Удачи братан",
-          "stage_id": "60",
+          "stage": "60",
           "condition": {}
         }
       ],
@@ -1853,7 +1853,7 @@
     {
       "id": 60,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/6.jpg",
+      "background": "story/freeplay/screen/6.jpg",
       "title": "Охранник",
       "message": "",
       "type_message": 0,
@@ -1870,7 +1870,7 @@
       "transfers": [
         {
           "text": "...",
-          "stage_id": "61",
+          "stage": "61",
           "condition": {}
         }
       ],
@@ -1883,7 +1883,7 @@
     {
       "id": 61,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/6.jpg",
+      "background": "story/freeplay/screen/6.jpg",
       "title": "Калина",
       "message": "",
       "type_message": 0,
@@ -1900,12 +1900,12 @@
       "transfers": [
         {
           "text": "Значит так, таблетка, берёшь сейчас жопу свою в руки и идёшь отдаёшь свой долг сам. Иначе ходи оборачивайся, пустослов корявый",
-          "stage_id": "62",
+          "stage": "62",
           "condition": {}
         }
       ],
       "actions": {
-        "force": []
+        "syncNow": []
       },
       "editor": {
         "x": 1000,
@@ -1915,7 +1915,7 @@
     {
       "id": 62,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/6.jpg",
+      "background": "story/freeplay/screen/6.jpg",
       "title": "Калина",
       "message": "",
       "type_message": 0,
@@ -1932,7 +1932,7 @@
       "transfers": [
         {
           "text": "Кабанчиком",
-          "stage_id": "63",
+          "stage": "63",
           "condition": {}
         }
       ],
@@ -1945,7 +1945,7 @@
     {
       "id": 63,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/7.jpg",
+      "background": "story/freeplay/screen/7.jpg",
       "title": "Калина",
       "message": "Новый квест: Подойти к Джо",
       "music": [
@@ -1965,7 +1965,7 @@
       "transfers": [
         {
           "text": "...",
-          "stage_id": "64",
+          "stage": "64",
           "condition": {}
         }
       ],
@@ -1978,7 +1978,7 @@
     {
       "id": 64,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "",
       "type_message": 0,
@@ -1998,7 +1998,7 @@
       "transfers": [
         {
           "text": "Принёс деньги. Кто это такие?",
-          "stage_id": "65",
+          "stage": "65",
           "condition": {
             "has": [
               "quest_0_0_kalina_loh"
@@ -2007,7 +2007,7 @@
         },
         {
           "text": "Кто это такие?",
-          "stage_id": "65",
+          "stage": "65",
           "condition": {
             "has": [
               "quest_0_0_kalina_krasawa"
@@ -2024,7 +2024,7 @@
     {
       "id": 65,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "Потеряно: 700 рублей",
       "type_message": 0,
@@ -2049,7 +2049,7 @@
       "transfers": [
         {
           "text": "Какие мои дальнейшие действия?",
-          "stage_id": "66",
+          "stage": "66",
           "condition": {}
         }
       ],
@@ -2062,7 +2062,7 @@
     {
       "id": 66,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "Получен предмет: 7000 рублей",
       "music": [
@@ -2082,7 +2082,7 @@
       "transfers": [
         {
           "text": "Спасибо тебе, Джо",
-          "stage_id": "67",
+          "stage": "67",
           "condition": {}
         }
       ],
@@ -2106,7 +2106,7 @@
     {
       "id": 67,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
       "message": "Новый квест: Отправиться к базе СНГ",
       "music": [
@@ -2126,7 +2126,7 @@
       "transfers": [
         {
           "text": "Пока",
-          "stage_id": "68",
+          "stage": "68",
           "condition": {}
         }
       ],
@@ -2155,7 +2155,7 @@
     {
       "id": 69,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/8.jpg",
+      "background": "story/freeplay/screen/8.jpg",
       "title": "Валерка",
       "message": "",
       "type_message": 0,
@@ -2172,7 +2172,7 @@
       "transfers": [
         {
           "text": "Да, а что?",
-          "stage_id": "70",
+          "stage": "70",
           "condition": {}
         }
       ],
@@ -2189,7 +2189,7 @@
     {
       "id": 70,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/8.jpg",
+      "background": "story/freeplay/screen/8.jpg",
       "title": "Валерка",
       "message": "",
       "type_message": 0,
@@ -2206,12 +2206,12 @@
       "transfers": [
         {
           "text": "Ну, допустим, хочу. Что нужно делать? ",
-          "stage_id": "74",
+          "stage": "74",
           "condition": {}
         },
         {
           "text": "Нет, спасибо, я сам как-нибудь",
-          "stage_id": "71",
+          "stage": "71",
           "condition": {}
         }
       ],
@@ -2224,7 +2224,7 @@
     {
       "id": 71,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/8.jpg",
+      "background": "story/freeplay/screen/8.jpg",
       "title": "Валерка",
       "message": "",
       "type_message": 0,
@@ -2241,12 +2241,12 @@
       "transfers": [
         {
           "text": "Ладно, выкладывай",
-          "stage_id": "74",
+          "stage": "74",
           "condition": {}
         },
         {
           "text": "Уверен, пока",
-          "stage_id": "72",
+          "stage": "72",
           "condition": {}
         }
       ],
@@ -2259,7 +2259,7 @@
     {
       "id": 72,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/8.jpg",
+      "background": "story/freeplay/screen/8.jpg",
       "title": "Валерка",
       "message": "",
       "type_message": 0,
@@ -2276,7 +2276,7 @@
       "transfers": [
         {
           "text": "Уйти",
-          "stage_id": "73",
+          "stage": "73",
           "condition": {}
         }
       ],
@@ -2305,7 +2305,7 @@
     {
       "id": 74,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/8.jpg",
+      "background": "story/freeplay/screen/8.jpg",
       "title": "Валерка",
       "message": "",
       "type_message": 0,
@@ -2322,7 +2322,7 @@
       "transfers": [
         {
           "text": "Держи 800 рублей",
-          "stage_id": "75",
+          "stage": "75",
           "condition": {}
         }
       ],
@@ -2339,7 +2339,7 @@
     {
       "id": 75,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/8.jpg",
+      "background": "story/freeplay/screen/8.jpg",
       "title": "Валерка",
       "message": "Новый квест: Отправиться за пропуском. Потеряно: 800 рублей",
       "music": [
@@ -2359,7 +2359,7 @@
       "transfers": [
         {
           "text": "Пока",
-          "stage_id": "76",
+          "stage": "76",
           "condition": {}
         }
       ],
@@ -2384,7 +2384,7 @@
     {
       "id": 77,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Дом",
       "message": "",
       "type_message": 0,
@@ -2401,7 +2401,7 @@
       "transfers": [
         {
           "text": "Подождать 20 минут",
-          "stage_id": "78",
+          "stage": "78",
           "condition": {}
         }
       ],
@@ -2418,7 +2418,7 @@
     {
       "id": 78,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/0.jpg",
+      "background": "story/freeplay/screen/0.jpg",
       "title": "Дом",
       "message": "Новый квест: Идти на базу СНГ",
       "music": [
@@ -2438,7 +2438,7 @@
       "transfers": [
         {
           "text": "Идти на базу войск СНГ",
-          "stage_id": "79",
+          "stage": "79",
           "condition": {}
         }
       ],
@@ -2467,7 +2467,7 @@
     {
       "id": 80,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/9.jpg",
+      "background": "story/freeplay/screen/9.jpg",
       "title": "Сержат Крупов",
       "message": "",
       "type_message": 0,
@@ -2484,7 +2484,7 @@
       "transfers": [
         {
           "text": "Привет, мне к майору Киргизову",
-          "stage_id": "81",
+          "stage": "81",
           "condition": {}
         }
       ],
@@ -2497,7 +2497,7 @@
     {
       "id": 81,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/9.jpg",
+      "background": "story/freeplay/screen/9.jpg",
       "title": "Сержант Крупов",
       "message": "",
       "type_message": 0,
@@ -2514,7 +2514,7 @@
       "transfers": [
         {
           "text": "Устроиться на работу",
-          "stage_id": "82",
+          "stage": "82",
           "condition": {}
         }
       ],
@@ -2527,7 +2527,7 @@
     {
       "id": 82,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/9.jpg",
+      "background": "story/freeplay/screen/9.jpg",
       "title": "Сержант Крупов",
       "message": "",
       "type_message": 0,
@@ -2544,7 +2544,7 @@
       "transfers": [
         {
           "text": "@name",
-          "stage_id": "83",
+          "stage": "83",
           "condition": {}
         }
       ],
@@ -2557,7 +2557,7 @@
     {
       "id": 83,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/9.jpg",
+      "background": "story/freeplay/screen/9.jpg",
       "title": "Сержант Крупов",
       "message": "",
       "type_message": 0,
@@ -2574,7 +2574,7 @@
       "transfers": [
         {
           "text": "...",
-          "stage_id": "84",
+          "stage": "84",
           "condition": {}
         }
       ],
@@ -2587,7 +2587,7 @@
     {
       "id": 84,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/9.jpg",
+      "background": "story/freeplay/screen/9.jpg",
       "title": "Сержант Крупов",
       "message": "",
       "type_message": 0,
@@ -2604,7 +2604,7 @@
       "transfers": [
         {
           "text": "Хорошо",
-          "stage_id": "85",
+          "stage": "85",
           "condition": {}
         }
       ],
@@ -2617,7 +2617,7 @@
     {
       "id": 85,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/10.jpg",
+      "background": "story/freeplay/screen/10.jpg",
       "title": "Майор Киргизов",
       "message": "",
       "type_message": 0,
@@ -2634,7 +2634,7 @@
       "transfers": [
         {
           "text": "А Вам разве не доложили?",
-          "stage_id": "86",
+          "stage": "86",
           "condition": {}
         }
       ],
@@ -2647,7 +2647,7 @@
     {
       "id": 86,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/10.jpg",
+      "background": "story/freeplay/screen/10.jpg",
       "title": "Майор Киргизов",
       "message": "",
       "type_message": 0,
@@ -2664,7 +2664,7 @@
       "transfers": [
         {
           "text": "Всё верно",
-          "stage_id": "87",
+          "stage": "87",
           "condition": {}
         }
       ],
@@ -2677,7 +2677,7 @@
     {
       "id": 87,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/10.jpg",
+      "background": "story/freeplay/screen/10.jpg",
       "title": "Майор Киргизов",
       "message": "",
       "type_message": 0,
@@ -2694,7 +2694,7 @@
       "transfers": [
         {
           "text": "Держите",
-          "stage_id": "88",
+          "stage": "88",
           "condition": {}
         }
       ],
@@ -2707,7 +2707,7 @@
     {
       "id": 88,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/10.jpg",
+      "background": "story/freeplay/screen/10.jpg",
       "title": "Майор Киргизов",
       "message": "Потерян предмет: 5000 рублей. Получен предмет: Документы для пропуска в Зону",
       "music": [
@@ -2727,7 +2727,7 @@
       "transfers": [
         {
           "text": "Понял, я пошёл, спасибо",
-          "stage_id": "89",
+          "stage": "89",
           "condition": {}
         }
       ],
@@ -2747,7 +2747,7 @@
     {
       "id": 89,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/10.jpg",
+      "background": "story/freeplay/screen/10.jpg",
       "title": "Майор Киргизов",
       "message": "Новый квест: Идти в НИИЧАЗ",
       "music": [
@@ -2767,7 +2767,7 @@
       "transfers": [
         {
           "text": "Пока",
-          "stage_id": "90",
+          "stage": "90",
           "condition": {}
         }
       ],
@@ -2796,7 +2796,7 @@
     {
       "id": 91,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/11.jpg",
+      "background": "story/freeplay/screen/11.jpg",
       "title": "Капитан Русин",
       "message": "",
       "type_message": 0,
@@ -2813,7 +2813,7 @@
       "transfers": [
         {
           "text": "К Василию Алексеевичу, вот мой пропуск",
-          "stage_id": "92",
+          "stage": "92",
           "condition": {}
         }
       ],
@@ -2826,7 +2826,7 @@
     {
       "id": 92,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/11.jpg",
+      "background": "story/freeplay/screen/11.jpg",
       "title": "Капитан Русин",
       "message": "",
       "type_message": 0,
@@ -2843,7 +2843,7 @@
       "transfers": [
         {
           "text": "Если это можно назвать тёрками",
-          "stage_id": "93",
+          "stage": "93",
           "condition": {}
         }
       ],
@@ -2856,7 +2856,7 @@
     {
       "id": 93,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/11.jpg",
+      "background": "story/freeplay/screen/11.jpg",
       "title": "Капитан Русин",
       "message": "",
       "type_message": 0,
@@ -2873,7 +2873,7 @@
       "transfers": [
         {
           "text": "Больше мы его тут не увидим? ",
-          "stage_id": "94",
+          "stage": "94",
           "condition": {}
         }
       ],
@@ -2886,7 +2886,7 @@
     {
       "id": 94,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/11.jpg",
+      "background": "story/freeplay/screen/11.jpg",
       "title": "Капитан Русин",
       "message": "",
       "type_message": 0,
@@ -2903,7 +2903,7 @@
       "transfers": [
         {
           "text": "...",
-          "stage_id": "95",
+          "stage": "95",
           "condition": {}
         }
       ],
@@ -2916,7 +2916,7 @@
     {
       "id": 95,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/12.jpg",
+      "background": "story/freeplay/screen/12.jpg",
       "title": "Василий Алексеевич",
       "message": "",
       "type_message": 0,
@@ -2933,7 +2933,7 @@
       "transfers": [
         {
           "text": "Здравствуйте. Выполнять поручения майора Киргизова, я контрактник с большой земли",
-          "stage_id": "96",
+          "stage": "96",
           "condition": {}
         }
       ],
@@ -2946,7 +2946,7 @@
     {
       "id": 96,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/12.jpg",
+      "background": "story/freeplay/screen/12.jpg",
       "title": "Василий Алексеевич",
       "message": "",
       "type_message": 0,
@@ -2963,7 +2963,7 @@
       "transfers": [
         {
           "text": "Само собой, я прошёл инструктаж и лекции",
-          "stage_id": "97",
+          "stage": "97",
           "condition": {}
         }
       ],
@@ -2976,7 +2976,7 @@
     {
       "id": 97,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/12.jpg",
+      "background": "story/freeplay/screen/12.jpg",
       "title": "Василий Алексеевич",
       "message": "",
       "type_message": 0,
@@ -2993,7 +2993,7 @@
       "transfers": [
         {
           "text": "Конечно",
-          "stage_id": "98",
+          "stage": "98",
           "condition": {}
         }
       ],
@@ -3006,7 +3006,7 @@
     {
       "id": 98,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/12.jpg",
+      "background": "story/freeplay/screen/12.jpg",
       "title": "Василий Алексеевич",
       "message": "",
       "type_message": 0,
@@ -3023,7 +3023,7 @@
       "transfers": [
         {
           "text": "Когда я смогу получить пропуск? ",
-          "stage_id": "99",
+          "stage": "99",
           "condition": {}
         }
       ],
@@ -3036,7 +3036,7 @@
     {
       "id": 99,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/12.jpg",
+      "background": "story/freeplay/screen/12.jpg",
       "title": "Василий Алексеевич",
       "message": "",
       "type_message": 0,
@@ -3053,7 +3053,7 @@
       "transfers": [
         {
           "text": "Держите",
-          "stage_id": "100",
+          "stage": "100",
           "condition": {}
         }
       ],
@@ -3066,7 +3066,7 @@
     {
       "id": 100,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/12.jpg",
+      "background": "story/freeplay/screen/12.jpg",
       "title": "Василий Алексеевич",
       "message": "Получен предмет: Пропуск в Зону",
       "music": [
@@ -3086,7 +3086,7 @@
       "transfers": [
         {
           "text": "Вопросов нет",
-          "stage_id": "101",
+          "stage": "101",
           "condition": {}
         }
       ],
@@ -3103,7 +3103,7 @@
     {
       "id": 101,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/12.jpg",
+      "background": "story/freeplay/screen/12.jpg",
       "title": "Василий Алексеевич",
       "message": "Новый квест: Идти к Периметру",
       "music": [
@@ -3123,7 +3123,7 @@
       "transfers": [
         {
           "text": "Счастливо",
-          "stage_id": "102",
+          "stage": "102",
           "condition": {}
         }
       ],
@@ -3155,7 +3155,7 @@
     {
       "id": 103,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/13.jpg",
+      "background": "story/freeplay/screen/13.jpg",
       "title": "Блокпост",
       "message": "",
       "type_message": 0,
@@ -3172,7 +3172,7 @@
       "transfers": [
         {
           "text": "Позывной @name. Прибыл для выполнения поручений от базы СНГ. Вот мой пропуск",
-          "stage_id": "104",
+          "stage": "104",
           "condition": {}
         }
       ],
@@ -3185,7 +3185,7 @@
     {
       "id": 104,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/13.jpg",
+      "background": "story/freeplay/screen/13.jpg",
       "title": "Блокпост",
       "message": "Новый квест: Пересечь Периметр",
       "music": [
@@ -3205,7 +3205,7 @@
       "transfers": [
         {
           "text": "Счастливо",
-          "stage_id": "105",
+          "stage": "105",
           "condition": {}
         }
       ],
@@ -3218,7 +3218,7 @@
     {
       "id": 105,
       "type_stage": 1,
-      "background_url": "story/freeplay/screen/13.jpg",
+      "background": "story/freeplay/screen/13.jpg",
       "music": [],
       "title": "Глава окончена!",
       "message": "",
@@ -3233,7 +3233,7 @@
       "transfers": [
         {
           "text": "Окей",
-          "stage_id": "106",
+          "stage": "106",
           "condition": {}
         }
       ],
