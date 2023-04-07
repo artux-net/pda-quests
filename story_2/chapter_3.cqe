@@ -4,7 +4,7 @@
     {
       "id": 0,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/14.jpg",
+      "background": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "Новый квест: Понюхать яйца.",
       "music": [
@@ -24,7 +24,7 @@
       "transfers": [
         {
           "text": "Я же только что показывал их вашему коллеге",
-          "stage_id": "1",
+          "stage": "1",
           "condition": {}
         }
       ],
@@ -37,7 +37,7 @@
     {
       "id": 1,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/14.jpg",
+      "background": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "",
       "type_message": 0,
@@ -54,12 +54,12 @@
       "transfers": [
         {
           "text": "У тебя тоже",
-          "stage_id": "2",
+          "stage": "2",
           "condition": {}
         },
         {
           "text": "А у тебя воняют, сука",
-          "stage_id": "3",
+          "stage": "3",
           "condition": {}
         }
       ],
@@ -72,7 +72,7 @@
     {
       "id": 2,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/14.jpg",
+      "background": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "Получено: 1000 рублей",
       "music": [
@@ -92,7 +92,7 @@
       "transfers": [
         {
           "text": "SPS",
-          "stage_id": "4",
+          "stage": "4",
           "condition": {}
         }
       ],
@@ -112,7 +112,7 @@
     {
       "id": 3,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/14.jpg",
+      "background": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "",
       "type_message": 0,
@@ -129,7 +129,7 @@
       "transfers": [
         {
           "text": "Смэрть",
-          "stage_id": "4",
+          "stage": "4",
           "condition": {}
         }
       ],
@@ -146,7 +146,7 @@
     {
       "id": 4,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/14.jpg",
+      "background": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "",
       "type_message": 0,
@@ -171,7 +171,7 @@
       "transfers": [
         {
           "text": "Текст ответа 2",
-          "stage_id": "5",
+          "stage": "5",
           "condition": {
             "has": [
               "quest_1_0_jajca_woniajut"
@@ -180,7 +180,7 @@
         },
         {
           "text": "Текст ответа 3",
-          "stage_id": "6",
+          "stage": "6",
           "condition": {
             "has": [
               "quest_1_0_smierc"
@@ -197,7 +197,7 @@
     {
       "id": 5,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/14.jpg",
+      "background": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "Потерян предмет: Вонючие яйца. Получено: Мыло, Репутация: +10",
       "music": [
@@ -217,7 +217,7 @@
       "transfers": [
         {
           "text": "Даб даб я пажилая гадза",
-          "stage_id": "1",
+          "stage": "1",
           "condition": {}
         }
       ],
@@ -234,7 +234,7 @@
     {
       "id": 6,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/14.jpg",
+      "background": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "",
       "type_message": 0,
@@ -251,7 +251,7 @@
       "transfers": [
         {
           "text": "Я же только что показывал их вашему коллеге",
-          "stage_id": "1",
+          "stage": "1",
           "condition": {}
         }
       ],
@@ -268,7 +268,7 @@
     {
       "id": 7,
       "type_stage": 0,
-      "background_url": "story/freeplay/screen/14.jpg",
+      "background": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "",
       "type_message": 0,
@@ -285,7 +285,7 @@
       "transfers": [
         {
           "text": "Я же только что показывал их вашему коллеге",
-          "stage_id": "8",
+          "stage": "8",
           "condition": {}
         }
       ],
