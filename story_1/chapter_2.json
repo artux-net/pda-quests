@@ -789,9 +789,8 @@
         }
       ],
       "actions": {
-        "add": [
-          "going_to_bar"
-        ]
+        "add": ["going_to_bar"],
+        "syncNow": []
       },
       
       "editor": {
