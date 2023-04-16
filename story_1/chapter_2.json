@@ -783,9 +783,16 @@
         {
           "text": "Продолжить",
           "stage": "21",
-          "condition": {}
+          "condition": {
+
+          }
         }
       ],
+      "actions": {
+        "add": [
+          "going_to_bar"
+        ]
+      },
       
       "editor": {
         "x": 470,
