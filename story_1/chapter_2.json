@@ -784,12 +784,15 @@
           "text": "Продолжить",
           "stage": "21",
           "condition": {
-            "add": [
-              "going_to_bar"
-            ]
+
           }
         }
       ],
+      "actions": {
+        "add": [
+          "going_to_bar"
+        ]
+      },
       
       "editor": {
         "x": 470,
