@@ -755,7 +755,9 @@
       "actions": {
         "xp": [
           "3"
-        ]
+        ],
+        "add": ["going_to_bar"],
+        "syncNow": []
       },
       "editor": {
         "x": 142,
@@ -789,9 +791,8 @@
         }
       ],
       "actions": {
-        "add": [
-          "going_to_bar"
-        ]
+        "add": ["going_to_bar"],
+        "syncNow": []
       },
       
       "editor": {
