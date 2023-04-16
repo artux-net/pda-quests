@@ -783,7 +783,11 @@
         {
           "text": "Продолжить",
           "stage": "21",
-          "condition": {}
+          "condition": {
+            "add": [
+              "going_to_bar"
+            ]
+          }
         }
       ],
       
