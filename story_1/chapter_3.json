@@ -6102,8 +6102,9 @@
       ],
       "actions": {
         "reset": [
-          ""
-        ]
+          "items"
+        ],
+        "syncNow": []
       },
       "editor": {
         "x": 40,

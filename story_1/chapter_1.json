@@ -1175,8 +1175,9 @@
           "10"
         ],
         "reset": [
-          "wearable"
-        ]
+          "items"
+        ],
+        "syncNow": []
       },
       "editor": {
         "x": 673,
