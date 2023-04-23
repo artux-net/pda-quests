@@ -3,6 +3,9 @@
     "title": "Армейские склады",
     "tmx": "military.tmx",
     "defPos": "330:960",
+    "editor": {
+        "url": "/map_military.png"
+    },
     "points": [
         {
             "type": "0",

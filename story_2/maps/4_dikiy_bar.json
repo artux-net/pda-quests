@@ -3,6 +3,9 @@
 "title":"Дикая территория",
 "tmx": "bar.tmx",
 "defPos":"330:960",
+"editor": {
+  "url": "/map_bar.png"
+},
 "points":[
     {
         "type": "5",

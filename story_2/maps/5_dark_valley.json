@@ -3,6 +3,9 @@
   "title": "Темная долина",
   "tmx": "darkvalley.tmx",
   "defPos": "330:960",
+  "editor": {
+    "url": "/map_darkvalley.png"
+  },
   "points": [
     {
       "type": "0",

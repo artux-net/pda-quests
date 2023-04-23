@@ -2,6 +2,9 @@
     "id": "3",
     "title": "Бар",
     "tmx": "bar.tmx",
+    "editor": {
+        "url": "/map_bar.png"
+    },
     "points": [
         {
             "type": "4",

@@ -3,6 +3,9 @@
     "title": "Чернобыль-4",
     "tmx": "ch4.tmx",
     "defPos": "1330:1030",
+    "editor": {
+        "url": "/map_ch_4.png"
+    },
     "points": [
         {
             "type": "0",

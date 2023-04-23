@@ -3,6 +3,9 @@
   "title": "Свалка",
   "tmx": "garbage.tmx",
   "defPos": "330:960",
+  "editor": {
+    "url": "/map_garbage.png"
+  },
   "points": [
     {
       "type": "0",

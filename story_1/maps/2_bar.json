@@ -3,6 +3,9 @@
     "title": "Бар",
     "tmx": "bar.tmx",
     "defPos": "1561:1080",
+    "editor": {
+        "url": "/map_bar.png"
+    },
     "points": [
         {
             "type": "1",
