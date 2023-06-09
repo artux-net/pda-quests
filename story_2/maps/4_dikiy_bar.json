@@ -1,50 +1,47 @@
 {
-"id":"4",
-"title":"Дикая территория",
-"tmx": "bar.tmx",
-"defPos":"330:960",
-"editor": {
-  "url": "/map_bar.png"
-},
-"points":[
+  "id": "4",
+  "title": "Дикая территория",
+  "tmx": "bar.tmx",
+  "defPos": "330:960",
+  "editor": {
+    "url": "/map_bar.png"
+  },
+  "points": [
     {
-        "type": "5",
-        "name": "Тайник",
-        "pos": "1178:1578",
-        "data": {
-          "chapter": "2",
-          "stage": "302"
-        },
-        "condition": {
-          "has": [
-            "stash_2_0"
-          ]
-        }
+      "type": "5",
+      "name": "Тайник",
+      "pos": "1178:1578",
+      "data": {
+        "chapter": "2",
+        "stage": "302"
       },
+      "condition": {
+        "has": [
+          "stash_2_0"
+        ]
+      }
+    },
     {
-    "type":"7",
-    "name": "Дикая территория - Бар",
-    "pos":"1270:1483",
-    "data":{
-    "chapter":"2",
-    "stage":"209"},
-    "condition": {
-
+      "type": "7",
+      "name": "Дикая территория - Бар",
+      "pos": "1270:1483",
+      "data": {
+        "chapter": "2",
+        "stage": "209"
+      },
+      "condition": {}
+    },
+    {
+      "type": "7",
+      "name": "Дикая территория - Янтарь",
+      "pos": "1042:691",
+      "data": {
+        "chapter": "2",
+        "stage": "212"
+      },
+      "condition": {}
     }
-},
-{
-    "type":"7",
-    "name": "Дикая территория - Янтарь",
-    "pos":"1042:691",
-    "data":{
-    "chapter":"2",
-    "stage":"212"},
-    "condition": {
-
-    }
-}
-],
-"transfers":[],
-"spawns":[
-]
+  ],
+  "transfers": [],
+  "spawns": []
 }
