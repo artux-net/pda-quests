@@ -6143,5 +6143,234 @@
         "y": 299
       }
     }
-  ]
+  ],
+  "points": {
+    "0": [
+      {
+        "type": "0",
+        "name": "От новичка на Кордон",
+        "pos": "607:2295",
+        "data": {
+          "chapter": "3",
+          "stage": "85"
+        },
+        "condition": {
+          "has": [
+            "quest_go_kordon"
+          ]
+        }
+      },
+      {
+        "type": "6",
+        "name": "От блокпоста в деревню",
+        "pos": "368:843",
+        "data": {
+          "chapter": "3",
+          "stage": "103"
+        },
+        "condition": {
+          "has": [
+            "quest_go_derevnya"
+          ]
+        }
+      },
+      {
+        "type": "0",
+        "name": "От деревни к выходу из зоны",
+        "pos": "302:508",
+        "data": {
+          "chapter": "3",
+          "stage": "131"
+        },
+        "condition": {
+          "has": [
+            "quest_exit0"
+          ],
+          "!has": [
+            "quest_sidorovich1"
+          ]
+        }
+      },
+      {
+        "type": "0",
+        "name": "От сидоровича к аномалии",
+        "pos": "200:1037",
+        "data": {
+          "chapter": "3",
+          "stage": "112"
+        },
+        "condition": {
+          "has": [
+            "quest_sidorovich2"
+          ]
+        }
+      },
+      {
+        "type": "0",
+        "name": "От аномалии к сидоровичу",
+        "pos": "128:877",
+        "data": {
+          "chapter": "3",
+          "stage": "129"
+        },
+        "condition": {
+          "has": [
+            "quest_sidorovich3"
+          ]
+        }
+      },
+      {
+        "type": "3",
+        "name": "2Блокпост под мостом",
+        "pos": "681:1338",
+        "data": {
+          "chapter": "3",
+          "stage": "213"
+        },
+        "condition": {}
+      },
+      {
+        "type": "3",
+        "name": "2Блокпост под мостом 2",
+        "pos": "685:1445",
+        "data": {
+          "chapter": "3",
+          "stage": "240"
+        },
+        "condition": {}
+      }
+    ],
+    "1": [
+      {
+        "type": "0",
+        "name": "От свалки к диггерам",
+        "pos": "789:1068",
+        "data": {
+          "chapter": "3",
+          "stage": "25"
+        },
+        "condition": {
+          "has": [
+            "quest_matvienko1"
+          ]
+        }
+      },
+      {
+        "type": "0",
+        "name": "От диггеров к бандитам",
+        "pos": "296:682",
+        "data": {
+          "chapter": "3",
+          "stage": "34"
+        },
+        "condition": {
+          "has": [
+            "quest_matvienko2"
+          ]
+        }
+      },
+      {
+        "type": "0",
+        "name": "От бандитов к туннелю",
+        "pos": "312:763",
+        "data": {
+          "chapter": "3",
+          "stage": "52"
+        },
+        "condition": {
+          "has": [
+            "quest_matvienko3"
+          ]
+        }
+      },
+      {
+        "type": "0",
+        "name": "От туннелю в лес",
+        "pos": "927:652",
+        "data": {
+          "chapter": "3",
+          "stage": "61"
+        },
+        "condition": {
+          "has": [
+            "quest_matvienko4"
+          ]
+        }
+      },
+      {
+        "type": "0",
+        "name": "От Матвиенко к новичку у аномалии",
+        "pos": "669:1043",
+        "data": {
+          "chapter": "3",
+          "stage": "71"
+        },
+        "condition": {
+          "has": [
+            "quest_stalker_anomaly"
+          ]
+        }
+      }
+    ],
+    "2": [
+      {
+        "type": "1",
+        "name": "От бара до южного блокпоста",
+        "pos": "1737:1130",
+        "data": {
+          "chapter": "3",
+          "stage": "16"
+        },
+        "condition": {
+          "has": [
+            "quest_matvienko0"
+          ]
+        }
+      },
+      {
+        "type": "1",
+        "name": "От свалки к Матвиенко",
+        "pos": "1737:1130",
+        "data": {
+          "chapter": "3",
+          "stage": "66"
+        },
+        "condition": {
+          "has": [
+            "quest_matvienko6"
+          ]
+        }
+      }
+    ],
+    "3": [
+      {
+        "type": "0",
+        "name": "От ученых к аренде",
+        "pos": "1869:724",
+        "data": {
+          "chapter": "3",
+          "stage": "148"
+        },
+        "condition": {
+          "has": [
+            "quest_ch4_2"
+          ]
+        }
+      },
+      {
+        "type": "0",
+        "name": "От аренды к дому",
+        "pos": "1742:553",
+        "data": {
+          "chapter": "3",
+          "stage": "152"
+        },
+        "condition": {
+          "has": [
+            "quest_ch4_3"
+          ]
+        }
+      }
+    ]
+  }
 }
