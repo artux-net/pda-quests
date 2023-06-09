@@ -897,9 +897,8 @@
     {
       "id": 24,
       "type_stage": 5,
-      "data": {
-        "chapter": "3",
-        "stage": "0"
+      "actions": {
+        "openStage": ["3", "0"]
       },
       "editor": {
         "x": 761,

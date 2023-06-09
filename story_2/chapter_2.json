@@ -9962,9 +9962,9 @@
     {
       "id": 307,
       "type_stage": 5,
-      "data": {
-        "seller": "1"
-      },
+      "actions": {
+              "openSeller": ["1"]
+            },
       "editor": {
         "x": 430,
         "y": 558
@@ -9973,9 +9973,9 @@
     {
       "id": 308,
       "type_stage": 5,
-      "data": {
-        "seller": "2"
-      },
+      "actions": {
+              "openSeller": ["2"]
+            },
       "editor": {
         "x": 46,
         "y": 33
