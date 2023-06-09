@@ -1,333 +1,114 @@
 {
-    "id": "1",
-    "title": "Кордон",
-    "tmx": "kordon.tmx",
-    "defPos": "330:960",
-    "editor": {
-        "url": "/map_escape.png"
+  "id": "1",
+  "title": "Кордон",
+  "tmx": "kordon.tmx",
+  "defPos": "330:960",
+  "editor": {
+    "url": "/map_escape.png"
+  },
+  "points": [
+    {
+      "type": "4",
+      "name": "Сидорович",
+      "pos": "145:891",
+      "data": {
+        "chapter": "2",
+        "stage": "4"
+      }
     },
-    "points": [
-        {
-            "type": "4",
-            "name": "Сидорович",
-            "pos": "145:891",
-            "data": {
-                "chapter": "2",
-                "stage": "4"
-            }
-        },
-        {
-            "type": "3",
-            "name": "Сёгун старт квеста",
-            "pos": "266:813",
-            "data": {
-                "chapter": "2",
-                "stage": "115"
-            },
-            "condition": {
-                "has": [
-                    "quest_99_1_segun_sogl"
-                ]
-            }
-        },
-        {
-            "type": "0",
-            "name": "Волк",
-            "pos": "224:861",
-            "data": {
-                "chapter": "2",
-                "stage": "122"
-            },
-            "condition": {
-                "has": [
-                    "quest_99_1_segun_gotowolf"
-                ]
-            }
-        },
-        {
-            "type": "0",
-            "name": "Волк 2",
-            "pos": "224:861",
-            "data": {
-                "chapter": "2",
-                "stage": "132"
-            },
-            "condition": {
-                "has": [
-                    "quest_99_1_segun_gotowolf2"
-                ]
-            }
-        },
-        {
-            "type": "0",
-            "name": "Группа Стрижа",
-            "pos": "816:1298",
-            "data": {
-                "chapter": "2",
-                "stage": "134"
-            },
-            "condition": {
-                "has": [
-                    "quest_99_1_segun_gotostrizh"
-                ]
-            }
-        },
-        {
-            "type": "0",
-            "name": "Сёгун конец квеста",
-            "pos": "266:813",
-            "data": {
-                "chapter": "2",
-                "stage": "140"
-            },
-            "condition": {
-                "has": [
-                    "quest_99_1_segun_vernul"
-                ]
-            }
-        },
-        {
-            "type": "0",
-            "name": "Флешка на элеваторе",
-            "pos": "570:1246",
-            "data": {
-                "chapter": "2",
-                "stage": "10"
-            },
-            "condition": {
-                "has": [
-                    "quest_1_0_flash_sidor"
-                ]
-            }
-        },
-        {
-            "type": "0",
-            "name": "Конкурент Сидоровича",
-            "pos": "807:1656",
-            "data": {
-                "chapter": "2",
-                "stage": "37"
-            },
-            "condition": {
-                "has": [
-                    "quest_1_0_sapyr_sidor"
-                ]
-            }
-        },
-        {
-            "type": "3",
-            "name": "2Блокпост под мостом",
-            "pos": "690:1383",
-            "data": {
-                "chapter": "2",
-                "stage": "51"
-            },
-            "condition": {}
-        },
-        {
-            "type": "3",
-            "name": "2Блокпост под мостом 2",
-            "pos": "690:1406",
-            "data": {
-                "chapter": "2",
-                "stage": "55"
-            },
-            "condition": {}
-        },
-        {
-            "type": "3",
-            "name": "Кастет, начало",
-            "pos": "1258:1614",
-            "data": {
-                "chapter": "2",
-                "stage": "248"
-            },
-            "condition": {
-                "!has": ["quest_kastet_start", "quest_kastet_1_end"]
-            }
-        },
-        {
-            "type": "1",
-            "name": "Кастет, начало, возращение от Сидоровича",
-            "pos": "1258:1614",
-            "data": {
-                "chapter": "2",
-                "stage": "261"
-            },
-            "condition": {
-                "has": ["quest_kastet_konvert"]
-            }
-        },
-        {
-            "type": "1",
-            "name": "Кастет, плети косу из ниточек",
-            "pos": "1258:1614",
-            "data": {
-                "chapter": "2",
-                "stage": "263"
-            },
-            "condition": {
-                "has": ["quest_kastet_1_end"],
-                "!has": ["quest_kastet_findstalker"]
-            } 
-        },
-        {
-            "type": "1",
-            "name": "Кастет, марафон",
-            "pos": "1258:1614",
-            "data": {
-                "chapter": "2",
-                "stage": "292"
-            },
-            "condition": {
-                "has": ["quest_kastet_findstalker_end"],
-                "!has": ["quest_kastet_marafon_start"]
-            }
-        },
-        {
-            "type": "3",
-            "name": "Кастет, самагон, старт",
-            "pos": "1258:1614",
-            "data": {
-                "chapter": "2",
-                "stage": "214"
-            },
-            "condition": {
-                "has": ["quest_kastet_find_stalker_end"],
-                "!has": ["quest_samagon_start", "quest_samagon_end"]
-            }
-        },
-        {
-            "type": "1",
-            "name": "Кастет, самагон, к военным",
-            "pos": "506:576",
-            "data": {
-              "chapter": "2",
-              "stage": "223"
-            },
-            "condition": {
-              "has": ["quest_samagon_1"]
-            }
-        },
-        {
-            "type": "1",
-            "name": "Кастет, самагон, возращение",
-            "pos": "1258:1614",
-            "data": {
-                "chapter": "2",
-                "stage": "233"
-            },
-            "condition": { 
-                "has":["quest_samagon_box"]
-            }
-        },
-        {
-            "type": "3",
-            "name": "Кастет, самагонозавод, начало",
-            "pos": "1258:1614",
-            "data": {
-                "chapter": "2",
-                "stage": "239"
-            },
-            "condition": {
-                "has": ["quest_samagon_end"],
-                "!has": ["quest_distillery_start"]
-            }
-        },
-        {
-            "type": "7",
-            "name": "Кордон - Свалка",
-            "pos": "671:2346",
-            "data": {
-                "chapter": "2",
-                "stage": "200"
-            },
-            "condition": {}
-        },
-        {
-            "type": "7",
-            "name": "Кордон - Чернобыль-4",
-            "pos": "321:429",
-            "data": {
-                "chapter": "2",
-                "stage": "202"
-            },
-            "condition": {
-            }
-        }
-    ],
-    "transfers": [],
-    "spawns": [
-        {
-            "group": "MILITARY",
-            "strength": "WEAK",
-            "n": "8",
-            "r": "45",
-            "pos": "689:1393",
-            "data": {
-                "ignorePlayer": []
-            }
-        },
-        {
-            "group": "MILITARY",
-            "strength": "WEAK",
-            "n": "5",
-            "r": "50",
-            "pos": "318:441"
-        },
-        {
-            "group": "LONERS",
-            "strength": "WEAK",
-            "n": "7",
-            "r": "40",
-            "pos": "234:843"
-        },
-        {
-            "group": "LONERS",
-            "strength": "WEAK",
-            "n": "1",
-            "r": "1",
-            "pos": "644:2314"
-        },
-        {
-            "group": "LONERS",
-            "strength": "MIDDLE",
-            "n": "3",
-            "r": "50",
-            "pos": "148:1060"
-        },
-        {
-            "group": "BANDITS",
-            "strength": "WEAK",
-            "n": "5",
-            "r": "40",
-            "pos": "792:1073"
-        },
-        {
-            "group": "LONERS",
-            "strength": "WEAK",
-            "n": "2",
-            "r": "30",
-            "pos": "576:1592"
-        },
-        {
-            "group": "LONERS",
-            "strength": "MIDDLE",
-            "n": "5",
-            "r": "30",
-            "pos": "1009:1668"
-        },
-        {
-            "group": "LONERS",
-            "strength": "MIDDLE",
-            "n": "4",
-            "r": "20",
-            "pos": "1285:1624",
-            "data": {
-                "ignorePlayer": [],
-                "immortal": [],
-                "alwaysIgnored": []
-            }
-        }
-    ]
+    {
+      "type": "7",
+      "name": "Кордон - Свалка",
+      "pos": "671:2346",
+      "data": {
+        "chapter": "2",
+        "stage": "200"
+      },
+      "condition": {}
+    },
+    {
+      "type": "7",
+      "name": "Кордон - Чернобыль-4",
+      "pos": "321:429",
+      "data": {
+        "chapter": "2",
+        "stage": "202"
+      },
+      "condition": {}
+    }
+  ],
+  "transfers": [],
+  "spawns": [
+    {
+      "group": "MILITARY",
+      "strength": "WEAK",
+      "n": "8",
+      "r": "45",
+      "pos": "689:1393",
+      "data": {
+        "ignorePlayer": []
+      }
+    },
+    {
+      "group": "MILITARY",
+      "strength": "WEAK",
+      "n": "5",
+      "r": "50",
+      "pos": "318:441"
+    },
+    {
+      "group": "LONERS",
+      "strength": "WEAK",
+      "n": "7",
+      "r": "40",
+      "pos": "234:843"
+    },
+    {
+      "group": "LONERS",
+      "strength": "WEAK",
+      "n": "1",
+      "r": "1",
+      "pos": "644:2314"
+    },
+    {
+      "group": "LONERS",
+      "strength": "MIDDLE",
+      "n": "3",
+      "r": "50",
+      "pos": "148:1060"
+    },
+    {
+      "group": "BANDITS",
+      "strength": "WEAK",
+      "n": "5",
+      "r": "40",
+      "pos": "792:1073"
+    },
+    {
+      "group": "LONERS",
+      "strength": "WEAK",
+      "n": "2",
+      "r": "30",
+      "pos": "576:1592"
+    },
+    {
+      "group": "LONERS",
+      "strength": "MIDDLE",
+      "n": "5",
+      "r": "30",
+      "pos": "1009:1668"
+    },
+    {
+      "group": "LONERS",
+      "strength": "MIDDLE",
+      "n": "4",
+      "r": "20",
+      "pos": "1285:1624",
+      "data": {
+        "ignorePlayer": [],
+        "immortal": [],
+        "alwaysIgnored": []
+      }
+    }
+  ]
 }
