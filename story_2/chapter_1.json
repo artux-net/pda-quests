@@ -3255,5 +3255,147 @@
         "y": 217
       }
     }
+  ],
+  "points": [
+    {
+      "type": "0",
+      "name": "Блокпост НИИЧАЗ",
+      "pos": "2374:977",
+      "data": {
+        "chapter": "1",
+        "stage": "14"
+      },
+      "condition": {
+        "has": [
+          "quest_0_0"
+        ]
+      }
+    },
+    {
+      "type": "0",
+      "name": "Блокпост | деньги взяли в баре",
+      "pos": "2374:977",
+      "data": {
+        "chapter": "1",
+        "stage": "43"
+      },
+      "condition": {
+        "has": [
+          "quest_0_0_post_bar1"
+        ]
+      }
+    },
+    {
+      "type": "0",
+      "name": "Ученый",
+      "pos": "2448:1291",
+      "data": {
+        "chapter": "1",
+        "stage": "47"
+      },
+      "condition": {
+        "has": [
+          "quest_0_0_post_uch1"
+        ]
+      }
+    },
+    {
+      "type": "0",
+      "name": "От ученого вернуться в бар",
+      "pos": "1311:662",
+      "data": {
+        "chapter": "1",
+        "stage": "48"
+      },
+      "condition": {
+        "has": [
+          "quest_0_0_post_uch_bar"
+        ]
+      }
+    },
+    {
+      "type": "0",
+      "name": "От ученого вернуть долг охране",
+      "pos": "2374:977",
+      "data": {
+        "chapter": "1",
+        "stage": "37"
+      },
+      "condition": {
+        "has": [
+          "quest_0_0_post_uch1_exit"
+        ]
+      }
+    },
+    {
+      "type": "3",
+      "name": "От бармена к выходу из бара",
+      "pos": "1323:705",
+      "data": {
+        "chapter": "1",
+        "stage": "69"
+      },
+      "condition": {
+        "has": [
+          "quest_0_0_naebka"
+        ]
+      }
+    },
+    {
+      "type": "0",
+      "name": "От выхода из бара за пропуском",
+      "pos": "2254:486",
+      "data": {
+        "chapter": "1",
+        "stage": "77"
+      },
+      "condition": {
+        "has": [
+          "quest_0_0_naebka1"
+        ]
+      }
+    },
+    {
+      "type": "0",
+      "name": "К базе СНГ ",
+      "pos": "2093:1139",
+      "data": {
+        "chapter": "1",
+        "stage": "80"
+      },
+      "condition": {
+        "has": [
+          "quest_0_0_sng1"
+        ]
+      }
+    },
+    {
+      "type": "0",
+      "name": "От СНГ к НИИЧАЗ",
+      "pos": "2374:977",
+      "data": {
+        "chapter": "1",
+        "stage": "91"
+      },
+      "condition": {
+        "has": [
+          "quest_0_0_sng2"
+        ]
+      }
+    },
+    {
+      "type": "0",
+      "name": "От НИИЧАЗ к периметру",
+      "pos": "1151:907",
+      "data": {
+        "chapter": "1",
+        "stage": "103"
+      },
+      "condition": {
+        "has": [
+          "quest_0_0_sng3"
+        ]
+      }
+    }
   ]
 }

@@ -1338,5 +1338,41 @@
         "y": 240
       }
     }
+  ],
+  "points": [
+    {
+      "type": "0",
+      "name": "Квест с Евреем",
+      "pos": "608:2259",
+      "data": {
+        "chapter": "1",
+        "stage": "20"
+      },
+      "condition": {
+        "!has": [
+          "quest_go_derevnya"
+        ]
+      }
+    },
+    {
+      "type": "3",
+      "name": "Блокпост под мостом",
+      "pos": "689:1369",
+      "data": {
+        "chapter": "1",
+        "stage": "13"
+      },
+      "condition": {}
+    },
+    {
+      "type": "3",
+      "name": "Блокпост под мостом 2",
+      "pos": "688:1417",
+      "data": {
+        "chapter": "1",
+        "stage": "40"
+      },
+      "condition": {}
+    }
   ]
 }
