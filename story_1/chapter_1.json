@@ -468,7 +468,7 @@
       "id": 12,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "261:1117"
       },
       "editor": {
@@ -626,7 +626,7 @@
       "id": 18,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "690:1289"
       },
       "editor": {
@@ -675,7 +675,7 @@
       "id": 19,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "690:1488"
       },
       "editor": {
@@ -1275,7 +1275,7 @@
       "id": 42,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "690:1488"
       },
       "editor": {
@@ -1287,7 +1287,7 @@
       "id": 43,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "690:1488"
       },
       "editor": {
@@ -1329,7 +1329,7 @@
       "id": 45,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "124:817"
       },
       "editor": {
@@ -1337,43 +1337,5 @@
         "y": 240
       }
     }
-  ],
-  "points": {
-    "0": [
-      {
-        "type": "0",
-        "name": "Квест с Евреем",
-        "pos": "608:2259",
-        "data": {
-          "chapter": "1",
-          "stage": "20"
-        },
-        "condition": {
-          "!has": [
-            "quest_go_derevnya"
-          ]
-        }
-      },
-      {
-        "type": "3",
-        "name": "Блокпост под мостом",
-        "pos": "689:1369",
-        "data": {
-          "chapter": "1",
-          "stage": "13"
-        },
-        "condition": {}
-      },
-      {
-        "type": "3",
-        "name": "Блокпост под мостом 2",
-        "pos": "688:1417",
-        "data": {
-          "chapter": "1",
-          "stage": "40"
-        },
-        "condition": {}
-      }
-    ]
-  }
+  ]
 }

@@ -1,0 +1,38 @@
+{
+    "id": "0",
+    "title": "Чернобыль-4",
+    "tmx": "ch4.tmx",
+    "defPos": "1330:1030",
+    "points": [
+        {
+            "type": "0",
+            "name": "От ученых к аренде",
+            "pos": "1869:724",
+            "data": {
+                "chapter": "3",
+                "stage": "148"
+            },
+            "condition": {
+                "has": [
+                    "quest_ch4_2"
+                ]
+            }
+        },
+        {
+            "type": "0",
+            "name": "От аренды к дому",
+            "pos": "1742:553",
+            "data": {
+                "chapter": "3",
+                "stage": "152"
+            },
+            "condition": {
+                "has": [
+                    "quest_ch4_3"
+                ]
+            }
+        }
+    ],
+    "transfers": [],
+    "spawns": []
+}

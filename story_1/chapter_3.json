@@ -541,7 +541,7 @@
       "id": 15,
       "type_stage": 4,
       "data": {
-        "map": "2",
+        "map": "3",
         "pos": "1544:1285"
       },
       "editor": {
@@ -816,7 +816,7 @@
       "id": 24,
       "type_stage": 4,
       "data": {
-        "map": "2",
+        "map": "3",
         "pos": "1561:1080"
       },
       "editor": {
@@ -1103,7 +1103,7 @@
       "id": 33,
       "type_stage": 4,
       "data": {
-        "map": "1",
+        "map": "2",
         "pos": "717:1051"
       },
       "editor": {
@@ -1684,7 +1684,7 @@
       "id": 51,
       "type_stage": 4,
       "data": {
-        "map": "1",
+        "map": "2",
         "pos": "298:687"
       },
       "editor": {
@@ -1970,7 +1970,7 @@
       "id": 60,
       "type_stage": 4,
       "data": {
-        "map": "1",
+        "map": "2",
         "pos": "315:755"
       },
       "editor": {
@@ -2057,7 +2057,7 @@
       "id": 63,
       "type_stage": 4,
       "data": {
-        "map": "1",
+        "map": "2",
         "pos": "914:644"
       },
       "editor": {
@@ -2107,7 +2107,7 @@
       "id": 65,
       "type_stage": 4,
       "data": {
-        "map": "2",
+        "map": "3",
         "pos": "2088:630"
       },
       "editor": {
@@ -2239,7 +2239,7 @@
       "id": 70,
       "type_stage": 4,
       "data": {
-        "map": "1",
+        "map": "2",
         "pos": "631:1214"
       },
       "editor": {
@@ -2608,7 +2608,7 @@
       "id": 82,
       "type_stage": 4,
       "data": {
-        "map": "1",
+        "map": "2",
         "pos": "669:1043"
       },
       "editor": {
@@ -2651,7 +2651,7 @@
       "id": 84,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "741:1095"
       },
       "editor": {
@@ -3229,7 +3229,7 @@
       "id": 102,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "608:2259"
       },
       "editor": {
@@ -3357,7 +3357,7 @@
       "id": 106,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "368:843"
       },
       "editor": {
@@ -3499,7 +3499,7 @@
       "id": 111,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "128:877"
       },
       "editor": {
@@ -4021,7 +4021,7 @@
       "id": 128,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "200:1037"
       },
       "editor": {
@@ -4214,7 +4214,7 @@
       "id": 134,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "210:1610"
       },
       "editor": {
@@ -4629,8 +4629,9 @@
     {
       "id": 147,
       "type_stage": 4,
+      "_comment":"some comment",
       "data": {
-        "map": "3",
+        "map": "0", 
         "pos": "2453:1142"
       },
       "editor": {
@@ -4751,8 +4752,9 @@
     {
       "id": 151,
       "type_stage": 4,
+      "_comment":"some comment",
       "data": {
-        "map": "3",
+        "map": "0",
         "pos": "1869:724"
       },
       "editor": {
@@ -5731,7 +5733,7 @@
       "id": 182,
       "type_stage": 4,
       "data": {
-        "map": "1",
+        "map": "2",
         "pos": "738:1395"
       },
       "editor": {
@@ -5885,7 +5887,7 @@
       "id": 218,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "690:1289"
       },
       "editor": {
@@ -5934,7 +5936,7 @@
       "id": 219,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "690:1488"
       },
       "editor": {
@@ -6018,7 +6020,7 @@
       "id": 242,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "690:1289"
       },
       "editor": {
@@ -6030,7 +6032,7 @@
       "id": 243,
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "690:1488"
       },
       "editor": {
@@ -6043,7 +6045,7 @@
       "_comment": "Переход Свалка-Бар",
       "type_stage": 4,
       "data": {
-        "map": "2",
+        "map": "3",
         "pos": "2104:539"
       },
       "editor": {
@@ -6056,7 +6058,7 @@
       "_comment": "Переход Бар-Свалка",
       "type_stage": 4,
       "data": {
-        "map": "1",
+        "map": "2",
         "pos": "631:1214"
       },
       "editor": {
@@ -6069,7 +6071,7 @@
       "_comment": "Переход Свалка-Кордон",
       "type_stage": 4,
       "data": {
-        "map": "0",
+        "map": "1",
         "pos": "619:2393"
       },
       "editor": {
@@ -6143,234 +6145,5 @@
         "y": 299
       }
     }
-  ],
-  "points": {
-    "0": [
-      {
-        "type": "0",
-        "name": "От новичка на Кордон",
-        "pos": "607:2295",
-        "data": {
-          "chapter": "3",
-          "stage": "85"
-        },
-        "condition": {
-          "has": [
-            "quest_go_kordon"
-          ]
-        }
-      },
-      {
-        "type": "6",
-        "name": "От блокпоста в деревню",
-        "pos": "368:843",
-        "data": {
-          "chapter": "3",
-          "stage": "103"
-        },
-        "condition": {
-          "has": [
-            "quest_go_derevnya"
-          ]
-        }
-      },
-      {
-        "type": "0",
-        "name": "От деревни к выходу из зоны",
-        "pos": "302:508",
-        "data": {
-          "chapter": "3",
-          "stage": "131"
-        },
-        "condition": {
-          "has": [
-            "quest_exit0"
-          ],
-          "!has": [
-            "quest_sidorovich1"
-          ]
-        }
-      },
-      {
-        "type": "0",
-        "name": "От сидоровича к аномалии",
-        "pos": "200:1037",
-        "data": {
-          "chapter": "3",
-          "stage": "112"
-        },
-        "condition": {
-          "has": [
-            "quest_sidorovich2"
-          ]
-        }
-      },
-      {
-        "type": "0",
-        "name": "От аномалии к сидоровичу",
-        "pos": "128:877",
-        "data": {
-          "chapter": "3",
-          "stage": "129"
-        },
-        "condition": {
-          "has": [
-            "quest_sidorovich3"
-          ]
-        }
-      },
-      {
-        "type": "3",
-        "name": "2Блокпост под мостом",
-        "pos": "681:1338",
-        "data": {
-          "chapter": "3",
-          "stage": "213"
-        },
-        "condition": {}
-      },
-      {
-        "type": "3",
-        "name": "2Блокпост под мостом 2",
-        "pos": "685:1445",
-        "data": {
-          "chapter": "3",
-          "stage": "240"
-        },
-        "condition": {}
-      }
-    ],
-    "1": [
-      {
-        "type": "0",
-        "name": "От свалки к диггерам",
-        "pos": "789:1068",
-        "data": {
-          "chapter": "3",
-          "stage": "25"
-        },
-        "condition": {
-          "has": [
-            "quest_matvienko1"
-          ]
-        }
-      },
-      {
-        "type": "0",
-        "name": "От диггеров к бандитам",
-        "pos": "296:682",
-        "data": {
-          "chapter": "3",
-          "stage": "34"
-        },
-        "condition": {
-          "has": [
-            "quest_matvienko2"
-          ]
-        }
-      },
-      {
-        "type": "0",
-        "name": "От бандитов к туннелю",
-        "pos": "312:763",
-        "data": {
-          "chapter": "3",
-          "stage": "52"
-        },
-        "condition": {
-          "has": [
-            "quest_matvienko3"
-          ]
-        }
-      },
-      {
-        "type": "0",
-        "name": "От туннелю в лес",
-        "pos": "927:652",
-        "data": {
-          "chapter": "3",
-          "stage": "61"
-        },
-        "condition": {
-          "has": [
-            "quest_matvienko4"
-          ]
-        }
-      },
-      {
-        "type": "0",
-        "name": "От Матвиенко к новичку у аномалии",
-        "pos": "669:1043",
-        "data": {
-          "chapter": "3",
-          "stage": "71"
-        },
-        "condition": {
-          "has": [
-            "quest_stalker_anomaly"
-          ]
-        }
-      }
-    ],
-    "2": [
-      {
-        "type": "1",
-        "name": "От бара до южного блокпоста",
-        "pos": "1737:1130",
-        "data": {
-          "chapter": "3",
-          "stage": "16"
-        },
-        "condition": {
-          "has": [
-            "quest_matvienko0"
-          ]
-        }
-      },
-      {
-        "type": "1",
-        "name": "От свалки к Матвиенко",
-        "pos": "1737:1130",
-        "data": {
-          "chapter": "3",
-          "stage": "66"
-        },
-        "condition": {
-          "has": [
-            "quest_matvienko6"
-          ]
-        }
-      }
-    ],
-    "3": [
-      {
-        "type": "0",
-        "name": "От ученых к аренде",
-        "pos": "1869:724",
-        "data": {
-          "chapter": "3",
-          "stage": "148"
-        },
-        "condition": {
-          "has": [
-            "quest_ch4_2"
-          ]
-        }
-      },
-      {
-        "type": "0",
-        "name": "От аренды к дому",
-        "pos": "1742:553",
-        "data": {
-          "chapter": "3",
-          "stage": "152"
-        },
-        "condition": {
-          "has": [
-            "quest_ch4_3"
-          ]
-        }
-      }
-    ]
-  }
+  ]
 }
