@@ -159,7 +159,8 @@
           "2:1",
           "11:1",
           "38:90"
-        ]
+        ],
+        "syncNow": []
       },
       "editor": {
         "x": 382,
@@ -233,13 +234,13 @@
       ],
       "actions": {
         "add": [
-          "67",
-          "67",
-          "68"
+          "87:2",
+          "84:1"
         ],
         "xp": [
           "1"
-        ]
+        ],
+        "syncNow": []
       },
       "editor": {
         "x": 689,
@@ -515,7 +516,9 @@
         "xp": [
           "5"
         ],
-        "add":["going_to_bar"]
+        "add": [
+          "going_to_bar"
+        ]
       },
       "editor": {
         "x": 554,
@@ -755,7 +758,11 @@
       "actions": {
         "xp": [
           "3"
-        ]
+        ],
+        "add": [
+          "going_to_bar"
+        ],
+        "syncNow": []
       },
       "editor": {
         "x": 142,
@@ -786,7 +793,12 @@
           "condition": {}
         }
       ],
-      
+      "actions": {
+        "add": [
+          "going_to_bar"
+        ],
+        "syncNow": []
+      },
       "editor": {
         "x": 470,
         "y": 126
@@ -873,8 +885,9 @@
           "2:11:90"
         ],
         "reset": [
-          "wearable"
-        ]
+          "items"
+        ],
+        "syncNow": []
       },
       "editor": {
         "x": 452,
@@ -892,5 +905,23 @@
         "y": 666
       }
     }
-  ]
+  ],
+  "points": {
+    "1": [
+      {
+        "type": "1",
+        "name": "От бандитов к бару",
+        "pos": "722:1143",
+        "data": {
+          "chapter": "2",
+          "stage": "22"
+        },
+        "condition": {
+          "has": [
+            "going_to_bar"
+          ]
+        }
+      }
+    ]
+  }
 }
