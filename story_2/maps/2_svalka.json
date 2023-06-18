@@ -3,63 +3,10 @@
   "title": "Свалка",
   "tmx": "garbage.tmx",
   "defPos": "330:960",
+  "editor": {
+    "url": "/map_garbage.png"
+  },
   "points": [
-    {
-      "type": "0",
-      "name": "Ангар",
-      "pos": "533:757",
-      "data": {
-        "chapter": "2",
-        "stage": "63"
-      },
-      "condition": {
-        "has": [
-          "quest_1_0_monsvalka_sidor"
-        ]
-      }
-    },
-    {
-      "type": "0",
-      "name": "Трубы",
-      "pos": "318:817",
-      "data": {
-        "chapter": "2",
-        "stage": "74"
-      },
-      "condition": {
-        "has": [
-          "quest_1_0_monsvalka_sidor1"
-        ]
-      }
-    },
-    {
-      "type": "0",
-      "name": "Ангар 2",
-      "pos": "533:757",
-      "data": {
-        "chapter": "2",
-        "stage": "82"
-      },
-      "condition": {
-        "has": [
-          "quest_1_0_monsvalka_sidor2"
-        ]
-      }
-    },
-    {
-      "type": "0",
-      "name": "Долг Сявы",
-      "pos": "699:1088",
-      "data": {
-        "chapter": "2",
-        "stage": "109"
-      },
-      "condition": {
-        "has": [
-          "quest_2_0_flash_barmen_money1"
-        ]
-      }
-    },
     {
       "type": "5",
       "name": "Тайник",
@@ -71,34 +18,6 @@
       "condition": {
         "has": [
           "stash_1_0"
-        ]
-      }
-    },
-    {
-      "type": "3",
-      "name": "Найти сталкера",
-      "pos": "605:485",
-      "data": {
-        "chapter": "2",
-        "stage": "275"
-      },
-      "condition": {
-        "has": [
-          "quest_kastet_findstalker"
-        ]
-      }
-    },
-    {
-      "type": "3",
-      "name": "Вернуться к сталкеру",
-      "pos": "605:485",
-      "data": {
-        "chapter": "2",
-        "stage": "288"
-      },
-      "condition": {
-        "has": [
-          "quest_kastet_findstalker_key"
         ]
       }
     },
@@ -165,8 +84,10 @@
       "n": "3",
       "r": "40",
       "pos": "265:718",
-      "data":{
-          "ignorePlayer": ["true"]
+      "data": {
+        "ignorePlayer": [
+          "true"
+        ]
       }
     },
     {
