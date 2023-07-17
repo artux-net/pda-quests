@@ -1,57 +1,6 @@
 {
   "id": 2,
-  "music": [
-    {
-      "id": "0",
-      "name": "Fire 1 20% | Prologue chapter 0",
-      "url": "story/prologue/sound/fire.mp3",
-      "params": [
-        "loop",
-        "volume:0.2"
-      ]
-    },
-    {
-      "id": "1",
-      "name": "Fire 1 50%| Prologue chapter 0",
-      "url": "story/prologue/sound/fire.mp3",
-      "params": [
-        "loop",
-        "volume:0.5"
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Guitar 1 50% | Prologue chapter 0",
-      "url": "story/prologue/sound/guitar.mp3",
-      "params": [
-        "volume:0.5"
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Guitar 1 100% | Prologue chapter 0",
-      "url": "story/prologue/sound/guitar.mp3",
-      "params": []
-    },
-    {
-      "id": "4",
-      "name": "PDA новое уведомление",
-      "url": "story/prologue/sound/PDA1.mp3",
-      "params": []
-    },
-    {
-      "id": "5",
-      "name": "PDA новый квест",
-      "url": "story/prologue/sound/PDA2.mp3",
-      "params": []
-    },
-    {
-      "id": "6",
-      "name": "PDA новое сообщение",
-      "url": "story/prologue/sound/PDA3.mp3",
-      "params": []
-    }
-  ],
+  "title": null,
   "stages": [
     {
       "id": 0,
@@ -72,16 +21,13 @@
       ],
       "transfers": [
         {
-          "text": "Я же только что показывал их вашему коллеге",
-          "stage": "1",
-          "condition": {}
+          "stage": 1,
+          "condition": {},
+          "text": "Я же только что показывал их вашему коллеге"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 936,
-        "y": 696
-      }
+      "data": null
     },
     {
       "id": 1,
@@ -102,16 +48,13 @@
       ],
       "transfers": [
         {
-          "text": "Держите",
-          "stage": "2",
-          "condition": {}
+          "stage": 2,
+          "condition": {},
+          "text": "Держите"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 34,
-        "y": 824
-      }
+      "data": null
     },
     {
       "id": 2,
@@ -132,27 +75,27 @@
       ],
       "transfers": [
         {
-          "text": "Спасибо",
-          "stage": "3",
-          "condition": {}
+          "stage": 3,
+          "condition": {},
+          "text": "Спасибо"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 975,
-        "y": 429
-      }
+      "data": null
     },
     {
       "id": 3,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "299:514"
-      },
-      "editor": {
-        "x": 292,
-        "y": 899
+        "pos": "299:514",
+        "map": "1"
       }
     },
     {
@@ -174,31 +117,28 @@
       ],
       "transfers": [
         {
-          "text": "Я по поводу работы",
-          "stage": "29",
-          "condition": {}
+          "stage": 29,
+          "condition": {},
+          "text": "Я по поводу работы"
         },
         {
-          "text": "Мне нужна информация",
-          "stage": "6",
-          "condition": {}
+          "stage": 6,
+          "condition": {},
+          "text": "Мне нужна информация"
         },
         {
-          "text": "Я бы хотел посмотреть ассортимент",
-          "stage": "307",
-          "condition": {}
+          "stage": 307,
+          "condition": {},
+          "text": "Я бы хотел посмотреть ассортимент"
         },
         {
-          "text": "Пока",
-          "stage": "9",
-          "condition": {}
+          "stage": 9,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 127,
-        "y": 218
-      }
+      "data": null
     },
     {
       "id": 5,
@@ -219,50 +159,47 @@
       ],
       "transfers": [
         {
-          "text": "Найти флешку",
-          "stage": "7",
+          "stage": 7,
           "condition": {
             "!has": [
               "quest_1_0_flash_sidor_rem",
               "add_quest_1_0_flash_sidor"
             ]
-          }
+          },
+          "text": "Найти флешку"
         },
         {
-          "text": "Вопрос с торговцем",
-          "stage": "33",
+          "stage": 33,
           "condition": {
             "!has": [
               "quest_1_0_sapyr_sidor_rem",
               "add_quest_1_0_sapyr_sidor"
             ]
-          }
+          },
+          "text": "Вопрос с торговцем"
         },
         {
-          "text": "Монолитовец на Кордоне",
-          "stage": "60",
+          "stage": 60,
           "condition": {
-            "has": [
-              "quest_1_0_sapyr_sidor_rem",
-              "quest_1_0_flash_sidor_rem"
-            ],
             "!has": [
               "quest_1_0_monsvalka_sidor_rem",
               "1add_quest_1_0_monsvalka_sidor"
+            ],
+            "has": [
+              "quest_1_0_sapyr_sidor_rem",
+              "quest_1_0_flash_sidor_rem"
             ]
-          }
+          },
+          "text": "Монолитовец на Кордоне"
         },
         {
-          "text": "Я передумал",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Я передумал"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 406,
-        "y": 739
-      }
+      "data": null
     },
     {
       "id": 29,
@@ -283,26 +220,23 @@
       ],
       "transfers": [
         {
-          "text": "Получить работу",
-          "stage": "5",
-          "condition": {}
+          "stage": 5,
+          "condition": {},
+          "text": "Получить работу"
         },
         {
-          "text": "Сдать работу",
-          "stage": "30",
-          "condition": {}
+          "stage": 30,
+          "condition": {},
+          "text": "Сдать работу"
         },
         {
-          "text": "Я передумал",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Я передумал"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 901,
-        "y": 874
-      }
+      "data": null
     },
     {
       "id": 30,
@@ -323,52 +257,49 @@
       ],
       "transfers": [
         {
-          "text": "Сидорович, тут от Кастета тебе посылка, целый чемоданчик, держи",
-          "stage": "259",
+          "stage": 259,
           "condition": {
             "has": [
               "quest_kastet_chemodan"
             ]
-          }
+          },
+          "text": "Сидорович, тут от Кастета тебе посылка, целый чемоданчик, держи"
         },
         {
-          "text": "Я принес флешку",
-          "stage": "31",
+          "stage": 31,
           "condition": {
             "has": [
               "quest_1_0_flash_sidor_fin"
             ]
-          }
+          },
+          "text": "Я принес флешку"
         },
         {
-          "text": "Я разобрался с торговцем",
-          "stage": "49",
+          "stage": 49,
           "condition": {
             "has": [
               "quest_1_0_sapyr_sidor_fin"
             ]
-          }
+          },
+          "text": "Я разобрался с торговцем"
         },
         {
-          "text": "Я узнал про монолитовца",
-          "stage": "87",
+          "stage": 87,
           "condition": {
             "has": [
               "quest_1_0_monsvalka_sidor_fin"
             ]
-          }
+          },
+          "text": "Я узнал про монолитовца"
         },
         {
-          "text": "Я передумал",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Я передумал"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 531,
-        "y": 369
-      }
+      "data": null
     },
     {
       "id": 6,
@@ -389,30 +320,27 @@
       ],
       "transfers": [
         {
-          "text": "Группа сталкеров",
-          "stage": "126",
+          "stage": 126,
           "condition": {
             "has": [
               "quest_99_1_segun_gotosidor"
             ]
-          }
+          },
+          "text": "Группа сталкеров"
         },
         {
-          "text": "Хочу купить схрон",
-          "stage": "191",
-          "condition": {}
+          "stage": 191,
+          "condition": {},
+          "text": "Хочу купить схрон"
         },
         {
-          "text": "Пока ничего",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Пока ничего"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 619,
-        "y": 269
-      }
+      "data": null
     },
     {
       "id": 7,
@@ -433,21 +361,18 @@
       ],
       "transfers": [
         {
-          "text": "Берусь",
-          "stage": "8",
-          "condition": {}
+          "stage": 8,
+          "condition": {},
+          "text": "Берусь"
         },
         {
-          "text": "В другой раз",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "В другой раз"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 454,
-        "y": 500
-      }
+      "data": null
     },
     {
       "id": 8,
@@ -468,9 +393,9 @@
       ],
       "transfers": [
         {
-          "text": "Понял",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Понял"
         }
       ],
       "actions": {
@@ -479,21 +404,21 @@
           "add_quest_1_0_flash_sidor"
         ]
       },
-      "editor": {
-        "x": 50,
-        "y": 971
-      }
+      "data": null
     },
     {
       "id": 9,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "145:891"
-      },
-      "editor": {
-        "x": 856,
-        "y": 132
+        "pos": "145:891",
+        "map": "1"
       }
     },
     {
@@ -515,25 +440,19 @@
       ],
       "transfers": [
         {
-          "text": "Осмотреть",
-          "stage": "11",
-          "condition": {}
+          "stage": 11,
+          "condition": {},
+          "text": "Осмотреть"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 361,
-        "y": 211
-      }
+      "data": null
     },
     {
       "id": 11,
       "type_stage": 0,
       "background": "story/freeplay/screen/15.jpg",
       "title": "Неизвестный сталкер",
-      "music": [
-        "4"
-      ],
       "message": "Создана заметка: Тайник Вовка Легкий",
       "type_message": 0,
       "texts": [
@@ -548,9 +467,9 @@
       ],
       "transfers": [
         {
-          "text": "Далее",
-          "stage": "12",
-          "condition": {}
+          "stage": 12,
+          "condition": {},
+          "text": "Далее"
         }
       ],
       "actions": {
@@ -559,10 +478,7 @@
           "В Тёмной Долине, в районе "
         ]
       },
-      "editor": {
-        "x": 608,
-        "y": 407
-      }
+      "data": null
     },
     {
       "id": 12,
@@ -583,16 +499,13 @@
       ],
       "transfers": [
         {
-          "text": "Далее",
-          "stage": "14",
-          "condition": {}
+          "stage": 14,
+          "condition": {},
+          "text": "Далее"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 54,
-        "y": 270
-      }
+      "data": null
     },
     {
       "id": 14,
@@ -613,16 +526,13 @@
       ],
       "transfers": [
         {
-          "text": "Далее",
-          "stage": "15",
-          "condition": {}
+          "stage": 15,
+          "condition": {},
+          "text": "Далее"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 829,
-        "y": 427
-      }
+      "data": null
     },
     {
       "id": 15,
@@ -643,16 +553,13 @@
       ],
       "transfers": [
         {
-          "text": "Далее",
-          "stage": "16",
-          "condition": {}
+          "stage": 16,
+          "condition": {},
+          "text": "Далее"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 892,
-        "y": 878
-      }
+      "data": null
     },
     {
       "id": 16,
@@ -673,9 +580,9 @@
       ],
       "transfers": [
         {
-          "text": "Далее",
-          "stage": "17",
-          "condition": {}
+          "stage": 17,
+          "condition": {},
+          "text": "Далее"
         }
       ],
       "actions": {
@@ -684,19 +591,13 @@
           "PDA #****. позывной: Вовка Легкий. Ранг: опытный. Заметка №44: Нашел какой-то странный ПДА, он сильно отличается от всех, которые я видел раньше. Надо бы Сидоровичу показать его...\n Заметка №46: На этом ПДА моргает какой-то индикатор. Пробовал выключать его, вытаскивать аккумулятор - все равно моргает. Странно очень... Заметка №54: На мой ПДА пришло сообщение, в нем кто-то пишет, чтобы я пришел на Элеватор, иначе следующим утром не проснусь. Кто это может быть? Отправил маяк Сидоровичу, надеюсь, он поймет, если что... Заметка №55: Я пришел на Элеватор, 20 минут наблюдал из кустов за местностью, но ничего не заметил. Зашел во внутрь, тоже ничего. Отправил повторный маяк Сидоровичу. Все очень странно. Может быть, это как-то связано с ПДА?"
         ]
       },
-      "editor": {
-        "x": 124,
-        "y": 914
-      }
+      "data": null
     },
     {
       "id": 17,
       "type_stage": 0,
       "background": "story/freeplay/screen/15.jpg",
       "title": "Вовка Легкий",
-      "music": [
-        "4"
-      ],
       "message": "Создана заметка: Вовка Легкий: Заметки",
       "type_message": 0,
       "texts": [
@@ -711,21 +612,18 @@
       ],
       "transfers": [
         {
-          "text": "Забрать флешку",
-          "stage": "18",
-          "condition": {}
+          "stage": 18,
+          "condition": {},
+          "text": "Забрать флешку"
         },
         {
-          "text": "Забрать флешку и ПДА",
-          "stage": "19",
-          "condition": {}
+          "stage": 19,
+          "condition": {},
+          "text": "Забрать флешку и ПДА"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 502,
-        "y": 52
-      }
+      "data": null
     },
     {
       "id": 18,
@@ -746,9 +644,9 @@
       ],
       "transfers": [
         {
-          "text": "Ты кто такой?",
-          "stage": "20",
-          "condition": {}
+          "stage": 20,
+          "condition": {},
+          "text": "Ты кто такой?"
         }
       ],
       "actions": {
@@ -756,10 +654,7 @@
           "quest_1_1_fleshka_sidora"
         ]
       },
-      "editor": {
-        "x": 743,
-        "y": 453
-      }
+      "data": null
     },
     {
       "id": 19,
@@ -780,9 +675,9 @@
       ],
       "transfers": [
         {
-          "text": "Ты кто такой?",
-          "stage": "20",
-          "condition": {}
+          "stage": 20,
+          "condition": {},
+          "text": "Ты кто такой?"
         }
       ],
       "actions": {
@@ -791,10 +686,7 @@
           "quest_1_1_fleshka_sidora"
         ]
       },
-      "editor": {
-        "x": 880,
-        "y": 557
-      }
+      "data": null
     },
     {
       "id": 20,
@@ -815,16 +707,13 @@
       ],
       "transfers": [
         {
-          "text": "Услышал шорох, заглянул, а тут над трупом бандит орудует. Хотел подстрелить, но он сбежал.",
-          "stage": "21",
-          "condition": {}
+          "stage": 21,
+          "condition": {},
+          "text": "Услышал шорох, заглянул, а тут над трупом бандит орудует. Хотел подстрелить, но он сбежал."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 179,
-        "y": 719
-      }
+      "data": null
     },
     {
       "id": 21,
@@ -845,16 +734,13 @@
       ],
       "transfers": [
         {
-          "text": "Проверял, вдруг живой",
-          "stage": "22",
-          "condition": {}
+          "stage": 22,
+          "condition": {},
+          "text": "Проверял, вдруг живой"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 922,
-        "y": 843
-      }
+      "data": null
     },
     {
       "id": 22,
@@ -875,16 +761,13 @@
       ],
       "transfers": [
         {
-          "text": "Взгляните, нового не увидите",
-          "stage": "23",
-          "condition": {}
+          "stage": 23,
+          "condition": {},
+          "text": "Взгляните, нового не увидите"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 903,
-        "y": 41
-      }
+      "data": null
     },
     {
       "id": 23,
@@ -905,25 +788,22 @@
       ],
       "transfers": [
         {
-          "text": "Я и не смотрел ничего, только пульс проверил",
-          "stage": "24",
-          "condition": {}
+          "stage": 24,
+          "condition": {},
+          "text": "Я и не смотрел ничего, только пульс проверил"
         },
         {
-          "text": "Находил какой-то ПДА",
-          "stage": "25",
+          "stage": 25,
           "condition": {
             "has": [
               "quest_1_1_fleshka_sidora_pda"
             ]
-          }
+          },
+          "text": "Находил какой-то ПДА"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 914,
-        "y": 18
-      }
+      "data": null
     },
     {
       "id": 24,
@@ -952,29 +832,26 @@
       ],
       "transfers": [
         {
-          "text": "...",
-          "stage": "27",
+          "stage": 27,
           "condition": {
             "!has": [
               "quest_1_1_fleshka_sidora_pda"
             ]
-          }
+          },
+          "text": "..."
         },
         {
-          "text": "...",
-          "stage": "25",
+          "stage": 25,
           "condition": {
             "has": [
               "quest_1_1_fleshka_sidora_pda"
             ]
-          }
+          },
+          "text": "..."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 784,
-        "y": 959
-      }
+      "data": null
     },
     {
       "id": 25,
@@ -995,16 +872,13 @@
       ],
       "transfers": [
         {
-          "text": "Сколько заплатишь?",
-          "stage": "26",
-          "condition": {}
+          "stage": 26,
+          "condition": {},
+          "text": "Сколько заплатишь?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 753,
-        "y": 937
-      }
+      "data": null
     },
     {
       "id": 26,
@@ -1025,9 +899,9 @@
       ],
       "transfers": [
         {
-          "text": "Смотри",
-          "stage": "27",
-          "condition": {}
+          "stage": 27,
+          "condition": {},
+          "text": "Смотри"
         }
       ],
       "actions": {
@@ -1035,10 +909,7 @@
           "quest_1_1_fleshka_sidora_pda"
         ]
       },
-      "editor": {
-        "x": 310,
-        "y": 678
-      }
+      "data": null
     },
     {
       "id": 27,
@@ -1059,9 +930,9 @@
       ],
       "transfers": [
         {
-          "text": "Уйти",
-          "stage": "28",
-          "condition": {}
+          "stage": 28,
+          "condition": {},
+          "text": "Уйти"
         }
       ],
       "actions": {
@@ -1072,21 +943,21 @@
           "quest_1_0_flash_sidor"
         ]
       },
-      "editor": {
-        "x": 555,
-        "y": 99
-      }
+      "data": null
     },
     {
       "id": 28,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "570:1246"
-      },
-      "editor": {
-        "x": 875,
-        "y": 118
+        "pos": "570:1246",
+        "map": "1"
       }
     },
     {
@@ -1108,16 +979,13 @@
       ],
       "transfers": [
         {
-          "text": "Мелочи, ничего серьезного",
-          "stage": "32",
-          "condition": {}
+          "stage": 32,
+          "condition": {},
+          "text": "Мелочи, ничего серьезного"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 10,
-        "y": 105
-      }
+      "data": null
     },
     {
       "id": 32,
@@ -1138,12 +1006,16 @@
       ],
       "transfers": [
         {
-          "text": "Благодарю",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Благодарю"
         }
       ],
       "actions": {
+        "add": [
+          "quest_1_0_flash_sidor_rem",
+          "quest_99_1_segun_sogl"
+        ],
         "money": [
           "1000"
         ],
@@ -1151,16 +1023,9 @@
           "quest_1_1_fleshka_sidora",
           "add_quest_1_0_flash_sidor",
           "quest_1_0_flash_sidor_fin"
-        ],
-        "add": [
-          "quest_1_0_flash_sidor_rem",
-          "quest_99_1_segun_sogl"
         ]
       },
-      "editor": {
-        "x": 972,
-        "y": 803
-      }
+      "data": null
     },
     {
       "id": 33,
@@ -1181,16 +1046,13 @@
       ],
       "transfers": [
         {
-          "text": "И как мне это сделать?",
-          "stage": "34",
-          "condition": {}
+          "stage": 34,
+          "condition": {},
+          "text": "И как мне это сделать?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 702,
-        "y": 184
-      }
+      "data": null
     },
     {
       "id": 34,
@@ -1211,21 +1073,18 @@
       ],
       "transfers": [
         {
-          "text": "Я берусь",
-          "stage": "35",
-          "condition": {}
+          "stage": 35,
+          "condition": {},
+          "text": "Я берусь"
         },
         {
-          "text": "Я передумал",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Я передумал"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 962,
-        "y": 692
-      }
+      "data": null
     },
     {
       "id": 35,
@@ -1246,9 +1105,9 @@
       ],
       "transfers": [
         {
-          "text": "Хорошо",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Хорошо"
         }
       ],
       "actions": {
@@ -1257,10 +1116,7 @@
           "add_quest_1_0_sapyr_sidor"
         ]
       },
-      "editor": {
-        "x": 441,
-        "y": 840
-      }
+      "data": null
     },
     {
       "id": 37,
@@ -1281,16 +1137,13 @@
       ],
       "transfers": [
         {
-          "text": "Здравствуй, здравствуй. Слышал, что ты здесь новый торговец?",
-          "stage": "38",
-          "condition": {}
+          "stage": 38,
+          "condition": {},
+          "text": "Здравствуй, здравствуй. Слышал, что ты здесь новый торговец?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 298,
-        "y": 871
-      }
+      "data": null
     },
     {
       "id": 38,
@@ -1311,16 +1164,13 @@
       ],
       "transfers": [
         {
-          "text": "@name. Давно тут?",
-          "stage": "39",
-          "condition": {}
+          "stage": 39,
+          "condition": {},
+          "text": "@name. Давно тут?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 261,
-        "y": 554
-      }
+      "data": null
     },
     {
       "id": 39,
@@ -1341,16 +1191,13 @@
       ],
       "transfers": [
         {
-          "text": "Да вот, Сапыр, вопросы тут к тебе от Сидоровича. Зачем на его территории торгуешь?",
-          "stage": "40",
-          "condition": {}
+          "stage": 40,
+          "condition": {},
+          "text": "Да вот, Сапыр, вопросы тут к тебе от Сидоровича. Зачем на его территории торгуешь?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 975,
-        "y": 323
-      }
+      "data": null
     },
     {
       "id": 40,
@@ -1371,16 +1218,13 @@
       ],
       "transfers": [
         {
-          "text": "Это все хорошо, но ты портишь бизнес тому, на кого я работаю",
-          "stage": "41",
-          "condition": {}
+          "stage": 41,
+          "condition": {},
+          "text": "Это все хорошо, но ты портишь бизнес тому, на кого я работаю"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 805,
-        "y": 949
-      }
+      "data": null
     },
     {
       "id": 41,
@@ -1401,16 +1245,13 @@
       ],
       "transfers": [
         {
-          "text": "К чему вопрос?",
-          "stage": "42",
-          "condition": {}
+          "stage": 42,
+          "condition": {},
+          "text": "К чему вопрос?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 923,
-        "y": 232
-      }
+      "data": null
     },
     {
       "id": 42,
@@ -1431,21 +1272,18 @@
       ],
       "transfers": [
         {
-          "text": "Я согласен",
-          "stage": "43",
-          "condition": {}
+          "stage": 43,
+          "condition": {},
+          "text": "Я согласен"
         },
         {
-          "text": "Нет уж. Заканчивай свои движения по-хорошему, иначе вопрос будем по другому решать",
-          "stage": "45",
-          "condition": {}
+          "stage": 45,
+          "condition": {},
+          "text": "Нет уж. Заканчивай свои движения по-хорошему, иначе вопрос будем по другому решать"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 258,
-        "y": 386
-      }
+      "data": null
     },
     {
       "id": 43,
@@ -1466,37 +1304,37 @@
       ],
       "transfers": [
         {
-          "text": "Удачи",
-          "stage": "44",
-          "condition": {}
+          "stage": 44,
+          "condition": {},
+          "text": "Удачи"
         }
       ],
       "actions": {
-        "money": [
-          "1000"
-        ],
         "add": [
           "quest_1_0_sapyr_sidor_fin"
+        ],
+        "money": [
+          "1000"
         ],
         "remove": [
           "quest_1_0_sapyr_sidor"
         ]
       },
-      "editor": {
-        "x": 330,
-        "y": 571
-      }
+      "data": null
     },
     {
       "id": 44,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "807:1656"
-      },
-      "editor": {
-        "x": 705,
-        "y": 911
+        "pos": "807:1656",
+        "map": "1"
       }
     },
     {
@@ -1518,16 +1356,13 @@
       ],
       "transfers": [
         {
-          "text": "Именно так",
-          "stage": "46",
-          "condition": {}
+          "stage": 46,
+          "condition": {},
+          "text": "Именно так"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 490,
-        "y": 86
-      }
+      "data": null
     },
     {
       "id": 46,
@@ -1548,16 +1383,13 @@
       ],
       "transfers": [
         {
-          "text": "Логично. И все таки, ломать бизнес тому, кто уже много лет тут - не есть хорошо. Он ведь может и не только меня отправить сюда",
-          "stage": "47",
-          "condition": {}
+          "stage": 47,
+          "condition": {},
+          "text": "Логично. И все таки, ломать бизнес тому, кто уже много лет тут - не есть хорошо. Он ведь может и не только меня отправить сюда"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 424,
-        "y": 545
-      }
+      "data": null
     },
     {
       "id": 47,
@@ -1578,34 +1410,34 @@
       ],
       "transfers": [
         {
-          "text": "Пока",
-          "stage": "48",
-          "condition": {}
+          "stage": 48,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_1_0_sapyr_sidor"
-        ],
         "add": [
           "quest_1_0_sapyr_sidor_fin"
+        ],
+        "remove": [
+          "quest_1_0_sapyr_sidor"
         ]
       },
-      "editor": {
-        "x": 718,
-        "y": 369
-      }
+      "data": null
     },
     {
       "id": 48,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "807:1656"
-      },
-      "editor": {
-        "x": 511,
-        "y": 543
+        "pos": "807:1656",
+        "map": "1"
       }
     },
     {
@@ -1627,16 +1459,13 @@
       ],
       "transfers": [
         {
-          "text": "Он больше не побеспокоит",
-          "stage": "50",
-          "condition": {}
+          "stage": 50,
+          "condition": {},
+          "text": "Он больше не побеспокоит"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 755,
-        "y": 473
-      }
+      "data": null
     },
     {
       "id": 50,
@@ -1657,27 +1486,24 @@
       ],
       "transfers": [
         {
-          "text": "Благодарю",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Благодарю"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_1_0_sapyr_sidor_fin",
-          "add_quest_1_0_sapyr_sidor"
-        ],
         "add": [
           "quest_1_0_sapyr_sidor_rem"
         ],
         "money": [
           "1000"
+        ],
+        "remove": [
+          "quest_1_0_sapyr_sidor_fin",
+          "add_quest_1_0_sapyr_sidor"
         ]
       },
-      "editor": {
-        "x": 187,
-        "y": 336
-      }
+      "data": null
     },
     {
       "id": 51,
@@ -1698,16 +1524,13 @@
       ],
       "transfers": [
         {
-          "text": "Мне нужно пройти",
-          "stage": "52",
-          "condition": {}
+          "stage": 52,
+          "condition": {},
+          "text": "Мне нужно пройти"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 711,
-        "y": 271
-      }
+      "data": null
     },
     {
       "id": 52,
@@ -1728,33 +1551,27 @@
       ],
       "transfers": [
         {
-          "text": "Держи",
-          "stage": "53",
+          "stage": 53,
           "condition": {
             "money>=": [
               "500"
             ]
-          }
+          },
+          "text": "Держи"
         },
         {
-          "text": "Пока",
-          "stage": "218",
-          "condition": {}
+          "stage": 218,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 909,
-        "y": 125
-      }
+      "data": null
     },
     {
       "id": 53,
       "type_stage": 0,
       "background": "story/freeplay/screen/20.jpg",
-      "music": [
-        "4"
-      ],
       "title": "Майор Силлов",
       "message": "Потеряно денег: 500р",
       "type_message": 0,
@@ -1770,9 +1587,9 @@
       ],
       "transfers": [
         {
-          "text": "Пока.",
-          "stage": "54",
-          "condition": {}
+          "stage": 54,
+          "condition": {},
+          "text": "Пока."
         }
       ],
       "actions": {
@@ -1780,10 +1597,7 @@
           "-500"
         ]
       },
-      "editor": {
-        "x": 209,
-        "y": 125
-      }
+      "data": null
     },
     {
       "id": 217,
@@ -1804,35 +1618,33 @@
       ],
       "transfers": [
         {
-          "text": "...",
-          "stage": "10000",
-          "condition": {}
+          "stage": 10000,
+          "condition": {},
+          "text": "..."
         }
       ],
-      "editor": {
-        "x": 463,
-        "y": 605
-      }
+      "actions": null,
+      "data": null
     },
     {
       "id": 10000,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "690:1289"
-      },
-      "editor": {
-        "x": 103,
-        "y": 629
+        "pos": "690:1289",
+        "map": "1"
       }
     },
     {
       "id": 11000,
       "type_stage": 0,
       "background": "story/freeplay/screen/20.jpg",
-      "music": [
-        "4"
-      ],
       "title": "Майор Силлов",
       "message": "Потеряно денег: 500р",
       "type_message": 0,
@@ -1848,9 +1660,9 @@
       ],
       "transfers": [
         {
-          "text": "Пока.",
-          "stage": "219",
-          "condition": {}
+          "stage": 219,
+          "condition": {},
+          "text": "Пока."
         }
       ],
       "actions": {
@@ -1858,21 +1670,21 @@
           "-500"
         ]
       },
-      "editor": {
-        "x": 177,
-        "y": 577
-      }
+      "data": null
     },
     {
       "id": 54,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "690:1488"
-      },
-      "editor": {
-        "x": 968,
-        "y": 965
+        "pos": "690:1488",
+        "map": "1"
       }
     },
     {
@@ -1894,25 +1706,22 @@
       ],
       "transfers": [
         {
-          "text": "Держи",
-          "stage": "56",
+          "stage": 56,
           "condition": {
             "money>=": [
               "500"
             ]
-          }
+          },
+          "text": "Держи"
         },
         {
-          "text": "Пока",
-          "stage": "57",
-          "condition": {}
+          "stage": 57,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 211,
-        "y": 103
-      }
+      "data": null
     },
     {
       "id": 56,
@@ -1920,9 +1729,6 @@
       "background": "story/freeplay/screen/21.jpg",
       "title": "Лейтенант Мыслов",
       "message": "Потеряно денег: 500р",
-      "music": [
-        "4"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -1936,9 +1742,9 @@
       ],
       "transfers": [
         {
-          "text": "Пока",
-          "stage": "58",
-          "condition": {}
+          "stage": 58,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {
@@ -1946,33 +1752,36 @@
           "-500"
         ]
       },
-      "editor": {
-        "x": 725,
-        "y": 515
-      }
+      "data": null
     },
     {
       "id": 58,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "690:1289"
-      },
-      "editor": {
-        "x": 485,
-        "y": 74
+        "pos": "690:1289",
+        "map": "1"
       }
     },
     {
       "id": 57,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "690:1488"
-      },
-      "editor": {
-        "x": 406,
-        "y": 261
+        "pos": "690:1488",
+        "map": "1"
       }
     },
     {
@@ -1994,16 +1803,13 @@
       ],
       "transfers": [
         {
-          "text": "...",
-          "stage": "61",
-          "condition": {}
+          "stage": 61,
+          "condition": {},
+          "text": "..."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 98,
-        "y": 193
-      }
+      "data": null
     },
     {
       "id": 61,
@@ -2024,21 +1830,18 @@
       ],
       "transfers": [
         {
-          "text": "Хорошо, я берусь",
-          "stage": "62",
-          "condition": {}
+          "stage": 62,
+          "condition": {},
+          "text": "Хорошо, я берусь"
         },
         {
-          "text": "В другой раз",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "В другой раз"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 644,
-        "y": 760
-      }
+      "data": null
     },
     {
       "id": 62,
@@ -2059,9 +1862,9 @@
       ],
       "transfers": [
         {
-          "text": "Хорошо",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Хорошо"
         }
       ],
       "actions": {
@@ -2071,10 +1874,7 @@
           "1add_quest_1_0_monsvalka_sidor"
         ]
       },
-      "editor": {
-        "x": 81,
-        "y": 716
-      }
+      "data": null
     },
     {
       "id": 63,
@@ -2095,16 +1895,13 @@
       ],
       "transfers": [
         {
-          "text": "Что тут происходит?",
-          "stage": "64",
-          "condition": {}
+          "stage": 64,
+          "condition": {},
+          "text": "Что тут происходит?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 608,
-        "y": 974
-      }
+      "data": null
     },
     {
       "id": 64,
@@ -2125,16 +1922,13 @@
       ],
       "transfers": [
         {
-          "text": "Мне нужен сталкер по кличке Ворон, где он?",
-          "stage": "65",
-          "condition": {}
+          "stage": 65,
+          "condition": {},
+          "text": "Мне нужен сталкер по кличке Ворон, где он?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 95,
-        "y": 161
-      }
+      "data": null
     },
     {
       "id": 65,
@@ -2155,16 +1949,13 @@
       ],
       "transfers": [
         {
-          "text": "А ты не знаешь никакой информации по поводу бойца Монолита, которого тут нашли?",
-          "stage": "66",
-          "condition": {}
+          "stage": 66,
+          "condition": {},
+          "text": "А ты не знаешь никакой информации по поводу бойца Монолита, которого тут нашли?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 533,
-        "y": 597
-      }
+      "data": null
     },
     {
       "id": 66,
@@ -2185,28 +1976,25 @@
       ],
       "transfers": [
         {
-          "text": "Я помогу вам",
-          "stage": "67",
-          "condition": {}
+          "stage": 67,
+          "condition": {},
+          "text": "Я помогу вам"
         },
         {
-          "text": "Я подожду",
-          "stage": "68",
-          "condition": {}
+          "stage": 68,
+          "condition": {},
+          "text": "Я подожду"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_1_0_monsvalka_sidor"
-        ],
         "add": [
           "quest_1_0_monsvalka_sidor1"
+        ],
+        "remove": [
+          "quest_1_0_monsvalka_sidor"
         ]
       },
-      "editor": {
-        "x": 610,
-        "y": 996
-      }
+      "data": null
     },
     {
       "id": 67,
@@ -2227,16 +2015,13 @@
       ],
       "transfers": [
         {
-          "text": "Что нужно делать?",
-          "stage": "69",
-          "condition": {}
+          "stage": 69,
+          "condition": {},
+          "text": "Что нужно делать?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 458,
-        "y": 436
-      }
+      "data": null
     },
     {
       "id": 68,
@@ -2257,9 +2042,9 @@
       ],
       "transfers": [
         {
-          "text": "...",
-          "stage": "70",
-          "condition": {}
+          "stage": 70,
+          "condition": {},
+          "text": "..."
         }
       ],
       "actions": {
@@ -2267,10 +2052,7 @@
           "relation_0:1"
         ]
       },
-      "editor": {
-        "x": 675,
-        "y": 248
-      }
+      "data": null
     },
     {
       "id": 69,
@@ -2291,9 +2073,9 @@
       ],
       "transfers": [
         {
-          "text": "Но мне всё-таки нужно узнать, куда делся Ворон?",
-          "stage": "71",
-          "condition": {}
+          "stage": 71,
+          "condition": {},
+          "text": "Но мне всё-таки нужно узнать, куда делся Ворон?"
         }
       ],
       "actions": {
@@ -2301,10 +2083,7 @@
           "relation_0:1"
         ]
       },
-      "editor": {
-        "x": 3,
-        "y": 331
-      }
+      "data": null
     },
     {
       "id": 70,
@@ -2325,16 +2104,13 @@
       ],
       "transfers": [
         {
-          "text": "Слушай, расскажи, что знаешь, а я тебе отсыплю деньжат",
-          "stage": "72",
-          "condition": {}
+          "stage": 72,
+          "condition": {},
+          "text": "Слушай, расскажи, что знаешь, а я тебе отсыплю деньжат"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 511,
-        "y": 196
-      }
+      "data": null
     },
     {
       "id": 71,
@@ -2342,9 +2118,6 @@
       "background": "story/freeplay/screen/23.jpg",
       "title": "Неизвестный сталкер",
       "message": "Новый квест: идти к трубам",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -2358,16 +2131,13 @@
       ],
       "transfers": [
         {
-          "text": "Счастливо",
-          "stage": "73",
-          "condition": {}
+          "stage": 73,
+          "condition": {},
+          "text": "Счастливо"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 265,
-        "y": 302
-      }
+      "data": null
     },
     {
       "id": 72,
@@ -2375,9 +2145,6 @@
       "background": "story/freeplay/screen/23.jpg",
       "title": "Неизвестный сталкер",
       "message": "Потеряны деньги: 500 рублей.",
-      "music": [
-        "4"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -2391,9 +2158,9 @@
       ],
       "transfers": [
         {
-          "text": "Счастливо",
-          "stage": "73",
-          "condition": {}
+          "stage": 73,
+          "condition": {},
+          "text": "Счастливо"
         }
       ],
       "actions": {
@@ -2401,21 +2168,21 @@
           "-500"
         ]
       },
-      "editor": {
-        "x": 222,
-        "y": 920
-      }
+      "data": null
     },
     {
       "id": 73,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "2",
-        "pos": "533:757"
-      },
-      "editor": {
-        "x": 178,
-        "y": 612
+        "pos": "533:757",
+        "map": "2"
       }
     },
     {
@@ -2437,16 +2204,13 @@
       ],
       "transfers": [
         {
-          "text": "Я от Сидоровича, он сказал, что ты знаешь, откуда тут тело монолитовца",
-          "stage": "75",
-          "condition": {}
+          "stage": 75,
+          "condition": {},
+          "text": "Я от Сидоровича, он сказал, что ты знаешь, откуда тут тело монолитовца"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 681,
-        "y": 69
-      }
+      "data": null
     },
     {
       "id": 75,
@@ -2467,16 +2231,13 @@
       ],
       "transfers": [
         {
-          "text": "Книга",
-          "stage": "76",
-          "condition": {}
+          "stage": 76,
+          "condition": {},
+          "text": "Книга"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 660,
-        "y": 742
-      }
+      "data": null
     },
     {
       "id": 76,
@@ -2497,16 +2258,13 @@
       ],
       "transfers": [
         {
-          "text": "Что ты знаешь о том мёртвом монолитовце?",
-          "stage": "77",
-          "condition": {}
+          "stage": 77,
+          "condition": {},
+          "text": "Что ты знаешь о том мёртвом монолитовце?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 934,
-        "y": 527
-      }
+      "data": null
     },
     {
       "id": 77,
@@ -2527,16 +2285,13 @@
       ],
       "transfers": [
         {
-          "text": "Видел кто это сделал?",
-          "stage": "78",
-          "condition": {}
+          "stage": 78,
+          "condition": {},
+          "text": "Видел кто это сделал?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 511,
-        "y": 836
-      }
+      "data": null
     },
     {
       "id": 78,
@@ -2557,16 +2312,13 @@
       ],
       "transfers": [
         {
-          "text": "А зачем отвлекать внимание? Что случится?",
-          "stage": "79",
-          "condition": {}
+          "stage": 79,
+          "condition": {},
+          "text": "А зачем отвлекать внимание? Что случится?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 375,
-        "y": 336
-      }
+      "data": null
     },
     {
       "id": 79,
@@ -2587,16 +2339,13 @@
       ],
       "transfers": [
         {
-          "text": "Спасибо за информацию, я должен предупредить их!",
-          "stage": "80",
-          "condition": {}
+          "stage": 80,
+          "condition": {},
+          "text": "Спасибо за информацию, я должен предупредить их!"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 196,
-        "y": 661
-      }
+      "data": null
     },
     {
       "id": 80,
@@ -2617,34 +2366,34 @@
       ],
       "transfers": [
         {
-          "text": "Счастливо",
-          "stage": "81",
-          "condition": {}
+          "stage": 81,
+          "condition": {},
+          "text": "Счастливо"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_1_0_monsvalka_sidor1"
-        ],
         "add": [
           "quest_1_0_monsvalka_sidor2"
+        ],
+        "remove": [
+          "quest_1_0_monsvalka_sidor1"
         ]
       },
-      "editor": {
-        "x": 261,
-        "y": 931
-      }
+      "data": null
     },
     {
       "id": 81,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "2",
-        "pos": "318:817"
-      },
-      "editor": {
-        "x": 657,
-        "y": 340
+        "pos": "318:817",
+        "map": "2"
       }
     },
     {
@@ -2666,16 +2415,13 @@
       ],
       "transfers": [
         {
-          "text": "Вам срочно надо уходить отсюда",
-          "stage": "83",
-          "condition": {}
+          "stage": 83,
+          "condition": {},
+          "text": "Вам срочно надо уходить отсюда"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 95,
-        "y": 812
-      }
+      "data": null
     },
     {
       "id": 83,
@@ -2696,16 +2442,13 @@
       ],
       "transfers": [
         {
-          "text": "Это ловушка. Ворон сказал мне, что они готовят огромное наступление на Депо",
-          "stage": "84",
-          "condition": {}
+          "stage": 84,
+          "condition": {},
+          "text": "Это ловушка. Ворон сказал мне, что они готовят огромное наступление на Депо"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 48,
-        "y": 171
-      }
+      "data": null
     },
     {
       "id": 84,
@@ -2726,16 +2469,13 @@
       ],
       "transfers": [
         {
-          "text": "Вы уверены, что сможете отстоять Депо?",
-          "stage": "85",
-          "condition": {}
+          "stage": 85,
+          "condition": {},
+          "text": "Вы уверены, что сможете отстоять Депо?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 39,
-        "y": 631
-      }
+      "data": null
     },
     {
       "id": 85,
@@ -2743,9 +2483,6 @@
       "background": "story/freeplay/screen/26.jpg",
       "title": "Неизвестный сталкер",
       "message": "Новый квест: Вернуться к Сидоровичу",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -2759,34 +2496,34 @@
       ],
       "transfers": [
         {
-          "text": "Удачи",
-          "stage": "86",
-          "condition": {}
+          "stage": 86,
+          "condition": {},
+          "text": "Удачи"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_1_0_monsvalka_sidor2"
-        ],
         "add": [
           "quest_1_0_monsvalka_sidor_fin"
+        ],
+        "remove": [
+          "quest_1_0_monsvalka_sidor2"
         ]
       },
-      "editor": {
-        "x": 333,
-        "y": 731
-      }
+      "data": null
     },
     {
       "id": 86,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "2",
-        "pos": "533:757"
-      },
-      "editor": {
-        "x": 266,
-        "y": 957
+        "pos": "533:757",
+        "map": "2"
       }
     },
     {
@@ -2808,16 +2545,13 @@
       ],
       "transfers": [
         {
-          "text": "Монолитовец оказался там не случайно, его притащили туда бандиты, а вот откуда, я понятия не имею",
-          "stage": "88",
-          "condition": {}
+          "stage": 88,
+          "condition": {},
+          "text": "Монолитовец оказался там не случайно, его притащили туда бандиты, а вот откуда, я понятия не имею"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 926,
-        "y": 293
-      }
+      "data": null
     },
     {
       "id": 88,
@@ -2838,9 +2572,9 @@
       ],
       "transfers": [
         {
-          "text": "Благодарю",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Благодарю"
         }
       ],
       "actions": {
@@ -2852,10 +2586,7 @@
           "1add_quest_1_0_monsvalka_sidor"
         ]
       },
-      "editor": {
-        "x": 166,
-        "y": 126
-      }
+      "data": null
     },
     {
       "id": 89,
@@ -2876,31 +2607,28 @@
       ],
       "transfers": [
         {
-          "text": "Я по поводу работы",
-          "stage": "90",
-          "condition": {}
+          "stage": 90,
+          "condition": {},
+          "text": "Я по поводу работы"
         },
         {
-          "text": "Мне нужна информация",
-          "stage": "93",
-          "condition": {}
+          "stage": 93,
+          "condition": {},
+          "text": "Мне нужна информация"
         },
         {
-          "text": "Я хочу посмотреть ассортимент",
-          "stage": "308",
-          "condition": {}
+          "stage": 308,
+          "condition": {},
+          "text": "Я хочу посмотреть ассортимент"
         },
         {
-          "text": "Пока",
-          "stage": "94",
-          "condition": {}
+          "stage": 94,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 19,
-        "y": 359
-      }
+      "data": null
     },
     {
       "id": 90,
@@ -2921,26 +2649,23 @@
       ],
       "transfers": [
         {
-          "text": "Получить работу",
-          "stage": "91",
-          "condition": {}
+          "stage": 91,
+          "condition": {},
+          "text": "Получить работу"
         },
         {
-          "text": "Сдать работу",
-          "stage": "92",
-          "condition": {}
+          "stage": 92,
+          "condition": {},
+          "text": "Сдать работу"
         },
         {
-          "text": "Я передумал",
-          "stage": "89",
-          "condition": {}
+          "stage": 89,
+          "condition": {},
+          "text": "Я передумал"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 418,
-        "y": 39
-      }
+      "data": null
     },
     {
       "id": 91,
@@ -2961,26 +2686,23 @@
       ],
       "transfers": [
         {
-          "text": "Поиск сталкера",
-          "stage": "95",
+          "stage": 95,
           "condition": {
             "!has": [
               "quest_2_0_flash_barmen_rem",
               "add_quest_2_0_flash_barmen"
             ]
-          }
+          },
+          "text": "Поиск сталкера"
         },
         {
-          "text": "Я передумал",
-          "stage": "89",
-          "condition": {}
+          "stage": 89,
+          "condition": {},
+          "text": "Я передумал"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 197,
-        "y": 472
-      }
+      "data": null
     },
     {
       "id": 92,
@@ -3001,34 +2723,31 @@
       ],
       "transfers": [
         {
-          "text": "Я нашел сталкера и флешку",
-          "stage": "106",
+          "stage": 106,
           "condition": {
             "has": [
               "quest_2_0_flash_barmen2_fin"
             ]
-          }
+          },
+          "text": "Я нашел сталкера и флешку"
         },
         {
-          "text": "Я отдал долг Сявы",
-          "stage": "113",
+          "stage": 113,
           "condition": {
             "has": [
               "quest_2_0_flash_barmen_money_fin"
             ]
-          }
+          },
+          "text": "Я отдал долг Сявы"
         },
         {
-          "text": "Я передумал",
-          "stage": "89",
-          "condition": {}
+          "stage": 89,
+          "condition": {},
+          "text": "Я передумал"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 97,
-        "y": 369
-      }
+      "data": null
     },
     {
       "id": 93,
@@ -3049,27 +2768,27 @@
       ],
       "transfers": [
         {
-          "text": "Пока ничего",
-          "stage": "89",
-          "condition": {}
+          "stage": 89,
+          "condition": {},
+          "text": "Пока ничего"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 633,
-        "y": 112
-      }
+      "data": null
     },
     {
       "id": 94,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "3",
-        "pos": "1501:1255"
-      },
-      "editor": {
-        "x": 869,
-        "y": 878
+        "pos": "1501:1255",
+        "map": "3"
       }
     },
     {
@@ -3091,21 +2810,18 @@
       ],
       "transfers": [
         {
-          "text": "Я берусь",
-          "stage": "96",
-          "condition": {}
+          "stage": 96,
+          "condition": {},
+          "text": "Я берусь"
         },
         {
-          "text": "В другой раз",
-          "stage": "89",
-          "condition": {}
+          "stage": 89,
+          "condition": {},
+          "text": "В другой раз"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 505,
-        "y": 776
-      }
+      "data": null
     },
     {
       "id": 96,
@@ -3113,9 +2829,6 @@
       "background": "story/freeplay/screen/27.jpg",
       "title": "Бармен",
       "message": "Новый квест: Идти в Темную долину к ферме",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -3129,9 +2842,9 @@
       ],
       "transfers": [
         {
-          "text": "...",
-          "stage": "89",
-          "condition": {}
+          "stage": 89,
+          "condition": {},
+          "text": "..."
         }
       ],
       "actions": {
@@ -3140,10 +2853,7 @@
           "add_quest_2_0_flash_barmen"
         ]
       },
-      "editor": {
-        "x": 687,
-        "y": 464
-      }
+      "data": null
     },
     {
       "id": 97,
@@ -3164,34 +2874,34 @@
       ],
       "transfers": [
         {
-          "text": "Продолжить",
-          "stage": "98",
-          "condition": {}
+          "stage": 98,
+          "condition": {},
+          "text": "Продолжить"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_2_0_flash_barmen"
-        ],
         "add": [
           "quest_2_0_flash_barmen1"
+        ],
+        "remove": [
+          "quest_2_0_flash_barmen"
         ]
       },
-      "editor": {
-        "x": 211,
-        "y": 251
-      }
+      "data": null
     },
     {
       "id": 98,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "5",
-        "pos": "135:340"
-      },
-      "editor": {
-        "x": 488,
-        "y": 935
+        "pos": "135:340",
+        "map": "5"
       }
     },
     {
@@ -3213,16 +2923,13 @@
       ],
       "transfers": [
         {
-          "text": "А ты?",
-          "stage": "100",
-          "condition": {}
+          "stage": 100,
+          "condition": {},
+          "text": "А ты?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 700,
-        "y": 552
-      }
+      "data": null
     },
     {
       "id": 100,
@@ -3243,16 +2950,13 @@
       ],
       "transfers": [
         {
-          "text": "@name я. Я ищу сталкера одного, он нёс важную информацию для Бармена. Не встречал тут никого?",
-          "stage": "101",
-          "condition": {}
+          "stage": 101,
+          "condition": {},
+          "text": "@name я. Я ищу сталкера одного, он нёс важную информацию для Бармена. Не встречал тут никого?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 799,
-        "y": 397
-      }
+      "data": null
     },
     {
       "id": 101,
@@ -3273,16 +2977,13 @@
       ],
       "transfers": [
         {
-          "text": "Как видишь, раз я тут",
-          "stage": "102",
-          "condition": {}
+          "stage": 102,
+          "condition": {},
+          "text": "Как видишь, раз я тут"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 634,
-        "y": 326
-      }
+      "data": null
     },
     {
       "id": 102,
@@ -3303,16 +3004,13 @@
       ],
       "transfers": [
         {
-          "text": "Давай, раз уж я тут",
-          "stage": "103",
-          "condition": {}
+          "stage": 103,
+          "condition": {},
+          "text": "Давай, раз уж я тут"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 69,
-        "y": 269
-      }
+      "data": null
     },
     {
       "id": 103,
@@ -3320,9 +3018,7 @@
       "background": "story/freeplay/screen/28.jpg",
       "title": "Сява",
       "message": "Получен предмет: Флешка, водка х2, прокладка х2",
-      "music": [
-        "4"
-      ],
+      "type_message": null,
       "texts": [
         {
           "text": "От души, сталкер. Держи немного хабара, пока что это все, что есть. И флешка. Даст Бог, пересечемся с тобой при лучшем раскладе. ",
@@ -3335,9 +3031,9 @@
       ],
       "transfers": [
         {
-          "text": "Бывай",
-          "stage": "104",
-          "condition": {}
+          "stage": 104,
+          "condition": {},
+          "text": "Бывай"
         }
       ],
       "actions": {
@@ -3348,10 +3044,7 @@
           "88:1"
         ]
       },
-      "editor": {
-        "x": 208,
-        "y": 758
-      }
+      "data": null
     },
     {
       "id": 104,
@@ -3359,9 +3052,6 @@
       "background": "story/freeplay/screen/28.jpg",
       "title": "Сява",
       "message": "Новый квест: Идти к Бармену",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -3375,9 +3065,9 @@
       ],
       "transfers": [
         {
-          "text": "Пока",
-          "stage": "105",
-          "condition": {}
+          "stage": 105,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {
@@ -3385,21 +3075,21 @@
           "quest_2_0_flash_barmen1"
         ]
       },
-      "editor": {
-        "x": 969,
-        "y": 399
-      }
+      "data": null
     },
     {
       "id": 105,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "5",
-        "pos": "154:201"
-      },
-      "editor": {
-        "x": 373,
-        "y": 502
+        "pos": "154:201",
+        "map": "5"
       }
     },
     {
@@ -3421,16 +3111,13 @@
       ],
       "transfers": [
         {
-          "text": "Он задолжал долговцам на блокпосте, не пропустили его и подстрелить хотели. Скрылся от них на ферме. Сердечно извинялся и просил передать флешку, обещал, что скоро придет сам и объяснится.",
-          "stage": "107",
-          "condition": {}
+          "stage": 107,
+          "condition": {},
+          "text": "Он задолжал долговцам на блокпосте, не пропустили его и подстрелить хотели. Скрылся от них на ферме. Сердечно извинялся и просил передать флешку, обещал, что скоро придет сам и объяснится."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 813,
-        "y": 618
-      }
+      "data": null
     },
     {
       "id": 107,
@@ -3438,9 +3125,6 @@
       "background": "story/freeplay/screen/27.jpg",
       "title": "Бармен",
       "message": "Потерян предмет: Флешка. Получено: 500 рублей, армейская аптечка х2",
-      "music": [
-        "4"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -3454,9 +3138,9 @@
       ],
       "transfers": [
         {
-          "text": "Пока",
-          "stage": "108",
-          "condition": {}
+          "stage": 108,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {
@@ -3464,10 +3148,7 @@
           "3500"
         ]
       },
-      "editor": {
-        "x": 934,
-        "y": 495
-      }
+      "data": null
     },
     {
       "id": 108,
@@ -3488,25 +3169,22 @@
       ],
       "transfers": [
         {
-          "text": "Понял",
-          "stage": "89",
-          "condition": {}
+          "stage": 89,
+          "condition": {},
+          "text": "Понял"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_2_0_flash_barmen2_fin"
-        ],
         "add": [
           "add_quest_2_0_flash_barmen_money",
           "quest_2_0_flash_barmen_money1",
           "quest_2_0_flash_barmen_rem"
+        ],
+        "remove": [
+          "quest_2_0_flash_barmen2_fin"
         ]
       },
-      "editor": {
-        "x": 391,
-        "y": 77
-      }
+      "data": null
     },
     {
       "id": 109,
@@ -3527,16 +3205,13 @@
       ],
       "transfers": [
         {
-          "text": "Мужики, мне нужен Молотов, где его найти?",
-          "stage": "110",
-          "condition": {}
+          "stage": 110,
+          "condition": {},
+          "text": "Мужики, мне нужен Молотов, где его найти?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 628,
-        "y": 550
-      }
+      "data": null
     },
     {
       "id": 110,
@@ -3557,9 +3232,9 @@
       ],
       "transfers": [
         {
-          "text": "Я пришел отдать долг за Сяву. От Бармена",
-          "stage": "111",
-          "condition": {}
+          "stage": 111,
+          "condition": {},
+          "text": "Я пришел отдать долг за Сяву. От Бармена"
         }
       ],
       "actions": {
@@ -3567,10 +3242,7 @@
           "quest_2_0_flash_barmen_money_fin"
         ]
       },
-      "editor": {
-        "x": 610,
-        "y": 444
-      }
+      "data": null
     },
     {
       "id": 111,
@@ -3578,9 +3250,6 @@
       "background": "story/freeplay/screen/30.jpg",
       "title": "Молотов",
       "message": "Потеряно денег: 3000 рублей",
-      "music": [
-        "4"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -3594,34 +3263,34 @@
       ],
       "transfers": [
         {
-          "text": "Счастливо",
-          "stage": "112",
-          "condition": {}
+          "stage": 112,
+          "condition": {},
+          "text": "Счастливо"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_2_0_flash_barmen_money1"
-        ],
         "money": [
           "-3000"
+        ],
+        "remove": [
+          "quest_2_0_flash_barmen_money1"
         ]
       },
-      "editor": {
-        "x": 987,
-        "y": 672
-      }
+      "data": null
     },
     {
       "id": 112,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "2",
-        "pos": "699:1088"
-      },
-      "editor": {
-        "x": 769,
-        "y": 276
+        "pos": "699:1088",
+        "map": "2"
       }
     },
     {
@@ -3643,16 +3312,13 @@
       ],
       "transfers": [
         {
-          "text": "Нет, все нормально",
-          "stage": "114",
-          "condition": {}
+          "stage": 114,
+          "condition": {},
+          "text": "Нет, все нормально"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 955,
-        "y": 463
-      }
+      "data": null
     },
     {
       "id": 114,
@@ -3660,9 +3326,6 @@
       "background": "story/freeplay/screen/27.jpg",
       "title": "Бармен",
       "message": "Получено: колбаса х2, водка",
-      "music": [
-        "4"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -3676,9 +3339,9 @@
       ],
       "transfers": [
         {
-          "text": "Благодарю",
-          "stage": "89",
-          "condition": {}
+          "stage": 89,
+          "condition": {},
+          "text": "Благодарю"
         }
       ],
       "actions": {
@@ -3689,10 +3352,7 @@
           "quest_2_0_flash_barmen_money_fin"
         ]
       },
-      "editor": {
-        "x": 349,
-        "y": 744
-      }
+      "data": null
     },
     {
       "id": 115,
@@ -3713,16 +3373,13 @@
       ],
       "transfers": [
         {
-          "text": "Что случилось?",
-          "stage": "116",
-          "condition": {}
+          "stage": 116,
+          "condition": {},
+          "text": "Что случилось?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 541,
-        "y": 166
-      }
+      "data": null
     },
     {
       "id": 116,
@@ -3743,16 +3400,13 @@
       ],
       "transfers": [
         {
-          "text": "А что за реликвию они украли?",
-          "stage": "117",
-          "condition": {}
+          "stage": 117,
+          "condition": {},
+          "text": "А что за реликвию они украли?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 727,
-        "y": 403
-      }
+      "data": null
     },
     {
       "id": 117,
@@ -3773,21 +3427,18 @@
       ],
       "transfers": [
         {
-          "text": "Хорошо, я постараюсь помочь",
-          "stage": "120",
-          "condition": {}
+          "stage": 120,
+          "condition": {},
+          "text": "Хорошо, я постараюсь помочь"
         },
         {
-          "text": "Извини, времени нет совсем, не смогу помочь",
-          "stage": "118",
-          "condition": {}
+          "stage": 118,
+          "condition": {},
+          "text": "Извини, времени нет совсем, не смогу помочь"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 18,
-        "y": 427
-      }
+      "data": null
     },
     {
       "id": 118,
@@ -3808,9 +3459,9 @@
       ],
       "transfers": [
         {
-          "text": "Удачи",
-          "stage": "119",
-          "condition": {}
+          "stage": 119,
+          "condition": {},
+          "text": "Удачи"
         }
       ],
       "actions": {
@@ -3818,21 +3469,21 @@
           "quest_99_1_segun_sogl"
         ]
       },
-      "editor": {
-        "x": 704,
-        "y": 247
-      }
+      "data": null
     },
     {
       "id": 119,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "266:813"
-      },
-      "editor": {
-        "x": 399,
-        "y": 92
+        "pos": "266:813",
+        "map": "1"
       }
     },
     {
@@ -3854,16 +3505,13 @@
       ],
       "transfers": [
         {
-          "text": "А приметы были какие-либо или прозвище, может быть? ",
-          "stage": "121",
-          "condition": {}
+          "stage": 121,
+          "condition": {},
+          "text": "А приметы были какие-либо или прозвище, может быть? "
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 108,
-        "y": 699
-      }
+      "data": null
     },
     {
       "id": 121,
@@ -3871,9 +3519,6 @@
       "background": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сёгун",
       "message": "Новый квест: Пообщаться с Волком",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -3887,9 +3532,9 @@
       ],
       "transfers": [
         {
-          "text": "Хорошо, жди тут. Скоро буду",
-          "stage": "119",
-          "condition": {}
+          "stage": 119,
+          "condition": {},
+          "text": "Хорошо, жди тут. Скоро буду"
         }
       ],
       "actions": {
@@ -3900,10 +3545,7 @@
           "quest_99_1_segun_sogl"
         ]
       },
-      "editor": {
-        "x": 166,
-        "y": 242
-      }
+      "data": null
     },
     {
       "id": 122,
@@ -3924,16 +3566,13 @@
       ],
       "transfers": [
         {
-          "text": "Приветствую, Волк. Вопрос у меня к тебе",
-          "stage": "123",
-          "condition": {}
+          "stage": 123,
+          "condition": {},
+          "text": "Приветствую, Волк. Вопрос у меня к тебе"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 928,
-        "y": 346
-      }
+      "data": null
     },
     {
       "id": 123,
@@ -3954,16 +3593,13 @@
       ],
       "transfers": [
         {
-          "text": "Видел ли ты какой-нибудь отряд, который собирался в сторону Свалки? У одного из них шрам на пол лица",
-          "stage": "124",
-          "condition": {}
+          "stage": 124,
+          "condition": {},
+          "text": "Видел ли ты какой-нибудь отряд, который собирался в сторону Свалки? У одного из них шрам на пол лица"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 559,
-        "y": 253
-      }
+      "data": null
     },
     {
       "id": 124,
@@ -3971,9 +3607,6 @@
       "background": "story/freeplay/screen/33.jpg",
       "title": "Волк",
       "message": "Новый квест: Задать вопрос Сидоровичу",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -3987,9 +3620,9 @@
       ],
       "transfers": [
         {
-          "text": "Пока",
-          "stage": "125",
-          "condition": {}
+          "stage": 125,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {
@@ -4000,21 +3633,21 @@
           "quest_99_1_segun_gotowolf"
         ]
       },
-      "editor": {
-        "x": 135,
-        "y": 877
-      }
+      "data": null
     },
     {
       "id": 125,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "224:861"
-      },
-      "editor": {
-        "x": 813,
-        "y": 629
+        "pos": "224:861",
+        "map": "1"
       }
     },
     {
@@ -4036,16 +3669,13 @@
       ],
       "transfers": [
         {
-          "text": "Не подскажешь информацию о группе из трёх и более человек направляющихся в сторону Свалки у одного шрам на пол лица а у второго прозвище вроде как на 'С' начинается?",
-          "stage": "127",
-          "condition": {}
+          "stage": 127,
+          "condition": {},
+          "text": "Не подскажешь информацию о группе из трёх и более человек направляющихся в сторону Свалки у одного шрам на пол лица а у второго прозвище вроде как на 'С' начинается?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 690,
-        "y": 138
-      }
+      "data": null
     },
     {
       "id": 127,
@@ -4066,16 +3696,13 @@
       ],
       "transfers": [
         {
-          "text": "Да я же не за просто так",
-          "stage": "128",
-          "condition": {}
+          "stage": 128,
+          "condition": {},
+          "text": "Да я же не за просто так"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 350,
-        "y": 587
-      }
+      "data": null
     },
     {
       "id": 128,
@@ -4096,9 +3723,9 @@
       ],
       "transfers": [
         {
-          "text": "Держи",
-          "stage": "129",
-          "condition": {}
+          "stage": 129,
+          "condition": {},
+          "text": "Держи"
         }
       ],
       "actions": {
@@ -4106,10 +3733,7 @@
           "-500"
         ]
       },
-      "editor": {
-        "x": 451,
-        "y": 32
-      }
+      "data": null
     },
     {
       "id": 129,
@@ -4117,9 +3741,6 @@
       "background": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
       "message": "Потеряно: 500 рублей.",
-      "music": [
-        "4"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -4133,9 +3754,9 @@
       ],
       "transfers": [
         {
-          "text": "Держи. Ну так что?",
-          "stage": "130",
-          "condition": {}
+          "stage": 130,
+          "condition": {},
+          "text": "Держи. Ну так что?"
         }
       ],
       "actions": {
@@ -4143,10 +3764,7 @@
           "-200"
         ]
       },
-      "editor": {
-        "x": 707,
-        "y": 840
-      }
+      "data": null
     },
     {
       "id": 130,
@@ -4154,9 +3772,6 @@
       "background": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
       "message": "Потеряно: 200 рублей.",
-      "music": [
-        "4"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -4170,16 +3785,13 @@
       ],
       "transfers": [
         {
-          "text": "Да он сталкера одного ограбил",
-          "stage": "131",
-          "condition": {}
+          "stage": 131,
+          "condition": {},
+          "text": "Да он сталкера одного ограбил"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 377,
-        "y": 366
-      }
+      "data": null
     },
     {
       "id": 131,
@@ -4187,9 +3799,6 @@
       "background": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
       "message": "Новый квест: Пообщаться с Волком.",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -4203,23 +3812,20 @@
       ],
       "transfers": [
         {
-          "text": "Понял",
-          "stage": "8",
-          "condition": {}
+          "stage": 8,
+          "condition": {},
+          "text": "Понял"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_99_1_segun_gotosidor"
-        ],
         "add": [
           "quest_99_1_segun_gotowolf2"
+        ],
+        "remove": [
+          "quest_99_1_segun_gotosidor"
         ]
       },
-      "editor": {
-        "x": 655,
-        "y": 826
-      }
+      "data": null
     },
     {
       "id": 132,
@@ -4240,16 +3846,13 @@
       ],
       "transfers": [
         {
-          "text": "Волк, можешь рассказать о шайке Стрижа? ",
-          "stage": "133",
-          "condition": {}
+          "stage": 133,
+          "condition": {},
+          "text": "Волк, можешь рассказать о шайке Стрижа? "
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 340,
-        "y": 927
-      }
+      "data": null
     },
     {
       "id": 133,
@@ -4257,9 +3860,6 @@
       "background": "story/freeplay/screen/33.jpg",
       "title": "Волк",
       "message": "Новый квест: Найти Стрижа.",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -4273,23 +3873,20 @@
       ],
       "transfers": [
         {
-          "text": "Пока",
-          "stage": "125",
-          "condition": {}
+          "stage": 125,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_99_1_segun_gotowolf2"
-        ],
         "add": [
           "quest_99_1_segun_gotostrizh"
+        ],
+        "remove": [
+          "quest_99_1_segun_gotowolf2"
         ]
       },
-      "editor": {
-        "x": 442,
-        "y": 967
-      }
+      "data": null
     },
     {
       "id": 134,
@@ -4310,16 +3907,13 @@
       ],
       "transfers": [
         {
-          "text": "У тебя есть то, что тебе не принадлежит. Верни это.",
-          "stage": "135",
-          "condition": {}
+          "stage": 135,
+          "condition": {},
+          "text": "У тебя есть то, что тебе не принадлежит. Верни это."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 944,
-        "y": 690
-      }
+      "data": null
     },
     {
       "id": 135,
@@ -4340,26 +3934,23 @@
       ],
       "transfers": [
         {
-          "text": "А ты уверен, что я здесь один? Сталкер нанял нас с отрядом, чтоб забрать танто, а каким путём, уже не важно. Сейчас голова твоего друга виднеется в оптический прицел и по одному лишь взамаху руки...",
-          "stage": "136",
-          "condition": {}
+          "stage": 136,
+          "condition": {},
+          "text": "А ты уверен, что я здесь один? Сталкер нанял нас с отрядом, чтоб забрать танто, а каким путём, уже не важно. Сейчас голова твоего друга виднеется в оптический прицел и по одному лишь взамаху руки..."
         },
         {
-          "text": "Ну так посмотрим, кто с чего трупа, заберёт ещё хабар!",
-          "stage": "136",
-          "condition": {}
+          "stage": 136,
+          "condition": {},
+          "text": "Ну так посмотрим, кто с чего трупа, заберёт ещё хабар!"
         },
         {
-          "text": "Ладно парни, извините, погорячился, пойду пожалуй",
-          "stage": "137",
-          "condition": {}
+          "stage": 137,
+          "condition": {},
+          "text": "Ладно парни, извините, погорячился, пойду пожалуй"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 107,
-        "y": 787
-      }
+      "data": null
     },
     {
       "id": 136,
@@ -4380,16 +3971,13 @@
       ],
       "transfers": [
         {
-          "text": "Танто",
-          "stage": "143",
-          "condition": {}
+          "stage": 143,
+          "condition": {},
+          "text": "Танто"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 420,
-        "y": 603
-      }
+      "data": null
     },
     {
       "id": 143,
@@ -4397,9 +3985,6 @@
       "background": "story/freeplay/screen/34.jpg",
       "title": "Стриж",
       "message": "Новый квест: Вернуть Танто Сёгуну.",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -4413,23 +3998,20 @@
       ],
       "transfers": [
         {
-          "text": "Больше чтобы я вас не видел",
-          "stage": "121",
-          "condition": {}
+          "stage": 121,
+          "condition": {},
+          "text": "Больше чтобы я вас не видел"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_99_1_segun_gotostrizh"
-        ],
         "add": [
           "quest_99_1_segun_vernul"
+        ],
+        "remove": [
+          "quest_99_1_segun_gotostrizh"
         ]
       },
-      "editor": {
-        "x": 606,
-        "y": 324
-      }
+      "data": null
     },
     {
       "id": 137,
@@ -4450,16 +4032,13 @@
       ],
       "transfers": [
         {
-          "text": "...",
-          "stage": "138",
-          "condition": {}
+          "stage": 138,
+          "condition": {},
+          "text": "..."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 96,
-        "y": 645
-      }
+      "data": null
     },
     {
       "id": 138,
@@ -4480,9 +4059,9 @@
       ],
       "transfers": [
         {
-          "text": "Продолжить",
-          "stage": "139",
-          "condition": {}
+          "stage": 139,
+          "condition": {},
+          "text": "Продолжить"
         }
       ],
       "actions": {
@@ -4490,21 +4069,21 @@
           "-30"
         ]
       },
-      "editor": {
-        "x": 536,
-        "y": 136
-      }
+      "data": null
     },
     {
       "id": 139,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "0",
-        "pos": "2373:947"
-      },
-      "editor": {
-        "x": 984,
-        "y": 852
+        "pos": "2373:947",
+        "map": "0"
       }
     },
     {
@@ -4526,16 +4105,13 @@
       ],
       "transfers": [
         {
-          "text": "Вот. Забирай танто. Пришлось повозиться.",
-          "stage": "141",
-          "condition": {}
+          "stage": 141,
+          "condition": {},
+          "text": "Вот. Забирай танто. Пришлось повозиться."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 260,
-        "y": 375
-      }
+      "data": null
     },
     {
       "id": 141,
@@ -4556,16 +4132,13 @@
       ],
       "transfers": [
         {
-          "text": "Обращайся",
-          "stage": "142",
-          "condition": {}
+          "stage": 142,
+          "condition": {},
+          "text": "Обращайся"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 186,
-        "y": 156
-      }
+      "data": null
     },
     {
       "id": 142,
@@ -4573,9 +4146,6 @@
       "background": "story/freeplay/screen/32.jpg",
       "title": "Сёгун",
       "message": "Получено: 1500 рублей, колбаса х2",
-      "music": [
-        "4"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -4589,23 +4159,20 @@
       ],
       "transfers": [
         {
-          "text": "Пока",
-          "stage": "119",
-          "condition": {}
+          "stage": 119,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {
-        "xp": [
-          "10"
-        ],
         "money": [
           "1500"
+        ],
+        "xp": [
+          "10"
         ]
       },
-      "editor": {
-        "x": 700,
-        "y": 526
-      }
+      "data": null
     },
     {
       "id": 144,
@@ -4626,31 +4193,28 @@
       ],
       "transfers": [
         {
-          "text": "Я по поводу работы",
-          "stage": "145",
-          "condition": {}
+          "stage": 145,
+          "condition": {},
+          "text": "Я по поводу работы"
         },
         {
-          "text": "Мне нужна информация",
-          "stage": "148",
-          "condition": {}
+          "stage": 148,
+          "condition": {},
+          "text": "Мне нужна информация"
         },
         {
-          "text": "Я бы хотел посмотреть ассортимент",
-          "stage": "121",
-          "condition": {}
+          "stage": 121,
+          "condition": {},
+          "text": "Я бы хотел посмотреть ассортимент"
         },
         {
-          "text": "Пока",
-          "stage": "164",
-          "condition": {}
+          "stage": 164,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 566,
-        "y": 158
-      }
+      "data": null
     },
     {
       "id": 145,
@@ -4671,26 +4235,23 @@
       ],
       "transfers": [
         {
-          "text": "Получить работу",
-          "stage": "146",
-          "condition": {}
+          "stage": 146,
+          "condition": {},
+          "text": "Получить работу"
         },
         {
-          "text": "Сдать работу",
-          "stage": "147",
-          "condition": {}
+          "stage": 147,
+          "condition": {},
+          "text": "Сдать работу"
         },
         {
-          "text": "Нет, ничего",
-          "stage": "144",
-          "condition": {}
+          "stage": 144,
+          "condition": {},
+          "text": "Нет, ничего"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 982,
-        "y": 320
-      }
+      "data": null
     },
     {
       "id": 146,
@@ -4711,26 +4272,23 @@
       ],
       "transfers": [
         {
-          "text": "Установить сканеры на Янтаре",
-          "stage": "150",
+          "stage": 150,
           "condition": {
             "!has": [
               "quest_2_0_scan_sahar_rem",
               "add_quest_2_0_scan_sahar"
             ]
-          }
+          },
+          "text": "Установить сканеры на Янтаре"
         },
         {
-          "text": "В другой раз",
-          "stage": "144",
-          "condition": {}
+          "stage": 144,
+          "condition": {},
+          "text": "В другой раз"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 484,
-        "y": 534
-      }
+      "data": null
     },
     {
       "id": 147,
@@ -4751,16 +4309,13 @@
       ],
       "transfers": [
         {
-          "text": "В другой раз",
-          "stage": "144",
-          "condition": {}
+          "stage": 144,
+          "condition": {},
+          "text": "В другой раз"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 367,
-        "y": 258
-      }
+      "data": null
     },
     {
       "id": 148,
@@ -4781,27 +4336,27 @@
       ],
       "transfers": [
         {
-          "text": "Пока никакая",
-          "stage": "144",
-          "condition": {}
+          "stage": 144,
+          "condition": {},
+          "text": "Пока никакая"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 126,
-        "y": 188
-      }
+      "data": null
     },
     {
       "id": 149,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "6",
-        "pos": "746:310"
-      },
-      "editor": {
-        "x": 210,
-        "y": 970
+        "pos": "746:310",
+        "map": "6"
       }
     },
     {
@@ -4823,21 +4378,18 @@
       ],
       "transfers": [
         {
-          "text": "Я берусь",
-          "stage": "151",
-          "condition": {}
+          "stage": 151,
+          "condition": {},
+          "text": "Я берусь"
         },
         {
-          "text": "В другой раз",
-          "stage": "144",
-          "condition": {}
+          "stage": 144,
+          "condition": {},
+          "text": "В другой раз"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 976,
-        "y": 814
-      }
+      "data": null
     },
     {
       "id": 151,
@@ -4845,9 +4397,6 @@
       "background": "story/freeplay/screen/35.jpg",
       "title": "Профессор Сахаров",
       "message": "Новый квест: Добраться до Сергея.",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -4861,9 +4410,9 @@
       ],
       "transfers": [
         {
-          "text": "Понял",
-          "stage": "144",
-          "condition": {}
+          "stage": 144,
+          "condition": {},
+          "text": "Понял"
         }
       ],
       "actions": {
@@ -4872,10 +4421,7 @@
           "add_quest_2_0_scan_sahar"
         ]
       },
-      "editor": {
-        "x": 655,
-        "y": 355
-      }
+      "data": null
     },
     {
       "id": 152,
@@ -4896,16 +4442,13 @@
       ],
       "transfers": [
         {
-          "text": "Доброго, да. А вы, видимо, Сергей?",
-          "stage": "153",
-          "condition": {}
+          "stage": 153,
+          "condition": {},
+          "text": "Доброго, да. А вы, видимо, Сергей?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 473,
-        "y": 18
-      }
+      "data": null
     },
     {
       "id": 153,
@@ -4926,16 +4469,13 @@
       ],
       "transfers": [
         {
-          "text": "Всё ясно. Тогда, давайте начнём",
-          "stage": "154",
-          "condition": {}
+          "stage": 154,
+          "condition": {},
+          "text": "Всё ясно. Тогда, давайте начнём"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 375,
-        "y": 995
-      }
+      "data": null
     },
     {
       "id": 154,
@@ -4943,9 +4483,6 @@
       "background": "story/freeplay/screen/36.jpg",
       "title": "Сергей",
       "message": "Новый квест: Установить сканер.",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -4959,16 +4496,13 @@
       ],
       "transfers": [
         {
-          "text": "Установить сканер",
-          "stage": "155",
-          "condition": {}
+          "stage": 155,
+          "condition": {},
+          "text": "Установить сканер"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 206,
-        "y": 308
-      }
+      "data": null
     },
     {
       "id": 155,
@@ -4989,27 +4523,27 @@
       ],
       "transfers": [
         {
-          "text": "Идти",
-          "stage": "156",
-          "condition": {}
+          "stage": 156,
+          "condition": {},
+          "text": "Идти"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 704,
-        "y": 886
-      }
+      "data": null
     },
     {
       "id": 156,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "6",
-        "pos": "746:310"
-      },
-      "editor": {
-        "x": 941,
-        "y": 688
+        "pos": "746:310",
+        "map": "6"
       }
     },
     {
@@ -5018,9 +4552,6 @@
       "background": "story/freeplay/screen/39.jpg",
       "title": "Сергей",
       "message": "Новый квест: Установить сканер.",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -5034,16 +4565,13 @@
       ],
       "transfers": [
         {
-          "text": "Установить сканер",
-          "stage": "158",
-          "condition": {}
+          "stage": 158,
+          "condition": {},
+          "text": "Установить сканер"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 731,
-        "y": 580
-      }
+      "data": null
     },
     {
       "id": 158,
@@ -5064,16 +4592,13 @@
       ],
       "transfers": [
         {
-          "text": "Идти",
-          "stage": "159",
-          "condition": {}
+          "stage": 159,
+          "condition": {},
+          "text": "Идти"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 30,
-        "y": 197
-      }
+      "data": null
     },
     {
       "id": 159,
@@ -5081,9 +4606,6 @@
       "background": "story/freeplay/screen/40.jpg",
       "title": "Сергей",
       "message": "Новый квест: Установить сканер.",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -5097,16 +4619,13 @@
       ],
       "transfers": [
         {
-          "text": "Установить сканер",
-          "stage": "160",
-          "condition": {}
+          "stage": 160,
+          "condition": {},
+          "text": "Установить сканер"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 620,
-        "y": 308
-      }
+      "data": null
     },
     {
       "id": 160,
@@ -5127,16 +4646,13 @@
       ],
       "transfers": [
         {
-          "text": "Приятно слышать",
-          "stage": "161",
-          "condition": {}
+          "stage": 161,
+          "condition": {},
+          "text": "Приятно слышать"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 718,
-        "y": 276
-      }
+      "data": null
     },
     {
       "id": 161,
@@ -5144,9 +4660,6 @@
       "background": "story/freeplay/screen/38.jpg",
       "title": "Сергей",
       "message": "Новый квест: Вернуться к Сахарову.",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -5160,16 +4673,13 @@
       ],
       "transfers": [
         {
-          "text": "Пока",
-          "stage": "162",
-          "condition": {}
+          "stage": 162,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 674,
-        "y": 837
-      }
+      "data": null
     },
     {
       "id": 162,
@@ -5177,9 +4687,6 @@
       "background": "story/freeplay/screen/35.jpg",
       "title": "Профессор Сахаров",
       "message": "Получено: 500 рублей.",
-      "music": [
-        "4"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -5193,16 +4700,13 @@
       ],
       "transfers": [
         {
-          "text": "Рад стараться",
-          "stage": "163",
-          "condition": {}
+          "stage": 163,
+          "condition": {},
+          "text": "Рад стараться"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 787,
-        "y": 500
-      }
+      "data": null
     },
     {
       "id": 163,
@@ -5223,27 +4727,27 @@
       ],
       "transfers": [
         {
-          "text": "Продолжить",
-          "stage": "144",
-          "condition": {}
+          "stage": 144,
+          "condition": {},
+          "text": "Продолжить"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 779,
-        "y": 347
-      }
+      "data": null
     },
     {
       "id": 164,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "0",
-        "pos": "746:310"
-      },
-      "editor": {
-        "x": 493,
-        "y": 228
+        "pos": "746:310",
+        "map": "0"
       }
     },
     {
@@ -5265,16 +4769,13 @@
       ],
       "transfers": [
         {
-          "text": "Идти",
-          "stage": "159",
-          "condition": {}
+          "stage": 159,
+          "condition": {},
+          "text": "Идти"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 917,
-        "y": 933
-      }
+      "data": null
     },
     {
       "id": 165,
@@ -5295,16 +4796,13 @@
       ],
       "transfers": [
         {
-          "text": "Чего тебе?",
-          "stage": "166",
-          "condition": {}
+          "stage": 166,
+          "condition": {},
+          "text": "Чего тебе?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 520,
-        "y": 30
-      }
+      "data": null
     },
     {
       "id": 166,
@@ -5325,21 +4823,18 @@
       ],
       "transfers": [
         {
-          "text": "Конечно «хошу»",
-          "stage": "167",
-          "condition": {}
+          "stage": 167,
+          "condition": {},
+          "text": "Конечно «хошу»"
         },
         {
-          "text": "Не-а",
-          "stage": "174",
-          "condition": {}
+          "stage": 174,
+          "condition": {},
+          "text": "Не-а"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 501,
-        "y": 380
-      }
+      "data": null
     },
     {
       "id": 167,
@@ -5347,9 +4842,6 @@
       "background": "story/freeplay/screen/42.jpg",
       "title": "Бандит",
       "message": "Новый квест: Коробок.",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -5363,16 +4855,13 @@
       ],
       "transfers": [
         {
-          "text": "У вас разве со свободой не лады?",
-          "stage": "168",
-          "condition": {}
+          "stage": 168,
+          "condition": {},
+          "text": "У вас разве со свободой не лады?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 540,
-        "y": 111
-      }
+      "data": null
     },
     {
       "id": 168,
@@ -5393,16 +4882,13 @@
       ],
       "transfers": [
         {
-          "text": "А что в коробке-то?",
-          "stage": "169",
-          "condition": {}
+          "stage": 169,
+          "condition": {},
+          "text": "А что в коробке-то?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 269,
-        "y": 23
-      }
+      "data": null
     },
     {
       "id": 169,
@@ -5423,16 +4909,13 @@
       ],
       "transfers": [
         {
-          "text": "А что по оплате?",
-          "stage": "170",
-          "condition": {}
+          "stage": 170,
+          "condition": {},
+          "text": "А что по оплате?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 460,
-        "y": 236
-      }
+      "data": null
     },
     {
       "id": 170,
@@ -5453,20 +4936,18 @@
       ],
       "transfers": [
         {
-          "text": "Я согласен. Давай, тащи сюда и калаши свои, и коробок.",
-          "stage": "171",
-          "condition": {}
+          "stage": 171,
+          "condition": {},
+          "text": "Я согласен. Давай, тащи сюда и калаши свои, и коробок."
         },
         {
-          "text": "Не, что-то это мутно всё, рискованно. Пока.",
-          "stage": "174",
-          "condition": {}
+          "stage": 174,
+          "condition": {},
+          "text": "Не, что-то это мутно всё, рискованно. Пока."
         }
       ],
-      "editor": {
-        "x": 627,
-        "y": 358
-      }
+      "actions": null,
+      "data": null
     },
     {
       "id": 171,
@@ -5474,9 +4955,6 @@
       "background": "story/freeplay/screen/42.jpg",
       "title": "Бандит",
       "message": "Получено: АКС-74у х2",
-      "music": [
-        "4"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -5490,9 +4968,9 @@
       ],
       "transfers": [
         {
-          "text": "Такие побитые... Второй вообще изолентой перемотан",
-          "stage": "172",
-          "condition": {}
+          "stage": 172,
+          "condition": {},
+          "text": "Такие побитые... Второй вообще изолентой перемотан"
         }
       ],
       "actions": {
@@ -5500,10 +4978,7 @@
           "quest_1_0_aksuotbandita"
         ]
       },
-      "editor": {
-        "x": 11,
-        "y": 725
-      }
+      "data": null
     },
     {
       "id": 172,
@@ -5524,9 +4999,9 @@
       ],
       "transfers": [
         {
-          "text": "Чтоб оружие стреляло?",
-          "stage": "173",
-          "condition": {}
+          "stage": 173,
+          "condition": {},
+          "text": "Чтоб оружие стреляло?"
         }
       ],
       "actions": {
@@ -5534,10 +5009,7 @@
           "quest_1_0_aksuotbandita_korobok"
         ]
       },
-      "editor": {
-        "x": 455,
-        "y": 119
-      }
+      "data": null
     },
     {
       "id": 173,
@@ -5545,9 +5017,6 @@
       "background": "story/freeplay/screen/42.jpg",
       "title": "Бандит",
       "message": "Новый квест: добраться до базы Свободы",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -5561,9 +5030,9 @@
       ],
       "transfers": [
         {
-          "text": "Пока",
-          "stage": "174",
-          "condition": {}
+          "stage": 174,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {
@@ -5571,21 +5040,21 @@
           "quest_1_0_aksuotbandita_start"
         ]
       },
-      "editor": {
-        "x": 405,
-        "y": 714
-      }
+      "data": null
     },
     {
       "id": 174,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "3",
-        "pos": "1484:1451"
-      },
-      "editor": {
-        "x": 392,
-        "y": 618
+        "pos": "1484:1451",
+        "map": "3"
       }
     },
     {
@@ -5607,31 +5076,28 @@
       ],
       "transfers": [
         {
-          "text": "...",
-          "stage": "176",
-          "condition": {}
+          "stage": 176,
+          "condition": {},
+          "text": "..."
         },
         {
-          "text": "Ну-у... Э-э...",
-          "stage": "176",
-          "condition": {}
+          "stage": 176,
+          "condition": {},
+          "text": "Ну-у... Э-э..."
         },
         {
-          "text": "Зачем?",
-          "stage": "176",
-          "condition": {}
+          "stage": 176,
+          "condition": {},
+          "text": "Зачем?"
         },
         {
-          "text": "Да пошёл ты.",
-          "stage": "176",
-          "condition": {}
+          "stage": 176,
+          "condition": {},
+          "text": "Да пошёл ты."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 524,
-        "y": 760
-      }
+      "data": null
     },
     {
       "id": 176,
@@ -5652,21 +5118,18 @@
       ],
       "transfers": [
         {
-          "text": "Ладно, у меня тут посылка - пара калашей. Кто-то заказывал?",
-          "stage": "177",
-          "condition": {}
+          "stage": 177,
+          "condition": {},
+          "text": "Ладно, у меня тут посылка - пара калашей. Кто-то заказывал?"
         },
         {
-          "text": "Лучше скажи, кому мне эти калаши отдать.",
-          "stage": "177",
-          "condition": {}
+          "stage": 177,
+          "condition": {},
+          "text": "Лучше скажи, кому мне эти калаши отдать."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 623,
-        "y": 562
-      }
+      "data": null
     },
     {
       "id": 177,
@@ -5687,16 +5150,13 @@
       ],
       "transfers": [
         {
-          "text": "...",
-          "stage": "180",
-          "condition": {}
+          "stage": 180,
+          "condition": {},
+          "text": "..."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 153,
-        "y": 284
-      }
+      "data": null
     },
     {
       "id": 178,
@@ -5717,27 +5177,27 @@
       ],
       "transfers": [
         {
-          "text": "Понял, бывай.",
-          "stage": "179",
-          "condition": {}
+          "stage": 179,
+          "condition": {},
+          "text": "Понял, бывай."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 215,
-        "y": 893
-      }
+      "data": null
     },
     {
       "id": 179,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "7",
-        "pos": "901:426"
-      },
-      "editor": {
-        "x": 209,
-        "y": 581
+        "pos": "901:426",
+        "map": "7"
       }
     },
     {
@@ -5759,16 +5219,13 @@
       ],
       "transfers": [
         {
-          "text": "У меня здесь посылка.",
-          "stage": "181",
-          "condition": {}
+          "stage": 181,
+          "condition": {},
+          "text": "У меня здесь посылка."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 786,
-        "y": 46
-      }
+      "data": null
     },
     {
       "id": 181,
@@ -5789,16 +5246,13 @@
       ],
       "transfers": [
         {
-          "text": "Два калаша раздолбанных и коробок какой-то.",
-          "stage": "182",
-          "condition": {}
+          "stage": 182,
+          "condition": {},
+          "text": "Два калаша раздолбанных и коробок какой-то."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 315,
-        "y": 938
-      }
+      "data": null
     },
     {
       "id": 182,
@@ -5819,9 +5273,9 @@
       ],
       "transfers": [
         {
-          "text": "Что по оплате?",
-          "stage": "183",
-          "condition": {}
+          "stage": 183,
+          "condition": {},
+          "text": "Что по оплате?"
         }
       ],
       "actions": {
@@ -5829,10 +5283,7 @@
           "quest_1_0_aksuotbandita_korobok"
         ]
       },
-      "editor": {
-        "x": 580,
-        "y": 714
-      }
+      "data": null
     },
     {
       "id": 183,
@@ -5840,9 +5291,6 @@
       "background": "story/freeplay/screen/44.jpg",
       "title": "Получатель",
       "message": "Получено: 1000 рублей",
-      "music": [
-        "4"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -5856,9 +5304,9 @@
       ],
       "transfers": [
         {
-          "text": "Лады.",
-          "stage": "184",
-          "condition": {}
+          "stage": 184,
+          "condition": {},
+          "text": "Лады."
         }
       ],
       "actions": {
@@ -5866,10 +5314,7 @@
           "1000"
         ]
       },
-      "editor": {
-        "x": 173,
-        "y": 431
-      }
+      "data": null
     },
     {
       "id": 184,
@@ -5890,21 +5335,18 @@
       ],
       "transfers": [
         {
-          "text": "По рукам",
-          "stage": "185",
-          "condition": {}
+          "stage": 185,
+          "condition": {},
+          "text": "По рукам"
         },
         {
-          "text": "Не, оставь себе",
-          "stage": "186",
-          "condition": {}
+          "stage": 186,
+          "condition": {},
+          "text": "Не, оставь себе"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 409,
-        "y": 360
-      }
+      "data": null
     },
     {
       "id": 185,
@@ -5912,9 +5354,6 @@
       "background": "story/freeplay/screen/44.jpg",
       "title": "Получатель",
       "message": "Новый квест: Вернуться к бандитам",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -5928,16 +5367,13 @@
       ],
       "transfers": [
         {
-          "text": "Пока.",
-          "stage": "179",
-          "condition": {}
+          "stage": 179,
+          "condition": {},
+          "text": "Пока."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 877,
-        "y": 548
-      }
+      "data": null
     },
     {
       "id": 186,
@@ -5945,9 +5381,6 @@
       "background": "story/freeplay/screen/44.jpg",
       "title": "Получатель",
       "message": "Выполнен квест: отнести Свободе груз",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -5961,9 +5394,9 @@
       ],
       "transfers": [
         {
-          "text": "Пока.",
-          "stage": "179",
-          "condition": {}
+          "stage": 179,
+          "condition": {},
+          "text": "Пока."
         }
       ],
       "actions": {
@@ -5971,10 +5404,7 @@
           "quest_1_0_aksuotbandita"
         ]
       },
-      "editor": {
-        "x": 771,
-        "y": 891
-      }
+      "data": null
     },
     {
       "id": 187,
@@ -5995,16 +5425,13 @@
       ],
       "transfers": [
         {
-          "text": "Да, всё доставил. И Получатель просил передать, чтоб в следующий раз коробки не так сильно в магазины запихивал – Долг в тех окрестностях давно не появлялся.",
-          "stage": "188",
-          "condition": {}
+          "stage": 188,
+          "condition": {},
+          "text": "Да, всё доставил. И Получатель просил передать, чтоб в следующий раз коробки не так сильно в магазины запихивал – Долг в тех окрестностях давно не появлялся."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 178,
-        "y": 72
-      }
+      "data": null
     },
     {
       "id": 188,
@@ -6025,25 +5452,22 @@
       ],
       "transfers": [
         {
-          "text": "Пока",
-          "stage": "174",
-          "condition": {}
+          "stage": 174,
+          "condition": {},
+          "text": "Пока"
         },
         {
-          "text": "Получатель ещё попросил калаши тебе вернуть за дополнительную плату.",
-          "stage": "189",
+          "stage": 189,
           "condition": {
             "has": [
               "quest_1_0_aksuotbandita"
             ]
-          }
+          },
+          "text": "Получатель ещё попросил калаши тебе вернуть за дополнительную плату."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 683,
-        "y": 398
-      }
+      "data": null
     },
     {
       "id": 189,
@@ -6051,9 +5475,6 @@
       "background": "story/freeplay/screen/45.jpg",
       "title": "Бандит",
       "message": "Выполнен квест: отнести Свободе груз. Получено: 500 рублей",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -6067,9 +5488,9 @@
       ],
       "transfers": [
         {
-          "text": "Пока.",
-          "stage": "174",
-          "condition": {}
+          "stage": 174,
+          "condition": {},
+          "text": "Пока."
         }
       ],
       "actions": {
@@ -6080,10 +5501,7 @@
           "quest_1_0_aksuotbandita"
         ]
       },
-      "editor": {
-        "x": 392,
-        "y": 663
-      }
+      "data": null
     },
     {
       "id": 190,
@@ -6104,25 +5522,22 @@
       ],
       "transfers": [
         {
-          "text": "У меня информация для вас",
-          "stage": "175",
+          "stage": 175,
           "condition": {
             "has": [
               "quest_1_0_aksuotbandita_korobok"
             ]
-          }
+          },
+          "text": "У меня информация для вас"
         },
         {
-          "text": "Пока",
-          "stage": "179",
-          "condition": {}
+          "stage": 179,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 288,
-        "y": 953
-      }
+      "data": null
     },
     {
       "id": 191,
@@ -6143,52 +5558,49 @@
       ],
       "transfers": [
         {
-          "text": "Схрон за 1000",
-          "stage": "192",
+          "stage": 192,
           "condition": {
-            "!has": [
-              "stash_1_0_start"
-            ],
             "money>=": [
               "1000"
+            ],
+            "!has": [
+              "stash_1_0_start"
             ]
-          }
+          },
+          "text": "Схрон за 1000"
         },
         {
-          "text": "Схрон за 2000",
-          "stage": "300",
+          "stage": 300,
           "condition": {
-            "!has": [
-              "stash_2_0_start"
-            ],
             "money>=": [
               "2000"
+            ],
+            "!has": [
+              "stash_2_0_start"
             ]
-          }
+          },
+          "text": "Схрон за 2000"
         },
         {
-          "text": "Схрон за 5000",
-          "stage": "192",
+          "stage": 192,
           "condition": {
-            "!has": [
-              "stash_3_0_start"
-            ],
             "money>=": [
               "5000"
+            ],
+            "!has": [
+              "stash_3_0_start"
             ]
-          }
+          },
+          "text": "Схрон за 5000"
         },
         {
-          "text": "В другой раз",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "В другой раз"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 339,
-        "y": 755
-      }
+      "data": null
     },
     {
       "id": 192,
@@ -6209,21 +5621,18 @@
       ],
       "transfers": [
         {
-          "text": "Беру",
-          "stage": "193",
-          "condition": {}
+          "stage": 193,
+          "condition": {},
+          "text": "Беру"
         },
         {
-          "text": "Не подходит",
-          "stage": "191",
-          "condition": {}
+          "stage": 191,
+          "condition": {},
+          "text": "Не подходит"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 863,
-        "y": 628
-      }
+      "data": null
     },
     {
       "id": 193,
@@ -6244,25 +5653,22 @@
       ],
       "transfers": [
         {
-          "text": "Увидел",
-          "stage": "198",
-          "condition": {}
+          "stage": 198,
+          "condition": {},
+          "text": "Увидел"
         }
       ],
       "actions": {
-        "note": [
-          "Тайник за Барахолкой",
-          "...снаряжение припрятал за Барахолкой на Свалке, как идти в сторону Тёмной Долины... Лежит в стопке шин..."
-        ],
         "add": [
           "stash_1_0_start",
           "stash_1_0"
+        ],
+        "note": [
+          "Тайник за Барахолкой",
+          "...снаряжение припрятал за Барахолкой на Свалке, как идти в сторону Тёмной Долины... Лежит в стопке шин..."
         ]
       },
-      "editor": {
-        "x": 75,
-        "y": 497
-      }
+      "data": null
     },
     {
       "id": 198,
@@ -6283,9 +5689,9 @@
       ],
       "transfers": [
         {
-          "text": "Пока",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Пока"
         }
       ],
       "actions": {
@@ -6294,10 +5700,7 @@
         ],
         "syncNow": []
       },
-      "editor": {
-        "x": 243,
-        "y": 442
-      }
+      "data": null
     },
     {
       "id": 194,
@@ -6318,16 +5721,13 @@
       ],
       "transfers": [
         {
-          "text": "Осмотреть",
-          "stage": "195",
-          "condition": {}
+          "stage": 195,
+          "condition": {},
+          "text": "Осмотреть"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 734,
-        "y": 824
-      }
+      "data": null
     },
     {
       "id": 195,
@@ -6348,21 +5748,18 @@
       ],
       "transfers": [
         {
-          "text": "Забрать",
-          "stage": "196",
-          "condition": {}
+          "stage": 196,
+          "condition": {},
+          "text": "Забрать"
         },
         {
-          "text": "Уйти",
-          "stage": "197",
-          "condition": {}
+          "stage": 197,
+          "condition": {},
+          "text": "Уйти"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 359,
-        "y": 121
-      }
+      "data": null
     },
     {
       "id": 196,
@@ -6370,9 +5767,6 @@
       "background": "story/freeplay/screen/47.jpg",
       "title": "Тайник",
       "message": "Получено: Аптечка х2, патроны 9х18 х30, Гадюка.",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -6386,9 +5780,9 @@
       ],
       "transfers": [
         {
-          "text": "Уйти",
-          "stage": "197",
-          "condition": {}
+          "stage": 197,
+          "condition": {},
+          "text": "Уйти"
         }
       ],
       "actions": {
@@ -6401,216 +5795,246 @@
           "stash_1_0"
         ]
       },
-      "editor": {
-        "x": 428,
-        "y": 734
-      }
+      "data": null
     },
     {
       "id": 197,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "2",
-        "pos": "951:1087"
-      },
-      "editor": {
-        "x": 406,
-        "y": 1
+        "pos": "951:1087",
+        "map": "2"
       }
     },
     {
       "id": 200,
-      "_comment": "Transfer Kordon-Swalka",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "2",
-        "pos": "721:188"
-      },
-      "editor": {
-        "x": 181,
-        "y": 580
+        "pos": "721:188",
+        "map": "2"
       }
     },
     {
       "id": 201,
-      "_comment": "Transfer Swalka-Kordon",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "671:2346"
-      },
-      "editor": {
-        "x": 196,
-        "y": 340
+        "pos": "671:2346",
+        "map": "1"
       }
     },
     {
       "id": 202,
-      "_comment": "Transfer Kordon-ch4",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "0",
-        "pos": "1178:1425"
-      },
-      "editor": {
-        "x": 415,
-        "y": 15
+        "pos": "1178:1425",
+        "map": "0"
       }
     },
     {
       "id": 203,
-      "_comment": "Transfer ch4-Kordon",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "321:429"
-      },
-      "editor": {
-        "x": 564,
-        "y": 915
+        "pos": "321:429",
+        "map": "1"
       }
     },
     {
       "id": 204,
-      "_comment": "Transfer Swalka-Bar",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "3",
-        "pos": "2104:539"
-      },
-      "editor": {
-        "x": 453,
-        "y": 797
+        "pos": "2104:539",
+        "map": "3"
       }
     },
     {
       "id": 205,
-      "_comment": "Transfer Bar-Swalka",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "2",
-        "pos": "722:1143"
-      },
-      "editor": {
-        "x": 116,
-        "y": 501
+        "pos": "722:1143",
+        "map": "2"
       }
     },
     {
       "id": 206,
-      "_comment": "Transfer Swalka-Dark",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "5",
-        "pos": "46:678"
-      },
-      "editor": {
-        "x": 277,
-        "y": 918
+        "pos": "46:678",
+        "map": "5"
       }
     },
     {
       "id": 207,
-      "_comment": "Transfer Dark-Swalka",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "2",
-        "pos": "1173:1071"
-      },
-      "editor": {
-        "x": 622,
-        "y": 468
+        "pos": "1173:1071",
+        "map": "2"
       }
     },
     {
       "id": 208,
-      "_comment": "Transfer Bar-Wild",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "4",
-        "pos": "1270:1483"
-      },
-      "editor": {
-        "x": 70,
-        "y": 435
+        "pos": "1270:1483",
+        "map": "4"
       }
     },
     {
       "id": 209,
-      "_comment": "Transfer Wild-Bar",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "3",
-        "pos": "1330:1483"
-      },
-      "editor": {
-        "x": 299,
-        "y": 42
+        "pos": "1330:1483",
+        "map": "3"
       }
     },
     {
       "id": 210,
-      "_comment": "Transfer Bar-Army",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "7",
-        "pos": "230:359"
-      },
-      "editor": {
-        "x": 516,
-        "y": 416
+        "pos": "230:359",
+        "map": "7"
       }
     },
     {
       "id": 211,
-      "_comment": "Transfer Army-Bar",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "3",
-        "pos": "1315:1810"
-      },
-      "editor": {
-        "x": 91,
-        "y": 245
+        "pos": "1315:1810",
+        "map": "3"
       }
     },
     {
       "id": 212,
-      "_comment": "Transfer Wild-Yantar",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "6",
-        "pos": "1072:382"
-      },
-      "editor": {
-        "x": 601,
-        "y": 744
+        "pos": "1072:382",
+        "map": "6"
       }
     },
     {
       "id": 213,
-      "_comment": "Transfer Yantar-Wild",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "4",
-        "pos": "1042:691"
-      },
-      "editor": {
-        "x": 363,
-        "y": 870
+        "pos": "1042:691",
+        "map": "4"
       }
     },
     {
       "id": 306,
-      "_comment": "Transfer Swalka-Agro",
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "8",
-        "pos": "1042:691"
-      },
-      "editor": {
-        "x": 457,
-        "y": 453
+        "pos": "1042:691",
+        "map": "8"
       }
     },
     {
@@ -6632,16 +6056,13 @@
       ],
       "transfers": [
         {
-          "text": "Ух ты, весело тут у вас",
-          "stage": "215",
-          "condition": {}
+          "stage": 215,
+          "condition": {},
+          "text": "Ух ты, весело тут у вас"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 201,
-        "y": 742
-      }
+      "data": null
     },
     {
       "id": 215,
@@ -6662,16 +6083,13 @@
       ],
       "transfers": [
         {
-          "text": "Ээээй, да густой тумааан",
-          "stage": "216",
-          "condition": {}
+          "stage": 216,
+          "condition": {},
+          "text": "Ээээй, да густой тумааан"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 686,
-        "y": 937
-      }
+      "data": null
     },
     {
       "id": 216,
@@ -6692,16 +6110,13 @@
       ],
       "transfers": [
         {
-          "text": "А зачем мне туда, собственно, топать? Какая мзда?",
-          "stage": "217",
-          "condition": {}
+          "stage": 217,
+          "condition": {},
+          "text": "А зачем мне туда, собственно, топать? Какая мзда?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 131,
-        "y": 270
-      }
+      "data": null
     },
     {
       "id": 217,
@@ -6722,16 +6137,13 @@
       ],
       "transfers": [
         {
-          "text": "...",
-          "stage": "218",
-          "condition": {}
+          "stage": 218,
+          "condition": {},
+          "text": "..."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 823,
-        "y": 233
-      }
+      "data": null
     },
     {
       "id": 218,
@@ -6752,16 +6164,13 @@
       ],
       "transfers": [
         {
-          "text": "Мне тут Лыжник сказал, что ты обо мне за спиной прохвастал, типо мне по плечу по темной лощине прогуляться и не обосраться. Действительно ли это так?",
-          "stage": "219",
-          "condition": {}
+          "stage": 219,
+          "condition": {},
+          "text": "Мне тут Лыжник сказал, что ты обо мне за спиной прохвастал, типо мне по плечу по темной лощине прогуляться и не обосраться. Действительно ли это так?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 662,
-        "y": 896
-      }
+      "data": null
     },
     {
       "id": 219,
@@ -6782,16 +6191,13 @@
       ],
       "transfers": [
         {
-          "text": "Да, знаю, когда деньги в обществе были не в ходу, люди менялись товаром на товар",
-          "stage": "220",
-          "condition": {}
+          "stage": 220,
+          "condition": {},
+          "text": "Да, знаю, когда деньги в обществе были не в ходу, люди менялись товаром на товар"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 229,
-        "y": 515
-      }
+      "data": null
     },
     {
       "id": 220,
@@ -6812,16 +6218,13 @@
       ],
       "transfers": [
         {
-          "text": "Что у тебя на уме?",
-          "stage": "221",
-          "condition": {}
+          "stage": 221,
+          "condition": {},
+          "text": "Что у тебя на уме?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 88,
-        "y": 593
-      }
+      "data": null
     },
     {
       "id": 221,
@@ -6842,9 +6245,9 @@
       ],
       "transfers": [
         {
-          "text": "Понял",
-          "stage": "222",
-          "condition": {}
+          "stage": 222,
+          "condition": {},
+          "text": "Понял"
         }
       ],
       "actions": {
@@ -6853,21 +6256,21 @@
           "quest_samagon_start"
         ]
       },
-      "editor": {
-        "x": 535,
-        "y": 451
-      }
+      "data": null
     },
     {
       "id": 222,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "1202:1497"
-      },
-      "editor": {
-        "x": 622,
-        "y": 322
+        "pos": "1202:1497",
+        "map": "1"
       }
     },
     {
@@ -6889,16 +6292,13 @@
       ],
       "transfers": [
         {
-          "text": "Спокойно, сталкер я. От Кастета сумка к вам на ногах приперлась",
-          "stage": "224",
-          "condition": {}
+          "stage": 224,
+          "condition": {},
+          "text": "Спокойно, сталкер я. От Кастета сумка к вам на ногах приперлась"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 730,
-        "y": 816
-      }
+      "data": null
     },
     {
       "id": 224,
@@ -6919,16 +6319,13 @@
       ],
       "transfers": [
         {
-          "text": "Войти",
-          "stage": "225",
-          "condition": {}
+          "stage": 225,
+          "condition": {},
+          "text": "Войти"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 86,
-        "y": 905
-      }
+      "data": null
     },
     {
       "id": 225,
@@ -6949,16 +6346,13 @@
       ],
       "transfers": [
         {
-          "text": "Вот сумка, Кастет сказал передать ее вам, там припасы",
-          "stage": "226",
-          "condition": {}
+          "stage": 226,
+          "condition": {},
+          "text": "Вот сумка, Кастет сказал передать ее вам, там припасы"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 607,
-        "y": 598
-      }
+      "data": null
     },
     {
       "id": 226,
@@ -6979,9 +6373,9 @@
       ],
       "transfers": [
         {
-          "text": "Поскольку постольку…",
-          "stage": "227",
-          "condition": {}
+          "stage": 227,
+          "condition": {},
+          "text": "Поскольку постольку…"
         }
       ],
       "actions": {
@@ -6989,10 +6383,7 @@
           "quest_samagon_1"
         ]
       },
-      "editor": {
-        "x": 868,
-        "y": 273
-      }
+      "data": null
     },
     {
       "id": 227,
@@ -7013,16 +6404,13 @@
       ],
       "transfers": [
         {
-          "text": "Эээ...",
-          "stage": "228",
-          "condition": {}
+          "stage": 228,
+          "condition": {},
+          "text": "Эээ..."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 811,
-        "y": 371
-      }
+      "data": null
     },
     {
       "id": 228,
@@ -7043,16 +6431,13 @@
       ],
       "transfers": [
         {
-          "text": "Верно-верно, надо и таким суровым воякам иногда отдыхать",
-          "stage": "229",
-          "condition": {}
+          "stage": 229,
+          "condition": {},
+          "text": "Верно-верно, надо и таким суровым воякам иногда отдыхать"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 557,
-        "y": 271
-      }
+      "data": null
     },
     {
       "id": 229,
@@ -7073,16 +6458,13 @@
       ],
       "transfers": [
         {
-          "text": "Что это?",
-          "stage": "230",
-          "condition": {}
+          "stage": 230,
+          "condition": {},
+          "text": "Что это?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 658,
-        "y": 956
-      }
+      "data": null
     },
     {
       "id": 230,
@@ -7103,16 +6485,13 @@
       ],
       "transfers": [
         {
-          "text": "Окей, попробую донести. Кастет говорил, что у вас и для него есть товар",
-          "stage": "231",
-          "condition": {}
+          "stage": 231,
+          "condition": {},
+          "text": "Окей, попробую донести. Кастет говорил, что у вас и для него есть товар"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 840,
-        "y": 181
-      }
+      "data": null
     },
     {
       "id": 231,
@@ -7133,9 +6512,9 @@
       ],
       "transfers": [
         {
-          "text": "Я понял",
-          "stage": "232",
-          "condition": {}
+          "stage": 232,
+          "condition": {},
+          "text": "Я понял"
         }
       ],
       "actions": {
@@ -7144,21 +6523,21 @@
           "quest_samagon_box"
         ]
       },
-      "editor": {
-        "x": 481,
-        "y": 224
-      }
+      "data": null
     },
     {
       "id": 232,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "506:576"
-      },
-      "editor": {
-        "x": 464,
-        "y": 104
+        "pos": "506:576",
+        "map": "1"
       }
     },
     {
@@ -7180,16 +6559,13 @@
       ],
       "transfers": [
         {
-          "text": "Вот держи. Веселый мужик этот твой старший сержантик. Боевичок еще тот: днем - как на параде, вечером – под шафе",
-          "stage": "234",
-          "condition": {}
+          "stage": 234,
+          "condition": {},
+          "text": "Вот держи. Веселый мужик этот твой старший сержантик. Боевичок еще тот: днем - как на параде, вечером – под шафе"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 835,
-        "y": 270
-      }
+      "data": null
     },
     {
       "id": 234,
@@ -7210,24 +6586,21 @@
       ],
       "transfers": [
         {
-          "text": "Доволен?",
-          "stage": "235",
-          "condition": {}
+          "stage": 235,
+          "condition": {},
+          "text": "Доволен?"
         }
       ],
       "actions": {
+        "add": [
+          "quest_samagon_end"
+        ],
         "remove": [
           "quest_samagon_box",
           "quest_samagon_start"
-        ],
-        "add": [
-          "quest_samagon_end"
         ]
       },
-      "editor": {
-        "x": 334,
-        "y": 191
-      }
+      "data": null
     },
     {
       "id": 235,
@@ -7248,26 +6621,23 @@
       ],
       "transfers": [
         {
-          "text": "Спасибо",
-          "stage": "222",
-          "condition": {}
+          "stage": 222,
+          "condition": {},
+          "text": "Спасибо"
         }
       ],
       "actions": {
+        "add": [
+          "44:50"
+        ],
         "money": [
           "1500"
         ],
         "xp": [
           "20"
-        ],
-        "add": [
-          "44:50"
         ]
       },
-      "editor": {
-        "x": 480,
-        "y": 435
-      }
+      "data": null
     },
     {
       "id": 236,
@@ -7288,16 +6658,13 @@
       ],
       "transfers": [
         {
-          "text": "Посылка от Подгорного",
-          "stage": "237",
-          "condition": {}
+          "stage": 237,
+          "condition": {},
+          "text": "Посылка от Подгорного"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 278,
-        "y": 418
-      }
+      "data": null
     },
     {
       "id": 237,
@@ -7318,34 +6685,34 @@
       ],
       "transfers": [
         {
-          "text": "Счастливо",
-          "stage": "238",
-          "condition": {}
+          "stage": 238,
+          "condition": {},
+          "text": "Счастливо"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_samagon_device"
-        ],
         "xp": [
           "20"
+        ],
+        "remove": [
+          "quest_samagon_device"
         ]
       },
-      "editor": {
-        "x": 269,
-        "y": 866
-      }
+      "data": null
     },
     {
       "id": 238,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "5",
-        "pos": "147:237"
-      },
-      "editor": {
-        "x": 492,
-        "y": 132
+        "pos": "147:237",
+        "map": "5"
       }
     },
     {
@@ -7367,16 +6734,13 @@
       ],
       "transfers": [
         {
-          "text": "Есть работа?",
-          "stage": "240",
-          "condition": {}
+          "stage": 240,
+          "condition": {},
+          "text": "Есть работа?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 999,
-        "y": 561
-      }
+      "data": null
     },
     {
       "id": 240,
@@ -7397,16 +6761,13 @@
       ],
       "transfers": [
         {
-          "text": "Ого сколько пойла тебе нужно. Весь Росток хочется напоить?",
-          "stage": "241",
-          "condition": {}
+          "stage": 241,
+          "condition": {},
+          "text": "Ого сколько пойла тебе нужно. Весь Росток хочется напоить?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 295,
-        "y": 846
-      }
+      "data": null
     },
     {
       "id": 241,
@@ -7427,16 +6788,13 @@
       ],
       "transfers": [
         {
-          "text": "Но где взять столько спирного?",
-          "stage": "242",
-          "condition": {}
+          "stage": 242,
+          "condition": {},
+          "text": "Но где взять столько спирного?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 553,
-        "y": 812
-      }
+      "data": null
     },
     {
       "id": 242,
@@ -7457,16 +6815,13 @@
       ],
       "transfers": [
         {
-          "text": "Почему все так масштабно?",
-          "stage": "243",
-          "condition": {}
+          "stage": 243,
+          "condition": {},
+          "text": "Почему все так масштабно?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 203,
-        "y": 197
-      }
+      "data": null
     },
     {
       "id": 243,
@@ -7487,16 +6842,13 @@
       ],
       "transfers": [
         {
-          "text": "Неее, имею ввиду другое. Ты решил алкозавод возвести за полторы недели?",
-          "stage": "244",
-          "condition": {}
+          "stage": 244,
+          "condition": {},
+          "text": "Неее, имею ввиду другое. Ты решил алкозавод возвести за полторы недели?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 400,
-        "y": 888
-      }
+      "data": null
     },
     {
       "id": 244,
@@ -7517,16 +6869,13 @@
       ],
       "transfers": [
         {
-          "text": "Почему Бармен сам не нагонит себе остальное?",
-          "stage": "245",
-          "condition": {}
+          "stage": 245,
+          "condition": {},
+          "text": "Почему Бармен сам не нагонит себе остальное?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 294,
-        "y": 904
-      }
+      "data": null
     },
     {
       "id": 245,
@@ -7547,21 +6896,18 @@
       ],
       "transfers": [
         {
-          "text": "Ладно, приду как накопаю",
-          "stage": "247",
-          "condition": {}
+          "stage": 247,
+          "condition": {},
+          "text": "Ладно, приду как накопаю"
         },
         {
-          "text": "Не, стремное делишко, я отказываюсь",
-          "stage": "246",
-          "condition": {}
+          "stage": 246,
+          "condition": {},
+          "text": "Не, стремное делишко, я отказываюсь"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 874,
-        "y": 365
-      }
+      "data": null
     },
     {
       "id": 246,
@@ -7582,16 +6928,13 @@
       ],
       "transfers": [
         {
-          "text": "Уйти",
-          "stage": "222",
-          "condition": {}
+          "stage": 222,
+          "condition": {},
+          "text": "Уйти"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 548,
-        "y": 476
-      }
+      "data": null
     },
     {
       "id": 247,
@@ -7612,9 +6955,9 @@
       ],
       "transfers": [
         {
-          "text": "Уйти",
-          "stage": "222",
-          "condition": {}
+          "stage": 222,
+          "condition": {},
+          "text": "Уйти"
         }
       ],
       "actions": {
@@ -7622,10 +6965,7 @@
           "quest_distillery_start"
         ]
       },
-      "editor": {
-        "x": 330,
-        "y": 275
-      }
+      "data": null
     },
     {
       "id": 248,
@@ -7646,16 +6986,13 @@
       ],
       "transfers": [
         {
-          "text": "Здорово, мужики!",
-          "stage": "249",
-          "condition": {}
+          "stage": 249,
+          "condition": {},
+          "text": "Здорово, мужики!"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 190,
-        "y": 183
-      }
+      "data": null
     },
     {
       "id": 249,
@@ -7676,16 +7013,13 @@
       ],
       "transfers": [
         {
-          "text": "Что? Ммм?",
-          "stage": "250",
-          "condition": {}
+          "stage": 250,
+          "condition": {},
+          "text": "Что? Ммм?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 707,
-        "y": 939
-      }
+      "data": null
     },
     {
       "id": 250,
@@ -7706,16 +7040,13 @@
       ],
       "transfers": [
         {
-          "text": "У вас форма такая, какая-то иная. Вы, собственно, кто?",
-          "stage": "251",
-          "condition": {}
+          "stage": 251,
+          "condition": {},
+          "text": "У вас форма такая, какая-то иная. Вы, собственно, кто?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 761,
-        "y": 414
-      }
+      "data": null
     },
     {
       "id": 251,
@@ -7736,16 +7067,13 @@
       ],
       "transfers": [
         {
-          "text": "А там в «зеленке» в кустах кто лежит?",
-          "stage": "252",
-          "condition": {}
+          "stage": 252,
+          "condition": {},
+          "text": "А там в «зеленке» в кустах кто лежит?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 755,
-        "y": 239
-      }
+      "data": null
     },
     {
       "id": 252,
@@ -7766,16 +7094,13 @@
       ],
       "transfers": [
         {
-          "text": "Прямо как наемники. Вы, небось, они и есть?",
-          "stage": "253",
-          "condition": {}
+          "stage": 253,
+          "condition": {},
+          "text": "Прямо как наемники. Вы, небось, они и есть?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 875,
-        "y": 777
-      }
+      "data": null
     },
     {
       "id": 253,
@@ -7796,21 +7121,18 @@
       ],
       "transfers": [
         {
-          "text": "И чем же вы промышляете ребята? Может расскажите?",
-          "stage": "254",
-          "condition": {}
+          "stage": 254,
+          "condition": {},
+          "text": "И чем же вы промышляете ребята? Может расскажите?"
         },
         {
-          "text": "Ладно, приятно было познакомится, пошёл я",
-          "stage": "222",
-          "condition": {}
+          "stage": 222,
+          "condition": {},
+          "text": "Ладно, приятно было познакомится, пошёл я"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 870,
-        "y": 29
-      }
+      "data": null
     },
     {
       "id": 254,
@@ -7831,16 +7153,13 @@
       ],
       "transfers": [
         {
-          "text": "И откуда тогда поступает товар?",
-          "stage": "255",
-          "condition": {}
+          "stage": 255,
+          "condition": {},
+          "text": "И откуда тогда поступает товар?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 468,
-        "y": 486
-      }
+      "data": null
     },
     {
       "id": 255,
@@ -7861,16 +7180,13 @@
       ],
       "transfers": [
         {
-          "text": "И с вояками договориться же как то смог!",
-          "stage": "256",
-          "condition": {}
+          "stage": 256,
+          "condition": {},
+          "text": "И с вояками договориться же как то смог!"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 813,
-        "y": 457
-      }
+      "data": null
     },
     {
       "id": 256,
@@ -7891,16 +7207,13 @@
       ],
       "transfers": [
         {
-          "text": "Так так, может расскажешь?",
-          "stage": "257",
-          "condition": {}
+          "stage": 257,
+          "condition": {},
+          "text": "Так так, может расскажешь?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 444,
-        "y": 404
-      }
+      "data": null
     },
     {
       "id": 257,
@@ -7921,16 +7234,13 @@
       ],
       "transfers": [
         {
-          "text": "Хорошо, давай сюда свой чемодан, отнесу.",
-          "stage": "258",
-          "condition": {}
+          "stage": 258,
+          "condition": {},
+          "text": "Хорошо, давай сюда свой чемодан, отнесу."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 162,
-        "y": 255
-      }
+      "data": null
     },
     {
       "id": 258,
@@ -7951,9 +7261,9 @@
       ],
       "transfers": [
         {
-          "text": "Уйти",
-          "stage": "222",
-          "condition": {}
+          "stage": 222,
+          "condition": {},
+          "text": "Уйти"
         }
       ],
       "actions": {
@@ -7962,10 +7272,7 @@
           "quest_kastet_start"
         ]
       },
-      "editor": {
-        "x": 2,
-        "y": 844
-      }
+      "data": null
     },
     {
       "id": 259,
@@ -7986,9 +7293,9 @@
       ],
       "transfers": [
         {
-          "text": "Да, вроде мирные ребята при нем, похож на наемника. Почему он так одет?",
-          "stage": "260",
-          "condition": {}
+          "stage": 260,
+          "condition": {},
+          "text": "Да, вроде мирные ребята при нем, похож на наемника. Почему он так одет?"
         }
       ],
       "actions": {
@@ -7996,10 +7303,7 @@
           "quest_kastet_chemodan"
         ]
       },
-      "editor": {
-        "x": 438,
-        "y": 509
-      }
+      "data": null
     },
     {
       "id": 260,
@@ -8020,9 +7324,9 @@
       ],
       "transfers": [
         {
-          "text": "Уйти",
-          "stage": "9",
-          "condition": {}
+          "stage": 9,
+          "condition": {},
+          "text": "Уйти"
         }
       ],
       "actions": {
@@ -8030,10 +7334,7 @@
           "quest_kastet_konvert"
         ]
       },
-      "editor": {
-        "x": 977,
-        "y": 620
-      }
+      "data": null
     },
     {
       "id": 261,
@@ -8054,16 +7355,13 @@
       ],
       "transfers": [
         {
-          "text": "Отнес я твой чемодан, держи от торговца конверт, он просил передать",
-          "stage": "262",
-          "condition": {}
+          "stage": 262,
+          "condition": {},
+          "text": "Отнес я твой чемодан, держи от торговца конверт, он просил передать"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 464,
-        "y": 693
-      }
+      "data": null
     },
     {
       "id": 262,
@@ -8084,24 +7382,21 @@
       ],
       "transfers": [
         {
-          "text": "Уйти",
-          "stage": "222",
-          "condition": {}
+          "stage": 222,
+          "condition": {},
+          "text": "Уйти"
         }
       ],
       "actions": {
+        "add": [
+          "quest_kastet_1_end"
+        ],
         "remove": [
           "quest_kastet_konvert",
           "querst_kastet_start"
-        ],
-        "add": [
-          "quest_kastet_1_end"
         ]
       },
-      "editor": {
-        "x": 711,
-        "y": 28
-      }
+      "data": null
     },
     {
       "id": 263,
@@ -8122,16 +7417,13 @@
       ],
       "transfers": [
         {
-          "text": "Так все-таки, Кастет, чем же вы занимаетесь, как то вы ведь поднялись?",
-          "stage": "264",
-          "condition": {}
+          "stage": 264,
+          "condition": {},
+          "text": "Так все-таки, Кастет, чем же вы занимаетесь, как то вы ведь поднялись?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 338,
-        "y": 789
-      }
+      "data": null
     },
     {
       "id": 264,
@@ -8152,16 +7444,13 @@
       ],
       "transfers": [
         {
-          "text": "Ну вот снаряга неплохая у вас есть, людей ты знаешь интересных в Зоне",
-          "stage": "265",
-          "condition": {}
+          "stage": 265,
+          "condition": {},
+          "text": "Ну вот снаряга неплохая у вас есть, людей ты знаешь интересных в Зоне"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 654,
-        "y": 410
-      }
+      "data": null
     },
     {
       "id": 265,
@@ -8182,16 +7471,13 @@
       ],
       "transfers": [
         {
-          "text": "Продолжай",
-          "stage": "266",
-          "condition": {}
+          "stage": 266,
+          "condition": {},
+          "text": "Продолжай"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 10,
-        "y": 92
-      }
+      "data": null
     },
     {
       "id": 266,
@@ -8212,16 +7498,13 @@
       ],
       "transfers": [
         {
-          "text": "А как же тогда стычки с военными? Руководство не может же трупы солдат под ковер прятать",
-          "stage": "267",
-          "condition": {}
+          "stage": 267,
+          "condition": {},
+          "text": "А как же тогда стычки с военными? Руководство не может же трупы солдат под ковер прятать"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 123,
-        "y": 591
-      }
+      "data": null
     },
     {
       "id": 267,
@@ -8242,16 +7525,13 @@
       ],
       "transfers": [
         {
-          "text": "Ну ничего себе ты рассказываешь",
-          "stage": "268",
-          "condition": {}
+          "stage": 268,
+          "condition": {},
+          "text": "Ну ничего себе ты рассказываешь"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 253,
-        "y": 810
-      }
+      "data": null
     },
     {
       "id": 268,
@@ -8272,16 +7552,13 @@
       ],
       "transfers": [
         {
-          "text": "И как это к тебе относится?",
-          "stage": "269",
-          "condition": {}
+          "stage": 269,
+          "condition": {},
+          "text": "И как это к тебе относится?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 657,
-        "y": 368
-      }
+      "data": null
     },
     {
       "id": 269,
@@ -8302,16 +7579,13 @@
       ],
       "transfers": [
         {
-          "text": "А потом что решил делать?",
-          "stage": "270",
-          "condition": {}
+          "stage": 270,
+          "condition": {},
+          "text": "А потом что решил делать?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 849,
-        "y": 57
-      }
+      "data": null
     },
     {
       "id": 270,
@@ -8332,16 +7606,13 @@
       ],
       "transfers": [
         {
-          "text": "А потом что решил делать?",
-          "stage": "271",
-          "condition": {}
+          "stage": 271,
+          "condition": {},
+          "text": "А потом что решил делать?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 971,
-        "y": 367
-      }
+      "data": null
     },
     {
       "id": 271,
@@ -8362,16 +7633,13 @@
       ],
       "transfers": [
         {
-          "text": "Сидорович счастливый был наверняка?",
-          "stage": "272",
-          "condition": {}
+          "stage": 272,
+          "condition": {},
+          "text": "Сидорович счастливый был наверняка?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 229,
-        "y": 192
-      }
+      "data": null
     },
     {
       "id": 272,
@@ -8392,16 +7660,13 @@
       ],
       "transfers": [
         {
-          "text": "Здорово получилось все",
-          "stage": "273",
-          "condition": {}
+          "stage": 273,
+          "condition": {},
+          "text": "Здорово получилось все"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 993,
-        "y": 900
-      }
+      "data": null
     },
     {
       "id": 273,
@@ -8422,21 +7687,18 @@
       ],
       "transfers": [
         {
-          "text": "Хорошо, попробую",
-          "stage": "274",
-          "condition": {}
+          "stage": 274,
+          "condition": {},
+          "text": "Хорошо, попробую"
         },
         {
-          "text": "Нет, я пас",
-          "stage": "222",
-          "condition": {}
+          "stage": 222,
+          "condition": {},
+          "text": "Нет, я пас"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 175,
-        "y": 883
-      }
+      "data": null
     },
     {
       "id": 274,
@@ -8457,9 +7719,9 @@
       ],
       "transfers": [
         {
-          "text": "Уйти",
-          "stage": "222",
-          "condition": {}
+          "stage": 222,
+          "condition": {},
+          "text": "Уйти"
         }
       ],
       "actions": {
@@ -8468,10 +7730,7 @@
           "quest_kastet_findstalker"
         ]
       },
-      "editor": {
-        "x": 512,
-        "y": 252
-      }
+      "data": null
     },
     {
       "id": 275,
@@ -8488,16 +7747,13 @@
       ],
       "transfers": [
         {
-          "text": "Доброго времени суток! Что ты делаешь тут? Опасное же место",
-          "stage": "276",
-          "condition": {}
+          "stage": 276,
+          "condition": {},
+          "text": "Доброго времени суток! Что ты делаешь тут? Опасное же место"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 850,
-        "y": 894
-      }
+      "data": null
     },
     {
       "id": 276,
@@ -8514,16 +7770,13 @@
       ],
       "transfers": [
         {
-          "text": "Ты не знаком с Кастетом? Он тут своего бойца потерял, сказал что дезертировал не закончив контракт",
-          "stage": "277",
-          "condition": {}
+          "stage": 277,
+          "condition": {},
+          "text": "Ты не знаком с Кастетом? Он тут своего бойца потерял, сказал что дезертировал не закончив контракт"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 9,
-        "y": 764
-      }
+      "data": null
     },
     {
       "id": 277,
@@ -8540,16 +7793,13 @@
       ],
       "transfers": [
         {
-          "text": "Так бросай все, пошли вместе обратно на Кордон, поешь, отмоешься от грязи",
-          "stage": "278",
-          "condition": {}
+          "stage": 278,
+          "condition": {},
+          "text": "Так бросай все, пошли вместе обратно на Кордон, поешь, отмоешься от грязи"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 411,
-        "y": 386
-      }
+      "data": null
     },
     {
       "id": 278,
@@ -8566,16 +7816,13 @@
       ],
       "transfers": [
         {
-          "text": "Ого, как же тебе помочь?",
-          "stage": "279",
-          "condition": {}
+          "stage": 279,
+          "condition": {},
+          "text": "Ого, как же тебе помочь?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 706,
-        "y": 368
-      }
+      "data": null
     },
     {
       "id": 279,
@@ -8592,9 +7839,9 @@
       ],
       "transfers": [
         {
-          "text": "Ладно, пойду поговорю с ними",
-          "stage": "280",
-          "condition": {}
+          "stage": 280,
+          "condition": {},
+          "text": "Ладно, пойду поговорю с ними"
         }
       ],
       "actions": {
@@ -8605,21 +7852,21 @@
           "quest_kastet_findstalker"
         ]
       },
-      "editor": {
-        "x": 454,
-        "y": 415
-      }
+      "data": null
     },
     {
       "id": 280,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "2",
-        "pos": "633:516"
-      },
-      "editor": {
-        "x": 623,
-        "y": 368
+        "pos": "633:516",
+        "map": "2"
       }
     },
     {
@@ -8637,16 +7884,13 @@
       ],
       "transfers": [
         {
-          "text": "Подойти",
-          "stage": "282",
-          "condition": {}
+          "stage": 282,
+          "condition": {},
+          "text": "Подойти"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 19,
-        "y": 296
-      }
+      "data": null
     },
     {
       "id": 282,
@@ -8663,16 +7907,13 @@
       ],
       "transfers": [
         {
-          "text": "У вас там сталкер на помойке железяки вам копает, на нем ваш подарочек закреплен, хочу забрать у вас человека.",
-          "stage": "283",
-          "condition": {}
+          "stage": 283,
+          "condition": {},
+          "text": "У вас там сталкер на помойке железяки вам копает, на нем ваш подарочек закреплен, хочу забрать у вас человека."
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 412,
-        "y": 978
-      }
+      "data": null
     },
     {
       "id": 283,
@@ -8689,25 +7930,22 @@
       ],
       "transfers": [
         {
-          "text": "Ну может по мирному решим вопрос? Ты вроде ровный стремящийся представитель братвы, проявишь к пленнику милость?",
-          "stage": "284",
+          "stage": 284,
           "condition": {
             "money>=": [
               "5000"
             ]
-          }
+          },
+          "text": "Ну может по мирному решим вопрос? Ты вроде ровный стремящийся представитель братвы, проявишь к пленнику милость?"
         },
         {
-          "text": "Сегодня маслины по акции!",
-          "stage": "286",
-          "condition": {}
+          "stage": 286,
+          "condition": {},
+          "text": "Сегодня маслины по акции!"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 658,
-        "y": 263
-      }
+      "data": null
     },
     {
       "id": 284,
@@ -8724,21 +7962,18 @@
       ],
       "transfers": [
         {
-          "text": "Держи",
-          "stage": "285",
-          "condition": {}
+          "stage": 285,
+          "condition": {},
+          "text": "Держи"
         },
         {
-          "text": "Ну уж нет, сегодня маслины по акции",
-          "stage": "286",
-          "condition": {}
+          "stage": 286,
+          "condition": {},
+          "text": "Ну уж нет, сегодня маслины по акции"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 565,
-        "y": 231
-      }
+      "data": null
     },
     {
       "id": 285,
@@ -8755,9 +7990,9 @@
       ],
       "transfers": [
         {
-          "text": "Уйти",
-          "stage": "287",
-          "condition": {}
+          "stage": 287,
+          "condition": {},
+          "text": "Уйти"
         }
       ],
       "actions": {
@@ -8768,18 +8003,17 @@
           "quest_kastet_findstalker_true"
         ]
       },
-      "editor": {
-        "x": 272,
-        "y": 479
-      }
+      "data": null
     },
     {
       "id": 286,
       "type_stage": 4,
-      "data": {
-        "map": "5",
-        "pos": "250:99"
-      },
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
       "actions": {
         "add": [
           "quest_kastet_lox_bez_deneg"
@@ -8788,21 +8022,24 @@
           "quest_kastet_findstalker_true"
         ]
       },
-      "editor": {
-        "x": 565,
-        "y": 723
+      "data": {
+        "pos": "250:99",
+        "map": "5"
       }
     },
     {
       "id": 287,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "5",
-        "pos": "250:99"
-      },
-      "editor": {
-        "x": 580,
-        "y": 766
+        "pos": "250:99",
+        "map": "5"
       }
     },
     {
@@ -8820,16 +8057,13 @@
       ],
       "transfers": [
         {
-          "text": "Да, вот держи",
-          "stage": "289",
-          "condition": {}
+          "stage": 289,
+          "condition": {},
+          "text": "Да, вот держи"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 437,
-        "y": 838
-      }
+      "data": null
     },
     {
       "id": 289,
@@ -8846,23 +8080,20 @@
       ],
       "transfers": [
         {
-          "text": "Хорошо, удачи тебе!",
-          "stage": "280",
-          "condition": {}
+          "stage": 280,
+          "condition": {},
+          "text": "Хорошо, удачи тебе!"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_kastet_findstalker_key"
-        ],
         "add": [
           "quest_kastet_findstalker_pre_end"
+        ],
+        "remove": [
+          "quest_kastet_findstalker_key"
         ]
       },
-      "editor": {
-        "x": 482,
-        "y": 110
-      }
+      "data": null
     },
     {
       "id": 290,
@@ -8879,16 +8110,13 @@
       ],
       "transfers": [
         {
-          "text": "Ну вот и боец твой, Кастет! Хорошо, что жив",
-          "stage": "291",
-          "condition": {}
+          "stage": 291,
+          "condition": {},
+          "text": "Ну вот и боец твой, Кастет! Хорошо, что жив"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 878,
-        "y": 646
-      }
+      "data": null
     },
     {
       "id": 291,
@@ -8905,27 +8133,24 @@
       ],
       "transfers": [
         {
-          "text": "",
-          "stage": "291",
-          "condition": {}
+          "stage": 291,
+          "condition": {},
+          "text": ""
         }
       ],
       "actions": {
-        "money": [
-          "10000"
-        ],
         "add": [
           "84:2",
           "quest_kastet_findstalker_end"
+        ],
+        "money": [
+          "10000"
         ],
         "remove": [
           "quest_kastet_findstalker_pre_end"
         ]
       },
-      "editor": {
-        "x": 477,
-        "y": 582
-      }
+      "data": null
     },
     {
       "id": 292,
@@ -8942,16 +8167,13 @@
       ],
       "transfers": [
         {
-          "text": "Есть работа?",
-          "stage": "293",
-          "condition": {}
+          "stage": 293,
+          "condition": {},
+          "text": "Есть работа?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 917,
-        "y": 839
-      }
+      "data": null
     },
     {
       "id": 293,
@@ -8968,16 +8190,13 @@
       ],
       "transfers": [
         {
-          "text": "Хорошо, вроде несложно, туда-обратно сгулять. В чем риск?",
-          "stage": "294",
-          "condition": {}
+          "stage": 294,
+          "condition": {},
+          "text": "Хорошо, вроде несложно, туда-обратно сгулять. В чем риск?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 955,
-        "y": 542
-      }
+      "data": null
     },
     {
       "id": 294,
@@ -8994,16 +8213,13 @@
       ],
       "transfers": [
         {
-          "text": "Как же быть?",
-          "stage": "295",
-          "condition": {}
+          "stage": 295,
+          "condition": {},
+          "text": "Как же быть?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 142,
-        "y": 625
-      }
+      "data": null
     },
     {
       "id": 295,
@@ -9020,9 +8236,9 @@
       ],
       "transfers": [
         {
-          "text": "Да, хорошо",
-          "stage": "222",
-          "condition": {}
+          "stage": 222,
+          "condition": {},
+          "text": "Да, хорошо"
         }
       ],
       "actions": {
@@ -9030,10 +8246,7 @@
           "quest_kastet_marafon_start"
         ]
       },
-      "editor": {
-        "x": 202,
-        "y": 489
-      }
+      "data": null
     },
     {
       "id": 296,
@@ -9050,16 +8263,13 @@
       ],
       "transfers": [
         {
-          "text": "Вячеслав Анатольевич?",
-          "stage": "297",
-          "condition": {}
+          "stage": 297,
+          "condition": {},
+          "text": "Вячеслав Анатольевич?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 842,
-        "y": 665
-      }
+      "data": null
     },
     {
       "id": 297,
@@ -9076,16 +8286,13 @@
       ],
       "transfers": [
         {
-          "text": "Я от нашего общего знакомого. Незнаю каких годов консервы выбрать. Не посоветуете?",
-          "stage": "298",
-          "condition": {}
+          "stage": 298,
+          "condition": {},
+          "text": "Я от нашего общего знакомого. Незнаю каких годов консервы выбрать. Не посоветуете?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 638,
-        "y": 229
-      }
+      "data": null
     },
     {
       "id": 298,
@@ -9102,16 +8309,13 @@
       ],
       "transfers": [
         {
-          "text": "Ой простите, я обознался",
-          "stage": "299",
-          "condition": {}
+          "stage": 299,
+          "condition": {},
+          "text": "Ой простите, я обознался"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 34,
-        "y": 780
-      }
+      "data": null
     },
     {
       "id": 299,
@@ -9128,16 +8332,13 @@
       ],
       "transfers": [
         {
-          "text": "Вячеслав Анатольевич, вы?",
-          "stage": "311",
-          "condition": {}
+          "stage": 311,
+          "condition": {},
+          "text": "Вячеслав Анатольевич, вы?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 169,
-        "y": 512
-      }
+      "data": null
     },
     {
       "id": 300,
@@ -9158,21 +8359,18 @@
       ],
       "transfers": [
         {
-          "text": "Беру",
-          "stage": "301",
-          "condition": {}
+          "stage": 301,
+          "condition": {},
+          "text": "Беру"
         },
         {
-          "text": "Не подходит",
-          "stage": "191",
-          "condition": {}
+          "stage": 191,
+          "condition": {},
+          "text": "Не подходит"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 109,
-        "y": 742
-      }
+      "data": null
     },
     {
       "id": 301,
@@ -9193,25 +8391,22 @@
       ],
       "transfers": [
         {
-          "text": "Увидел",
-          "stage": "301",
-          "condition": {}
+          "stage": 301,
+          "condition": {},
+          "text": "Увидел"
         }
       ],
       "actions": {
-        "note": [
-          "Тайник на Дикой Территории",
-          "...рюкзак мой лежит за профлистом, почти сразу как заходишь на дикую территорию, слева будет..."
-        ],
         "add": [
           "stash_2_0_start",
           "stash_2_0"
+        ],
+        "note": [
+          "Тайник на Дикой Территории",
+          "...рюкзак мой лежит за профлистом, почти сразу как заходишь на дикую территорию, слева будет..."
         ]
       },
-      "editor": {
-        "x": 362,
-        "y": 504
-      }
+      "data": null
     },
     {
       "id": 301,
@@ -9232,9 +8427,9 @@
       ],
       "transfers": [
         {
-          "text": "Спасибо",
-          "stage": "191",
-          "condition": {}
+          "stage": 191,
+          "condition": {},
+          "text": "Спасибо"
         }
       ],
       "actions": {
@@ -9243,10 +8438,7 @@
         ],
         "syncNow": []
       },
-      "editor": {
-        "x": 843,
-        "y": 874
-      }
+      "data": null
     },
     {
       "id": 302,
@@ -9267,16 +8459,13 @@
       ],
       "transfers": [
         {
-          "text": "Осмотреть",
-          "stage": "303",
-          "condition": {}
+          "stage": 303,
+          "condition": {},
+          "text": "Осмотреть"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 79,
-        "y": 469
-      }
+      "data": null
     },
     {
       "id": 303,
@@ -9297,21 +8486,18 @@
       ],
       "transfers": [
         {
-          "text": "Забрать",
-          "stage": "304",
-          "condition": {}
+          "stage": 304,
+          "condition": {},
+          "text": "Забрать"
         },
         {
-          "text": "Уйти",
-          "stage": "305",
-          "condition": {}
+          "stage": 305,
+          "condition": {},
+          "text": "Уйти"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 556,
-        "y": 54
-      }
+      "data": null
     },
     {
       "id": 304,
@@ -9319,9 +8505,6 @@
       "background": "story/freeplay/screen/47.jpg",
       "title": "Тайник",
       "message": "Получено: Аптечка х3, патроны 5.45х39 мм х30, Акм 74/2у.",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -9335,9 +8518,9 @@
       ],
       "transfers": [
         {
-          "text": "Уйти",
-          "stage": "305",
-          "condition": {}
+          "stage": 305,
+          "condition": {},
+          "text": "Уйти"
         }
       ],
       "actions": {
@@ -9350,21 +8533,21 @@
           "stash_2_0"
         ]
       },
-      "editor": {
-        "x": 167,
-        "y": 476
-      }
+      "data": null
     },
     {
       "id": 305,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "4",
-        "pos": "1178:1578"
-      },
-      "editor": {
-        "x": 155,
-        "y": 562
+        "pos": "1178:1578",
+        "map": "4"
       }
     },
     {
@@ -9382,16 +8565,13 @@
       ],
       "transfers": [
         {
-          "text": "Я от нашего общего знакомого. Не знаю каких годов консервы выбрать. Не посоветуете?",
-          "stage": "312",
-          "condition": {}
+          "stage": 312,
+          "condition": {},
+          "text": "Я от нашего общего знакомого. Не знаю каких годов консервы выбрать. Не посоветуете?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 937,
-        "y": 969
-      }
+      "data": null
     },
     {
       "id": 312,
@@ -9408,16 +8588,13 @@
       ],
       "transfers": [
         {
-          "text": "Да, мне нужен пропуск на базу военных в НИИ Агропром",
-          "stage": "313",
-          "condition": {}
+          "stage": 313,
+          "condition": {},
+          "text": "Да, мне нужен пропуск на базу военных в НИИ Агропром"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 39,
-        "y": 158
-      }
+      "data": null
     },
     {
       "id": 313,
@@ -9434,16 +8611,13 @@
       ],
       "transfers": [
         {
-          "text": "Хорошо",
-          "stage": "314",
-          "condition": {}
+          "stage": 314,
+          "condition": {},
+          "text": "Хорошо"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 877,
-        "y": 771
-      }
+      "data": null
     },
     {
       "id": 314,
@@ -9460,16 +8634,13 @@
       ],
       "transfers": [
         {
-          "text": "Денежку, какую?",
-          "stage": "315",
-          "condition": {}
+          "stage": 315,
+          "condition": {},
+          "text": "Денежку, какую?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 983,
-        "y": 760
-      }
+      "data": null
     },
     {
       "id": 315,
@@ -9486,25 +8657,22 @@
       ],
       "transfers": [
         {
-          "text": "Дежрите вашу денежку",
-          "stage": "316",
+          "stage": 316,
           "condition": {
             "money>=": [
               "500"
             ]
-          }
+          },
+          "text": "Дежрите вашу денежку"
         },
         {
-          "text": "Как найду деньги, так занесу",
-          "stage": "317",
-          "condition": {}
+          "stage": 317,
+          "condition": {},
+          "text": "Как найду деньги, так занесу"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 626,
-        "y": 248
-      }
+      "data": null
     },
     {
       "id": 316,
@@ -9521,35 +8689,34 @@
       ],
       "transfers": [
         {
-          "text": "Спасибо",
-          "stage": "317",
-          "condition": {}
+          "stage": 317,
+          "condition": {},
+          "text": "Спасибо"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 409,
-        "y": 427
-      }
+      "data": null
     },
     {
       "id": 317,
       "type_stage": 4,
-      "data": {
-        "map": "0",
-        "pos": "2374:947"
-      },
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
       "actions": {
-        "remove": [
-          "quest_kastet_marafon_start"
-        ],
         "add": [
           "quest_kastet_marafon_prop_usk"
+        ],
+        "remove": [
+          "quest_kastet_marafon_start"
         ]
       },
-      "editor": {
-        "x": 715,
-        "y": 112
+      "data": {
+        "pos": "2374:947",
+        "map": "0"
       }
     },
     {
@@ -9567,16 +8734,13 @@
       ],
       "transfers": [
         {
-          "text": "Здравстуйте, вы прапорщик Микелеев?",
-          "stage": "319",
-          "condition": {}
+          "stage": 319,
+          "condition": {},
+          "text": "Здравстуйте, вы прапорщик Микелеев?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 910,
-        "y": 134
-      }
+      "data": null
     },
     {
       "id": 319,
@@ -9593,16 +8757,13 @@
       ],
       "transfers": [
         {
-          "text": "Я от Кастета",
-          "stage": "320",
-          "condition": {}
+          "stage": 320,
+          "condition": {},
+          "text": "Я от Кастета"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 711,
-        "y": 681
-      }
+      "data": null
     },
     {
       "id": 320,
@@ -9619,16 +8780,13 @@
       ],
       "transfers": [
         {
-          "text": "Нет, я пришел передать от него, что сначала ты должен заплатить за товар",
-          "stage": "321",
-          "condition": {}
+          "stage": 321,
+          "condition": {},
+          "text": "Нет, я пришел передать от него, что сначала ты должен заплатить за товар"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 106,
-        "y": 585
-      }
+      "data": null
     },
     {
       "id": 321,
@@ -9645,23 +8803,20 @@
       ],
       "transfers": [
         {
-          "text": "Давай, передам",
-          "stage": "322",
-          "condition": {}
+          "stage": 322,
+          "condition": {},
+          "text": "Давай, передам"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_kastet_marafon_prop_usk"
-        ],
         "add": [
           "quest_kastet_marafon_predoplata"
+        ],
+        "remove": [
+          "quest_kastet_marafon_prop_usk"
         ]
       },
-      "editor": {
-        "x": 685,
-        "y": 847
-      }
+      "data": null
     },
     {
       "id": 323,
@@ -9678,16 +8833,13 @@
       ],
       "transfers": [
         {
-          "text": "Держи, это от прапора, он сказал тут больше половины предоплата, остальное получишь после того как поставишь ему лекарство",
-          "stage": "324",
-          "condition": {}
+          "stage": 324,
+          "condition": {},
+          "text": "Держи, это от прапора, он сказал тут больше половины предоплата, остальное получишь после того как поставишь ему лекарство"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 48,
-        "y": 898
-      }
+      "data": null
     },
     {
       "id": 324,
@@ -9704,23 +8856,20 @@
       ],
       "transfers": [
         {
-          "text": "Окей",
-          "stage": "325",
-          "condition": {}
+          "stage": 325,
+          "condition": {},
+          "text": "Окей"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_kastet_marafon_predoplata"
-        ],
         "add": [
           "quest_kastet_marafon_meds"
+        ],
+        "remove": [
+          "quest_kastet_marafon_predoplata"
         ]
       },
-      "editor": {
-        "x": 482,
-        "y": 350
-      }
+      "data": null
     },
     {
       "id": 325,
@@ -9737,16 +8886,13 @@
       ],
       "transfers": [
         {
-          "text": "Окей",
-          "stage": "222",
-          "condition": {}
+          "stage": 222,
+          "condition": {},
+          "text": "Окей"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 174,
-        "y": 521
-      }
+      "data": null
     },
     {
       "id": 326,
@@ -9763,16 +8909,13 @@
       ],
       "transfers": [
         {
-          "text": "Есть тут кто? Не подскажите, куда пошел прапорщик Микелеев?",
-          "stage": "327",
-          "condition": {}
+          "stage": 327,
+          "condition": {},
+          "text": "Есть тут кто? Не подскажите, куда пошел прапорщик Микелеев?"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 147,
-        "y": 635
-      }
+      "data": null
     },
     {
       "id": 327,
@@ -9789,16 +8932,13 @@
       ],
       "transfers": [
         {
-          "text": "Я из НИИ ЧАЗ передать посылку нужно",
-          "stage": "328",
-          "condition": {}
+          "stage": 328,
+          "condition": {},
+          "text": "Я из НИИ ЧАЗ передать посылку нужно"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 176,
-        "y": 823
-      }
+      "data": null
     },
     {
       "id": 328,
@@ -9815,16 +8955,13 @@
       ],
       "transfers": [
         {
-          "text": "Я не знаю, мне сказали отнести посылку я принес. Особо не просветили",
-          "stage": "329",
-          "condition": {}
+          "stage": 329,
+          "condition": {},
+          "text": "Я не знаю, мне сказали отнести посылку я принес. Особо не просветили"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 98,
-        "y": 115
-      }
+      "data": null
     },
     {
       "id": 329,
@@ -9841,33 +8978,30 @@
       ],
       "transfers": [
         {
-          "text": "У меня медикаменты, прапорщик сказал, что эти лекартсва поставляются штурмовой группе, для лечения бойцов",
-          "stage": "330",
-          "condition": {}
+          "stage": 330,
+          "condition": {},
+          "text": "У меня медикаменты, прапорщик сказал, что эти лекартсва поставляются штурмовой группе, для лечения бойцов"
         },
         {
-          "text": "Да, у меня тут медикаменты, для прапорщика, он через барыг заказывает перечень препаратов. Поставка идет с кордона",
-          "stage": "331",
-          "condition": {}
+          "stage": 331,
+          "condition": {},
+          "text": "Да, у меня тут медикаменты, для прапорщика, он через барыг заказывает перечень препаратов. Поставка идет с кордона"
         },
         {
-          "text": "Да идите вы к чёрту!",
-          "stage": "332",
-          "condition": {}
+          "stage": 332,
+          "condition": {},
+          "text": "Да идите вы к чёрту!"
         }
       ],
       "actions": {
-        "remove": [
-          "quest_kastet_marafon_meds"
-        ],
         "add": [
           "quest_kastet_marafon_pre_end"
+        ],
+        "remove": [
+          "quest_kastet_marafon_meds"
         ]
       },
-      "editor": {
-        "x": 514,
-        "y": 601
-      }
+      "data": null
     },
     {
       "id": 330,
@@ -9884,9 +9018,9 @@
       ],
       "transfers": [
         {
-          "text": "У меня медикаменты, прапорщик сказал, что эти лекартсва поставляются штурмовой группе, для лечения бойцов",
-          "stage": "322",
-          "condition": {}
+          "stage": 322,
+          "condition": {},
+          "text": "У меня медикаменты, прапорщик сказал, что эти лекартсва поставляются штурмовой группе, для лечения бойцов"
         }
       ],
       "actions": {
@@ -9894,10 +9028,7 @@
           "quest_kastet_marafon_lox_vrun"
         ]
       },
-      "editor": {
-        "x": 102,
-        "y": 465
-      }
+      "data": null
     },
     {
       "id": 331,
@@ -9914,9 +9045,9 @@
       ],
       "transfers": [
         {
-          "text": "У меня медикаменты, прапорщик сказал, что эти лекартсва поставляются штурмовой группе, для лечения бойцов",
-          "stage": "322",
-          "condition": {}
+          "stage": 322,
+          "condition": {},
+          "text": "У меня медикаменты, прапорщик сказал, что эти лекартсва поставляются штурмовой группе, для лечения бойцов"
         }
       ],
       "actions": {
@@ -9924,10 +9055,7 @@
           "quest_kastet_marafon_lox_no_ne_vrun"
         ]
       },
-      "editor": {
-        "x": 759,
-        "y": 361
-      }
+      "data": null
     },
     {
       "id": 332,
@@ -9944,9 +9072,9 @@
       ],
       "transfers": [
         {
-          "text": "Бой",
-          "stage": "322",
-          "condition": {}
+          "stage": 322,
+          "condition": {},
+          "text": "Бой"
         }
       ],
       "actions": {
@@ -9954,38 +9082,46 @@
           "quest_kastet_marafon_gigachad_1"
         ]
       },
-      "editor": {
-        "x": 980,
-        "y": 14
-      }
+      "data": null
     },
     {
       "id": 307,
       "type_stage": 5,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
       "actions": {
-              "openSeller": ["1"]
-            },
-      "editor": {
-        "x": 430,
-        "y": 558
-      }
+        "openSeller": [
+          "1"
+        ]
+      },
+      "data": null
     },
     {
       "id": 308,
       "type_stage": 5,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
       "actions": {
-              "openSeller": ["2"]
-            },
-      "editor": {
-        "x": 46,
-        "y": 33
-      }
+        "openSeller": [
+          "2"
+        ]
+      },
+      "data": null
     }
   ],
   "points": {
     "0": [
       {
-        "type": "0",
+        "id": "0faf7924-bb18-4b5e-8a98-45ac3a3a3c21",
+        "type": 0,
         "name": "Получить пропуск",
         "pos": "2448:1291",
         "data": {
@@ -10001,7 +9137,8 @@
     ],
     "1": [
       {
-        "type": "3",
+        "id": "5da89a6b-fd08-4368-89b3-80d34907dc60",
+        "type": 3,
         "name": "Сёгун старт квеста",
         "pos": "266:813",
         "data": {
@@ -10015,7 +9152,8 @@
         }
       },
       {
-        "type": "0",
+        "id": "84e717e6-4d01-4b39-af7c-fdbddf2fd2ce",
+        "type": 0,
         "name": "Волк",
         "pos": "224:861",
         "data": {
@@ -10029,7 +9167,8 @@
         }
       },
       {
-        "type": "0",
+        "id": "4947e750-97b9-41be-a953-0a176aaef859",
+        "type": 0,
         "name": "Волк 2",
         "pos": "224:861",
         "data": {
@@ -10043,7 +9182,8 @@
         }
       },
       {
-        "type": "0",
+        "id": "88344bc8-2b7a-4207-8a6a-e2d76ce03d1d",
+        "type": 0,
         "name": "Группа Стрижа",
         "pos": "816:1298",
         "data": {
@@ -10057,7 +9197,8 @@
         }
       },
       {
-        "type": "0",
+        "id": "54ebe748-9ff5-4ba3-91bf-47ba78cc276a",
+        "type": 0,
         "name": "Сёгун конец квеста",
         "pos": "266:813",
         "data": {
@@ -10071,7 +9212,8 @@
         }
       },
       {
-        "type": "0",
+        "id": "b606cfea-4267-4703-a35a-4290e30da870",
+        "type": 0,
         "name": "Флешка на элеваторе",
         "pos": "570:1246",
         "data": {
@@ -10085,7 +9227,8 @@
         }
       },
       {
-        "type": "0",
+        "id": "6b3fa70e-099e-4e37-971c-8ef7f5265960",
+        "type": 0,
         "name": "Конкурент Сидоровича",
         "pos": "807:1656",
         "data": {
@@ -10099,7 +9242,8 @@
         }
       },
       {
-        "type": "3",
+        "id": "2e9f181c-a7d9-499e-a9f9-8f1a90e7ddbe",
+        "type": 3,
         "name": "2Блокпост под мостом",
         "pos": "690:1383",
         "data": {
@@ -10109,7 +9253,8 @@
         "condition": {}
       },
       {
-        "type": "3",
+        "id": "8ab9020a-0bf1-4219-bd08-03fd307dc1e6",
+        "type": 3,
         "name": "2Блокпост под мостом 2",
         "pos": "690:1406",
         "data": {
@@ -10119,7 +9264,8 @@
         "condition": {}
       },
       {
-        "type": "3",
+        "id": "96ac86af-94a1-4cc3-a708-c5da8333cefe",
+        "type": 3,
         "name": "Кастет, начало",
         "pos": "1258:1614",
         "data": {
@@ -10134,7 +9280,8 @@
         }
       },
       {
-        "type": "1",
+        "id": "64e9a7ab-8e4f-4d09-ae0e-157a0195f556",
+        "type": 1,
         "name": "Кастет, начало, возращение от Сидоровича",
         "pos": "1258:1614",
         "data": {
@@ -10148,7 +9295,8 @@
         }
       },
       {
-        "type": "1",
+        "id": "821035f5-d897-435f-a633-e11cab3950fd",
+        "type": 1,
         "name": "Кастет, плети косу из ниточек",
         "pos": "1258:1614",
         "data": {
@@ -10156,16 +9304,17 @@
           "stage": "263"
         },
         "condition": {
-          "has": [
-            "quest_kastet_1_end"
-          ],
           "!has": [
             "quest_kastet_findstalker"
+          ],
+          "has": [
+            "quest_kastet_1_end"
           ]
         }
       },
       {
-        "type": "1",
+        "id": "830daf84-8a32-4035-9e59-2d5ce8a12bd1",
+        "type": 1,
         "name": "Кастет, марафон",
         "pos": "1258:1614",
         "data": {
@@ -10173,16 +9322,17 @@
           "stage": "292"
         },
         "condition": {
-          "has": [
-            "quest_kastet_findstalker_end"
-          ],
           "!has": [
             "quest_kastet_marafon_start"
+          ],
+          "has": [
+            "quest_kastet_findstalker_end"
           ]
         }
       },
       {
-        "type": "3",
+        "id": "93301947-44e3-4b1e-a9e3-bdbd7f86e84d",
+        "type": 3,
         "name": "Кастет, самагон, старт",
         "pos": "1258:1614",
         "data": {
@@ -10190,17 +9340,18 @@
           "stage": "214"
         },
         "condition": {
-          "has": [
-            "quest_kastet_find_stalker_end"
-          ],
           "!has": [
             "quest_samagon_start",
             "quest_samagon_end"
+          ],
+          "has": [
+            "quest_kastet_find_stalker_end"
           ]
         }
       },
       {
-        "type": "1",
+        "id": "0aedec90-0dbd-4bef-937a-130d9861eb1b",
+        "type": 1,
         "name": "Кастет, самагон, к военным",
         "pos": "506:576",
         "data": {
@@ -10214,7 +9365,8 @@
         }
       },
       {
-        "type": "1",
+        "id": "d12759d2-850f-43f9-a79d-ec89f966c4a3",
+        "type": 1,
         "name": "Кастет, самагон, возращение",
         "pos": "1258:1614",
         "data": {
@@ -10228,7 +9380,8 @@
         }
       },
       {
-        "type": "3",
+        "id": "54832e3b-0da9-4945-ad15-a2ae64ee8d90",
+        "type": 3,
         "name": "Кастет, самагонозавод, начало",
         "pos": "1258:1614",
         "data": {
@@ -10236,18 +9389,19 @@
           "stage": "239"
         },
         "condition": {
-          "has": [
-            "quest_samagon_end"
-          ],
           "!has": [
             "quest_distillery_start"
+          ],
+          "has": [
+            "quest_samagon_end"
           ]
         }
       }
     ],
     "2": [
       {
-        "type": "0",
+        "id": "dace5ac3-29af-4d4c-9c98-51d3db27dba2",
+        "type": 0,
         "name": "Ангар",
         "pos": "533:757",
         "data": {
@@ -10261,7 +9415,8 @@
         }
       },
       {
-        "type": "0",
+        "id": "7bb65168-3b4c-47fe-8abd-f0efd4d9dd98",
+        "type": 0,
         "name": "Трубы",
         "pos": "318:817",
         "data": {
@@ -10275,7 +9430,8 @@
         }
       },
       {
-        "type": "0",
+        "id": "54dd5885-e3cb-4fe6-b608-5977fa134461",
+        "type": 0,
         "name": "Ангар 2",
         "pos": "533:757",
         "data": {
@@ -10289,7 +9445,8 @@
         }
       },
       {
-        "type": "0",
+        "id": "78b116af-d1f9-4da8-8efe-f9809bf6e2a4",
+        "type": 0,
         "name": "Долг Сявы",
         "pos": "699:1088",
         "data": {
@@ -10303,7 +9460,8 @@
         }
       },
       {
-        "type": "3",
+        "id": "ec7e1148-d5b8-4c85-8b7d-3a70935f18cc",
+        "type": 3,
         "name": "Найти сталкера",
         "pos": "605:485",
         "data": {
@@ -10317,7 +9475,8 @@
         }
       },
       {
-        "type": "3",
+        "id": "1d7f2ac6-1828-4619-9dbd-650077ed45ed",
+        "type": 3,
         "name": "Вернуться к сталкеру",
         "pos": "605:485",
         "data": {
@@ -10333,7 +9492,8 @@
     ],
     "3": [
       {
-        "type": "6",
+        "id": "f9114e05-ca78-4ee5-8aa4-dc55f35afbf2",
+        "type": 6,
         "name": "Коробок",
         "pos": "1484:1451",
         "data": {
@@ -10347,7 +9507,8 @@
         }
       },
       {
-        "type": "6",
+        "id": "835c8baf-4ceb-4993-bb2e-128c0e581296",
+        "type": 6,
         "name": "Коробок 2",
         "pos": "1484:1451",
         "data": {
@@ -10366,7 +9527,8 @@
     ],
     "5": [
       {
-        "type": "0",
+        "id": "ff88649d-8d8f-4ab6-b24f-32b785d82d57",
+        "type": 0,
         "name": "Ферма",
         "pos": "135:340",
         "data": {
@@ -10380,7 +9542,8 @@
         }
       },
       {
-        "type": "1",
+        "id": "2b296417-24e3-47c5-bfa5-166af1f90e0e",
+        "type": 1,
         "name": "Ферма",
         "pos": "250:99",
         "data": {
@@ -10394,7 +9557,8 @@
         }
       },
       {
-        "type": "1",
+        "id": "b46c99da-20df-4345-8d32-8f48fe98bae2",
+        "type": 1,
         "name": "Передать аппарат военным",
         "pos": "147:237",
         "data": {
@@ -10408,7 +9572,8 @@
         }
       },
       {
-        "type": "2",
+        "id": "d9e6f472-c535-4229-aa14-52b5e80240b2",
+        "type": 2,
         "name": "Какой-то сталкер",
         "pos": "154:201",
         "data": {
@@ -10424,7 +9589,8 @@
     ],
     "7": [
       {
-        "type": "0",
+        "id": "1afcfc80-485a-4531-b26e-9ea1556f97ed",
+        "type": 0,
         "name": "Охранник",
         "pos": "901:426",
         "data": {
@@ -10436,7 +9602,8 @@
     ],
     "8": [
       {
-        "type": "0",
+        "id": "ba02cc77-6df3-4854-8e28-5f5297448405",
+        "type": 0,
         "name": "Охранник",
         "pos": "901:426",
         "data": {
@@ -10446,5 +9613,7 @@
         "condition": {}
       }
     ]
-  }
+  },
+  "spawns": {},
+  "missions": null
 }

@@ -1,0 +1,31 @@
+{
+  "id": 6,
+  "title": "Янтарь",
+  "tmx": "bar.tmx",
+  "defPos": "500:500",
+  "points": [
+    {
+      "id": "adeb5fa7-ffb4-422d-b3e6-117a4df85961",
+      "type": 4,
+      "name": "Бункер ученых",
+      "pos": "746:310",
+      "data": {
+        "chapter": "2",
+        "stage": "144"
+      },
+      "condition": {}
+    },
+    {
+      "id": "1d376b7c-a140-41ad-ae93-6a480032ece0",
+      "type": 7,
+      "name": "Янтарь - Дикая территория",
+      "pos": "1072:382",
+      "data": {
+        "chapter": "2",
+        "stage": "213"
+      },
+      "condition": {}
+    }
+  ],
+  "spawns": []
+}

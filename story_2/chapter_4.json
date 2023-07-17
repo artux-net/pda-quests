@@ -1,0 +1,645 @@
+{
+  "id": 4,
+  "title": null,
+  "stages": [],
+  "points": {},
+  "spawns": {
+	"0": [
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "SCIENTISTS",
+      "strength": "MIDDLE",
+      "r": 1,
+      "n": 1,
+      "pos": "2451:1305",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "Невзрачное кирпичное здание, покрытое старым шифером, с черной вывеской, белыми буквами: Шти. Оно было больше похоже на электробудку. Однако знающие люди имели понятие того, что там. Если войти внутрь, открыв массивную железную дверь, сразу были видна пара охранников, скрывающие собой спуск вниз. Вот там и начиналась основная часть самого заведения.",
+      "group": "LONERS",
+      "strength": "MIDDLE",
+      "r": 25,
+      "n": 6,
+      "pos": "1313:612",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "Южный контрольно-пропускной пункт военной базы в Чернобыле-4",
+      "group": "MILITARY",
+      "strength": "MIDDLE",
+      "r": 20,
+      "n": 3,
+      "pos": "1164:913",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "Казармы для длительного размещения личного состава воинских формирований вооружённых сил.",
+      "group": "MILITARY",
+      "strength": "MIDDLE",
+      "r": 45,
+      "n": 16,
+      "pos": "1424:1043",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "Казармы для длительного размещения личного состава воинских формирований вооружённых сил.",
+      "group": "MILITARY",
+      "strength": "MIDDLE",
+      "r": 50,
+      "n": 22,
+      "pos": "1383:1194",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "Военное хранилище боевых патронов и взрывчатых веществ.",
+      "group": "MILITARY",
+      "strength": "MIDDLE",
+      "r": 30,
+      "n": 3,
+      "pos": "863:1084",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "Военное хранилище боевых патронов и взрывчатых веществ.",
+      "group": "MILITARY",
+      "strength": "MIDDLE",
+      "r": 35,
+      "n": 4,
+      "pos": "876:1238",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "Военная столовая",
+      "group": "MILITARY",
+      "strength": "MIDDLE",
+      "r": 25,
+      "n": 3,
+      "pos": "985:1342",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "Военная столовая",
+      "group": "MILITARY",
+      "strength": "MIDDLE",
+      "r": 25,
+      "n": 3,
+      "pos": "985:1342",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "Офицерский штаб блокпоста Чернобыль-4",
+      "group": "MILITARY",
+      "strength": "MIDDLE",
+      "r": 45,
+      "n": 14,
+      "pos": "2179:1155",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "Южный контрольно-пропускной пункт военной базы в Чернобыле-4",
+      "group": "MILITARY",
+      "strength": "MIDDLE",
+      "r": 20,
+      "n": 3,
+      "pos": "2374:977",
+      "data": null,
+      "condition": null,
+      "actions": null
+    }
+  ],
+  
+  "1":[
+	{
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "MILITARY",
+      "strength": "WEAK",
+      "r": 45,
+      "n": 8,
+      "pos": "689:1393",
+      "data": {
+        "ignorePlayer": []
+      },
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "MILITARY",
+      "strength": "WEAK",
+      "r": 50,
+      "n": 5,
+      "pos": "318:441",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 40,
+      "n": 7,
+      "pos": "234:843",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 1,
+      "n": 1,
+      "pos": "644:2314",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "LONERS",
+      "strength": "MIDDLE",
+      "r": 50,
+      "n": 3,
+      "pos": "148:1060",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "BANDITS",
+      "strength": "WEAK",
+      "r": 40,
+      "n": 5,
+      "pos": "792:1073",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 30,
+      "n": 2,
+      "pos": "576:1592",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "LONERS",
+      "strength": "MIDDLE",
+      "r": 30,
+      "n": 5,
+      "pos": "1009:1668",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "LONERS",
+      "strength": "MIDDLE",
+      "r": 20,
+      "n": 4,
+      "pos": "1285:1624",
+      "data": {
+        "alwaysIgnored": [],
+        "immortal": [],
+        "ignorePlayer": []
+      },
+      "condition": null,
+      "actions": null
+    }
+  ],
+  
+  "2":[
+	{
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "LONERS",
+      "strength": "MIDDLE",
+      "r": 50,
+      "n": 5,
+      "pos": "880:468",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "LONERS",
+      "strength": "MIDDLE",
+      "r": 70,
+      "n": 9,
+      "pos": "497:378",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "BANDITS",
+      "strength": "MIDDLE",
+      "r": 40,
+      "n": 3,
+      "pos": "265:718",
+      "data": {
+        "ignorePlayer": [
+          "true"
+        ]
+      },
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "LONERS",
+      "strength": "MIDDLE",
+      "r": 100,
+      "n": 15,
+      "pos": "494:757",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "DUTY",
+      "strength": "WEAK",
+      "r": 60,
+      "n": 5,
+      "pos": "746:1145",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 40,
+      "n": 3,
+      "pos": "813:1041",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "BANDITS",
+      "strength": "WEAK",
+      "r": 40,
+      "n": 3,
+      "pos": "883:921",
+      "data": null,
+      "condition": null,
+      "actions": null
+    }
+  ],
+  
+  "3":[
+	{
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "DUTY",
+      "strength": "WEAK",
+      "r": 25,
+      "n": 3,
+      "pos": "1737:1130",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "DUTY",
+      "strength": "WEAK",
+      "r": 50,
+      "n": 7,
+      "pos": "1700:1400",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 13,
+      "n": 6,
+      "pos": "1501:1255",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "DUTY",
+      "strength": "WEAK",
+      "r": 25,
+      "n": 6,
+      "pos": "1582:1381",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "DUTY",
+      "strength": "WEAK",
+      "r": 25,
+      "n": 3,
+      "pos": "1386:1500",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 30,
+      "n": 6,
+      "pos": "1487:1404",
+      "data": null,
+      "condition": null,
+      "actions": null
+    }
+  ],
+  
+  "5":[
+	{
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "DUTY",
+      "strength": "WEAK",
+      "r": 15,
+      "n": 3,
+      "pos": "1722:1115",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "BANDITS",
+      "strength": "MIDDLE",
+      "r": 40,
+      "n": 3,
+      "pos": "250:99",
+      "data": {
+        "ignorePlayer": []
+      },
+      "condition": {
+        "!has": [
+          "quest_kastet_lox_bez_deneg"
+        ]
+      },
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "BANDITS",
+      "strength": "MIDDLE",
+      "r": 40,
+      "n": 3,
+      "pos": "250:99",
+      "data": null,
+      "condition": {
+        "has": [
+          "quest_kastet_lox_bez_deneg"
+        ]
+      },
+      "actions": {
+        "add": [
+          "quest_kastet_findstalker_key"
+        ],
+        "remove": [
+          "quest_kastet_lox_bez_deneg"
+        ]
+      }
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "DUTY",
+      "strength": "WEAK",
+      "r": 60,
+      "n": 8,
+      "pos": "1647:1384",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "BANDITS",
+      "strength": "WEAK",
+      "r": 70,
+      "n": 7,
+      "pos": "495:363",
+      "data": null,
+      "condition": null,
+      "actions": null
+    }
+  ],
+  
+  "6":[
+	{
+      "id": 0,
+      "title": null,
+      "description": null,
+      "group": "BANDITS",
+      "strength": "WEAK",
+      "r": 70,
+      "n": 7,
+      "pos": "495:363",
+      "data": null,
+      "condition": null,
+      "actions": null
+    }
+  ],
+  
+  "7":[
+	{
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "DUTY",
+      "strength": "WEAK",
+      "r": 15,
+      "n": 3,
+      "pos": "1722:1115",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "DUTY",
+      "strength": "WEAK",
+      "r": 60,
+      "n": 8,
+      "pos": "1647:1384",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "",
+      "description": "",
+      "group": "BANDITS",
+      "strength": "WEAK",
+      "r": 70,
+      "n": 7,
+      "pos": "495:363",
+      "data": null,
+      "condition": null,
+      "actions": null
+    }
+  ],
+  
+  "8":[
+	{
+      "id": 0,
+      "title": null,
+      "description": null,
+      "group": "DUTY",
+      "strength": "WEAK",
+      "r": 15,
+      "n": 3,
+      "pos": "1722:1115",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": null,
+      "description": null,
+      "group": "DUTY",
+      "strength": "WEAK",
+      "r": 60,
+      "n": 8,
+      "pos": "1647:1384",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": null,
+      "description": null,
+      "group": "BANDITS",
+      "strength": "WEAK",
+      "r": 70,
+      "n": 7,
+      "pos": "495:363",
+      "data": null,
+      "condition": null,
+      "actions": null
+    }
+  ]
+  
+	},
+  "missions": null
+}

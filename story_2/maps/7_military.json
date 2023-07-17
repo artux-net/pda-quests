@@ -1,14 +1,12 @@
 {
-  "id": "7",
-  "title": "Армейские склады",
+  "id": 7,
+  "title": "Военные склады",
   "tmx": "military.tmx",
-  "defPos": "330:960",
-  "editor": {
-    "url": "/map_military.png"
-  },
+  "defPos": "500:500",
   "points": [
     {
-      "type": "7",
+      "id": "36649e11-5dee-4717-8e25-d7e109e021f8",
+      "type": 7,
       "name": "Армейские склады - Бар",
       "pos": "230:359",
       "data": {
@@ -16,30 +14,29 @@
         "stage": "211"
       },
       "condition": {}
+    },
+    {
+      "id": "1afcfc80-485a-4531-b26e-9ea1556f97ed",
+      "type": 0,
+      "name": "Охранник",
+      "pos": "901:426",
+      "data": {
+        "chapter": "2",
+        "stage": "190"
+      },
+      "condition": {}
+    },
+    {
+      "id": "1afcfc80-485a-4531-b26e-9ea1556f97ed",
+      "type": 0,
+      "name": "Охранник",
+      "pos": "901:426",
+      "data": {
+        "chapter": "2",
+        "stage": "190"
+      },
+      "condition": {}
     }
   ],
-  "transfers": [],
-  "spawns": [
-    {
-      "group": "DUTY",
-      "strength": "WEAK",
-      "n": "3",
-      "r": "15",
-      "pos": "1722:1115"
-    },
-    {
-      "group": "DUTY",
-      "strength": "WEAK",
-      "n": "8",
-      "r": "60",
-      "pos": "1647:1384"
-    },
-    {
-      "group": "BANDITS",
-      "strength": "WEAK",
-      "n": "7",
-      "r": "70",
-      "pos": "495:363"
-    }
-  ]
+  "spawns": []
 }

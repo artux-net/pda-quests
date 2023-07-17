@@ -1,57 +1,6 @@
 {
   "id": 0,
-  "music": [
-    {
-      "id": "0",
-      "name": "Fire 1 20% | Prologue chapter 0",
-      "url": "https://pda.artux.net/story/prologue/sound/fire.mp3",
-      "params": [
-        "loop",
-        "volume:0.2"
-      ]
-    },
-    {
-      "id": "1",
-      "name": "Fire 1 50%| Prologue chapter 0",
-      "url": "https://pda.artux.net/story/prologue/sound/fire.mp3",
-      "params": [
-        "loop",
-        "volume:0.5"
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Guitar 1 50% | Prologue chapter 0",
-      "url": "https://pda.artux.net/story/prologue/sound/guitar.mp3",
-      "params": [
-        "volume:0.5"
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Guitar 1 100% | Prologue chapter 0",
-      "url": "https://pda.artux.net/story/prologue/sound/guitar.mp3",
-      "params": []
-    },
-    {
-      "id": "4",
-      "name": "PDA новое уведомление",
-      "url": "https://pda.artux.net/story/prologue/sound/PDA1.mp3",
-      "params": []
-    },
-    {
-      "id": "5",
-      "name": "PDA новый квест",
-      "url": "https://pda.artux.net/story/prologue/sound/PDA2.mp3",
-      "params": []
-    },
-    {
-      "id": "6",
-      "name": "PDA новое сообщение",
-      "url": "https://pda.artux.net/story/prologue/sound/PDA3.mp3",
-      "params": []
-    }
-  ],
+  "title": null,
   "stages": [
     {
       "id": 0,
@@ -72,16 +21,13 @@
       ],
       "transfers": [
         {
-          "text": "Сбросы",
-          "stage": "1",
-          "condition": {}
+          "stage": 1,
+          "condition": {},
+          "text": "Сбросы"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 281,
-        "y": 491
-      }
+      "data": null
     },
     {
       "id": 1,
@@ -102,26 +48,23 @@
       ],
       "transfers": [
         {
-          "text": "Сбросить все отношения группировок",
-          "stage": "2",
-          "condition": {}
+          "stage": 2,
+          "condition": {},
+          "text": "Сбросить все отношения группировок"
         },
         {
-          "text": "Сбросить всё снаряжение",
-          "stage": "3",
-          "condition": {}
+          "stage": 3,
+          "condition": {},
+          "text": "Сбросить всё снаряжение"
         },
         {
-          "text": "Сбросить деньги",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Сбросить деньги"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 737,
-        "y": 629
-      }
+      "data": null
     },
     {
       "id": 2,
@@ -142,9 +85,9 @@
       ],
       "transfers": [
         {
-          "text": "В главное меню",
-          "stage": "0",
-          "condition": {}
+          "stage": 0,
+          "condition": {},
+          "text": "В главное меню"
         }
       ],
       "actions": {
@@ -158,10 +101,7 @@
           "relation_6"
         ]
       },
-      "editor": {
-        "x": 790,
-        "y": 8
-      }
+      "data": null
     },
     {
       "id": 3,
@@ -182,18 +122,15 @@
       ],
       "transfers": [
         {
-          "text": "В главное меню",
-          "stage": "0",
-          "condition": {}
+          "stage": 0,
+          "condition": {},
+          "text": "В главное меню"
         }
       ],
       "actions": {
         "reset": []
       },
-      "editor": {
-        "x": 945,
-        "y": 162
-      }
+      "data": null
     },
     {
       "id": 4,
@@ -214,31 +151,28 @@
       ],
       "transfers": [
         {
-          "text": "Сбросить 10 000",
-          "stage": "5",
-          "condition": {}
+          "stage": 5,
+          "condition": {},
+          "text": "Сбросить 10 000"
         },
         {
-          "text": "Сбросить 1 000",
-          "stage": "6",
-          "condition": {}
+          "stage": 6,
+          "condition": {},
+          "text": "Сбросить 1 000"
         },
         {
-          "text": "Сбросить 500",
-          "stage": "7",
-          "condition": {}
+          "stage": 7,
+          "condition": {},
+          "text": "Сбросить 500"
         },
         {
-          "text": "Сбросить 100",
-          "stage": "8",
-          "condition": {}
+          "stage": 8,
+          "condition": {},
+          "text": "Сбросить 100"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 236,
-        "y": 504
-      }
+      "data": null
     },
     {
       "id": 5,
@@ -259,9 +193,9 @@
       ],
       "transfers": [
         {
-          "text": "В главное меню",
-          "stage": "0",
-          "condition": {}
+          "stage": 0,
+          "condition": {},
+          "text": "В главное меню"
         }
       ],
       "actions": {
@@ -269,10 +203,7 @@
           "-10000"
         ]
       },
-      "editor": {
-        "x": 930,
-        "y": 351
-      }
+      "data": null
     },
     {
       "id": 6,
@@ -293,9 +224,9 @@
       ],
       "transfers": [
         {
-          "text": "В главное меню",
-          "stage": "0",
-          "condition": {}
+          "stage": 0,
+          "condition": {},
+          "text": "В главное меню"
         }
       ],
       "actions": {
@@ -303,10 +234,7 @@
           "-1000"
         ]
       },
-      "editor": {
-        "x": 463,
-        "y": 927
-      }
+      "data": null
     },
     {
       "id": 7,
@@ -327,9 +255,9 @@
       ],
       "transfers": [
         {
-          "text": "В главное меню",
-          "stage": "0",
-          "condition": {}
+          "stage": 0,
+          "condition": {},
+          "text": "В главное меню"
         }
       ],
       "actions": {
@@ -337,10 +265,7 @@
           "-500"
         ]
       },
-      "editor": {
-        "x": 539,
-        "y": 823
-      }
+      "data": null
     },
     {
       "id": 8,
@@ -361,9 +286,9 @@
       ],
       "transfers": [
         {
-          "text": "В главное меню",
-          "stage": "0",
-          "condition": {}
+          "stage": 0,
+          "condition": {},
+          "text": "В главное меню"
         }
       ],
       "actions": {
@@ -371,10 +296,10 @@
           "-100"
         ]
       },
-      "editor": {
-        "x": 423,
-        "y": 469
-      }
+      "data": null
     }
-  ]
+  ],
+  "points": {},
+  "spawns": {},
+  "missions": null
 }

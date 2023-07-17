@@ -1,0 +1,140 @@
+{
+  "id": 5,
+  "title": "Тёмная долина",
+  "tmx": "darkvalley.tmx",
+  "defPos": "500:500",
+  "points": [
+    {
+      "id": "3ab9bb12-f24c-4592-9ac0-4db74174ec15",
+      "type": 7,
+      "name": "Тёмная долина - Свалка",
+      "pos": "46:678",
+      "data": {
+        "chapter": "2",
+        "stage": "205"
+      },
+      "condition": {}
+    },
+    {
+      "id": "ff88649d-8d8f-4ab6-b24f-32b785d82d57",
+      "type": 0,
+      "name": "Ферма",
+      "pos": "135:340",
+      "data": {
+        "chapter": "2",
+        "stage": "97"
+      },
+      "condition": {
+        "has": [
+          "quest_2_0_flash_barmen"
+        ]
+      }
+    },
+    {
+      "id": "2b296417-24e3-47c5-bfa5-166af1f90e0e",
+      "type": 1,
+      "name": "Ферма",
+      "pos": "250:99",
+      "data": {
+        "chapter": "2",
+        "stage": "281"
+      },
+      "condition": {
+        "has": [
+          "quest_kastet_findstalker_true"
+        ]
+      }
+    },
+    {
+      "id": "b46c99da-20df-4345-8d32-8f48fe98bae2",
+      "type": 1,
+      "name": "Передать аппарат военным",
+      "pos": "147:237",
+      "data": {
+        "chapter": "2",
+        "stage": "236"
+      },
+      "condition": {
+        "has": [
+          "quest_samagon_device"
+        ]
+      }
+    },
+    {
+      "id": "d9e6f472-c535-4229-aa14-52b5e80240b2",
+      "type": 2,
+      "name": "Какой-то сталкер",
+      "pos": "154:201",
+      "data": {
+        "chapter": "2",
+        "stage": "99"
+      },
+      "condition": {
+        "has": [
+          "quest_2_0_flash_barmen1"
+        ]
+      }
+    },
+    {
+      "id": "ff88649d-8d8f-4ab6-b24f-32b785d82d57",
+      "type": 0,
+      "name": "Ферма",
+      "pos": "135:340",
+      "data": {
+        "chapter": "2",
+        "stage": "97"
+      },
+      "condition": {
+        "has": [
+          "quest_2_0_flash_barmen"
+        ]
+      }
+    },
+    {
+      "id": "2b296417-24e3-47c5-bfa5-166af1f90e0e",
+      "type": 1,
+      "name": "Ферма",
+      "pos": "250:99",
+      "data": {
+        "chapter": "2",
+        "stage": "281"
+      },
+      "condition": {
+        "has": [
+          "quest_kastet_findstalker_true"
+        ]
+      }
+    },
+    {
+      "id": "b46c99da-20df-4345-8d32-8f48fe98bae2",
+      "type": 1,
+      "name": "Передать аппарат военным",
+      "pos": "147:237",
+      "data": {
+        "chapter": "2",
+        "stage": "236"
+      },
+      "condition": {
+        "has": [
+          "quest_samagon_device"
+        ]
+      }
+    },
+    {
+      "id": "d9e6f472-c535-4229-aa14-52b5e80240b2",
+      "type": 2,
+      "name": "Какой-то сталкер",
+      "pos": "154:201",
+      "data": {
+        "chapter": "2",
+        "stage": "99"
+      },
+      "condition": {
+        "has": [
+          "quest_2_0_flash_barmen1"
+        ]
+      }
+    }
+  ],
+  "spawns": []
+}

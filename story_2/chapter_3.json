@@ -1,5 +1,6 @@
 {
   "id": 3,
+  "title": null,
   "stages": [
     {
       "id": 0,
@@ -7,9 +8,6 @@
       "background": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "Новый квест: Понюхать яйца.",
-      "music": [
-        "5"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -23,16 +21,13 @@
       ],
       "transfers": [
         {
-          "text": "Я же только что показывал их вашему коллеге",
-          "stage": "1",
-          "condition": {}
+          "stage": 1,
+          "condition": {},
+          "text": "Я же только что показывал их вашему коллеге"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 608,
-        "y": 718
-      }
+      "data": null
     },
     {
       "id": 1,
@@ -53,21 +48,18 @@
       ],
       "transfers": [
         {
-          "text": "У тебя тоже",
-          "stage": "2",
-          "condition": {}
+          "stage": 2,
+          "condition": {},
+          "text": "У тебя тоже"
         },
         {
-          "text": "А у тебя воняют, сука",
-          "stage": "3",
-          "condition": {}
+          "stage": 3,
+          "condition": {},
+          "text": "А у тебя воняют, сука"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 356,
-        "y": 952
-      }
+      "data": null
     },
     {
       "id": 2,
@@ -75,9 +67,6 @@
       "background": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "Получено: 1000 рублей",
-      "music": [
-        "4"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -91,9 +80,9 @@
       ],
       "transfers": [
         {
-          "text": "SPS",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "SPS"
         }
       ],
       "actions": {
@@ -104,10 +93,7 @@
           "1000"
         ]
       },
-      "editor": {
-        "x": 627,
-        "y": 706
-      }
+      "data": null
     },
     {
       "id": 3,
@@ -128,9 +114,9 @@
       ],
       "transfers": [
         {
-          "text": "Смэрть",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Смэрть"
         }
       ],
       "actions": {
@@ -138,10 +124,7 @@
           "quest_1_0_smierc"
         ]
       },
-      "editor": {
-        "x": 145,
-        "y": 258
-      }
+      "data": null
     },
     {
       "id": 4,
@@ -170,29 +153,26 @@
       ],
       "transfers": [
         {
-          "text": "Текст ответа 2",
-          "stage": "5",
+          "stage": 5,
           "condition": {
             "has": [
               "quest_1_0_jajca_woniajut"
             ]
-          }
+          },
+          "text": "Текст ответа 2"
         },
         {
-          "text": "Текст ответа 3",
-          "stage": "6",
+          "stage": 6,
           "condition": {
             "has": [
               "quest_1_0_smierc"
             ]
-          }
+          },
+          "text": "Текст ответа 3"
         }
       ],
       "actions": {},
-      "editor": {
-        "x": 243,
-        "y": 411
-      }
+      "data": null
     },
     {
       "id": 5,
@@ -200,9 +180,6 @@
       "background": "story/freeplay/screen/14.jpg",
       "title": "Лейтенант Саев",
       "message": "Потерян предмет: Вонючие яйца. Получено: Мыло, Репутация: +10",
-      "music": [
-        "4"
-      ],
       "type_message": 0,
       "texts": [
         {
@@ -216,9 +193,9 @@
       ],
       "transfers": [
         {
-          "text": "Даб даб я пажилая гадза",
-          "stage": "1",
-          "condition": {}
+          "stage": 1,
+          "condition": {},
+          "text": "Даб даб я пажилая гадза"
         }
       ],
       "actions": {
@@ -226,10 +203,7 @@
           "10"
         ]
       },
-      "editor": {
-        "x": 784,
-        "y": 441
-      }
+      "data": null
     },
     {
       "id": 6,
@@ -250,9 +224,9 @@
       ],
       "transfers": [
         {
-          "text": "Я же только что показывал их вашему коллеге",
-          "stage": "1",
-          "condition": {}
+          "stage": 1,
+          "condition": {},
+          "text": "Я же только что показывал их вашему коллеге"
         }
       ],
       "actions": {
@@ -260,10 +234,7 @@
           "relation_2:3"
         ]
       },
-      "editor": {
-        "x": 289,
-        "y": 913
-      }
+      "data": null
     },
     {
       "id": 7,
@@ -284,9 +255,9 @@
       ],
       "transfers": [
         {
-          "text": "Я же только что показывал их вашему коллеге",
-          "stage": "8",
-          "condition": {}
+          "stage": 8,
+          "condition": {},
+          "text": "Я же только что показывал их вашему коллеге"
         }
       ],
       "actions": {
@@ -295,22 +266,25 @@
           "quest_1_0_smierc"
         ]
       },
-      "editor": {
-        "x": 343,
-        "y": 272
-      }
+      "data": null
     },
     {
       "id": 8,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "1",
-        "pos": "124:817"
-      },
-      "editor": {
-        "x": 504,
-        "y": 783
+        "pos": "124:817",
+        "map": "1"
       }
     }
-  ]
+  ],
+  "points": {},
+  "spawns": {},
+  "missions": null
 }
