@@ -1,0 +1,212 @@
+{
+  "id": 4,
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Хорошо, что именно тебе нужно?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Собрать части мутантов",
+          "stage": "1",
+          "condition": {}
+        },
+        {
+          "text": "Поиск информации",
+          "stage": "2",
+          "condition": {}
+        },
+        {
+          "text": "Передать предмет",
+          "stage": "3",
+          "condition": {}
+        },
+        {
+          "text": "Задание",
+          "stage": "4",
+          "condition": {}
+        },
+        {
+          "text": "Забрать награду",
+          "stage": "5",
+          "condition": {}
+        },
+        {
+          "text": "Забудь",
+          "stage": "6",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 875,
+        "y": 0
+      }
+    },
+    {
+      "id": 1,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 0,
+        "y": 150
+      }
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 350,
+        "y": 150
+      }
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 700,
+        "y": 150
+      }
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "Новое уведомление",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1050,
+        "y": 150
+      }
+    },
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1400,
+        "y": 150
+      }
+    },
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1750,
+        "y": 150
+      }
+    }
+  ],
+  "points": {
+    "9": []
+  },
+  "spawns": {},
+  "missions": [],
+  "title": "Квесты торговца"
+}

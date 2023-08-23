@@ -1,0 +1,438 @@
+{
+  "id": 1,
+  "title": "Тестирование новых фич",
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/11.jpg",
+      "title": "Полигон",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "--------",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 1,
+          "condition": {},
+          "text": "Выход на Полигон"
+        },
+        {
+          "stage": 2,
+          "condition": {},
+          "text": "Забрать припасы"
+        },
+        {
+          "text": "Завершить историю",
+          "stage": "28",
+          "condition": {}
+        },
+        {
+          "text": "Технические настройки",
+          "stage": "34",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "data": null,
+      "editor": {
+        "x": 350,
+        "y": 150
+      }
+    },
+    {
+      "id": 1,
+      "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
+      "data": {
+        "pos": "1125:1242",
+        "map": "9"
+      },
+      "editor": {
+        "x": 0,
+        "y": 450
+      }
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/11.jpg",
+      "title": "Полигон",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Добавлено 10 припасов",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 1,
+          "condition": {},
+          "text": "Выход на полигон"
+        },
+        {
+          "stage": 3,
+          "condition": {},
+          "text": "Выход С полигона"
+        }
+      ],
+      "actions": {
+        "add": [
+          "Припасы:10"
+        ]
+      },
+      "data": null,
+      "editor": {
+        "x": 757.5,
+        "y": 300
+      }
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/11.jpg",
+      "title": "",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "ББ",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "exitStory": []
+      },
+      "data": null,
+      "editor": {
+        "x": 782.5,
+        "y": 450
+      }
+    },
+    {
+      "id": 26,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_1.jpg",
+      "title": "Бункер Сидоровича",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вы покидаете Бункер Сидоровича",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Выход",
+          "stage": "27",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 700,
+        "y": 0
+      }
+    },
+    {
+      "id": 27,
+      "type_stage": 4,
+      "data": {
+        "map": "9",
+        "pos": "1268:1160"
+      },
+      "editor": {
+        "x": 700,
+        "y": 150
+      }
+    },
+    {
+      "id": 28,
+      "type_stage": 0,
+      "background": "",
+      "title": "",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "finishStory": []
+      },
+      "editor": {
+        "x": -118.60545221295703,
+        "y": 264.87973059653626
+      }
+    },
+    {
+      "id": 29,
+      "type_stage": 0,
+      "background": "",
+      "title": "Петля 1",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Раз",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 30,
+          "condition": {},
+          "text": "ав"
+        }
+      ],
+      "actions": {},
+      "data": null,
+      "editor": {
+        "x": 1750,
+        "y": 150
+      }
+    },
+    {
+      "id": 30,
+      "type_stage": 0,
+      "background": "",
+      "title": "Петля 2",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Два",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 31,
+          "condition": {},
+          "text": "ва"
+        }
+      ],
+      "actions": {
+        "add": [
+          "Разум:1"
+        ]
+      },
+      "data": null,
+      "editor": {
+        "x": 1157.5,
+        "y": 300
+      }
+    },
+    {
+      "id": 31,
+      "type_stage": 0,
+      "background": "",
+      "title": "Петля 3",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Три",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 32,
+          "condition": {},
+          "text": "ва"
+        }
+      ],
+      "actions": {},
+      "data": null,
+      "editor": {
+        "x": 1157.5,
+        "y": 450
+      }
+    },
+    {
+      "id": 32,
+      "type_stage": 0,
+      "background": "",
+      "title": "Петля 4",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "ЧОТЫРЕ",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 29,
+          "condition": {},
+          "text": "ыв"
+        },
+        {
+          "stage": 33,
+          "condition": {
+            "Разум>=": [
+              "10"
+            ]
+          },
+          "text": "Выход из петли"
+        }
+      ],
+      "actions": {},
+      "data": null,
+      "editor": {
+        "x": 1750,
+        "y": 600
+      }
+    },
+    {
+      "id": 33,
+      "type_stage": 0,
+      "background": "",
+      "title": "",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1750,
+        "y": 750
+      }
+    }
+  ],
+  "points": {
+    "0": [],
+    "7": [],
+    "9": [
+      {
+        "id": "579ab439-a3a2-4803-bae8-3d5e7cd06956",
+        "type": 0,
+        "name": "Переход с карты",
+        "pos": "1162:1088",
+        "data": {
+          "chapter": "1",
+          "stage": "0"
+        },
+        "condition": {},
+        "editor": {
+          "x": 350,
+          "y": 0
+        }
+      },
+      {
+        "id": "bc7b951d-4b2b-4d05-8dd7-89012d165d32",
+        "type": 7,
+        "name": "Примеры ошибок",
+        "pos": "1268:1239",
+        "data": {
+          "chapter": "2",
+          "stage": "9"
+        },
+        "condition": null,
+        "editor": {
+          "x": 1050,
+          "y": 0
+        }
+      },
+      {
+        "id": "e8164806-8ea1-476a-aa04-3c16bcb07fe7",
+        "type": 4,
+        "name": "Сидорович",
+        "pos": "1268:1160",
+        "data": {
+          "chapter": "3",
+          "stage": "0"
+        },
+        "condition": {},
+        "editor": {
+          "x": 1400,
+          "y": 0
+        }
+      },
+      {
+        "id": "4ba40869-83a5-4a3a-9bda-448fb8c84261",
+        "type": 0,
+        "name": "Пузырь",
+        "pos": "1162:1285",
+        "data": {
+          "stage": 29,
+          "chapter": "1"
+        },
+        "condition": {},
+        "editor": {
+          "x": 1750,
+          "y": 0
+        }
+      }
+    ]
+  },
+  "spawns": {
+    "7": [],
+    "9": [
+      {
+        "id": 0,
+        "title": "Маникен",
+        "description": null,
+        "group": "LONERS",
+        "strength": "WEAK",
+        "r": 25,
+        "n": 1,
+        "pos": "1141:1247",
+        "data": {
+          "alwaysIgnored": [],
+          "immortal": [],
+          "ignorePlayer": []
+        },
+        "condition": {},
+        "actions": null
+      }
+    ]
+  },
+  "missions": [
+    {
+      "title": "10 припасов",
+      "name": "10-pripasov",
+      "checkpoints": [
+        {
+          "parameter": "Припасы:10",
+          "title": "Новый чекпоинт",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {
+            "playSound": [
+              "story/prologue/sound/PDA2.mp3"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

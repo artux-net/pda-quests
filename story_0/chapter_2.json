@@ -1,0 +1,695 @@
+{
+  "id": 2,
+  "title": "Примеры ошибок в кратце",
+  "stages": [
+    {
+      "id": 1,
+      "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
+      "data": {
+        "pos": "910:682",
+        "map": "7"
+      },
+      "editor": {
+        "x": 0,
+        "y": 900
+      }
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест с нормальной синхронизацией",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В этой стадии будет пример с корректно отображающимся текстом при наличии параметров",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 3,
+          "condition": {},
+          "text": "Добавить параметр [Тест_1]"
+        },
+        {
+          "stage": 4,
+          "condition": {},
+          "text": "Добавить параметр [Тест_2]"
+        }
+      ],
+      "actions": {},
+      "data": null,
+      "editor": {
+        "x": 730,
+        "y": 150
+      }
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест с нормальной синхронизацией",
+      "message": "Новое уведомление",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Эта ветка будет короткой и сразу приведет к тексту \"Значение параметра: Тест_1\"\n\nСинхронизация происходит на этой стадии",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 5,
+          "condition": {},
+          "text": "Получить ответ"
+        }
+      ],
+      "actions": {
+        "add": [
+          "Тест_1"
+        ],
+        "syncNow": []
+      },
+      "data": null,
+      "editor": {
+        "x": 1080,
+        "y": 300
+      }
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест с нормальной синхронизацией",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Эта ветка будет короткой и сразу приведет к тексту \"Значение параметра: Тест_2\"\n\nСинхронизация происходит на этой стадии",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 5,
+          "condition": {},
+          "text": "Получить ответ"
+        }
+      ],
+      "actions": {
+        "add": [
+          "Тест_2"
+        ],
+        "syncNow": []
+      },
+      "data": null,
+      "editor": {
+        "x": 720,
+        "y": 300
+      }
+    },
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест с нормальной синхронизацией",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Значение параметра: Тест_1",
+          "condition": {
+            "has": [
+              "Тест_1"
+            ]
+          }
+        },
+        {
+          "text": "Значение параметра: Тест_2",
+          "condition": {
+            "has": [
+              "Тест_2"
+            ]
+          }
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 6,
+          "condition": {},
+          "text": "Далее"
+        }
+      ],
+      "actions": {},
+      "data": null,
+      "editor": {
+        "x": 905,
+        "y": 450
+      }
+    },
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест с нормальной синхронизацией",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Это был пример корректно работающей синхронизации. Параметры были очищены на этой стадии",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 7,
+          "condition": {},
+          "text": "Выйти на карту"
+        },
+        {
+          "stage": 8,
+          "condition": {},
+          "text": "Выйти из истории"
+        },
+        {
+          "stage": 9,
+          "condition": {},
+          "text": "Вернуться к началу"
+        }
+      ],
+      "actions": {
+        "remove": [
+          "Тест_1",
+          "Тест_2"
+        ]
+      },
+      "data": null,
+      "editor": {
+        "x": 905,
+        "y": 600
+      }
+    },
+    {
+      "id": 7,
+      "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
+      "data": {
+        "pos": "812:707",
+        "map": "7"
+      },
+      "editor": {
+        "x": 822.5,
+        "y": 1500
+      }
+    },
+    {
+      "id": 8,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест с синхронизацией",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "До встречи",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "exitStory": []
+      },
+      "data": null,
+      "editor": {
+        "x": 1450,
+        "y": 1500
+      }
+    },
+    {
+      "id": 9,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_0.jpg",
+      "title": "Примеры ошибок",
+      "message": "Новое уведомление\nСинхронизация с сервером",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В этой главе рассматриваются на примере разные ошибки связанные с квестами",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 1,
+          "condition": {},
+          "text": "Выйти на карту"
+        },
+        {
+          "stage": 2,
+          "condition": {},
+          "text": "Квест с нормальной синхронизацией"
+        },
+        {
+          "stage": 10,
+          "condition": {},
+          "text": "Квест с кривой синхронизацией"
+        },
+        {
+          "stage": 15,
+          "condition": {},
+          "text": "Квест без синхронизации"
+        }
+      ],
+      "actions": {
+        "syncNow": []
+      },
+      "data": null,
+      "editor": {
+        "x": 670,
+        "y": 690
+      }
+    },
+    {
+      "id": 10,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест с кривой синхронизацией",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В этой стадии будет пример с криво отображающимся текстом при условии что синхронизация с сервером происходит на этапе получения ответа",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 11,
+          "condition": {},
+          "text": "Добавить параметр [Тест_1]"
+        },
+        {
+          "stage": 12,
+          "condition": {},
+          "text": "Добавить параметр [Тест_2]"
+        }
+      ],
+      "actions": {},
+      "data": null,
+      "editor": {
+        "x": 1460,
+        "y": 900
+      }
+    },
+    {
+      "id": 11,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест с кривой синхронизацией",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Эта ветка будет короткой и сразу приведет к тексту \"Значение параметра: Тест_1\"\n\nСинхронизация не происходит на этой стадии",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 13,
+          "condition": {},
+          "text": "Получить ответ"
+        }
+      ],
+      "actions": {
+        "add": [
+          "Тест_1"
+        ]
+      },
+      "data": null,
+      "editor": {
+        "x": 1542.5,
+        "y": 1050
+      }
+    },
+    {
+      "id": 12,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест с кривой синхронизацией",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Эта ветка будет короткой и сразу приведет к тексту \"Значение параметра: Тест_2\"\n\nСинхронизация не происходит на этой стадии",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 13,
+          "condition": {},
+          "text": "Получить ответ"
+        }
+      ],
+      "actions": {
+        "add": [
+          "Тест_2"
+        ]
+      },
+      "data": null,
+      "editor": {
+        "x": 1192.5,
+        "y": 1050
+      }
+    },
+    {
+      "id": 13,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест с кривой синхронизацией",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Значение параметра: Тест_1\n\nСинхронизация с сервером",
+          "condition": {
+            "has": [
+              "Тест_1"
+            ]
+          }
+        },
+        {
+          "text": "Значение параметра: Тест_2\n\nСинхронизация с сервером",
+          "condition": {
+            "has": [
+              "Тест_2"
+            ]
+          }
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 14,
+          "condition": {},
+          "text": "Далее"
+        }
+      ],
+      "actions": {
+        "syncNow": []
+      },
+      "data": null,
+      "editor": {
+        "x": 1460,
+        "y": 1200
+      }
+    },
+    {
+      "id": 14,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест с кривой синхронизацией",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Это был пример криво работающей синхронизации. Параметры были очищены на этой стадии",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 7,
+          "condition": {},
+          "text": "Выйти на карту"
+        },
+        {
+          "stage": 8,
+          "condition": {},
+          "text": "Выйти из истории"
+        },
+        {
+          "stage": 9,
+          "condition": {},
+          "text": "Вернуться к началу"
+        }
+      ],
+      "actions": {
+        "remove": [
+          "Тест_1",
+          "Тест_2"
+        ]
+      },
+      "data": null,
+      "editor": {
+        "x": 1450,
+        "y": 1350
+      }
+    },
+    {
+      "id": 15,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест без синхронизации",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В этой стадии будет пример текста без синхронизации",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 16,
+          "condition": {},
+          "text": "Добавить параметр [Тест_1]"
+        },
+        {
+          "stage": 17,
+          "condition": {},
+          "text": "Добавить параметр [Тест_2]"
+        }
+      ],
+      "actions": {},
+      "data": null,
+      "editor": {
+        "x": 720,
+        "y": 900
+      }
+    },
+    {
+      "id": 16,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест без синхронизации",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Эта ветка будет короткой и сразу приведет к тексту \"Значение параметра: Тест_1\"",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 18,
+          "condition": {},
+          "text": "Получить ответ"
+        }
+      ],
+      "actions": {
+        "add": [
+          "Тест_1"
+        ]
+      },
+      "data": null,
+      "editor": {
+        "x": 720,
+        "y": 1050
+      }
+    },
+    {
+      "id": 17,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест без синхронизации",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Эта ветка будет короткой и сразу приведет к тексту \"Значение параметра: Тест_1\"",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 18,
+          "condition": {},
+          "text": "Получить ответ"
+        }
+      ],
+      "actions": {
+        "add": [
+          "Тест_2"
+        ]
+      },
+      "data": null,
+      "editor": {
+        "x": 370,
+        "y": 1050
+      }
+    },
+    {
+      "id": 18,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест без синхронизации",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Значение параметра: Тест_1",
+          "condition": {
+            "has": [
+              "Тест_1"
+            ]
+          }
+        },
+        {
+          "text": "Значение параметра: Тест_2",
+          "condition": {
+            "has": [
+              "Тест_2"
+            ]
+          }
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 19,
+          "condition": {},
+          "text": "Далее"
+        }
+      ],
+      "actions": {},
+      "data": null,
+      "editor": {
+        "x": 720,
+        "y": 1200
+      }
+    },
+    {
+      "id": 19,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_6.jpg",
+      "title": "Квест без синхронизации",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Это был пример текста без работающей синхронизации. Параметры были очищены на этой стадии",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "stage": 8,
+          "condition": {},
+          "text": "Выйти из истории"
+        },
+        {
+          "stage": 7,
+          "condition": {},
+          "text": "Выйти на карту"
+        },
+        {
+          "stage": 9,
+          "condition": {},
+          "text": "Вернуться к началу"
+        }
+      ],
+      "actions": {
+        "remove": [
+          "Тест_1",
+          "Тест_2"
+        ]
+      },
+      "data": null,
+      "editor": {
+        "x": 627.5,
+        "y": 1350
+      }
+    }
+  ],
+  "points": {
+    "0": [],
+    "7": [
+      {
+        "id": "c8835e76-e74e-4b37-afc8-25aa8560af39",
+        "type": 0,
+        "name": "Нормальная синхронизация",
+        "pos": "812:707",
+        "data": {
+          "chapter": "2",
+          "stage": "2"
+        },
+        "condition": {},
+        "editor": {
+          "x": 730,
+          "y": 0
+        }
+      },
+      {
+        "id": "ed79a8f0-cfbb-48a6-b137-996d1555bb6e",
+        "type": 0,
+        "name": "Кривая синхронизация",
+        "pos": "812:660",
+        "data": {
+          "chapter": "2",
+          "stage": "10"
+        },
+        "condition": {},
+        "editor": {
+          "x": 1182.5,
+          "y": 750
+        }
+      },
+      {
+        "id": "9d132c9e-df37-4f5a-93ac-6bc181e86036",
+        "type": 0,
+        "name": "Без синхронизации",
+        "pos": "812:613",
+        "data": {
+          "chapter": "2",
+          "stage": "15"
+        },
+        "condition": {},
+        "editor": {
+          "x": 205,
+          "y": 750
+        }
+      }
+    ],
+    "9": []
+  },
+  "spawns": {
+    "7": []
+  },
+  "missions": []
+}

@@ -1,9 +1,6 @@
 {
-  "id": "9",
+  "id": 9,
   "title": "Болота",
-  "editor": {
-    "url": "/map_marsh.png"
-  },
   "tmx": "marsh.tmx",
   "defPos": "500:500",
   "points": [],

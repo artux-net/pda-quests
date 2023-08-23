@@ -1,113 +1,426 @@
 {
-  "id": "1",
+  "id": 1,
   "title": "Кордон",
   "tmx": "kordon.tmx",
-  "defPos": "330:960",
-  "points": [],
-  "transfers": [],
+  "defPos": "500:500",
+  "points": [
+    {
+      "id": "7cbd9208-1060-491c-895c-8f9adf078852",
+      "type": 0,
+      "name": "Квест с Евреем",
+      "pos": "608:2259",
+      "data": {
+        "chapter": "1",
+        "stage": "20"
+      },
+      "condition": {
+        "!has": [
+          "quest_go_derevnya"
+        ]
+      }
+    },
+    {
+      "id": "dcb4dbd0-2088-41c8-84f9-368bf908aa8f",
+      "type": 3,
+      "name": "Блокпост под мостом",
+      "pos": "689:1369",
+      "data": {
+        "chapter": "1",
+        "stage": "13"
+      },
+      "condition": {}
+    },
+    {
+      "id": "16c3cadb-2d0e-4905-a7da-9ad38db2db4f",
+      "type": 3,
+      "name": "Блокпост под мостом 2",
+      "pos": "688:1417",
+      "data": {
+        "chapter": "1",
+        "stage": "40"
+      },
+      "condition": {}
+    },
+    {
+      "id": "10d97881-b1e8-4c39-8aed-c491910d4136",
+      "type": 0,
+      "name": "От новичка на Кордон",
+      "pos": "607:2295",
+      "data": {
+        "chapter": "3",
+        "stage": "85"
+      },
+      "condition": {
+        "has": [
+          "quest_go_kordon"
+        ]
+      }
+    },
+    {
+      "id": "64a2ac76-68d3-427f-85f9-1359cf968be6",
+      "type": 6,
+      "name": "От блокпоста в деревню",
+      "pos": "368:843",
+      "data": {
+        "chapter": "3",
+        "stage": "103"
+      },
+      "condition": {
+        "has": [
+          "quest_go_derevnya"
+        ]
+      }
+    },
+    {
+      "id": "ee6f5777-2b6b-4ae4-b15b-20a392ee1229",
+      "type": 0,
+      "name": "От деревни к выходу из зоны",
+      "pos": "302:508",
+      "data": {
+        "chapter": "3",
+        "stage": "131"
+      },
+      "condition": {
+        "!has": [
+          "quest_sidorovich1"
+        ],
+        "has": [
+          "quest_exit0"
+        ]
+      }
+    },
+    {
+      "id": "d7d3e802-f044-4481-bb87-0bab9e5c691b",
+      "type": 0,
+      "name": "От сидоровича к аномалии",
+      "pos": "200:1037",
+      "data": {
+        "chapter": "3",
+        "stage": "112"
+      },
+      "condition": {
+        "has": [
+          "quest_sidorovich2"
+        ]
+      }
+    },
+    {
+      "id": "bef08ad9-a72c-4ed0-9618-a4fc9e775c6e",
+      "type": 0,
+      "name": "От аномалии к сидоровичу",
+      "pos": "128:877",
+      "data": {
+        "chapter": "3",
+        "stage": "129"
+      },
+      "condition": {
+        "has": [
+          "quest_sidorovich3"
+        ]
+      }
+    },
+    {
+      "id": "0f86d499-88db-49bf-bb72-fadc54b46d6b",
+      "type": 3,
+      "name": "2Блокпост под мостом",
+      "pos": "681:1338",
+      "data": {
+        "chapter": "3",
+        "stage": "213"
+      },
+      "condition": {}
+    },
+    {
+      "id": "af82b865-4d84-4f71-9f45-8f52fe1acac2",
+      "type": 3,
+      "name": "2Блокпост под мостом 2",
+      "pos": "685:1445",
+      "data": {
+        "chapter": "3",
+        "stage": "240"
+      },
+      "condition": {}
+    },
+    {
+      "id": "10d97881-b1e8-4c39-8aed-c491910d4136",
+      "type": 0,
+      "name": "От новичка на Кордон",
+      "pos": "607:2295",
+      "data": {
+        "chapter": "3",
+        "stage": "85"
+      },
+      "condition": {
+        "has": [
+          "quest_go_kordon"
+        ]
+      }
+    },
+    {
+      "id": "64a2ac76-68d3-427f-85f9-1359cf968be6",
+      "type": 6,
+      "name": "От блокпоста в деревню",
+      "pos": "368:843",
+      "data": {
+        "chapter": "3",
+        "stage": "103"
+      },
+      "condition": {
+        "has": [
+          "quest_go_derevnya"
+        ]
+      }
+    },
+    {
+      "id": "ee6f5777-2b6b-4ae4-b15b-20a392ee1229",
+      "type": 0,
+      "name": "От деревни к выходу из зоны",
+      "pos": "302:508",
+      "data": {
+        "chapter": "3",
+        "stage": "131"
+      },
+      "condition": {
+        "!has": [
+          "quest_sidorovich1"
+        ],
+        "has": [
+          "quest_exit0"
+        ]
+      }
+    },
+    {
+      "id": "d7d3e802-f044-4481-bb87-0bab9e5c691b",
+      "type": 0,
+      "name": "От сидоровича к аномалии",
+      "pos": "200:1037",
+      "data": {
+        "chapter": "3",
+        "stage": "112"
+      },
+      "condition": {
+        "has": [
+          "quest_sidorovich2"
+        ]
+      }
+    },
+    {
+      "id": "bef08ad9-a72c-4ed0-9618-a4fc9e775c6e",
+      "type": 0,
+      "name": "От аномалии к сидоровичу",
+      "pos": "128:877",
+      "data": {
+        "chapter": "3",
+        "stage": "129"
+      },
+      "condition": {
+        "has": [
+          "quest_sidorovich3"
+        ]
+      }
+    },
+    {
+      "id": "0f86d499-88db-49bf-bb72-fadc54b46d6b",
+      "type": 3,
+      "name": "2Блокпост под мостом",
+      "pos": "681:1338",
+      "data": {
+        "chapter": "3",
+        "stage": "213"
+      },
+      "condition": {}
+    },
+    {
+      "id": "af82b865-4d84-4f71-9f45-8f52fe1acac2",
+      "type": 3,
+      "name": "2Блокпост под мостом 2",
+      "pos": "685:1445",
+      "data": {
+        "chapter": "3",
+        "stage": "240"
+      },
+      "condition": {}
+    },
+    {
+      "id": "7cbd9208-1060-491c-895c-8f9adf078852",
+      "type": 0,
+      "name": "Квест с Евреем",
+      "pos": "608:2259",
+      "data": {
+        "chapter": "1",
+        "stage": "20"
+      },
+      "condition": {
+        "!has": [
+          "quest_go_derevnya"
+        ]
+      }
+    },
+    {
+      "id": "dcb4dbd0-2088-41c8-84f9-368bf908aa8f",
+      "type": 3,
+      "name": "Блокпост под мостом",
+      "pos": "689:1369",
+      "data": {
+        "chapter": "1",
+        "stage": "13"
+      },
+      "condition": {}
+    },
+    {
+      "id": "16c3cadb-2d0e-4905-a7da-9ad38db2db4f",
+      "type": 3,
+      "name": "Блокпост под мостом 2",
+      "pos": "688:1417",
+      "data": {
+        "chapter": "1",
+        "stage": "40"
+      },
+      "condition": {}
+    }
+  ],
   "spawns": [
     {
-      "group": "MILITARY",
-      "strength": "WEAK",
+      "id": 0,
       "title": "Блокпост под мостом",
       "description": "Блокпост, оборудованный под рухнувшим мостом. Имеет стратегически важную позицию, поскольку является одним из трёх проходов через насыпь. ",
-      "n": "3",
-      "r": "30",
+      "group": "MILITARY",
+      "strength": "WEAK",
+      "r": 30,
+      "n": 3,
       "pos": "681:1338",
       "data": {
         "ignorePlayer": [
           "true"
         ]
-      }
+      },
+      "condition": null,
+      "actions": null
     },
     {
-      "group": "MILITARY",
-      "strength": "WEAK",
+      "id": 0,
       "title": "Блокпост под мостом",
       "description": "Блокпост, оборудованный под рухнувшим мостом. Имеет стратегически важную позицию, поскольку является одним из трёх проходов через насыпь. ",
-      "n": "4",
-      "r": "30",
+      "group": "MILITARY",
+      "strength": "WEAK",
+      "r": 30,
+      "n": 4,
       "pos": "689:1403",
       "data": {
         "ignorePlayer": [
           "true"
         ]
-      }
+      },
+      "condition": null,
+      "actions": null
     },
     {
-      "group": "MILITARY",
-      "strength": "WEAK",
+      "id": 0,
       "title": "Военный блокпост",
       "description": "Военный блокпост — подлокация на юге Кордона. Является постоянным местом обитания военных.",
-      "n": "5",
-      "r": "20",
+      "group": "MILITARY",
+      "strength": "WEAK",
+      "r": 20,
+      "n": 5,
       "pos": "316:502",
       "data": {
         "ignorePlayer": [
           "true"
         ]
-      }
+      },
+      "condition": null,
+      "actions": null
     },
     {
-      "group": "MILITARY",
-      "strength": "MIDDLE",
+      "id": 0,
       "title": "Военный блокпост",
       "description": "Военный блокпост — подлокация на юге Кордона. Является постоянным местом обитания военных.",
-      "n": "5",
-      "r": "20",
-      "pos": "366:437"
+      "group": "MILITARY",
+      "strength": "MIDDLE",
+      "r": 20,
+      "n": 5,
+      "pos": "366:437",
+      "data": null,
+      "condition": null,
+      "actions": null
     },
     {
-      "group": "LONERS",
-      "strength": "WEAK",
+      "id": 0,
       "title": "Деревня новичков",
       "description": "Небольшая деревня расположенная на Кордоне, где как правило, обитают вновь прибывшие в Зону Отчуждения. Деревня представляет собой небольшую деревушку из одной улицы из семи домов, и бомбоубежища, переоборудованного в бункер торговцем Сидоровичем в нескольких метрах к западу от последнего здания. ",
-      "n": "8",
-      "r": "40",
-      "pos": "234:843"
-    },
-    {
       "group": "LONERS",
       "strength": "WEAK",
-      "n": "1",
-      "r": "1",
-      "pos": "644:2314"
+      "r": 40,
+      "n": 8,
+      "pos": "234:843",
+      "data": null,
+      "condition": null,
+      "actions": null
     },
     {
+      "id": 0,
+      "title": null,
+      "description": null,
       "group": "LONERS",
-      "strength": "MIDDLE",
+      "strength": "WEAK",
+      "r": 1,
+      "n": 1,
+      "pos": "644:2314",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
       "title": "Тайный лагерь",
       "description": "Незаметный из-за холма бывший лагерь одиночек, находящийся за деревней новичков.",
-      "n": "3",
-      "r": "50",
-      "pos": "148:1060"
+      "group": "LONERS",
+      "strength": "MIDDLE",
+      "r": 50,
+      "n": 3,
+      "pos": "148:1060",
+      "data": null,
+      "condition": null,
+      "actions": null
     },
     {
-      "group": "BANDITS",
-      "strength": "WEAK",
+      "id": 0,
       "title": "АТП",
       "description": "АТП — заброшенное автотранспортное предприятие «Локомотив». Находится в восточной части Кордона.",
-      "n": "5",
-      "r": "40",
-      "pos": "792:1073"
+      "group": "BANDITS",
+      "strength": "WEAK",
+      "r": 40,
+      "n": 5,
+      "pos": "792:1073",
+      "data": null,
+      "condition": null,
+      "actions": null
     },
     {
-      "group": "LONERS",
-      "strength": "WEAK",
+      "id": 0,
       "title": "Ферма",
       "description": "Два старых заброшенных строения, расположенных на территории Кордона.",
-      "n": "3",
-      "r": "30",
-      "pos": "576:1592"
-    },
-    {
       "group": "LONERS",
       "strength": "WEAK",
+      "r": 30,
+      "n": 3,
+      "pos": "576:1592",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
       "title": "Группа одиночек",
       "description": "Группа новичков-одиночек, которая находится на северо-востоке от железнодорожного моста.",
-      "n": "5",
-      "r": "30",
-      "pos": "1009:1668"
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 30,
+      "n": 5,
+      "pos": "1009:1668",
+      "data": null,
+      "condition": null,
+      "actions": null
     }
   ]
 }

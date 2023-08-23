@@ -1,10 +1,7 @@
 {
-  "id": "6",
+  "id": 6,
   "title": "Янтарь",
-  "editor": {
-    "url": "/map_yantar.png"
-  },
-  "tmx": "yantar.tmx",
+  "tmx": "bar.tmx",
   "defPos": "500:500",
   "points": [],
   "spawns": []

@@ -1,0 +1,492 @@
+{
+  "id": 7,
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background": "",
+      "title": "Описание главы",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {},
+      "editor": {
+        "x": 150,
+        "y": 50
+      },
+      "_comment": "Это техническая глава которая отвечает за Тайники/блокпосты и т.д"
+    },
+    {
+      "id": 1,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/21.jpg",
+      "title": "Лейтенант Мыслов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Расценки знаешь, проход - 500 рублей.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держи",
+          "stage": "2",
+          "condition": {
+            "money>=": [
+              "500"
+            ]
+          }
+        },
+        {
+          "text": "Пока",
+          "stage": "3",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 500,
+        "y": 200
+      }
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/21.jpg",
+      "title": "Лейтенант Мыслов",
+      "message": "Потеряно денег: 500р",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Чтобы через минуту я тебя не видел!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage": "7",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "-500"
+        ]
+      },
+      "editor": {
+        "x": 325,
+        "y": 350
+      }
+    },
+    {
+      "id": 3,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "690:1350"
+      },
+      "editor": {
+        "x": 675,
+        "y": 350
+      }
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/20.jpg",
+      "title": "Майор Силлов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Расценки знаешь, проход - 500 рублей.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держи",
+          "stage": "5",
+          "condition": {
+            "money>=": [
+              "500"
+            ]
+          }
+        },
+        {
+          "text": "Пока",
+          "stage": "6",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1200,
+        "y": 200
+      }
+    },
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/20.jpg",
+      "title": "Майор Силлов",
+      "message": "Потеряно денег: 500р",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Чтобы через минуту я тебя не видел!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage": "8",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "-500"
+        ]
+      },
+      "editor": {
+        "x": 1025,
+        "y": 350
+      }
+    },
+    {
+      "id": 6,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "690:1500"
+      },
+      "editor": {
+        "x": 1375,
+        "y": 350
+      }
+    },
+    {
+      "id": 7,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "690:1500"
+      },
+      "editor": {
+        "x": 325,
+        "y": 500
+      }
+    },
+    {
+      "id": 8,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "690:1350"
+      },
+      "editor": {
+        "x": 1025,
+        "y": 500
+      }
+    },
+    {
+      "id": 9,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/46.jpg",
+      "title": "Барахолка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Осмотрите тайник.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Осмотреть",
+          "stage": "10",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1725,
+        "y": 200
+      }
+    },
+    {
+      "id": 10,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/47.jpg",
+      "title": "Тайник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В тайнике: Аптечка х2, патроны 9х18 х30, Гадюка.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Уйти",
+          "stage": "11",
+          "condition": {}
+        },
+        {
+          "text": "Забрать",
+          "stage": "12",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1725,
+        "y": 350
+      }
+    },
+    {
+      "id": 11,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "951:1087"
+      },
+      "editor": {
+        "x": 1725,
+        "y": 650
+      }
+    },
+    {
+      "id": 12,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/47.jpg",
+      "title": "Тайник",
+      "message": "Получено: Аптечка х2, патроны 9х18 х30, Гадюка.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Тайник пуст.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Уйти",
+          "stage": "11",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "stash_1_0"
+        ],
+        "add": [
+          "84:2",
+          "10:1",
+          "29:30"
+        ]
+      },
+      "editor": {
+        "x": 1817.5,
+        "y": 500
+      }
+    },
+    {
+      "id": 13,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/46.jpg",
+      "title": "Дикая территория",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Осмотрите тайник.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Осмотреть",
+          "stage": "14",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2095,
+        "y": 200
+      }
+    },
+    {
+      "id": 14,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/47.jpg",
+      "title": "Тайник",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В тайнике: Аптечка х3, патроны 5.45х39 мм х30, Акм 74/2у.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Уйти",
+          "stage": "16",
+          "condition": {}
+        },
+        {
+          "text": "Забрать",
+          "stage": "15",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2095,
+        "y": 350
+      }
+    },
+    {
+      "id": 15,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/47.jpg",
+      "title": "Тайник",
+      "message": "Получено: Аптечка х3, патроны 5.45х39 мм х30, Акм 74/2у.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Тайник пуст.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Уйти",
+          "stage": "16",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "stash_2_0"
+        ],
+        "add": [
+          "84:3",
+          "38:30",
+          "11:1"
+        ]
+      },
+      "editor": {
+        "x": 2009.4517549754596,
+        "y": 497.70260329000587
+      }
+    },
+    {
+      "id": 16,
+      "type_stage": 4,
+      "data": {
+        "map": "4",
+        "pos": "1178:1578"
+      },
+      "editor": {
+        "x": 2095,
+        "y": 650
+      }
+    }
+  ],
+  "points": {
+    "1": [
+      {
+        "id": "f00288f8-84b9-4158-a13f-750b73efb116",
+        "type": 3,
+        "name": "Блокпост под мостом",
+        "pos": "690:1400",
+        "data": {
+          "stage": "1",
+          "chapter": "7"
+        },
+        "condition": {},
+        "editor": {
+          "x": 491.5403925284669,
+          "y": 51.75572912299512
+        }
+      },
+      {
+        "id": "c1268932-8a19-4273-9155-89fd02805156",
+        "type": 3,
+        "name": "Блокпост под мостом",
+        "pos": "690:1450",
+        "data": {
+          "stage": "4",
+          "chapter": "7"
+        },
+        "condition": {},
+        "editor": {
+          "x": 1318.6949920172133,
+          "y": 48.30500798278641
+        }
+      }
+    ],
+    "2": [
+      {
+        "id": "01cc5f13-e9d1-47ec-ad61-cf89f8edf174",
+        "type": 5,
+        "name": "Тайник",
+        "pos": "951:1087",
+        "data": {
+          "stage": "9",
+          "chapter": "7"
+        },
+        "condition": {
+          "has": [
+            "stash_1_0"
+          ]
+        },
+        "editor": {
+          "x": 1656.3855886398096,
+          "y": 50
+        }
+      }
+    ],
+    "3": [],
+    "4": [
+      {
+        "id": "d82f06bd-188f-4d78-96cd-6aace2e31e15",
+        "type": 5,
+        "name": "Тайник",
+        "pos": "1178:1578",
+        "data": {
+          "stage": "13",
+          "chapter": "7"
+        },
+        "condition": {
+          "has": [
+            "stash_2_0"
+          ]
+        },
+        "editor": {
+          "x": 2026.3855886398096,
+          "y": 50
+        }
+      }
+    ]
+  },
+  "spawns": {},
+  "missions": [],
+  "title": "Модуль с Другими Активностями"
+}

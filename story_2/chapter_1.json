@@ -1,6 +1,5 @@
 {
   "id": 1,
-  "title": null,
   "stages": [
     {
       "id": 0,
@@ -13,17 +12,13 @@
         {
           "text": "Привет, Сталкер. Чего хочешь?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 1,
-          "condition": {},
-          "text": "Здравствуйте, вы не подскажите, как мне попасть в Зону?"
+          "text": "Здравствуйте, вы не подскажете, как мне попасть в Зону?",
+          "stage": "1",
+          "condition": {}
         }
       ],
       "actions": {
@@ -37,7 +32,6 @@
           "relation_6"
         ]
       },
-      "data": null,
       "editor": {
         "x": 0,
         "y": 0
@@ -54,21 +48,16 @@
         {
           "text": "Турист? С Большой Земли?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 2,
-          "condition": {},
-          "text": "Так заметно?"
+          "text": "Так заметно?",
+          "stage": "2",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
         "x": 0,
         "y": 150
@@ -85,17 +74,13 @@
         {
           "text": "Перестань говорить: «Здравствуйте», склячь спину – будешь похож на дебила-новичка.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 3,
-          "condition": {},
-          "text": "..."
+          "text": "...",
+          "stage": "3",
+          "condition": {}
         }
       ],
       "actions": {
@@ -105,7 +90,6 @@
           "relation_1:3"
         ]
       },
-      "data": null,
       "editor": {
         "x": 0,
         "y": 300
@@ -122,21 +106,16 @@
         {
           "text": "Давай знакомиться, что-ли. Мать окрестила меня Айваром, но тут все зовут меня Джо.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 4,
-          "condition": {},
-          "text": "@name"
+          "text": "@name",
+          "stage": "4",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
         "x": 0,
         "y": 450
@@ -153,21 +132,16 @@
         {
           "text": "Будем знакомы, @name. В армии служил хотя бы?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 5,
-          "condition": {},
-          "text": "Было дело"
+          "text": "Было дело",
+          "stage": "5",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
         "x": 0,
         "y": 600
@@ -184,21 +158,16 @@
         {
           "text": "Уже лучше, чем ничего. А теперь слушай меня: лезть в Зону тебе сейчас - самоубийство. Освойся тут для начала. У тебя документы есть?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 6,
-          "condition": {},
-          "text": "Паспорт только"
+          "text": "Паспорт только",
+          "stage": "6",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
         "x": 0,
         "y": 750
@@ -215,21 +184,16 @@
         {
           "text": "Да на кой хрен мне твой паспорт, разрешение на нахождение в Чернобыле-4.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 7,
-          "condition": {},
-          "text": "Тогда нет"
+          "text": "Тогда нет",
+          "stage": "7",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
         "x": 0,
         "y": 900
@@ -246,21 +210,16 @@
         {
           "text": "И денег, я так понимаю, у тебя не густо, да? ",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 8,
-          "condition": {},
-          "text": "Около 500 рублей"
+          "text": "Около 500 рублей",
+          "stage": "8",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
         "x": 0,
         "y": 1050
@@ -277,21 +236,16 @@
         {
           "text": "Ну, этого, конечно же, не хватит, чтобы оформить документы. Предлагаю тебе немного поработать на меня, побегаешь в безопасной зоне, заработаешь на документы, чтобы хоть передвигаться мог без переживаний о том, что тебя в КПЗ посадят и увезут судить в Киев.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 9,
-          "condition": {},
-          "text": "Что мне нужно будет делать?"
+          "text": "Что мне нужно будет делать?",
+          "stage": "9",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
         "x": 0,
         "y": 1200
@@ -308,21 +262,16 @@
         {
           "text": "Ничего сложного. Для начала, отнеси эти бумажки научникам в НИИЧАЗ, сейчас я выпишу тебе пропуск к ним.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 10,
-          "condition": {},
-          "text": "Зона, что она такое?"
+          "text": "Зона, что она такое?",
+          "stage": "10",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
         "x": 0,
         "y": 1350
@@ -339,21 +288,16 @@
         {
           "text": "Зона, она… Я вижу ты подготовленный, читал фольклор? На самом деле всё страшнее и чужде. Как говорили старики: «Если ты хочешь сыграть с ней в карты, она берёт шахматы, или другую игру, в которой понимаешь разве что с гулькин хрен». С народом местным: как относишься к ним – так к тебе, но я не верю в это дерьмо. Бывает, что одного человека спас, а через день он тебя убивает. Все остальное – сам узнаешь. Держи эту штуку, ПДА называется, карманный персональный компьютер, разберёшься.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 11,
-          "condition": {},
-          "text": "Зачем она мне?"
+          "text": "Зачем она мне?",
+          "stage": "11",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
         "x": 0,
         "y": 1500
@@ -370,21 +314,16 @@
         {
           "text": "Без неё тебе тут не выжить. В ПДА встроен дозиметр, детектор аномалий, карта, ну и своеобразный коммуникатор между сталкерами - сталкерской сетью называют. Там же есть энциклопедия Зоны, изучи на досуге, поможет выжить, хе-хе. Тьфу, набрался этого хе-хе от одного бедолаги, которого, собственно, так и кличат. Засранец. ",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 12,
-          "condition": {},
-          "text": "..."
+          "text": "...",
+          "stage": "12",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
         "x": 0,
         "y": 1650
@@ -401,17 +340,13 @@
         {
           "text": "Вот твой пропуск, метку на ПДА я тебе скинул. Вперёд и с песней, постарайся не сдохнуть.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 13,
-          "condition": {},
-          "text": "Многообещающее напутствие. Пока"
+          "text": "Многообещающее напутствие. Пока",
+          "stage": "13",
+          "condition": {}
         }
       ],
       "actions": {
@@ -419,7 +354,6 @@
           "quest_0_0"
         ]
       },
-      "data": null,
       "editor": {
         "x": 0,
         "y": 1800
@@ -428,16 +362,9 @@
     {
       "id": 13,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "1311:662",
-        "map": "0"
+        "map": "0",
+        "pos": "1311:662"
       },
       "editor": {
         "x": 0,
@@ -455,23 +382,18 @@
         {
           "text": "Стоять. С какой целью направляешься в НИИЧАЗ?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 15,
-          "condition": {},
-          "text": "Передать документы. Вот мой пропуск"
+          "text": "Передать документы. Вот мой пропуск",
+          "stage": "15",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 525,
+        "x": 515,
         "y": 150
       }
     },
@@ -486,23 +408,18 @@
         {
           "text": "От Джо, значит. А разрешение на нахождение в закрытой территории у тебя есть?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 16,
-          "condition": {},
-          "text": "Нет"
+          "text": "Нет",
+          "stage": "16",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 525,
+        "x": 515,
         "y": 300
       }
     },
@@ -517,23 +434,18 @@
         {
           "text": "И как же ты собрался проходить на закрытый объект?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 17,
-          "condition": {},
-          "text": "Не знаю, начальник. Может быть договоримся?"
+          "text": "Не знаю, начальник. Может быть договоримся?",
+          "stage": "17",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 525,
+        "x": 515,
         "y": 450
       }
     },
@@ -548,23 +460,18 @@
         {
           "text": "1000 рублей и проходи.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 18,
-          "condition": {},
-          "text": "У меня только 500 рублей."
+          "text": "У меня только 500 рублей.",
+          "stage": "18",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 525,
+        "x": 515,
         "y": 600
       }
     },
@@ -579,22 +486,18 @@
         {
           "text": "Ну, 500 рублей вход, 500 рублей выход. Пустить - пущу, но бесплатно от сюда не выйдешь. Либо заходи и думай на месте, где деньги взять, либо вали туда, от куда пришёл.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 20,
-          "condition": {},
-          "text": "Пропускай, я найду"
+          "text": "Пропускай, я найду",
+          "stage": "19",
+          "condition": {}
         },
         {
-          "stage": 19,
-          "condition": {},
-          "text": "Пойду поищу, скоро вернусь"
+          "text": "Пойду поищу, скоро вернусь",
+          "stage": "22",
+          "condition": {}
         }
       ],
       "actions": {
@@ -602,49 +505,13 @@
           "quest_0_0"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 525,
+        "x": 515,
         "y": 750
       }
     },
     {
       "id": 19,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/1.jpg",
-      "title": "Блокпост",
-      "message": "Новый квест: Вернуться в бар",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Давай-давай.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 21,
-          "condition": {},
-          "text": "Пока."
-        }
-      ],
-      "actions": {
-        "add": [
-          "quest_0_0_post_bar"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 700,
-        "y": 900
-      }
-    },
-    {
-      "id": 20,
       "type_stage": 0,
       "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
@@ -654,17 +521,13 @@
         {
           "text": "Ну-ну, давай, удачи.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 46,
-          "condition": {},
-          "text": "Пока"
+          "text": "Пока",
+          "stage": "20",
+          "condition": {}
         }
       ],
       "actions": {
@@ -672,14 +535,13 @@
           "quest_0_0_post_uch1"
         ]
       },
-      "data": null,
       "editor": {
         "x": 350,
         "y": 900
       }
     },
     {
-      "id": 46,
+      "id": 20,
       "type_stage": 0,
       "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
@@ -689,17 +551,13 @@
         {
           "text": "У тебя 15 минут, поторопись.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 22,
-          "condition": {},
-          "text": "Да понял я"
+          "text": "Да понял я",
+          "stage": "21",
+          "condition": {}
         }
       ],
       "actions": {
@@ -707,7 +565,6 @@
           "quest_0_0_post_uch_dolg"
         ]
       },
-      "data": null,
       "editor": {
         "x": 350,
         "y": 1050
@@ -716,35 +573,9 @@
     {
       "id": 21,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "2374:947",
-        "map": "0"
-      },
-      "editor": {
-        "x": 700,
-        "y": 1050
-      }
-    },
-    {
-      "id": 22,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "2373:1007",
-        "map": "0"
+        "map": "0",
+        "pos": "2373:1007"
       },
       "editor": {
         "x": 350,
@@ -752,65 +583,45 @@
       }
     },
     {
-      "id": 47,
+      "id": 22,
       "type_stage": 0,
-      "background": "story/freeplay/screen/2.jpg",
-      "title": "Ученый",
-      "message": "",
+      "background": "story/freeplay/screen/1.jpg",
+      "title": "Блокпост",
+      "message": "Новый квест: Вернуться в бар",
       "type_message": 0,
       "texts": [
         {
-          "text": "Здравствуйте. Чем могу помочь?",
-          "condition": {}
-        },
-        {
-          "text": "",
+          "text": "Давай-давай.",
           "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 23,
-          "condition": {},
-          "text": "Здравствуйте. Айвар просил передать вам документы"
+          "text": "Пока",
+          "stage": "23",
+          "condition": {}
         }
       ],
-      "actions": {},
-      "data": null,
+      "actions": {
+        "add": [
+          "quest_0_0_post_bar"
+        ]
+      },
       "editor": {
-        "x": 1400,
-        "y": 150
+        "x": 700,
+        "y": 900
       }
     },
     {
       "id": 23,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/2.jpg",
-      "title": "Ученый",
-      "message": "Потерян предмет: Документы для НИИЧАЗ",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Джо? Отлично, давно жду от него эти материалы. Простите, как вас зовут?",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 24,
-          "condition": {},
-          "text": "@name"
-        }
-      ],
-      "actions": {},
-      "data": null,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2374:947"
+      },
       "editor": {
-        "x": 1400,
-        "y": 300
+        "x": 700,
+        "y": 1050
       }
     },
     {
@@ -822,88 +633,73 @@
       "type_message": 0,
       "texts": [
         {
-          "text": "@name, говорите? Не припомню вас. Полагаю, меня вы тоже не знаете. Моя фамилия Клементьев, будем знакомы.",
-          "condition": {}
-        },
-        {
-          "text": "",
+          "text": "Здравствуйте. Чем могу помочь?",
           "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 25,
-          "condition": {},
-          "text": "Очень приятно"
+          "text": "Здравствуйте. Айвар просил передать вам документы",
+          "stage": "25",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1400,
-        "y": 450
+        "x": 1225,
+        "y": 150
       }
     },
     {
       "id": 25,
       "type_stage": 0,
       "background": "story/freeplay/screen/2.jpg",
-      "title": "Клементьев",
-      "message": "",
+      "title": "Ученый",
+      "message": "Потерян предмет: Документы для НИИЧАЗ",
       "type_message": 0,
       "texts": [
         {
-          "text": "Да-да. Если у вас будут какие-либо вопросы, которые касаются деятельности в Зоне, обращайтесь.",
-          "condition": {}
-        },
-        {
-          "text": "",
+          "text": "Джо? Отлично, давно жду от него эти материалы. Простите, как вас зовут?",
           "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 26,
-          "condition": {},
-          "text": "Я могу получить у вас пропуск в Зону?"
+          "text": "@name",
+          "stage": "26",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1400,
-        "y": 600
+        "x": 1225,
+        "y": 300
       }
     },
     {
       "id": 26,
       "type_stage": 0,
       "background": "story/freeplay/screen/2.jpg",
-      "title": "Клементьев",
+      "title": "Ученый",
       "message": "",
       "type_message": 0,
       "texts": [
         {
-          "text": "К сожалению, сейчас мы не набираем внештатных сотрудников и не готовы ничего вам предложить.",
-          "condition": {}
-        },
-        {
-          "text": "",
+          "text": "@name, говорите? Не припомню вас. Полагаю, меня вы тоже не знаете. Моя фамилия Клементьев, будем знакомы.",
           "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 27,
-          "condition": {},
-          "text": "И как же мне попасть туда?"
+          "text": "Очень приятно",
+          "stage": "27",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1400,
-        "y": 750
+        "x": 1225,
+        "y": 450
       }
     },
     {
@@ -915,46 +711,21 @@
       "type_message": 0,
       "texts": [
         {
-          "text": "Не подскажу, но через НИИЧАЗ, опять же, на данный момент это невозможно.",
-          "condition": {}
-        },
-        {
-          "text": "",
+          "text": "Да-да. Если у вас будут какие-либо вопросы, которые касаются деятельности в Зоне, обращайтесь.",
           "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 28,
-          "condition": {
-            "!has": [
-              "quest_0_0_post_uch_dolg"
-            ]
-          },
-          "text": "Я вас понял. В таком случае, не смею задерживать вас"
-        },
-        {
-          "stage": 29,
-          "condition": {
-            "has": [
-              "quest_0_0_post_uch_dolg"
-            ]
-          },
-          "text": "У меня к вам нестандартная просьба: могу ли я попросить у вас в долг 500 рублей, чтобы выйти от сюда? Охрана без взятки не выпускает"
+          "text": "Я могу получить у вас пропуск в Зону?",
+          "stage": "28",
+          "condition": {}
         }
       ],
-      "actions": {
-        "add": [
-          "quest_0_0_post_uch_bar"
-        ],
-        "remove": [
-          "quest_0_0_post_uch1"
-        ]
-      },
-      "data": null,
+      "actions": {},
       "editor": {
-        "x": 1400,
-        "y": 900
+        "x": 1225,
+        "y": 600
       }
     },
     {
@@ -962,49 +733,25 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/2.jpg",
       "title": "Клементьев",
-      "message": "Новый квест: Вернуться в бар",
+      "message": "",
       "type_message": 0,
       "texts": [
         {
-          "text": "Всего доброго.",
-          "condition": {}
-        },
-        {
-          "text": "",
+          "text": "К сожалению, сейчас мы не набираем внештатных сотрудников и не готовы ничего вам предложить.",
           "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 33,
-          "condition": {},
-          "text": "Уйти"
+          "text": "И как же мне попасть туда?",
+          "stage": "29",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1050,
-        "y": 1050
-      }
-    },
-    {
-      "id": 33,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "2374:947",
-        "map": "0"
-      },
-      "editor": {
-        "x": 1050,
-        "y": 1200
+        "x": 1225,
+        "y": 750
       }
     },
     {
@@ -1016,24 +763,104 @@
       "type_message": 0,
       "texts": [
         {
-          "text": "Какой ужас! Я немедленно свяжусь с начальством и потребую, чтобы вас выпустили.",
-          "condition": {}
-        },
-        {
-          "text": "",
+          "text": "Не подскажу, но через НИИЧАЗ, опять же, на данный момент это невозможно.",
           "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 30,
-          "condition": {},
-          "text": "Буду благодарен"
+          "text": "Я вас понял. В таком случае, не смею задерживать вас",
+          "stage": "30",
+          "condition": {
+            "!has": [
+              "quest_0_0_post_uch_dolg"
+            ]
+          }
         },
         {
-          "stage": 34,
-          "condition": {},
-          "text": "Подождите..."
+          "text": "У меня к вам нестандартная просьба: могу ли я попросить у вас в долг 500 рублей, чтобы выйти от сюда? Охрана без взятки не выпускает",
+          "stage": "32",
+          "condition": {
+            "has": [
+              "quest_0_0_post_uch_dolg"
+            ]
+          }
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_post_uch_bar"
+        ],
+        "remove": [
+          "quest_0_0_post_uch1"
+        ]
+      },
+      "editor": {
+        "x": 1225,
+        "y": 900
+      }
+    },
+    {
+      "id": 30,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Клементьев",
+      "message": "Новый квест: Вернуться в бар",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Всего доброго.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Уйти",
+          "stage": "31",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1070.0226629558108,
+        "y": 1068.2815618292186
+      }
+    },
+    {
+      "id": 31,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2374:947"
+      },
+      "editor": {
+        "x": 1050,
+        "y": 1200
+      }
+    },
+    {
+      "id": 32,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Клементьев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Какой ужас! Я немедленно свяжусь с начальством и потребую, чтобы вас выпустили.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Буду благодарен",
+          "stage": "33",
+          "condition": {}
+        },
+        {
+          "text": "Подождите...",
+          "stage": "34",
+          "condition": {}
         }
       ],
       "actions": {
@@ -1041,14 +868,13 @@
           "quest_0_0_post_uch_dolg"
         ]
       },
-      "data": null,
       "editor": {
         "x": 1750,
         "y": 1050
       }
     },
     {
-      "id": 30,
+      "id": 33,
       "type_stage": 0,
       "background": "story/freeplay/screen/2.jpg",
       "title": "Клементьев",
@@ -1058,78 +884,19 @@
         {
           "text": "Товарищ сержант! Проводите этого молодого человека до выхода и проконтролируйте, чтобы его выпустили. Это мое личное поручение!",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 31,
-          "condition": {},
-          "text": "Спасибо, я пошел. Счастливо"
+          "text": "Спасибо, я пошел. Счастливо",
+          "stage": "35",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1575,
-        "y": 1200
-      }
-    },
-    {
-      "id": 31,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/3.jpg",
-      "title": "Блокпост",
-      "message": "Новый квест: Вернуться в бар",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Вот же засранец ты. Я тебе это еще припомню.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 32,
-          "condition": {},
-          "text": "Уйти"
-        }
-      ],
-      "actions": {
-        "xp": [
-          "-100"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 1575,
-        "y": 1350
-      }
-    },
-    {
-      "id": 32,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "2373:947",
-        "map": "0"
-      },
-      "editor": {
-        "x": 1575,
-        "y": 1500
+        "x": 1572.460950649911,
+        "y": 1190.5539049350089
       }
     },
     {
@@ -1143,21 +910,16 @@
         {
           "text": "В чем дело?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 35,
-          "condition": {},
-          "text": "Мне очень не хотелось бы начинать свое взаимодействие с НИИЧАЗ с негативной ноты, тем более, я сам виноват, что без документов. Может быть, все таки получится занять мне 500 рублей?"
+          "text": "Мне очень не хотелось бы начинать свое взаимодействие с НИИЧАЗ с негативной ноты, тем более, я сам виноват, что без документов. Может быть, все таки получится занять мне 500 рублей?",
+          "stage": "37",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
         "x": 1925,
         "y": 1200
@@ -1166,25 +928,63 @@
     {
       "id": 35,
       "type_stage": 0,
-      "background": "story/freeplay/screen/2.jpg",
-      "title": "Клементьев",
-      "message": "Получен предмет: 500 рублей",
+      "background": "story/freeplay/screen/3.jpg",
+      "title": "Блокпост",
+      "message": "Новый квест: Вернуться в бар",
       "type_message": 0,
       "texts": [
         {
-          "text": "Я вас понял, хорошо, держите деньги. Попрошу вас занести их в ближайшее время.",
-          "condition": {}
-        },
-        {
-          "text": "",
+          "text": "Вот же засранец ты. Я тебе это еще припомню.",
           "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 36,
-          "condition": {},
-          "text": "Спасибо, я пошёл. Счастливо"
+          "text": "Уйти",
+          "stage": "36",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "-100"
+        ]
+      },
+      "editor": {
+        "x": 1575,
+        "y": 1350
+      }
+    },
+    {
+      "id": 36,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2373:947"
+      },
+      "editor": {
+        "x": 1575,
+        "y": 1500
+      }
+    },
+    {
+      "id": 37,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Клементьев",
+      "message": "Получены деньги: 500 рублей",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я вас понял, хорошо, держите деньги. Попрошу вас занести их в ближайшее время.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо, я пошёл. Счастливо",
+          "stage": "38",
+          "condition": {}
         }
       ],
       "actions": {
@@ -1192,25 +992,17 @@
           "quest_0_0_post_uch1_exit"
         ]
       },
-      "data": null,
       "editor": {
         "x": 1925,
         "y": 1350
       }
     },
     {
-      "id": 36,
+      "id": 38,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "2448:1291",
-        "map": "0"
+        "map": "0",
+        "pos": "2448:1291"
       },
       "editor": {
         "x": 1925,
@@ -1218,7 +1010,7 @@
       }
     },
     {
-      "id": 37,
+      "id": 39,
       "type_stage": 0,
       "background": "story/freeplay/screen/3.jpg",
       "title": "Блокпост",
@@ -1228,28 +1020,23 @@
         {
           "text": "Ну что, боец, принёс, что обещал?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 38,
-          "condition": {},
-          "text": "Держи"
+          "text": "Держи",
+          "stage": "40",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1750,
+        "x": 1575,
         "y": 150
       }
     },
     {
-      "id": 38,
+      "id": 40,
       "type_stage": 0,
       "background": "story/freeplay/screen/3.jpg",
       "title": "Блокпост",
@@ -1259,17 +1046,13 @@
         {
           "text": "Вот и отлично. Без документов не возвращайся!",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 39,
-          "condition": {},
-          "text": "Пока"
+          "text": "Пока",
+          "stage": "41",
+          "condition": {}
         }
       ],
       "actions": {
@@ -1277,33 +1060,25 @@
           "quest_0_0_post_uch1_exit"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 1750,
+        "x": 1575,
         "y": 300
       }
     },
     {
-      "id": 39,
+      "id": 41,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "2374:947",
-        "map": "0"
+        "map": "0",
+        "pos": "2374:947"
       },
       "editor": {
-        "x": 1750,
+        "x": 1575,
         "y": 450
       }
     },
     {
-      "id": 40,
+      "id": 42,
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
@@ -1313,17 +1088,13 @@
         {
           "text": "Ты что, так быстро отнёс документы?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 41,
-          "condition": {},
-          "text": "Ещё нет. Охрана на блокпосте не пустила. Можно попросить в долг 500 рублей, чтобы зайти к ним?"
+          "text": "Ещё нет. Охрана на блокпосте не пустила. Можно попросить в долг 500 рублей, чтобы зайти к ним?",
+          "stage": "43",
+          "condition": {}
         }
       ],
       "actions": {
@@ -1331,14 +1102,13 @@
           "quest_0_0_post_bar1"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 2100,
-        "y": 0
+        "x": 1925,
+        "y": 150
       }
     },
     {
-      "id": 41,
+      "id": 43,
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
@@ -1348,54 +1118,42 @@
         {
           "text": "Ты дурак? Не мог договориться на месте с ним? Хорошо, держи, отработаешь.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 42,
-          "condition": {},
-          "text": "Спасибо, я пошёл"
+          "text": "Спасибо, я пошёл",
+          "stage": "44",
+          "condition": {}
         }
       ],
       "actions": {
-        "money": [
-          "500"
-        ],
         "remove": [
           "quest_0_0_post_bar"
+        ],
+        "money": [
+          "500"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 2100,
-        "y": 150
-      }
-    },
-    {
-      "id": 42,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "1311:662",
-        "map": "0"
-      },
-      "editor": {
-        "x": 2100,
+        "x": 1925,
         "y": 300
       }
     },
     {
-      "id": 43,
+      "id": 44,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1311:662"
+      },
+      "editor": {
+        "x": 1925,
+        "y": 450
+      }
+    },
+    {
+      "id": 45,
       "type_stage": 0,
       "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
@@ -1405,28 +1163,23 @@
         {
           "text": "Принёс косарь?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 44,
-          "condition": {},
-          "text": "Принёс, держи"
+          "text": "Принёс, держи",
+          "stage": "46",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 2450,
+        "x": 2275,
         "y": 150
       }
     },
     {
-      "id": 44,
+      "id": 46,
       "type_stage": 0,
       "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
@@ -1436,17 +1189,13 @@
         {
           "text": "Бегом, туда и обратно. Чтобы через 15 минут тебя уже не было на территории НИИЧАЗ.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 45,
-          "condition": {},
-          "text": "Спасибо"
+          "text": "Спасибо",
+          "stage": "47",
+          "condition": {}
         }
       ],
       "actions": {
@@ -1460,33 +1209,582 @@
           "quest_0_0_post_bar1"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 2450,
+        "x": 2275,
         "y": 300
       }
     },
     {
-      "id": 45,
+      "id": 47,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "2373:1007",
-        "map": "0"
+        "map": "0",
+        "pos": "2373:1007"
       },
       "editor": {
-        "x": 2450,
+        "x": 2275,
         "y": 450
       }
     },
     {
       "id": 48,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/9.jpg",
+      "title": "Сержат Крупов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Стой, кто такой?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Привет, мне к майору Киргизову",
+          "stage": "49",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 150
+      }
+    },
+    {
+      "id": 49,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/9.jpg",
+      "title": "Сержат Крупов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "По какому вопросу?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Устроиться на работу",
+          "stage": "50",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 300
+      }
+    },
+    {
+      "id": 50,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/9.jpg",
+      "title": "Сержат Крупов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Как зовут?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "@name",
+          "stage": "51",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 450
+      }
+    },
+    {
+      "id": 51,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/9.jpg",
+      "title": "Сержат Крупов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Товарищ майор, тут к вам гражданин @name хочет попасть, говорит, по поводу работы.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "52",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 600
+      }
+    },
+    {
+      "id": 52,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/9.jpg",
+      "title": "Сержат Крупов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я вас провожу к майору, пройдите за мной.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо",
+          "stage": "53",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 750
+      }
+    },
+    {
+      "id": 53,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/10.jpg",
+      "title": "Майор Киргизов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну здравствуй, @name. Ты от Джо, верно?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "А Вам разве не доложили?",
+          "stage": "54",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 900
+      }
+    },
+    {
+      "id": 54,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/10.jpg",
+      "title": "Майор Киргизов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Доложили, конечно же. Итак, тебе нужен официальный пропуск в Зону?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Всё верно",
+          "stage": "55",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 1050
+      }
+    },
+    {
+      "id": 55,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/10.jpg",
+      "title": "Майор Киргизов",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Значит так, запоминай свою легенду. Ты - контрактник, отличаешься хорошими исследовательскими и стратегическими навыками. По рекомендации был вызван сюда для выполнения служебных поручений. При этом официальным сотрудником ВС не являешься, по сути, обычный человек с пропуском в Зону, классно, да? Держи бумажки и передавай мне 5 документов, о которых говорил бармен.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держите",
+          "stage": "56",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 1200
+      }
+    },
+    {
+      "id": 56,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/10.jpg",
+      "title": "Майор Киргизов",
+      "message": "Потерян предмет: 5000 рублей. Получен предмет: Документы для пропуска в Зону",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Отлично, вот твои бумажки, с ними в НИИЧАЗ к Василию Алексеевичу. Тут, кстати, уже есть разрешение на нахождение в Чернобыле-4, так что можешь передвигаться спокойно. Только учти, ты всё таки не просто так будешь сотрудником, придётся выполнять иногда задания. Я буду высылать тебе их на ПДА.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Понял, я пошёл, спасибо",
+          "stage": "57",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_sng2"
+        ],
+        "remove": [
+          "quest_0_0_sng1"
+        ]
+      },
+      "editor": {
+        "x": 2625,
+        "y": 1350
+      }
+    },
+    {
+      "id": 57,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/10.jpg",
+      "title": "Майор Киргизов",
+      "message": "Новый квест: Идти в НИИЧАЗ",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Сержант проводит тебя до выхода, удачи.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage": "58",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "+": [
+          "relation_2:15"
+        ]
+      },
+      "editor": {
+        "x": 2625,
+        "y": 1500
+      }
+    },
+    {
+      "id": 58,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2093:1139"
+      },
+      "editor": {
+        "x": 2625,
+        "y": 1650
+      }
+    },
+    {
+      "id": 59,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/8.jpg",
+      "title": "Валерка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Псс, сталкер, новичок?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да, а что?",
+          "stage": "60",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "quest_0_0_naebka"
+        ]
+      },
+      "editor": {
+        "x": 3242.5,
+        "y": 150
+      }
+    },
+    {
+      "id": 60,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/8.jpg",
+      "title": "Валерка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Есть предложение. Хочешь получить пропуск в Зону по дешёвке? Скажем, за 800 рублей.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Нет, спасибо, я сам как-нибудь",
+          "stage": "61",
+          "condition": {}
+        },
+        {
+          "text": "Ну, допустим, хочу. Что нужно делать?",
+          "stage": "62",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3242.5,
+        "y": 300
+      }
+    },
+    {
+      "id": 61,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/8.jpg",
+      "title": "Валерка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Уверен? Таких предложений больше не будет.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ладно, выкладывай",
+          "stage": "62",
+          "condition": {}
+        },
+        {
+          "text": "Уверен, пока",
+          "stage": "63",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3150,
+        "y": 450
+      }
+    },
+    {
+      "id": 62,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/8.jpg",
+      "title": "Валерка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В общем, все просто. Говори своё погоняло, я отправлю его человеку. Плати деньги и иди к нему.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держи 800 рублей",
+          "stage": "65",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_naebka1"
+        ]
+      },
+      "editor": {
+        "x": 2975,
+        "y": 600
+      }
+    },
+    {
+      "id": 63,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/8.jpg",
+      "title": "Валерка",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, удачи, пацанчик.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Уйти",
+          "stage": "64",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_sng1"
+        ]
+      },
+      "editor": {
+        "x": 3325,
+        "y": 600
+      }
+    },
+    {
+      "id": 64,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1323:705"
+      },
+      "editor": {
+        "x": 3325,
+        "y": 750
+      }
+    },
+    {
+      "id": 65,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/8.jpg",
+      "title": "Валерка",
+      "message": "Новый квест: Отправиться за пропуском. Потеряно: 800 рублей",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Спасибо. Координаты на ПДА я скинул тебе, можешь уже прямо сейчас идти к нему.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage": "66",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2975,
+        "y": 750
+      }
+    },
+    {
+      "id": 66,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1323:705"
+      },
+      "editor": {
+        "x": 2975,
+        "y": 900
+      }
+    },
+    {
+      "id": 67,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Дом",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "На заднем дворе никого не было.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Подождать 20 минут",
+          "stage": "68",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "quest_0_0_naebka1"
+        ]
+      },
+      "editor": {
+        "x": 3695,
+        "y": 150
+      }
+    },
+    {
+      "id": 68,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Дом",
+      "message": "Новый квест: Идти на базу СНГ",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Никто так и не пришел.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Идти на базу войск СНГ",
+          "stage": "69",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_sng1"
+        ]
+      },
+      "editor": {
+        "x": 3695,
+        "y": 300
+      }
+    },
+    {
+      "id": 69,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2254:486"
+      },
+      "editor": {
+        "x": 3695,
+        "y": 450
+      }
+    },
+    {
+      "id": 70,
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
@@ -1496,28 +1794,23 @@
         {
           "text": "Ну что, отнёс документы?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 49,
-          "condition": {},
-          "text": "Да, всё сделано"
+          "text": "Да, всё сделано",
+          "stage": "71",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4117.5,
+        "x": 4045,
         "y": 150
       }
     },
     {
-      "id": 49,
+      "id": 71,
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
@@ -1527,28 +1820,23 @@
         {
           "text": "Молодец. Проблем не возникло?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 50,
-          "condition": {},
-          "text": "На блокпосте не хотели без денег пропускать из-за того, что у меня нет разрешения"
+          "text": "На блокпосте не хотели без денег пропускать из-за того, что у меня нет разрешения",
+          "stage": "72",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4117.5,
+        "x": 4045,
         "y": 300
       }
     },
     {
-      "id": 50,
+      "id": 72,
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
@@ -1558,17 +1846,13 @@
         {
           "text": "Это нормальное явление, смирись и живи с этим, пока не получишь пропуск. Кстати, новое задание тебе. Сзади тебя за столиком стоит один перец, Калиной кличат, он должен мне лавандос. Пойди пообщайся, чтобы вернул.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 51,
-          "condition": {},
-          "text": "И что же мне ему сказать?"
+          "text": "И что же мне ему сказать?",
+          "stage": "73",
+          "condition": {}
         }
       ],
       "actions": {
@@ -1576,14 +1860,13 @@
           "quest_0_0_post_uch_bar"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 4117.5,
+        "x": 4045,
         "y": 450
       }
     },
     {
-      "id": 51,
+      "id": 73,
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
@@ -1593,28 +1876,23 @@
         {
           "text": "Решай сам.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 52,
-          "condition": {},
-          "text": "Я понял тебя"
+          "text": "Я понял тебя",
+          "stage": "74",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4117.5,
+        "x": 4045,
         "y": 600
       }
     },
     {
-      "id": 52,
+      "id": 74,
       "type_stage": 0,
       "background": "story/freeplay/screen/4.jpg",
       "title": "Калина",
@@ -1624,28 +1902,23 @@
         {
           "text": "Чего тебе?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 53,
-          "condition": {},
-          "text": "Здравствуйте. Вы Калина?"
+          "text": "Здравствуйте. Вы Калина?",
+          "stage": "75",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4117.5,
+        "x": 4045,
         "y": 750
       }
     },
     {
-      "id": 53,
+      "id": 75,
       "type_stage": 0,
       "background": "story/freeplay/screen/4.jpg",
       "title": "Калина",
@@ -1655,28 +1928,23 @@
         {
           "text": "Ну допустим я, а чё?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 54,
-          "condition": {},
-          "text": "Бармен попросил меня передать вам, что вы должны ему деньги и просит вернуть их"
+          "text": "Бармен попросил меня передать вам, что вы должны ему деньги и просит вернуть их",
+          "stage": "76",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4117.5,
+        "x": 4045,
         "y": 900
       }
     },
     {
-      "id": 54,
+      "id": 76,
       "type_stage": 0,
       "background": "story/freeplay/screen/4.jpg",
       "title": "Калина",
@@ -1686,28 +1954,23 @@
         {
           "text": "Молодой, пипипка еще не выросла бабки требовать с людей, гуляй.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 55,
-          "condition": {},
-          "text": "Вы не поняли, это не просьба была. Бармен требует деньги."
+          "text": "Вы не поняли, это не просьба была. Бармен требует деньги.",
+          "stage": "77",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4117.5,
+        "x": 4045,
         "y": 1050
       }
     },
     {
-      "id": 55,
+      "id": 77,
       "type_stage": 0,
       "background": "story/freeplay/screen/5.jpg",
       "title": "Калина",
@@ -1717,28 +1980,23 @@
         {
           "text": "Ну ты борзый, конечно, Алёша. Генка, а ну-ка, текай сюда",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 56,
-          "condition": {},
-          "text": "Что происходит?"
+          "text": "Что происходит?",
+          "stage": "78",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4117.5,
+        "x": 4045,
         "y": 1200
       }
     },
     {
-      "id": 56,
+      "id": 78,
       "type_stage": 0,
       "background": "story/freeplay/screen/6.jpg",
       "title": "Генка",
@@ -1748,33 +2006,28 @@
         {
           "text": "Слышь, Васян, это ты тут барагозишь и из моего кента чужие долги выбиваешь? ",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 57,
-          "condition": {},
-          "text": "Я всего лишь делаю то, что мне поручили..."
+          "text": "Я всего лишь делаю то, что мне поручили...",
+          "stage": "79",
+          "condition": {}
         },
         {
-          "stage": 59,
-          "condition": {},
-          "text": "Девочка, иди гуляй, с тобой никто не общался"
+          "text": "Девочка, иди гуляй, с тобой никто не общался",
+          "stage": "81",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4117.5,
+        "x": 4045,
         "y": 1350
       }
     },
     {
-      "id": 57,
+      "id": 79,
       "type_stage": 0,
       "background": "story/freeplay/screen/6.jpg",
       "title": "Генка",
@@ -1784,17 +2037,13 @@
         {
           "text": "Ну вот разворачивайся и иди туда, от куда пришел.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 58,
-          "condition": {},
-          "text": "Может быть, твой друг что-то все таки скажет, с которым я изначально общался?"
+          "text": "Может быть, твой друг что-то все таки скажет, с которым я изначально общался?",
+          "stage": "80",
+          "condition": {}
         }
       ],
       "actions": {
@@ -1803,14 +2052,13 @@
         ],
         "syncNow": []
       },
-      "data": null,
       "editor": {
-        "x": 3510,
+        "x": 3520,
         "y": 1950
       }
     },
     {
-      "id": 58,
+      "id": 80,
       "type_stage": 0,
       "background": "story/freeplay/screen/6.jpg",
       "title": "Калина",
@@ -1820,28 +2068,23 @@
         {
           "text": "Базара ноль, бабки должен, бабки верну. Иди метнись, отдай лавандос, чушка.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 64,
-          "condition": {},
-          "text": "И тебе желаю не сдохнуть"
+          "text": "И тебе желаю не сдохнуть",
+          "stage": "86",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3510,
+        "x": 3520,
         "y": 2100
       }
     },
     {
-      "id": 59,
+      "id": 81,
       "type_stage": 0,
       "background": "story/freeplay/screen/6.jpg",
       "title": "Генка",
@@ -1851,17 +2094,13 @@
         {
           "text": "Фуфел, ты совсем края попутал? Я тебе бошку отстрелю сейчас? ",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 60,
-          "condition": {},
-          "text": "В самом охраняемом баре? Удачи братан"
+          "text": "В самом охраняемом баре? Удачи братан",
+          "stage": "82",
+          "condition": {}
         }
       ],
       "actions": {
@@ -1870,14 +2109,13 @@
         ],
         "syncNow": []
       },
-      "data": null,
       "editor": {
-        "x": 4292.5,
+        "x": 4220,
         "y": 1500
       }
     },
     {
-      "id": 60,
+      "id": 82,
       "type_stage": 0,
       "background": "story/freeplay/screen/6.jpg",
       "title": "Охранник",
@@ -1887,28 +2125,23 @@
         {
           "text": "Я вам бошки всем троим сейчас прострелю! Заткнулись и успокоились. В чём базар? Калина, опять бабки должен бармену? Метнулся и отдал, хоть налом хоть аналом, но не отдашь, я тебя завалю нахер.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 61,
-          "condition": {},
-          "text": "..."
+          "text": "...",
+          "stage": "83",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4292.5,
+        "x": 4220,
         "y": 1650
       }
     },
     {
-      "id": 61,
+      "id": 83,
       "type_stage": 0,
       "background": "story/freeplay/screen/6.jpg",
       "title": "Калина",
@@ -1918,30 +2151,23 @@
         {
           "text": "Слышал, что старшой сказал? Держи бабки и кабанчиком к Бармену, хах.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 62,
-          "condition": {},
-          "text": "Значит так, таблетка, берёшь сейчас жопу свою в руки и идёшь отдаёшь свой долг сам. Иначе ходи оборачивайся, пустослов корявый"
+          "text": "Значит так, таблетка, берёшь сейчас жопу свою в руки и идёшь отдаёшь свой долг сам. Иначе ходи оборачивайся, пустослов корявый",
+          "stage": "84",
+          "condition": {}
         }
       ],
-      "actions": {
-        "syncNow": []
-      },
-      "data": null,
+      "actions": {},
       "editor": {
-        "x": 4292.5,
+        "x": 4220,
         "y": 1800
       }
     },
     {
-      "id": 62,
+      "id": 84,
       "type_stage": 0,
       "background": "story/freeplay/screen/6.jpg",
       "title": "Калина",
@@ -1951,28 +2177,23 @@
         {
           "text": "Ну всё, всё, не кипишуй, сейчас отдам.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 63,
-          "condition": {},
-          "text": "Кабанчиком"
+          "text": "Кабанчиком",
+          "stage": "85",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4292.5,
+        "x": 4220,
         "y": 1950
       }
     },
     {
-      "id": 63,
+      "id": 85,
       "type_stage": 0,
       "background": "story/freeplay/screen/7.jpg",
       "title": "Калина",
@@ -1982,28 +2203,23 @@
         {
           "text": "Джо, не обессудь, не было совсем финансов, чтобы должок наш закрыть, постараюсь не допускать такое больше.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 64,
-          "condition": {},
-          "text": "..."
+          "text": "...",
+          "stage": "86",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4292.5,
+        "x": 4220,
         "y": 2100
       }
     },
     {
-      "id": 64,
+      "id": 86,
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
@@ -2029,20 +2245,19 @@
       ],
       "transfers": [
         {
-          "stage": 65,
-          "condition": {},
-          "text": "Принёс деньги. Кто это такие?"
+          "text": "Принёс деньги. Кто это такие?",
+          "stage": "87",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4117.5,
+        "x": 4045,
         "y": 2250
       }
     },
     {
-      "id": 65,
+      "id": 87,
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
@@ -2068,62 +2283,56 @@
       ],
       "transfers": [
         {
-          "stage": 66,
-          "condition": {},
-          "text": "Какие мои дальнейшие действия?"
+          "text": "Какие мои дальнейшие действия?",
+          "stage": "88",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4117.5,
+        "x": 4045,
         "y": 2400
       }
     },
     {
-      "id": 66,
+      "id": 88,
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
-      "message": "Получен предмет: 7000 рублей",
+      "message": "Получены деньги: 7000 рублей",
       "type_message": 0,
       "texts": [
         {
           "text": "Вижу я, что парень ты уверенный, характер имеешь. Я дам тебе деньги на пропуск и оружие, в долг, естественно. Отдать сможешь любому торговцу, мне передадут. Надеюсь, ты не сдохнешь раньше, чем отдашь бабки, хе-хе. В общем, держи 7 тысяч, хватит на пропуск и на Макарова, купишь у Сидоровича в деревне новичков, на карте найдешь. Изучи внимательно энциклопедию, чтобы не сдохнуть в аномалии. Удачи, сталкер.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 67,
-          "condition": {},
-          "text": "Спасибо тебе, Джо"
+          "text": "Спасибо тебе, Джо",
+          "stage": "89",
+          "condition": {}
         }
       ],
       "actions": {
-        "money": [
-          "7000"
-        ],
         "+": [
           "relation_0:1"
+        ],
+        "money": [
+          "7000"
         ],
         "remove": [
           "quest_0_0_kalina_loh",
           "quest_0_0_kalina_krasawa"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 4117.5,
+        "x": 4045,
         "y": 2550
       }
     },
     {
-      "id": 67,
+      "id": 89,
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
@@ -2133,17 +2342,13 @@
         {
           "text": "Сейчас иди на базу СНГ, скажешь, что к майору Киргизову, тебя пропустят. У него получишь разрешение на пребывание в Чернобыле-4 и контракт на выполнение заданий в Зоне, для пропуска от НИИЧАЗ. Дальше тебе расскажут. ",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 68,
-          "condition": {},
-          "text": "Пока"
+          "text": "Пока",
+          "stage": "90",
+          "condition": {}
         }
       ],
       "actions": {
@@ -2151,704 +2356,21 @@
           "quest_0_0_naebka"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 4117.5,
+        "x": 4045,
         "y": 2700
-      }
-    },
-    {
-      "id": 68,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "1311:662",
-        "map": "0"
-      },
-      "editor": {
-        "x": 4117.5,
-        "y": 2850
-      }
-    },
-    {
-      "id": 69,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/8.jpg",
-      "title": "Валерка",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Псс, сталкер, новичок?",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 70,
-          "condition": {},
-          "text": "Да, а что?"
-        }
-      ],
-      "actions": {
-        "remove": [
-          "quest_0_0_naebka"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 3325,
-        "y": 150
-      }
-    },
-    {
-      "id": 70,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/8.jpg",
-      "title": "Валерка",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Есть предложение. Хочешь получить пропуск в Зону по дешёвке? Скажем, за 800 рублей.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 74,
-          "condition": {},
-          "text": "Ну, допустим, хочу. Что нужно делать? "
-        },
-        {
-          "stage": 71,
-          "condition": {},
-          "text": "Нет, спасибо, я сам как-нибудь"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 3325,
-        "y": 300
-      }
-    },
-    {
-      "id": 71,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/8.jpg",
-      "title": "Валерка",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Уверен? Таких предложений больше не будет.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 74,
-          "condition": {},
-          "text": "Ладно, выкладывай"
-        },
-        {
-          "stage": 72,
-          "condition": {},
-          "text": "Уверен, пока"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 3417.5,
-        "y": 450
-      }
-    },
-    {
-      "id": 72,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/8.jpg",
-      "title": "Валерка",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Ну, удачи, пацанчик.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 73,
-          "condition": {},
-          "text": "Уйти"
-        }
-      ],
-      "actions": {
-        "add": [
-          "quest_0_0_sng1"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 3592.5,
-        "y": 600
-      }
-    },
-    {
-      "id": 73,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "1323:705",
-        "map": "0"
-      },
-      "editor": {
-        "x": 3592.5,
-        "y": 750
-      }
-    },
-    {
-      "id": 74,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/8.jpg",
-      "title": "Валерка",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "В общем, все просто. Говори своё погоняло, я отправлю его человеку. Плати деньги и иди к нему.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 75,
-          "condition": {},
-          "text": "Держи 800 рублей"
-        }
-      ],
-      "actions": {
-        "add": [
-          "quest_0_0_naebka1"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 3150,
-        "y": 600
-      }
-    },
-    {
-      "id": 75,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/8.jpg",
-      "title": "Валерка",
-      "message": "Новый квест: Отправиться за пропуском. Потеряно: 800 рублей",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Спасибо. Координаты на ПДА я скинул тебе, можешь уже прямо сейчас идти к нему.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 76,
-          "condition": {},
-          "text": "Пока"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 3150,
-        "y": 750
-      }
-    },
-    {
-      "id": 76,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "1323:705",
-        "map": "0"
-      },
-      "editor": {
-        "x": 3150,
-        "y": 900
-      }
-    },
-    {
-      "id": 77,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/0.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "На заднем дворе никого не было.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 78,
-          "condition": {},
-          "text": "Подождать 20 минут"
-        }
-      ],
-      "actions": {
-        "remove": [
-          "quest_0_0_naebka1"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 3767.5,
-        "y": 150
-      }
-    },
-    {
-      "id": 78,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/0.jpg",
-      "title": "Дом",
-      "message": "Новый квест: Идти на базу СНГ",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Никто так и не пришел.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 79,
-          "condition": {},
-          "text": "Идти на базу войск СНГ"
-        }
-      ],
-      "actions": {
-        "add": [
-          "quest_0_0_sng1"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 3767.5,
-        "y": 300
-      }
-    },
-    {
-      "id": 79,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "2254:486",
-        "map": "0"
-      },
-      "editor": {
-        "x": 3767.5,
-        "y": 450
-      }
-    },
-    {
-      "id": 80,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/9.jpg",
-      "title": "Сержат Крупов",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Стой, кто такой?",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 81,
-          "condition": {},
-          "text": "Привет, мне к майору Киргизову"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 2800,
-        "y": 150
-      }
-    },
-    {
-      "id": 81,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/9.jpg",
-      "title": "Сержант Крупов",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "По какому вопросу?",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 82,
-          "condition": {},
-          "text": "Устроиться на работу"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 2800,
-        "y": 300
-      }
-    },
-    {
-      "id": 82,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/9.jpg",
-      "title": "Сержант Крупов",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Как зовут?",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 83,
-          "condition": {},
-          "text": "@name"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 2800,
-        "y": 450
-      }
-    },
-    {
-      "id": 83,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/9.jpg",
-      "title": "Сержант Крупов",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Товарищ майор, тут к вам гражданин @name хочет попасть, говорит, по поводу работы.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 84,
-          "condition": {},
-          "text": "..."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 2800,
-        "y": 600
-      }
-    },
-    {
-      "id": 84,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/9.jpg",
-      "title": "Сержант Крупов",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Я вас провожу к майору, пройдите за мной.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 85,
-          "condition": {},
-          "text": "Хорошо"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 2800,
-        "y": 750
-      }
-    },
-    {
-      "id": 85,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/10.jpg",
-      "title": "Майор Киргизов",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Ну здравствуй, @name. Ты от Джо, верно?",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 86,
-          "condition": {},
-          "text": "А Вам разве не доложили?"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 2800,
-        "y": 900
-      }
-    },
-    {
-      "id": 86,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/10.jpg",
-      "title": "Майор Киргизов",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Доложили, конечно же. Итак, тебе нужен официальный пропуск в Зону?",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 87,
-          "condition": {},
-          "text": "Всё верно"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 2800,
-        "y": 1050
-      }
-    },
-    {
-      "id": 87,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/10.jpg",
-      "title": "Майор Киргизов",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Значит так, запоминай свою легенду. Ты - контрактник, отличаешься хорошими исследовательскими и стратегическими навыками. По рекомендации был вызван сюда для выполнения служебных поручений. При этом официальным сотрудником ВС не являешься, по сути, обычный человек с пропуском в Зону, классно, да? Держи бумажки и передавай мне 5 документов, о которых говорил бармен.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 88,
-          "condition": {},
-          "text": "Держите"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 2800,
-        "y": 1200
-      }
-    },
-    {
-      "id": 88,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/10.jpg",
-      "title": "Майор Киргизов",
-      "message": "Потерян предмет: 5000 рублей. Получен предмет: Документы для пропуска в Зону",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Отлично, вот твои бумажки, с ними в НИИЧАЗ к Василию Алексеевичу. Тут, кстати, уже есть разрешение на нахождение в Чернобыле-4, так что можешь передвигаться спокойно. Только учти, ты всё таки не просто так будешь сотрудником, придётся выполнять иногда задания. Я буду высылать тебе их на ПДА.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 89,
-          "condition": {},
-          "text": "Понял, я пошёл, спасибо"
-        }
-      ],
-      "actions": {
-        "add": [
-          "quest_0_0_sng2"
-        ],
-        "remove": [
-          "quest_0_0_sng1"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 2800,
-        "y": 1350
-      }
-    },
-    {
-      "id": 89,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/10.jpg",
-      "title": "Майор Киргизов",
-      "message": "Новый квест: Идти в НИИЧАЗ",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Сержант проводит тебя до выхода, удачи.",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 90,
-          "condition": {},
-          "text": "Пока"
-        }
-      ],
-      "actions": {
-        "+": [
-          "relation_2:15"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 2800,
-        "y": 1500
       }
     },
     {
       "id": 90,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "2093:1139",
-        "map": "0"
+        "map": "0",
+        "pos": "1311:662"
       },
       "editor": {
-        "x": 2800,
-        "y": 1650
+        "x": 4045,
+        "y": 2850
       }
     },
     {
@@ -2862,23 +2384,18 @@
         {
           "text": "Ты куда?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 92,
-          "condition": {},
-          "text": "К Василию Алексеевичу, вот мой пропуск"
+          "text": "К Василию Алексеевичу, вот мой пропуск",
+          "stage": "92",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4642.5,
+        "x": 4570,
         "y": 150
       }
     },
@@ -2893,23 +2410,18 @@
         {
           "text": "Это у тебя тёрки были с бойцом на соседнем посте?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 93,
-          "condition": {},
-          "text": "Если это можно назвать тёрками"
+          "text": "Если это можно назвать тёрками",
+          "stage": "93",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4642.5,
+        "x": 4570,
         "y": 300
       }
     },
@@ -2924,23 +2436,18 @@
         {
           "text": "Он новенький тут, контрактник. Под трибунал отправили за то, что взятки брал.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 94,
-          "condition": {},
-          "text": "Больше мы его тут не увидим? "
+          "text": "Больше мы его тут не увидим?",
+          "stage": "94",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4642.5,
+        "x": 4570,
         "y": 450
       }
     },
@@ -2955,23 +2462,18 @@
         {
           "text": "В ближайшие несколько лет мы его нигде не увидим. Ладно, сейчас проводим тебя до Василия Алексеевича.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 95,
-          "condition": {},
-          "text": "..."
+          "text": "...",
+          "stage": "95",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4642.5,
+        "x": 4570,
         "y": 600
       }
     },
@@ -2986,23 +2488,18 @@
         {
           "text": "Здравствуйте, @name. Мне майор уже сообщил о вас. С какой целью прибыли сюда?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 96,
-          "condition": {},
-          "text": "Здравствуйте. Выполнять поручения майора Киргизова, я контрактник с большой земли"
+          "text": "Здравствуйте. Выполнять поручения майора Киргизова, я контрактник с большой земли",
+          "stage": "96",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4642.5,
+        "x": 4570,
         "y": 750
       }
     },
@@ -3017,23 +2514,18 @@
         {
           "text": "Это хорошо. Базовые знания о Зоне имеете?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 97,
-          "condition": {},
-          "text": "Само собой, я прошёл инструктаж и лекции"
+          "text": "Само собой, я прошёл инструктаж и лекции",
+          "stage": "97",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4642.5,
+        "x": 4570,
         "y": 900
       }
     },
@@ -3048,23 +2540,18 @@
         {
           "text": "Отлично, про навыки ведения боевых действий можно не спрашивать?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 98,
-          "condition": {},
-          "text": "Конечно"
+          "text": "Конечно",
+          "stage": "98",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4642.5,
+        "x": 4570,
         "y": 1050
       }
     },
@@ -3079,23 +2566,18 @@
         {
           "text": "Разумеется. Собственно, давайте знакомиться. Я - Василий Алексеевич, ваш куратор от НИИЧАЗ. Я буду вас консультировать по различным вопросам, которые касаются Зоны. А также буду выдавать задания от НИИ. Задания будут не частые, так как всё таки мы в разных подразделениях находимся, но тем не менее. Может быть, у вас есть какие-либо вопросы?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 99,
-          "condition": {},
-          "text": "Когда я смогу получить пропуск? "
+          "text": "Когда я смогу получить пропуск? ",
+          "stage": "99",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4642.5,
+        "x": 4570,
         "y": 1200
       }
     },
@@ -3110,23 +2592,18 @@
         {
           "text": "Разумеется. Сейчас мы заполним с вами документы и выдадим пропуск. Передайте, пожалуйста, паспорт или военный билет.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 100,
-          "condition": {},
-          "text": "Держите"
+          "text": "Держите",
+          "stage": "100",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4642.5,
+        "x": 4570,
         "y": 1350
       }
     },
@@ -3141,17 +2618,13 @@
         {
           "text": "Ага... Секундочку... Готово, держите ваш пропуск. Он действует месяц, далее придется продлить. Теперь вы можете без препятствий перемещаться по территории Зоны. Есть еще вопросы?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 101,
-          "condition": {},
-          "text": "Вопросов нет"
+          "text": "Вопросов нет",
+          "stage": "101",
+          "condition": {}
         }
       ],
       "actions": {
@@ -3159,9 +2632,8 @@
           "propusk_001"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 4642.5,
+        "x": 4570,
         "y": 1500
       }
     },
@@ -3176,17 +2648,13 @@
         {
           "text": "Прекрасно. Не смею вас больше задерживать, капитан проводит вас к блокпосту.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 102,
-          "condition": {},
-          "text": "Счастливо"
+          "text": "Счастливо",
+          "stage": "102",
+          "condition": {}
         }
       ],
       "actions": {
@@ -3197,28 +2665,20 @@
           "quest_0_0_sng2"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 4642.5,
+        "x": 4572.297396709994,
         "y": 1650
       }
     },
     {
       "id": 102,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "2374:977",
-        "map": "0"
+        "map": "0",
+        "pos": "2374:977"
       },
       "editor": {
-        "x": 4642.5,
+        "x": 4570,
         "y": 1800
       }
     },
@@ -3233,24 +2693,19 @@
         {
           "text": "Стой! Кто такой?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 104,
-          "condition": {},
-          "text": "Позывной @name. Прибыл для выполнения поручений от базы СНГ. Вот мой пропуск"
+          "text": "Позывной @name. Прибыл для выполнения поручений от базы СНГ. Вот мой пропуск",
+          "stage": "104",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4992.5,
-        "y": 150
+        "x": 5063.268039088541,
+        "y": 193.02711798778438
       }
     },
     {
@@ -3264,29 +2719,24 @@
         {
           "text": "Всё хорошо, можете проходить",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 105,
-          "condition": {},
-          "text": "Счастливо"
+          "text": "Счастливо",
+          "stage": "105",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4992.5,
-        "y": 300
+        "x": 5138.845430974378,
+        "y": 383.33299687572406
       }
     },
     {
       "id": 105,
-      "type_stage": 1,
+      "type_stage": 0,
       "background": "story/freeplay/screen/13.jpg",
       "title": "Глава окончена!",
       "message": "",
@@ -3299,50 +2749,119 @@
       ],
       "transfers": [
         {
-          "stage": 106,
-          "condition": {},
-          "text": "Окей"
+          "text": "Перейти периметр",
+          "stage": "107",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4992.5,
-        "y": 450
-      }
+        "x": 5147.635616358923,
+        "y": 546.4687364313294
+      },
+      "_comment": "Связать с началом 2-й главы"
     },
     {
       "id": 106,
-      "type_stage": 5,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": {
-        "openStage": [
-          "2",
-          "0"
-        ]
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "312:710"
       },
-      "data": null,
       "editor": {
-        "x": 4992.5,
-        "y": 600
+        "x": 5122.947550523222,
+        "y": 1087.6970257850494
+      }
+    },
+    {
+      "id": 107,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Здравия желаю. Предъяви документы.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я же только что показывал их вашему коллеге",
+          "stage": "108",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5126.233541593265,
+        "y": 709.1222793298788
+      }
+    },
+    {
+      "id": 108,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я должен проверить их перед тем, как ты пройдёшь пост.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Держите",
+          "stage": "109",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5132.291878843703,
+        "y": 846.961396760154
+      }
+    },
+    {
+      "id": 109,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/14.jpg",
+      "title": "Лейтенант Саев",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ага... Опять Киргизов продает пропуск в Зону, всё понятно. В общем, держи эту повязку - завяжи на руке, чтобы военные по тебе палить сразу не начали. А там уже если сможешь договориться - проблем не будет.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо",
+          "stage": "106",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5140.291878843703,
+        "y": 972.9613967601539
       }
     }
   ],
   "points": {
     "0": [
       {
-        "id": "d400a814-68fb-46c3-8a92-bec86122952f",
+        "id": "ae10d06d-9edd-4bfe-a1aa-519750b26f3d",
         "type": 0,
         "name": "Блокпост НИИЧАЗ",
         "pos": "2374:977",
         "data": {
-          "chapter": "1",
-          "stage": "14"
+          "stage": "14",
+          "chapter": "1"
         },
         "condition": {
           "has": [
@@ -3350,37 +2869,18 @@
           ]
         },
         "editor": {
-          "x": 525,
+          "x": 515,
           "y": 0
         }
       },
       {
-        "id": "639c4459-76a0-4a56-bf83-f014c555b6f9",
-        "type": 0,
-        "name": "Блокпост | деньги взяли в баре",
-        "pos": "2374:977",
-        "data": {
-          "chapter": "1",
-          "stage": "43"
-        },
-        "condition": {
-          "has": [
-            "quest_0_0_post_bar1"
-          ]
-        },
-        "editor": {
-          "x": 2450,
-          "y": 0
-        }
-      },
-      {
-        "id": "53a4e07a-5605-49db-8883-3b06d38b5795",
+        "id": "63126761-3e67-42ab-96e6-b86c7663cb54",
         "type": 0,
         "name": "Ученый",
         "pos": "2448:1291",
         "data": {
-          "chapter": "1",
-          "stage": "47"
+          "stage": "24",
+          "chapter": "1"
         },
         "condition": {
           "has": [
@@ -3388,37 +2888,18 @@
           ]
         },
         "editor": {
-          "x": 1400,
+          "x": 1225,
           "y": 0
         }
       },
       {
-        "id": "f8715687-46ed-48f1-844c-a3afc62fd73c",
-        "type": 0,
-        "name": "От ученого вернуться в бар",
-        "pos": "1311:662",
-        "data": {
-          "chapter": "1",
-          "stage": "48"
-        },
-        "condition": {
-          "has": [
-            "quest_0_0_post_uch_bar"
-          ]
-        },
-        "editor": {
-          "x": 4117.5,
-          "y": 0
-        }
-      },
-      {
-        "id": "71c5669e-1536-4452-b16e-d367c78b019a",
+        "id": "01257350-78cf-446c-9581-50b1c2e949bb",
         "type": 0,
         "name": "От ученого вернуть долг охране",
         "pos": "2374:977",
         "data": {
-          "chapter": "1",
-          "stage": "37"
+          "stage": "39",
+          "chapter": "1"
         },
         "condition": {
           "has": [
@@ -3426,56 +2907,56 @@
           ]
         },
         "editor": {
-          "x": 1750,
+          "x": 1575,
           "y": 0
         }
       },
       {
-        "id": "8b5e8dd3-39ed-490f-981f-9c394d44e8c8",
-        "type": 3,
-        "name": "От бармена к выходу из бара",
-        "pos": "1323:705",
+        "id": "0c700f4b-0a3e-4dae-805f-7c5686928e5b",
+        "type": 0,
+        "name": "От поста к бару",
+        "pos": "1311:662",
         "data": {
-          "chapter": "1",
-          "stage": "69"
+          "stage": "42",
+          "chapter": "1"
         },
         "condition": {
           "has": [
-            "quest_0_0_naebka"
+            "quest_0_0_post_bar"
           ]
         },
         "editor": {
-          "x": 3325,
+          "x": 1925,
           "y": 0
         }
       },
       {
-        "id": "1aec2da7-4310-49db-a601-68251d7f9a6a",
+        "id": "0990c038-6885-45d6-a62a-141ae6e946c3",
         "type": 0,
-        "name": "От выхода из бара за пропуском",
-        "pos": "2254:486",
+        "name": "Блокпост | деньги взяли в баре",
+        "pos": "2374:977",
         "data": {
-          "chapter": "1",
-          "stage": "77"
+          "stage": "45",
+          "chapter": "1"
         },
         "condition": {
           "has": [
-            "quest_0_0_naebka1"
+            "quest_0_0_post_bar1"
           ]
         },
         "editor": {
-          "x": 3767.5,
+          "x": 2275,
           "y": 0
         }
       },
       {
-        "id": "1f17e041-b967-4ce5-9dbf-fe14590437c5",
+        "id": "4aa2a4eb-9cac-45f4-8b7a-19c5cd1e0ba5",
         "type": 0,
-        "name": "К базе СНГ ",
+        "name": "К базе СНГ",
         "pos": "2093:1139",
         "data": {
-          "chapter": "1",
-          "stage": "80"
+          "stage": "48",
+          "chapter": "1"
         },
         "condition": {
           "has": [
@@ -3483,18 +2964,75 @@
           ]
         },
         "editor": {
-          "x": 2800,
+          "x": 2625,
           "y": 0
         }
       },
       {
-        "id": "7a4404ad-07df-43c1-a2a1-839b5fbed6c2",
+        "id": "8f5abc52-8c33-4ef2-896f-0a3d082b7ffc",
+        "type": 3,
+        "name": "От бармена к выходу из бара",
+        "pos": "1323:705",
+        "data": {
+          "stage": "59",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0_naebka"
+          ]
+        },
+        "editor": {
+          "x": 3242.5,
+          "y": 0
+        }
+      },
+      {
+        "id": "bbe51cd3-86b6-43a6-8385-7cae5592dc4c",
+        "type": 0,
+        "name": "От выхода из бара за пропуском",
+        "pos": "2254:486",
+        "data": {
+          "stage": "67",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0_naebka1"
+          ]
+        },
+        "editor": {
+          "x": 3695,
+          "y": 0
+        }
+      },
+      {
+        "id": "6d35aa38-a9bc-444e-81ef-88c83e1798c7",
+        "type": 0,
+        "name": "От ученого вернуться в бар",
+        "pos": "1311:662",
+        "data": {
+          "stage": "70",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0_post_uch_bar"
+          ]
+        },
+        "editor": {
+          "x": 4045,
+          "y": 0
+        }
+      },
+      {
+        "id": "61489d89-bacd-47b4-a9dc-dd50347544f9",
         "type": 0,
         "name": "От СНГ к НИИЧАЗ",
         "pos": "2374:977",
         "data": {
-          "chapter": "1",
-          "stage": "91"
+          "stage": "91",
+          "chapter": "1"
         },
         "condition": {
           "has": [
@@ -3502,18 +3040,18 @@
           ]
         },
         "editor": {
-          "x": 4642.5,
+          "x": 4570,
           "y": 0
         }
       },
       {
-        "id": "c664e703-f6fb-419f-8768-7b94da0a890d",
+        "id": "cfcf63db-c38d-4654-aa0a-6a2f9a26d297",
         "type": 0,
         "name": "От НИИЧАЗ к периметру",
         "pos": "1151:907",
         "data": {
-          "chapter": "1",
-          "stage": "103"
+          "stage": "103",
+          "chapter": "1"
         },
         "condition": {
           "has": [
@@ -3521,12 +3059,13 @@
           ]
         },
         "editor": {
-          "x": 4992.5,
-          "y": 0
+          "x": 5057.131734444125,
+          "y": 34.861203473259025
         }
       }
     ]
   },
   "spawns": {},
-  "missions": null
+  "missions": [],
+  "title": "Обучающая Глава"
 }

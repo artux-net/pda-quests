@@ -1,645 +1,1857 @@
 {
   "id": 4,
-  "title": null,
-  "stages": [],
-  "points": {},
-  "spawns": {
-	"0": [
+  "stages": [
     {
       "id": 0,
-      "title": "",
-      "description": "",
-      "group": "SCIENTISTS",
-      "strength": "MIDDLE",
-      "r": 1,
-      "n": 1,
-      "pos": "2451:1305",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "Невзрачное кирпичное здание, покрытое старым шифером, с черной вывеской, белыми буквами: Шти. Оно было больше похоже на электробудку. Однако знающие люди имели понятие того, что там. Если войти внутрь, открыв массивную железную дверь, сразу были видна пара охранников, скрывающие собой спуск вниз. Вот там и начиналась основная часть самого заведения.",
-      "group": "LONERS",
-      "strength": "MIDDLE",
-      "r": 25,
-      "n": 6,
-      "pos": "1313:612",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "Южный контрольно-пропускной пункт военной базы в Чернобыле-4",
-      "group": "MILITARY",
-      "strength": "MIDDLE",
-      "r": 20,
-      "n": 3,
-      "pos": "1164:913",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "Казармы для длительного размещения личного состава воинских формирований вооружённых сил.",
-      "group": "MILITARY",
-      "strength": "MIDDLE",
-      "r": 45,
-      "n": 16,
-      "pos": "1424:1043",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "Казармы для длительного размещения личного состава воинских формирований вооружённых сил.",
-      "group": "MILITARY",
-      "strength": "MIDDLE",
-      "r": 50,
-      "n": 22,
-      "pos": "1383:1194",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "Военное хранилище боевых патронов и взрывчатых веществ.",
-      "group": "MILITARY",
-      "strength": "MIDDLE",
-      "r": 30,
-      "n": 3,
-      "pos": "863:1084",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "Военное хранилище боевых патронов и взрывчатых веществ.",
-      "group": "MILITARY",
-      "strength": "MIDDLE",
-      "r": 35,
-      "n": 4,
-      "pos": "876:1238",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "Военная столовая",
-      "group": "MILITARY",
-      "strength": "MIDDLE",
-      "r": 25,
-      "n": 3,
-      "pos": "985:1342",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "Военная столовая",
-      "group": "MILITARY",
-      "strength": "MIDDLE",
-      "r": 25,
-      "n": 3,
-      "pos": "985:1342",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "Офицерский штаб блокпоста Чернобыль-4",
-      "group": "MILITARY",
-      "strength": "MIDDLE",
-      "r": 45,
-      "n": 14,
-      "pos": "2179:1155",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "Южный контрольно-пропускной пункт военной базы в Чернобыле-4",
-      "group": "MILITARY",
-      "strength": "MIDDLE",
-      "r": 20,
-      "n": 3,
-      "pos": "2374:977",
-      "data": null,
-      "condition": null,
-      "actions": null
-    }
-  ],
-  
-  "1":[
-	{
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "MILITARY",
-      "strength": "WEAK",
-      "r": 45,
-      "n": 8,
-      "pos": "689:1393",
-      "data": {
-        "ignorePlayer": []
-      },
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "MILITARY",
-      "strength": "WEAK",
-      "r": 50,
-      "n": 5,
-      "pos": "318:441",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "LONERS",
-      "strength": "WEAK",
-      "r": 40,
-      "n": 7,
-      "pos": "234:843",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "LONERS",
-      "strength": "WEAK",
-      "r": 1,
-      "n": 1,
-      "pos": "644:2314",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "LONERS",
-      "strength": "MIDDLE",
-      "r": 50,
-      "n": 3,
-      "pos": "148:1060",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "BANDITS",
-      "strength": "WEAK",
-      "r": 40,
-      "n": 5,
-      "pos": "792:1073",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "LONERS",
-      "strength": "WEAK",
-      "r": 30,
-      "n": 2,
-      "pos": "576:1592",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "LONERS",
-      "strength": "MIDDLE",
-      "r": 30,
-      "n": 5,
-      "pos": "1009:1668",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "LONERS",
-      "strength": "MIDDLE",
-      "r": 20,
-      "n": 4,
-      "pos": "1285:1624",
-      "data": {
-        "alwaysIgnored": [],
-        "immortal": [],
-        "ignorePlayer": []
-      },
-      "condition": null,
-      "actions": null
-    }
-  ],
-  
-  "2":[
-	{
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "LONERS",
-      "strength": "MIDDLE",
-      "r": 50,
-      "n": 5,
-      "pos": "880:468",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "LONERS",
-      "strength": "MIDDLE",
-      "r": 70,
-      "n": 9,
-      "pos": "497:378",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "BANDITS",
-      "strength": "MIDDLE",
-      "r": 40,
-      "n": 3,
-      "pos": "265:718",
-      "data": {
-        "ignorePlayer": [
-          "true"
-        ]
-      },
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "LONERS",
-      "strength": "MIDDLE",
-      "r": 100,
-      "n": 15,
-      "pos": "494:757",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 60,
-      "n": 5,
-      "pos": "746:1145",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "LONERS",
-      "strength": "WEAK",
-      "r": 40,
-      "n": 3,
-      "pos": "813:1041",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "BANDITS",
-      "strength": "WEAK",
-      "r": 40,
-      "n": 3,
-      "pos": "883:921",
-      "data": null,
-      "condition": null,
-      "actions": null
-    }
-  ],
-  
-  "3":[
-	{
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 25,
-      "n": 3,
-      "pos": "1737:1130",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 50,
-      "n": 7,
-      "pos": "1700:1400",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "LONERS",
-      "strength": "WEAK",
-      "r": 13,
-      "n": 6,
-      "pos": "1501:1255",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 25,
-      "n": 6,
-      "pos": "1582:1381",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 25,
-      "n": 3,
-      "pos": "1386:1500",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "LONERS",
-      "strength": "WEAK",
-      "r": 30,
-      "n": 6,
-      "pos": "1487:1404",
-      "data": null,
-      "condition": null,
-      "actions": null
-    }
-  ],
-  
-  "5":[
-	{
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 15,
-      "n": 3,
-      "pos": "1722:1115",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "BANDITS",
-      "strength": "MIDDLE",
-      "r": 40,
-      "n": 3,
-      "pos": "250:99",
-      "data": {
-        "ignorePlayer": []
-      },
-      "condition": {
-        "!has": [
-          "quest_kastet_lox_bez_deneg"
-        ]
-      },
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "BANDITS",
-      "strength": "MIDDLE",
-      "r": 40,
-      "n": 3,
-      "pos": "250:99",
-      "data": null,
-      "condition": {
-        "has": [
-          "quest_kastet_lox_bez_deneg"
-        ]
-      },
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Что именно ты хочешь?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Забудь",
+          "stage": "1",
+          "condition": {}
+        },
+        {
+          "text": "Сдать Работу",
+          "stage": "2",
+          "condition": {}
+        },
+        {
+          "text": "Получить работу",
+          "stage": "21",
+          "condition": {}
+        }
+      ],
       "actions": {
-        "add": [
-          "quest_kastet_findstalker_key"
-        ],
-        "remove": [
-          "quest_kastet_lox_bez_deneg"
+        "syncNow": []
+      },
+      "editor": {
+        "x": 328.2362359175969,
+        "y": -59.19743830413641
+      },
+      "_comment": "Работа у Сидоровича"
+    },
+    {
+      "id": 1,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
         ]
+      },
+      "editor": {
+        "x": 0,
+        "y": 150
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3"
+        ]
+      },
+      "editor": {
+        "x": 350,
+        "y": 150
+      },
+      "_comment": "Переход на 4:3"
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, рассказывай.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Сидорович, тут от Кастета тебе посылка, целый чемоданчик, держи",
+          "stage": "4",
+          "condition": {
+            "has": [
+              "quest_kastet_chemodan",
+              "Beta"
+            ]
+          }
+        },
+        {
+          "text": "Забудь",
+          "stage": "8",
+          "condition": {}
+        },
+        {
+          "text": "Я узнал про монолитовца",
+          "stage": "9",
+          "condition": {
+            "has": [
+              "quest_1_0_monsvalka_sidor_fin"
+            ]
+          }
+        },
+        {
+          "text": "Я разобрался с торговцем",
+          "stage": "13",
+          "condition": {
+            "has": [
+              "quest_1_0_sapyr_sidor_fin"
+            ]
+          }
+        },
+        {
+          "text": "Я принес флешку",
+          "stage": "17",
+          "condition": {
+            "has": [
+              "quest_1_0_flash_sidor_fin"
+            ]
+          }
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1750,
+        "y": 0
+      },
+      "_comment": "Ветка с завершением заданий Сидоровича"
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "Выполенен квест:Принести чемодан Сидоровичу",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "О, от него это хорошо. Не забывает четко выполнять свою работу. Ты с ним, я как понимаю, успел познакомиться?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да, вроде мирные ребята при нем, похож на наемника. Почему он так одет?",
+          "stage": "5",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "quest_kastet_chemodan"
+        ]
+      },
+      "editor": {
+        "x": 1050,
+        "y": 150
       }
     },
     {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 60,
-      "n": 8,
-      "pos": "1647:1384",
-      "data": null,
-      "condition": null,
-      "actions": null
+      "id": 5,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "Новый квест: Отнести конверт Кастету",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "К синдикату он отношения не имеет, не ссы... Я пробивал через своих информаторов о нем. Человек он надежный. А насчет одежды, какую он носит, мне неинтересно знать. Может ему комфортнее в ней ходится? Собственно ты можешь идти к нему обратно и отдашь ему конверт, вот.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо, но у меня есть еще дело",
+          "stage": "6",
+          "condition": {}
+        },
+        {
+          "text": "Хорошо, сейчас отнесу.",
+          "stage": "7",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_konvert"
+        ]
+      },
+      "editor": {
+        "x": 1050,
+        "y": 300
+      }
     },
     {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "BANDITS",
-      "strength": "WEAK",
-      "r": 70,
-      "n": 7,
-      "pos": "495:363",
-      "data": null,
-      "condition": null,
-      "actions": null
+      "id": 6,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 875,
+        "y": 450
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 7,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 1225,
+        "y": 450
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 8,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1400,
+        "y": 150
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 9,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "А ну, выкладывай.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Монолитовец оказался там не случайно, его притащили туда бандиты, а вот откуда, я понятия не имею",
+          "stage": "10",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1750,
+        "y": 150
+      }
+    },
+    {
+      "id": 10,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "Получено: 1500 рублей",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Значит вот так. Интересно, отвлекали внимание, что бы напасть на Депо, знаю я их маневры, но что б такое? Ладно, свою часть уговора ты выполнил, держи 1500 рублей и проваливай!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо, но у меня есть еще дело",
+          "stage": "11",
+          "condition": {}
+        },
+        {
+          "text": "Бывай",
+          "stage": "12",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_monsvalka_sidor_rem"
+        ],
+        "remove": [
+          "quest_1_0_monsvalka_sidor_fin",
+          "1add_quest_1_0_monsvalka_sidor"
+        ],
+        "money": [
+          "1500"
+        ]
+      },
+      "editor": {
+        "x": 1750,
+        "y": 300
+      }
+    },
+    {
+      "id": 11,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1575,
+        "y": 450
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 12,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 1925,
+        "y": 450
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 13,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Как поживает этот барыга?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Он больше не побеспокоит",
+          "stage": "14",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2450,
+        "y": 150
+      }
+    },
+    {
+      "id": 14,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "Получено: 1000 рублей",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Молодец. Держи денежку, выручил торговца.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо, но у меня есть еще дело",
+          "stage": "15",
+          "condition": {}
+        },
+        {
+          "text": "Бывай",
+          "stage": "16",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_sapyr_sidor_rem"
+        ],
+        "remove": [
+          "quest_1_0_sapyr_sidor_fin",
+          "add_quest_1_0_sapyr_sidor"
+        ],
+        "money": [
+          "1000"
+        ]
+      },
+      "editor": {
+        "x": 2450,
+        "y": 300
+      }
+    },
+    {
+      "id": 15,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 2275,
+        "y": 450
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 16,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 2625,
+        "y": 450
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 17,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Отлично. Трудностей никаких не возникло?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Мелочи, ничего серьезного",
+          "stage": "18",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3150,
+        "y": 150
+      }
+    },
+    {
+      "id": 18,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "Получено: 1000 рублей",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Хорошо. Держи, ты заработал 1000 рублей",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо, но у меня есть еще дело",
+          "stage": "19",
+          "condition": {}
+        },
+        {
+          "text": "Бывай",
+          "stage": "20",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_flash_sidor_rem",
+          "quest_99_1_segun_sogl"
+        ],
+        "money": [
+          "1000"
+        ],
+        "remove": [
+          "quest_1_1_fleshka_sidora",
+          "add_quest_1_0_flash_sidor",
+          "quest_1_0_flash_sidor_fin"
+        ]
+      },
+      "editor": {
+        "x": 3150,
+        "y": 300
+      }
+    },
+    {
+      "id": 19,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 2975,
+        "y": 450
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 20,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 3325,
+        "y": 450
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 21,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "22"
+        ]
+      },
+      "editor": {
+        "x": 700,
+        "y": 150
+      },
+      "_comment": "Переход на 4:22"
+    },
+    {
+      "id": 22,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Выбирай",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Забудь",
+          "stage": "23",
+          "condition": {}
+        },
+        {
+          "text": "Вопрос с торговцем",
+          "stage": "24",
+          "condition": {
+            "!has": [
+              "quest_1_0_sapyr_sidor_rem",
+              "add_quest_1_0_sapyr_sidor"
+            ]
+          }
+        },
+        {
+          "text": "Найти флешку",
+          "stage": "30",
+          "condition": {
+            "!has": [
+              "quest_1_0_flash_sidor_rem",
+              "add_quest_1_0_flash_sidor"
+            ]
+          }
+        },
+        {
+          "text": "Монолитовец на Кордоне",
+          "stage": "35",
+          "condition": {
+            "!has": [
+              "quest_1_0_monsvalka_sidor_rem",
+              "1add_quest_1_0_monsvalka_sidor"
+            ],
+            "has": [
+              "quest_1_0_sapyr_sidor_rem",
+              "quest_1_0_flash_sidor_rem"
+            ]
+          }
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4375,
+        "y": 0
+      },
+      "_comment": "Ветка с новыми заданиями Сидоровича"
+    },
+    {
+      "id": 23,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 3500,
+        "y": 150
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 24,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Короче, если тебе нужна работа — на развалинах хутора засел один засранец, который торгует некачественным товаром. К тому же на моей территории, хех. Мне нужно чтобы его не было.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "И как мне это сделать?",
+          "stage": "25",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3850,
+        "y": 150
+      }
+    },
+    {
+      "id": 25,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Как душа подскажет, мне все равно.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Забудь",
+          "stage": "26",
+          "condition": {}
+        },
+        {
+          "text": "Я берусь",
+          "stage": "27",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3850,
+        "y": 300
+      }
+    },
+    {
+      "id": 26,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 3675,
+        "y": 450
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 27,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Поторопись тогда",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Бывай",
+          "stage": "28",
+          "condition": {}
+        },
+        {
+          "text": "У меня есть еще дело",
+          "stage": "29",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_sapyr_sidor",
+          "add_quest_1_0_sapyr_sidor"
+        ]
+      },
+      "editor": {
+        "x": 4025,
+        "y": 450
+      }
+    },
+    {
+      "id": 28,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 3850,
+        "y": 600
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 29,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 4725,
+        "y": 600
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 30,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Короче, тут такое дело. Шёл до меня один человек с инфой важной. Дошёл до Элеватора и пропал сигнал его ПДА. Сходи проверь, мне все равно живой он или мертвый, инфу с него принеси.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Берусь",
+          "stage": "31",
+          "condition": {}
+        },
+        {
+          "text": "Забудь",
+          "stage": "32",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4725,
+        "y": 150
+      }
+    },
+    {
+      "id": 31,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Повредишь флешку - возместишь ущерб. Координаты на ПДА я тебе скинул.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "У меня есть еще дело",
+          "stage": "33",
+          "condition": {}
+        },
+        {
+          "text": "Бывай",
+          "stage": "34",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_flash_sidor",
+          "add_quest_1_0_flash_sidor"
+        ]
+      },
+      "editor": {
+        "x": 4550,
+        "y": 300
+      }
+    },
+    {
+      "id": 32,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 4900,
+        "y": 300
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 33,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 4375,
+        "y": 450
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 34,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 4725,
+        "y": 450
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 35,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Задание значит... Надо подумать, есть у меня тут одно задание. Я вижу ты опытный и уже знаешь Зону нормально, тогда слушай сюда внимательно. Недавно на Свалке нашли тело бойца Монолита, как он там оказался хрен знает, свидетелей тоже них... Нет. Пойди поспрашивай всех кого сможешь, если кто валыну на тебя поднимет, скажи, что от меня, отстанут, а если нет, тогда сам за себя ручайся, ха-ха-ха... ",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "36",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5250,
+        "y": 150
+      }
+    },
+    {
+      "id": 36,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Шучу, там все спокойные, на бандитов только не лезь, они матёрые и порядки знают. Тебе надо сейчас найти на Свалке Ворона, но слушай сюда внимательно, он скрывается где-то в Депо и к себе никого не подпускает, но зато он знает всё, что происходит на Свалке. Скажи, что от меня, он должен будет тебя спросить, то что знаю только я и он, просто скажи Книга, после этого он сам подойдёт к тебе, но смотри, ты ещё его должен найти.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Забудь",
+          "stage": "37",
+          "condition": {}
+        },
+        {
+          "text": "Хорошо, я берусь",
+          "stage": "38",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5250,
+        "y": 300
+      }
+    },
+    {
+      "id": 37,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 5075,
+        "y": 450
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 38,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Двигай тогда на Свалку, а там увидишь метку мою.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "У меня есть еще дело",
+          "stage": "39",
+          "condition": {}
+        },
+        {
+          "text": "Бывай",
+          "stage": "40",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_monsvalka_sidor",
+          "add_quest_1_0_monsvalka_sidor",
+          "1add_quest_1_0_monsvalka_sidor"
+        ]
+      },
+      "editor": {
+        "x": 5600,
+        "y": 450
+      }
+    },
+    {
+      "id": 39,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 5075,
+        "y": 600
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 40,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 5775,
+        "y": 600
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 41,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Что именно ты хочешь?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Забудь",
+          "stage": "42",
+          "condition": {}
+        },
+        {
+          "text": "Сдать работу",
+          "stage": "43",
+          "condition": {}
+        },
+        {
+          "text": "Получить работу",
+          "stage": "44",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "syncNow": []
+      },
+      "editor": {
+        "x": 5950,
+        "y": 0
+      },
+      "_comment": "Работа у Бармена"
+    },
+    {
+      "id": 42,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "29"
+        ]
+      },
+      "editor": {
+        "x": 5600,
+        "y": 150
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 43,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "45"
+        ]
+      },
+      "editor": {
+        "x": 5950,
+        "y": 150
+      },
+      "_comment": "Переход на 4:45"
+    },
+    {
+      "id": 44,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "46"
+        ]
+      },
+      "editor": {
+        "x": 6300,
+        "y": 150
+      },
+      "_comment": "Переход на 4:46"
+    },
+    {
+      "id": 45,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну, рассказывай.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я нашел сталкера и флешку",
+          "stage": "47",
+          "condition": {
+            "has": [
+              "quest_2_0_flash_barmen2_fin"
+            ]
+          }
+        },
+        {
+          "text": "Я отдал долг Сявы",
+          "stage": "48",
+          "condition": {
+            "has": [
+              "quest_2_0_flash_barmen_money_fin"
+            ]
+          }
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 6825,
+        "y": 0
+      },
+      "_comment": "Ветка с завершением заданий Бармена"
+    },
+    {
+      "id": 46,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Выбирай",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Поиск сталкера",
+          "stage": "55",
+          "condition": {
+            "!has": [
+              "quest_2_0_flash_barmen_rem",
+              "add_quest_2_0_flash_barmen"
+            ]
+          }
+        },
+        {
+          "text": "Забудь",
+          "stage": "56",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7700,
+        "y": 0
+      },
+      "_comment": "Ветка с новыми заданиями Бармена"
+    },
+    {
+      "id": 47,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "И что же произошло?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Он задолжал долговцам на блокпосте, не пропустили его и подстрелить хотели. Скрылся от них на ферме. Сердечно извинялся и просил передать флешку, обещал, что скоро придет сам и объяснится.",
+          "stage": "49",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 6587.320359442679,
+        "y": 150.87055056329615
+      }
+    },
+    {
+      "id": 48,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Молодец. Проблем не было?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Нет, все нормально",
+          "stage": "53",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7078.349550696651,
+        "y": 148.25889887340776
+      }
+    },
+    {
+      "id": 49,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "Потерян предмет: Флешка. Получено: 500 рублей, армейская аптечка х2",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот оно как. Долг крутит своей территорией и полномочиями, как хочет. Ладно, как обещал, сверху накину немного.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Пока",
+          "stage": "50",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "3500"
+        ]
+      },
+      "editor": {
+        "x": 6552.498336910833,
+        "y": 279.9773370441892
+      }
+    },
+    {
+      "id": 50,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Да подожди ты. Человек этот ценный, помочь ему надо. Пойди на блокпост на Свалке, найди Молотова и отнеси ему деньги за Сяву, он говорил, что вроде 3000 должен. Отнеси и возвращайся.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо, отдам, бывай.",
+          "stage": "51",
+          "condition": {}
+        },
+        {
+          "text": "Хорошо, но у меня есть еще с тобой дело",
+          "stage": "52",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "add_quest_2_0_flash_barmen_money",
+          "quest_2_0_flash_barmen_money1",
+          "quest_2_0_flash_barmen_rem"
+        ],
+        "remove": [
+          "quest_2_0_flash_barmen2_fin"
+        ]
+      },
+      "editor": {
+        "x": 6400.613004863923,
+        "y": 426.248857606088
+      }
+    },
+    {
+      "id": 51,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "30"
+        ]
+      },
+      "editor": {
+        "x": 6125,
+        "y": 600
+      },
+      "_comment": "Переход на 3:30"
+    },
+    {
+      "id": 52,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "41"
+        ]
+      },
+      "editor": {
+        "x": 6825,
+        "y": 600
+      },
+      "_comment": "Переход на 4:41"
+    },
+    {
+      "id": 53,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "Получено: колбаса х2, водка",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Хорошо. Держи немного еды, пригодится.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage": "54",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_2_0_flash_barmen_money_rem"
+        ],
+        "remove": [
+          "quest_2_0_flash_barmen_money_fin"
+        ]
+      },
+      "editor": {
+        "x": 7040.915876474917,
+        "y": 264.30742690485897
+      },
+      "_comment": "Еды в игре сейчас нет, нужно внедрить."
+    },
+    {
+      "id": 54,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "29"
+        ]
+      },
+      "editor": {
+        "x": 7114.912674355088,
+        "y": 448.25889887340776
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 55,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В общем, смотри. Все, как обычно, сталкер нёс мне флешку с информацией, сталкер потерялся. Последний раз его ПДА был замечен в районе фермы, посмотри там, может быть, нароешь что-то. Найдешь его флешку или ПДА, будет хорошо, а если ещё и его самого - накину сверху.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Забудь",
+          "stage": "57",
+          "condition": {}
+        },
+        {
+          "text": "Берусь",
+          "stage": "58",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7525,
+        "y": 150
+      }
+    },
+    {
+      "id": 56,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "29"
+        ]
+      },
+      "editor": {
+        "x": 7875,
+        "y": 150
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 57,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "29"
+        ]
+      },
+      "editor": {
+        "x": 7350,
+        "y": 300
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 58,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "Новый квест: Идти в Темную долину к ферме",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Тогда жду тебя, удачи.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо, но у меня есть еще с тобой дело",
+          "stage": "59",
+          "condition": {}
+        },
+        {
+          "text": "Бывай",
+          "stage": "60",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_2_0_flash_barmen",
+          "add_quest_2_0_flash_barmen"
+        ]
+      },
+      "editor": {
+        "x": 7700,
+        "y": 300
+      }
+    },
+    {
+      "id": 59,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "41"
+        ]
+      },
+      "editor": {
+        "x": 7525,
+        "y": 450
+      },
+      "_comment": "Переход на 4:41"
+    },
+    {
+      "id": 60,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "30"
+        ]
+      },
+      "editor": {
+        "x": 7875,
+        "y": 450
+      },
+      "_comment": "Переход на 3:30"
     }
   ],
-  
-  "6":[
-	{
-      "id": 0,
-      "title": null,
-      "description": null,
-      "group": "BANDITS",
-      "strength": "WEAK",
-      "r": 70,
-      "n": 7,
-      "pos": "495:363",
-      "data": null,
-      "condition": null,
-      "actions": null
-    }
-  ],
-  
-  "7":[
-	{
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 15,
-      "n": 3,
-      "pos": "1722:1115",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 60,
-      "n": 8,
-      "pos": "1647:1384",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": "",
-      "description": "",
-      "group": "BANDITS",
-      "strength": "WEAK",
-      "r": 70,
-      "n": 7,
-      "pos": "495:363",
-      "data": null,
-      "condition": null,
-      "actions": null
-    }
-  ],
-  
-  "8":[
-	{
-      "id": 0,
-      "title": null,
-      "description": null,
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 15,
-      "n": 3,
-      "pos": "1722:1115",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": null,
-      "description": null,
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 60,
-      "n": 8,
-      "pos": "1647:1384",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": null,
-      "description": null,
-      "group": "BANDITS",
-      "strength": "WEAK",
-      "r": 70,
-      "n": 7,
-      "pos": "495:363",
-      "data": null,
-      "condition": null,
-      "actions": null
-    }
-  ]
-  
-	},
-  "missions": null
+  "points": {
+    "2": []
+  },
+  "spawns": {},
+  "missions": [],
+  "title": "Модуль С Квестами Торговцев"
 }

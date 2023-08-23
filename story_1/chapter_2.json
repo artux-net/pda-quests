@@ -1,90 +1,32 @@
 {
   "id": 2,
-  "music": [
-    {
-      "id": "0",
-      "name": "Fire 1 20% | Prologue chapter 0",
-      "url": "story/prologue/sound/fire.mp3",
-      "params": [
-        "loop",
-        "volume:0.2"
-      ]
-    },
-    {
-      "id": "1",
-      "name": "Fire 1 50%| Prologue chapter 0",
-      "url": "story/prologue/sound/fire.mp3",
-      "params": [
-        "loop",
-        "volume:0.5"
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Guitar 1 50% | Prologue chapter 0",
-      "url": "story/prologue/sound/guitar.mp3",
-      "params": [
-        "volume:0.5"
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Guitar 1 100% | Prologue chapter 0",
-      "url": "story/prologue/sound/guitar.mp3",
-      "params": []
-    },
-    {
-      "id": "4",
-      "name": "PDA новое уведомление",
-      "url": "story/prologue/sound/PDA1.mp3",
-      "params": []
-    },
-    {
-      "id": "5",
-      "name": "PDA новый квест",
-      "url": "story/prologue/sound/PDA2.mp3",
-      "params": []
-    },
-    {
-      "id": "6",
-      "name": "PDA новое сообщение",
-      "url": "story/prologue/sound/PDA3.mp3",
-      "params": []
-    }
-  ],
+  "title": null,
   "stages": [
     {
       "id": 0,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_1.jpg",
       "title": "Аркадий Еврей",
-      "music": [
-        "1",
-        "3"
-      ],
       "message": "",
       "type_message": 0,
       "texts": [
         {
           "text": "На несколько минут Аркадия целиком поглотила импровизация. Он уже не слышал отдаляющихся шагов нового знакомого, но не переставал прокручивать в голове произошедший только что диалог.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Далее",
-          "stage": "1",
-          "condition": {}
+          "stage": 1,
+          "condition": {},
+          "text": "Далее"
         }
       ],
       "actions": {},
+      "data": null,
       "editor": {
-        "x": 179,
-        "y": 498
+        "x": 525,
+        "y": 0
       }
     },
     {
@@ -92,27 +34,19 @@
       "type_stage": 7,
       "background": "story/prologue/screen/chapter_1_1.jpg",
       "title": "Аркадий Еврей",
-      "music": [
-        "1",
-        "3"
-      ],
       "message": "",
       "type_message": 0,
       "texts": [
         {
           "text": "Ничего теперь не попишешь. Ни с чем остался. И эту мечту потерял, и тебя сгубил: не заступился, позволил прогнать тебя с нашего порога, едва ты на него ступила, не догнал, не остановил на речном берегу! Выпить надо. Срочно. В «100 рентген».",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Выйти из здания",
-          "stage": "2",
-          "condition": {}
+          "stage": 2,
+          "condition": {},
+          "text": "Выйти из здания"
         }
       ],
       "actions": {
@@ -120,9 +54,10 @@
           "600"
         ]
       },
+      "data": null,
       "editor": {
-        "x": 163,
-        "y": 340
+        "x": 525,
+        "y": 150
       }
     },
     {
@@ -136,22 +71,18 @@
         {
           "text": "Сталкер засобирался в бар. Рядом со зданием блокпоста стояла вышка.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Залезть",
-          "stage": "3",
-          "condition": {}
+          "stage": 3,
+          "condition": {},
+          "text": "Залезть"
         },
         {
-          "text": "Пройти мимо",
-          "stage": "6",
-          "condition": {}
+          "stage": 6,
+          "condition": {},
+          "text": "Пройти мимо"
         }
       ],
       "actions": {
@@ -162,9 +93,10 @@
         ],
         "syncNow": []
       },
+      "data": null,
       "editor": {
-        "x": 382,
-        "y": 435
+        "x": 525,
+        "y": 300
       }
     },
     {
@@ -172,37 +104,31 @@
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_3.jpg",
       "title": "Блокпост перед Свалкой",
-      "music": [
-        "1"
-      ],
       "message": "",
       "type_message": 0,
       "texts": [
         {
           "text": "Под ногами загремели ржавые ступени, заскрежетал приставший к подошвам песок. Добравшись до верха, Аркадий тут же наткнулся на металлический кейс.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Вскрыть ножом",
-          "stage": "4",
-          "condition": {}
+          "stage": 4,
+          "condition": {},
+          "text": "Вскрыть ножом"
         },
         {
-          "text": "Вскрыть руками",
-          "stage": "5",
-          "condition": {}
+          "stage": 5,
+          "condition": {},
+          "text": "Вскрыть руками"
         }
       ],
       "actions": {},
+      "data": null,
       "editor": {
-        "x": 96,
-        "y": 957
+        "x": 432.5,
+        "y": 450
       }
     },
     {
@@ -210,26 +136,19 @@
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_3.jpg",
       "title": "Блокпост перед Свалкой",
-      "music": [
-        "5"
-      ],
       "message": "Получено: бинт х2, стандартная аптечка.",
       "type_message": 0,
       "texts": [
         {
           "text": "В кейсе оказались медицинские принадлежности.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Далее",
-          "stage": "6",
-          "condition": {}
+          "stage": 6,
+          "condition": {},
+          "text": "Далее"
         }
       ],
       "actions": {
@@ -242,9 +161,10 @@
         ],
         "syncNow": []
       },
+      "data": null,
       "editor": {
-        "x": 689,
-        "y": 503
+        "x": 257.5,
+        "y": 600
       }
     },
     {
@@ -252,26 +172,19 @@
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_3.jpg",
       "title": "Блокпост перед Свалкой",
-      "music": [
-        "5"
-      ],
       "message": "Получено: бинт х2, стандартная аптечка.",
       "type_message": 0,
       "texts": [
         {
           "text": "Получено увечье: «кровотечение». Причина: неосторожность.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Далее",
-          "stage": "6",
-          "condition": {}
+          "stage": 6,
+          "condition": {},
+          "text": "Далее"
         }
       ],
       "actions": {
@@ -284,9 +197,10 @@
           "0.06"
         ]
       },
+      "data": null,
       "editor": {
-        "x": 611,
-        "y": 257
+        "x": 607.5,
+        "y": 600
       }
     },
     {
@@ -300,23 +214,20 @@
         {
           "text": "Аркадий ненадолго зашёл в дом, стоявший на территории блокпоста, после чего вышел и направился в сторону Свалки.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Продолжить",
-          "stage": "7",
-          "condition": {}
+          "stage": 7,
+          "condition": {},
+          "text": "Продолжить"
         }
       ],
       "actions": {},
+      "data": null,
       "editor": {
-        "x": 864,
-        "y": 14
+        "x": 432.5,
+        "y": 750
       }
     },
     {
@@ -330,23 +241,20 @@
         {
           "text": "Вот и я здесь, будто этот вертолёт. Способностей много, на вид, вроде, тоже ничего, а вынужден мариноваться на этом клочке заражённой земли.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Продолжить",
-          "stage": "8",
-          "condition": {}
+          "stage": 8,
+          "condition": {},
+          "text": "Продолжить"
         }
       ],
       "actions": {},
+      "data": null,
       "editor": {
-        "x": 497,
-        "y": 442
+        "x": 432.5,
+        "y": 900
       }
     },
     {
@@ -360,23 +268,20 @@
         {
           "text": "Твою мать...",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Подойти",
-          "stage": "9",
-          "condition": {}
+          "stage": 9,
+          "condition": {},
+          "text": "Подойти"
         }
       ],
       "actions": {},
+      "data": null,
       "editor": {
-        "x": 370,
-        "y": 469
+        "x": 432.5,
+        "y": 1050
       }
     },
     {
@@ -390,23 +295,20 @@
         {
           "text": "Смарите какой «маслёнок»! Ну, давай знакомиться: это мои кореша, а ты, фраер, кто такой?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Еврей. Аркадий Еврей.",
-          "stage": "10",
-          "condition": {}
+          "stage": 10,
+          "condition": {},
+          "text": "Еврей. Аркадий Еврей."
         }
       ],
       "actions": {},
+      "data": null,
       "editor": {
-        "x": 392,
-        "y": 992
+        "x": 432.5,
+        "y": 1200
       }
     },
     {
@@ -420,32 +322,29 @@
         {
           "text": "Сушай, а ты часом Пыню не знаешь? Он тоже такого роста как ты был, робкий мздец. Каждый раз приходил на вашу базу, а однажды захохмил, мол, входит, и г-рит: «Наливаю всем за счет заведения!» Эх, жалко Пыню было, не будь как он, выворачивай карманы!",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Хорошо, хорошо, отдаю. ",
-          "stage": "11",
+          "stage": 11,
           "condition": {
-            "money<=": [
+            "money>=": [
               "120"
             ]
-          }
+          },
+          "text": "Хорошо, хорошо, отдаю. "
         },
         {
-          "text": "Слушайте, у меня один фиг ни черта нет. Давайте я просто развернусь и уйду, будто этого ничего и не было? ",
-          "stage": "13",
-          "condition": {}
+          "stage": 13,
+          "condition": {},
+          "text": "Слушайте, у меня один фиг ни черта нет. Давайте я просто развернусь и уйду, будто этого ничего и не было? "
         }
       ],
       "actions": {},
+      "data": null,
       "editor": {
-        "x": 331,
-        "y": 559
+        "x": 432.5,
+        "y": 1350
       }
     },
     {
@@ -453,26 +352,19 @@
       "type_stage": 7,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
-      "music": [
-        "4"
-      ],
       "message": "Потеряно денег: 120р",
       "type_message": 0,
       "texts": [
         {
           "text": " Вот и хорошо, послушный парень, умный.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "...",
-          "stage": "12",
-          "condition": {}
+          "stage": 12,
+          "condition": {},
+          "text": "..."
         }
       ],
       "actions": {
@@ -480,9 +372,10 @@
           "-120"
         ]
       },
+      "data": null,
       "editor": {
-        "x": 242,
-        "y": 65
+        "x": 0,
+        "y": 1800
       }
     },
     {
@@ -496,33 +389,30 @@
         {
           "text": "Свободен.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Ай, мляя...",
-          "stage": "21",
-          "condition": {}
+          "stage": 21,
+          "condition": {},
+          "text": "Ай, мляя..."
         }
       ],
       "actions": {
-        "health-": [
-          "0.5"
+        "add": [
+          "going_to_bar"
         ],
         "xp": [
           "5"
         ],
-        "add": [
-          "going_to_bar"
+        "health-": [
+          "0.5"
         ]
       },
+      "data": null,
       "editor": {
-        "x": 554,
-        "y": 719
+        "x": 57.597229527395115,
+        "y": 1957.578582832552
       }
     },
     {
@@ -536,23 +426,20 @@
         {
           "text": "Э, не, сталкерок. Так дела не делаются, сечёшь да? Ты на нашу территорию залез? Залез. Плати за проход теперь, или мы с пацанами тебя порешаем. Нам не в падлу хабар с жмура снять, сечёшь да?",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Да мужики, вы чего? Нет у меня ничего!",
-          "stage": "14",
-          "condition": {}
+          "stage": 14,
+          "condition": {},
+          "text": "Да мужики, вы чего? Нет у меня ничего!"
         }
       ],
       "actions": {},
+      "data": null,
       "editor": {
-        "x": 233,
-        "y": 258
+        "x": 782.5,
+        "y": 1500
       }
     },
     {
@@ -566,23 +453,20 @@
         {
           "text": "Раздевать ща тебя будем, ты тока не ломайся, не целка же.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Эй, не трогай!",
-          "stage": "15",
-          "condition": {}
+          "stage": 15,
+          "condition": {},
+          "text": "Эй, не трогай!"
         }
       ],
       "actions": {},
+      "data": null,
       "editor": {
-        "x": 372,
-        "y": 436
+        "x": 782.5,
+        "y": 1650
       }
     },
     {
@@ -596,45 +480,44 @@
         {
           "text": "Слушай сюда! Или ты сейчас отдаёшь всё шо есть, или я тебя прям щас кокну, сечёшь? ",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Тянуться к оружию",
-          "stage": "16",
+          "stage": 16,
           "condition": {
             "!has": [
               "dead_bandit_garbage"
             ]
-          }
+          },
+          "text": "Тянуться к оружию"
         },
         {
-          "text": "Откупиться",
-          "stage": "19",
+          "stage": 19,
           "condition": {
             "!has": [
               "dead_bandit_garbage"
             ]
-          }
+          },
+          "text": "Откупиться"
         },
         {
-          "text": "Откупиться",
-          "stage": "20",
+          "stage": 20,
           "condition": {
             "has": [
               "dead_bandit_garbage"
             ]
-          }
+          },
+          "text": "Откупиться"
         }
       ],
-      "actions": {},
+      "actions": {
+        "syncNow": []
+      },
+      "data": null,
       "editor": {
-        "x": 309,
-        "y": 126
+        "x": 782.5,
+        "y": 1800
       }
     },
     {
@@ -648,23 +531,20 @@
         {
           "text": "Ей богу, тока дёрнись, и я те башку прострелю!",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Я сейчас просто разворачиваюсь и иду туда, откуда пришёл, хорошо да?",
-          "stage": "17",
-          "condition": {}
+          "stage": 17,
+          "condition": {},
+          "text": "Я сейчас просто разворачиваюсь и иду туда, откуда пришёл, хорошо да?"
         }
       ],
       "actions": {},
+      "data": null,
       "editor": {
-        "x": 450,
-        "y": 598
+        "x": 447.85306714537586,
+        "y": 1940.624487097836
       }
     },
     {
@@ -678,23 +558,20 @@
         {
           "text": "Я тя предупреждал, чертила!",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "...",
-          "stage": "18",
-          "condition": {}
+          "stage": 18,
+          "condition": {},
+          "text": "..."
         }
       ],
       "actions": {},
+      "data": null,
       "editor": {
-        "x": 400,
-        "y": 943
+        "x": 450.343121190073,
+        "y": 2101.5551750644045
       }
     },
     {
@@ -708,17 +585,13 @@
         {
           "text": "Игра окончена",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Начать заново",
-          "stage": "15",
-          "condition": {}
+          "stage": 15,
+          "condition": {},
+          "text": "Начать заново"
         }
       ],
       "actions": {
@@ -726,9 +599,10 @@
           "dead_bandit_garbage"
         ]
       },
+      "data": null,
       "editor": {
-        "x": 565,
-        "y": 567
+        "x": 465.2763353771135,
+        "y": 2237.6263660516665
       }
     },
     {
@@ -742,31 +616,28 @@
         {
           "text": "Еврей медленно снял с себя рюкзак и кинул в сторону пацанов. Один из них одобрительно кивнул и сказал, что он сделал правильный выбор и вклад в общаг дело чёткое.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Продолжить",
-          "stage": "21",
-          "condition": {}
+          "stage": 21,
+          "condition": {},
+          "text": "Продолжить"
         }
       ],
       "actions": {
-        "xp": [
-          "3"
-        ],
         "add": [
           "going_to_bar"
         ],
+        "xp": [
+          "3"
+        ],
         "syncNow": []
       },
+      "data": null,
       "editor": {
-        "x": 142,
-        "y": 777
+        "x": 779.7620256296857,
+        "y": 2058.085455239739
       }
     },
     {
@@ -780,17 +651,13 @@
         {
           "text": "Еврей медленно снял с себя рюкзак и кинул в сторону пацанов. Один из них одобрительно кивнул и сказал, что он сделал правильный выбор и вклад в общаг дело чёткое.",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Продолжить",
-          "stage": "21",
-          "condition": {}
+          "stage": 21,
+          "condition": {},
+          "text": "Продолжить"
         }
       ],
       "actions": {
@@ -799,21 +666,29 @@
         ],
         "syncNow": []
       },
+      "data": null,
       "editor": {
-        "x": 470,
-        "y": 126
+        "x": 1145.341963464754,
+        "y": 2057.9776453697214
       }
     },
     {
       "id": 21,
       "type_stage": 4,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
+      "actions": null,
       "data": {
-        "map": "2",
-        "pos": "747:503"
+        "pos": "747:503",
+        "map": "2"
       },
       "editor": {
-        "x": 173,
-        "y": 58
+        "x": 438.9494283423161,
+        "y": 2673.537867838747
       }
     },
     {
@@ -827,44 +702,39 @@
         {
           "text": "Пойти в бар",
           "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
         }
       ],
       "transfers": [
         {
-          "text": "Перейти",
-          "stage": "23",
-          "condition": {}
+          "stage": 23,
+          "condition": {},
+          "text": "Перейти"
         }
       ],
       "actions": {
+        "xp": [
+          "15"
+        ],
         "remove": [
           "0:2:1",
           "1:1:1",
           "2:9:90",
           "going_to_bar"
-        ],
-        "xp": [
-          "15"
         ]
       },
+      "data": null,
       "editor": {
-        "x": 390,
-        "y": 823
+        "x": 1060,
+        "y": 150
       }
     },
     {
       "id": 23,
       "type_stage": 1,
       "background": "story/prologue/screen/chapter_1_8.jpg",
-      "music": [],
       "title": "Глава окончена!",
       "message": "",
       "type_message": 0,
-      "value": 0,
       "texts": [
         {
           "text": "Вот так и закончилась вторая глава",
@@ -873,46 +743,55 @@
       ],
       "transfers": [
         {
-          "text": "Окей",
-          "stage": "24",
-          "condition": {}
+          "stage": 24,
+          "condition": {},
+          "text": "Окей"
         }
       ],
       "actions": {
+        "syncNow": [],
+        "reset": [
+          "items"
+        ],
         "remove": [
           "0:1:1",
           "1:4:1",
           "2:11:90"
-        ],
-        "reset": [
-          "items"
-        ],
-        "syncNow": []
+        ]
       },
+      "data": null,
       "editor": {
-        "x": 452,
-        "y": 768
+        "x": 1060,
+        "y": 300
       }
     },
     {
       "id": 24,
       "type_stage": 5,
+      "background": null,
+      "title": null,
+      "message": null,
+      "type_message": null,
+      "texts": null,
+      "transfers": null,
       "actions": {
         "openStage": [
           "3",
           "0"
         ]
       },
+      "data": null,
       "editor": {
-        "x": 761,
-        "y": 666
+        "x": 1060,
+        "y": 450
       }
     }
   ],
   "points": {
     "2": [
       {
-        "type": "1",
+        "id": "50c0b9be-1a26-4678-801d-f8267d5aae95",
+        "type": 1,
         "name": "От бандитов к бару",
         "pos": "722:1143",
         "data": {
@@ -923,8 +802,48 @@
           "has": [
             "going_to_bar"
           ]
+        },
+        "editor": {
+          "x": 1060,
+          "y": 0
         }
       }
     ]
-  }
+  },
+  "spawns": {},
+  "missions": [
+    {
+      "title": "Задания от Сидоровича",
+      "name": "zadaniya-ot-sidorovicha",
+      "checkpoints": [
+        {
+          "parameter": "zhopa",
+          "title": "Найти 5 хвостов слепых псов",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "parameter": "go_to_the_cummunist",
+          "title": "Заглянуть на блокпост-приемник",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Напиться",
+      "name": "napit-sya",
+      "checkpoints": [
+        {
+          "parameter": "going_to_bar",
+          "title": "Идти в бар",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    }
+  ]
 }

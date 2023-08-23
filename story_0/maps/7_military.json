@@ -1,0 +1,42 @@
+{
+  "id": 7,
+  "title": "Военные склады",
+  "tmx": "military.tmx",
+  "defPos": "500:500",
+  "points": [
+    {
+      "id": "c8835e76-e74e-4b37-afc8-25aa8560af39",
+      "type": 0,
+      "name": "Нормальная синхронизация",
+      "pos": "812:707",
+      "data": {
+        "chapter": "2",
+        "stage": "2"
+      },
+      "condition": {}
+    },
+    {
+      "id": "ed79a8f0-cfbb-48a6-b137-996d1555bb6e",
+      "type": 0,
+      "name": "Кривая синхронизация",
+      "pos": "812:660",
+      "data": {
+        "chapter": "2",
+        "stage": "10"
+      },
+      "condition": {}
+    },
+    {
+      "id": "9d132c9e-df37-4f5a-93ac-6bc181e86036",
+      "type": 0,
+      "name": "Без синхронизации",
+      "pos": "812:613",
+      "data": {
+        "chapter": "2",
+        "stage": "15"
+      },
+      "condition": {}
+    }
+  ],
+  "spawns": []
+}

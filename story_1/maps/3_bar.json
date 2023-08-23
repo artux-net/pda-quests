@@ -1,11 +1,12 @@
 {
-  "id": "3",
+  "id": 3,
   "title": "Бар",
   "tmx": "bar.tmx",
-  "defPos": "1561:1080",
+  "defPos": "500:500",
   "points": [
     {
-      "type": "7",
+      "id": "74e2552f-ab8e-478c-9c5b-94dd3b327036",
+      "type": 7,
       "name": "На Свалку",
       "pos": "2104:529",
       "data": {
@@ -17,51 +18,146 @@
           "quest_matvienko_final"
         ]
       }
+    },
+    {
+      "id": "eab4f58d-7aac-4e7b-a5de-bab4a58b7be7",
+      "type": 1,
+      "name": "От бара до южного блокпоста",
+      "pos": "1737:1130",
+      "data": {
+        "chapter": "3",
+        "stage": "16"
+      },
+      "condition": {
+        "has": [
+          "quest_matvienko0"
+        ]
+      }
+    },
+    {
+      "id": "6a3486ba-22ff-4718-9f31-8e5bf5deade1",
+      "type": 1,
+      "name": "От свалки к Матвиенко",
+      "pos": "1737:1130",
+      "data": {
+        "chapter": "3",
+        "stage": "66"
+      },
+      "condition": {
+        "has": [
+          "quest_matvienko6"
+        ]
+      }
+    },
+    {
+      "id": "eab4f58d-7aac-4e7b-a5de-bab4a58b7be7",
+      "type": 1,
+      "name": "От бара до южного блокпоста",
+      "pos": "1737:1130",
+      "data": {
+        "chapter": "3",
+        "stage": "16"
+      },
+      "condition": {
+        "has": [
+          "quest_matvienko0"
+        ]
+      }
+    },
+    {
+      "id": "6a3486ba-22ff-4718-9f31-8e5bf5deade1",
+      "type": 1,
+      "name": "От свалки к Матвиенко",
+      "pos": "1737:1130",
+      "data": {
+        "chapter": "3",
+        "stage": "66"
+      },
+      "condition": {
+        "has": [
+          "quest_matvienko6"
+        ]
+      }
     }
   ],
-  "transfers": [],
   "spawns": [
     {
+      "id": 0,
+      "title": null,
+      "description": null,
       "group": "DUTY",
       "strength": "WEAK",
-      "n": "3",
-      "r": "25",
-      "pos": "1737:1130"
+      "r": 25,
+      "n": 3,
+      "pos": "1737:1130",
+      "data": null,
+      "condition": null,
+      "actions": null
     },
     {
+      "id": 0,
+      "title": null,
+      "description": null,
       "group": "DUTY",
       "strength": "WEAK",
-      "n": "7",
-      "r": "50",
-      "pos": "1700:1400"
+      "r": 50,
+      "n": 7,
+      "pos": "1700:1400",
+      "data": null,
+      "condition": null,
+      "actions": null
     },
     {
+      "id": 0,
+      "title": null,
+      "description": null,
       "group": "LONERS",
       "strength": "WEAK",
-      "n": "6",
-      "r": "13",
-      "pos": "1501:1255"
+      "r": 13,
+      "n": 6,
+      "pos": "1501:1255",
+      "data": null,
+      "condition": null,
+      "actions": null
     },
     {
+      "id": 0,
+      "title": null,
+      "description": null,
       "group": "DUTY",
       "strength": "WEAK",
-      "n": "6",
-      "r": "25",
-      "pos": "1582:1381"
+      "r": 25,
+      "n": 6,
+      "pos": "1582:1381",
+      "data": null,
+      "condition": null,
+      "actions": null
     },
     {
+      "id": 0,
+      "title": null,
+      "description": null,
       "group": "DUTY",
       "strength": "WEAK",
-      "n": "3",
-      "r": "25",
-      "pos": "1386:1500"
+      "r": 25,
+      "n": 3,
+      "pos": "1386:1500",
+      "data": null,
+      "condition": null,
+      "actions": null
     },
     {
+      "id": 0,
+      "title": null,
+      "description": null,
       "group": "LONERS",
       "strength": "WEAK",
-      "n": "6",
-      "r": "30",
-      "pos": "1487:1404"
+      "r": 30,
+      "n": 6,
+      "pos": "1487:1404",
+      "data": null,
+      "condition": null,
+      "actions": null
     }
   ]
 }

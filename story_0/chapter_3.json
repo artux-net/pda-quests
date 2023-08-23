@@ -1,0 +1,260 @@
+{
+  "id": 3,
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну здорова, зачем пришел?",
+          "condition": {
+            "!has": [
+              "Диалог с Торговцем"
+            ]
+          }
+        },
+        {
+          "text": "Еще что-то?",
+          "condition": {
+            "has": [
+              "Диалог с Торговцем"
+            ]
+          }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я хотел бы посмотреть ассортимент",
+          "stage": "1",
+          "condition": {}
+        },
+        {
+          "text": "Мне нужна информация",
+          "stage": "2",
+          "condition": {}
+        },
+        {
+          "text": "Я по поводу работы",
+          "stage": "3",
+          "condition": {}
+        },
+        {
+          "text": "Пока",
+          "stage": "4",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "syncNow": []
+      },
+      "editor": {
+        "x": 497.9471411215926,
+        "y": -134.63897403521355
+      }
+    },
+    {
+      "id": 1,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну погляди...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Спасибо",
+          "stage": "6",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "openSeller": [
+          "1"
+        ],
+        "add": [
+          "Диалог с Торговцем"
+        ]
+      },
+      "editor": {
+        "x": 0,
+        "y": 150
+      }
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Какого рода информация тебе нужна?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Забудь",
+          "stage": "8",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "Диалог с Торговцем"
+        ]
+      },
+      "editor": {
+        "x": 350,
+        "y": 150
+      }
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Хм... Щас посмотрю.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо",
+          "stage": "5",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "Диалог с Торговцем"
+        ]
+      },
+      "editor": {
+        "x": 700,
+        "y": 150
+      }
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Бывай, Сталкер.",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "remove": [
+          "Диалог с Торговцем"
+        ],
+        "openStage": [
+          "1",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 1050,
+        "y": 150
+      }
+    },
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Работа есть.",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "4",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 700,
+        "y": 300
+      }
+    },
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 0,
+        "y": 300
+      }
+    },
+    {
+      "id": 8,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ладно.",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 315.8374049730598,
+        "y": 363.6683158754151
+      }
+    }
+  ],
+  "points": {
+    "9": []
+  },
+  "spawns": {},
+  "missions": [],
+  "title": "Диалог с торговцем"
+}
