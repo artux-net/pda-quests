@@ -1484,8 +1484,8 @@
         ]
       },
       "editor": {
-        "x": 3541.494484205236,
-        "y": 146.19178354716107
+        "x": 3519.6761207312234,
+        "y": 300.1422590944949
       }
     },
     {
@@ -1493,11 +1493,11 @@
       "type_stage": 4,
       "data": {
         "map": "5",
-        "pos": "135:340"
+        "pos": "138:222"
       },
       "editor": {
-        "x": 3481.9714612835714,
-        "y": 295.04046549493756
+        "x": 3323.163107803207,
+        "y": 511.4035242634878
       }
     },
     {
@@ -1660,7 +1660,8 @@
       "actions": {
         "remove": [
           "quest_2_0_flash_barmen1"
-        ]
+        ],
+        "syncNow": []
       },
       "editor": {
         "x": 3988.352021262971,
@@ -1672,7 +1673,7 @@
       "type_stage": 4,
       "data": {
         "map": "5",
-        "pos": "154:201"
+        "pos": "144:146"
       },
       "editor": {
         "x": 3945.0498776582467,
@@ -1761,7 +1762,8 @@
         ],
         "remove": [
           "quest_2_0_flash_barmen_money1"
-        ]
+        ],
+        "syncNow": []
       },
       "editor": {
         "x": 4429.614425573387,
@@ -1886,7 +1888,8 @@
       "actions": {
         "remove": [
           "quest_99_1_segun_sogl"
-        ]
+        ],
+        "syncNow": []
       },
       "editor": {
         "x": 4781.378628974519,
@@ -1945,10 +1948,11 @@
         ],
         "remove": [
           "quest_99_1_segun_sogl"
-        ]
+        ],
+        "syncNow": []
       },
       "editor": {
-        "x": 5133.220756882502,
+        "x": 5131.996442154968,
         "y": 610.1326878877935
       }
     },
@@ -2421,7 +2425,8 @@
         ],
         "remove": [
           "quest_99_1_segun_vernul"
-        ]
+        ],
+        "syncNow": []
       },
       "editor": {
         "x": 6718.345161258571,
@@ -3132,6 +3137,32 @@
         "x": 9036.630107393285,
         "y": 571.2216602118286
       }
+    },
+    {
+      "id": 120,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/31.jpg",
+      "title": "Ферма",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вы подходите к ферме.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Далее",
+          "stage": "54",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3532.0707886780338,
+        "y": 183.61028674278367
+      }
     }
   ],
   "points": {
@@ -3361,6 +3392,9 @@
         "condition": {
           "!has": [
             "quest_1_0_aksuotbandita_start"
+          ],
+          "has": [
+            "Beta"
           ]
         },
         "editor": {
@@ -3396,9 +3430,9 @@
         "id": "852e1ccf-e98c-4b34-801d-40a816d8c6f5",
         "type": 0,
         "name": "Ферма",
-        "pos": "135:340",
+        "pos": "138:222",
         "data": {
-          "stage": "54",
+          "stage": "120",
           "chapter": "2"
         },
         "condition": {
@@ -3415,7 +3449,7 @@
         "id": "945d94c1-08da-4ac8-977f-edca3990bbd0",
         "type": 3,
         "name": "Какой-то сталкер",
-        "pos": "154:201",
+        "pos": "144:146",
         "data": {
           "stage": "56",
           "chapter": "2"
@@ -3441,7 +3475,11 @@
           "stage": "104",
           "chapter": "2"
         },
-        "condition": {},
+        "condition": {
+          "has": [
+            "Beta"
+          ]
+        },
         "editor": {
           "x": 8176.940450643132,
           "y": 17.274961223306292
@@ -3450,6 +3488,241 @@
     ]
   },
   "spawns": {},
-  "missions": [],
+  "missions": [
+    {
+      "title": "Конкурент Сидоровича",
+      "name": "konkurent-sidorovicha",
+      "checkpoints": [
+        {
+          "title": "Разобраться с конкурентом на Кордоне",
+          "parameter": "quest_1_0_sapyr_sidor",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Найти флешку",
+      "name": "nayti-fleshku",
+      "checkpoints": [
+        {
+          "title": "Элеватор",
+          "parameter": "quest_1_0_flash_sidor",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Монолитовец на свалке",
+      "name": "monolitovets-na-svalke",
+      "checkpoints": [
+        {
+          "title": "Добраться до Депо",
+          "parameter": "quest_1_0_monsvalka_sidor",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Конкурент Сидоровича",
+      "name": "konkurent-sidorovicha",
+      "checkpoints": [
+        {
+          "title": "Вернуться к Сидоровичу",
+          "parameter": "quest_1_0_sapyr_sidor_fin",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Найти флешку",
+      "name": "nayti-fleshku",
+      "checkpoints": [
+        {
+          "title": "Вернуться к Сидоровичу",
+          "parameter": "quest_1_0_flash_sidor_fin",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Монолитовец на свалке",
+      "name": "monolitovets-na-svalke",
+      "checkpoints": [
+        {
+          "title": "Найти Ворона у труб",
+          "parameter": "quest_1_0_monsvalka_sidor1",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Монолитовец на свалке",
+      "name": "monolitovets-na-svalke",
+      "checkpoints": [
+        {
+          "title": "Предупредить сталкеров о нападении",
+          "parameter": "quest_1_0_monsvalka_sidor2",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Монолитовец на свалке",
+      "name": "monolitovets-na-svalke",
+      "checkpoints": [
+        {
+          "title": "Вернуться к Сидоровичу",
+          "parameter": "quest_1_0_monsvalka_sidor_fin",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Найти флешку",
+      "name": "nayti-fleshku",
+      "checkpoints": [
+        {
+          "title": "Добраться до Фермы",
+          "parameter": "quest_2_0_flash_barmen",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Найти флешку",
+      "name": "nayti-fleshku",
+      "checkpoints": [
+        {
+          "title": "Обыскать ферму",
+          "parameter": "quest_2_0_flash_barmen1",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Найти флешку",
+      "name": "nayti-fleshku",
+      "checkpoints": [
+        {
+          "title": "Вернуться к Бармену",
+          "parameter": "quest_2_0_flash_barmen2_fin",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Долг Сявы",
+      "name": "dolg-syavy",
+      "checkpoints": [
+        {
+          "title": "Добраться до заставы долга",
+          "parameter": "quest_2_0_flash_barmen_money1",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Долг Сявы",
+      "name": "dolg-syavy",
+      "checkpoints": [
+        {
+          "title": "Вернуться к Бармену",
+          "parameter": "quest_2_0_flash_barmen_money_fin",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Реликвия Сёгуна",
+      "name": "relikviya-syoguna",
+      "checkpoints": [
+        {
+          "title": "Пообщаться с Волком",
+          "parameter": "quest_99_1_segun_gotowolf",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Реликвия Сёгуна",
+      "name": "relikviya-syoguna",
+      "checkpoints": [
+        {
+          "title": "Задать вопрос Сидоровичу",
+          "parameter": "quest_99_1_segun_gotosidor",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Реликвия Сёгуна",
+      "name": "relikviya-syoguna",
+      "checkpoints": [
+        {
+          "title": "Вернуться к Волку",
+          "parameter": "quest_99_1_segun_gotowolf2",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Реликвия Сёгуна",
+      "name": "relikviya-syoguna",
+      "checkpoints": [
+        {
+          "title": "Найти Стрижа",
+          "parameter": "quest_99_1_segun_gotostrizh",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Реликвия Сёгуна",
+      "name": "relikviya-syoguna",
+      "checkpoints": [
+        {
+          "title": "Вернуть реликвию владельцу",
+          "parameter": "quest_99_1_segun_vernul",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    }
+  ],
   "title": "Основная глава Свободной игры"
 }

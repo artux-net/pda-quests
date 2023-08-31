@@ -1097,14 +1097,10 @@
           "condition": {}
         }
       ],
-      "actions": {
-        "add": [
-          "quest_0_0_post_bar1"
-        ]
-      },
+      "actions": {},
       "editor": {
-        "x": 1925,
-        "y": 150
+        "x": 1919.3755304101837,
+        "y": 125.2523338048091
       }
     },
     {
@@ -1133,6 +1129,9 @@
         ],
         "money": [
           "500"
+        ],
+        "add": [
+          "quest_0_0_post_bar1"
         ]
       },
       "editor": {
@@ -1490,7 +1489,8 @@
       "actions": {
         "+": [
           "relation_2:15"
-        ]
+        ],
+        "syncNow": []
       },
       "editor": {
         "x": 2625,
@@ -1529,14 +1529,10 @@
           "condition": {}
         }
       ],
-      "actions": {
-        "remove": [
-          "quest_0_0_naebka"
-        ]
-      },
+      "actions": {},
       "editor": {
-        "x": 3242.5,
-        "y": 150
+        "x": 3310.984681034858,
+        "y": 117.69590517223685
       }
     },
     {
@@ -1564,10 +1560,15 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "remove": [
+          "quest_0_0_naebka"
+        ],
+        "syncNow": []
+      },
       "editor": {
-        "x": 3242.5,
-        "y": 300
+        "x": 3234.9502017777763,
+        "y": 272.5700840425531
       }
     },
     {
@@ -1731,11 +1732,7 @@
           "condition": {}
         }
       ],
-      "actions": {
-        "remove": [
-          "quest_0_0_naebka1"
-        ]
-      },
+      "actions": {},
       "editor": {
         "x": 3695,
         "y": 150
@@ -2327,8 +2324,8 @@
         ]
       },
       "editor": {
-        "x": 4045,
-        "y": 2550
+        "x": 3966.3317595527624,
+        "y": 2529.219710070541
       }
     },
     {
@@ -2633,8 +2630,8 @@
         ]
       },
       "editor": {
-        "x": 4570,
-        "y": 1500
+        "x": 4590.460244164284,
+        "y": 1494.884938958929
       }
     },
     {
@@ -2704,8 +2701,8 @@
       ],
       "actions": {},
       "editor": {
-        "x": 5063.268039088541,
-        "y": 193.02711798778438
+        "x": 5117.262947150775,
+        "y": 186.277754480005
       }
     },
     {
@@ -2845,7 +2842,11 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "remove": [
+          "quest_0_0_sng3"
+        ]
+      },
       "editor": {
         "x": 5140.291878843703,
         "y": 972.9613967601539
@@ -2894,7 +2895,7 @@
       },
       {
         "id": "01257350-78cf-446c-9581-50b1c2e949bb",
-        "type": 0,
+        "type": 1,
         "name": "От ученого вернуть долг охране",
         "pos": "2374:977",
         "data": {
@@ -3066,6 +3067,131 @@
     ]
   },
   "spawns": {},
-  "missions": [],
+  "missions": [
+    {
+      "title": "Отправиться в НИИЧАЗ",
+      "name": "otpravit-sya-v-niichaz",
+      "checkpoints": [
+        {
+          "title": "Блокпост",
+          "parameter": "quest_0_0",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Вернуть Долг",
+      "name": "vernut-dolg",
+      "checkpoints": [
+        {
+          "title": "Вернуться с 500р. на пост",
+          "parameter": "quest_0_0_post_uch_dolg",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Получить 500р.",
+      "name": "poluchit-500r",
+      "checkpoints": [
+        {
+          "title": "Вернуться в бар",
+          "parameter": "quest_0_0_post_bar",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Вернуться на блокпост",
+          "parameter": "quest_0_0_post_bar1",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Отдать документы учёному",
+      "name": "otdat-dokumenty-uchyonomu",
+      "checkpoints": [
+        {
+          "title": "Идти к учёному",
+          "parameter": "quest_0_0_post_uch1",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Вернуться в бар",
+      "name": "vernut-sya-v-bar",
+      "checkpoints": [
+        {
+          "title": "Бар",
+          "parameter": "quest_0_0_post_uch_bar",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Получить документы",
+      "name": "poluchit-dokumenty",
+      "checkpoints": [
+        {
+          "title": "Купить документы на базе СНГ",
+          "parameter": "quest_0_0_sng1",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Пропуск \"По дешёвке\"",
+      "name": "propusk-po-deshyovke",
+      "checkpoints": [
+        {
+          "title": "Прийти на место встречи",
+          "parameter": "quest_0_0_naebka1",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Получить пропуск в НИИЧАЗ",
+      "name": "poluchit-propusk-v-niichaz",
+      "checkpoints": [
+        {
+          "title": "Забрать пропуск",
+          "parameter": "quest_0_0_sng2",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Вход в ЧЗО",
+      "name": "vhod-v-chzo",
+      "checkpoints": [
+        {
+          "title": "Идти к Периметру",
+          "parameter": "quest_0_0_sng3",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    }
+  ],
   "title": "Обучающая Глава"
 }

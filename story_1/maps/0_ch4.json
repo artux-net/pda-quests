@@ -1,0 +1,11 @@
+{
+  "id": "0",
+  "title": "Ч-4",
+  "editor": {
+    "url": "/map_ch_4.png"
+  },
+  "tmx": "ch4.tmx",
+  "defPos": "500:500",
+  "points": [],
+  "spawns": []
+}

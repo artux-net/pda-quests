@@ -120,28 +120,6 @@
       }
     },
     {
-      "id": "0f86d499-88db-49bf-bb72-fadc54b46d6b",
-      "type": 3,
-      "name": "2Блокпост под мостом",
-      "pos": "681:1338",
-      "data": {
-        "chapter": "3",
-        "stage": "213"
-      },
-      "condition": {}
-    },
-    {
-      "id": "af82b865-4d84-4f71-9f45-8f52fe1acac2",
-      "type": 3,
-      "name": "2Блокпост под мостом 2",
-      "pos": "685:1445",
-      "data": {
-        "chapter": "3",
-        "stage": "240"
-      },
-      "condition": {}
-    },
-    {
       "id": "10d97881-b1e8-4c39-8aed-c491910d4136",
       "type": 0,
       "name": "От новичка на Кордон",
@@ -218,28 +196,6 @@
           "quest_sidorovich3"
         ]
       }
-    },
-    {
-      "id": "0f86d499-88db-49bf-bb72-fadc54b46d6b",
-      "type": 3,
-      "name": "2Блокпост под мостом",
-      "pos": "681:1338",
-      "data": {
-        "chapter": "3",
-        "stage": "213"
-      },
-      "condition": {}
-    },
-    {
-      "id": "af82b865-4d84-4f71-9f45-8f52fe1acac2",
-      "type": 3,
-      "name": "2Блокпост под мостом 2",
-      "pos": "685:1445",
-      "data": {
-        "chapter": "3",
-        "stage": "240"
-      },
-      "condition": {}
     },
     {
       "id": "7cbd9208-1060-491c-895c-8f9adf078852",

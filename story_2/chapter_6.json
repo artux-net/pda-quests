@@ -126,7 +126,7 @@
       "type_stage": 4,
       "data": {
         "map": "5",
-        "pos": "82:713"
+        "pos": "90:647"
       },
       "editor": {
         "x": 2450,
@@ -276,7 +276,11 @@
           "stage": "6",
           "chapter": "6"
         },
-        "condition": {},
+        "condition": {
+          "has": [
+            "Beta"
+          ]
+        },
         "editor": {
           "x": 1050,
           "y": 0
@@ -323,7 +327,11 @@
           "stage": "8",
           "chapter": "6"
         },
-        "condition": {},
+        "condition": {
+          "has": [
+            "Beta"
+          ]
+        },
         "editor": {
           "x": 2100,
           "y": 0
@@ -370,7 +378,11 @@
           "stage": "12",
           "chapter": "6"
         },
-        "condition": {},
+        "condition": {
+          "has": [
+            "Beta"
+          ]
+        },
         "editor": {
           "x": 3150,
           "y": 0
@@ -385,7 +397,11 @@
           "stage": "14",
           "chapter": "6"
         },
-        "condition": {},
+        "condition": {
+          "has": [
+            "Beta"
+          ]
+        },
         "editor": {
           "x": 3500,
           "y": 0
@@ -429,7 +445,7 @@
         "id": "a43123fc-1fda-4b6c-ab03-d416df66884c",
         "type": 7,
         "name": "Переход: Тёмная долина-Свалка",
-        "pos": "82:713",
+        "pos": "90:647",
         "data": {
           "stage": "11",
           "chapter": "6"
