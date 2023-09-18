@@ -1,0 +1,151 @@
+{
+  "id": 1,
+  "title": "Кордон",
+  "tmx": "kordon.tmx",
+  "defPos": "500:500",
+  "points": [],
+  "spawns": [
+    {
+      "id": 0,
+      "title": "Блокпост под мостом",
+      "description": "Блокпост, оборудованный под рухнувшим мостом. Имеет стратегически важную позицию, поскольку является одним из трёх проходов через насыпь. ",
+      "group": "MILITARY",
+      "strength": "WEAK",
+      "r": 30,
+      "n": 3,
+      "pos": "681:1338",
+      "data": {
+        "ignorePlayer": [
+          "true"
+        ]
+      },
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "Блокпост под мостом",
+      "description": "Блокпост, оборудованный под рухнувшим мостом. Имеет стратегически важную позицию, поскольку является одним из трёх проходов через насыпь. ",
+      "group": "MILITARY",
+      "strength": "WEAK",
+      "r": 30,
+      "n": 4,
+      "pos": "689:1403",
+      "data": {
+        "ignorePlayer": [
+          "true"
+        ]
+      },
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "Военный блокпост",
+      "description": "Военный блокпост — подлокация на юге Кордона. Является постоянным местом обитания военных.",
+      "group": "MILITARY",
+      "strength": "WEAK",
+      "r": 20,
+      "n": 5,
+      "pos": "316:502",
+      "data": {
+        "ignorePlayer": [
+          "true"
+        ]
+      },
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "Военный блокпост",
+      "description": "Военный блокпост — подлокация на юге Кордона. Является постоянным местом обитания военных.",
+      "group": "MILITARY",
+      "strength": "MIDDLE",
+      "r": 20,
+      "n": 5,
+      "pos": "366:437",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "Деревня новичков",
+      "description": "Небольшая деревня расположенная на Кордоне, где как правило, обитают вновь прибывшие в Зону Отчуждения. Деревня представляет собой небольшую деревушку из одной улицы из семи домов, и бомбоубежища, переоборудованного в бункер торговцем Сидоровичем в нескольких метрах к западу от последнего здания. ",
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 40,
+      "n": 8,
+      "pos": "234:843",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": null,
+      "description": null,
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 1,
+      "n": 1,
+      "pos": "644:2314",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "Тайный лагерь",
+      "description": "Незаметный из-за холма бывший лагерь одиночек, находящийся за деревней новичков.",
+      "group": "LONERS",
+      "strength": "MIDDLE",
+      "r": 50,
+      "n": 3,
+      "pos": "148:1060",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "АТП",
+      "description": "АТП — заброшенное автотранспортное предприятие «Локомотив». Находится в восточной части Кордона.",
+      "group": "BANDITS",
+      "strength": "WEAK",
+      "r": 40,
+      "n": 5,
+      "pos": "792:1073",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "Ферма",
+      "description": "Два старых заброшенных строения, расположенных на территории Кордона.",
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 30,
+      "n": 3,
+      "pos": "576:1592",
+      "data": null,
+      "condition": null,
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "Группа одиночек",
+      "description": "Группа новичков-одиночек, которая находится на северо-востоке от железнодорожного моста.",
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 30,
+      "n": 5,
+      "pos": "1009:1668",
+      "data": null,
+      "condition": null,
+      "actions": null
+    }
+  ]
+}

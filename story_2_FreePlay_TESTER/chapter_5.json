@@ -1,0 +1,266 @@
+{
+  "id": 5,
+  "stages": [],
+  "points": {
+    "0": [],
+    "1": [],
+    "2": [],
+    "3": []
+  },
+  "spawns": {
+    "0": [
+      {
+        "group": "MILITARY",
+        "pos": "2375:975",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "4",
+        "condition": {},
+        "description": "Южный контрольно-пропускной пункт военной базы в Чернобыле-4",
+        "data": {
+          "ignorePlayer": []
+        }
+      },
+      {
+        "group": "LONERS",
+        "pos": "1330:691",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "4",
+        "condition": {},
+        "description": "Невзрачное кирпичное здание, покрытое старым шифером, с черной вывеской, белыми буквами: Шти. Оно было больше похоже на электробудку. Однако знающие люди имели понятие того, что там. Если войти внутрь, открыв массивную железную дверь, сразу были видна пара охранников, скрывающие собой спуск вниз. Вот там и начиналась основная часть самого заведения."
+      },
+      {
+        "group": "MILITARY",
+        "pos": "1165:925",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "4",
+        "condition": {},
+        "description": "Южный контрольно-пропускной пункт военной базы в Чернобыле-4"
+      },
+      {
+        "group": "MILITARY",
+        "pos": "1400:1037",
+        "r": "25",
+        "strength": "MIDDLE",
+        "n": "5",
+        "condition": {},
+        "description": "Казармы для длительного размещения личного состава воинских формирований вооружённых сил."
+      },
+      {
+        "group": "MILITARY",
+        "pos": "1385:1189",
+        "r": "25",
+        "strength": "MIDDLE",
+        "n": "5",
+        "condition": {},
+        "description": "Казармы для длительного размещения личного состава воинских формирований вооружённых сил."
+      },
+      {
+        "group": "MILITARY",
+        "pos": "880:1235",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "2",
+        "condition": {},
+        "description": "Военное хранилище боевых патронов и взрывчатых веществ."
+      },
+      {
+        "group": "MILITARY",
+        "pos": "866:1075",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "2",
+        "condition": {},
+        "description": "Военное хранилище боевых патронов и взрывчатых веществ."
+      },
+      {
+        "group": "MILITARY",
+        "pos": "2153:1150",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "5",
+        "condition": {},
+        "description": "Офицерский штаб блокпоста Чернобыль-4",
+        "data": {
+          "ignorePlayer": []
+        }
+      }
+    ],
+    "1": [
+      {
+        "group": "MILITARY",
+        "pos": "690:1385",
+        "r": "20",
+        "strength": "WEAK",
+        "n": "5",
+        "condition": {},
+        "data": {
+          "ignorePlayer": []
+        }
+      },
+      {
+        "group": "LONERS",
+        "pos": "593:1595",
+        "r": "25",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {}
+      },
+      {
+        "group": "BANDITS",
+        "pos": "1230:1630",
+        "r": "20",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {}
+      },
+      {
+        "group": "BANDITS",
+        "pos": "800:1083",
+        "r": "25",
+        "strength": "WEAK",
+        "n": "5",
+        "condition": {}
+      },
+      {
+        "group": "LONERS",
+        "pos": "240:840",
+        "r": "25",
+        "strength": "WEAK",
+        "n": "5",
+        "condition": {}
+      },
+      {
+        "group": "LONERS",
+        "pos": "165:1050",
+        "r": "25",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {}
+      },
+      {
+        "group": "MILITARY",
+        "pos": "320:430",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "4",
+        "condition": {}
+      }
+    ],
+    "2": [
+      {
+        "group": "DUTY",
+        "pos": "746:1145",
+        "r": "60",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {}
+      },
+      {
+        "group": "LONERS",
+        "pos": "813:1041",
+        "r": "40",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {}
+      },
+      {
+        "group": "BANDITS",
+        "pos": "883:921",
+        "r": "40",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {}
+      },
+      {
+        "group": "LONERS",
+        "pos": "520:760",
+        "r": "80",
+        "strength": "MIDDLE",
+        "n": "6",
+        "condition": {}
+      },
+      {
+        "group": "BANDITS",
+        "pos": "265:718",
+        "r": "40",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "data": {
+          "ignorePlayer": []
+        }
+      },
+      {
+        "group": "LONERS",
+        "pos": "500:380",
+        "r": "70",
+        "strength": "WEAK",
+        "n": "6",
+        "condition": {}
+      },
+      {
+        "group": "BANDITS",
+        "pos": "880:468",
+        "r": "50",
+        "strength": "MIDDLE",
+        "n": "4",
+        "condition": {}
+      }
+    ],
+    "3": [
+      {
+        "group": "LONERS",
+        "pos": "1501:1255",
+        "r": "13",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {}
+      },
+      {
+        "group": "DUTY",
+        "pos": "1737:1130",
+        "r": "25",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {}
+      },
+      {
+        "group": "DUTY",
+        "pos": "1386:1500",
+        "r": "25",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {}
+      },
+      {
+        "group": "LONERS",
+        "pos": "1487:1404",
+        "r": "30",
+        "strength": "WEAK",
+        "n": "6",
+        "condition": {}
+      },
+      {
+        "group": "DUTY",
+        "pos": "1582:1381",
+        "r": "25",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {}
+      },
+      {
+        "group": "DUTY",
+        "pos": "1700:1400",
+        "r": "50",
+        "strength": "WEAK",
+        "n": "5",
+        "condition": {}
+      }
+    ]
+  },
+  "missions": [],
+  "title": "Модуль с Контрольными Точками"
+}

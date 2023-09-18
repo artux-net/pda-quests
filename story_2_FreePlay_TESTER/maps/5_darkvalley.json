@@ -1,0 +1,11 @@
+{
+  "id": "5",
+  "title": "Тёмная долина",
+  "editor": {
+    "url": "/map_darkvalley.png"
+  },
+  "tmx": "darkvalley.tmx",
+  "defPos": "500:500",
+  "points": [],
+  "spawns": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "title": "Кордон",
+  "editor": {
+    "url": "/map_escape.png"
+  },
+  "tmx": "kordon.tmx",
+  "defPos": "500:500",
+  "points": [],
+  "spawns": []
+}

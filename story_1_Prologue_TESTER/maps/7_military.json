@@ -1,0 +1,8 @@
+{
+  "id": 7,
+  "title": "Военные склады",
+  "tmx": "military.tmx",
+  "defPos": "500:500",
+  "points": [],
+  "spawns": []
+}

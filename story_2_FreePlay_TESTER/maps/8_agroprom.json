@@ -1,0 +1,11 @@
+{
+  "id": "8",
+  "title": "Агропром",
+  "editor": {
+    "url": "/map_agroprom.png"
+  },
+  "tmx": "agroprom.tmx",
+  "defPos": "500:500",
+  "points": [],
+  "spawns": []
+}

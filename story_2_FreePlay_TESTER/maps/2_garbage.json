@@ -1,0 +1,11 @@
+{
+  "id": "2",
+  "title": "Свалка",
+  "editor": {
+    "url": "/map_garbage.png"
+  },
+  "tmx": "garbage.tmx",
+  "defPos": "500:500",
+  "points": [],
+  "spawns": []
+}
