@@ -1,1165 +1,750 @@
 {
   "id": 1,
-  "title": null,
   "stages": [
     {
       "id": 0,
       "type_stage": 0,
-      "background": "story/prologue/screen/chapter_0_0.jpg",
-      "title": "Добро пожаловать в квесты!",
+      "background": "story/prologue/screen/chapter_1_1.jpg",
+      "title": "Аркадий Еврей",
       "message": "",
       "type_message": 0,
       "texts": [
         {
-          "text": "Привет, Сталкер! Мы рады видеть тебя в разделе квесты! Для того, чтобы начать, тебе нужно знать, что есть что. Раздел квесты состоит из отдельных сюжетов, которые так или иначе связаны между собой. Рекомендуем в дальнейшем проходить сюжеты последовательно, чтобы не потерять логическую цепочку.",
+          "text": "На несколько минут Аркадия целиком поглотила импровизация. Он уже не слышал отдаляющихся шагов нового знакомого, но не переставал прокручивать в голове произошедший только что диалог.",
           "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 1,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "1",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 175,
+        "x": 0,
         "y": 0
       }
     },
     {
       "id": 1,
       "type_stage": 0,
-      "background": "story/prologue/screen/chapter_0_0.jpg",
-      "title": "Пролог",
+      "background": "story/prologue/screen/chapter_1_1.jpg",
+      "title": "Аркадий Еврей",
       "message": "",
       "type_message": 0,
       "texts": [
         {
-          "text": "Сейчас ты находишься в прологе. Это вводный набор квестов, который дает задаток на все остальные сюжеты. Здесь тебе предстоит сыграть за трёх разных персонажей. Дальшейшие сюжеты будут проходить от имени твоего персонажа, с твоим снаряжением и именем.",
+          "text": "Ничего теперь не попишешь. Ни с чем остался. И эту мечту потерял, и тебя сгубил: не заступился, позволил прогнать тебя с нашего порога, едва ты на него ступила, не догнал, не остановил на речном берегу! Выпить надо. Срочно. В «100 рентген».",
           "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 2,
-          "condition": {},
-          "text": "Далее"
+          "text": "Выйти из здания",
+          "stage": "2",
+          "condition": {}
         }
       ],
-      "actions": {
-        "reset": [
-          "relation_0",
-          "relation_1",
-          "relation_2",
-          "relation_3",
-          "relation_4",
-          "relation_5",
-          "relation_6"
-        ]
-      },
-      "data": null,
+      "actions": {},
       "editor": {
-        "x": 177.18398914962802,
-        "y": 112.87218445632368
+        "x": 3.0474679628929096,
+        "y": 107.95995982956711
       }
     },
     {
       "id": 2,
       "type_stage": 0,
-      "background": "story/prologue/screen/chapter_0_0.jpg",
-      "title": "Как играть?",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Каждый сюжет состоит из двух элементов: текстовые действия и действия на карте. Текстовые действия будут происходить аналогично тем, которые ты видишь сейчас. В текстовых действиях тебе будет даваться на выбор несколько вариантов развития событий, дальнейшие события в игре будут зависеть от твоих ответов. События на карте ты увидешь позже.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 3,
-          "condition": {},
-          "text": "Далее"
-        }
-      ],
-      "actions": {
-        "-": [
-          "relation_2:3",
-          "relation_5:5",
-          "relation_1:3",
-          "relation_3:1",
-          "relation_6:2"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 179.36797829925604,
-        "y": 224.65237433783335
-      }
-    },
-    {
-      "id": 3,
-      "type_stage": 0,
-      "background": "story/prologue/screen/chapter_0_0.jpg",
-      "title": "Снаряжение, достижения, деньги, репутация",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Напоминаем, каждое твоё действие влияет буквально на всё: твой рейтинг в общем списке, твоё снаряжение, достижения, отношения группировок и многое другое. Так что подумай несколько раз перед тем, как выберешь какой-либо пункт.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 4,
-          "condition": {},
-          "text": "Далее"
-        }
-      ],
-      "actions": {
-        "+": [
-          "relation_0:1",
-          "relation_0:1",
-          "relation_4:2"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 78.43816245166818,
-        "y": 338.2041163114861
-      }
-    },
-    {
-      "id": 4,
-      "type_stage": 0,
-      "background": "story/prologue/screen/chapter_0_0.jpg",
-      "title": "Начало игры",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Это самые основные моменты, которые ты должен знать. Все остальное в твоих руках. Удачной дороги, сталкер!",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 5,
-          "condition": {},
-          "text": "Далее"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 172.81601085037198,
-        "y": 459.13269984899273
-      }
-    },
-    {
-      "id": 5,
-      "type_stage": 0,
-      "background": "story/prologue/screen/chapter_0_1.jpg",
-      "title": "Глава первая. Влад Коммунист",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Коммунист получил своё прозвище за ту атмосферу, которую он проносит с собой в любой коллектив: он всегда умеет создать уютную, душевную обстановку и сплотить людей, постоянно шутит про Советский Союз и идею коммунизма. Проницателен и в меру требователен, добр и чуток, верен слову и справедлив. Помогает тем, кто попадает в затруднительную ситуацию, стремится со всеми подружиться. Не выносит, когда люди сдаются, не позволяет растечься, в противном случае гневается и чувствует себя виноватым.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 6,
-          "condition": {},
-          "text": "Начать"
-        }
-      ],
-      "actions": {
-        "add": [
-          "1:1",
-          "14:1",
-          "71:1",
-          "29:24",
-          "40:90",
-          "quest_go_evrey"
-        ],
-        "money": [
-          "600"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 162.98805967704584,
-        "y": 567.6369060060603
-      }
-    },
-    {
-      "id": 6,
-      "type_stage": 0,
-      "background": "story/prologue/screen/chapter_0_1.jpg",
-      "title": "Деревня Новичков, Кордон",
-      "message": "Квест выполнен: Найти 5 хвостов слепых псов.\nНаграда: 600 рублей.",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Небо над Зоной висело войлочным полотном, из которого, точно пыль, сыпались мелкие капли дождя. Где-то за Периметром неистовствовал ветер декабря, но здесь, на отгороженной от всего мира колючей проволокой территории царствовала вечная осень. И всё-таки день выдался каким-то на редкость тяжёлым.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 7,
-          "condition": {},
-          "text": "Далее"
-        }
-      ],
-      "actions": {
-        "syncNow": [],
-        "money": [
-          "600"
-        ],
-        "playMusic": [
-          "story/prologue/sound/PDA3.mp3"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 167.2396092768716,
-        "y": 775.9614797330498
-      }
-    },
-    {
-      "id": 7,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_2.jpg",
-      "title": "Деревня Новичков, Кордон",
-      "message": "Сидорович: Загляни на блокпост-приемник перед Свалкой, охраны нет нихрена, зато новые лица появляться стали: ветераны, мастера. Может, доверие к себе поднимешь, или опыт полезный получишь.",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "На западе вспыхивали молнии. Лая, собаки носились кругами по местности, но к человеку соваться не осмеливались. Коммунист вздохнул и вяло метнул перед собой очередной ржавый болт. Там, куда он угодил, зыбко колыхавшийся прежде воздух разразился электро-взрывом.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 8,
-          "condition": {
-            "!has": [
-              "dead_anomaly_kordon"
-            ]
-          },
-          "text": "Идти к аномалии"
-        },
-        {
-          "stage": 11,
-          "condition": {
-            "!has": [
-              "dead_anomaly_kordon"
-            ]
-          },
-          "text": "Пройти мимо"
-        },
-        {
-          "stage": 10,
-          "condition": {
-            "has": [
-              "dead_anomaly_kordon"
-            ]
-          },
-          "text": "Пройти мимо"
-        }
-      ],
-      "actions": {
-        "syncNow": [],
-        "playMusic": [
-          "story/prologue/sound/PDA1.mp3"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 164.29118998180826,
-        "y": 904.0956152758134
-      }
-    },
-    {
-      "id": 8,
-      "type_stage": 0,
-      "background": "story/prologue/screen/chapter_0_3.jpg",
-      "title": "Кордон",
-      "message": "",
-      "type_message": 3,
-      "texts": [
-        {
-          "text": "Смерть персонажа. Причина: непредназначенный вид комбинезона. Произошло из-за: совмещенная «Жарка» с «Электрой».",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 6,
-          "condition": {},
-          "text": "Начать заново"
-        }
-      ],
-      "actions": {
-        "add": [
-          "dead_anomaly_kordon"
-        ],
-        "syncNow": []
-      },
-      "data": null,
-      "editor": {
-        "x": -178.19748746186568,
-        "y": 1115.3667750765596
-      }
-    },
-    {
-      "id": 10,
-      "type_stage": 0,
-      "background": "story/prologue/screen/chapter_0_4.jpg",
-      "title": "Кордон",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Коммунист подумал, что аномалию проще обойти, чем лезть напролом. Он прошёл на дорогу, ведущую на Свалку.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 12,
-          "condition": {},
-          "text": "Продолжить"
-        }
-      ],
-      "actions": {
-        "remove": [
-          "dead_anomaly_kordon"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 560.7401446790009,
-        "y": 1044.0956152758135
-      }
-    },
-    {
-      "id": 11,
-      "type_stage": 0,
-      "background": "story/prologue/screen/chapter_0_4.jpg",
-      "title": "Кордон",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Коммунист подумал, что аномалию проще обойти, чем лезть напролом. Он прошёл на дорогу, ведущую к Свалке.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 12,
-          "condition": {},
-          "text": "Продолжить"
-        }
-      ],
-      "actions": {
-        "xp": [
-          "5"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 220.10596529892388,
-        "y": 1044.0956152758135
-      }
-    },
-    {
-      "id": 12,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "261:1117",
-        "map": "1"
-      },
-      "editor": {
-        "x": 399.4286517388884,
-        "y": 1212.1068087756657
-      }
-    },
-    {
-      "id": 13,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_9.jpg",
-      "title": "Майор Кузнецов",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Чего стоишь, сталкер? Хочешь пройти — иди сюда, говорить будем. Нет — вали отсюда по-хорошему.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 14,
-          "condition": {},
-          "text": "Мне нужно пройти"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 1963.3811566999873,
-        "y": 90.4366850474905
-      }
-    },
-    {
-      "id": 14,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_9.jpg",
-      "title": "Майор Кузнецов",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "А нельзя! Но если очень хочется... то можно. Например, за 500 денег.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 15,
-          "condition": {
-            "money>=": [
-              "500"
-            ]
-          },
-          "text": "Держи"
-        },
-        {
-          "stage": 18,
-          "condition": {},
-          "text": "Пока"
-        }
-      ],
-      "actions": {
-        "=": [
-          "progress:1"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 1966.704682951921,
-        "y": 197.89554902274148
-      }
-    },
-    {
-      "id": 15,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_9.jpg",
-      "title": "Майор Кузнецов",
-      "message": "Потеряно денег: 500 рублей.",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Отлично. Чтобы через минуту я тебя тут не видел.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 19,
-          "condition": {},
-          "text": "Пока."
-        }
-      ],
-      "actions": {
-        "money": [
-          "-500"
-        ],
-        "xp": [
-          "5"
-        ],
-        "playMusic": [
-          "story/prologue/sound/PDA1.mp3"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 1844.0040191466396,
-        "y": 308.32981571509595
-      }
-    },
-    {
-      "id": 18,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "685:1260",
-        "map": "1"
-      },
-      "editor": {
-        "x": 2082.3335370816735,
-        "y": 308.32981571509595
-      }
-    },
-    {
-      "id": 19,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "697:1460",
-        "map": "1"
-      },
-      "editor": {
-        "x": 1829.3805036381323,
-        "y": 442.3768897058151
-      }
-    },
-    {
-      "id": 20,
-      "type_stage": 0,
-      "background": "story/prologue/screen/chapter_0_6.jpg",
+      "background": "story/prologue/screen/chapter_1_2.jpg",
       "title": "Блокпост перед Свалкой",
       "message": "",
       "type_message": 0,
       "texts": [
         {
-          "text": "Один из феноменов Зоны – вечный костёр. За Периметром дрова давно бы уже отсырели и утратили всяческую способность поддерживать горение. А возле костра сидел неизвестный сталкер.",
+          "text": "Сталкер засобирался в бар. Рядом со зданием блокпоста стояла вышка.",
           "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 21,
-          "condition": {},
-          "text": "Здорово, сталкер!"
-        }
-      ],
-      "actions": null,
-      "data": null,
-      "editor": {
-        "x": 905.8416511826201,
-        "y": 102.45044916039035
-      }
-    },
-    {
-      "id": 21,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_7.jpg",
-      "title": "Неизвестный сталкер",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": " Здорово, коль не шутишь.",
+          "text": "Залезть",
+          "stage": "3",
           "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 22,
-          "condition": {},
-          "text": "Ты кто будешь?"
-        }
-      ],
-      "actions": {
-        "=": [
-          "progress:1"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 931.7777698224074,
-        "y": 212.8258234607157
-      }
-    },
-    {
-      "id": 22,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_7.jpg",
-      "title": "Аркадий Еврей",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Еврей. Аркадий Еврей. А ты?",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 23,
-          "condition": {},
-          "text": "Влад Коммунист. Презабавная у нас компания получается."
-        }
-      ],
-      "actions": null,
-      "data": null,
-      "editor": {
-        "x": 927.4550833824428,
-        "y": 318.15806358108233
-      }
-    },
-    {
-      "id": 23,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_7.jpg",
-      "title": "Аркадий Еврей",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": " Ага. Шекелей не найдётся?",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 24,
-          "condition": {},
-          "text": "Не найдётся. Ты откуда такой умный выискался?"
-        }
-      ],
-      "actions": null,
-      "data": null,
-      "editor": {
-        "x": 933.2186653023955,
-        "y": 423.490303701449
-      }
-    },
-    {
-      "id": 24,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_7.jpg",
-      "title": "Аркадий Еврей",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Скажем так: с Запада. Военврач я.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 25,
-          "condition": {},
-          "text": "И чего тебе там не сиделось, товарищ эскулап?"
-        }
-      ],
-      "actions": null,
-      "data": null,
-      "editor": {
-        "x": 910.8847853625789,
-        "y": 534.5861257417687
-      }
-    },
-    {
-      "id": 25,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_7.jpg",
-      "title": "Аркадий Еврей",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Да заколебало всё! Постоянно всё через задницу! Я закончил школу военврачей в этом чёртовом Градце Кралове! Я хотел, чтобы меня направили в какую-нибудь горячую точку! Я мог бы получить звание Капитана! Но мне просто отказали в последний момент!",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 26,
-          "condition": {},
-          "text": "А здесь постоянно что-то происходит: есть, где применить навыки. И пострелять, и подлатать кого, и на гитаре поиграть для настроения. Ну и зачем ты туда рвался, дурень?"
-        }
-      ],
-      "actions": null,
-      "data": null,
-      "editor": {
-        "x": 910.8847853625789,
-        "y": 645.0733960315007
-      }
-    },
-    {
-      "id": 26,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_7.jpg",
-      "title": "Аркадий Еврей",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "А что? Звание бы получил. А помер бы – и славно. Но теперь уж что говорить…",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 27,
-          "condition": {},
-          "text": "..."
-        }
-      ],
-      "actions": null,
-      "data": null,
-      "editor": {
-        "x": 915.2750886637198,
-        "y": 753.0519215777236
-      }
-    },
-    {
-      "id": 27,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_7.jpg",
-      "title": "Аркадий Еврей",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Восхитительная погода. Как раз посидеть, погрустить.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 28,
-          "condition": {},
-          "text": "А смысл?"
-        }
-      ],
-      "actions": null,
-      "data": null,
-      "editor": {
-        "x": 914.160769087021,
-        "y": 860.0987442129715
-      }
-    },
-    {
-      "id": 28,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_7.jpg",
-      "title": "Аркадий Еврей",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Не знаю, я привык.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 29,
-          "condition": {},
-          "text": "Перманентное уныние вредно для здоровья."
-        }
-      ],
-      "actions": null,
-      "data": null,
-      "editor": {
-        "x": 963.2750328751725,
-        "y": 968.3478403652698
-      }
-    },
-    {
-      "id": 29,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_7.jpg",
-      "title": "Аркадий Еврей",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Я медоед, мне пофиг.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 30,
-          "condition": {},
-          "text": "..."
-        }
-      ],
-      "actions": null,
-      "data": null,
-      "editor": {
-        "x": 955.2149947963119,
-        "y": 1081.0701642505396
-      }
-    },
-    {
-      "id": 30,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_7.jpg",
-      "title": "Аркадий Еврей",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Влад, ты обычно где дислоцируешься?",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 31,
-          "condition": {},
-          "text": "В Деревне новичков, а что?"
-        }
-      ],
-      "actions": null,
-      "data": null,
-      "editor": {
-        "x": 914.411877017933,
-        "y": 1198.3598275065137
-      }
-    },
-    {
-      "id": 31,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_7.jpg",
-      "title": "Аркадий Еврей",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Да хоть знать, где тебя искать. Как-никак, знакомый человек теперь. Глядишь, вместе в рейды ходить будем…",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 32,
-          "condition": {},
-          "text": "Ну, теперь знаешь, заглядывай. Сейчас не пойдёшь?"
-        }
-      ],
-      "actions": null,
-      "data": null,
-      "editor": {
-        "x": 923.4944293763663,
-        "y": 1308.074646631926
-      }
-    },
-    {
-      "id": 32,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_8.jpg",
-      "title": "Аркадий Еврей",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Да не, посижу здесь, подумаю.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 33,
-          "condition": {},
-          "text": "Тогда успехов тебе, мыслитель. А я пойду. Неохота здесь радиоактивный дождик, как губка, впитывать."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 926.683897256592,
-        "y": 1416.1647855346846
-      }
-    },
-    {
-      "id": 33,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_8.jpg",
-      "title": "Аркадий Еврей",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Бывай.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 34,
-          "condition": {},
-          "text": "Уйти."
-        }
-      ],
-      "actions": {
-        "reset": []
-      },
-      "data": null,
-      "editor": {
-        "x": 964.9540686114643,
-        "y": 1524.8570903805244
-      }
-    },
-    {
-      "id": 34,
-      "type_stage": 1,
-      "background": "story/prologue/screen/chapter_0_8.jpg",
-      "title": "Глава окончена!",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Вот так и закончилась первая глава",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 35,
-          "condition": {},
-          "text": "Окей"
-        }
-      ],
-      "actions": {
-        "xp": [
-          "10"
-        ],
-        "syncNow": [],
-        "reset": [
-          "items"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 921.631363937589,
-        "y": 1634.5568999862217
-      }
-    },
-    {
-      "id": 35,
-      "type_stage": 5,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": {
-        "openStage": [
-          "2",
-          "0"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 931.7064115361645,
-        "y": 1759.3692809897825
-      }
-    },
-    {
-      "id": 40,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_9.jpg",
-      "title": "Лейтенант Мыслов",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Расценки знаешь, проход - 500 рублей.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 41,
-          "condition": {
-            "money>=": [
-              "500"
-            ]
-          },
-          "text": "Держи"
         },
         {
-          "stage": 43,
-          "condition": {},
-          "text": "Пока"
+          "text": "Пройти мимо",
+          "stage": "6",
+          "condition": {}
         }
       ],
-      "actions": {},
-      "data": null,
+      "actions": {
+        "add": [
+          "2:1",
+          "11:1",
+          "38:90",
+          "29:24",
+          "89:1",
+          "87:1",
+          "71:1"
+        ],
+        "syncNow": [],
+        "money": [
+          "600"
+        ]
+      },
       "editor": {
-        "x": 1414.752284105425,
-        "y": 84.24993251579093
+        "x": 6.493563027884022,
+        "y": 215.93760519928844
       }
     },
     {
-      "id": 41,
-      "type_stage": 7,
-      "background": "story/prologue/screen/chapter_0_9.jpg",
-      "title": "Лейтенант Мыслов",
-      "message": "Потеряно денег: 500 рублей.",
+      "id": 3,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_3.jpg",
+      "title": "Блокпост перед Свалкой",
+      "message": "",
       "type_message": 0,
       "texts": [
         {
-          "text": "Чтобы через минуту я тебя не видел!",
+          "text": "Под ногами загремели ржавые ступени, заскрежетал приставший к подошвам песок. Добравшись до верха, Аркадий тут же наткнулся на металлический кейс.",
           "condition": {}
         }
       ],
       "transfers": [
         {
-          "stage": 42,
-          "condition": {},
-          "text": "Пока"
+          "text": "Вскрыть ножом",
+          "stage": "4",
+          "condition": {}
+        },
+        {
+          "text": "Вскрыть руками",
+          "stage": "5",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": -243.51596185336277,
+        "y": 534.958685104569
+      }
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_3.jpg",
+      "title": "Блокпост перед Свалкой",
+      "message": "Получено: бинт х2, стандартная аптечка.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "В кейсе оказались медицинские принадлежности.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Далее",
+          "stage": "6",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "87:2",
+          "84:1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "xp": [
+          "1"
+        ]
+      },
+      "editor": {
+        "x": -369.7066084133114,
+        "y": 640.1518029389616
+      }
+    },
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_3.jpg",
+      "title": "Блокпост перед Свалкой",
+      "message": "Получено: бинт х2, стандартная аптечка.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Получено увечье: «кровотечение». Причина: неосторожность.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Далее",
+          "stage": "6",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "87:2",
+          "84:1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": -123.52854120928552,
+        "y": 640.495095074699
+      },
+      "_comment": "Вычитание хп в стадиях?"
+    },
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_2.jpg",
+      "title": "Блокпост перед Свалкой",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Аркадий ненадолго зашёл в дом, стоявший на территории блокпоста, после чего вышел и направился в сторону Свалки.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Продолжить",
+          "stage": "7",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2.1433969701289186,
+        "y": 858.1659738415394
+      }
+    },
+    {
+      "id": 7,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_4.jpg",
+      "title": "Свалка брошенной техники",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот и я здесь, будто этот вертолёт. Способностей много, на вид, вроде, тоже ничего, а вынужден мариноваться на этом клочке заражённой земли.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Продолжить",
+          "stage": "8",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3.2857321281115333,
+        "y": 972.9854543459642
+      }
+    },
+    {
+      "id": 8,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_5.jpg",
+      "title": "Свалка брошенной техники",
+      "message": "Сышишь, руки к поясу не опускай, ширинку не расстегивай - ствол не доставай, и вали баллонами сюда! ",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Твою мать...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Подойти",
+          "stage": "9",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": -5.36635766817048,
+        "y": 1081.3885905501963
+      }
+    },
+    {
+      "id": 9,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Смарите какой «маслёнок»! Ну, давай знакомиться: это мои кореша, а ты, фраер, кто такой?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Еврей. Аркадий Еврей.",
+          "stage": "10",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5.16350277023237,
+        "y": 1202.2093579919529
+      }
+    },
+    {
+      "id": 10,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Сушай, а ты часом Пыню не знаешь? Он тоже такого роста как ты был, робкий мздец. Каждый раз приходил на вашу базу, а однажды захохмил, мол, входит, и г-рит: «Наливаю всем за счет заведения!» Эх, жалко Пыню было, не будь как он, выворачивай карманы!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Хорошо, хорошо, отдаю. ",
+          "stage": "11",
+          "condition": {
+            "money>=": [
+              "120"
+            ]
+          }
+        },
+        {
+          "text": "Слушайте, у меня один фиг ни черта нет. Давайте я просто развернусь и уйду, будто этого ничего и не было? ",
+          "stage": "14",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "Задание - Идти в Бар (Пролог, Глава 2)"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": -18.83944332009068,
+        "y": 1305.0801611597867
+      }
+    },
+    {
+      "id": 11,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Бандит",
+      "message": "Потеряно денег: 120р.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": " Вот и хорошо, послушный парень, умный.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "12",
+          "condition": {}
         }
       ],
       "actions": {
         "money": [
-          "-500"
+          "-120"
         ],
         "playMusic": [
           "story/prologue/sound/PDA1.mp3"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 1277.4668890627786,
-        "y": 195.65824372221948
+        "x": -318.6871636188264,
+        "y": 1471.8474336893416
       }
     },
     {
-      "id": 42,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "685:1260",
-        "map": "1"
+      "id": 12,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Бандит",
+      "message": "Получено увечье: «кровотечение»",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Свободен.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ай, мляя...",
+          "stage": "13",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "5"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
       },
       "editor": {
-        "x": 1260.8022961746458,
-        "y": 328.9936508340864
+        "x": -294.2110423542083,
+        "y": 1604.5522028802047
+      },
+      "_comment": "Вычитание хп в стадиях?"
+    },
+    {
+      "id": 13,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "747:503"
+      },
+      "editor": {
+        "x": -328.4107346851505,
+        "y": 1748.759082521451
       }
     },
     {
-      "id": 43,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "697:1460",
-        "map": "1"
+      "id": 14,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Э, не, сталкерок. Так дела не делаются, сечёшь да? Ты на нашу территорию залез? Залез. Плати за проход теперь, или мы с пацанами тебя порешаем. Нам не в падлу хабар с жмура снять, сечёшь да?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Да мужики, вы чего? Нет у меня ничего!",
+          "stage": "15",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 409.22942478071695,
+        "y": 1446.163324642465
+      }
+    },
+    {
+      "id": 15,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Раздевать ща тебя будем, ты тока не ломайся, не целка же.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Эй, не трогай!",
+          "stage": "16",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 405.29840215383865,
+        "y": 1557.0790737898274
+      }
+    },
+    {
+      "id": 16,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Слушай сюда! Или ты сейчас отдаёшь всё шо есть, или я тебя прям щас кокну, сечёшь? ",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Тянуться к оружию",
+          "stage": "17",
+          "condition": {
+            "!has": [
+              "Смерть Игрока от Бандитов на свалке (Пролог, Глава 2)"
+            ]
+          }
+        },
+        {
+          "text": "Откупиться",
+          "stage": "21",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 401.4775540527782,
+        "y": 1667.6941692214496
+      }
+    },
+    {
+      "id": 17,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ей богу, тока дёрнись, и я те башку прострелю!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я сейчас просто разворачиваюсь и иду туда, откуда пришёл, хорошо да?",
+          "stage": "18",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 24.751951446487084,
+        "y": 1836.58699078341
+      }
+    },
+    {
+      "id": 18,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Бандит",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Я тя предупреждал, чертила!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "19",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 30.26654731616813,
+        "y": 1947.7980074886445
+      }
+    },
+    {
+      "id": 19,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_7.jpg",
+      "title": "Бандит",
+      "message": "Погиб сталкер: Аркадий Еврей.\nПричина: убит бандитами на Свалке.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Игра окончена",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Продолжить с контрольной точки",
+          "stage": "20",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "Смерть Игрока от Бандитов на свалке (Пролог, Глава 2)"
+        ],
+        "syncNow": [],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
       },
       "editor": {
-        "x": 1515.2001580269346,
-        "y": 195.65824372221948
+        "x": -70.53309204320433,
+        "y": 2057.807864499274
+      }
+    },
+    {
+      "id": 20,
+      "type_stage": 5,
+      "actions": {
+        "openStage": [
+          "6"
+        ]
+      },
+      "transfers": [],
+      "editor": {
+        "x": 28.881144581726716,
+        "y": 2192.940632043408
+      }
+    },
+    {
+      "id": 21,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Бандит",
+      "message": "Потерян предмет «Детектор Отклик»",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Еврей медленно снял с себя рюкзак и кинул в сторону пацанов. Один из них одобрительно кивнул и сказал, что он сделал правильный выбор и вклад в общаг дело чёткое.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Продолжить",
+          "stage": "22",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "3"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 607.462810783991,
+        "y": 1812.957712055349
+      }
+    },
+    {
+      "id": 22,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "747:503"
+      },
+      "editor": {
+        "x": 596.5928424929374,
+        "y": 1942.9949482327202
+      }
+    },
+    {
+      "id": 23,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_8.jpg",
+      "title": "Застава Долга перед баром",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Пойти в бар",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Перейти",
+          "stage": "24",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 479.00204290167096,
+        "y": 112.58955089075226
+      }
+    },
+    {
+      "id": 24,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_8.jpg",
+      "title": "Глава окончена!",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Вот так и закончилась вторая глава",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "reset": [
+          "items"
+        ],
+        "remove": [
+          "Задание - Идти в Бар (Пролог, Глава 2)"
+        ],
+        "xp": [
+          "15"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 457.03682312031515,
+        "y": 227.4362714618408
       }
     }
   ],
   "points": {
-    "1": [
+    "2": [
       {
-        "id": "7cbd9208-1060-491c-895c-8f9adf078852",
-        "type": 0,
-        "name": "Квест с Евреем",
-        "pos": "608:2259",
+        "id": "0e55253f-833b-4186-8f32-595ee1462f08",
+        "type": 1,
+        "name": "От бандитов к бару",
+        "pos": "700:1200",
         "data": {
-          "chapter": "1",
-          "stage": "20"
+          "stage": "23",
+          "chapter": "1"
         },
         "condition": {
           "has": [
-            "quest_go_evrey"
+            "Задание - Идти в Бар (Пролог, Глава 2)"
           ]
         },
         "editor": {
-          "x": 905.1212034426262,
-          "y": -5.763581919952685
-        }
-      },
-      {
-        "id": "dcb4dbd0-2088-41c8-84f9-368bf908aa8f",
-        "type": 3,
-        "name": "Блокпост под мостом",
-        "pos": "690:1345",
-        "data": {
-          "chapter": "1",
-          "stage": "13"
-        },
-        "condition": {},
-        "editor": {
-          "x": 1958.0734172868945,
-          "y": -0.40454766809290277
-        }
-      },
-      {
-        "id": "16c3cadb-2d0e-4905-a7da-9ad38db2db4f",
-        "type": 3,
-        "name": "Блокпост под мостом 2",
-        "pos": "688:1390",
-        "data": {
-          "chapter": "1",
-          "stage": "40"
-        },
-        "condition": {},
-        "editor": {
-          "x": 1407.350194234597,
-          "y": -2.108366621416792
+          "x": 442.2414016509139,
+          "y": -1.7818849733986468
         }
       }
-    ]
+    ],
+    "3": []
   },
   "spawns": {},
-  "missions": [
-    {
-      "title": "Задания от Сидоровича",
-      "name": "zadaniya-ot-sidorovicha",
-      "checkpoints": [
-        {
-          "parameter": "quest_go_evrey",
-          "title": "Заглянуть на блокпост-приемник",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    }
-  ]
+  "missions": [],
+  "title": "Вторая Глава",
+  "_comment": "Игра за Еврея"
 }

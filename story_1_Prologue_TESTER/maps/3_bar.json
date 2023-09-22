@@ -1,87 +1,11 @@
 {
-  "id": 3,
+  "id": "3",
   "title": "Бар",
+  "editor": {
+    "url": "/map_bar.png"
+  },
   "tmx": "bar.tmx",
   "defPos": "500:500",
   "points": [],
-  "spawns": [
-    {
-      "id": 0,
-      "title": null,
-      "description": null,
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 25,
-      "n": 3,
-      "pos": "1737:1130",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": null,
-      "description": null,
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 50,
-      "n": 7,
-      "pos": "1700:1400",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": null,
-      "description": null,
-      "group": "LONERS",
-      "strength": "WEAK",
-      "r": 13,
-      "n": 6,
-      "pos": "1501:1255",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": null,
-      "description": null,
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 25,
-      "n": 6,
-      "pos": "1582:1381",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": null,
-      "description": null,
-      "group": "DUTY",
-      "strength": "WEAK",
-      "r": 25,
-      "n": 3,
-      "pos": "1386:1500",
-      "data": null,
-      "condition": null,
-      "actions": null
-    },
-    {
-      "id": 0,
-      "title": null,
-      "description": null,
-      "group": "LONERS",
-      "strength": "WEAK",
-      "r": 30,
-      "n": 6,
-      "pos": "1487:1404",
-      "data": null,
-      "condition": null,
-      "actions": null
-    }
-  ]
+  "spawns": []
 }
