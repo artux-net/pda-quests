@@ -1,9 +1,8 @@
 {
   "id": 2,
-  "title": null,
   "stages": [
     {
-      "id": 0,
+      "id": 1,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_1.jpg",
       "title": "Аркадий Еврей",
@@ -17,21 +16,20 @@
       ],
       "transfers": [
         {
-          "stage": 1,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": 2,
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 525,
+        "x": 0,
         "y": 0
       }
     },
     {
-      "id": 1,
-      "type_stage": 7,
+      "id": 2,
+      "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_1.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -44,24 +42,19 @@
       ],
       "transfers": [
         {
-          "stage": 2,
-          "condition": {},
-          "text": "Выйти из здания"
+          "text": "Выйти из здания",
+          "stage": 3,
+          "condition": {}
         }
       ],
-      "actions": {
-        "money": [
-          "600"
-        ]
-      },
-      "data": null,
+      "actions": {},
       "editor": {
-        "x": 526.3937380015835,
-        "y": 107.49099095170214
+        "x": 3.0474679628929096,
+        "y": 107.95995982956711
       }
     },
     {
-      "id": 2,
+      "id": 3,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_2.jpg",
       "title": "Блокпост перед Свалкой",
@@ -75,32 +68,38 @@
       ],
       "transfers": [
         {
-          "stage": 3,
-          "condition": {},
-          "text": "Залезть"
+          "text": "Залезть",
+          "stage": 4,
+          "condition": {}
         },
         {
-          "stage": 6,
-          "condition": {},
-          "text": "Пройти мимо"
+          "text": "Пройти мимо",
+          "stage": 7,
+          "condition": {}
         }
       ],
       "actions": {
         "add": [
           "2:1",
           "11:1",
-          "38:90"
+          "38:90",
+          "29:24",
+          "89:1",
+          "87:1",
+          "71:1"
         ],
-        "syncNow": []
+        "syncNow": [],
+        "money": [
+          "600"
+        ]
       },
-      "data": null,
       "editor": {
-        "x": 527.7874760031672,
-        "y": 230.31309992082316
+        "x": 6.493563027884022,
+        "y": 215.93760519928844
       }
     },
     {
-      "id": 3,
+      "id": 4,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_3.jpg",
       "title": "Блокпост перед Свалкой",
@@ -114,25 +113,24 @@
       ],
       "transfers": [
         {
-          "stage": 4,
-          "condition": {},
-          "text": "Вскрыть ножом"
+          "text": "Вскрыть ножом",
+          "stage": 5,
+          "condition": {}
         },
         {
-          "stage": 5,
-          "condition": {},
-          "text": "Вскрыть руками"
+          "text": "Вскрыть руками",
+          "stage": 6,
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 228.7603733910238,
-        "y": 451.1365669416282
+        "x": -243.51596185336277,
+        "y": 534.958685104569
       }
     },
     {
-      "id": 4,
+      "id": 5,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_3.jpg",
       "title": "Блокпост перед Свалкой",
@@ -146,9 +144,9 @@
       ],
       "transfers": [
         {
-          "stage": 6,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": 7,
+          "condition": {}
         }
       ],
       "actions": {
@@ -156,23 +154,24 @@
           "87:2",
           "84:1"
         ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
         "xp": [
           "1"
-        ],
-        "syncNow": []
+        ]
       },
-      "data": null,
       "editor": {
-        "x": 74.27292842112297,
-        "y": 574.5299174957
+        "x": -369.7066084133114,
+        "y": 640.1518029389616
       }
     },
     {
-      "id": 5,
+      "id": 6,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_3.jpg",
       "title": "Блокпост перед Свалкой",
-      "message": "Получено увечье: «кровотечение».\nПричина: неосторожность.\nПолучено: бинт х2, стандартная аптечка.",
+      "message": "Получено: бинт х2, стандартная аптечка.",
       "type_message": 0,
       "texts": [
         {
@@ -182,9 +181,9 @@
       ],
       "transfers": [
         {
-          "stage": 6,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": 7,
+          "condition": {}
         }
       ],
       "actions": {
@@ -192,19 +191,18 @@
           "87:2",
           "84:1"
         ],
-        "health-": [
-          "0.06"
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 387.1229834704332,
-        "y": 584.7262836604306
+        "x": -123.52854120928552,
+        "y": 640.495095074699
       },
       "_comment": "Вычитание хп в стадиях?"
     },
     {
-      "id": 6,
+      "id": 7,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_2.jpg",
       "title": "Блокпост перед Свалкой",
@@ -218,21 +216,20 @@
       ],
       "transfers": [
         {
-          "stage": 7,
-          "condition": {},
-          "text": "Продолжить"
+          "text": "Продолжить",
+          "stage": 8,
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 525.9255939821637,
-        "y": 945.7076297841545
+        "x": 2.1433969701289186,
+        "y": 858.1659738415394
       }
     },
     {
-      "id": 7,
-      "type_stage": 7,
+      "id": 8,
+      "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_4.jpg",
       "title": "Свалка брошенной техники",
       "message": "",
@@ -245,25 +242,24 @@
       ],
       "transfers": [
         {
-          "stage": 8,
-          "condition": {},
-          "text": "Продолжить"
+          "text": "Продолжить",
+          "stage": 9,
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 526.9580884332358,
-        "y": 1058.2708621719198
+        "x": 3.2857321281115333,
+        "y": 972.9854543459642
       }
     },
     {
-      "id": 8,
-      "type_stage": 7,
+      "id": 9,
+      "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_5.jpg",
       "title": "Свалка брошенной техники",
       "message": "Сышишь, руки к поясу не опускай, ширинку не расстегивай - ствол не доставай, и вали баллонами сюда! ",
-      "type_message": 6,
+      "type_message": 0,
       "texts": [
         {
           "text": "Твою мать...",
@@ -272,21 +268,24 @@
       ],
       "transfers": [
         {
-          "stage": 9,
-          "condition": {},
-          "text": "Подойти"
+          "text": "Подойти",
+          "stage": 10,
+          "condition": {}
         }
       ],
-      "actions": {},
-      "data": null,
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
       "editor": {
-        "x": 517.3521811349408,
-        "y": 1166.6452638793075
+        "x": -5.36635766817048,
+        "y": 1081.3885905501963
       }
     },
     {
-      "id": 9,
-      "type_stage": 7,
+      "id": 10,
+      "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
       "message": "",
@@ -299,21 +298,20 @@
       ],
       "transfers": [
         {
-          "stage": 10,
-          "condition": {},
-          "text": "Еврей. Аркадий Еврей."
+          "text": "Еврей. Аркадий Еврей.",
+          "stage": 11,
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 528.5590729829518,
-        "y": 1281.4236037855587
+        "x": 5.16350277023237,
+        "y": 1202.2093579919529
       }
     },
     {
-      "id": 10,
-      "type_stage": 7,
+      "id": 11,
+      "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
       "message": "",
@@ -326,33 +324,37 @@
       ],
       "transfers": [
         {
-          "stage": 11,
+          "text": "Хорошо, хорошо, отдаю. ",
+          "stage": 12,
           "condition": {
             "money>=": [
               "120"
             ]
-          },
-          "text": "Хорошо, хорошо, отдаю. "
+          }
         },
         {
-          "stage": 13,
-          "condition": {},
-          "text": "Слушайте, у меня один фиг ни черта нет. Давайте я просто развернусь и уйду, будто этого ничего и не было? "
+          "text": "Слушайте, у меня один фиг ни черта нет. Давайте я просто развернусь и уйду, будто этого ничего и не было? ",
+          "stage": 15,
+          "condition": {}
         }
       ],
-      "actions": {},
-      "data": null,
+      "actions": {
+        "add": [
+          "Задание - Идти в Бар (Пролог, Глава 2)"
+        ],
+        "syncNow": []
+      },
       "editor": {
-        "x": 526.9580884332358,
-        "y": 1397.0024359666677
+        "x": -18.83944332009068,
+        "y": 1305.0801611597867
       }
     },
     {
-      "id": 11,
-      "type_stage": 7,
+      "id": 12,
+      "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
-      "message": "Потеряно денег: 120р",
+      "message": "Потеряно денег: 120р.",
       "type_message": 0,
       "texts": [
         {
@@ -362,25 +364,27 @@
       ],
       "transfers": [
         {
-          "stage": 12,
-          "condition": {},
-          "text": "..."
+          "text": "...",
+          "stage": 13,
+          "condition": {}
         }
       ],
       "actions": {
         "money": [
           "-120"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 321.1461440379333,
-        "y": 1556.5145639874677
+        "x": -318.6871636188264,
+        "y": 1471.8474336893416
       }
     },
     {
-      "id": 12,
-      "type_stage": 7,
+      "id": 13,
+      "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
       "message": "Получено увечье: «кровотечение»",
@@ -393,32 +397,40 @@
       ],
       "transfers": [
         {
-          "stage": 21,
-          "condition": {},
-          "text": "Ай, мляя..."
+          "text": "Ай, мляя...",
+          "stage": 14,
+          "condition": {}
         }
       ],
       "actions": {
-        "add": [
-          "going_to_bar"
-        ],
         "xp": [
           "5"
         ],
-        "health-": [
-          "0.5"
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 345.47082894470174,
-        "y": 1706.3196564261655
+        "x": -294.2110423542083,
+        "y": 1604.5522028802047
       },
       "_comment": "Вычитание хп в стадиях?"
     },
     {
-      "id": 13,
-      "type_stage": 7,
+      "id": 14,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "747:503"
+      },
+      "editor": {
+        "x": -328.4107346851505,
+        "y": 1748.759082521451
+      }
+    },
+    {
+      "id": 15,
+      "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
       "message": "",
@@ -431,21 +443,20 @@
       ],
       "transfers": [
         {
-          "stage": 14,
-          "condition": {},
-          "text": "Да мужики, вы чего? Нет у меня ничего!"
+          "text": "Да мужики, вы чего? Нет у меня ничего!",
+          "stage": 16,
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 872.2856357750666,
-        "y": 1563.3849782966392
+        "x": 409.22942478071695,
+        "y": 1446.163324642465
       }
     },
     {
-      "id": 14,
-      "type_stage": 7,
+      "id": 16,
+      "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
       "message": "",
@@ -458,21 +469,20 @@
       ],
       "transfers": [
         {
-          "stage": 15,
-          "condition": {},
-          "text": "Эй, не трогай!"
+          "text": "Эй, не трогай!",
+          "stage": 17,
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 867.500788695857,
-        "y": 1664.5795380887002
+        "x": 405.29840215383865,
+        "y": 1557.0790737898274
       }
     },
     {
-      "id": 15,
-      "type_stage": 7,
+      "id": 17,
+      "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
       "message": "",
@@ -485,45 +495,29 @@
       ],
       "transfers": [
         {
-          "stage": 16,
+          "text": "Тянуться к оружию",
+          "stage": 18,
           "condition": {
             "!has": [
-              "dead_bandit_garbage"
+              "Смерть Игрока от Бандитов на свалке (Пролог, Глава 2)"
             ]
-          },
-          "text": "Тянуться к оружию"
+          }
         },
         {
-          "stage": 19,
-          "condition": {
-            "!has": [
-              "dead_bandit_garbage"
-            ]
-          },
-          "text": "Откупиться"
-        },
-        {
-          "stage": 20,
-          "condition": {
-            "has": [
-              "dead_bandit_garbage"
-            ]
-          },
-          "text": "Откупиться"
+          "text": "Откупиться",
+          "stage": 22,
+          "condition": {}
         }
       ],
-      "actions": {
-        "syncNow": []
-      },
-      "data": null,
+      "actions": {},
       "editor": {
-        "x": 869.4147275275408,
-        "y": 1777.2577308708649
+        "x": 401.4775540527782,
+        "y": 1667.6941692214496
       }
     },
     {
-      "id": 16,
-      "type_stage": 7,
+      "id": 18,
+      "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
       "message": "",
@@ -536,21 +530,20 @@
       ],
       "transfers": [
         {
-          "stage": 17,
-          "condition": {},
-          "text": "Я сейчас просто разворачиваюсь и иду туда, откуда пришёл, хорошо да?"
+          "text": "Я сейчас просто разворачиваюсь и иду туда, откуда пришёл, хорошо да?",
+          "stage": 19,
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 571.0874261345095,
-        "y": 1830.08824912456
+        "x": 24.751951446487084,
+        "y": 1836.58699078341
       }
     },
     {
-      "id": 17,
-      "type_stage": 7,
+      "id": 19,
+      "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
       "message": "",
@@ -563,25 +556,24 @@
       ],
       "transfers": [
         {
-          "stage": 18,
-          "condition": {},
-          "text": "..."
+          "text": "...",
+          "stage": 20,
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 573.5774801792068,
-        "y": 1991.0189370911285
+        "x": 30.26654731616813,
+        "y": 1947.7980074886445
       }
     },
     {
-      "id": 18,
+      "id": 20,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_7.jpg",
       "title": "Бандит",
       "message": "Погиб сталкер: Аркадий Еврей.\nПричина: убит бандитами на Свалке.",
-      "type_message": 3,
+      "type_message": 0,
       "texts": [
         {
           "text": "Игра окончена",
@@ -590,111 +582,87 @@
       ],
       "transfers": [
         {
-          "stage": 15,
-          "condition": {},
-          "text": "Начать заново"
-        }
-      ],
-      "actions": {
-        "add": [
-          "dead_bandit_garbage"
-        ],
-        "syncNow": []
-      },
-      "data": null,
-      "editor": {
-        "x": 588.5106943662472,
-        "y": 2127.09012807839
-      }
-    },
-    {
-      "id": 19,
-      "type_stage": 0,
-      "background": "story/prologue/screen/chapter_1_6.jpg",
-      "title": "Бандит",
-      "message": "Потерян предмет «Детектор Отклик»",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Еврей медленно снял с себя рюкзак и кинул в сторону пацанов. Один из них одобрительно кивнул и сказал, что он сделал правильный выбор и вклад в общаг дело чёткое.",
+          "text": "Продолжить с контрольной точки",
+          "stage": 21,
           "condition": {}
         }
       ],
-      "transfers": [
-        {
-          "stage": 21,
-          "condition": {},
-          "text": "Продолжить"
-        }
-      ],
       "actions": {
         "add": [
-          "going_to_bar"
+          "Смерть Игрока от Бандитов на свалке (Пролог, Глава 2)"
         ],
-        "xp": [
-          "3"
-        ],
-        "syncNow": []
+        "syncNow": [],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
       },
-      "data": null,
       "editor": {
-        "x": 869.5476614047523,
-        "y": 2121.4704335363776
-      }
-    },
-    {
-      "id": 20,
-      "type_stage": 0,
-      "background": "story/prologue/screen/chapter_1_6.jpg",
-      "title": "Бандит",
-      "message": "Потерян предмет «Детектор Отклик»",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Еврей медленно снял с себя рюкзак и кинул в сторону пацанов. Один из них одобрительно кивнул и сказал, что он сделал правильный выбор и вклад в общаг дело чёткое.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 21,
-          "condition": {},
-          "text": "Продолжить"
-        }
-      ],
-      "actions": {
-        "add": [
-          "going_to_bar"
-        ],
-        "syncNow": []
-      },
-      "data": null,
-      "editor": {
-        "x": 1235.1275992398205,
-        "y": 2121.3626236663604
+        "x": -70.53309204320433,
+        "y": 2057.807864499274
       }
     },
     {
       "id": 21,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "747:503",
-        "map": "2"
+      "type_stage": 5,
+      "actions": {
+        "openStage": [
+          "6"
+        ]
       },
+      "transfers": [],
       "editor": {
-        "x": 306.7784465357721,
-        "y": 2616.9754554413125
+        "x": 28.881144581726716,
+        "y": 2192.940632043408
       }
     },
     {
       "id": 22,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Бандит",
+      "message": "Потерян предмет «Детектор Отклик»",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Еврей медленно снял с себя рюкзак и кинул в сторону пацанов. Один из них одобрительно кивнул и сказал, что он сделал правильный выбор и вклад в общаг дело чёткое.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Продолжить",
+          "stage": 23,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "3"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 607.462810783991,
+        "y": 1812.957712055349
+      }
+    },
+    {
+      "id": 23,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "747:503"
+      },
+      "editor": {
+        "x": 596.5928424929374,
+        "y": 1942.9949482327202
+      }
+    },
+    {
+      "id": 24,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_8.jpg",
       "title": "Застава Долга перед баром",
@@ -708,21 +676,20 @@
       ],
       "transfers": [
         {
-          "stage": 23,
-          "condition": {},
-          "text": "Перейти"
+          "text": "Перейти",
+          "stage": 25,
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1062.9009887944708,
-        "y": 113.01239287049734
+        "x": 479.00204290167096,
+        "y": 112.58955089075226
       }
     },
     {
-      "id": 23,
-      "type_stage": 1,
+      "id": 25,
+      "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_8.jpg",
       "title": "Глава окончена!",
       "message": "",
@@ -733,90 +700,50 @@
           "condition": {}
         }
       ],
-      "transfers": [
-        {
-          "stage": 24,
-          "condition": {},
-          "text": "Окей"
-        }
-      ],
+      "transfers": [],
       "actions": {
-        "syncNow": [],
         "reset": [
           "items"
         ],
         "remove": [
-          "going_to_bar"
+          "Задание - Идти в Бар (Пролог, Глава 2)"
         ],
         "xp": [
           "15"
-        ]
+        ],
+        "syncNow": []
       },
-      "data": null,
       "editor": {
-        "x": 1069.42821358203,
-        "y": 225.29953854237692
-      }
-    },
-    {
-      "id": 24,
-      "type_stage": 5,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": {
-        "openStage": [
-          "3",
-          "0"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 1078.7054793951465,
-        "y": 357.7345311763963
+        "x": 457.03682312031515,
+        "y": 227.4362714618408
       }
     }
   ],
   "points": {
     "2": [
       {
-        "id": "50c0b9be-1a26-4678-801d-f8267d5aae95",
+        "id": "0e55253f-833b-4186-8f32-595ee1462f08",
         "type": 1,
         "name": "От бандитов к бару",
-        "pos": "722:1143",
+        "pos": "700:1200",
         "data": {
-          "chapter": "2",
-          "stage": "22"
+          "stage": 24,
+          "chapter": "2"
         },
         "condition": {
           "has": [
-            "going_to_bar"
+            "Задание - Идти в Бар (Пролог, Глава 2)"
           ]
         },
         "editor": {
-          "x": 1060,
-          "y": 0
+          "x": 442.2414016509139,
+          "y": -1.7818849733986468
         }
       }
     ]
   },
   "spawns": {},
-  "missions": [
-    {
-      "title": "Добраться до бара",
-      "name": "dobrat-sya-do-bara",
-      "checkpoints": [
-        {
-          "title": "Блокпост Долга",
-          "parameter": "going_to_bar",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    }
-  ]
+  "missions": [],
+  "title": "Вторая Глава",
+  "_comment": "Игра за Еврея"
 }

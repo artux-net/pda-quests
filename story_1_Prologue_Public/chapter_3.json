@@ -1,6 +1,5 @@
 {
   "id": 3,
-  "title": null,
   "stages": [
     {
       "id": 0,
@@ -17,21 +16,20 @@
       ],
       "transfers": [
         {
-          "stage": 1,
-          "condition": {},
-          "text": " Сталкер, тебе тут медом намазано?"
+          "text": " Сталкер, тебе тут медом намазано?",
+          "stage": "1",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": -28.78168183373333,
-        "y": -10.71691189487484
+        "x": 150,
+        "y": 50
       }
     },
     {
       "id": 1,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -44,21 +42,20 @@
       ],
       "transfers": [
         {
-          "stage": 2,
-          "condition": {},
-          "text": " Слушай, я занят. Свали, а?"
+          "text": " Слушай, я занят. Свали, а?",
+          "stage": "2",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": -34.67955517006544,
-        "y": 122.26184784096819
+        "x": 142.91358592139756,
+        "y": 178.03211635633235
       }
     },
     {
       "id": 2,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -71,9 +68,9 @@
       ],
       "transfers": [
         {
-          "stage": 3,
-          "condition": {},
-          "text": " Банный лист к заднице"
+          "text": " Банный лист к заднице",
+          "stage": "3",
+          "condition": {}
         }
       ],
       "actions": {
@@ -81,22 +78,23 @@
           "81:1",
           "13:1",
           "8:1",
-          "31:50",
-          "38:90"
+          "31:30",
+          "38:90",
+          "89:1",
+          "87:2"
         ],
         "money": [
           "6000"
         ]
       },
-      "data": null,
       "editor": {
-        "x": -28.34174433748838,
-        "y": 244.63631285026742
+        "x": 147.16543436855898,
+        "y": 296.85189441048146
       }
     },
     {
       "id": 3,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -109,31 +107,30 @@
       ],
       "transfers": [
         {
-          "stage": 4,
-          "condition": {},
-          "text": "Ты знаешь, что в баре повадились алкаши, которые допивают за другими остатки? Мы их в кругу падонками называем."
+          "text": "Ты знаешь, что в баре повадились алкаши, которые допивают за другими остатки? Мы их в кругу падонками называем.",
+          "stage": "4",
+          "condition": {}
         }
       ],
       "actions": {
         "+": [
-          "relation_0:2",
-          "relation_4:3"
+          "relation_0:40",
+          "relation_4:60"
         ],
         "-": [
-          "relation_1:3",
-          "relation_5:10",
-          "relation_6:10"
+          "relation_1:60",
+          "relation_5:100",
+          "relation_6:100"
         ]
       },
-      "data": null,
       "editor": {
-        "x": -24.704308876833508,
-        "y": 439.78156873321154
+        "x": 144.330868737118,
+        "y": 504.9604898550218
       }
     },
     {
       "id": 4,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -146,21 +143,20 @@
       ],
       "transfers": [
         {
-          "stage": 5,
-          "condition": {},
-          "text": " По фигу больно."
+          "text": " По фигу больно.",
+          "stage": "5",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 6.597539553864465,
-        "y": 598.6804920892272
+        "x": 181.8888633537111,
+        "y": 642.9135859213975
       }
     },
     {
       "id": 5,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_2.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -173,21 +169,20 @@
       ],
       "transfers": [
         {
-          "stage": 6,
-          "condition": {},
-          "text": " У него в следующем месяце должен сын прилететь, с научниками из НИИ ЧАЗ. Там, говорят, одного бывшего сталкера подорвали в его же кабинете."
+          "text": " У него в следующем месяце должен сын прилететь, с научниками из НИИ ЧАЗ. Там, говорят, одного бывшего сталкера подорвали в его же кабинете.",
+          "stage": "6",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": -21.771880527752728,
-        "y": 720.9708259629963
+        "x": 153.5432070393012,
+        "y": 762.4420053834069
       }
     },
     {
       "id": 6,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -200,21 +195,20 @@
       ],
       "transfers": [
         {
-          "stage": 7,
-          "condition": {},
-          "text": "Наёмники, говорят, совсем охренели. Есть такой Сыч, на «Скадовске», он в первые месяцы, когда фигня произошла, торговал информацией о неком наёмнике то ли Кремень, то ли Камень… Потом чё-то произошло, и информация об этом исчезла."
+          "text": "Наёмники, говорят, совсем охренели. Есть такой Сыч, на «Скадовске», он в первые месяцы, когда фигня произошла, торговал информацией о неком наёмнике то ли Кремень, то ли Камень… Потом чё-то произошло, и информация об этом исчезла.",
+          "stage": "7",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 21.112126572366307,
-        "y": 859.7550087214267
+        "x": 198.18761573449677,
+        "y": 900.3951014497828
       }
     },
     {
       "id": 7,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -227,21 +221,20 @@
       ],
       "transfers": [
         {
-          "stage": 8,
-          "condition": {},
-          "text": " Так ты «зелень» совсем."
+          "text": " Так ты «зелень» совсем.",
+          "stage": "8",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": -26.390158215457873,
-        "y": 1004.476977078335
+        "x": 151.4172828157205,
+        "y": 1028.427217806115
       }
     },
     {
       "id": 8,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -254,21 +247,20 @@
       ],
       "transfers": [
         {
-          "stage": 9,
-          "condition": {},
-          "text": " Около «Долга»?"
+          "text": " Около «Долга»?",
+          "stage": "9",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": -23.09138843852564,
-        "y": 1138.6428821490606
+        "x": 153.54320703930125,
+        "y": 1159.2938997938884
       }
     },
     {
       "id": 9,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -281,21 +273,20 @@
       ],
       "transfers": [
         {
-          "stage": 10,
-          "condition": {},
-          "text": " А не удивительно. «Долг» арену держит, бандитов нанимает специально для боёв, те наших щемят на публику, да деньги получают. Они же даже стволами барыжат на своем складе."
+          "text": " А не удивительно. «Долг» арену держит, бандитов нанимает специально для боёв, те наших щемят на публику, да деньги получают. Они же даже стволами барыжат на своем складе.",
+          "stage": "10",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 19.79261866159341,
-        "y": 1271.4892793090128
+        "x": 199.6048985502173,
+        "y": 1282.365526295199
       }
     },
     {
       "id": 10,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -308,21 +299,20 @@
       ],
       "transfers": [
         {
-          "stage": 11,
-          "condition": {},
-          "text": " Сталкера известного на днях завалили, а у него Пустынный орёл со звездочками, с грави-концентратом имелся… Ауф пушка, короче. Ну, я решил пройти к складскому, Кугенолу, так эта «крыса» отложила его к уникальным стволам. Неделю выждал, смотрю – уже пропал ствол, нет его!"
+          "text": " Сталкера известного на днях завалили, а у него Пустынный орёл со звездочками, с грави-концентратом имелся… Ауф пушка, короче. Ну, я решил пройти к складскому, Кугенолу, так эта «крыса» отложила его к уникальным стволам. Неделю выждал, смотрю – уже пропал ствол, нет его!",
+          "stage": "11",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 21.112126572366307,
-        "y": 1413.6545685784108
+        "x": 197.47897432663655,
+        "y": 1423.1531879930158
       }
     },
     {
       "id": 11,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -335,21 +325,20 @@
       ],
       "transfers": [
         {
-          "stage": 12,
-          "condition": {},
-          "text": " Мало того, я со всеми группировками репутацию имею на «серёдке», ну, кроме совсем отбитых, и вояк. Зайди в ПДА, классная штука: видишь всю статистику."
+          "text": " Мало того, я со всеми группировками репутацию имею на «серёдке», ну, кроме совсем отбитых, и вояк. Зайди в ПДА, классная штука: видишь всю статистику.",
+          "stage": "12",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": -25.070650304685003,
-        "y": 1544.4393671381686
+        "x": 148.58271718427955,
+        "y": 1557.5630770200903
       }
     },
     {
       "id": 12,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -362,21 +351,20 @@
       ],
       "transfers": [
         {
-          "stage": 13,
-          "condition": {},
-          "text": " Да чё в реалиях… Был я на Радаре, давно-давно. Там «Долг» прорывался через «Монолит» - не поделили они что-то. Цапались постоянно, одни в других ракетами из РПГ шмаляли. Взрывы, такие, что с Тёмной Долины видно. А тогда военных с какой-то миссией занесло…"
+          "text": " Да чё в реалиях… Был я на Радаре, давно-давно. Там «Долг» прорывался через «Монолит» - не поделили они что-то. Цапались постоянно, одни в других ракетами из РПГ шмаляли. Взрывы, такие, что с Тёмной Долины видно. А тогда военных с какой-то миссией занесло…",
+          "stage": "13",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": -28.36942008161722,
-        "y": 1679.2650261642802
+        "x": 145.74815155283852,
+        "y": 1697.642097310047
       }
     },
     {
       "id": 13,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_1.jpg",
       "title": "Аркадий Еврей",
       "message": "",
@@ -389,16 +377,15 @@
       ],
       "transfers": [
         {
-          "stage": 14,
-          "condition": {},
-          "text": " Рассказать историю"
+          "text": " Рассказать историю",
+          "stage": "14",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 21.771880527752757,
-        "y": 1796.277328394958
+        "x": 196.06169151091606,
+        "y": 1829.9260621135409
       }
     },
     {
@@ -416,44 +403,39 @@
       ],
       "transfers": [
         {
-          "stage": 15,
-          "condition": {},
-          "text": " Покинуть бар"
+          "text": " Покинуть бар",
+          "stage": "15",
+          "condition": {}
         }
       ],
       "actions": {
         "add": [
-          "quest_matvienko0"
+          "Задание - Матвиенко, начало (Пролог, Глава 3)"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
-      "data": null,
       "editor": {
-        "x": -25.07065030468499,
-        "y": 1935.7212651087748
+        "x": 96.14325300262124,
+        "y": 1964.3359511406152
       }
     },
     {
       "id": 15,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "1544:1285",
-        "map": "3"
+        "map": "3",
+        "pos": "1544:1285"
       },
       "editor": {
-        "x": -20.452372616979872,
-        "y": 2089.6797888410933
+        "x": 154.25184844716148,
+        "y": 2118.5877995877768
       }
     },
     {
       "id": 16,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_4.jpg",
       "title": "Лейтенант Матвиенко",
       "message": "",
@@ -466,22 +448,21 @@
       ],
       "transfers": [
         {
-          "stage": 17,
-          "condition": {},
-          "text": " Я в курсе."
+          "text": " Я в курсе.",
+          "stage": "17",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 701.7230475324955,
-        "y": 114.96470017259048
+        "x": 580.1554993781644,
+        "y": 189.37037888209625
       }
     },
     {
       "id": 17,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_5.jpg",
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
       "title": "Лейтенант Матвиенко",
       "message": "",
       "type_message": 0,
@@ -493,31 +474,26 @@
       ],
       "transfers": [
         {
-          "stage": 18,
-          "condition": {},
-          "text": "Да нет, пойду-ка я дальше."
+          "text": "Да нет, пойду-ка я дальше.",
+          "stage": "18",
+          "condition": {}
         },
         {
-          "stage": 20,
-          "condition": {},
-          "text": "Что у вас там?"
+          "text": "Что у вас там?",
+          "stage": "20",
+          "condition": {}
         }
       ],
-      "actions": {
-        "remove": [
-          "quest_matvienko0"
-        ]
-      },
-      "data": null,
+      "actions": {},
       "editor": {
-        "x": 720.6765703899466,
-        "y": 233.94984458767055
+        "x": 599.288817390391,
+        "y": 307.4815155283852
       }
     },
     {
       "id": 18,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_5.jpg",
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
       "title": "Лейтенант Матвиенко",
       "message": "",
       "type_message": 0,
@@ -529,22 +505,21 @@
       ],
       "transfers": [
         {
-          "stage": 19,
-          "condition": {},
-          "text": " Вы меня стебать будете, пока я не соглашусь?"
+          "text": " Вы меня стебать будете, пока я не соглашусь?",
+          "stage": "19",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 890.1393601747478,
-        "y": 391.4163838951513
+        "x": 723.6776807441022,
+        "y": 446.14325300262124
       }
     },
     {
       "id": 19,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_5.jpg",
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
       "title": "Лейтенант Матвиенко",
       "message": "",
       "type_message": 0,
@@ -556,22 +531,21 @@
       ],
       "transfers": [
         {
-          "stage": 20,
-          "condition": {},
-          "text": " Что там у вас?"
+          "text": " Что там у вас?",
+          "stage": "20",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 909.2722248809548,
-        "y": 508.4286861258289
+        "x": 741.3937159406084,
+        "y": 571.3408037275127
       }
     },
     {
       "id": 20,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_5.jpg",
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
       "title": "Лейтенант Матвиенко",
       "message": "",
       "type_message": 0,
@@ -583,22 +557,21 @@
       ],
       "transfers": [
         {
-          "stage": 21,
-          "condition": {},
-          "text": " Продолжай."
+          "text": " Продолжай.",
+          "stage": "21",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 698.4842834334896,
-        "y": 660.5727225758867
+        "x": 577.3209337467234,
+        "y": 786.5358132506553
       }
     },
     {
       "id": 21,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_5.jpg",
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
       "title": "Лейтенант Матвиенко",
       "message": "",
       "type_message": 0,
@@ -610,22 +583,21 @@
       ],
       "transfers": [
         {
-          "stage": 22,
-          "condition": {},
-          "text": "Далее..."
+          "text": "Далее...",
+          "stage": "22",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 698.4842834334896,
-        "y": 810.5727225758867
+        "x": 577.7875833702543,
+        "y": 913.6881115479936
       }
     },
     {
       "id": 22,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_5.jpg",
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
       "title": "Лейтенант Матвиенко",
       "message": "",
       "type_message": 0,
@@ -637,22 +609,21 @@
       ],
       "transfers": [
         {
-          "stage": 23,
-          "condition": {},
-          "text": "А мне что с этого будет?"
+          "text": "А мне что с этого будет?",
+          "stage": "23",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 698.4842834334896,
-        "y": 960.5727225758867
+        "x": 582.9300648768796,
+        "y": 1030.2681265983001
       }
     },
     {
       "id": 23,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_5.jpg",
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
       "title": "Лейтенант Матвиенко",
       "message": "Новый квест: отправиться на барахолку.",
       "type_message": 0,
@@ -664,16 +635,37 @@
       ],
       "transfers": [
         {
-          "stage": 25,
-          "condition": {},
-          "text": " Уйти на свалку."
+          "text": "По рукам",
+          "stage": "24",
+          "condition": {}
         }
       ],
-      "actions": {},
-      "data": null,
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "remove": [
+          "Задание - Матвиенко, начало (Пролог, Глава 3)"
+        ],
+        "add": [
+          "Задание - Матвиенко, Добраться до барахолки (Пролог, Глава 3)"
+        ]
+      },
       "editor": {
-        "x": 698.4842834334896,
-        "y": 1110.5727225758867
+        "x": 467.2434203708174,
+        "y": 1139.557988903625
+      }
+    },
+    {
+      "id": 24,
+      "type_stage": 4,
+      "data": {
+        "map": "3",
+        "pos": "1737:1130"
+      },
+      "editor": {
+        "x": 584.9210719241162,
+        "y": 1299.1571002532557
       }
     },
     {
@@ -691,21 +683,20 @@
       ],
       "transfers": [
         {
-          "stage": 26,
-          "condition": {},
-          "text": " Как проходит коп?"
+          "text": "Как проходит коп?",
+          "stage": "26",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 694.7362814600797,
-        "y": 1248.4469900438037
+        "x": 1116.4905005734763,
+        "y": 175.15244052599206
       }
     },
     {
       "id": 26,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
       "message": "",
@@ -718,21 +709,20 @@
       ],
       "transfers": [
         {
-          "stage": 27,
-          "condition": {},
-          "text": " Куплю 2 магазина к АК. Сколько с меня?"
+          "text": "Куплю 2 магазина к АК. Сколько с меня?",
+          "stage": "27",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 702.3148642926315,
-        "y": 1380.258391245679
+        "x": 1126.3509231621222,
+        "y": 287.7026025731908
       }
     },
     {
       "id": 27,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
       "message": "",
@@ -745,33 +735,32 @@
       ],
       "transfers": [
         {
-          "stage": 28,
+          "text": "Да, держи.",
+          "stage": "28",
           "condition": {
             "money>=": [
               "400"
             ]
-          },
-          "text": " Да, держи."
+          }
         },
         {
-          "stage": 29,
-          "condition": {},
-          "text": " Пока нет."
+          "text": "Пока нет.",
+          "stage": "29",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 750.0599361377089,
-        "y": 1531.016249528934
+        "x": 1173.9104659023249,
+        "y": 410.12368502485276
       }
     },
     {
       "id": 28,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
-      "message": "Получено: 60 патронов 5.45х39. Потеряно: 400 рублей.",
+      "message": "Получено: 60 патронов 5.45х39. \nПотеряно: 400 рублей.",
       "type_message": 0,
       "texts": [
         {
@@ -781,9 +770,9 @@
       ],
       "transfers": [
         {
-          "stage": 30,
-          "condition": {},
-          "text": " Слушайте, парни, не поможете мне с одним делом?"
+          "text": " Слушайте, парни, не поможете мне с одним делом?",
+          "stage": "30",
+          "condition": {}
         }
       ],
       "actions": {
@@ -792,17 +781,19 @@
         ],
         "money": [
           "-400"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 630.6802486597271,
-        "y": 1655.264007270374
+        "x": 1053.4362134175312,
+        "y": 568.0426376062712
       }
     },
     {
       "id": 29,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
       "message": "",
@@ -815,21 +806,20 @@
       ],
       "transfers": [
         {
-          "stage": 30,
-          "condition": {},
-          "text": " Слушайте, парни, не поможете мне с одним делом?"
+          "text": " Слушайте, парни, не поможете мне с одним делом?",
+          "stage": "30",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 878.8439451054422,
-        "y": 1658.710102335365
+        "x": 1278.1044139972814,
+        "y": 567.2286223867793
       }
     },
     {
       "id": 30,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
       "message": "",
@@ -842,21 +832,20 @@
       ],
       "transfers": [
         {
-          "stage": 31,
-          "condition": {},
-          "text": " Я ищу одну пушку. Может, слышали чего о ней? Старая СВД, которая принадлежала то «Свободе», то «Долгу». На прикладе у неё ещё написана буква А."
+          "text": " Я ищу одну пушку. Может, слышали чего о ней? Старая СВД, которая принадлежала то «Свободе», то «Долгу». На прикладе у неё ещё написана буква А.",
+          "stage": "31",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 709.7937184402136,
-        "y": 1862.6989250202257
+        "x": 1135.6517505862082,
+        "y": 756.8941685283796
       }
     },
     {
       "id": 31,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
       "message": "",
@@ -869,21 +858,20 @@
       ],
       "transfers": [
         {
-          "stage": 32,
-          "condition": {},
-          "text": " Это там, где большая яма?"
+          "text": " Это там, где большая яма?",
+          "stage": "32",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 714.3885118602018,
-        "y": 2009.2528299552346
+        "x": 1141.3498571226512,
+        "y": 875.7403905741894
       }
     },
     {
       "id": 32,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_6.jpg",
       "title": "Андрев",
       "message": "Новый квест: отправиться на стоянку между холмов.",
@@ -896,44 +884,42 @@
       ],
       "transfers": [
         {
-          "stage": 33,
-          "condition": {},
-          "text": " Пока."
+          "text": "Удачи парни.",
+          "stage": "33",
+          "condition": {}
         }
       ],
       "actions": {
         "add": [
-          "quest_matvienko2"
+          "Задание - Матвиенко, Добраться до стоянки (Пролог, Глава 3)"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "remove": [
+          "Задание - Матвиенко, Добраться до барахолки (Пролог, Глава 3)"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 753.4442559301008,
-        "y": 2143.1710529852758
+        "x": 1017.2993859394801,
+        "y": 996.519840184236
       }
     },
     {
       "id": 33,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "717:1051",
-        "map": "2"
+        "map": "2",
+        "pos": "717:1051"
       },
       "editor": {
-        "x": 700.6041316002375,
-        "y": 2293.765846405264
+        "x": 1118.55743097688,
+        "y": 1146.8074586649743
       }
     },
     {
       "id": 34,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_7.jpg",
       "title": "Старший",
       "message": "",
@@ -946,21 +932,20 @@
       ],
       "transfers": [
         {
-          "stage": 35,
-          "condition": {},
-          "text": "Я пришёл поговорить."
+          "text": "Я пришёл поговорить.",
+          "stage": "35",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1558.583382454527,
-        "y": 2.302090849785287
+        "x": 1744.7557420470241,
+        "y": 161.12402464243453
       }
     },
     {
       "id": 35,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "message": "",
@@ -973,25 +958,24 @@
       ],
       "transfers": [
         {
-          "stage": 37,
+          "text": "Держи",
+          "stage": "36",
           "condition": {
             "money>=": [
               "500"
             ]
-          },
-          "text": " Держи"
+          }
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1563.1393807759432,
-        "y": 106.7290401595258
+        "x": 1750.1735885871021,
+        "y": 277.7524514872056
       }
     },
     {
-      "id": 37,
-      "type_stage": 7,
+      "id": 36,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "message": "Потеряно: 500 рублей.",
@@ -1004,25 +988,27 @@
       ],
       "transfers": [
         {
-          "stage": 38,
-          "condition": {},
-          "text": " Значит так, выражаться буду прямо: диггеры сказали, что вы отняли у одного сталкера винтовку СВД."
+          "text": "Значит так, выражаться буду прямо: диггеры сказали, что вы отняли у одного сталкера винтовку СВД.",
+          "stage": "37",
+          "condition": {}
         }
       ],
       "actions": {
         "money": [
           "-500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 1559.9521820482278,
-        "y": 234.41864906552112
+        "x": 1748.7679288521595,
+        "y": 403.4640334077326
       }
     },
     {
-      "id": 38,
-      "type_stage": 7,
+      "id": 37,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "message": "",
@@ -1035,21 +1021,20 @@
       ],
       "transfers": [
         {
-          "stage": 39,
-          "condition": {},
-          "text": " Дайте сказать, мля: ищу я тут винтовку, мне нахрен не сдались ваши перебранки."
+          "text": "Дайте сказать, мля: ищу я тут винтовку, мне нахрен не сдались ваши перебранки.",
+          "stage": "38",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1563.1393807759432,
-        "y": 361.04585839561105
+        "x": 1753.4489632257894,
+        "y": 532.3183332575543
       }
     },
     {
-      "id": 39,
-      "type_stage": 7,
+      "id": 38,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "message": "",
@@ -1062,21 +1047,20 @@
       ],
       "transfers": [
         {
-          "stage": 40,
-          "condition": {},
-          "text": " Что вы сделали с винтовкой?"
+          "text": "Что вы сделали с винтовкой?",
+          "stage": "39",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1558.8897824723235,
-        "y": 471.73707408712653
+        "x": 1750.7308509472384,
+        "y": 644.4651139433474
       }
     },
     {
-      "id": 40,
-      "type_stage": 7,
+      "id": 39,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "message": "",
@@ -1089,35 +1073,33 @@
       ],
       "transfers": [
         {
-          "stage": 41,
+          "text": " А со стволом у башки скажешь бесплатно?",
+          "stage": "40",
           "condition": {
             "!has": [
-              "dead_starshiy_svalka"
+              "Смерть игрока в яме от бандитов (Пролог, Глава 3)"
             ]
-          },
-          "text": " А со стволом у башки скажешь бесплатно?"
+          }
         },
         {
-          "stage": 44,
+          "text": "Держи.",
+          "stage": "42",
           "condition": {
-            "has": [],
             "money>=": [
               "500"
             ]
-          },
-          "text": "Держи."
+          }
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1559.891389257843,
-        "y": 576.0538923232118
+        "x": 1751.6915844229911,
+        "y": 758.3436231376015
       }
     },
     {
-      "id": 41,
-      "type_stage": 7,
+      "id": 40,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "message": "",
@@ -1130,25 +1112,24 @@
       ],
       "transfers": [
         {
-          "stage": 42,
-          "condition": {},
-          "text": " Вот так сразу и надо было."
+          "text": " Вот так сразу и надо было.",
+          "stage": "41",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1686.4490396277542,
-        "y": 765.6689890044051
+        "x": 2089.321627626948,
+        "y": 907.4268713436386
       }
     },
     {
-      "id": 42,
+      "id": 41,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_9.jpg",
-      "title": "Холмы",
+      "title": "Старший",
       "message": "Погиб сталкер: Матёрый. Причина: пулевое ранение.",
-      "type_message": 3,
+      "type_message": 0,
       "texts": [
         {
           "text": "Сталкер убирает оружие, направляется к туннелю, но вскоре чувствует, как спину пронзают несколько пуль.",
@@ -1157,28 +1138,30 @@
       ],
       "transfers": [
         {
-          "text": "Начать заново",
-          "stage": "249",
+          "text": "Продолжить с контрольной точки",
+          "stage": "49",
           "condition": {}
         }
       ],
       "actions": {
-        "add": [
-          "dead_starshiy_svalka"
-        ],
         "xp": [
           "-2"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ],
+        "add": [
+          "Смерть игрока в яме от бандитов (Пролог, Глава 3)"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 1678.1251866845078,
-        "y": 879.5989595836686
+        "x": 2013.8028800044408,
+        "y": 1032.7521139037362
       }
     },
     {
-      "id": 44,
-      "type_stage": 7,
+      "id": 42,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "message": "Потеряно: 500 рублей.",
@@ -1191,21 +1174,27 @@
       ],
       "transfers": [
         {
-          "stage": 45,
-          "condition": {},
-          "text": " Показывай"
+          "text": " Показывай",
+          "stage": "43",
+          "condition": {}
         }
       ],
-      "actions": {},
-      "data": null,
+      "actions": {
+        "money": [
+          "-500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
       "editor": {
-        "x": 1421.9633333143074,
-        "y": 765.1707758534078
+        "x": 1638.3073332753995,
+        "y": 905.7749011050757
       }
     },
     {
-      "id": 45,
-      "type_stage": 7,
+      "id": 43,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "message": "",
@@ -1218,21 +1207,20 @@
       ],
       "transfers": [
         {
-          "stage": 46,
-          "condition": {},
-          "text": " Не та."
+          "text": " Не та.",
+          "stage": "44",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1487.5952171155368,
-        "y": 876.8176695451532
+        "x": 1706.2874514988719,
+        "y": 1043.423125966281
       }
     },
     {
-      "id": 46,
-      "type_stage": 7,
+      "id": 44,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "message": "",
@@ -1245,21 +1233,20 @@
       ],
       "transfers": [
         {
-          "stage": 47,
-          "condition": {},
-          "text": " Та винтовка свободовская, а это хрень какая-то."
+          "text": " Та винтовка свободовская, а это хрень какая-то.",
+          "stage": "45",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1472.7216230528666,
-        "y": 990.6960839643834
+        "x": 1690.6712977694856,
+        "y": 1151.871395863804
       }
     },
     {
-      "id": 47,
-      "type_stage": 7,
+      "id": 45,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "message": "",
@@ -1272,25 +1259,24 @@
       ],
       "transfers": [
         {
-          "stage": 48,
+          "text": " Не обляпайся только.",
+          "stage": "46",
           "condition": {
             "money>=": [
               "500"
             ]
-          },
-          "text": " Не обляпайся только."
+          }
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1421.7264434094268,
-        "y": 1100.3249000799938
+        "x": 1640.8227418484112,
+        "y": 1272.9228734565752
       }
     },
     {
-      "id": 48,
-      "type_stage": 7,
+      "id": 46,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "message": "Потеряно: 500 рублей.",
@@ -1303,25 +1289,27 @@
       ],
       "transfers": [
         {
-          "stage": 49,
-          "condition": {},
-          "text": " И куда он направился?"
+          "text": " И куда он направился?",
+          "stage": "47",
+          "condition": {}
         }
       ],
       "actions": {
         "money": [
           "-500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 1421.7264434094268,
-        "y": 1225.889709834179
+        "x": 1640.0900674005084,
+        "y": 1395.8357150761235
       }
     },
     {
-      "id": 49,
-      "type_stage": 7,
+      "id": 47,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
       "message": "",
@@ -1334,24 +1322,23 @@
       ],
       "transfers": [
         {
-          "stage": 50,
-          "condition": {},
-          "text": " Отлично."
+          "text": " Отлично.",
+          "stage": "48",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 1416.414445529902,
-        "y": 1353.5793187401741
+        "x": 1635.2621220954886,
+        "y": 1526.182157520413
       }
     },
     {
-      "id": 50,
-      "type_stage": 7,
+      "id": 48,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_8.jpg",
       "title": "Старший",
-      "message": "",
+      "message": "Новый квест: Найти сталкера в тоннеле",
       "type_message": 0,
       "texts": [
         {
@@ -1361,47 +1348,56 @@
       ],
       "transfers": [
         {
-          "stage": 51,
-          "condition": {},
-          "text": " Быка, скорее."
+          "text": " Быка, скорее.",
+          "stage": "50",
+          "condition": {}
         }
       ],
       "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
         "add": [
-          "quest_matvienko3"
+          "Задание - Матвиенко, найти сталкера (Пролог, Глава 3)"
         ],
         "remove": [
-          "quest_matvienko2",
-          "dead_starshiy_svalka"
+          "Задание - Матвиенко, Добраться до стоянки (Пролог, Глава 3)"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 1371.793663341893,
-        "y": 1457.8961369762596
+        "x": 1533.8659230221847,
+        "y": 1636.5421608854779
+      }
+    },
+    {
+      "id": 49,
+      "type_stage": 5,
+      "actions": {
+        "openStage": [
+          "37"
+        ],
+        "syncNow": []
+      },
+      "transfers": [],
+      "editor": {
+        "x": 2097.8620383910347,
+        "y": 1195.7400555687225
+      }
+    },
+    {
+      "id": 50,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "298:687"
+      },
+      "editor": {
+        "x": 1631.0323413299732,
+        "y": 1784.7068613797226
       }
     },
     {
       "id": 51,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "298:687",
-        "map": "2"
-      },
-      "editor": {
-        "x": 1412.1648472262823,
-        "y": 1611.0833357039746
-      }
-    },
-    {
-      "id": 52,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
@@ -1415,20 +1411,19 @@
       ],
       "transfers": [
         {
-          "stage": 53,
-          "condition": {},
-          "text": " Обследовать труп."
+          "text": " Обследовать труп.",
+          "stage": "52",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 2027.9129854636985,
-        "y": 7.008422811216832
+        "x": 2489.3668227259122,
+        "y": 170.08198044626752
       }
     },
     {
-      "id": 53,
+      "id": 52,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
@@ -1442,12 +1437,15 @@
       ],
       "transfers": [
         {
-          "stage": 54,
-          "condition": {},
-          "text": " Изучить КПК"
+          "text": " Изучить КПК",
+          "stage": "53",
+          "condition": {}
         }
       ],
       "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
         "add": [
           "29:8",
           "0:1",
@@ -1455,14 +1453,13 @@
           "87:1"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 2027.9129854636985,
-        "y": 155.00842281121683
+        "x": 2496.8554535309854,
+        "y": 289.3425256995155
       }
     },
     {
-      "id": 54,
+      "id": 53,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
@@ -1476,20 +1473,19 @@
       ],
       "transfers": [
         {
-          "stage": 55,
-          "condition": {},
-          "text": " Далее"
+          "text": " Далее",
+          "stage": "54",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 2027.9129854636985,
-        "y": 305.00842281121686
+        "x": 2492.4642777340573,
+        "y": 449.80241305415683
       }
     },
     {
-      "id": 55,
+      "id": 54,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
@@ -1503,20 +1499,19 @@
       ],
       "transfers": [
         {
-          "stage": 56,
-          "condition": {},
-          "text": " Далее"
+          "text": " Далее",
+          "stage": "55",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 2027.9129854636985,
-        "y": 455.00842281121686
+        "x": 2487.2402326747033,
+        "y": 568.4108702823503
       }
     },
     {
-      "id": 56,
+      "id": 55,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
@@ -1530,20 +1525,19 @@
       ],
       "transfers": [
         {
-          "stage": 57,
-          "condition": {},
-          "text": " Далее"
+          "text": " Далее",
+          "stage": "56",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 2027.9129854636985,
-        "y": 605.0084228112169
+        "x": 2490.8153298840475,
+        "y": 685.2433725698979
       }
     },
     {
-      "id": 57,
+      "id": 56,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
@@ -1557,20 +1551,19 @@
       ],
       "transfers": [
         {
-          "stage": 58,
-          "condition": {},
-          "text": " Далее"
+          "text": " Далее",
+          "stage": "57",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 2027.9129854636985,
-        "y": 755.0084228112169
+        "x": 2489.349936471575,
+        "y": 804.9003487824507
       }
     },
     {
-      "id": 58,
+      "id": 57,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
@@ -1584,25 +1577,27 @@
       ],
       "transfers": [
         {
-          "stage": 59,
-          "condition": {},
-          "text": " Далее"
+          "text": " Далее",
+          "stage": "58",
+          "condition": {}
         }
       ],
       "actions": {
         "note": [
           "Серго Горбатый: Заметки",
-          "PDA #****. позывной: Серго Горбатый. Ранг: опытный. Заметка 15: Получил задание от Свободы. Поручение, вроде, не пыльное: надо найти винтовку. Свободные сказали, что какой-то сталкер стырил её со склада Долга, да обосновался где-то в районе Тёмной Долины или Свалки...Народ местный наблюдательный, так что найти винтовку будет нетрудно. Она, говорят, старая, а на прикладе написано: А. После выполнения обещали не только дать триста вечнозелёных, но и принять в свои ряды. Наконец-то!\n Заметка 24: Сталкеры с блокпоста-приёмника рассказали, что несколько дней назад видели одиночку с СВД, копошившегося у самого северного холма. Куплю антирад и потом уж заберусь.\nЗаметка 26: На кладбище техники встретил двух ребят. Рассказали, что какой-то парень топчется на поле аномалий к западу от кладбища брошенной техники. Винтовку при нём не видели, но, говорят, копается там долго. Маловероятно, что это тот, кто мне нужен.\n  Заметка 29: Диггеры с Барахолки рассказали, что видели парня, шнырявшего по окрестностям. Винтовки при нём видно не было, зато описание точь-в-точь. Говорят, что несколько раз он ходил в туннель за депо. Говорят также, что долгаря видели, ходившего в лес на юго-востоке. Вряд ли это то, что мне нужно, но его хабаром было бы неплохо разжиться."
+          "PDA #****. позывной: Серго Горбатый. Ранг: опытный. Заметка 15: Получил задание от Свободы. Поручение, вроде, не пыльное: надо найти винтовку. Свободные сказали, что какой-то сталкер стырил её со склада Долга, да обосновался где-то в районе Тёмной Долины или Свалки...Народ местный наблюдательный, так что найти винтовку будет нетрудно. Она, говорят, старая, а на прикладе написано: А. После выполнения обещали не только дать триста вечнозелёных, но и принять в свои ряды. Наконец-то! Заметка 24: Сталкеры с блокпоста-приёмника рассказали, что несколько дней назад видели одиночку с СВД, копошившегося у самого северного холма. Куплю антирад и потом уж заберусь.Заметка 26: На кладбище техники встретил двух ребят. Рассказали, что какой-то парень топчется на поле аномалий к западу от кладбища брошенной техники. Винтовку при нём не видели, но, говорят, копается там долго. Маловероятно, что это тот, кто мне нужен.  Заметка 29: Диггеры с Барахолки рассказали, что видели парня, шнырявшего по окрестностям. Винтовки при нём видно не было, зато описание точь-в-точь. Говорят, что несколько раз он ходил в туннель за депо. Говорят также, что долгаря видели, ходившего в лес на юго-востоке. Вряд ли это то, что мне нужно, но его хабаром было бы неплохо разжиться."
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 2026.0609102858043,
-        "y": 919.3085084154504
+        "x": 2491.4376995090724,
+        "y": 930.145088032501
       }
     },
     {
-      "id": 59,
+      "id": 58,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_10.jpg",
       "title": "Туннель",
@@ -1616,49 +1611,44 @@
       ],
       "transfers": [
         {
-          "stage": 60,
-          "condition": {},
-          "text": " Покинуть туннель"
+          "text": " Покинуть туннель",
+          "stage": "59",
+          "condition": {}
         }
       ],
       "actions": {
-        "add": [
-          "quest_matvienko4"
-        ],
         "xp": [
           "1"
         ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "add": [
+          "Задание - Матвиенко, Добраться до леса (Пролог, Глава 3)"
+        ],
         "remove": [
-          "quest_matvienko3"
+          "Задание - Матвиенко, найти сталкера (Пролог, Глава 3)"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 2063.7163160029554,
-        "y": 1046.994903453874
+        "x": 2399.518739507294,
+        "y": 1066.9448650937513
+      }
+    },
+    {
+      "id": 59,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "315:755"
+      },
+      "editor": {
+        "x": 2482.189425612586,
+        "y": 1226.4340805457064
       }
     },
     {
       "id": 60,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "315:755",
-        "map": "2"
-      },
-      "editor": {
-        "x": 2012.3055892655093,
-        "y": 1214.7613587159192
-      }
-    },
-    {
-      "id": 61,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_11.jpg",
       "title": "Лес",
@@ -1672,20 +1662,19 @@
       ],
       "transfers": [
         {
-          "stage": 62,
-          "condition": {},
-          "text": " Идти к тайнику."
+          "text": " Идти к тайнику.",
+          "stage": "61",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 2328.6017253160535,
-        "y": 5.008422811216832
+        "x": 3111.023624469867,
+        "y": 157.39764472697254
       }
     },
     {
-      "id": 62,
+      "id": 61,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_12.jpg",
       "title": "Лес",
@@ -1699,48 +1688,43 @@
       ],
       "transfers": [
         {
-          "stage": 63,
-          "condition": {},
-          "text": " Идти в бар"
+          "text": " Идти в бар",
+          "stage": "62",
+          "condition": {}
         }
       ],
       "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
         "add": [
-          "quest_matvienko6",
+          "Задание - Матвиенко, Вернуть СВД (Пролог, Глава 3)",
           "27:1"
         ],
         "remove": [
-          "quest_matvienko4"
+          "Задание - Матвиенко, Добраться до леса (Пролог, Глава 3)"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 2307.414906842673,
-        "y": 136.99962710884355
+        "x": 2855.625350442592,
+        "y": 266.92615429195104
+      }
+    },
+    {
+      "id": 62,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "914:644"
+      },
+      "editor": {
+        "x": 3098.8618678131697,
+        "y": 413.9505961029128
       }
     },
     {
       "id": 63,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "914:644",
-        "map": "2"
-      },
-      "editor": {
-        "x": 2328.6017253160535,
-        "y": 305.00842281121686
-      }
-    },
-    {
-      "id": 66,
-      "type_stage": 7,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_14.jpg",
       "title": "Лейтенант Матвиенко",
       "message": "",
@@ -1753,21 +1737,20 @@
       ],
       "transfers": [
         {
-          "stage": 67,
-          "condition": {},
-          "text": "Подавись."
+          "text": "Подавись.",
+          "stage": "64",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 2668.3269485628784,
-        "y": 153.74436343791476
+        "x": 3922.191594525489,
+        "y": 155.0941472426767
       }
     },
     {
-      "id": 67,
-      "type_stage": 7,
+      "id": 64,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_14.jpg",
       "title": "Лейтенант Матвиенко",
       "message": "Потеряно: Легендарная СВД. Получено: 3000 рублей, 90х патроны 5.45, 30х патроны 9х19, 2х аптечки, 1х антирад",
@@ -1780,13 +1763,14 @@
       ],
       "transfers": [
         {
-          "stage": 68,
-          "condition": {},
-          "text": "Пока"
+          "text": "Пока",
+          "stage": "65",
+          "condition": {}
         }
       ],
       "actions": {
         "add": [
+          "Задание - Сталкер на Свалке (Пролог, Глава 3)",
           "38:90",
           "31:30"
         ],
@@ -1797,18 +1781,21 @@
           "5"
         ],
         "remove": [
+          "Задание - Матвиенко, Вернуть СВД (Пролог, Глава 3)",
           "27:1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 2671.5442175827575,
-        "y": 263.5285006894277
+        "x": 3664.9784248571345,
+        "y": 267.3441118423935
       }
     },
     {
-      "id": 68,
-      "type_stage": 7,
+      "id": 65,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_14.jpg",
       "title": "Лейтенант Матвиенко",
       "message": "Новый квест: Уйти на свалку",
@@ -1821,47 +1808,35 @@
       ],
       "transfers": [
         {
-          "stage": 70,
-          "condition": {},
-          "text": " Уйти на Свалку"
+          "text": " Уйти на Свалку",
+          "stage": "66",
+          "condition": {}
         }
       ],
       "actions": {
-        "add": [
-          "quest_stalker_anomaly",
-          "quest_matvienko_final"
-        ],
-        "remove": [
-          "quest_matvienko6"
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 2603.9815681652994,
-        "y": 444.89687363324765
+        "x": 3909.55520882478,
+        "y": 476.0694490778693
       }
     },
     {
-      "id": 70,
+      "id": 66,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "631:1214",
-        "map": "2"
+        "map": "2",
+        "pos": "631:1214"
       },
       "editor": {
-        "x": 2668.3269485628784,
-        "y": 603.7443634379147
+        "x": 3907.0112206194776,
+        "y": 597.5268048544672
       }
     },
     {
-      "id": 71,
+      "id": 67,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Неизвестный сталкер",
@@ -1875,21 +1850,20 @@
       ],
       "transfers": [
         {
-          "stage": 72,
-          "condition": {},
-          "text": " Что ты делаешь?"
+          "text": " Что ты делаешь?",
+          "stage": "68",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 2986.1165306995777,
-        "y": 2.5676695208336184
+        "x": 4527.22884889937,
+        "y": 151.92435839630983
       }
     },
     {
-      "id": 72,
-      "type_stage": 7,
+      "id": 68,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Неизвестный сталкер",
       "message": "",
@@ -1902,21 +1876,20 @@
       ],
       "transfers": [
         {
-          "stage": 73,
-          "condition": {},
-          "text": "И давно ты его тут ловишь?"
+          "text": "И давно ты его тут ловишь?",
+          "stage": "69",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3018.3589575301708,
-        "y": 117.52155340062362
+        "x": 4556.228848899369,
+        "y": 253.5126790627123
       }
     },
     {
-      "id": 73,
-      "type_stage": 7,
+      "id": 69,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Неизвестный сталкер",
       "message": "",
@@ -1929,21 +1902,20 @@
       ],
       "transfers": [
         {
-          "stage": 74,
-          "condition": {},
-          "text": " Сам ты неправильный, это просто нужно знать об аномалиях больше. Это твой первый артефакт?"
+          "text": " Сам ты неправильный, это просто нужно знать об аномалиях больше. Это твой первый артефакт?",
+          "stage": "70",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3000.134977147662,
-        "y": 225.46621405637168
+        "x": 4535.228848899369,
+        "y": 356.622479272189
       }
     },
     {
-      "id": 74,
-      "type_stage": 7,
+      "id": 70,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Неизвестный сталкер",
       "message": "",
@@ -1956,21 +1928,20 @@
       ],
       "transfers": [
         {
-          "stage": 75,
-          "condition": {},
-          "text": "Каждая аномалия в некоторой степени живая, а значит, к каждой необходим индивидуальный подход. Сейчас перед нами типичный «Лифт». Фуфлом вроде болтов и гаек его не проймёшь. Надо обмануть её чем-то органическим. Тебя как звать, кстати?"
+          "text": "Каждая аномалия в некоторой степени живая, а значит, к каждой необходим индивидуальный подход. Сейчас перед нами типичный «Лифт». Фуфлом вроде болтов и гаек его не проймёшь. Надо обмануть её чем-то органическим. Тебя как звать, кстати?",
+          "stage": "71",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3000.134977147661,
-        "y": 343.9247095481827
+        "x": 4535.551537100189,
+        "y": 477.0970170630951
       }
     },
     {
-      "id": 75,
-      "type_stage": 7,
+      "id": 71,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "message": "",
@@ -1983,21 +1954,20 @@
       ],
       "transfers": [
         {
-          "stage": 76,
-          "condition": {},
-          "text": " Необязательно. Консервы с собой какие-нибудь есть?"
+          "text": " Необязательно. Консервы с собой какие-нибудь есть?",
+          "stage": "72",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3002.237744114874,
-        "y": 459.57951575037714
+        "x": 4539.821952720206,
+        "y": 589.9601838941841
       }
     },
     {
-      "id": 76,
-      "type_stage": 7,
+      "id": 72,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "message": "",
@@ -2010,21 +1980,20 @@
       ],
       "transfers": [
         {
-          "stage": 77,
-          "condition": {},
-          "text": " Валяй."
+          "text": " Валяй.",
+          "stage": "73",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3048.498617393551,
-        "y": 568.9260210509333
+        "x": 4587.665224961877,
+        "y": 709.1687866345212
       }
     },
     {
-      "id": 77,
-      "type_stage": 7,
+      "id": 73,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "message": "",
@@ -2037,21 +2006,20 @@
       ],
       "transfers": [
         {
-          "stage": 78,
-          "condition": {},
-          "text": " … Смотри и учись!"
+          "text": " … Смотри и учись!",
+          "stage": "74",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3077.0731135218443,
-        "y": 679.9956746931605
+        "x": 4616.012424091186,
+        "y": 820.052691599451
       }
     },
     {
-      "id": 78,
-      "type_stage": 7,
+      "id": 74,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "message": "",
@@ -2064,21 +2032,20 @@
       ],
       "transfers": [
         {
-          "stage": 79,
-          "condition": {},
-          "text": " Видишь, отползает. Накрывай!"
+          "text": " Видишь, отползает. Накрывай!",
+          "stage": "75",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 2997.5489278679865,
-        "y": 804.896927239628
+        "x": 4534.862687578652,
+        "y": 934.9395622013149
       }
     },
     {
-      "id": 79,
-      "type_stage": 7,
+      "id": 75,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "message": "",
@@ -2091,21 +2058,20 @@
       ],
       "transfers": [
         {
-          "stage": 80,
-          "condition": {},
-          "text": " Да-а-а… Ничем. Гуляй, Вася."
+          "text": " Да-а-а… Ничем. Гуляй, Вася.",
+          "stage": "76",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 2999.9884722640595,
-        "y": 920.3792586835839
+        "x": 4537.842690854047,
+        "y": 1046.2387906462475
       }
     },
     {
-      "id": 80,
-      "type_stage": 7,
+      "id": 76,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "message": "",
@@ -2118,21 +2084,20 @@
       ],
       "transfers": [
         {
-          "stage": 81,
-          "condition": {},
-          "text": " Ну, Фадир значит."
+          "text": " Ну, Фадир значит.",
+          "stage": "77",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3025.8849036430506,
-        "y": 1028.7599939673496
+        "x": 4562.897348695052,
+        "y": 1164.5132324829958
       }
     },
     {
-      "id": 81,
-      "type_stage": 7,
+      "id": 77,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_15.jpg",
       "title": "Фадир",
       "message": "Новый квест: Перейти на Кордон",
@@ -2145,80 +2110,44 @@
       ],
       "transfers": [
         {
-          "stage": 82,
-          "condition": {},
-          "text": " Счастливо"
+          "text": " Счастливо",
+          "stage": "78",
+          "condition": {}
         }
       ],
       "actions": {
-        "add": [
-          "quest_chaplin"
-        ],
         "xp": [
           "5"
         ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
         "remove": [
-          "quest_stalker_anomaly"
+          "Задание - Сталкер на Свалке (Пролог, Глава 3)"
+        ],
+        "add": [
+          "Задание - Сталкеры на кордоне (Пролог, Глава 3)"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 3020.1211110495374,
-        "y": 1141.0690801868682
+        "x": 4472.682191887574,
+        "y": 1276.91794664665
       }
     },
     {
-      "id": 82,
+      "id": 78,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "669:1043",
-        "map": "2"
+        "map": "2",
+        "pos": "669:1043"
       },
       "editor": {
-        "x": 2987.170941629364,
-        "y": 1294.7302101224432
+        "x": 4523.974532487212,
+        "y": 1430.2759628485321
       }
     },
     {
-      "id": 83,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_16.jpg",
-      "title": "Переход на Кордон",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Перейдите на Кордон",
-          "condition": {}
-        },
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 85,
-          "condition": {},
-          "text": " Продолжить"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 3351.544959060961,
-        "y": 7.672468138020207
-      }
-    },
-    {
-      "id": 85,
+      "id": 79,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Северный блокпост",
@@ -2232,21 +2161,20 @@
       ],
       "transfers": [
         {
-          "stage": 86,
-          "condition": {},
-          "text": " Продолжить"
+          "text": " Продолжить",
+          "stage": "80",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3319.672971783811,
-        "y": 178.92045965611996
+        "x": 5084.660729804707,
+        "y": 159.12797941451126
       }
     },
     {
-      "id": 86,
-      "type_stage": 7,
+      "id": 80,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "message": "",
@@ -2259,21 +2187,20 @@
       ],
       "transfers": [
         {
-          "stage": 87,
-          "condition": {},
-          "text": " И тебе здорово."
+          "text": " И тебе здорово.",
+          "stage": "81",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3321.7977709356214,
-        "y": 286.42447661992037
+        "x": 5086.697937477091,
+        "y": 265.65150888682433
       }
     },
     {
-      "id": 87,
-      "type_stage": 7,
+      "id": 81,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "message": "",
@@ -2286,21 +2213,20 @@
       ],
       "transfers": [
         {
-          "stage": 88,
-          "condition": {},
-          "text": " По своим делам"
+          "text": " По своим делам",
+          "stage": "82",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3390.853743369446,
-        "y": 391.803694431911
+        "x": 5154.478306049438,
+        "y": 384.873550052242
       }
     },
     {
-      "id": 88,
-      "type_stage": 7,
+      "id": 82,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
       "message": "",
@@ -2313,21 +2239,20 @@
       ],
       "transfers": [
         {
-          "stage": 89,
-          "condition": {},
-          "text": " Да... Надоело всё. Постоянная грызня, вечный бардак. С меня хватит хавать песок."
+          "text": " Да... Надоело всё. Постоянная грызня, вечный бардак. С меня хватит хавать песок.",
+          "stage": "83",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3330.296967542861,
-        "y": 500.3701109716162
+        "x": 5094.959860270601,
+        "y": 506.43754022718133
       }
     },
     {
-      "id": 89,
-      "type_stage": 7,
+      "id": 83,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
       "message": "",
@@ -2340,21 +2265,20 @@
       ],
       "transfers": [
         {
-          "stage": 90,
-          "condition": {},
-          "text": "На неё самую."
+          "text": "На неё самую.",
+          "stage": "84",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3385.5417454899202,
-        "y": 621.6853224221816
+        "x": 5152.797218764281,
+        "y": 622.1971220122507
       }
     },
     {
-      "id": 90,
-      "type_stage": 7,
+      "id": 84,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "message": "",
@@ -2367,21 +2291,20 @@
       ],
       "transfers": [
         {
-          "stage": 91,
-          "condition": {},
-          "text": " Далее"
+          "text": " Далее",
+          "stage": "85",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3317.5423686362387,
-        "y": 733.4086554763719
+        "x": 5085.541717149844,
+        "y": 728.6024588545514
       }
     },
     {
-      "id": 91,
-      "type_stage": 7,
+      "id": 85,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "message": "",
@@ -2394,21 +2317,20 @@
       ],
       "transfers": [
         {
-          "stage": 92,
-          "condition": {},
-          "text": " Далее"
+          "text": " Далее",
+          "stage": "86",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3317.863743344906,
-        "y": 836.0170025437799
+        "x": 5085.704226039448,
+        "y": 840.3468246233991
       }
     },
     {
-      "id": 92,
-      "type_stage": 7,
+      "id": 86,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "message": "",
@@ -2421,21 +2343,20 @@
       ],
       "transfers": [
         {
-          "stage": 93,
-          "condition": {},
-          "text": " Далее"
+          "text": " Далее",
+          "stage": "87",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3317.863743344906,
-        "y": 938.8485025320479
+        "x": 5087.733850071778,
+        "y": 948.985368058083
       }
     },
     {
-      "id": 93,
-      "type_stage": 7,
+      "id": 87,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "message": "",
@@ -2448,21 +2369,20 @@
       ],
       "transfers": [
         {
-          "stage": 94,
-          "condition": {},
-          "text": " Да-а-а… Действительно клоун."
+          "text": " Да-а-а… Действительно клоун.",
+          "stage": "88",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3325.262723738903,
-        "y": 1038.9053848725666
+        "x": 5093.145898632518,
+        "y": 1051.879000499072
       }
     },
     {
-      "id": 94,
-      "type_stage": 7,
+      "id": 88,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
       "message": "",
@@ -2475,21 +2395,20 @@
       ],
       "transfers": [
         {
-          "stage": 95,
-          "condition": {},
-          "text": " Далее"
+          "text": " Далее",
+          "stage": "89",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3328.962213935902,
-        "y": 1150.0607378040813
+        "x": 5096.52180228418,
+        "y": 1165.1010416644895
       }
     },
     {
-      "id": 95,
-      "type_stage": 7,
+      "id": 89,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
       "message": "",
@@ -2502,21 +2421,20 @@
       ],
       "transfers": [
         {
-          "stage": 96,
-          "condition": {},
-          "text": "Далее"
+          "text": " Далее",
+          "stage": "90",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3327.1124688374025,
-        "y": 1260.2912181863467
+        "x": 5093.735197046239,
+        "y": 1265.4111763747449
       }
     },
     {
-      "id": 96,
-      "type_stage": 7,
+      "id": 90,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
       "message": "",
@@ -2529,21 +2447,20 @@
       ],
       "transfers": [
         {
-          "stage": 97,
-          "condition": {},
-          "text": " И такое бывает. Здесь, в Зоне, удивляться нечему. Даже изменениям в половозрастном составе местного контингента."
+          "text": " И такое бывает. Здесь, в Зоне, удивляться нечему. Даже изменениям в половозрастном составе местного контингента.",
+          "stage": "91",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3321.5632335419045,
-        "y": 1370.5216985686116
+        "x": 5089.04412688761,
+        "y": 1376.5153578574184
       }
     },
     {
-      "id": 97,
-      "type_stage": 7,
+      "id": 91,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "message": "",
@@ -2556,21 +2473,20 @@
       ],
       "transfers": [
         {
-          "stage": 98,
-          "condition": {},
-          "text": " Далее"
+          "text": " Далее",
+          "stage": "92",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3324.337851189653,
-        "y": 1483.5267965986252
+        "x": 5090.297186534527,
+        "y": 1489.189734046077
       }
     },
     {
-      "id": 98,
-      "type_stage": 7,
+      "id": 92,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "message": "",
@@ -2583,21 +2499,20 @@
       ],
       "transfers": [
         {
-          "stage": 99,
-          "condition": {},
-          "text": "Далее"
+          "text": " Далее",
+          "stage": "93",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3323.412978640404,
-        "y": 1592.8324044316407
+        "x": 5087.783508334456,
+        "y": 1592.9266582804482
       }
     },
     {
-      "id": 99,
-      "type_stage": 7,
+      "id": 93,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "message": "",
@@ -2610,21 +2525,20 @@
       ],
       "transfers": [
         {
-          "stage": 100,
-          "condition": {},
-          "text": "С контролёрами знаком, ничего нового не рассказал."
+          "text": "С контролёрами знаком, ничего нового не рассказал.",
+          "stage": "94",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3326.1875962881536,
-        "y": 1697.513649518408
+        "x": 5088.373209963441,
+        "y": 1697.25427263511
       }
     },
     {
-      "id": 100,
-      "type_stage": 7,
+      "id": 94,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Чаплин",
       "message": "",
@@ -2637,21 +2551,20 @@
       ],
       "transfers": [
         {
-          "stage": 101,
-          "condition": {},
-          "text": "Да-к это я и был. Смешно, правда?"
+          "text": "Да-к это я и был. Смешно, правда?",
+          "stage": "95",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 3332.334465549257,
-        "y": 1817.0459355846922
+        "x": 5091.653960136497,
+        "y": 1808.3783562417022
       }
     },
     {
-      "id": 101,
-      "type_stage": 7,
+      "id": 95,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_17.jpg",
       "title": "Мышьяк",
       "message": "Новый квест: добраться до деревни новичков",
@@ -2664,52 +2577,46 @@
       ],
       "transfers": [
         {
-          "stage": 102,
-          "condition": {},
-          "text": " Ладно, бывайте, а мне пора."
+          "text": " Ладно, бывайте, а мне пора.",
+          "stage": "96",
+          "condition": {}
         }
       ],
       "actions": {
-        "add": [
-          "quest_go_derevnya",
-          "quest_exit0"
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ],
         "remove": [
-          "quest_chaplin"
+          "Задание - Сталкеры на кордоне (Пролог, Глава 3)"
+        ],
+        "add": [
+          "Задание -  Добраться до Деревни (Пролог, Глава 3)"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 3295.2976428878424,
-        "y": 1946.917227616532
+        "x": 5022.103953234057,
+        "y": 1922.8384345004833
       }
     },
     {
-      "id": 102,
+      "id": 96,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "608:2259",
-        "map": "1"
+        "map": "1",
+        "pos": "608:2259"
       },
       "editor": {
-        "x": 3317.8417958121813,
-        "y": 2114.6304906285122
+        "x": 5075.666342190149,
+        "y": 2074.384517937191
       }
     },
     {
-      "id": 103,
+      "id": 97,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_18.jpg",
       "title": "Деревня новичков",
       "message": "Сидорович: Ищу опытного сталкера для выполнения непыльной работы. Обращаться сами знаете куда",
-      "type_message": 0,
+      "type_message": 1,
       "texts": [
         {
           "text": "Матёрый направлялся на юг к Периметру. Дойдя до Деревни новичков, он остановился. На КПК пришло оповещение о сообщении.",
@@ -2718,60 +2625,28 @@
       ],
       "transfers": [
         {
-          "stage": 105,
-          "condition": {},
-          "text": "Продолжить путь"
+          "text": "Продолжить путь",
+          "stage": "98",
+          "condition": {}
         },
         {
-          "stage": 104,
-          "condition": {},
-          "text": "Зайти к Сидоровичу"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 3954.342509657199,
-        "y": 120.07930569293094
-      }
-    },
-    {
-      "id": 104,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_20.jpg",
-      "title": "Деревня новичков",
-      "message": "Новый квест: зайти к Сидоровичу",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Матёрый решил подзаработать денег и выполнить квест Сидоровича.",
+          "text": "Зайти к Сидоровичу",
+          "stage": "100",
           "condition": {}
         }
       ],
-      "transfers": [
-        {
-          "stage": 107,
-          "condition": {},
-          "text": "Продолжить"
-        }
-      ],
       "actions": {
-        "add": [
-          "quest_sidorovich1"
-        ],
-        "syncNow": [],
-        "remove": [
-          "quest_go_derevnya"
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 4079.882197564363,
-        "y": 231.87259798072537
+        "x": 5235.489326083698,
+        "y": -1866.659436742196
       }
     },
     {
-      "id": 105,
+      "id": 98,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_18.jpg",
       "title": "Деревня новичков",
@@ -2785,48 +2660,78 @@
       ],
       "transfers": [
         {
-          "stage": 106,
-          "condition": {},
-          "text": "Продолжить"
+          "text": "Продолжить",
+          "stage": "99",
+          "condition": {}
         }
       ],
       "actions": {
-        "add": [
-          "quest_exit0"
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ],
         "remove": [
-          "quest_go_derevnya"
+          "Задание -  Добраться до Деревни (Пролог, Глава 3)"
         ],
-        "syncNow": []
+        "add": [
+          "Задание -  Выйти за периметр (Пролог, Глава 3)"
+        ]
       },
-      "data": null,
       "editor": {
-        "x": 3826.435484891753,
-        "y": 232.1831536025318
+        "x": 4993.794516931866,
+        "y": -1735.9989715608176
       }
     },
     {
-      "id": 106,
+      "id": 99,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "368:843",
-        "map": "1"
+        "map": "1",
+        "pos": "235:235"
       },
       "editor": {
-        "x": 3818.8679173241853,
-        "y": 382.1831536025318
+        "x": 5046.125484374477,
+        "y": -1574.3846141225786
       }
     },
     {
-      "id": 107,
-      "type_stage": 7,
+      "id": 100,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_20.jpg",
+      "title": "Деревня новичков",
+      "message": "Новый квест: зайти к Сидоровичу",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Матёрый решил подзаработать денег и выполнить квест Сидоровича.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Продолжить",
+          "stage": "101",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "remove": [
+          "Задание -  Добраться до Деревни (Пролог, Глава 3)"
+        ],
+        "add": [
+          "Задание -  Поиск Философа (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 5361.84241501882,
+        "y": -1735.5693044303443
+      }
+    },
+    {
+      "id": 101,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_19.jpg",
       "title": "Сидорович",
       "message": "",
@@ -2839,21 +2744,20 @@
       ],
       "transfers": [
         {
-          "stage": 108,
-          "condition": {},
-          "text": "По поводу работы. Что нужно?"
+          "text": "По поводу работы. Что нужно?",
+          "stage": "102",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4138.260575942741,
-        "y": 380.7915168996443
+        "x": 5477.994704277982,
+        "y": -1580.8456721323207
       }
     },
     {
-      "id": 108,
-      "type_stage": 7,
+      "id": 102,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
       "message": "",
@@ -2866,21 +2770,20 @@
       ],
       "transfers": [
         {
-          "stage": 109,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "103",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4082.0443597265257,
-        "y": 498.3590844672118
+        "x": 5423.41492170491,
+        "y": -1470.2173472136724
       }
     },
     {
-      "id": 109,
-      "type_stage": 7,
+      "id": 103,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
       "message": "",
@@ -2893,21 +2796,20 @@
       ],
       "transfers": [
         {
-          "stage": 110,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "104",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4086.36868405085,
-        "y": 608.3590844672119
+        "x": 5427.949284966263,
+        "y": -1357.94430532633
       }
     },
     {
-      "id": 110,
-      "type_stage": 7,
+      "id": 104,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
       "message": "Новый квест: добраться до Тайного Лагеря",
@@ -2920,43 +2822,35 @@
       ],
       "transfers": [
         {
-          "stage": 111,
-          "condition": {},
-          "text": "Хорошо, я возьмусь."
+          "text": "Хорошо, я возьмусь.",
+          "stage": "105",
+          "condition": {}
         }
       ],
       "actions": {
-        "add": [
-          "quest_sidorovich2"
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 4094.963278645444,
-        "y": 711.1158412239686
+        "x": 5435.647207111809,
+        "y": -1239.4698782026853
       }
     },
     {
-      "id": 111,
+      "id": 105,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "128:877",
-        "map": "1"
+        "map": "1",
+        "pos": "128:877"
       },
       "editor": {
-        "x": 4075.8867333764247,
-        "y": 834.7415071408427
+        "x": 5416.64081389272,
+        "y": -1141.4437723639066
       }
     },
     {
-      "id": 112,
+      "id": 106,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Тайный лагерь",
@@ -2970,24 +2864,23 @@
       ],
       "transfers": [
         {
-          "stage": 113,
-          "condition": {},
-          "text": "Обыскать тело"
+          "text": "Обыскать тело",
+          "stage": "107",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4452.404544642302,
-        "y": 99.97431214971084
+        "x": 5784.6901262089095,
+        "y": -1859.7720953645448
       }
     },
     {
-      "id": 113,
+      "id": 107,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Неизвестный сталкер",
-      "message": "Получено: ПБ-1с, 16x патроны 9х19, армейская аптечка, антирад, консервы «Завтрак туриста».",
+      "message": "Получено: ПБ-1с, 16x патроны 9х19, армейская аптечка, йодид калия.",
       "type_message": 0,
       "texts": [
         {
@@ -2997,20 +2890,29 @@
       ],
       "transfers": [
         {
-          "stage": 114,
-          "condition": {},
-          "text": " Изучить ПДА."
+          "text": " Изучить ПДА.",
+          "stage": "108",
+          "condition": {}
         }
       ],
-      "actions": {},
-      "data": null,
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "add": [
+          "1:1",
+          "31:16",
+          "89:1",
+          "85:1"
+        ]
+      },
       "editor": {
-        "x": 4468.19015977841,
-        "y": 199.53133778996082
+        "x": 5801.502051971962,
+        "y": -1751.7667405046604
       }
     },
     {
-      "id": 114,
+      "id": 108,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3024,20 +2926,19 @@
       ],
       "transfers": [
         {
-          "stage": 115,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "109",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4451.371203047481,
-        "y": 303.1138068854648
+        "x": 5786.094980932127,
+        "y": -1591.051522017011
       }
     },
     {
-      "id": 115,
+      "id": 109,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3051,20 +2952,19 @@
       ],
       "transfers": [
         {
-          "stage": 116,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "110",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4460.1324447173465,
-        "y": 406.76704911561455
+        "x": 5794.244758462712,
+        "y": -1486.5072141968549
       }
     },
     {
-      "id": 116,
+      "id": 110,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3078,20 +2978,19 @@
       ],
       "transfers": [
         {
-          "stage": 117,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "111",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4462.33985244823,
-        "y": 508.2812728685517
+        "x": 5799.185559912872,
+        "y": -1383.3271883635944
       }
     },
     {
-      "id": 117,
+      "id": 111,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3105,20 +3004,19 @@
       ],
       "transfers": [
         {
-          "stage": 118,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "112",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4459.589846568595,
-        "y": 613.9767056714371
+        "x": 5795.067973117213,
+        "y": -1279.0146572090737
       }
     },
     {
-      "id": 118,
+      "id": 112,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3132,20 +3030,19 @@
       ],
       "transfers": [
         {
-          "stage": 119,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "113",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4454.414229156262,
-        "y": 714.0526417622729
+        "x": 5789.807116782906,
+        "y": -1177.201113588824
       }
     },
     {
-      "id": 119,
+      "id": 113,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3159,20 +3056,19 @@
       ],
       "transfers": [
         {
-          "stage": 120,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "114",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4457.684036463052,
-        "y": 819.8449024696353
+        "x": 5794.361026201388,
+        "y": -1071.1627187560057
       }
     },
     {
-      "id": 120,
+      "id": 114,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3186,20 +3082,19 @@
       ],
       "transfers": [
         {
-          "stage": 121,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "115",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4461.195612342803,
-        "y": 924.0105595173287
+        "x": 5795.902231716351,
+        "y": -959.9716772494891
       }
     },
     {
-      "id": 121,
+      "id": 115,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3213,20 +3108,19 @@
       ],
       "transfers": [
         {
-          "stage": 122,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "116",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4457.765885951485,
-        "y": 1029.4477271499284
+        "x": 5792.170967727319,
+        "y": -848.526590257635
       }
     },
     {
-      "id": 122,
+      "id": 116,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3240,20 +3134,19 @@
       ],
       "transfers": [
         {
-          "stage": 123,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "117",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4457.765885951485,
-        "y": 1133.2451509579225
+        "x": 5791.597090315854,
+        "y": -735.2942177602198
       }
     },
     {
-      "id": 123,
+      "id": 117,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3267,20 +3160,19 @@
       ],
       "transfers": [
         {
-          "stage": 124,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "118",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4461.074348511001,
-        "y": 1232.2156322135966
+        "x": 5793.488048885055,
+        "y": -627.624388858592
       }
     },
     {
-      "id": 124,
+      "id": 118,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3294,20 +3186,19 @@
       ],
       "transfers": [
         {
-          "stage": 125,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "119",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4460.609190128142,
-        "y": 1331.30945394418
+        "x": 5792.188143036103,
+        "y": -522.1839831582506
       }
     },
     {
-      "id": 125,
+      "id": 119,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3321,20 +3212,19 @@
       ],
       "transfers": [
         {
-          "stage": 126,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "120",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4463.11302814892,
-        "y": 1431.8785322235947
+        "x": 5792.97540441209,
+        "y": -416.8514828166883
       }
     },
     {
-      "id": 126,
+      "id": 120,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3348,20 +3238,19 @@
       ],
       "transfers": [
         {
-          "stage": 127,
-          "condition": {},
-          "text": "Далее"
+          "text": "Далее",
+          "stage": "121",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4455.265516696949,
-        "y": 1530.7049458520974
+        "x": 5784.58995814173,
+        "y": -307.3814253958544
       }
     },
     {
-      "id": 127,
+      "id": 121,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_22.jpg",
       "title": "Философ",
@@ -3375,49 +3264,44 @@
       ],
       "transfers": [
         {
-          "stage": 128,
-          "condition": {},
-          "text": "Вернуться к Сидоровичу"
+          "text": "Вернуться к Сидоровичу",
+          "stage": "122",
+          "condition": {}
         }
       ],
       "actions": {
-        "add": [
-          "quest_sidorovich3"
-        ],
         "xp": [
           "1"
         ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "add": [
+          "Задание - Отнести Пда Сидоровичу (Пролог, Глава 3)"
+        ],
         "remove": [
-          "quest_sidorovich2"
+          "Задание -  Поиск Философа (Пролог, Глава 3)"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 4499.792651661248,
-        "y": 1634.5710787310495
+        "x": 5714.690389488335,
+        "y": -202.97601565359014
       }
     },
     {
-      "id": 128,
+      "id": 122,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "200:1037",
-        "map": "1"
+        "map": "1",
+        "pos": "200:1037"
       },
       "editor": {
-        "x": 4449.159778741311,
-        "y": 1786.2640789703537
+        "x": 5777.604457052075,
+        "y": -53.60786217758573
       }
     },
     {
-      "id": 129,
+      "id": 123,
       "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
@@ -3431,21 +3315,20 @@
       ],
       "transfers": [
         {
-          "stage": 130,
-          "condition": {},
-          "text": "Держи машинку."
+          "text": "Держи машинку.",
+          "stage": "124",
+          "condition": {}
         }
       ],
       "actions": {},
-      "data": null,
       "editor": {
-        "x": 4912.8201775006255,
-        "y": 107.7371924681272
+        "x": 6255.727719326751,
+        "y": -1870.7693715969733
       }
     },
     {
-      "id": 130,
-      "type_stage": 7,
+      "id": 124,
+      "type_stage": 0,
       "background": "/story/prologue/screen/chapter_2_23.jpg",
       "title": "Сидорович",
       "message": "Получено: 1000 рублей. Новый квест: Добраться до блокпоста военных.",
@@ -3458,1976 +3341,284 @@
       ],
       "transfers": [
         {
-          "stage": 131,
-          "condition": {},
-          "text": "Удачи"
+          "text": "Удачи",
+          "stage": "125",
+          "condition": {}
         }
       ],
       "actions": {
-        "add": [
-          "quest_exit0"
-        ],
         "xp": [
           "5"
-        ],
-        "remove": [
-          "quest_sidorovich3",
-          "quest_sidorovich1"
         ],
         "money": [
           "1000"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 4883.904460399731,
-        "y": 214.25002561986764
-      }
-    },
-    {
-      "id": 131,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_24.jpg",
-      "title": "Блокпост военных",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Матёрый подошел к военным.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 132,
-          "condition": {},
-          "text": "Я на выход из Зоны."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 4924.113806429873,
-        "y": 439.16122694525376
-      }
-    },
-    {
-      "id": 132,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_24.jpg",
-      "title": "Сержант Кулицкий",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Лицензию получить можно в НИИ ЧАЗ. Учёные изучат состояние организма, и отпустят, если не обнаружат ничего подозрительного.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 133,
-          "condition": {},
-          "text": "То есть, сталкеры для вас перестали быть мясом? Надо же."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 4905.291091547794,
-        "y": 550.5746614369934
-      }
-    },
-    {
-      "id": 133,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_24.jpg",
-      "title": "Сержант Кулицкий",
-      "message": "Новый квест: пересечь периметр.",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Ты не разговаривай давай. Сдавай всё снаряжение, надевай нулёвку и вали с поста.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 135,
-          "condition": {},
-          "text": "Сдать снаряжение"
-        }
-      ],
-      "actions": {
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ],
         "add": [
-          "quest_ch4_1"
+          "Задание -  Выйти за периметр (Пролог, Глава 3)"
         ],
         "remove": [
-          "quest_exit0"
+          "Задание - Отнести Пда Сидоровичу (Пролог, Глава 3)"
         ]
       },
-      "data": null,
       "editor": {
-        "x": 4911.879041756522,
-        "y": 663.8703674169408
+        "x": 6181.3498139849935,
+        "y": -1756.1966849950056
       }
     },
     {
-      "id": 135,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_25.jpg",
-      "title": "Сергей Клементьев",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Вы не задержитесь тут надолго. Процедура дачи интервью займёт несколько часов. По анализам, мы поймем состояние вашего организма, и уже после этого решим, получите ли вы лицензию на выход из Зоны. Простите, а Матёрый – это кличка, у вас есть настоящее ФИО?",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 136,
-          "condition": {},
-          "text": " Павел Евгеньевич Дубовский"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 4913.876372371457,
-        "y": 810.7646194613981
-      }
-    },
-    {
-      "id": 136,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_25.jpg",
-      "title": "Сергей Клементьев",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "А паспорта у вас нет?",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 137,
-          "condition": {},
-          "text": " Нет, он остался на Большой Земле. Да, скажите, когда я смогу уйти?"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 4942.689718450027,
-        "y": 920.1232673136601
-      }
-    },
-    {
-      "id": 137,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_25.jpg",
-      "title": "Сергей Клементьев",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "По результатам анализов. Вы не отчаивайтесь, конечно, но всегда есть шанс, что вы не уйдёте уже никогда.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 138,
-          "condition": {},
-          "text": " ..."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 4912.573374638701,
-        "y": 1025.889887340776
-      }
-    },
-    {
-      "id": 138,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_25.jpg",
-      "title": "Сергей Клементьев",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Начнём. В разделе Библиотека перечислены все имеющиеся сведения об аномальной Зоне. Сама же ЧЗО, как вы понимаете, наполнена экстраординарными событиями, аномалиями и артефактами. Потому, я уверен, что вам, Павел Евгеньевич, есть что рассказать.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 139,
-          "condition": {},
-          "text": "Что именно вам требуется знать?"
-        },
-        {
-          "stage": 141,
-          "condition": {},
-          "text": "Нет, ничего не видел."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 4911.632238894598,
-        "y": 1146.714679273555
-      }
-    },
-    {
-      "id": 139,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_25.jpg",
-      "title": "Сергей Клементьев",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Информацию от вас. Всё просто: видели ли вы объекты, аномалии; происходили ли с вами события, которые не описаны, не имеют общего изложения в разделе Библиотека?",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 140,
-          "condition": {},
-          "text": " Я встретил по пути, на Свалке, аномалию «Лифт». Она хоть и считается «устоявшейся», я посчитал необходимым вам рассказать."
-        }
-      ],
-      "actions": {
-        "xp": [
-          "2"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 5058.449414974808,
-        "y": 1285.421050344308
-      }
-    },
-    {
-      "id": 140,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_25.jpg",
-      "title": "Сергей Клементьев",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Что же, нам это известно, Вы можете ещё что-то рассказать?",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 142,
-          "condition": {},
-          "text": " Всё одинаково, ничего более не могу сказать. Разве что хабаром барыжу, консервные банки Сидоровичу тащу. Говорят, этот старый хрыч артефактами решил молодиться."
-        }
-      ],
-      "actions": {
-        "xp": [
-          "2"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 5065.978500927639,
-        "y": 1399.6578920683594
-      }
-    },
-    {
-      "id": 141,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_25.jpg",
-      "title": "Сергей Клементьев",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Очень жаль, что не смогли более подробно рассказать. Что вы знаете о мутантах?",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 143,
-          "condition": {},
-          "text": "В принципе ничего нового не расскажу, но разговаривающие контролеры конкретно напрягают. Я сам не знаю, как они трансформируются, видимо особо умные сталкеры под Выбросом сходят с ума…"
-        },
-        {
-          "stage": 143,
-          "condition": {},
-          "text": "Не могу сказать, ничего особенного."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 4763.414613318251,
-        "y": 1287.338313082653
-      }
-    },
-    {
-      "id": 142,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_25.jpg",
-      "title": "Сергей Клементьев",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Что вы знаете о мутантах?",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 143,
-          "condition": {},
-          "text": "В принципе ничего нового не расскажу, но разговаривающие контролёры конкретно напрягают. Я сам не знаю, как они трансформируются, видимо особо умные сталкеры под Выбросом сходят с ума…"
-        },
-        {
-          "stage": 143,
-          "condition": {},
-          "text": "Не могу сказать, ничего особенного."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 5088.541392410665,
-        "y": 1512.2050044951839
-      }
-    },
-    {
-      "id": 143,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_25.jpg",
-      "title": "Сергей Клементьев",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Хорошо, а у вас было плохое состояние, недомогание, тошнота?",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 144,
-          "condition": {},
-          "text": "Гастрит-то преобладает у всех сталкеров. Общее состояние? Да водяры хряпнешь, и все хорошо становится по маху."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 4765.903361429181,
-        "y": 1715.6091693099556
-      }
-    },
-    {
-      "id": 144,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_25.jpg",
-      "title": "Сергей Клементьев",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Первый этап пройден, что же, поздравляю вас! Завтра вы сдадите необходимые анализы, по результатам которых уже будет видно, получите ли вы лицензию, или нет.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 145,
-          "condition": {},
-          "text": "А вам вот так сталкеров расспрашивать не надоело? Вот что вы узнали из моего рассказа?"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 4765.765122690885,
-        "y": 1824.5272830263489
-      }
-    },
-    {
-      "id": 145,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_25.jpg",
-      "title": "Сергей Клементьев",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Исходя из того, что каждый опыт – уникален, а я уже не говорю о собранном биометрическом материале… Могу сказать, что вы, сталкеры, очень интересный народ. Вы загляните в деньго-обменник, чистые купюры вам ещё понадобятся. Тут можно снять на частной территории домик, на месяц. Я думаю, что вы тут как раз задержитесь на это время.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 146,
-          "condition": {},
-          "text": "Что значит задержусь?"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 4762.9417154585735,
-        "y": 1945.3520749591275
-      }
-    },
-    {
-      "id": 146,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_25.jpg",
-      "title": "Сергей Клементьев",
-      "message": "Новый квест: снять дом",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Всё решают результаты анализов.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 147,
-          "condition": {},
-          "text": "Уйти"
-        }
-      ],
-      "actions": {
-        "add": [
-          "quest_ch4_2"
-        ],
-        "remove": [
-          "quest_ch4_1"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 4757.294900993949,
-        "y": 2070.8825456124255
-      }
-    },
-    {
-      "id": 147,
+      "id": 125,
       "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
       "data": {
-        "pos": "2453:1142",
-        "map": "0"
+        "map": "1",
+        "pos": "128:877"
       },
       "editor": {
-        "x": 4765.313654474092,
-        "y": 2225.279451803881
-      }
-    },
-    {
-      "id": 148,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_26.jpg",
-      "title": "Риелтор",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Чего тебе?",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 149,
-          "condition": {},
-          "text": " Здрасте, мне б жильё снять."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 5812.080792805665,
-        "y": 114.44311594825555
-      }
-    },
-    {
-      "id": 149,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_26.jpg",
-      "title": "Риелтор",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Восемь тыщ за месяц, на ночь не оставляем. Продукты покупаешь сам. За безопасность личных вещей – не отвечаю. Принимаешь – деньги вперёд.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 150,
-          "condition": {
-            "money>=": [
-              "8000"
-            ]
-          },
-          "text": "Принять"
-        },
-        {
-          "text": "Дорого...",
-          "stage": "250",
-          "condition": {}
-        }
-      ],
-      "actions": {
-        "money": [
-          "-8000"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 5739.846161788034,
-        "y": 252.40767901919364
-      }
-    },
-    {
-      "id": 150,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_26.jpg",
-      "title": "Риелтор",
-      "message": "Потеряны деньги: 8000 рублей.\nНовый квест: пройти в дом.",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Держи ключи, не беспокой больше меня.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 151,
-          "condition": {},
-          "text": "Удачи"
-        }
-      ],
-      "actions": {
-        "add": [
-          "quest_ch4_3"
-        ],
-        "remove": [
-          "quest_ch4_2"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 5732.622949011879,
-        "y": 426.2598231809594
-      }
-    },
-    {
-      "id": 151,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "1869:724",
-        "map": "0"
-      },
-      "editor": {
-        "x": 5745.557799719391,
-        "y": 601.2056066883051
-      }
-    },
-    {
-      "id": 152,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_27.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Дома – с обогревом и нелепо приделанными шторами. На пустой желудок он лёг спать днём.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 153,
-          "condition": {},
-          "text": "Продолжить"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7419.506734738647,
-        "y": -542.8115381224428
-      }
-    },
-    {
-      "id": 153,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_27.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "На частную территорию вошли трое. Риэлтор был немного удивлен: они не имели при себе оружия, пронесли кейс, и явно не проходили через военный Периметр, но возвращались с его стороны, с севера. Сняв на месяц жильё, троица прошла к восточному блоку.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 154,
-          "condition": {},
-          "text": "Продолжить"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7414.8010560181265,
-        "y": -430.45696788659916
-      }
-    },
-    {
-      "id": 154,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_27.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "В дверь постучали. Сначала один раз, потом три, потом один, и следом – два. Матёрый подумал, что это ошиблись, но стучать начали заново. 1-3-1-2. Он не зажёг сигарету, просто катал её в руке.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 155,
-          "condition": {},
-          "text": "Подойти к двери"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7423.271277715062,
-        "y": -323.74921211537895
-      }
-    },
-    {
-      "id": 155,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_27.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Матёрый приоткрыл дверь, и увидел лысого мужчину. Первое, что бросилось в глаза: на толстом носу имелась ярко-выраженная горбинка.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 156,
-          "condition": {},
-          "text": "Снять цепочку, открыть дверь."
-        },
-        {
-          "stage": 180,
-          "condition": {},
-          "text": "Отойти"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7421.389006226854,
-        "y": -207.63009890311972
-      }
-    },
-    {
-      "id": 156,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_28.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Дверь толкнули плечом. Угол обзора подвёл: за спиной лысого находился ещё один, мускулистый соперник с темными волосами. У окна мелькнула ещё одна фигура.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 157,
-          "condition": {},
-          "text": "Дёрнуться к столовым приборам."
-        },
-        {
-          "stage": 169,
-          "condition": {},
-          "text": "Выпрыгнуть в окно."
-        },
-        {
-          "stage": 170,
-          "condition": {},
-          "text": "Занять оборонительную стойку"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 6677.996197242951,
-        "y": 43.7047085422127
-      }
-    },
-    {
-      "id": 157,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_29.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Матёрый прикинул обстановку, и сделал вывод, что из потенциального оружия имелись стальные столовые приборы. Он кинулся к ним, но его толкнул тёмненький, так, что сталкер упал.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 158,
-          "condition": {},
-          "text": "Встать"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 6676.142865199908,
-        "y": 444.5155193530213
-      }
-    },
-    {
-      "id": 158,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Лысый с горбинкой на носу достал кляп, пока Матёрый поднимался. Тёмненький заходил сбоку, пытаясь отрезать больше территории.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 159,
-          "condition": {},
-          "text": "Увернуться от захвата рук."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 6679.825195828136,
-        "y": 545.6839962556082
-      }
-    },
-    {
-      "id": 159,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Матёрый увернулся от захвата, но его принял лысый. Попытавшись ударить локтем, сталкер попал в замок. Его шею сжали, а голову крепко держали на правом боку.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 160,
-          "condition": {},
-          "text": "Пытаться вырваться"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 6682.3725885609765,
-        "y": 651.1046234309008
-      }
-    },
-    {
-      "id": 160,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Мускульный достал подготовленный жгут, скорее напоминавший ремень. Зайдя с левого бока, он перекинул жгут и защёлкнул, постепенно сжимая ноги вместе. Дышать становилось трудней, отчего борьба становилась бессмысленной. У него не хватало сил.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 161,
-          "condition": {},
-          "text": " Оттолкнуться ногами."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 6674.730410362456,
-        "y": 751.4304651405122
-      }
-    },
-    {
-      "id": 161,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Неудачно. Тело уже пыталось связать руки таким же жгутом.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 162,
-          "condition": {},
-          "text": "Оттолкнуться ногами."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 6679.825195828136,
-        "y": 850.4826104837036
-      }
-    },
-    {
-      "id": 162,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Получилось. Матёрый высвободился из захвата, но резко поступивший поток кислорода в дыхательные пути заставил его кашлять. Он свернулся на полу, его перевернули ботинком и наступили на солнечное сплетение.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 163,
-          "condition": {},
-          "text": "Плюнуть вверх"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 6670.909321263194,
-        "y": 954.6295412925758
-      }
-    },
-    {
-      "id": 163,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Матёрый харкнул вверх, чем вызвал секундное замешательство у лысого. Сталкер попытался подняться, но обнаружил, что его руки уже связаны.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 164,
-          "condition": {},
-          "text": "За что, с-с-с…уки?"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 6674.776221906806,
-        "y": 1058.3183566579212
-      }
-    },
-    {
-      "id": 164,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Лысый",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Меньше трепать надо.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 165,
-          "condition": {},
-          "text": "Что трепать? чё?"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 6715.488694087901,
-        "y": 1168.018188376001
-      }
-    },
-    {
-      "id": 165,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Шурале",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Поймёшь потом",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 166,
-          "condition": {},
-          "text": "Сопротивляться"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 6730.773050484945,
-        "y": 1269.6177264520331
-      }
-    },
-    {
-      "id": 166,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Матёрый попытался прижать колени к груди, отчего стал похожим на улитку. Он услышал, как кто-то заржал. Сталкер понял, что нужно единственным решением было…",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 167,
-          "condition": {},
-          "text": "Кричать!"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 6667.088232163934,
-        "y": 1377.585746360166
-      }
-    },
-    {
-      "id": 167,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Ему заткнули кляпом рот. Прерывистый крик перешёл в сдавленный рёв, исходящий из гортани. Сдавили шею, словно к чему-то привязав другой конец, после чего резко дёрнули. Шейные позвонки не выдержали, послышался хруст.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 168,
-          "condition": {},
-          "text": "Продолжить"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 6842.195167322615,
-        "y": 1471.4030512657423
-      }
-    },
-    {
-      "id": 168,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_31.jpg",
-      "title": "Дом",
-      "message": "Квест провален: покинуть зону.",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Утром троих наёмников уже не было на частной территории. Труп сталкера нашли на второй день, когда сторож делал обход.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 247,
-          "condition": {},
-          "text": "Продолжить"
-        }
-      ],
-      "actions": {
-        "xp": [
-          "15"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 6839.727847124402,
-        "y": 1579.0507810353647
-      }
-    },
-    {
-      "id": 169,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_32.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Матёрый схватил табуретку за ножку, замахнулся сначала в сторону двоих, потом ударил об стекло. Стоящий под окнами человек, не ожидавший этого, посторонился, тогда сталкер и вылез через острые края. Он упал в грязь и поранил руки об осколки. Замешательство Матёрого привело к тому, что его под руки занесли обратно.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 167,
-          "condition": {},
-          "text": "Кричать!"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7248.503628150072,
-        "y": 498.56277489090917
-      }
-    },
-    {
-      "id": 170,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_32.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Матёрый подался корпусом назад, локти же выставил в защиту головы. Тёмненький засмеялся, и вышел вперёд лысого. Он сделал обманный манёвр: сначала замахнулся рукой, а когда пошла «мнимая отдача» от удара – ударил по колену, сбив сталкера.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 171,
-          "condition": {},
-          "text": "Какого … вам надо? Вы кто?"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7701.712413459166,
-        "y": 254.2452490827527
-      }
-    },
-    {
-      "id": 171,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_32.jpg",
-      "title": "Цикорий",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Тебе знать не обязательно, всё равно сейчас сдохнешь.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 172,
-          "condition": {},
-          "text": "Отползти"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7712.888937994272,
-        "y": 375.6830197152591
-      }
-    },
-    {
-      "id": 172,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_32.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Матёрого потащили за плечи. Ему всунули кляп. Человек с впалыми щеками немного затянул жгут на шее. Тройка переглянулась. Они взяли его под руки и потащили к старому особняку.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 173,
-          "condition": {},
-          "text": "Сопротивляться"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7707.921593756448,
-        "y": 478.49324945592184
-      }
-    },
-    {
-      "id": 173,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_32.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Дрыганья ногами подняли пыль на тропинке. Результата это действие не принесло.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 174,
-          "condition": {},
-          "text": "Попытаться вырваться."
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7706.679757696991,
-        "y": 583.7871513154972
-      }
-    },
-    {
-      "id": 174,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Матёрый попытался вырваться, отчего стало больно суставам. Держали его плотно. Дыхание было сжато. Он понимал, что долго не протянет.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 175,
-          "condition": {},
-          "text": "Продолжить"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7709.163429815903,
-        "y": 700.2575777101786
-      }
-    },
-    {
-      "id": 175,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Его привели к особняку, тот находился в пяти, может шести метрах. Ему расслабили жгут на шее, но кляп вытаскивать не стали.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 176,
-          "condition": {},
-          "text": "Осмотреться"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7719.098118291553,
-        "y": 808.0351516886664
-      }
-    },
-    {
-      "id": 176,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Особняк",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Тройка. Эти лица станут последним, что он запомнит. Высокий худой брюнет с взглядом раскосых глаз. Высокий, худой, бледный, лысый, с горбинкой на носу. Короткостриженый темноволосый, длинноносый, мускульное тело.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 177,
-          "condition": {},
-          "text": "Продолжить"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7719.098118291553,
-        "y": 923.2637420238916
-      }
-    },
-    {
-      "id": 177,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Яхонт",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Ты спросить что-то хочешь? Может, кто мы?",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 178,
-          "condition": {},
-          "text": "Кивнуть"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7717.856282232097,
-        "y": 1031.0413160023793
-      }
-    },
-    {
-      "id": 178,
-      "type_stage": 7,
-      "background": "/story/prologue/screen/chapter_2_30.jpg",
-      "title": "Яхонт",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Мы наёмники. Как ты понял, тебя заказали за то, что слишком много трепался.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 179,
-          "condition": {},
-          "text": "Продолжить"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7717.856282232096,
-        "y": 1142.5443981592357
-      }
-    },
-    {
-      "id": 179,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_31.jpg",
-      "title": "Особняк",
-      "message": "Квест провален: покинуть Зону.",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Тот, что говорил сейчас, достал нож и вскрыл глотку сталкеру. Кляп во рту набух. Матёрый захлебнулся кровью. Труп нашли с наступлением утра.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 247,
-          "condition": {},
-          "text": "Продолжить"
-        }
-      ],
-      "actions": {
-        "xp": [
-          "15"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 7724.065462529378,
-        "y": 1250.3219721377234
-      }
-    },
-    {
-      "id": 180,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_33.jpg",
-      "title": "Дом",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Матёрый отошел от двери. Наступила тишина. Те, кто стоял за дверью, услышали шаги.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 157,
-          "condition": {},
-          "text": "Дернуться к столовым приборам."
-        },
-        {
-          "stage": 169,
-          "condition": {},
-          "text": "Выпрыгнуть в окно."
-        },
-        {
-          "stage": 170,
-          "condition": {},
-          "text": "Занять оборонительную стойку"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 7421.376239438263,
-        "y": 27.87330847335889
-      }
-    },
-    {
-      "id": 181,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_1.jpg",
-      "title": "Бар",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Уйти в бар",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 182,
-          "condition": {},
-          "text": " Уйти"
-        }
-      ],
-      "actions": {},
-      "data": null,
-      "editor": {
-        "x": 3859.442018877485,
-        "y": -384.62249237919565
-      }
-    },
-    {
-      "id": 182,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "738:1395",
-        "map": "2"
-      },
-      "editor": {
-        "x": 3773.476782044801,
-        "y": -247.20277094007616
-      }
-    },
-    {
-      "id": 244,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "2104:539",
-        "map": "3"
-      },
-      "editor": {
-        "x": 2979.438019629467,
-        "y": -246.01609810040645
-      }
-    },
-    {
-      "id": 245,
-      "type_stage": 4,
-      "background": null,
-      "title": null,
-      "message": null,
-      "type_message": null,
-      "texts": null,
-      "transfers": null,
-      "actions": null,
-      "data": {
-        "pos": "631:1214",
-        "map": "2"
-      },
-      "editor": {
-        "x": 3220.0941373344117,
-        "y": -246.81978739002324
-      }
-    },
-    {
-      "id": 247,
-      "type_stage": 1,
-      "background": "/story/prologue/screen/chapter_2_31.jpg",
-      "title": "Пролог завершен!",
-      "message": null,
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Вот и кончился пролог!",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 248,
-          "condition": {},
-          "text": "Выйти"
-        }
-      ],
-      "actions": {
-        "syncNow": [],
-        "reset": [
-          "items"
-        ]
-      },
-      "data": null,
-      "editor": {
-        "x": 7242.701950866436,
-        "y": 1776.937597899415
-      }
-    },
-    {
-      "id": 248,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_31.jpg",
-      "title": "Пролог завершен!",
-      "message": null,
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Выходим...",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "stage": 248,
-          "condition": {},
-          "text": "Не трогай"
-        }
-      ],
-      "actions": {
-        "syncNow": [],
-        "finishStory": []
-      },
-      "data": null,
-      "editor": {
-        "x": 7246.063255729265,
-        "y": 1900.8874852124954
-      }
-    },
-    {
-      "id": 249,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_9.jpg",
-      "title": "Холмы",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [],
-      "actions": {
-        "openStage": [
-          "40"
-        ],
-        "syncNow": []
-      },
-      "editor": {
-        "x": 1761.3637161169759,
-        "y": 1016.6507438941735
-      }
-    },
-    {
-      "id": 250,
-      "type_stage": 0,
-      "background": "/story/prologue/screen/chapter_2_26.jpg",
-      "title": "Риелтор",
-      "message": "Новое задание:\nнайти дом для ночлега.",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Цена не изменится парень, нет денег - нет хаты",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "text": "Ага...",
-          "stage": "151",
-          "condition": {}
-        }
-      ],
-      "actions": {
-        "add": [
-          "quest_ch4_3"
-        ],
-        "remove": [
-          "quest_ch4_2"
-        ]
-      },
-      "editor": {
-        "x": 5492.030882967013,
-        "y": 426.02556867294277
+        "x": 6245.633459357073,
+        "y": -1573.339192052033
       }
     }
   ],
   "points": {
-    "0": [
-      {
-        "id": "f8cf1e01-6c24-4549-9d27-19765741560b",
-        "type": 0,
-        "name": "От ученых к аренде",
-        "pos": "1869:724",
-        "data": {
-          "chapter": "3",
-          "stage": "148"
-        },
-        "condition": {
-          "has": [
-            "quest_ch4_2"
-          ]
-        },
-        "editor": {
-          "x": 5745.557799719391,
-          "y": 1.2056066883051813
-        }
-      },
-      {
-        "id": "bdcef729-303c-4567-8d75-48dc107ff619",
-        "type": 0,
-        "name": "От аренды к дому",
-        "pos": "1742:553",
-        "data": {
-          "chapter": "3",
-          "stage": "152"
-        },
-        "condition": {
-          "has": [
-            "quest_ch4_3"
-          ]
-        },
-        "editor": {
-          "x": 7424.212413459166,
-          "y": -645.7547509172473
-        }
-      }
-    ],
     "1": [
       {
-        "id": "10d97881-b1e8-4c39-8aed-c491910d4136",
-        "type": 0,
-        "name": "От новичка на Кордон",
-        "pos": "607:2295",
-        "data": {
-          "chapter": "3",
-          "stage": "85"
-        },
-        "condition": {
-          "has": [
-            "quest_go_kordon"
-          ]
-        },
-        "editor": {
-          "x": 3554.9338175860726,
-          "y": 9.79726728983016
-        }
-      },
-      {
-        "id": "64a2ac76-68d3-427f-85f9-1359cf968be6",
+        "id": "96473684-5f77-4434-871d-69c617e67f1d",
         "type": 6,
         "name": "От блокпоста в деревню",
         "pos": "368:843",
         "data": {
-          "chapter": "3",
-          "stage": "103"
+          "stage": "97",
+          "chapter": "3"
         },
         "condition": {
           "has": [
-            "quest_go_derevnya"
+            "Задание -  Добраться до Деревни (Пролог, Глава 3)"
           ]
         },
         "editor": {
-          "x": 3952.916014618526,
-          "y": 5.741681659765874
+          "x": 5159.9112762972445,
+          "y": -1986.3938806770689
         }
       },
       {
-        "id": "ee6f5777-2b6b-4ae4-b15b-20a392ee1229",
+        "id": "19532228-8a33-40e5-9699-b7d55eec09ee",
+        "type": 0,
+        "name": "От сидоровича к аномалии",
+        "pos": "200:1037",
+        "data": {
+          "stage": "106",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание -  Поиск Философа (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 5727.483194203185,
+          "y": -1987.243518704398
+        }
+      },
+      {
+        "id": "af016001-1508-49db-8e17-e534c95bb9d4",
+        "type": 0,
+        "name": "Вернуться к Сидоровичу",
+        "pos": "128:877",
+        "data": {
+          "stage": "123",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Отнести Пда Сидоровичу (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 6167.37519580149,
+          "y": -1988.204818898842
+        }
+      },
+      {
+        "id": "f52503f0-cda1-4e09-b27c-db70d7928145",
         "type": 0,
         "name": "От деревни к выходу из зоны",
         "pos": "302:508",
         "data": {
           "chapter": "3",
-          "stage": "131"
-        },
-        "condition": {
-          "!has": [
-            "quest_sidorovich1"
-          ],
-          "has": [
-            "quest_exit0"
-          ]
-        },
-        "editor": {
-          "x": 5186.588182228208,
-          "y": 242.10443974005813
-        }
-      },
-      {
-        "id": "d7d3e802-f044-4481-bb87-0bab9e5c691b",
-        "type": 0,
-        "name": "От сидоровича к аномалии",
-        "pos": "200:1037",
-        "data": {
-          "chapter": "3",
-          "stage": "112"
+          "stage": ""
         },
         "condition": {
           "has": [
-            "quest_sidorovich2"
+            "Задание -  Выйти за периметр (Пролог, Глава 3)"
           ]
         },
         "editor": {
-          "x": 4451.963063096125,
-          "y": 2.1429385989345917
-        }
-      },
-      {
-        "id": "bef08ad9-a72c-4ed0-9618-a4fc9e775c6e",
-        "type": 0,
-        "name": "От аномалии к сидоровичу",
-        "pos": "128:877",
-        "data": {
-          "chapter": "3",
-          "stage": "129"
-        },
-        "condition": {
-          "has": [
-            "quest_sidorovich3"
-          ]
-        },
-        "editor": {
-          "x": 4909.05563452421,
-          "y": 2.337127362708543
+          "x": 5704.749597899092,
+          "y": 74.08581347896208
         }
       }
     ],
-    "2": [],
+    "2": [
+      {
+        "id": "4d1a6ae7-6782-4337-a22d-f2b0b7ba6de3",
+        "type": 0,
+        "name": "Потерянная СВД - Барахолка",
+        "pos": "717:1051",
+        "data": {
+          "stage": "25",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Матвиенко, Добраться до барахолки (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 996.297652894968,
+          "y": 45.679299081302446
+        }
+      },
+      {
+        "id": "05710e5e-a2fe-45dc-a639-56c0c551e23d",
+        "type": 0,
+        "name": "Стоянка в яме",
+        "pos": "298:687",
+        "data": {
+          "stage": "34",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Матвиенко, Добраться до стоянки (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 1624.3664950205714,
+          "y": 50.06377144832564
+        }
+      },
+      {
+        "id": "1250bb03-1c7f-47c2-a7e2-d92d62b10950",
+        "type": 0,
+        "name": "Сталкер в туннеле",
+        "pos": "315:755",
+        "data": {
+          "stage": "51",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Матвиенко, найти сталкера (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 2395.013266608862,
+          "y": 43.43561028875439
+        }
+      },
+      {
+        "id": "bcc2477a-aa2c-4eac-adbe-7a8ea9d98ab9",
+        "type": 1,
+        "name": "Тайник в Лесу",
+        "pos": "914:644",
+        "data": {
+          "stage": "60",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Матвиенко, Добраться до леса (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 3001.3508229847894,
+          "y": 41.950625956598486
+        }
+      },
+      {
+        "id": "0111ce51-d1a9-4455-8dc0-692e43c9ae0d",
+        "type": 0,
+        "name": "Сталкер у аномалии",
+        "pos": "669:1043",
+        "data": {
+          "stage": "67",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Сталкер на Свалке (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 4467.999982566266,
+          "y": 43.85646016078894
+        }
+      },
+      {
+        "id": "2be13424-10a7-4991-a458-3a2decfce2f0",
+        "type": 1,
+        "name": "Сталкеры на Кордоне",
+        "pos": "732:252",
+        "data": {
+          "stage": "79",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Сталкеры на кордоне (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 5010.010083386028,
+          "y": 40.124741273213516
+        }
+      }
+    ],
     "3": [
       {
-        "id": "eab4f58d-7aac-4e7b-a5de-bab4a58b7be7",
+        "id": "04007b3a-4f6b-490e-9aa0-0be84f157683",
         "type": 1,
         "name": "От бара до южного блокпоста",
         "pos": "1737:1130",
         "data": {
-          "chapter": "3",
-          "stage": "16"
+          "stage": "16",
+          "chapter": "3"
         },
         "condition": {
           "has": [
-            "quest_matvienko0"
+            "Задание - Матвиенко, начало (Пролог, Глава 3)"
           ]
         },
         "editor": {
-          "x": 700,
-          "y": 0
+          "x": 510,
+          "y": 50
         }
       },
       {
-        "id": "6a3486ba-22ff-4718-9f31-8e5bf5deade1",
+        "id": "979661ad-6ef1-4b5d-88c9-186bf97e963f",
         "type": 1,
-        "name": "От свалки к Матвиенко",
+        "name": "Вернуть СВД",
         "pos": "1737:1130",
         "data": {
-          "chapter": "3",
-          "stage": "66"
+          "stage": "63",
+          "chapter": "3"
         },
         "condition": {
           "has": [
-            "quest_matvienko6"
+            "Задание - Матвиенко, Вернуть СВД (Пролог, Глава 3)"
           ]
         },
         "editor": {
-          "x": 2668.3269485628784,
-          "y": 3.744363437914757
+          "x": 3833.231792807501,
+          "y": 38.38125899653666
         }
       }
     ]
   },
-  "spawns": {
-    "2": []
-  },
-  "missions": [
-    {
-      "title": "Покинуть бар",
-      "name": "pokinut-bar",
-      "checkpoints": [
-        {
-          "title": "Выбраться за территорию Долга",
-          "parameter": "quest_matvienko0",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    },
-    {
-      "title": "Потерянная СВД",
-      "name": "poteryannaya-svd",
-      "checkpoints": [
-        {
-          "title": "Стоянка между холмов",
-          "parameter": "quest_matvienko2",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    },
-    {
-      "title": "Потерянная СВД",
-      "name": "poteryannaya-svd",
-      "checkpoints": [
-        {
-          "title": "Тунель",
-          "parameter": "quest_matvienko3",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    },
-    {
-      "title": "Потерянная СВД",
-      "name": "poteryannaya-svd",
-      "checkpoints": [
-        {
-          "title": "Тайник в лесу",
-          "parameter": "quest_matvienko4",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    },
-    {
-      "title": "Потерянная СВД",
-      "name": "poteryannaya-svd",
-      "checkpoints": [
-        {
-          "title": "Вернуться к Матвиенко",
-          "parameter": "quest_matvienko6",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    },
-    {
-      "title": "Вернуться на Кордон",
-      "name": "vernut-sya-na-kordon",
-      "checkpoints": [
-        {
-          "title": "Добраться до блокпоста",
-          "parameter": "quest_chaplin",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    },
-    {
-      "title": "Добраться до деревни",
-      "name": "dobrat-sya-do-derevni",
-      "checkpoints": [
-        {
-          "title": "Посетить деревню",
-          "parameter": "quest_go_derevnya",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    },
-    {
-      "title": "Добраться до Тайного Лагеря",
-      "name": "dobrat-sya-do-taynogo-lagerya",
-      "checkpoints": [
-        {
-          "title": "Философ",
-          "parameter": "quest_sidorovich2",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    },
-    {
-      "title": "Вернуться к Сидоровичу",
-      "name": "vernut-sya-k-sidorovichu",
-      "checkpoints": [
-        {
-          "title": "Отнести ПДА Сидоровичу",
-          "parameter": "quest_sidorovich3",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    },
-    {
-      "title": "Снять Дом",
-      "name": "snyat-dom",
-      "checkpoints": [
-        {
-          "title": "Риелтор",
-          "parameter": "quest_ch4_2",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    },
-    {
-      "title": "Дом",
-      "name": "dom",
-      "checkpoints": [
-        {
-          "title": "Добраться до Дома",
-          "parameter": "quest_ch4_3",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    },
-    {
-      "title": "Выйти из ЧЗО",
-      "name": "vyyti-iz-chzo",
-      "checkpoints": [
-        {
-          "title": "Выйти из зоны",
-          "parameter": "quest_exit0",
-          "type": "FIND_ITEM",
-          "condition": {},
-          "actions": {}
-        }
-      ]
-    }
-  ]
+  "spawns": {},
+  "missions": [],
+  "title": "Третья Глава",
+  "_comment": "Игра за Матёрого"
 }

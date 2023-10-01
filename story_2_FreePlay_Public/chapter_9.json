@@ -1,0 +1,954 @@
+{
+  "id": 9,
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Хм...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "1",
+          "condition": {}
+        },
+        {
+          "text": "Забудь",
+          "stage": "2",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1200,
+        "y": 50
+      },
+      "_comment": "Начало веток Сидоровича"
+    },
+    {
+      "id": 1,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну погляди...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "3",
+          "condition": {
+            "money<=": [
+              "20000"
+            ]
+          }
+        },
+        {
+          "text": "...",
+          "stage": "5",
+          "condition": {
+            "money<=": [
+              "50000"
+            ],
+            "money>": [
+              "20000"
+            ]
+          }
+        },
+        {
+          "text": "...",
+          "stage": "7",
+          "condition": {
+            "money<=": [
+              "100000"
+            ],
+            "money>": [
+              "50000"
+            ]
+          }
+        },
+        {
+          "text": "...",
+          "stage": "9",
+          "condition": {
+            "money<=": [
+              "300000"
+            ],
+            "money>": [
+              "100000"
+            ]
+          }
+        },
+        {
+          "text": "...",
+          "stage": "10",
+          "condition": {
+            "money<=": [
+              "600000"
+            ],
+            "money>": [
+              "300000"
+            ]
+          }
+        },
+        {
+          "text": "...",
+          "stage": "11",
+          "condition": {
+            "money>": [
+              "600000"
+            ]
+          }
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1025,
+        "y": 200
+      }
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1900,
+        "y": 200
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Надеюсь нашел что хотел.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage": "4",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "openSeller": [
+          "1"
+        ]
+      },
+      "editor": {
+        "x": 150,
+        "y": 350
+      },
+      "_comment": "Ассортимент от 0 до 20к рублей"
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 150,
+        "y": 500
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Надеюсь нашел что хотел.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage": "6",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "openSeller": [
+          "2"
+        ]
+      },
+      "editor": {
+        "x": 500,
+        "y": 350
+      },
+      "_comment": "Ассортимент от 20к до 50к рублей"
+    },
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 500,
+        "y": 500
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 7,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Надеюсь нашел что хотел.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage": "8",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "openSeller": [
+          "3"
+        ]
+      },
+      "editor": {
+        "x": 850,
+        "y": 350
+      },
+      "_comment": "Ассортимент от 50к до 100к рублей"
+    },
+    {
+      "id": 8,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 850,
+        "y": 500
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 9,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Надеюсь нашел что хотел.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage": "12",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "openSeller": [
+          "4"
+        ]
+      },
+      "editor": {
+        "x": 1200,
+        "y": 350
+      },
+      "_comment": "Ассортимент от 100к до 300к рублей"
+    },
+    {
+      "id": 10,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Надеюсь нашел что хотел.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage": "13",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "openSeller": [
+          "5"
+        ]
+      },
+      "editor": {
+        "x": 1550,
+        "y": 350
+      },
+      "_comment": "Ассортимент от 300к до 600к рублей"
+    },
+    {
+      "id": 11,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Надеюсь нашел что хотел.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage": "14",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "openSeller": [
+          "6"
+        ]
+      },
+      "editor": {
+        "x": 1900,
+        "y": 350
+      },
+      "_comment": "Ассортимент от 600к рублей"
+    },
+    {
+      "id": 12,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1200,
+        "y": 500
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 13,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1550,
+        "y": 500
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 14,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1900,
+        "y": 500
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 15,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Хм...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "16",
+          "condition": {}
+        },
+        {
+          "text": "Забудь",
+          "stage": "17",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3300,
+        "y": 50
+      },
+      "_comment": "Начало веток Бармена"
+    },
+    {
+      "id": 16,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ну посмотри, чем богаты.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "18",
+          "condition": {
+            "money<=": [
+              "20000"
+            ]
+          }
+        },
+        {
+          "text": "...",
+          "stage": "19",
+          "condition": {
+            "money<=": [
+              "50000"
+            ],
+            "money>": [
+              "20000"
+            ]
+          }
+        },
+        {
+          "text": "...",
+          "stage": "20",
+          "condition": {
+            "money<=": [
+              "100000"
+            ],
+            "money>": [
+              "50000"
+            ]
+          }
+        },
+        {
+          "text": "...",
+          "stage": "21",
+          "condition": {
+            "money<=": [
+              "300000"
+            ],
+            "money>": [
+              "100000"
+            ]
+          }
+        },
+        {
+          "text": "...",
+          "stage": "22",
+          "condition": {
+            "money<=": [
+              "600000"
+            ],
+            "money>": [
+              "300000"
+            ]
+          }
+        },
+        {
+          "text": "...",
+          "stage": "23",
+          "condition": {
+            "money>": [
+              "600000"
+            ]
+          }
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3125,
+        "y": 200
+      }
+    },
+    {
+      "id": 17,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "29"
+        ]
+      },
+      "editor": {
+        "x": 3475,
+        "y": 200
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 18,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Надеюсь нашел что хотел.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage": "24",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "openSeller": [
+          "7"
+        ]
+      },
+      "editor": {
+        "x": 2250,
+        "y": 350
+      },
+      "_comment": "Ассортимент от 0 до 20к рублей"
+    },
+    {
+      "id": 19,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Надеюсь нашел что хотел.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage": "25",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "openSeller": [
+          "8"
+        ]
+      },
+      "editor": {
+        "x": 2600,
+        "y": 350
+      },
+      "_comment": "Ассортимент от 20к до 50к рублей"
+    },
+    {
+      "id": 20,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Надеюсь нашел что хотел.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage": "26",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "openSeller": [
+          "9"
+        ]
+      },
+      "editor": {
+        "x": 2950,
+        "y": 350
+      },
+      "_comment": "Ассортимент от 50к до 100к рублей"
+    },
+    {
+      "id": 21,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Надеюсь нашел что хотел.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage": "27",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "openSeller": [
+          "10"
+        ]
+      },
+      "editor": {
+        "x": 3300,
+        "y": 350
+      },
+      "_comment": "Ассортимент от 100к до 300к рублей"
+    },
+    {
+      "id": 22,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Надеюсь нашел что хотел.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage": "28",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "openSeller": [
+          "11"
+        ]
+      },
+      "editor": {
+        "x": 3650,
+        "y": 350
+      },
+      "_comment": "Ассортимент от 300к до 600к рублей"
+    },
+    {
+      "id": 23,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Надеюсь нашел что хотел.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Благодарю",
+          "stage": "29",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "openSeller": [
+          "12"
+        ]
+      },
+      "editor": {
+        "x": 4000,
+        "y": 350
+      },
+      "_comment": "Ассортимент от 600к рублей"
+    },
+    {
+      "id": 24,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {},
+      "editor": {
+        "x": 2250,
+        "y": 500
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 25,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {},
+      "editor": {
+        "x": 2600,
+        "y": 500
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 26,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {},
+      "editor": {
+        "x": 2950,
+        "y": 500
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 27,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {},
+      "editor": {
+        "x": 3300,
+        "y": 500
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 28,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {},
+      "editor": {
+        "x": 3650,
+        "y": 500
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 29,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Бармен",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {},
+      "editor": {
+        "x": 4000,
+        "y": 500
+      },
+      "_comment": "Переход на 3:29"
+    }
+  ],
+  "points": {},
+  "spawns": {},
+  "missions": [],
+  "title": "Модуль с Ассортиментом Торговцев",
+  "_comment": ""
+}

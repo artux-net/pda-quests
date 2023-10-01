@@ -397,11 +397,7 @@
           "stage": "14",
           "chapter": "6"
         },
-        "condition": {
-          "has": [
-            "Beta"
-          ]
-        },
+        "condition": {},
         "editor": {
           "x": 3500,
           "y": 0

@@ -167,7 +167,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/19.jpg",
       "title": "Сапыр",
-      "message": "Получено: 1000 рублей",
+      "message": "Получено: 1000 рублей \nЗадание обновлено: Вернуться к Сидоровичу",
       "type_message": 0,
       "texts": [
         {
@@ -191,10 +191,13 @@
         ],
         "money": [
           "1000"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ]
       },
       "editor": {
-        "x": 168.86733983498237,
+        "x": 167.01162571983525,
         "y": 786.4608028468429
       },
       "_comment": "Дальнейшее развитие событий?"
@@ -268,7 +271,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/19.jpg",
       "title": "Сапыр",
-      "message": "",
+      "message": "Задание обновлено: Вернуться к Сидоровичу",
       "type_message": 0,
       "texts": [
         {
@@ -289,6 +292,9 @@
         ],
         "remove": [
           "quest_1_0_sapyr_sidor"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ]
       },
       "editor": {
@@ -358,6 +364,9 @@
         "note": [
           "Тайник Вовка Легкий",
           "В Тёмной Долине, в районе "
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
       "editor": {
@@ -499,7 +508,11 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
       "editor": {
         "x": 1274.1942508059658,
         "y": 780.5987320674813
@@ -532,7 +545,7 @@
       },
       "editor": {
         "x": 1064.8414979894858,
-        "y": 881.5534061558593
+        "y": 883.4091202710064
       }
     },
     {
@@ -562,7 +575,7 @@
         ]
       },
       "editor": {
-        "x": 1390.8414979894853,
+        "x": 1389.9136409319117,
         "y": 880.5534061558593
       }
     },
@@ -586,7 +599,9 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "syncNow": []
+      },
       "editor": {
         "x": 1275.123059818704,
         "y": 1018.2266424735215
@@ -753,7 +768,7 @@
       "actions": {},
       "editor": {
         "x": 1374.9416860210629,
-        "y": 1649.2330831809033
+        "y": 1647.377369065756
       }
     },
     {
@@ -791,7 +806,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/18.jpg",
       "title": "Неизвестный сталкер",
-      "message": "",
+      "message": "Задание обновлено: Вернуться к Сидоровичу",
       "type_message": 0,
       "texts": [
         {
@@ -812,11 +827,14 @@
         ],
         "remove": [
           "quest_1_0_flash_sidor"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ]
       },
       "editor": {
         "x": 1096.9904820758507,
-        "y": 2006.343322082429
+        "y": 2004.9369537689113
       }
     },
     {
@@ -1012,7 +1030,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/23.jpg",
       "title": "Неизвестный сталкер",
-      "message": "Новый квест: идти к трубам",
+      "message": "Задание обновлено: идти к трубам",
       "type_message": 0,
       "texts": [
         {
@@ -1027,7 +1045,11 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
       "editor": {
         "x": 1919.916882203896,
         "y": 883.1175235413776
@@ -1106,7 +1128,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/23.jpg",
       "title": "Неизвестный сталкер",
-      "message": "Потеряны деньги: 500 рублей.\nНовый квест: идти к трубам",
+      "message": "Потеряны деньги: 500 рублей.\nЗадание обновлено: идти к трубам",
       "type_message": 0,
       "texts": [
         {
@@ -1124,6 +1146,9 @@
       "actions": {
         "money": [
           "-500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
       "editor": {
@@ -1292,7 +1317,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/25.jpg",
       "title": "Ворон",
-      "message": "",
+      "message": "Задание обновлено: Вернуться в Депо",
       "type_message": 0,
       "texts": [
         {
@@ -1313,6 +1338,9 @@
         ],
         "remove": [
           "quest_1_0_monsvalka_sidor1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ]
       },
       "editor": {
@@ -1415,7 +1443,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/26.jpg",
       "title": "Неизвестный сталкер",
-      "message": "Новый квест: Вернуться к Сидоровичу",
+      "message": "Задание обновлено: Вернуться к Сидоровичу",
       "type_message": 0,
       "texts": [
         {
@@ -1436,10 +1464,13 @@
         ],
         "remove": [
           "quest_1_0_monsvalka_sidor2"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ]
       },
       "editor": {
-        "x": 2928.0483653021333,
+        "x": 2926.6419969886156,
         "y": 448.45055031958384
       }
     },
@@ -1496,8 +1527,8 @@
         "pos": "138:222"
       },
       "editor": {
-        "x": 3323.163107803207,
-        "y": 511.4035242634878
+        "x": 3460.4800101051287,
+        "y": 487.1711297396192
       }
     },
     {
@@ -1630,11 +1661,14 @@
           "83:2",
           "86:2",
           "88:1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
-        "x": 3876.1889953411996,
-        "y": 564.6994500171322
+        "x": 3886.0335735358244,
+        "y": 568.9185549576857
       }
     },
     {
@@ -1642,7 +1676,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/28.jpg",
       "title": "Сява",
-      "message": "Новый квест: Идти к Бармену",
+      "message": "Задание обновлено: Идти к Бармену",
       "type_message": 0,
       "texts": [
         {
@@ -1661,7 +1695,10 @@
         "remove": [
           "quest_2_0_flash_barmen1"
         ],
-        "syncNow": []
+        "syncNow": [],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
       },
       "editor": {
         "x": 3988.352021262971,
@@ -1741,7 +1778,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/30.jpg",
       "title": "Молотов",
-      "message": "Потеряно денег: 3000 рублей",
+      "message": "Потеряно денег: 3000 рублей\nЗадание обновлено: Вернуться к Бармену",
       "type_message": 0,
       "texts": [
         {
@@ -1763,7 +1800,10 @@
         "remove": [
           "quest_2_0_flash_barmen_money1"
         ],
-        "syncNow": []
+        "syncNow": [],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
       },
       "editor": {
         "x": 4429.614425573387,
@@ -1927,7 +1967,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/32.jpg",
       "title": "Сёгун",
-      "message": "Новый квест: Пообщаться с Волком",
+      "message": "Новое задание: Пообщаться с Волком",
       "type_message": 0,
       "texts": [
         {
@@ -1949,7 +1989,10 @@
         "remove": [
           "quest_99_1_segun_sogl"
         ],
-        "syncNow": []
+        "syncNow": [],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
       },
       "editor": {
         "x": 5131.996442154968,
@@ -2037,7 +2080,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/33.jpg",
       "title": "Волк",
-      "message": "Новый квест: Задать вопрос Сидоровичу",
+      "message": "Задание обновлено: Задать вопрос Сидоровичу",
       "type_message": 0,
       "texts": [
         {
@@ -2058,6 +2101,9 @@
         ],
         "remove": [
           "quest_99_1_segun_gotowolf"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ]
       },
       "editor": {
@@ -2108,7 +2154,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/33.jpg",
       "title": "Волк",
-      "message": "Новый квест: Найти Стрижа.",
+      "message": "Задание обновлено: Найти Стрижа.",
       "type_message": 0,
       "texts": [
         {
@@ -2129,10 +2175,13 @@
         ],
         "remove": [
           "quest_99_1_segun_gotowolf2"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ]
       },
       "editor": {
-        "x": 5746.224978188133,
+        "x": 5747.631346501651,
         "y": 248.63871917858904
       }
     },
@@ -2262,7 +2311,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/34.jpg",
       "title": "Стриж",
-      "message": "Новый квест: Вернуть Танто Сёгуну.",
+      "message": "Задание обновлено: Вернуть Танто Сёгуну.",
       "type_message": 0,
       "texts": [
         {
@@ -2283,6 +2332,9 @@
         ],
         "remove": [
           "quest_99_1_segun_gotostrizh"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ]
       },
       "editor": {
@@ -2307,7 +2359,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/34.jpg",
       "title": "Стриж",
-      "message": "Квест провален: Принести Танто",
+      "message": "Задание провалено: Принести Танто",
       "type_message": 0,
       "texts": [
         {
@@ -2325,6 +2377,9 @@
       "actions": {
         "xp": [
           "-30"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
       "editor": {
@@ -2426,7 +2481,10 @@
         "remove": [
           "quest_99_1_segun_vernul"
         ],
-        "syncNow": []
+        "syncNow": [],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
       },
       "editor": {
         "x": 6718.345161258571,
