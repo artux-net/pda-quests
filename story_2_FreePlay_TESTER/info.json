@@ -3,8 +3,5 @@
   "title": "TEST Свободная игра",
   "desc": "Играй сам за себя: бесконечное количество заданий и приключений.",
   "icon": "story/freeplay/screen/24.jpg",
-  "needs": [
-    1
-  ],
   "access": "TESTER"
 }
