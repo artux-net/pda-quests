@@ -5,7 +5,9 @@
     "0": [],
     "1": [],
     "2": [],
-    "3": []
+    "3": [],
+    "4": [],
+    "5": []
   },
   "spawns": {
     "0": [
@@ -93,36 +95,40 @@
         "group": "MILITARY",
         "pos": "690:1385",
         "r": "20",
-        "strength": "WEAK",
+        "strength": "MIDDLE",
         "n": "5",
         "condition": {},
         "data": {
           "ignorePlayer": []
-        }
+        },
+        "title": "Блокпост Военных под мостом"
       },
       {
         "group": "LONERS",
-        "pos": "593:1595",
+        "pos": "590:1580",
         "r": "25",
         "strength": "WEAK",
         "n": "3",
-        "condition": {}
+        "condition": {},
+        "title": "База Вольных Сталкеров"
       },
       {
         "group": "BANDITS",
-        "pos": "1230:1630",
+        "pos": "1245:1582",
         "r": "20",
         "strength": "WEAK",
         "n": "3",
-        "condition": {}
+        "condition": {},
+        "title": "Туннель"
       },
       {
         "group": "BANDITS",
-        "pos": "800:1083",
+        "pos": "800:1065",
         "r": "25",
         "strength": "WEAK",
         "n": "5",
-        "condition": {}
+        "condition": {},
+        "title": "АТП"
       },
       {
         "group": "LONERS",
@@ -130,7 +136,8 @@
         "r": "25",
         "strength": "WEAK",
         "n": "5",
-        "condition": {}
+        "condition": {},
+        "title": "Деревня новичков"
       },
       {
         "group": "LONERS",
@@ -138,7 +145,8 @@
         "r": "25",
         "strength": "WEAK",
         "n": "3",
-        "condition": {}
+        "condition": {},
+        "title": "Тайный лагерь"
       },
       {
         "group": "MILITARY",
@@ -146,102 +154,130 @@
         "r": "20",
         "strength": "MIDDLE",
         "n": "4",
-        "condition": {}
+        "condition": {},
+        "title": "Южный блокпост Военных"
+      },
+      {
+        "group": "LONERS",
+        "pos": "835:1682",
+        "r": "20",
+        "strength": "WEAK",
+        "n": "2",
+        "condition": {},
+        "title": "Лагерь Сталкеров"
+      },
+      {
+        "group": "BANDITS",
+        "pos": "625:2275",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "title": "Блокпост-приемник"
+      },
+      {
+        "group": "BANDITS",
+        "pos": "600:1240",
+        "r": "25",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {},
+        "title": "Элеватор"
       }
     ],
     "2": [
       {
         "group": "DUTY",
-        "pos": "746:1145",
-        "r": "60",
-        "strength": "WEAK",
+        "pos": "730:1175",
+        "r": "40",
+        "strength": "MIDDLE",
         "n": "3",
-        "condition": {}
+        "condition": {},
+        "title": "Блокпост Долга"
       },
       {
         "group": "LONERS",
         "pos": "813:1041",
         "r": "40",
-        "strength": "WEAK",
-        "n": "3",
-        "condition": {}
-      },
-      {
-        "group": "BANDITS",
-        "pos": "883:921",
-        "r": "40",
-        "strength": "WEAK",
-        "n": "3",
-        "condition": {}
-      },
-      {
-        "group": "LONERS",
-        "pos": "520:760",
-        "r": "80",
-        "strength": "MIDDLE",
-        "n": "6",
-        "condition": {}
-      },
-      {
-        "group": "BANDITS",
-        "pos": "265:718",
-        "r": "40",
         "strength": "MIDDLE",
         "n": "3",
         "condition": {},
-        "data": {
-          "ignorePlayer": []
-        }
+        "title": "Барахолка"
       },
       {
         "group": "LONERS",
-        "pos": "500:380",
-        "r": "70",
-        "strength": "WEAK",
+        "pos": "510:770",
+        "r": "60",
+        "strength": "MIDDLE",
         "n": "6",
-        "condition": {}
+        "condition": {},
+        "title": "Депо"
       },
       {
         "group": "BANDITS",
-        "pos": "880:468",
+        "pos": "225:730",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "data": {},
+        "title": "Лагерь Бандитов"
+      },
+      {
+        "group": "LONERS",
+        "pos": "500:390",
         "r": "50",
         "strength": "MIDDLE",
         "n": "4",
-        "condition": {}
+        "condition": {},
+        "title": "Свалка мёртвой техники"
+      },
+      {
+        "group": "BANDITS",
+        "pos": "820:500",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "4",
+        "condition": {},
+        "title": "Лагерь Бандитов"
       }
     ],
     "3": [
       {
         "group": "LONERS",
         "pos": "1501:1255",
-        "r": "13",
-        "strength": "WEAK",
+        "r": "17",
+        "strength": "MIDDLE",
         "n": "3",
-        "condition": {}
+        "condition": {},
+        "title": "\"Бар\""
       },
       {
         "group": "DUTY",
         "pos": "1737:1130",
         "r": "25",
-        "strength": "WEAK",
+        "strength": "MIDDLE",
         "n": "3",
-        "condition": {}
+        "condition": {},
+        "title": "Южный блокпост Долга"
       },
       {
         "group": "DUTY",
-        "pos": "1386:1500",
+        "pos": "1400:1545",
         "r": "25",
-        "strength": "WEAK",
+        "strength": "MIDDLE",
         "n": "3",
-        "condition": {}
+        "condition": {},
+        "title": "Северный блокпост Долга"
       },
       {
         "group": "LONERS",
-        "pos": "1487:1404",
+        "pos": "1500:1440",
         "r": "30",
         "strength": "WEAK",
         "n": "6",
-        "condition": {}
+        "condition": {},
+        "title": "Регулярный отряд долга"
       },
       {
         "group": "DUTY",
@@ -249,15 +285,126 @@
         "r": "25",
         "strength": "WEAK",
         "n": "3",
-        "condition": {}
+        "condition": {},
+        "title": "Арена"
       },
       {
         "group": "DUTY",
         "pos": "1700:1400",
         "r": "50",
-        "strength": "WEAK",
+        "strength": "STRONG",
         "n": "5",
-        "condition": {}
+        "condition": {},
+        "title": "База Долга"
+      }
+    ],
+    "4": [
+      {
+        "group": "DUTY",
+        "pos": "1260:1540",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "title": "Западный блокпост Долга"
+      },
+      {
+        "group": "MERCENARIES",
+        "pos": "715:1260",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "3",
+        "condition": {},
+        "title": "Патруль Наёмников"
+      },
+      {
+        "group": "MERCENARIES",
+        "pos": "850:1540",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "3",
+        "condition": {},
+        "title": "Патруль Наёмников"
+      },
+      {
+        "group": "MERCENARIES",
+        "pos": "630:1590",
+        "r": "25",
+        "strength": "STRONG",
+        "n": "5",
+        "condition": {},
+        "title": "Лагерь Наёмников"
+      },
+      {
+        "group": "MERCENARIES",
+        "pos": "981:803",
+        "r": "20",
+        "strength": "STRONG",
+        "n": "4",
+        "condition": {},
+        "title": "Блокпост Наёмников"
+      }
+    ],
+    "5": [
+      {
+        "group": "BANDITS",
+        "pos": "320:890",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "5",
+        "condition": {},
+        "title": "Склады базы Бандитов",
+        "actions": {}
+      },
+      {
+        "group": "BANDITS",
+        "pos": "250:100",
+        "r": "25",
+        "strength": "MIDDLE",
+        "n": "5",
+        "condition": {},
+        "title": "Привал Бандитов",
+        "actions": {}
+      },
+      {
+        "group": "BANDITS",
+        "pos": "90:647",
+        "r": "15",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "actions": {},
+        "title": "КПП Бандитов"
+      },
+      {
+        "group": "BANDITS",
+        "pos": "366:815",
+        "r": "20",
+        "strength": "STRONG",
+        "n": "5",
+        "condition": {},
+        "title": "База Бандитов",
+        "actions": {}
+      },
+      {
+        "group": "BANDITS",
+        "pos": "420:760",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "4",
+        "condition": {},
+        "title": "Южный блокпост базы Бандитов",
+        "actions": {}
+      },
+      {
+        "group": "BANDITS",
+        "pos": "420:930",
+        "r": "15",
+        "strength": "MIDDLE",
+        "n": "4",
+        "condition": {},
+        "title": "Северный блокпост Базы Бандитов",
+        "actions": {}
       }
     ]
   },

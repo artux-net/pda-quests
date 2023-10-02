@@ -80,6 +80,9 @@
       "actions": {
         "money": [
           "-500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
       "editor": {
@@ -157,6 +160,9 @@
       "actions": {
         "money": [
           "-500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
       "editor": {
@@ -297,6 +303,9 @@
           "84:2",
           "10:1",
           "29:30"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -389,6 +398,9 @@
           "84:3",
           "38:30",
           "11:1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {

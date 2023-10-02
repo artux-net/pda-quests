@@ -44,14 +44,14 @@
         },
         {
           "text": "Я бы хотел посмотреть ассортимент",
-          "stage": "27",
+          "stage": "38",
           "condition": {}
         }
       ],
       "actions": {},
       "editor": {
-        "x": 349.06548962669524,
-        "y": 150.93451037330476
+        "x": 315.1563826812869,
+        "y": -145.40159814961166
       }
     },
     {
@@ -194,9 +194,6 @@
             ],
             "!has": [
               "stash_2_0_start"
-            ],
-            "has": [
-              "Beta"
             ]
           }
         },
@@ -305,7 +302,7 @@
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-      "message": "Потеряно денег: 2000р",
+      "message": "Потеряно денег: 2000р \nПолучены координаты: Тайник на Дикой территории",
       "type_message": 0,
       "texts": [
         {
@@ -328,7 +325,10 @@
           "stash_2_0",
           "stash_2_0_start"
         ],
-        "syncNow": []
+        "syncNow": [],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
       },
       "editor": {
         "x": 875,
@@ -422,7 +422,7 @@
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-      "message": "Потеряно денег: 1000р",
+      "message": "Потеряно денег: 1000р \nПолучены координаты: Тайник на Свалке",
       "type_message": 0,
       "texts": [
         {
@@ -447,6 +447,9 @@
         ],
         "money": [
           "-1000"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -609,6 +612,9 @@
       "actions": {
         "money": [
           "-500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
       "editor": {
@@ -660,6 +666,9 @@
       "actions": {
         "money": [
           "-200"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
       "editor": {
@@ -693,7 +702,7 @@
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-      "message": "",
+      "message": "Задание обновлено: Вернуться к Волку",
       "type_message": 0,
       "texts": [
         {
@@ -715,7 +724,10 @@
         "remove": [
           "quest_99_1_segun_gotosidor"
         ],
-        "syncNow": []
+        "syncNow": [],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
       },
       "editor": {
         "x": 1750,
@@ -776,65 +788,6 @@
         "x": 350,
         "y": 300
       }
-    },
-    {
-      "id": 27,
-      "type_stage": 0,
-      "background": "story/prologue/screen/chapter_2_21.jpg",
-      "title": "Сидорович",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Вот, погляди",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "text": "...",
-          "stage": "28",
-          "condition": {}
-        }
-      ],
-      "actions": {
-        "add": [
-          "Диалог с торговцем"
-        ],
-        "openSeller": [
-          "1"
-        ],
-        "syncNow": []
-      },
-      "editor": {
-        "x": 2450,
-        "y": 300
-      }
-    },
-    {
-      "id": 28,
-      "type_stage": 0,
-      "background": "story/prologue/screen/chapter_2_21.jpg",
-      "title": "Сидорович",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [],
-      "actions": {
-        "openStage": [
-          "0"
-        ]
-      },
-      "editor": {
-        "x": 2450,
-        "y": 450
-      },
-      "_comment": "Переход на 3:0"
     },
     {
       "id": 29,
@@ -961,40 +914,17 @@
         "add": [
           "Диалог с торговцем"
         ],
-        "openSeller": [
-          "2"
-        ],
-        "syncNow": []
-      },
-      "editor": {
-        "x": 3150,
-        "y": 300
-      }
-    },
-    {
-      "id": 33,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/27.jpg",
-      "title": "Бармен",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [],
-      "actions": {
+        "syncNow": [],
         "openStage": [
-          "29"
+          "9",
+          "15"
         ]
       },
       "editor": {
-        "x": 3150,
-        "y": 450
+        "x": 3148.465583757408,
+        "y": 300
       },
-      "_comment": "Переход на 3:29"
+      "_comment": "Переход на 9:15"
     },
     {
       "id": 34,
@@ -1082,6 +1012,36 @@
         "y": 300
       },
       "_comment": "Переход на 4:41"
+    },
+    {
+      "id": 38,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Сидорович",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "9",
+          "0"
+        ],
+        "add": [
+          "Диалог с торговцем"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": -355.523562786015,
+        "y": 293.78720793015736
+      },
+      "_comment": "Переход на 9:0"
     }
   ],
   "points": {
@@ -1098,8 +1058,8 @@
         },
         "condition": {},
         "editor": {
-          "x": 350,
-          "y": 0
+          "x": 245.32406116852206,
+          "y": -337.61676045645703
         }
       }
     ],

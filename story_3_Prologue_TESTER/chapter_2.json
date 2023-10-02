@@ -1,8 +1,8 @@
 {
-  "id": 1,
+  "id": 2,
   "stages": [
     {
-      "id": 0,
+      "id": 1,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_1.jpg",
       "title": "Аркадий Еврей",
@@ -17,7 +17,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage": "1",
+          "stage": 2,
           "condition": {}
         }
       ],
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": 1,
+      "id": 2,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_1.jpg",
       "title": "Аркадий Еврей",
@@ -43,7 +43,7 @@
       "transfers": [
         {
           "text": "Выйти из здания",
-          "stage": "2",
+          "stage": 3,
           "condition": {}
         }
       ],
@@ -54,7 +54,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 3,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_2.jpg",
       "title": "Блокпост перед Свалкой",
@@ -69,12 +69,12 @@
       "transfers": [
         {
           "text": "Залезть",
-          "stage": "3",
+          "stage": 4,
           "condition": {}
         },
         {
           "text": "Пройти мимо",
-          "stage": "6",
+          "stage": 7,
           "condition": {}
         }
       ],
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 4,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_3.jpg",
       "title": "Блокпост перед Свалкой",
@@ -114,12 +114,12 @@
       "transfers": [
         {
           "text": "Вскрыть ножом",
-          "stage": "4",
+          "stage": 5,
           "condition": {}
         },
         {
           "text": "Вскрыть руками",
-          "stage": "5",
+          "stage": 6,
           "condition": {}
         }
       ],
@@ -130,7 +130,7 @@
       }
     },
     {
-      "id": 4,
+      "id": 5,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_3.jpg",
       "title": "Блокпост перед Свалкой",
@@ -145,7 +145,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage": "6",
+          "stage": 7,
           "condition": {}
         }
       ],
@@ -167,7 +167,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 6,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_3.jpg",
       "title": "Блокпост перед Свалкой",
@@ -182,7 +182,7 @@
       "transfers": [
         {
           "text": "Далее",
-          "stage": "6",
+          "stage": 7,
           "condition": {}
         }
       ],
@@ -202,7 +202,7 @@
       "_comment": "Вычитание хп в стадиях?"
     },
     {
-      "id": 6,
+      "id": 7,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_2.jpg",
       "title": "Блокпост перед Свалкой",
@@ -217,7 +217,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage": "7",
+          "stage": 8,
           "condition": {}
         }
       ],
@@ -228,7 +228,7 @@
       }
     },
     {
-      "id": 7,
+      "id": 8,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_4.jpg",
       "title": "Свалка брошенной техники",
@@ -243,7 +243,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage": "8",
+          "stage": 9,
           "condition": {}
         }
       ],
@@ -254,7 +254,7 @@
       }
     },
     {
-      "id": 8,
+      "id": 9,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_5.jpg",
       "title": "Свалка брошенной техники",
@@ -269,7 +269,7 @@
       "transfers": [
         {
           "text": "Подойти",
-          "stage": "9",
+          "stage": 10,
           "condition": {}
         }
       ],
@@ -284,7 +284,7 @@
       }
     },
     {
-      "id": 9,
+      "id": 10,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
@@ -299,7 +299,7 @@
       "transfers": [
         {
           "text": "Еврей. Аркадий Еврей.",
-          "stage": "10",
+          "stage": 11,
           "condition": {}
         }
       ],
@@ -310,7 +310,7 @@
       }
     },
     {
-      "id": 10,
+      "id": 11,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
@@ -325,7 +325,7 @@
       "transfers": [
         {
           "text": "Хорошо, хорошо, отдаю. ",
-          "stage": "11",
+          "stage": 12,
           "condition": {
             "money>=": [
               "120"
@@ -334,7 +334,7 @@
         },
         {
           "text": "Слушайте, у меня один фиг ни черта нет. Давайте я просто развернусь и уйду, будто этого ничего и не было? ",
-          "stage": "14",
+          "stage": 15,
           "condition": {}
         }
       ],
@@ -350,7 +350,7 @@
       }
     },
     {
-      "id": 11,
+      "id": 12,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
@@ -365,7 +365,7 @@
       "transfers": [
         {
           "text": "...",
-          "stage": "12",
+          "stage": 13,
           "condition": {}
         }
       ],
@@ -383,7 +383,7 @@
       }
     },
     {
-      "id": 12,
+      "id": 13,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
@@ -398,7 +398,7 @@
       "transfers": [
         {
           "text": "Ай, мляя...",
-          "stage": "13",
+          "stage": 14,
           "condition": {}
         }
       ],
@@ -417,7 +417,7 @@
       "_comment": "Вычитание хп в стадиях?"
     },
     {
-      "id": 13,
+      "id": 14,
       "type_stage": 4,
       "data": {
         "map": "2",
@@ -429,7 +429,7 @@
       }
     },
     {
-      "id": 14,
+      "id": 15,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
@@ -444,7 +444,7 @@
       "transfers": [
         {
           "text": "Да мужики, вы чего? Нет у меня ничего!",
-          "stage": "15",
+          "stage": 16,
           "condition": {}
         }
       ],
@@ -455,7 +455,7 @@
       }
     },
     {
-      "id": 15,
+      "id": 16,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
@@ -470,7 +470,7 @@
       "transfers": [
         {
           "text": "Эй, не трогай!",
-          "stage": "16",
+          "stage": 17,
           "condition": {}
         }
       ],
@@ -481,7 +481,7 @@
       }
     },
     {
-      "id": 16,
+      "id": 17,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
@@ -496,7 +496,7 @@
       "transfers": [
         {
           "text": "Тянуться к оружию",
-          "stage": "17",
+          "stage": 18,
           "condition": {
             "!has": [
               "Смерть Игрока от Бандитов на свалке (Пролог, Глава 2)"
@@ -505,7 +505,7 @@
         },
         {
           "text": "Откупиться",
-          "stage": "21",
+          "stage": 22,
           "condition": {}
         }
       ],
@@ -516,7 +516,7 @@
       }
     },
     {
-      "id": 17,
+      "id": 18,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
@@ -531,7 +531,7 @@
       "transfers": [
         {
           "text": "Я сейчас просто разворачиваюсь и иду туда, откуда пришёл, хорошо да?",
-          "stage": "18",
+          "stage": 19,
           "condition": {}
         }
       ],
@@ -542,7 +542,7 @@
       }
     },
     {
-      "id": 18,
+      "id": 19,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
@@ -557,7 +557,7 @@
       "transfers": [
         {
           "text": "...",
-          "stage": "19",
+          "stage": 20,
           "condition": {}
         }
       ],
@@ -568,7 +568,7 @@
       }
     },
     {
-      "id": 19,
+      "id": 20,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_7.jpg",
       "title": "Бандит",
@@ -583,7 +583,7 @@
       "transfers": [
         {
           "text": "Продолжить с контрольной точки",
-          "stage": "20",
+          "stage": 21,
           "condition": {}
         }
       ],
@@ -602,7 +602,7 @@
       }
     },
     {
-      "id": 20,
+      "id": 21,
       "type_stage": 5,
       "actions": {
         "openStage": [
@@ -616,7 +616,7 @@
       }
     },
     {
-      "id": 21,
+      "id": 22,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_6.jpg",
       "title": "Бандит",
@@ -631,7 +631,7 @@
       "transfers": [
         {
           "text": "Продолжить",
-          "stage": "22",
+          "stage": 23,
           "condition": {}
         }
       ],
@@ -650,7 +650,7 @@
       }
     },
     {
-      "id": 22,
+      "id": 23,
       "type_stage": 4,
       "data": {
         "map": "2",
@@ -662,7 +662,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 24,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_8.jpg",
       "title": "Застава Долга перед баром",
@@ -677,7 +677,7 @@
       "transfers": [
         {
           "text": "Перейти",
-          "stage": "24",
+          "stage": 25,
           "condition": {}
         }
       ],
@@ -688,7 +688,7 @@
       }
     },
     {
-      "id": 24,
+      "id": 25,
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_1_8.jpg",
       "title": "Глава окончена!",
@@ -727,8 +727,8 @@
         "name": "От бандитов к бару",
         "pos": "700:1200",
         "data": {
-          "stage": "23",
-          "chapter": "1"
+          "stage": 24,
+          "chapter": "2"
         },
         "condition": {
           "has": [
@@ -740,8 +740,7 @@
           "y": -1.7818849733986468
         }
       }
-    ],
-    "3": []
+    ]
   },
   "spawns": {},
   "missions": [],

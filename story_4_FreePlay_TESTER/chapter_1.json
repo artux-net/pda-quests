@@ -60,7 +60,7 @@
       "actions": {},
       "editor": {
         "x": 0,
-        "y": 150
+        "y": 151.2921637931105
       }
     },
     {
@@ -170,7 +170,7 @@
       "actions": {},
       "editor": {
         "x": 0,
-        "y": 750
+        "y": 749.0207229660688
       }
     },
     {
@@ -271,7 +271,11 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
       "editor": {
         "x": 0,
         "y": 1350
@@ -334,7 +338,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
-      "message": "Новый квест: Отправиться в НИИЧАЗ",
+      "message": "Новое задание: Отправиться в НИИЧАЗ",
       "type_message": 0,
       "texts": [
         {
@@ -352,6 +356,9 @@
       "actions": {
         "add": [
           "quest_0_0"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -515,7 +522,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
-      "message": "Новый квест: Идти к учёному",
+      "message": "Задание обновлено: Идти к учёному",
       "type_message": 0,
       "texts": [
         {
@@ -533,6 +540,9 @@
       "actions": {
         "add": [
           "quest_0_0_post_uch1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ]
       },
       "editor": {
@@ -587,7 +597,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
-      "message": "Новый квест: Вернуться в бар",
+      "message": "Задание обновлено: Вернуться в бар",
       "type_message": 0,
       "texts": [
         {
@@ -605,6 +615,9 @@
       "actions": {
         "add": [
           "quest_0_0_post_bar"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ]
       },
       "editor": {
@@ -670,7 +683,11 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
       "editor": {
         "x": 1225,
         "y": 300
@@ -805,7 +822,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/2.jpg",
       "title": "Клементьев",
-      "message": "Новый квест: Вернуться в бар",
+      "message": "Новое задание: Вернуться в бар",
       "type_message": 0,
       "texts": [
         {
@@ -820,7 +837,11 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
       "editor": {
         "x": 1070.0226629558108,
         "y": 1068.2815618292186
@@ -869,7 +890,7 @@
         ]
       },
       "editor": {
-        "x": 1750,
+        "x": 1748.0414459321375,
         "y": 1050
       }
     },
@@ -930,7 +951,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/3.jpg",
       "title": "Блокпост",
-      "message": "Новый квест: Вернуться в бар",
+      "message": "Новое задание: Вернуться в бар",
       "type_message": 0,
       "texts": [
         {
@@ -948,10 +969,13 @@
       "actions": {
         "xp": [
           "-100"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
-        "x": 1575,
+        "x": 1573.2949796529763,
         "y": 1350
       }
     },
@@ -990,6 +1014,12 @@
       "actions": {
         "add": [
           "quest_0_0_post_uch1_exit"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ],
+        "money": [
+          "500"
         ]
       },
       "editor": {
@@ -1040,7 +1070,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/3.jpg",
       "title": "Блокпост",
-      "message": "Новый квест: Вернуться в бар. Потеряно: 1000 рублей",
+      "message": "Новое задание: Вернуться в бар. Потеряно: 1000 рублей",
       "type_message": 0,
       "texts": [
         {
@@ -1058,6 +1088,12 @@
       "actions": {
         "remove": [
           "quest_0_0_post_uch1_exit"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "money": [
+          "-1000"
         ]
       },
       "editor": {
@@ -1108,7 +1144,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
-      "message": "Новый квест: Вернуться в НИИЧАЗ. Получено: 500 рублей",
+      "message": "Задание обновлено: Вернуться в НИИЧАЗ. Получено: 500 рублей",
       "type_message": 0,
       "texts": [
         {
@@ -1132,6 +1168,9 @@
         ],
         "add": [
           "quest_0_0_post_bar1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ]
       },
       "editor": {
@@ -1182,7 +1221,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/1.jpg",
       "title": "Блокпост",
-      "message": "Новый квест: Идти к ученому. Потеряно: 1000 рублей",
+      "message": "Новое задание: Идти к ученому. Потеряно: 1000 рублей",
       "type_message": 0,
       "texts": [
         {
@@ -1206,11 +1245,14 @@
         ],
         "remove": [
           "quest_0_0_post_bar1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
         "x": 2275,
-        "y": 300
+        "y": 298.70783620688945
       }
     },
     {
@@ -1429,7 +1471,7 @@
       ],
       "actions": {},
       "editor": {
-        "x": 2625,
+        "x": 2624.0207229660687,
         "y": 1200
       }
     },
@@ -1459,11 +1501,17 @@
         ],
         "remove": [
           "quest_0_0_sng1"
+        ],
+        "money": [
+          "-5000"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
         ]
       },
       "editor": {
-        "x": 2625,
-        "y": 1350
+        "x": 2625.9792770339313,
+        "y": 1333.3522904231684
       }
     },
     {
@@ -1471,7 +1519,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/10.jpg",
       "title": "Майор Киргизов",
-      "message": "Новый квест: Идти в НИИЧАЗ",
+      "message": "Новое задание: Идти в НИИЧАЗ",
       "type_message": 0,
       "texts": [
         {
@@ -1482,6 +1530,11 @@
       "transfers": [
         {
           "text": "Пока",
+          "stage": "110",
+          "condition": {}
+        },
+        {
+          "text": "Пока",
           "stage": "58",
           "condition": {}
         }
@@ -1490,12 +1543,16 @@
         "+": [
           "relation_2:15"
         ],
-        "syncNow": []
+        "syncNow": [],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
       },
       "editor": {
         "x": 2625,
         "y": 1500
-      }
+      },
+      "_comment": ""
     },
     {
       "id": 58,
@@ -1505,8 +1562,8 @@
         "pos": "2093:1139"
       },
       "editor": {
-        "x": 2625,
-        "y": 1650
+        "x": 2635.1240452616694,
+        "y": 1675.0486048629023
       }
     },
     {
@@ -1658,7 +1715,7 @@
         ]
       },
       "editor": {
-        "x": 3325,
+        "x": 3323.2949796529765,
         "y": 600
       }
     },
@@ -1679,7 +1736,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/8.jpg",
       "title": "Валерка",
-      "message": "Новый квест: Отправиться за пропуском. Потеряно: 800 рублей",
+      "message": "Новое задание: Отправиться за пропуском. Потеряно: 800 рублей",
       "type_message": 0,
       "texts": [
         {
@@ -1694,7 +1751,14 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "money": [
+          "-800"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
       "editor": {
         "x": 2975,
         "y": 750
@@ -1743,7 +1807,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Дом",
-      "message": "Новый квест: Идти на базу СНГ",
+      "message": "Новое задание: Идти на базу СНГ",
       "type_message": 0,
       "texts": [
         {
@@ -1761,6 +1825,9 @@
       "actions": {
         "add": [
           "quest_0_0_sng1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -1867,7 +1934,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
-      "message": "Новый квест: Идти к Калине",
+      "message": "Новое задание: Идти к Калине",
       "type_message": 0,
       "texts": [
         {
@@ -1882,7 +1949,11 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
       "editor": {
         "x": 4045,
         "y": 600
@@ -2059,7 +2130,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/6.jpg",
       "title": "Калина",
-      "message": "Получен предмет: 700 рублей",
+      "message": "Получен предмет: 700 рублей \nЗадание обновлено: Вернуться к Джо",
       "type_message": 0,
       "texts": [
         {
@@ -2074,7 +2145,11 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
       "editor": {
         "x": 3520,
         "y": 2100
@@ -2194,7 +2269,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/7.jpg",
       "title": "Калина",
-      "message": "Новый квест: Подойти к Джо",
+      "message": "Задание обновлено: Подойти к Джо",
       "type_message": 0,
       "texts": [
         {
@@ -2209,7 +2284,11 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
       "editor": {
         "x": 4220,
         "y": 2100
@@ -2285,7 +2364,11 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
       "editor": {
         "x": 4045,
         "y": 2400
@@ -2321,6 +2404,9 @@
         "remove": [
           "quest_0_0_kalina_loh",
           "quest_0_0_kalina_krasawa"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -2333,7 +2419,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/0.jpg",
       "title": "Бармен Джо",
-      "message": "Новый квест: Отправиться к базе СНГ",
+      "message": "Новое задание: Отправиться к базе СНГ",
       "type_message": 0,
       "texts": [
         {
@@ -2351,6 +2437,9 @@
       "actions": {
         "add": [
           "quest_0_0_naebka"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -2627,6 +2716,9 @@
       "actions": {
         "add": [
           "propusk_001"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -2639,7 +2731,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/12.jpg",
       "title": "Василий Алексеевич",
-      "message": "Новый квест: Идти к Периметру",
+      "message": "Задание обновлено: Идти к Периметру",
       "type_message": 0,
       "texts": [
         {
@@ -2660,10 +2752,13 @@
         ],
         "remove": [
           "quest_0_0_sng2"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA.mp3"
         ]
       },
       "editor": {
-        "x": 4572.297396709994,
+        "x": 4570.59237636297,
         "y": 1650
       }
     },
@@ -2710,7 +2805,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/13.jpg",
       "title": "Блокпост",
-      "message": "Новый квест: Пересечь Периметр",
+      "message": "Задание обновлено: Пересечь Периметр",
       "type_message": 0,
       "texts": [
         {
@@ -2725,7 +2820,11 @@
           "condition": {}
         }
       ],
-      "actions": {},
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
       "editor": {
         "x": 5138.845430974378,
         "y": 383.33299687572406

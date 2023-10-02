@@ -359,6 +359,9 @@
         ],
         "money": [
           "1500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -478,6 +481,9 @@
         ],
         "money": [
           "1000"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -599,6 +605,9 @@
           "quest_1_1_fleshka_sidora",
           "add_quest_1_0_flash_sidor",
           "quest_1_0_flash_sidor_fin"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -860,7 +869,7 @@
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-      "message": "",
+      "message": "Новое задание: Конкурент Сидоровича",
       "type_message": 0,
       "texts": [
         {
@@ -884,6 +893,9 @@
         "add": [
           "quest_1_0_sapyr_sidor",
           "add_quest_1_0_sapyr_sidor"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -978,7 +990,7 @@
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-      "message": "",
+      "message": "Новое задание: Найти Флэшку.",
       "type_message": 0,
       "texts": [
         {
@@ -1002,6 +1014,9 @@
         "add": [
           "quest_1_0_flash_sidor",
           "add_quest_1_0_flash_sidor"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -1174,7 +1189,7 @@
       "type_stage": 0,
       "background": "story/prologue/screen/chapter_2_21.jpg",
       "title": "Сидорович",
-      "message": "",
+      "message": "Новое задание: Разузнать про Монолитовца.",
       "type_message": 0,
       "texts": [
         {
@@ -1199,6 +1214,9 @@
           "quest_1_0_monsvalka_sidor",
           "add_quest_1_0_monsvalka_sidor",
           "1add_quest_1_0_monsvalka_sidor"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -1532,6 +1550,9 @@
       "actions": {
         "money": [
           "3500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
@@ -1544,7 +1565,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/27.jpg",
       "title": "Бармен",
-      "message": "",
+      "message": "Задание обновлено: Отдать долг Сявы",
       "type_message": 0,
       "texts": [
         {
@@ -1572,11 +1593,14 @@
         ],
         "remove": [
           "quest_2_0_flash_barmen2_fin"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
         ]
       },
       "editor": {
-        "x": 6400.613004863923,
-        "y": 426.248857606088
+        "x": 6402.048155601576,
+        "y": 427.6840083437404
       }
     },
     {
@@ -1635,11 +1659,11 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/27.jpg",
       "title": "Бармен",
-      "message": "Получено: колбаса х2, водка",
+      "message": "Получено: 1500 р.",
       "type_message": 0,
       "texts": [
         {
-          "text": "Хорошо. Держи немного еды, пригодится.",
+          "text": "Хорошо. Держи награду.",
           "condition": {}
         }
       ],
@@ -1656,13 +1680,19 @@
         ],
         "remove": [
           "quest_2_0_flash_barmen_money_fin"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "money": [
+          "1500"
         ]
       },
       "editor": {
         "x": 7040.915876474917,
         "y": 264.30742690485897
       },
-      "_comment": "Еды в игре сейчас нет, нужно внедрить."
+      "_comment": ""
     },
     {
       "id": 54,
@@ -1778,7 +1808,7 @@
       "type_stage": 0,
       "background": "story/freeplay/screen/27.jpg",
       "title": "Бармен",
-      "message": "Новый квест: Идти в Темную долину к ферме",
+      "message": "Новое задание: Идти в Темную долину к ферме",
       "type_message": 0,
       "texts": [
         {
@@ -1802,6 +1832,9 @@
         "add": [
           "quest_2_0_flash_barmen",
           "add_quest_2_0_flash_barmen"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
         ]
       },
       "editor": {
