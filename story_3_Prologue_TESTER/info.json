@@ -2,6 +2,6 @@
   "id": 3,
   "title": "TESTERS Ч-4: Пролог",
   "desc": "V 2.0.0 - Копия пролога, но для тестеров, здесь будут публиковаться обновления перед заливом юзерам, позже так же тут будет список изменений",
-  "icon": "tory/backgrounds/test_prologue.png",
+  "icon": "story/backgrounds/test_prologue.png",
   "access": "TESTER"
 }

@@ -2,6 +2,6 @@
   "id": 4,
   "title": "TESTERS Свободная игра",
   "desc": "V 2.0.5 - Копия свободной игры, но для тестеров, здесь будут публиковаться обновления перед заливом юзерам, позже так же тут будет список изменений",
-  "icon": "story/freeplay/screen/24.jpg",
+  "icon": "story/backgrounds/test_freeplay.png",
   "access": "TESTER"
 }
