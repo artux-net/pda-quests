@@ -119,7 +119,7 @@
         "strength": "WEAK",
         "n": "3",
         "condition": {},
-        "title": "Туннель"
+        "title": "Туннель "
       },
       {
         "group": "BANDITS",
@@ -255,7 +255,7 @@
       {
         "group": "DUTY",
         "pos": "1737:1130",
-        "r": "25",
+        "r": "15",
         "strength": "MIDDLE",
         "n": "3",
         "condition": {},
@@ -264,18 +264,18 @@
       {
         "group": "DUTY",
         "pos": "1400:1545",
-        "r": "25",
+        "r": "15",
         "strength": "MIDDLE",
         "n": "3",
         "condition": {},
         "title": "Северный блокпост Долга"
       },
       {
-        "group": "LONERS",
+        "group": "DUTY",
         "pos": "1500:1440",
         "r": "30",
         "strength": "WEAK",
-        "n": "6",
+        "n": "4",
         "condition": {},
         "title": "Регулярный отряд долга"
       },
@@ -283,7 +283,7 @@
         "group": "DUTY",
         "pos": "1582:1381",
         "r": "25",
-        "strength": "WEAK",
+        "strength": "STRONG",
         "n": "3",
         "condition": {},
         "title": "Арена"

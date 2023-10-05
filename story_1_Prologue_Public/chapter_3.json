@@ -3379,6 +3379,90 @@
         "x": 6245.633459357073,
         "y": -1573.339192052033
       }
+    },
+    {
+      "id": 126,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_24.jpg",
+      "title": "Блокпост военных",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Матёрый подошел к военным.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Я на выход из Зоны.",
+          "stage": "127",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5788.6048878817655,
+        "y": 184.93958063237085
+      }
+    },
+    {
+      "id": 127,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_24.jpg",
+      "title": "Сержант Кулицкий",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Лицензию получить можно в НИИ ЧАЗ. Учёные изучат состояние организма, и отпустят, если не обнаружат ничего подозрительного.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "То есть, сталкеры для вас перестали быть мясом? Надо же.",
+          "stage": "128",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5769.033313724472,
+        "y": 289.3213094712784
+      }
+    },
+    {
+      "id": 128,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_24.jpg",
+      "title": "Сержант Кулицкий",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ты не разговаривай давай. Сдавай всё снаряжение, надевай нулёвку и вали с поста.",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {},
+      "editor": {
+        "x": 5777.006918010777,
+        "y": 406.75075441504947
+      }
+    },
+    {
+      "id": 129,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "235:235"
+      },
+      "editor": {
+        "x": 5780.022338710379,
+        "y": 520.7517662441177
+      }
     }
   ],
   "points": {
@@ -3444,10 +3528,10 @@
         "id": "f52503f0-cda1-4e09-b27c-db70d7928145",
         "type": 0,
         "name": "От деревни к выходу из зоны",
-        "pos": "302:508",
+        "pos": "302:540",
         "data": {
-          "chapter": "3",
-          "stage": ""
+          "stage": "126",
+          "chapter": "3"
         },
         "condition": {
           "has": [
@@ -3618,7 +3702,129 @@
     ]
   },
   "spawns": {},
-  "missions": [],
+  "missions": [
+    {
+      "title": "Покинуть Бар",
+      "name": "pokinut-bar",
+      "checkpoints": [
+        {
+          "title": "Выбраться за территорию Долга",
+          "parameter": "Задание - Матвиенко, начало (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Потерянная СВД",
+      "name": "poteryannaya-svd",
+      "checkpoints": [
+        {
+          "title": "Заглянуть на барахолку",
+          "parameter": "Задание - Матвиенко, Добраться до барахолки (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Стоянка между холмов",
+          "parameter": "Задание - Матвиенко, Добраться до стоянки (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Сталкер в туннеле",
+          "parameter": "Задание - Матвиенко, найти сталкера (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Найти тайник в лесу",
+          "parameter": "Задание - Матвиенко, Добраться до леса (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Вернуться к Матвиенко",
+          "parameter": "Задание - Матвиенко, Вернуть СВД (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Вернуться на Кордон",
+      "name": "vernut-sya-na-kordon",
+      "checkpoints": [
+        {
+          "title": "Добраться до блокпоста",
+          "parameter": "Задание - Сталкеры на кордоне (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Деревня Новичков",
+      "name": "derevnya-novichkov",
+      "checkpoints": [
+        {
+          "title": "Посетить Деревни Новичков",
+          "parameter": "Задание -  Добраться до Деревни (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Забрать ПДА Философа",
+          "parameter": "Задание -  Поиск Философа (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Отнести ПДА Сидоровичу",
+          "parameter": "Задание - Отнести Пда Сидоровичу (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Выйти из ЧЗО",
+      "name": "vyyti-iz-chzo",
+      "checkpoints": [
+        {
+          "title": "Выйти за периметр",
+          "parameter": "Задание -  Выйти за периметр (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Снять Дом",
+          "parameter": "...",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Добраться до Дома",
+          "parameter": "...",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    }
+  ],
   "title": "Третья Глава",
   "_comment": "Игра за Матёрого"
 }
