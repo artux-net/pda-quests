@@ -787,7 +787,21 @@
     "3": []
   },
   "spawns": {},
-  "missions": [],
+  "missions": [
+    {
+      "title": "Задания от Сидоровича",
+      "name": "zadaniya-ot-sidorovicha",
+      "checkpoints": [
+        {
+          "title": "Заглянуть на блокпост-приемник",
+          "parameter": "Задание - Идти к Еврею (Пролог, Глава 1)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    }
+  ],
   "title": "Первая Глава",
   "_comment": "Игра за Коммуниста"
 }

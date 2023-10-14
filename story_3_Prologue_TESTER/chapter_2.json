@@ -711,7 +711,11 @@
         "xp": [
           "15"
         ],
-        "syncNow": []
+        "syncNow": [],
+        "openStage": [
+          "3",
+          "0"
+        ]
       },
       "editor": {
         "x": 457.03682312031515,
@@ -743,7 +747,21 @@
     ]
   },
   "spawns": {},
-  "missions": [],
+  "missions": [
+    {
+      "title": "Добраться до бара",
+      "name": "dobrat-sya-do-bara",
+      "checkpoints": [
+        {
+          "title": "Блокпост Долга",
+          "parameter": "Задание - Идти в Бар (Пролог, Глава 2)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    }
+  ],
   "title": "Вторая Глава",
   "_comment": "Игра за Еврея"
 }
