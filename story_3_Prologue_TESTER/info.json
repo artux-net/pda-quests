@@ -2,6 +2,6 @@
   "id": 3,
   "title": "TEST Ч-4: Пролог",
   "desc": "V 2.0.1 - Обновление: было добавлено завершение пролога, миссии и отредактированны точки",
-  "icon": "story/prologue/screen/chapter_0_7.jpg",
+  "icon": "story/backgrounds/test_prologue.png",
   "access": "TESTER"
 }
