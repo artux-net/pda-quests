@@ -4240,10 +4240,10 @@
         }
       ],
       "actions": {
-        "syncNow": [],
         "reset": [
           "items"
-        ]
+        ],
+        "syncNow": []
       },
       "editor": {
         "x": 8395.332459700263,
