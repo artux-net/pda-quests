@@ -1530,11 +1530,6 @@
       "transfers": [
         {
           "text": "Пока",
-          "stage": "110",
-          "condition": {}
-        },
-        {
-          "text": "Пока",
           "stage": "58",
           "condition": {}
         }

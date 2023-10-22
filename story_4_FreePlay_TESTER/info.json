@@ -1,7 +1,7 @@
 {
   "id": 4,
   "title": "TEST Свободная игра",
-  "desc": "V 2.0.6 - Были добавлены награды за точки",
+  "desc": "V 2.1.1 - Исправления Торговцев",
   "icon": "story/backgrounds/test_freeplay.png",
   "access": "TESTER"
 }
