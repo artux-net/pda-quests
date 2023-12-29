@@ -44,7 +44,7 @@
         },
         {
           "text": "Я бы хотел посмотреть ассортимент",
-          "stage": "38",
+          "stage": "39",
           "condition": {}
         }
       ],
@@ -821,11 +821,6 @@
           "condition": {}
         },
         {
-          "text": "Я хочу посмотреть ассортимент",
-          "stage": "32",
-          "condition": {}
-        },
-        {
           "text": "Мне нужна информация",
           "stage": "34",
           "condition": {
@@ -837,6 +832,11 @@
         {
           "text": "Я по поводу работы",
           "stage": "36",
+          "condition": {}
+        },
+        {
+          "text": "Я хочу посмотреть ассортимент",
+          "stage": "40",
           "condition": {}
         }
       ],
@@ -889,42 +889,6 @@
         "x": 2800,
         "y": 450
       }
-    },
-    {
-      "id": 32,
-      "type_stage": 0,
-      "background": "story/freeplay/screen/27.jpg",
-      "title": "Бармен",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "Ну посмотри, чем богаты.",
-          "condition": {}
-        }
-      ],
-      "transfers": [
-        {
-          "text": "...",
-          "stage": "33",
-          "condition": {}
-        }
-      ],
-      "actions": {
-        "add": [
-          "Диалог с торговцем"
-        ],
-        "syncNow": [],
-        "openStage": [
-          "9",
-          "15"
-        ]
-      },
-      "editor": {
-        "x": 3148.465583757408,
-        "y": 300
-      },
-      "_comment": "Переход на 9:15"
     },
     {
       "id": 34,
@@ -1014,34 +978,46 @@
       "_comment": "Переход на 4:41"
     },
     {
-      "id": 38,
-      "type_stage": 0,
-      "background": "story/prologue/screen/chapter_2_21.jpg",
-      "title": "Сидорович",
-      "message": "",
-      "type_message": 0,
-      "texts": [
-        {
-          "text": "",
-          "condition": {}
-        }
-      ],
-      "transfers": [],
+      "id": 39,
+      "type_stage": 5,
       "actions": {
-        "openStage": [
-          "9",
-          "0"
+        "openSeller": [
+          "1"
         ],
         "add": [
           "Диалог с торговцем"
         ],
-        "syncNow": []
+        "syncNow": [],
+        "openStage": [
+          "0"
+        ]
       },
+      "transfers": [],
       "editor": {
-        "x": -355.523562786015,
-        "y": 293.78720793015736
+        "x": -299.28392147848206,
+        "y": 282.45687437590607
+      }
+    },
+    {
+      "id": 40,
+      "type_stage": 5,
+      "actions": {
+        "openSeller": [
+          "2"
+        ],
+        "add": [
+          "Диалог с торговцем"
+        ],
+        "syncNow": [],
+        "openStage": [
+          "29"
+        ]
       },
-      "_comment": "Переход на 9:0"
+      "transfers": [],
+      "editor": {
+        "x": 3121.2802958084108,
+        "y": 328.3966667463478
+      }
     }
   ],
   "points": {
