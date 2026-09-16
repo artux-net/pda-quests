@@ -1,0 +1,5196 @@
+{
+  "id": 3,
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
+      "title": "Veteran",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "An hour later, when the bar had nearly emptied, a marker on Veteran's PDA lit up: the stalker Arkady the Jew had entered the room. A half-finished bottle of vodka stood on the table, and the device's owner stood tiredly, leaning on one arm. Arkady, weighing his options, took the seat across from the old-timer.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Stalker, you got nowhere better to be?",
+          "stage": "1",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 150,
+        "y": 50
+      }
+    },
+    {
+      "id": 1,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Yeah... no. But we can still talk, right?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Listen, I'm busy. Get lost, huh?",
+          "stage": "2",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 142.91358592139756,
+        "y": 178.03211635633235
+      }
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Why? It's just the Barman here.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "A leech on my ass, is what you are.",
+          "stage": "3",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "81:1",
+          "13:1",
+          "8:1",
+          "31:30",
+          "38:90",
+          "89:1",
+          "87:2"
+        ],
+        "money": [
+          "6000"
+        ]
+      },
+      "editor": {
+        "x": 147.16543436855898,
+        "y": 296.85189441048146
+      }
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "You know there's a bunch of boozers hanging around the bar these days, finishing off other people's drinks? We call them bottom-feeders.",
+          "stage": "4",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "+": [
+          "relation_0:40",
+          "relation_4:60"
+        ],
+        "-": [
+          "relation_1:60",
+          "relation_5:100",
+          "relation_6:100"
+        ]
+      },
+      "editor": {
+        "x": 144.330868737118,
+        "y": 504.9604898550218
+      }
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Interesting, but I couldn't care less.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Couldn't care less, my ass.",
+          "stage": "5",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 181.8888633537111,
+        "y": 642.9135859213975
+      }
+    },
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_2.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Yeah, I know. Hey, why's the Barman looking so troubled?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "His son's supposed to fly in next month, with the researchers from NII ChAZ. Word is, some ex-stalker got blown up right in his own office.",
+          "stage": "6",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 153.5432070393012,
+        "y": 762.4420053834069
+      }
+    },
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Mercenaries, they say, have completely lost it. There's this guy Sych on the Skadovsk — in the first months after it all went down, he was selling info about some merc, Kremen or Kamen, something like that... Then something happened, and the info just vanished.",
+          "stage": "7",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 198.18761573449677,
+        "y": 900.3951014497828
+      }
+    },
+    {
+      "id": 7,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Oh, the Skadovsk. Been wanting to get there for ages.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "You're such a greenhorn.",
+          "stage": "8",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 151.4172828157205,
+        "y": 1028.427217806115
+      }
+    },
+    {
+      "id": 8,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Why \"greenhorn\"? Bandits shook me down back on the Garbage, for your information.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Near Duty's turf?",
+          "stage": "9",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 153.54320703930125,
+        "y": 1159.2938997938884
+      }
+    },
+    {
+      "id": 9,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Near there, yeah.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Not surprising. Duty runs an arena, hires bandits special for the fights — they rough up our guys for the crowd and get paid for it. They even deal guns straight out of their own warehouse.",
+          "stage": "10",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 199.6048985502173,
+        "y": 1282.365526295199
+      }
+    },
+    {
+      "id": 10,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "A well-known stalker got taken out recently, had a Desert Eagle with the star engravings and a grav-concentrator on it... a beast of a gun, basically. So I decided to go see Kugenol at the warehouse, but turns out that \"rat\" had already set it aside with the unique guns. I waited a week, and — the gun's gone, just like that!",
+          "stage": "11",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 197.47897432663655,
+        "y": 1423.1531879930158
+      }
+    },
+    {
+      "id": 11,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So you've been keeping tabs on Duty?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Not just that — I've got decent standing with pretty much every faction, except the completely feral ones, and the military. Check your PDA sometime, it's a great little thing: shows you all the stats.",
+          "stage": "12",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 148.58271718427955,
+        "y": 1557.5630770200903
+      }
+    },
+    {
+      "id": 12,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I don't think much of the PDA. Nah, you know how it is — it shows one thing, and reality's something else entirely.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What do you mean, reality... I was out at Radar once, ages ago. Duty was pushing through against Monolith — they couldn't split something between them. Constant scrapping, RPGs flying both ways. Explosions you could see from the Dark Valley. And right then, the military rolled in on some mission...",
+          "stage": "13",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 145.74815155283852,
+        "y": 1697.642097310047
+      }
+    },
+    {
+      "id": 13,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, and then what?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Tell the story",
+          "stage": "14",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 196.06169151091606,
+        "y": 1829.9260621135409
+      }
+    },
+    {
+      "id": 14,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_3.jpg",
+      "title": "The 100 Rads Bar",
+      "message": "New quest: leave the bar.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Arkady backed Veteran up, but the two never quite found common ground. The first left somewhere ten minutes later, and the loner fell asleep standing at the counter. When the barman gave him a light kick in the leg, he swayed on his feet. Morning was coming.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave the bar",
+          "stage": "15",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "Задание - Матвиенко, начало (Пролог, Глава 3)"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 96.14325300262124,
+        "y": 1964.3359511406152
+      }
+    },
+    {
+      "id": 15,
+      "type_stage": 4,
+      "data": {
+        "map": "3",
+        "pos": "1544:1285"
+      },
+      "editor": {
+        "x": 154.25184844716148,
+        "y": 2118.5877995877768
+      }
+    },
+    {
+      "id": 16,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
+      "title": "Lieutenant Matvienko",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran, is it? All of Duty knows your name!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'm aware.",
+          "stage": "17",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 580.1554993781644,
+        "y": 189.37037888209625
+      }
+    },
+    {
+      "id": 17,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
+      "title": "Lieutenant Matvienko",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Want to help out?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Nah, I'll just keep moving.",
+          "stage": "18",
+          "condition": {}
+        },
+        {
+          "text": "What's going on?",
+          "stage": "20",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 599.288817390391,
+        "y": 307.4815155283852
+      }
+    },
+    {
+      "id": 18,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
+      "title": "Lieutenant Matvienko",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "No-no-no, wait. People speak highly of you, don't ruin the idyll of law and order here...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Are you gonna needle me until I agree?",
+          "stage": "19",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 723.6776807441022,
+        "y": 446.14325300262124
+      }
+    },
+    {
+      "id": 19,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
+      "title": "Lieutenant Matvienko",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Yep, smart guy.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "So what's going on?",
+          "stage": "20",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 741.3937159406084,
+        "y": 571.3408037275127
+      }
+    },
+    {
+      "id": 20,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
+      "title": "Lieutenant Matvienko",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Aaah... nothing complicated. Just need to find and bring back one item.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Go on.",
+          "stage": "21",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 577.3209337467234,
+        "y": 786.5358132506553
+      }
+    },
+    {
+      "id": 21,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
+      "title": "Lieutenant Matvienko",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "One of our screwups — meaning, a not-too-disciplined soldier — lost a rifle. No ordinary rifle, either — practically legendary, you could say. All you need to know is that this SVD used to be next to impossible to get out of Freedom's hands.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Go on...",
+          "stage": "22",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 577.7875833702543,
+        "y": 913.6881115479936
+      }
+    },
+    {
+      "id": 22,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
+      "title": "Lieutenant Matvienko",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So you don't mix it up, here's the distinguishing mark: a big letter A carved into the top of the stock, standing for anarchy. Last we heard, the rifle was somewhere around the Garbage. Could be the Dark Valley, could be Agroprom. Your job's to find it and bring it back. Clear?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What's in it for me?",
+          "stage": "23",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 582.9300648768796,
+        "y": 1030.2681265983001
+      }
+    },
+    {
+      "id": 23,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_4.jpg",
+      "title": "Lieutenant Matvienko",
+      "message": "New quest: head to the Flea Market.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "We'll toss in a couple boxes of ammo, maybe some other perks too. Deal? Ask around about the rifle at the Flea Market.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Deal",
+          "stage": "24",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "remove": [
+          "Задание - Матвиенко, начало (Пролог, Глава 3)"
+        ],
+        "add": [
+          "Задание - Матвиенко, Добраться до барахолки (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 467.2434203708174,
+        "y": 1139.557988903625
+      }
+    },
+    {
+      "id": 24,
+      "type_stage": 4,
+      "data": {
+        "map": "3",
+        "pos": "1737:1130"
+      },
+      "editor": {
+        "x": 584.9210719241162,
+        "y": 1299.1571002532557
+      }
+    },
+    {
+      "id": 25,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
+      "title": "The Flea Market",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "After passing the northern checkpoint of the Garbage, Veteran arrived at the Flea Market, to see the diggers, just like Matvienko said.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "How's the digging going?",
+          "stage": "26",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1116.4905005734763,
+        "y": 175.15244052599206
+      }
+    },
+    {
+      "id": 26,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
+      "title": "Andrev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "It's not. The guys have pretty much given up hope. Barely found anything the last few days. Nothing but junk worth pennies, literally. Well, except we stumbled on someone's old stash by accident — a couple of AK mags in there. But mags aren't food, and traders won't give more than pennies for them. Maybe you want to buy something off us, huh?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'll take 2 AK mags. How much?",
+          "stage": "27",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1126.3509231621222,
+        "y": 287.7026025731908
+      }
+    },
+    {
+      "id": 27,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
+      "title": "Andrev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "400 rubles sound good?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Yeah, here.",
+          "stage": "28",
+          "condition": {
+            "money>=": [
+              "400"
+            ]
+          }
+        },
+        {
+          "text": "Not right now.",
+          "stage": "29",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1173.9104659023249,
+        "y": 410.12368502485276
+      }
+    },
+    {
+      "id": 28,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
+      "title": "Andrev",
+      "message": "Received: 60 rounds of 5.45x39. \\nLost: 400 rubles.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Perfect, here you go.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Listen, guys, mind helping me out with something?",
+          "stage": "30",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "38:60"
+        ],
+        "money": [
+          "-400"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": 1053.4362134175312,
+        "y": 568.0426376062712
+      }
+    },
+    {
+      "id": 29,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
+      "title": "Andrev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Shame, but alright.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Listen, guys, mind helping me out with something?",
+          "stage": "30",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1278.1044139972814,
+        "y": 567.2286223867793
+      }
+    },
+    {
+      "id": 30,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
+      "title": "Andrev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Why not help out? What kind of thing?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'm looking for a particular gun. Maybe you've heard something about it? An old SVD that used to belong to either Freedom or Duty. Got the letter A carved into the stock.",
+          "stage": "31",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1135.6517505862082,
+        "y": 756.8941685283796
+      }
+    },
+    {
+      "id": 31,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
+      "title": "Andrev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Nope. Never seen one like that. But a couple days ago some guy came running up to us, said bandits set up an ambush and took a rifle or a machine gun off his buddy, then bolted back to their own turf. I'll send you the coordinates on your PDA — they're holed up between the hills.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "That's where the big pit is?",
+          "stage": "32",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1141.3498571226512,
+        "y": 875.7403905741894
+      }
+    },
+    {
+      "id": 32,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_6.jpg",
+      "title": "Andrev",
+      "message": "New quest: head to the camp between the hills.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Something like that.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Good luck, guys.",
+          "stage": "33",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "Задание - Матвиенко, Добраться до стоянки (Пролог, Глава 3)"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "remove": [
+          "Задание - Матвиенко, Добраться до барахолки (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 1017.2993859394801,
+        "y": 996.519840184236
+      }
+    },
+    {
+      "id": 33,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "717:1051"
+      },
+      "editor": {
+        "x": 1118.55743097688,
+        "y": 1146.8074586649743
+      }
+    },
+    {
+      "id": 34,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_7.jpg",
+      "title": "The Boss",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, well, look at that: stalkers been pouring through here like crazy the whole past week!..",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I came to talk.",
+          "stage": "35",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1744.7557420470241,
+        "y": 161.12402464243453
+      }
+    },
+    {
+      "id": 35,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
+      "title": "The Boss",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, right to the point, brother. I like guys who get down to business. So you gotta pay up first, heh-heh-heh. Hand over five hundred.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Here.",
+          "stage": "36",
+          "condition": {
+            "money>=": [
+              "500"
+            ]
+          }
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1750.1735885871021,
+        "y": 277.7524514872056
+      }
+    },
+    {
+      "id": 36,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
+      "title": "The Boss",
+      "message": "Lost: 500 rubles.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Oh, now that's what I like to see, a proper offering. Alright, spit it out, business guy.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, I'll be straight with you: the diggers said you guys took an SVD rifle off some stalker.",
+          "stage": "37",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "-500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": 1748.7679288521595,
+        "y": 403.4640334077326
+      }
+    },
+    {
+      "id": 37,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
+      "title": "The Boss",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What, you here to scare us, avenger boy?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Just let me talk, damn it: I'm looking for a rifle here, I couldn't care less about your little turf wars.",
+          "stage": "38",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1753.4489632257894,
+        "y": 532.3183332575543
+      }
+    },
+    {
+      "id": 38,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
+      "title": "The Boss",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Now that I respect. Huh, you believe this guy? Some sucker was hanging around, waving his piece left and right. So our boys, y'know, shook him down. Turned out to be a tightwad, so we had to off him. But damn, that gun's a real beauty!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What did you do with the rifle?",
+          "stage": "39",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1750.7308509472384,
+        "y": 644.4651139433474
+      }
+    },
+    {
+      "id": 39,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
+      "title": "The Boss",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Eh, listen, you think I'm just gonna tell you all that for free? Slip me some cash and then I'll talk.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "How about I put a barrel to your head and you talk for free?",
+          "stage": "40",
+          "condition": {
+            "!has": [
+              "Смерть игрока в яме от бандитов (Пролог, Глава 3)"
+            ]
+          }
+        },
+        {
+          "text": "Here.",
+          "stage": "42",
+          "condition": {
+            "money>=": [
+              "500"
+            ]
+          }
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1751.6915844229911,
+        "y": 758.3436231376015
+      }
+    },
+    {
+      "id": 40,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
+      "title": "The Boss",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Whoa-whoa, easy, brother! He went into the railway tunnel to the west.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "That's how it should've gone from the start.",
+          "stage": "41",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2089.321627626948,
+        "y": 907.4268713436386
+      }
+    },
+    {
+      "id": 41,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_9.jpg",
+      "title": "The Boss",
+      "message": "Stalker died: Veteran. Cause: gunshot wound.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The stalker holsters his weapon and heads for the tunnel, but soon feels several bullets tear through his back.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue from checkpoint",
+          "stage": "49",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "-2"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ],
+        "add": [
+          "Смерть игрока в яме от бандитов (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 2013.8028800044408,
+        "y": 1032.7521139037362
+      }
+    },
+    {
+      "id": 42,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
+      "title": "The Boss",
+      "message": "Lost: 500 rubles.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "There you go, now that's right! If only everyone was this, heh, reasonable. And I decided to keep the rifle for myself. Wanna buy it? No problem! Cough up 3000 rubles and we're square.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Show me.",
+          "stage": "43",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "-500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": 1638.3073332753995,
+        "y": 905.7749011050757
+      }
+    },
+    {
+      "id": 43,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
+      "title": "The Boss",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Here, take a look.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "This isn't it.",
+          "stage": "44",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1706.2874514988719,
+        "y": 1043.423125966281
+      }
+    },
+    {
+      "id": 44,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
+      "title": "The Boss",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What do you mean, not it?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "That rifle belonged to Freedom, this is some piece of junk.",
+          "stage": "45",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1690.6712977694856,
+        "y": 1151.871395863804
+      }
+    },
+    {
+      "id": 45,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
+      "title": "The Boss",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You're the junk, damn it. But I have heard about it. Another 500 rubles and I'll tell you.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Try not to choke on it.",
+          "stage": "46",
+          "condition": {
+            "money>=": [
+              "500"
+            ]
+          }
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1640.8227418484112,
+        "y": 1272.9228734565752
+      }
+    },
+    {
+      "id": 46,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
+      "title": "The Boss",
+      "message": "Lost: 500 rubles.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So, this sucker shows up not too long ago. Well, \"shows up\" — more like he was passing by the depot. Our guys, naturally, shook the loser down. And he handed over his backpack willingly, only kept a medkit, a bandage, and a pistol on him. Well, we're not animals, so we let a generous guy like that through.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Where'd he head off to?",
+          "stage": "47",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "-500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": 1640.0900674005084,
+        "y": 1395.8357150761235
+      }
+    },
+    {
+      "id": 47,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
+      "title": "The Boss",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Into the railway tunnel, right here by the depot.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Great.",
+          "stage": "48",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1635.2621220954886,
+        "y": 1526.182157520413
+      }
+    },
+    {
+      "id": 48,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_8.jpg",
+      "title": "The Boss",
+      "message": "New quest: find the stalker in the tunnel",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Go on, go on, get lost. Milked the cow dry.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Bull, more like.",
+          "stage": "50",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "add": [
+          "Задание - Матвиенко, найти сталкера (Пролог, Глава 3)"
+        ],
+        "remove": [
+          "Задание - Матвиенко, Добраться до стоянки (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 1533.8659230221847,
+        "y": 1636.5421608854779
+      }
+    },
+    {
+      "id": 49,
+      "type_stage": 5,
+      "actions": {
+        "openStage": [
+          "37"
+        ],
+        "syncNow": []
+      },
+      "transfers": [],
+      "editor": {
+        "x": 2097.8620383910347,
+        "y": 1195.7400555687225
+      }
+    },
+    {
+      "id": 50,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "298:687"
+      },
+      "editor": {
+        "x": 1631.0323413299732,
+        "y": 1784.7068613797226
+      }
+    },
+    {
+      "id": 51,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
+      "title": "The Tunnel",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran headed for the tunnel. The stalker made his way deep inside without any trouble, and found a stalker's corpse.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Search the body.",
+          "stage": "52",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2489.3668227259122,
+        "y": 170.08198044626752
+      }
+    },
+    {
+      "id": 52,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
+      "title": "The Tunnel",
+      "message": "Received: 1x medkit, 1x bandage, 1x PMm, 8x 9x18 rounds.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran found the deceased's PDA.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Check the PDA",
+          "stage": "53",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "add": [
+          "29:8",
+          "0:1",
+          "84:1",
+          "87:1"
+        ]
+      },
+      "editor": {
+        "x": 2496.8554535309854,
+        "y": 289.3425256995155
+      }
+    },
+    {
+      "id": 53,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
+      "title": "The Tunnel",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Name: Sergo the Hunchback. PDA ###. Note 15: Got a job from Freedom. Sounds like an easy gig: find a rifle. Freedom said some stalker swiped it from Duty's warehouse, and's holed up somewhere around the Dark Valley or the Garbage...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "54",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2492.4642777340573,
+        "y": 449.80241305415683
+      }
+    },
+    {
+      "id": 54,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
+      "title": "The Tunnel",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "...Locals are pretty observant, so finding the rifle shouldn't be too hard. Word is it's old, with the letter \"A\" carved on the stock. Once I get it done, they promised not just three hundred greenbacks, but a spot in their ranks too. Finally!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "55",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2487.2402326747033,
+        "y": 568.4108702823503
+      }
+    },
+    {
+      "id": 55,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
+      "title": "The Tunnel",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Note 24: Stalkers at the receiving checkpoint said a few days back they saw a loner with an SVD, poking around the northernmost hill. Gonna buy some anti-rad and then go check it out.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "56",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2490.8153298840475,
+        "y": 685.2433725698979
+      }
+    },
+    {
+      "id": 56,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
+      "title": "The Tunnel",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Note 26: Met two guys at the vehicle graveyard. Said some guy's been hanging around the anomaly field west of the abandoned vehicle graveyard. Didn't see a rifle on him, but word is he's been digging there a long time. Probably not the guy I'm after.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "57",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2489.349936471575,
+        "y": 804.9003487824507
+      }
+    },
+    {
+      "id": 57,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
+      "title": "The Tunnel",
+      "message": "Note created: Sergo the Hunchback: Notes",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Note 29: Diggers at the Flea Market said they saw a guy skulking around the area. No rifle in sight, but the description matches perfectly. Say he went into the tunnel behind the depot a few times. Also mention a Duty guy seen heading into the woods to the southeast. Probably not what I need, but wouldn't hurt to grab his loot.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "58",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "note": [
+          "Sergo the Hunchback: Notes",
+          "PDA #****. Callsign: Sergo the Hunchback. Rank: Experienced. Note 15: Got a job from Freedom. Sounds like an easy gig: find a rifle. Freedom said some stalker swiped it from Duty's warehouse, and's holed up somewhere around the Dark Valley or the Garbage... Locals are pretty observant, so finding the rifle shouldn't be too hard. Word is it's old, with the letter A carved on the stock. Once I get it done, they promised not just three hundred greenbacks, but a spot in their ranks too. Finally! Note 24: Stalkers at the receiving checkpoint said a few days back they saw a loner with an SVD, poking around the northernmost hill. Gonna buy some anti-rad and then go check it out. Note 26: Met two guys at the vehicle graveyard. Said some guy's been hanging around the anomaly field west of the abandoned vehicle graveyard. Didn't see a rifle on him, but word is he's been digging there a long time. Probably not the guy I'm after. Note 29: Diggers at the Flea Market said they saw a guy skulking around the area. No rifle in sight, but the description matches perfectly. Say he went into the tunnel behind the depot a few times. Also mention a Duty guy seen heading into the woods to the southeast. Probably not what I need, but wouldn't hurt to grab his loot."
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 2491.4376995090724,
+        "y": 930.145088032501
+      }
+    },
+    {
+      "id": 58,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_10.jpg",
+      "title": "The Tunnel",
+      "message": "New quest: head into the woods.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The end.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave the tunnel",
+          "stage": "59",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "add": [
+          "Задание - Матвиенко, Добраться до леса (Пролог, Глава 3)"
+        ],
+        "remove": [
+          "Задание - Матвиенко, найти сталкера (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 2399.518739507294,
+        "y": 1066.9448650937513
+      }
+    },
+    {
+      "id": 59,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "315:755"
+      },
+      "editor": {
+        "x": 2482.189425612586,
+        "y": 1226.4340805457064
+      }
+    },
+    {
+      "id": 60,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_11.jpg",
+      "title": "The Woods",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "A herd of pseudo-flesh lay in the woods, but they didn't dare move. One of the gravitational anomalies nervously sucked in air, then let it back out — begging to be fed. Veteran made his way to the stash.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Go to the stash.",
+          "stage": "61",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3111.023624469867,
+        "y": 157.39764472697254
+      }
+    },
+    {
+      "id": 61,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_12.jpg",
+      "title": "The Woods",
+      "message": "New quest: head to Matvienko. Item received: Legendary SVD.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran opened the stash.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Go to the bar",
+          "stage": "62",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "add": [
+          "Задание - Матвиенко, Вернуть СВД (Пролог, Глава 3)",
+          "27:1"
+        ],
+        "remove": [
+          "Задание - Матвиенко, Добраться до леса (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 2855.625350442592,
+        "y": 266.92615429195104
+      }
+    },
+    {
+      "id": 62,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "914:644"
+      },
+      "editor": {
+        "x": 3098.8618678131697,
+        "y": 413.9505961029128
+      }
+    },
+    {
+      "id": 63,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_14.jpg",
+      "title": "Lieutenant Matvienko",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So, Veteran, did you find what we needed?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Choke on it.",
+          "stage": "64",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3922.191594525489,
+        "y": 155.0941472426767
+      }
+    },
+    {
+      "id": 64,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_14.jpg",
+      "title": "Lieutenant Matvienko",
+      "message": "Lost: Legendary SVD. Received: 3000 rubles, 90x 5.45 rounds, 30x 9x19 rounds, 2x medkits, 1x anti-rad",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "No need to be rude — for the speed, you'll get a little extra on top. Duty never leaves a debt unpaid!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Bye",
+          "stage": "65",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "Задание - Сталкер на Свалке (Пролог, Глава 3)",
+          "38:90",
+          "31:30"
+        ],
+        "money": [
+          "3000"
+        ],
+        "xp": [
+          "5"
+        ],
+        "remove": [
+          "Задание - Матвиенко, Вернуть СВД (Пролог, Глава 3)",
+          "27:1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
+      "editor": {
+        "x": 3664.9784248571345,
+        "y": 267.3441118423935
+      }
+    },
+    {
+      "id": 65,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_14.jpg",
+      "title": "Lieutenant Matvienko",
+      "message": "New quest: head to the Garbage",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran decided not to linger on the location and left for the Garbage, without a thought of coming back.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Head to the Garbage",
+          "stage": "66",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 3909.55520882478,
+        "y": 476.0694490778693
+      }
+    },
+    {
+      "id": 66,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "631:1214"
+      },
+      "editor": {
+        "x": 3907.0112206194776,
+        "y": 597.5268048544672
+      }
+    },
+    {
+      "id": 67,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
+      "title": "Unknown Stalker",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran's attention was caught by movement among the scattered crates and abandoned concrete blocks near a metal structure: a rookie, looking utterly desperate, was walking around with a container near a spot where wood splinters, a couple of bolts, and some other junk hovered gently up and down above the ground.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What are you doing?",
+          "stage": "68",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4527.22884889937,
+        "y": 151.92435839630983
+      }
+    },
+    {
+      "id": 68,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
+      "title": "Unknown Stalker",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Mining an artifact. Why?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Been catching it here long?",
+          "stage": "69",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4556.228848899369,
+        "y": 253.5126790627123
+      }
+    },
+    {
+      "id": 69,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
+      "title": "Unknown Stalker",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "A while now. Can't figure it out: I toss bolts, and they just float. Some kind of broken anomalies. Must have broken artifacts in them too...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "You're the broken one — you just need to know more about anomalies. Is this your first artifact?",
+          "stage": "70",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4535.228848899369,
+        "y": 356.622479272189
+      }
+    },
+    {
+      "id": 70,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
+      "title": "Unknown Stalker",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Yeah. Asked around in the village, they said to throw bolts...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Every anomaly is alive to some degree, which means each one needs its own approach. What we've got in front of us right now is a classic \"Elevator.\" Junk like bolts and nuts won't fool it. You need to trick it with something organic. What's your name, by the way?",
+          "stage": "71",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4535.551537100189,
+        "y": 477.0970170630951
+      }
+    },
+    {
+      "id": 71,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
+      "title": "Fadir",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What, does that mean I gotta kill someone? Name's Fadir.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Not necessarily. Got any canned food on you?",
+          "stage": "72",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4539.821952720206,
+        "y": 589.9601838941841
+      }
+    },
+    {
+      "id": 72,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
+      "title": "Fadir",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Stewed meat work?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Go for it.",
+          "stage": "73",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4587.665224961877,
+        "y": 709.1687866345212
+      }
+    },
+    {
+      "id": 73,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
+      "title": "Fadir",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Here.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...Watch and learn!",
+          "stage": "74",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4616.012424091186,
+        "y": 820.052691599451
+      }
+    },
+    {
+      "id": 74,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
+      "title": "Fadir",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Right in front of the rookie, the seasoned stalker speared a chunk of meat with his knife and carefully tossed it into the anomaly.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "See, it's backing off. Grab it now!",
+          "stage": "75",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4534.862687578652,
+        "y": 934.9395622013149
+      }
+    },
+    {
+      "id": 75,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
+      "title": "Fadir",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, thanks for explaining. How can I pay you back?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Nah... you can't. Run along now.",
+          "stage": "76",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4537.842690854047,
+        "y": 1046.2387906462475
+      }
+    },
+    {
+      "id": 76,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
+      "title": "Fadir",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I'm Fadir, I already told you.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Right, Fadir then.",
+          "stage": "77",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4562.897348695052,
+        "y": 1164.5132324829958
+      }
+    },
+    {
+      "id": 77,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_15.jpg",
+      "title": "Fadir",
+      "message": "New quest: cross into the Cordon",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Thank you, stalker.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Take care",
+          "stage": "78",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "5"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "remove": [
+          "Задание - Сталкер на Свалке (Пролог, Глава 3)"
+        ],
+        "add": [
+          "Задание - Сталкеры на кордоне (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 4472.682191887574,
+        "y": 1276.91794664665
+      }
+    },
+    {
+      "id": 78,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "669:1043"
+      },
+      "editor": {
+        "x": 4523.974532487212,
+        "y": 1430.2759628485321
+      }
+    },
+    {
+      "id": 79,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "The Northern Checkpoint",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran trudged up to the checkpoint. Two stalkers sat by the fire. One kept smoking, blowing smoke rings now and then; the other was in the middle of a story. The man recognized a couple of old acquaintances in the pair: Chaplin and Arsenic. Spotting the newcomer, the storyteller paused.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": "80",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5084.660729804707,
+        "y": 159.12797941451126
+      }
+    },
+    {
+      "id": 80,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Arsenic",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Hey there, Veteran! Come sit by the fire!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Hey to you too.",
+          "stage": "81",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5086.697937477091,
+        "y": 265.65150888682433
+      }
+    },
+    {
+      "id": 81,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Arsenic",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Where you headed?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "My own business.",
+          "stage": "82",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5154.478306049438,
+        "y": 384.873550052242
+      }
+    },
+    {
+      "id": 82,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Chaplin",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, since when do you hide things from us?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Yeah... I'm just sick of it all. The constant infighting, the endless mess. I've had enough of eating dirt.",
+          "stage": "83",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5094.959860270601,
+        "y": 506.43754022718133
+      }
+    },
+    {
+      "id": 83,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Chaplin",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Heading for the Big Land?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "That's the one.",
+          "stage": "84",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5152.797218764281,
+        "y": 622.1971220122507
+      }
+    },
+    {
+      "id": 84,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Arsenic",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You're a restless one, Veteran. Always wanting to bolt off somewhere. Here's a bit of advice: nothing works out for the guys with a clear target in mind. The Zone likes it when you drift on the surface like dirt, never washing up on shore. That's what it feeds on, see — that dirt. Saw a real \"clown\" recently: had a fork instead of a hand...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "85",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5085.541717149844,
+        "y": 728.6024588545514
+      }
+    },
+    {
+      "id": 85,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Arsenic",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Get this: Sidor gave him the simplest job — bring back five dog tails. Explained it plain: there's these things running around, no eyes, no ears, biting people, go shoot 'em, cut off the tails, bring 'em back. And what does he do? Doesn't even load his gun before the job...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "86",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5085.704226039448,
+        "y": 840.3468246233991
+      }
+    },
+    {
+      "id": 86,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Arsenic",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Goes out into the area, climbs a hill, spots the dogs and, like some proper Rambo, starts whistling at them! Whistling at the dogs, Veteran! Whistling, I swear! And only then starts loading his gun with shaking little hands!...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "87",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5087.733850071778,
+        "y": 948.985368058083
+      }
+    },
+    {
+      "id": 87,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Arsenic",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "And you know what he fought them off with after that? A sharpened, non-folding Soviet entrenching shovel! That's just insane, that's a sure-fire loser's move, that's like the grenade scene from \"Brother 2,\" I swear! Naturally, he whistled himself right into it, they chewed his arm off, and no decent prosthetic to be found — or someone messed with him on purpose...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ye-e-eah... quite the clown.",
+          "stage": "88",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5093.145898632518,
+        "y": 1051.879000499072
+      }
+    },
+    {
+      "id": 88,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Chaplin",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Yeah, tell me about it. Or take this, for example — heard about a group of guys who went on a job into the underground tunnels at Agroprom, and on the way through the Cordon they picked up some girl. She was out there shooting dogs too, getting her hand in, so to speak, and then their leader swooped in...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " Next",
+          "stage": "89",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5096.52180228418,
+        "y": 1165.1010416644895
+      }
+    },
+    {
+      "id": 89,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Chaplin",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You're useless! You'll die without ever tasting a day of combat glory! So she went down into the underground on a bet with them, dead set on it. And they did kill it in the end — though its claw got the better of them: the ceiling caved in right on the thing.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " Next",
+          "stage": "90",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5093.735197046239,
+        "y": 1265.4111763747449
+      }
+    },
+    {
+      "id": 90,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Chaplin",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "But that's not all. They came out of the underground, stopped for a smoke. Let their guard down for a second — a Bloodsucker jumped them from the bushes. Grabbed the girl and bolted. A few hours later she radioed in: turns out she was alive! Born under a lucky star, that one.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " Things like that happen. Nothing to be surprised about here in the Zone. Not even shifts in the local population's age and gender makeup.",
+          "stage": "91",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5089.04412688761,
+        "y": 1376.5153578574184
+      }
+    },
+    {
+      "id": 91,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Arsenic",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Listen to you, so clever all of a sudden. Well, what can I say — I've walked into a few traps myself. Once we headed out toward the Radar with a group of seasoned stalkers. On the way we stumbled on a half-collapsed shack. We go in — and there's a table set...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " Next",
+          "stage": "92",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5090.297186534527,
+        "y": 1489.189734046077
+      }
+    },
+    {
+      "id": 92,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Arsenic",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Like something out of a fairy tale — canned goods, bread, vodka, even meat and fish laid out on a plate, more than you could take in at once. We were starving like animals and dove right into the food. Only one of us, for some reason, held back.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " Next",
+          "stage": "93",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5087.783508334456,
+        "y": 1592.9266582804482
+      }
+    },
+    {
+      "id": 93,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Arsenic",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Turned out a Controller was messing with our heads. So the one clear-headed guy took it down. The rest of us came to our senses with dirt in our mouths.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I know Controllers well enough, nothing new there.",
+          "stage": "94",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5088.373209963441,
+        "y": 1697.25427263511
+      }
+    },
+    {
+      "id": 94,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Chaplin",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "As for the infighting, there's always something going on. Take the Duty guys — every channel's buzzing that their commander got whacked. Word is he was pitting other squads against each other during some skirmish and caught fire himself, and instead of anyone helping, someone finished him off…",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Well, that was me. Funny, right?",
+          "stage": "95",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5091.653960136497,
+        "y": 1808.3783562417022
+      }
+    },
+    {
+      "id": 95,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_17.jpg",
+      "title": "Arsenic",
+      "message": "New quest: reach the Rookie Village",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "No way. Damn.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " Alright, take care, I'm off.",
+          "stage": "96",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "remove": [
+          "Задание - Сталкеры на кордоне (Пролог, Глава 3)"
+        ],
+        "add": [
+          "Задание -  Добраться до Деревни (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 5022.103953234057,
+        "y": 1922.8384345004833
+      }
+    },
+    {
+      "id": 96,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "608:2259"
+      },
+      "editor": {
+        "x": 5075.666342190149,
+        "y": 2074.384517937191
+      }
+    },
+    {
+      "id": 97,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_18.jpg",
+      "title": "Rookie Village",
+      "message": "Sidorovich: Looking for an experienced stalker for easy work. You know where to find me.",
+      "type_message": 1,
+      "texts": [
+        {
+          "text": "Veteran was heading south toward the Perimeter. Reaching the Rookie Village, he stopped. His PDA chimed with a new message.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue on",
+          "stage": "98",
+          "condition": {}
+        },
+        {
+          "text": "Stop by Sidorovich's",
+          "stage": "100",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": 5235.489326083698,
+        "y": -1866.659436742196
+      }
+    },
+    {
+      "id": 98,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_18.jpg",
+      "title": "Rookie Village",
+      "message": "New quest: reach the Perimeter",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran decided not to linger and pressed on toward the exit from the Zone.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": "99",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ],
+        "remove": [
+          "Задание -  Добраться до Деревни (Пролог, Глава 3)"
+        ],
+        "add": [
+          "Задание -  Выйти за периметр (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 4993.794516931866,
+        "y": -1735.9989715608176
+      }
+    },
+    {
+      "id": 99,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "368:843"
+      },
+      "editor": {
+        "x": 5046.125484374477,
+        "y": -1574.3846141225786
+      }
+    },
+    {
+      "id": 100,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_20.jpg",
+      "title": "Rookie Village",
+      "message": "New quest: stop by Sidorovich's",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran decided to make some extra cash and take on Sidorovich's job.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": "101",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "remove": [
+          "Задание -  Добраться до Деревни (Пролог, Глава 3)"
+        ],
+        "add": [
+          "Задание -  Поиск Философа (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 5361.84241501882,
+        "y": -1735.5693044303443
+      }
+    },
+    {
+      "id": 101,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_19.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What brings you here?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "About the job. What do you need?",
+          "stage": "102",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5477.994704277982,
+        "y": -1580.8456721323207
+      }
+    },
+    {
+      "id": 102,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Nothing unusual. Some guy was wandering around the village a while back, went by Philosopher. Kept feeding the locals some nonsense about a Bloodsucker stalker. Clear as day he'd lost his marbles. Dressed decently though, not bad at all.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "103",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5423.41492170491,
+        "y": -1470.2173472136724
+      }
+    },
+    {
+      "id": 103,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "He had a gun on him, and armor too, all set up proper! Kept writing something into his PDA constantly. So that's what you need to get — that PDA. Dying to know what kind of crazy stuff he scribbled in there. Won't have to go far: the guy sat around the village for about five days, then headed off to the Secret Camp, and an hour later everyone's PDA got a death notification.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "104",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5427.949284966263,
+        "y": -1357.94430532633
+      }
+    },
+    {
+      "id": 104,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "New quest: reach the Secret Camp",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, his body's still lying out there, right in the middle of the anomalies. Rookies are too scared to go — a few days back some seasoned stalker got torn apart by the branches right in front of everyone. I'll give you 1000 rubles for the walk.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, I'll take it.",
+          "stage": "105",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 5435.647207111809,
+        "y": -1239.4698782026853
+      }
+    },
+    {
+      "id": 105,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "128:877"
+      },
+      "editor": {
+        "x": 5416.64081389272,
+        "y": -1141.4437723639066
+      }
+    },
+    {
+      "id": 106,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Secret Camp",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran saw the corpse of an unknown stalker.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Search the body",
+          "stage": "107",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5784.6901262089095,
+        "y": -1859.7720953645448
+      }
+    },
+    {
+      "id": 107,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Unknown stalker",
+      "message": "Received: PB-1S, 16x 9x19 rounds, army medkit, potassium iodide.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "There was a PDA in the jacket pocket.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " Examine the PDA.",
+          "stage": "108",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "add": [
+          "1:1",
+          "31:16",
+          "89:1",
+          "85:1"
+        ]
+      },
+      "editor": {
+        "x": 5801.502051971962,
+        "y": -1751.7667405046604
+      }
+    },
+    {
+      "id": 108,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "PDA data: Name: Philosopher. Faction: Loners.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "109",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5786.094980932127,
+        "y": -1591.051522017011
+      }
+    },
+    {
+      "id": 109,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Note 1: Whenever I meet someone on my way, I always ask them one question. It's the same for everyone, and its meaning hasn't changed in a long while. Have you seen the Beast? When they ask me what that is, I answer: a Bloodsucker stalker. Sounds like heresy, I know, but I'm certain I'm right, certain my search isn't in vain...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "110",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5794.244758462712,
+        "y": -1486.5072141968549
+      }
+    },
+    {
+      "id": 110,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I'd bet my hand on it — the one I'm looking for is roaming somewhere in the Zone, and one day I'll find him. Or he'll cross my path. Or a vision will come to me showing where to look for that vermin. Either way, I'm bound to hunt him down, whatever it takes. Seems like everyone I know, and even strangers, already think I've lost it, but I couldn't care less what they think.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "111",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5799.185559912872,
+        "y": -1383.3271883635944
+      }
+    },
+    {
+      "id": 111,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I saw him. I'll keep asking every person I meet the same question, and they can brand me a heretic or a traitor for all I care — I don't give a damn. I'll find the creature, wherever it's hiding.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "112",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5795.067973117213,
+        "y": -1279.0146572090737
+      }
+    },
+    {
+      "id": 112,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Note 2: Saw a death notification for Yuri Semetsky. Right when I was thinking about giving up the search. Semetsky's died again — good sign. Means I'm on the right track.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "113",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5789.807116782906,
+        "y": -1177.201113588824
+      }
+    },
+    {
+      "id": 113,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Note 4: Heard there was light burning somewhere at the factory, even though no poltergeists or fire anomalies live there. Could've been bandits, but they recently found desiccated bodies near that factory. I went straight there, tore the place apart, but found nothing.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "114",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5794.361026201388,
+        "y": -1071.1627187560057
+      }
+    },
+    {
+      "id": 114,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Everything's empty. Either I was too late, or there was never anything there. Sometimes it feels like I'm chasing a ghost. But I know, I know! I know he exists. I know I'll find him. Not today, not tomorrow.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "115",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5795.902231716351,
+        "y": -959.9716772494891
+      }
+    },
+    {
+      "id": 115,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Note 5: Killed a guy recently. Starling, I think his name was. Asked him about this vermin. He kept calling me a nutcase, tried to brush me off. But I'm no fool. Clear as day he was in on it with that thing. And he handed Green over to it too. A guy like that wouldn't have gotten caught on his own. And how that little bird screamed when the knife caught him.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "116",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5792.170967727319,
+        "y": -848.526590257635
+      }
+    },
+    {
+      "id": 116,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Right up to the end he kept screaming that he didn't know anything about any Beast. Screamed pretty convincingly too. Of course he helped drag Green off to that thing. He was smart, but naive in places. Not me, though. Can't fool me. And that creature won't fool me either. Just have to find it now.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "117",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5791.597090315854,
+        "y": -735.2942177602198
+      }
+    },
+    {
+      "id": 117,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Note 7: Some poor bastard posted on the shared network that he's holed up in the Bloodsucker Village, at the very top of the tower. Says the damn soldiers opened fire on him and hit his leg — barely made it up there. Everything's gone quiet around him, but there's some guy in a coat lurking below. Keeps glancing up and making strange noises. Could this be our guy?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "118",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5793.488048885055,
+        "y": -627.624388858592
+      }
+    },
+    {
+      "id": 118,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ah, no, wasn't him at all. Some zombified stalker had wandered in there. Not much better, honestly…",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "119",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5792.188143036103,
+        "y": -522.1839831582506
+      }
+    },
+    {
+      "id": 119,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What have I managed to learn about this Beast? Last seen at the outpost. I saw him there myself. And then nothing, the trail went cold. Four months ago he was at the Cordon with the mercenaries. Sidorovich sent him after Zohan. And that's it, the trail ends there.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "120",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5792.97540441209,
+        "y": -416.8514828166883
+      }
+    },
+    {
+      "id": 120,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Fourth day now, grilling the locals about where this Zohan is now. Nobody's said a word, the bastards! While I was chasing the creature, my supplies ran out. Should head to the anomaly. They say an artifact was spotted there, but no one's managed to pull it out. Dimwit rookies.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": "121",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5784.58995814173,
+        "y": -307.3814253958544
+      }
+    },
+    {
+      "id": 121,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_22.jpg",
+      "title": "Philosopher",
+      "message": "New quest: return to Sidorovich",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The end.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Return to Sidorovich",
+          "stage": "122",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "add": [
+          "Задание - Отнести Пда Сидоровичу (Пролог, Глава 3)"
+        ],
+        "remove": [
+          "Задание -  Поиск Философа (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 5714.690389488335,
+        "y": -202.97601565359014
+      }
+    },
+    {
+      "id": 122,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "200:1037"
+      },
+      "editor": {
+        "x": 5777.604457052075,
+        "y": -53.60786217758573
+      }
+    },
+    {
+      "id": 123,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran returned to the trader's basement, went in, and handed over the PDA.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Here's the gadget.",
+          "stage": "124",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 6255.727719326751,
+        "y": -1870.7693715969733
+      }
+    },
+    {
+      "id": 124,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_23.jpg",
+      "title": "Sidorovich",
+      "message": "Received: 1000 rubles. New quest: reach the military checkpoint.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Excellent. Here's your money.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Good luck",
+          "stage": "125",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "5"
+        ],
+        "money": [
+          "1000"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ],
+        "add": [
+          "Задание -  Выйти за периметр (Пролог, Глава 3)"
+        ],
+        "remove": [
+          "Задание - Отнести Пда Сидоровичу (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 6181.3498139849935,
+        "y": -1756.1966849950056
+      }
+    },
+    {
+      "id": 125,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "128:877"
+      },
+      "editor": {
+        "x": 6245.633459357073,
+        "y": -1573.339192052033
+      }
+    },
+    {
+      "id": 126,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_24.jpg",
+      "title": "Military checkpoint",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran approached the soldiers.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'm heading out of the Zone.",
+          "stage": "127",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5788.6048878817655,
+        "y": 184.93958063237085
+      }
+    },
+    {
+      "id": 127,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_24.jpg",
+      "title": "Sergeant Kulitsky",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You can get a permit at the NII ChAZ. The scientists will check your body's condition and let you go if they don't find anything suspicious.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "So stalkers stopped being cannon fodder to you people? Well, look at that.",
+          "stage": "128",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "+": [
+          "relation_2:200"
+        ]
+      },
+      "editor": {
+        "x": 5769.033313724472,
+        "y": 289.3213094712784
+      }
+    },
+    {
+      "id": 128,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_24.jpg",
+      "title": "Sergeant Kulitsky",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Don't talk back. Hand over all your gear, put on the disposable suit, and clear off from the post.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Hand over gear",
+          "stage": "130",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5777.006918010777,
+        "y": 406.75075441504947
+      }
+    },
+    {
+      "id": 129,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1175:1450"
+      },
+      "editor": {
+        "x": 5649.371708782434,
+        "y": 1951.8083340378578
+      }
+    },
+    {
+      "id": 130,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
+      "title": "Sergey Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You won't be here for long. The interview process takes a few hours. Based on the tests, we'll understand your body's condition, and only then decide whether you'll get a permit to leave the Zone. Sorry, but is Veteran a nickname — do you have a real full name?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " Pavel Yevgenyevich Dubovsky",
+          "stage": "131",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5777.67961516036,
+        "y": 518.3608912178813
+      }
+    },
+    {
+      "id": 131,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
+      "title": "Sergey Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "And you don't have a passport?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " No, it stayed back on the mainland. So, tell me, when will I be able to leave?",
+          "stage": "132",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5808.981649233218,
+        "y": 636.2390188019383
+      }
+    },
+    {
+      "id": 132,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
+      "title": "Sergey Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Depends on the test results. Don't lose hope, of course, but there's always a chance you'll never leave at all.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " ...",
+          "stage": "133",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5780.750580260412,
+        "y": 757.7114469392466
+      }
+    },
+    {
+      "id": 133,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
+      "title": "Sergey Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Let's begin. The Library section lists all the information we have on the anomalous Zone. The CEZ itself, as you understand, is full of extraordinary events, anomalies, and artifacts. So I'm sure you, Pavel Yevgenyevich, have plenty to tell.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "No, I haven't seen anything.",
+          "stage": "137",
+          "condition": {}
+        },
+        {
+          "text": "What exactly do you need to know?",
+          "stage": "134",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5778.5759609096,
+        "y": 873.908225594262
+      }
+    },
+    {
+      "id": 134,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
+      "title": "Sergey Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Information from you. It's simple: have you seen any objects, anomalies; did anything happen to you that isn't described, that has no general account in the Library section?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " On the way, in the Garbage, I came across an anomaly called \"Elevator.\" Even though it's considered a \"stable\" one, I figured it was worth mentioning to you.",
+          "stage": "135",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5964.4240012159635,
+        "y": 1005.9319526961556
+      }
+    },
+    {
+      "id": 135,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
+      "title": "Sergey Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, we already know about that. Anything else you can tell me?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " It's all the same, nothing more I can say. Well, except I sell loot, drag cans over to Sidorovich. They say the old geezer's trying to get younger with artifacts.",
+          "stage": "136",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "4"
+        ]
+      },
+      "editor": {
+        "x": 5970.716256573228,
+        "y": 1117.6380850486812
+      }
+    },
+    {
+      "id": 136,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
+      "title": "Sergey Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What do you know about mutants?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Honestly, nothing new to tell — but talking Controllers really get on my nerves. I don't even know how they transform myself, guess the smarter stalkers lose their minds during an Emission…",
+          "stage": "138",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5990.317895761956,
+        "y": 1236.7644212028772
+      }
+    },
+    {
+      "id": 137,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
+      "title": "Sergey Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Shame you couldn't go into more detail. What do you know about mutants?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Honestly, nothing new to tell — but talking Controllers really get on my nerves. I don't even know how they transform myself, guess the smarter stalkers lose their minds during an Emission…",
+          "stage": "138",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5645.938703260205,
+        "y": 1008.5909249124386
+      }
+    },
+    {
+      "id": 138,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
+      "title": "Sergey Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Alright, have you experienced any bad condition, sickness, nausea?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Gastritis is pretty much standard issue for every stalker. General condition? Knock back some vodka and everything's fine in no time.",
+          "stage": "139",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5647.600444387415,
+        "y": 1428.3823264514344
+      }
+    },
+    {
+      "id": 139,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
+      "title": "Sergey Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "First stage complete, well, congratulations! Tomorrow you'll take the necessary tests, and the results will show whether you'll get your permit or not.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Doesn't it get old, interrogating stalkers like this? So what did you actually learn from my story?",
+          "stage": "140",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5646.352235817276,
+        "y": 1546.3205840983576
+      }
+    },
+    {
+      "id": 140,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
+      "title": "Sergey Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Given that every experience is unique — not to mention the biometric material we've collected — I can say you stalkers are a very interesting bunch. Stop by the exchange office, you'll need clean bills. You can rent a house on the private grounds here, for a month. I think you'll be staying around that long.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What do you mean, staying?",
+          "stage": "141",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5644.87242455197,
+        "y": 1668.144875056566
+      }
+    },
+    {
+      "id": 141,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_25.jpg",
+      "title": "Sergey Klementyev",
+      "message": "New quest: rent a house",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "It all depends on the test results.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave",
+          "stage": "129",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "remove": [
+          "Задание -  Выйти за периметр (Пролог, Глава 3)"
+        ],
+        "add": [
+          "Задание - Снять жилье (Пролог, Глава 3)"
+        ]
+      },
+      "editor": {
+        "x": 5589.4826855891315,
+        "y": 1791.7618575132517
+      }
+    },
+    {
+      "id": 142,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_26.jpg",
+      "title": "Realtor",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What do you want?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " Hi there, I'd like to rent a place.",
+          "stage": "143",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 6714.952212473624,
+        "y": 240.75774589110492
+      }
+    },
+    {
+      "id": 143,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_26.jpg",
+      "title": "Realtor",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Eight grand a month, no overnight stays included. You buy your own food. I'm not responsible for the safety of your personal belongings. If you're in, money up front.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Agreed",
+          "stage": "144",
+          "condition": {
+            "money>=": [
+              "8000"
+            ]
+          }
+        },
+        {
+          "text": "That's expensive...",
+          "stage": "145",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 6642.260050753659,
+        "y": 361.27369821630845
+      }
+    },
+    {
+      "id": 144,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_26.jpg",
+      "title": "Realtor",
+      "message": "Money spent: 8000 rubles.\nNew quest: go into the house.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Here's the keys, don't bother me again.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Right...",
+          "stage": "146",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "add": [
+          "Задание - Пройти в дом (Пролог, Глава 3)"
+        ],
+        "remove": [
+          "Задание - Снять жилье (Пролог, Глава 3)"
+        ],
+        "money": [
+          "-8000"
+        ]
+      },
+      "editor": {
+        "x": 6810.599793684101,
+        "y": 496.1367877230838
+      }
+    },
+    {
+      "id": 145,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_26.jpg",
+      "title": "Realtor",
+      "message": "New task:\nfind a place to sleep.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Price doesn't change, kid, no money — no house.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Right...",
+          "stage": "146",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "Задание - Пройти в дом (Пролог, Глава 3)"
+        ],
+        "remove": [
+          "Задание - Снять жилье (Пролог, Глава 3)"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 6494.006299877417,
+        "y": 497.0932635351885
+      }
+    },
+    {
+      "id": 146,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1869:724"
+      },
+      "editor": {
+        "x": 6691.996792983107,
+        "y": 688.3884259561464
+      }
+    },
+    {
+      "id": 147,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_27.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The house had heating and some absurdly mismatched curtains. On an empty stomach, he lay down to sleep in the daytime.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": "148",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8232.90579722891,
+        "y": 68.39930140053559
+      }
+    },
+    {
+      "id": 148,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_27.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Three men entered the private grounds. The realtor was a little surprised: they carried no weapons, had a case with them, and clearly hadn't come through the military Perimeter, yet they'd arrived from that direction — from the north. After renting a place for a month, the trio headed to the eastern block.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": "149",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8229.077173329862,
+        "y": 172.64921046939637
+      }
+    },
+    {
+      "id": 149,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_27.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "There was a knock at the door. First once, then three times, then once, then twice. Veteran thought someone had gotten the wrong door, but the knocking started again. 1-3-1-2. He didn't light his cigarette, just kept rolling it in his hand.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": "150",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8233.23643945694,
+        "y": 279.22168845036833
+      }
+    },
+    {
+      "id": 150,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_27.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran cracked the door open and saw a bald man. The first thing that caught his eye: a pronounced hump on the man's thick nose.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Step back",
+          "stage": "151",
+          "condition": {}
+        },
+        {
+          "text": "Undo the chain, open the door.",
+          "stage": "152",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8230.605164571603,
+        "y": 383.3932304668051
+      }
+    },
+    {
+      "id": 151,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_33.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran stepped back from the door. Silence fell. The ones standing outside heard footsteps.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Lunge for the cutlery.",
+          "stage": "158",
+          "condition": {}
+        },
+        {
+          "text": "Jump out the window.",
+          "stage": "153",
+          "condition": {}
+        },
+        {
+          "text": "Take a defensive stance",
+          "stage": "168",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8231.228622347437,
+        "y": 631.7494959013806
+      }
+    },
+    {
+      "id": 152,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_28.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Someone shouldered the door open. His field of view failed him: behind the bald man stood another opponent, muscular with dark hair. Another figure flickered past the window.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Lunge for the cutlery.",
+          "stage": "158",
+          "condition": {}
+        },
+        {
+          "text": "Jump out the window.",
+          "stage": "153",
+          "condition": {}
+        },
+        {
+          "text": "Take a defensive stance",
+          "stage": "168",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7792.215107396449,
+        "y": 632.549231613478
+      }
+    },
+    {
+      "id": 153,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_32.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran grabbed a stool by the leg, swung it first toward the two men, then smashed it against the glass. Caught off guard, the man standing under the window stepped aside, and the stalker climbed out through the jagged edges. He fell into the mud and cut his hands on the shards. His hesitation gave them time to grab him under the arms and drag him back inside.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Scream!",
+          "stage": "154",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8237.178520080088,
+        "y": 905.9580776492373
+      }
+    },
+    {
+      "id": 154,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "They gagged him. His broken cries turned into a strangled roar from deep in his throat. Something was cinched around his neck, tied off at the other end, then yanked hard. His neck vertebrae gave way with a crunch.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": "155",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8235.75221542737,
+        "y": 2023.9634072039075
+      }
+    },
+    {
+      "id": 155,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_31.jpg",
+      "title": "House",
+      "message": "Quest failed: leave the Zone.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "By morning, the three mercenaries were gone from the private grounds. The stalker's body was found the next day, when the watchman made his rounds.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": "156",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "15"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": 8232.882787991055,
+        "y": 2140.653456280692
+      }
+    },
+    {
+      "id": 156,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_31.jpg",
+      "title": "Prologue complete!",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "And that's the end of the prologue!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Exit",
+          "stage": "157",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "reset": [
+          "items"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 8395.332459700263,
+        "y": 2339.5783426446847
+      }
+    },
+    {
+      "id": 157,
+      "type_stage": 5,
+      "actions": {
+        "syncNow": [],
+        "finishStory": []
+      },
+      "transfers": [],
+      "editor": {
+        "x": 8377.210631776843,
+        "y": 2459.907280056203
+      }
+    },
+    {
+      "id": 158,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_29.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran sized up the situation and figured the only potential weapon around was a set of steel cutlery. He lunged for it, but the dark-haired one shoved him, and the stalker went down.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Get up",
+          "stage": "159",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7788.331287735849,
+        "y": 855.5400640544477
+      }
+    },
+    {
+      "id": 159,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The bald man with the hooked nose pulled out a gag while Veteran was getting up. The dark-haired one circled to the side, trying to cut off more ground.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Dodge the grab for his hands.",
+          "stage": "160",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7795.752384836123,
+        "y": 962.1020443559096
+      }
+    },
+    {
+      "id": 160,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran dodged the grab, but the bald man caught him instead. He tried to throw an elbow, but the stalker got locked up. His neck was squeezed, his head pinned firmly against his right side.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Try to break free",
+          "stage": "161",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7798.3189931204815,
+        "y": 1069.0506220889092
+      }
+    },
+    {
+      "id": 161,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The muscular one produced a prepared strap, more like a belt. Coming in from the left, he looped it around and cinched it, slowly squeezing his legs together. Breathing was getting harder, and the struggle was becoming pointless. He didn't have the strength left.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": " Push off with your legs.",
+          "stage": "162",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7793.540265199011,
+        "y": 1172.9089123823544
+      }
+    },
+    {
+      "id": 162,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "No luck. His body was already having its hands bound with the same kind of strap.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Push off with your legs.",
+          "stage": "163",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7799.298873451767,
+        "y": 1268.8939194490652
+      }
+    },
+    {
+      "id": 163,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "It worked. Veteran broke free of the hold, but the sudden rush of oxygen into his airways set him coughing. He curled up on the floor; someone rolled him over with a boot and stepped on his solar plexus.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Spit upward",
+          "stage": "164",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7790.725309321302,
+        "y": 1376.5210763679004
+      }
+    },
+    {
+      "id": 164,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran spat upward, which caught the bald man off guard for a second. The stalker tried to get up but found his hands were already tied.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What the h-h-hell for, you b-b-bastards?",
+          "stage": "165",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7797.085940662887,
+        "y": 1480.2165881392402
+      }
+    },
+    {
+      "id": 165,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "Baldy",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You should've kept your mouth shut.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Kept it shut about what? What?",
+          "stage": "166",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7835.261114788416,
+        "y": 1581.5713189564924
+      }
+    },
+    {
+      "id": 166,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "Shurale",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You'll understand later",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Resist",
+          "stage": "167",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7855.268376189123,
+        "y": 1682.0674814213883
+      }
+    },
+    {
+      "id": 167,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran tried pulling his knees to his chest, curling up like a snail. He heard someone snicker. The stalker realized there was only one option left…",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Scream!",
+          "stage": "154",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7790.928941735701,
+        "y": 1782.1936272714952
+      }
+    },
+    {
+      "id": 168,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_32.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Veteran leaned his body back, elbows raised to guard his head. The dark-haired one laughed and stepped past the bald man. He pulled a feint: first swung his arm, and when the stalker reacted to the fake recoil, kicked him in the knee, dropping him.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What the ... do you want? Who are you?",
+          "stage": "169",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8654.685441521575,
+        "y": 838.2549386410849
+      }
+    },
+    {
+      "id": 169,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_32.jpg",
+      "title": "Chicory",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "No need for you to know, you're about to die anyway.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Crawl away",
+          "stage": "170",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8665.788859305296,
+        "y": 946.980425964581
+      }
+    },
+    {
+      "id": 170,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_32.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "They dragged Veteran by the shoulders. A gag was shoved into his mouth. The hollow-cheeked man tightened a strap around his neck a little. The three exchanged glances. They took him under the arms and dragged him toward the old mansion.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Resist",
+          "stage": "171",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8661.732586636332,
+        "y": 1057.9336909017557
+      }
+    },
+    {
+      "id": 171,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_32.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "His kicking legs kicked up dust on the path. It didn't accomplish anything.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Try to break free.",
+          "stage": "172",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8660.438389941903,
+        "y": 1172.24830369803
+      }
+    },
+    {
+      "id": 172,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Grizzled tried to break free, and pain shot through his joints. They were holding him tight. His breathing was constricted. He understood he wouldn't last long.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": "173",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8661.148766329981,
+        "y": 1287.3472277536416
+      }
+    },
+    {
+      "id": 173,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "They brought him to the mansion, five or six meters away. They loosened the cord around his neck, but didn't take out the gag.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Look around",
+          "stage": "174",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8671.731784241392,
+        "y": 1401.0358162367559
+      }
+    },
+    {
+      "id": 174,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "Mansion",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Three of them. These faces would be the last thing he'd ever remember. A tall, thin brunet with slanted eyes. Tall, thin, pale, bald, with a hooked nose. Close-cropped, dark-haired, long-nosed, muscular build.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": "175",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8669.326584621804,
+        "y": 1515.6397488699665
+      }
+    },
+    {
+      "id": 175,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "Yakhont",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Got something you want to ask? Maybe who we are?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Nod",
+          "stage": "176",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8667.947275598242,
+        "y": 1630.4021647075722
+      }
+    },
+    {
+      "id": 176,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_30.jpg",
+      "title": "Yakhont",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "We're mercenaries. As you've probably figured out, someone put a contract on you for running your mouth too much.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": "177",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 8670.088557136714,
+        "y": 1745.499382229443
+      }
+    },
+    {
+      "id": 177,
+      "type_stage": 0,
+      "background": "/story/prologue/screen/chapter_2_31.jpg",
+      "title": "Mansion",
+      "message": "Quest failed: leave the Zone.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The one who'd just been talking pulled out a knife and slit the stalker's throat. The gag swelled with blood. Grizzled drowned in his own blood. The body was found at dawn.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": "156",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ],
+        "xp": [
+          "15"
+        ]
+      },
+      "editor": {
+        "x": 8676.458643080348,
+        "y": 1877.3505444435357
+      }
+    }
+  ],
+  "points": {
+    "0": [
+      {
+        "id": "aa488d5d-5c3c-4bbd-9405-d85a38f596a5",
+        "type": 0,
+        "name": "Rent a place",
+        "pos": "1869:724",
+        "data": {
+          "stage": "142",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Снять жилье (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 6593.3592689851175,
+          "y": 111.99937052098649
+        }
+      },
+      {
+        "id": "f599cc9e-5b87-493c-853a-3cf31226ae38",
+        "type": 0,
+        "name": "House",
+        "pos": "1742:553",
+        "data": {
+          "stage": "147",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Пройти в дом (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 8182.946163808494,
+          "y": -39.49170883458912
+        }
+      }
+    ],
+    "1": [
+      {
+        "id": "96473684-5f77-4434-871d-69c617e67f1d",
+        "type": 6,
+        "name": "From the checkpoint to the village",
+        "pos": "368:843",
+        "data": {
+          "stage": "97",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание -  Добраться до Деревни (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 5159.9112762972445,
+          "y": -1986.3938806770689
+        }
+      },
+      {
+        "id": "19532228-8a33-40e5-9699-b7d55eec09ee",
+        "type": 0,
+        "name": "From Sidorovich to the anomaly",
+        "pos": "200:1037",
+        "data": {
+          "stage": "106",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание -  Поиск Философа (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 5727.483194203185,
+          "y": -1987.243518704398
+        }
+      },
+      {
+        "id": "af016001-1508-49db-8e17-e534c95bb9d4",
+        "type": 0,
+        "name": "Return to Sidorovich",
+        "pos": "128:877",
+        "data": {
+          "stage": "123",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Отнести Пда Сидоровичу (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 6167.37519580149,
+          "y": -1988.204818898842
+        }
+      },
+      {
+        "id": "f52503f0-cda1-4e09-b27c-db70d7928145",
+        "type": 0,
+        "name": "From the village to the Zone exit",
+        "pos": "320:680",
+        "data": {
+          "stage": "126",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание -  Выйти за периметр (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 5704.749597899092,
+          "y": 74.08581347896208
+        }
+      }
+    ],
+    "2": [
+      {
+        "id": "4d1a6ae7-6782-4337-a22d-f2b0b7ba6de3",
+        "type": 0,
+        "name": "The Lost SVD - Flea Market",
+        "pos": "717:1051",
+        "data": {
+          "stage": "25",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Матвиенко, Добраться до барахолки (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 996.297652894968,
+          "y": 45.679299081302446
+        }
+      },
+      {
+        "id": "05710e5e-a2fe-45dc-a639-56c0c551e23d",
+        "type": 0,
+        "name": "Camp in the pit",
+        "pos": "298:687",
+        "data": {
+          "stage": "34",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Матвиенко, Добраться до стоянки (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 1624.3664950205714,
+          "y": 50.06377144832564
+        }
+      },
+      {
+        "id": "1250bb03-1c7f-47c2-a7e2-d92d62b10950",
+        "type": 0,
+        "name": "Stalker in the tunnel",
+        "pos": "315:755",
+        "data": {
+          "stage": "51",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Матвиенко, найти сталкера (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 2395.013266608862,
+          "y": 43.43561028875439
+        }
+      },
+      {
+        "id": "bcc2477a-aa2c-4eac-adbe-7a8ea9d98ab9",
+        "type": 1,
+        "name": "Stash in the Forest",
+        "pos": "914:644",
+        "data": {
+          "stage": "60",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Матвиенко, Добраться до леса (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 3001.3508229847894,
+          "y": 41.950625956598486
+        }
+      },
+      {
+        "id": "0111ce51-d1a9-4455-8dc0-692e43c9ae0d",
+        "type": 0,
+        "name": "Stalker near the anomaly",
+        "pos": "669:1043",
+        "data": {
+          "stage": "67",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Сталкер на Свалке (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 4467.999982566266,
+          "y": 43.85646016078894
+        }
+      },
+      {
+        "id": "2be13424-10a7-4991-a458-3a2decfce2f0",
+        "type": 1,
+        "name": "Stalkers in Cordon",
+        "pos": "732:252",
+        "data": {
+          "stage": "79",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Сталкеры на кордоне (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 5010.010083386028,
+          "y": 40.124741273213516
+        }
+      }
+    ],
+    "3": [
+      {
+        "id": "04007b3a-4f6b-490e-9aa0-0be84f157683",
+        "type": 1,
+        "name": "From the Bar to the south checkpoint",
+        "pos": "1737:1130",
+        "data": {
+          "stage": "16",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Матвиенко, начало (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 510,
+          "y": 50
+        }
+      },
+      {
+        "id": "979661ad-6ef1-4b5d-88c9-186bf97e963f",
+        "type": 1,
+        "name": "Return the SVD",
+        "pos": "1737:1130",
+        "data": {
+          "stage": "63",
+          "chapter": "3"
+        },
+        "condition": {
+          "has": [
+            "Задание - Матвиенко, Вернуть СВД (Пролог, Глава 3)"
+          ]
+        },
+        "editor": {
+          "x": 3833.231792807501,
+          "y": 38.38125899653666
+        }
+      }
+    ]
+  },
+  "spawns": {},
+  "missions": [
+    {
+      "title": "Leave the Bar",
+      "name": "pokinut-bar",
+      "checkpoints": [
+        {
+          "title": "Get past Duty's territory",
+          "parameter": "Задание - Матвиенко, начало (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "The Lost SVD",
+      "name": "poteryannaya-svd",
+      "checkpoints": [
+        {
+          "title": "Check out the flea market",
+          "parameter": "Задание - Матвиенко, Добраться до барахолки (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Camp between the hills",
+          "parameter": "Задание - Матвиенко, Добраться до стоянки (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Stalker in the tunnel",
+          "parameter": "Задание - Матвиенко, найти сталкера (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Find the stash in the forest",
+          "parameter": "Задание - Матвиенко, Добраться до леса (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Return to Matviyenko",
+          "parameter": "Задание - Матвиенко, Вернуть СВД (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Return to Cordon",
+      "name": "vernut-sya-na-kordon",
+      "checkpoints": [
+        {
+          "title": "Reach the checkpoint",
+          "parameter": "Задание - Сталкеры на кордоне (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Rookie Village",
+      "name": "derevnya-novichkov",
+      "checkpoints": [
+        {
+          "title": "Visit the Rookie Village",
+          "parameter": "Задание -  Добраться до Деревни (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Retrieve Philosopher's PDA",
+          "parameter": "Задание -  Поиск Философа (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Bring the PDA to Sidorovich",
+          "parameter": "Задание - Отнести Пда Сидоровичу (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Leave the CEZ",
+      "name": "vyyti-iz-chzo",
+      "checkpoints": [
+        {
+          "title": "Exit the perimeter",
+          "parameter": "Задание -  Выйти за периметр (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Rent a house",
+          "parameter": "Задание - Снять жилье (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Get to the house",
+          "parameter": "Задание - Пройти в дом (Пролог, Глава 3)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    }
+  ],
+  "title": "Третья Глава",
+  "_comment": "Игра за Матёрого"
+}

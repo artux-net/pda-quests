@@ -1,0 +1,612 @@
+{
+  "id": 5,
+  "stages": [],
+  "points": {
+    "0": [],
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": []
+  },
+  "spawns": {
+    "0": [
+      {
+        "group": "MILITARY",
+        "pos": "2375:975",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "4",
+        "condition": {},
+        "description": "Southern checkpoint of the military base in Chernobyl-4",
+        "data": {
+          "ignorePlayer": []
+        },
+        "actions": {
+          "xp": [
+            "25"
+          ]
+        }
+      },
+      {
+        "group": "LONERS",
+        "pos": "1330:691",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "4",
+        "condition": {},
+        "description": "An unremarkable brick building covered in old slate, with a black sign in white letters: Shti. It looked more like an electrical substation. But those in the know understood what was really there. Step inside through the massive iron door and you'd immediately see a couple of guards blocking a stairway down. That's where the real part of the place began.",
+        "actions": {
+          "xp": [
+            "25"
+          ]
+        }
+      },
+      {
+        "group": "MILITARY",
+        "pos": "1165:925",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "4",
+        "condition": {},
+        "description": "Southern checkpoint of the military base in Chernobyl-4",
+        "actions": {
+          "xp": [
+            "25"
+          ]
+        }
+      },
+      {
+        "group": "MILITARY",
+        "pos": "1400:1037",
+        "r": "25",
+        "strength": "MIDDLE",
+        "n": "5",
+        "condition": {},
+        "description": "Barracks for the long-term quartering of military personnel.",
+        "actions": {
+          "xp": [
+            "19"
+          ]
+        }
+      },
+      {
+        "group": "MILITARY",
+        "pos": "1385:1189",
+        "r": "25",
+        "strength": "MIDDLE",
+        "n": "5",
+        "condition": {},
+        "description": "Barracks for the long-term quartering of military personnel.",
+        "actions": {
+          "xp": [
+            "19"
+          ]
+        }
+      },
+      {
+        "group": "MILITARY",
+        "pos": "880:1235",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "2",
+        "condition": {},
+        "description": "A military depot for ammunition and explosives.",
+        "actions": {
+          "xp": [
+            "8"
+          ]
+        }
+      },
+      {
+        "group": "MILITARY",
+        "pos": "866:1075",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "2",
+        "condition": {},
+        "description": "A military depot for ammunition and explosives.",
+        "actions": {
+          "xp": [
+            "8"
+          ]
+        }
+      },
+      {
+        "group": "MILITARY",
+        "pos": "2153:1150",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "5",
+        "condition": {},
+        "description": "Officer HQ of the Chernobyl-4 checkpoint",
+        "data": {
+          "ignorePlayer": []
+        },
+        "actions": {
+          "xp": [
+            "32"
+          ]
+        }
+      }
+    ],
+    "1": [
+      {
+        "group": "MILITARY",
+        "pos": "690:1385",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "5",
+        "condition": {},
+        "data": {
+          "ignorePlayer": []
+        },
+        "title": "Military checkpoint under the bridge",
+        "actions": {
+          "xp": [
+            "20"
+          ]
+        }
+      },
+      {
+        "group": "LONERS",
+        "pos": "590:1580",
+        "r": "25",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {},
+        "title": "Free Stalkers' Base",
+        "actions": {
+          "xp": [
+            "6"
+          ]
+        }
+      },
+      {
+        "group": "BANDITS",
+        "pos": "1245:1582",
+        "r": "20",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {},
+        "title": "Tunnel ",
+        "actions": {
+          "xp": [
+            "6"
+          ]
+        }
+      },
+      {
+        "group": "BANDITS",
+        "pos": "800:1065",
+        "r": "25",
+        "strength": "WEAK",
+        "n": "5",
+        "condition": {},
+        "title": "Motor Pool",
+        "actions": {
+          "xp": [
+            "10"
+          ]
+        }
+      },
+      {
+        "group": "LONERS",
+        "pos": "240:840",
+        "r": "25",
+        "strength": "WEAK",
+        "n": "5",
+        "condition": {},
+        "title": "Rookie Village",
+        "actions": {
+          "xp": [
+            "10"
+          ]
+        }
+      },
+      {
+        "group": "LONERS",
+        "pos": "165:1050",
+        "r": "25",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {},
+        "title": "Secret Camp",
+        "actions": {
+          "xp": [
+            "6"
+          ]
+        }
+      },
+      {
+        "group": "MILITARY",
+        "pos": "320:430",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "4",
+        "condition": {},
+        "title": "Southern Military checkpoint",
+        "actions": {
+          "xp": [
+            "16"
+          ]
+        }
+      },
+      {
+        "group": "LONERS",
+        "pos": "835:1682",
+        "r": "20",
+        "strength": "WEAK",
+        "n": "2",
+        "condition": {},
+        "title": "Stalker Camp",
+        "actions": {
+          "xp": [
+            "4"
+          ]
+        }
+      },
+      {
+        "group": "BANDITS",
+        "pos": "625:2275",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "title": "Reception Checkpoint",
+        "actions": {
+          "xp": [
+            "12"
+          ]
+        }
+      },
+      {
+        "group": "BANDITS",
+        "pos": "600:1240",
+        "r": "25",
+        "strength": "WEAK",
+        "n": "3",
+        "condition": {},
+        "title": "Grain Elevator",
+        "actions": {
+          "xp": [
+            "6"
+          ]
+        }
+      }
+    ],
+    "2": [
+      {
+        "group": "DUTY",
+        "pos": "730:1175",
+        "r": "40",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "title": "Duty checkpoint",
+        "actions": {
+          "xp": [
+            "20"
+          ]
+        }
+      },
+      {
+        "group": "LONERS",
+        "pos": "813:1041",
+        "r": "40",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "title": "Flea Market",
+        "actions": {
+          "xp": [
+            "20"
+          ]
+        }
+      },
+      {
+        "group": "LONERS",
+        "pos": "510:770",
+        "r": "60",
+        "strength": "MIDDLE",
+        "n": "6",
+        "condition": {},
+        "title": "Depot",
+        "actions": {
+          "xp": [
+            "40"
+          ]
+        }
+      },
+      {
+        "group": "BANDITS",
+        "pos": "225:730",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "data": {},
+        "title": "Bandit Camp",
+        "actions": {
+          "xp": [
+            "20"
+          ]
+        }
+      },
+      {
+        "group": "LONERS",
+        "pos": "500:390",
+        "r": "50",
+        "strength": "MIDDLE",
+        "n": "4",
+        "condition": {},
+        "title": "Vehicle Graveyard",
+        "actions": {
+          "xp": [
+            "27"
+          ]
+        }
+      },
+      {
+        "group": "BANDITS",
+        "pos": "820:500",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "4",
+        "condition": {},
+        "title": "Bandit Camp",
+        "actions": {
+          "xp": [
+            "27"
+          ]
+        }
+      }
+    ],
+    "3": [
+      {
+        "group": "LONERS",
+        "pos": "1501:1255",
+        "r": "17",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "title": "\"The Bar\"",
+        "actions": {
+          "xp": [
+            "20"
+          ]
+        }
+      },
+      {
+        "group": "DUTY",
+        "pos": "1737:1130",
+        "r": "15",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "title": "Southern Duty checkpoint",
+        "actions": {
+          "xp": [
+            "20"
+          ]
+        }
+      },
+      {
+        "group": "DUTY",
+        "pos": "1400:1545",
+        "r": "15",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "title": "Northern Duty checkpoint",
+        "actions": {
+          "xp": [
+            "20"
+          ]
+        }
+      },
+      {
+        "group": "DUTY",
+        "pos": "1500:1440",
+        "r": "30",
+        "strength": "WEAK",
+        "n": "4",
+        "condition": {},
+        "title": "Duty Regulars Squad",
+        "actions": {
+          "xp": [
+            "14"
+          ]
+        }
+      },
+      {
+        "group": "DUTY",
+        "pos": "1582:1381",
+        "r": "25",
+        "strength": "STRONG",
+        "n": "3",
+        "condition": {},
+        "title": "Arena",
+        "actions": {
+          "xp": [
+            "30"
+          ]
+        }
+      },
+      {
+        "group": "DUTY",
+        "pos": "1700:1400",
+        "r": "50",
+        "strength": "STRONG",
+        "n": "5",
+        "condition": {},
+        "title": "Duty Base",
+        "actions": {
+          "xp": [
+            "50"
+          ]
+        }
+      }
+    ],
+    "4": [
+      {
+        "group": "DUTY",
+        "pos": "1260:1540",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "title": "Western Duty checkpoint",
+        "actions": {
+          "xp": [
+            "36"
+          ]
+        }
+      },
+      {
+        "group": "MERCENARIES",
+        "pos": "715:1260",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "3",
+        "condition": {},
+        "title": "Mercenary Patrol",
+        "actions": {
+          "xp": [
+            "48"
+          ]
+        }
+      },
+      {
+        "group": "MERCENARIES",
+        "pos": "850:1540",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "3",
+        "condition": {},
+        "title": "Mercenary Patrol",
+        "actions": {
+          "xp": [
+            "48"
+          ]
+        }
+      },
+      {
+        "group": "MERCENARIES",
+        "pos": "630:1590",
+        "r": "25",
+        "strength": "STRONG",
+        "n": "5",
+        "condition": {},
+        "title": "Mercenary Camp",
+        "actions": {
+          "xp": [
+            "80"
+          ]
+        }
+      },
+      {
+        "group": "MERCENARIES",
+        "pos": "981:803",
+        "r": "20",
+        "strength": "STRONG",
+        "n": "4",
+        "condition": {},
+        "title": "Mercenary checkpoint",
+        "actions": {
+          "xp": [
+            "64"
+          ]
+        }
+      }
+    ],
+    "5": [
+      {
+        "group": "BANDITS",
+        "pos": "320:890",
+        "r": "20",
+        "strength": "MIDDLE",
+        "n": "5",
+        "condition": {},
+        "title": "Bandit base warehouses",
+        "actions": {
+          "xp": [
+            "42"
+          ]
+        }
+      },
+      {
+        "group": "BANDITS",
+        "pos": "250:100",
+        "r": "25",
+        "strength": "MIDDLE",
+        "n": "5",
+        "condition": {},
+        "title": "Bandit Rest Stop",
+        "actions": {
+          "xp": [
+            "42"
+          ]
+        }
+      },
+      {
+        "group": "BANDITS",
+        "pos": "90:647",
+        "r": "15",
+        "strength": "MIDDLE",
+        "n": "3",
+        "condition": {},
+        "actions": {
+          "xp": [
+            "25"
+          ]
+        },
+        "title": "Bandit checkpoint"
+      },
+      {
+        "group": "BANDITS",
+        "pos": "366:815",
+        "r": "20",
+        "strength": "STRONG",
+        "n": "5",
+        "condition": {},
+        "title": "Bandit Base",
+        "actions": {
+          "xp": [
+            "59"
+          ]
+        }
+      },
+      {
+        "group": "BANDITS",
+        "pos": "420:760",
+        "r": "15",
+        "strength": "STRONG",
+        "n": "4",
+        "condition": {},
+        "title": "Southern checkpoint of the Bandit base",
+        "actions": {
+          "xp": [
+            "34"
+          ]
+        }
+      },
+      {
+        "group": "BANDITS",
+        "pos": "420:930",
+        "r": "15",
+        "strength": "MIDDLE",
+        "n": "4",
+        "condition": {},
+        "title": "Northern checkpoint of the Bandit Base",
+        "actions": {
+          "xp": [
+            "34"
+          ]
+        }
+      }
+    ]
+  },
+  "missions": [],
+  "title": "Модуль с Контрольными Точками"
+}

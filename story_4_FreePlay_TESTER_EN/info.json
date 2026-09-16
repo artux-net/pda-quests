@@ -1,0 +1,8 @@
+{
+  "id": 104,
+  "title": "TEST Free Play",
+  "desc": "V 2.1.1: Trader fixes",
+  "icon": "story/backgrounds/test_freeplay.png",
+  "access": "TESTER",
+  "locale": "en"
+}

@@ -1,0 +1,8 @@
+{
+  "id": 101,
+  "title": "Chernobyl-4: Prologue",
+  "desc": "This story introduces you to the app's features and to three stalkers who ended up in the Zone.",
+  "icon": "story/prologue/screen/chapter_0_7.jpg",
+  "access": "USER",
+  "locale": "en"
+}

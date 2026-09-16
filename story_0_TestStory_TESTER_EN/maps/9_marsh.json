@@ -1,0 +1,294 @@
+{
+  "id": 9,
+  "title": "Marshes",
+  "tmx": "marsh.tmx",
+  "defPos": "500:500",
+  "points": [
+    {
+      "id": "579ab439-a3a2-4803-bae8-3d5e7cd06956",
+      "type": 0,
+      "name": "Map transition",
+      "pos": "1162:1088",
+      "data": {
+        "chapter": "1",
+        "stage": "0"
+      },
+      "condition": {}
+    },
+    {
+      "id": "4ba40869-83a5-4a3a-9bda-448fb8c84261",
+      "type": 0,
+      "name": "Bubble",
+      "pos": "1162:1285",
+      "data": {
+        "chapter": "1",
+        "stage": "4"
+      },
+      "condition": {}
+    },
+    {
+      "id": "579ab439-a3a2-4803-bae8-3d5e7cd06956",
+      "type": 0,
+      "name": "Map transition",
+      "pos": "1162:1088",
+      "data": {
+        "chapter": "1",
+        "stage": "0"
+      },
+      "condition": {}
+    },
+    {
+      "id": "4ba40869-83a5-4a3a-9bda-448fb8c84261",
+      "type": 0,
+      "name": "Bubble",
+      "pos": "1162:1285",
+      "data": {
+        "chapter": "1",
+        "stage": "4"
+      },
+      "condition": {}
+    },
+    {
+      "id": "579ab439-a3a2-4803-bae8-3d5e7cd06956",
+      "type": 0,
+      "name": "Map transition",
+      "pos": "1162:1088",
+      "data": {
+        "chapter": "1",
+        "stage": "0"
+      },
+      "condition": {}
+    },
+    {
+      "id": "4ba40869-83a5-4a3a-9bda-448fb8c84261",
+      "type": 0,
+      "name": "Bubble",
+      "pos": "1162:1285",
+      "data": {
+        "chapter": "1",
+        "stage": "4"
+      },
+      "condition": {}
+    },
+    {
+      "id": "24ba1f81-f669-48a7-8f90-4cd1d363ac12",
+      "type": 0,
+      "name": "A quest that looks like Kalina's quest",
+      "pos": "1242:1008",
+      "data": {
+        "chapter": "1",
+        "stage": "10"
+      },
+      "condition": {}
+    },
+    {
+      "id": "579ab439-a3a2-4803-bae8-3d5e7cd06956",
+      "type": 0,
+      "name": "Map transition",
+      "pos": "1162:1088",
+      "data": {
+        "chapter": "1",
+        "stage": "0"
+      },
+      "condition": {}
+    },
+    {
+      "id": "4ba40869-83a5-4a3a-9bda-448fb8c84261",
+      "type": 0,
+      "name": "Bubble",
+      "pos": "1162:1285",
+      "data": {
+        "chapter": "1",
+        "stage": "4"
+      },
+      "condition": {}
+    },
+    {
+      "id": "24ba1f81-f669-48a7-8f90-4cd1d363ac12",
+      "type": 0,
+      "name": "A quest that looks like Kalina's quest",
+      "pos": "1242:1008",
+      "data": {
+        "chapter": "1",
+        "stage": "18"
+      },
+      "condition": {}
+    },
+    {
+      "id": "579ab439-a3a2-4803-bae8-3d5e7cd06956",
+      "type": 0,
+      "name": "Map transition",
+      "pos": "1162:1088",
+      "data": {
+        "chapter": "1",
+        "stage": "0"
+      },
+      "condition": {}
+    },
+    {
+      "id": "4ba40869-83a5-4a3a-9bda-448fb8c84261",
+      "type": 0,
+      "name": "Bubble",
+      "pos": "1162:1285",
+      "data": {
+        "chapter": "1",
+        "stage": "20"
+      },
+      "condition": {}
+    },
+    {
+      "id": "579ab439-a3a2-4803-bae8-3d5e7cd06956",
+      "type": 0,
+      "name": "Map transition",
+      "pos": "1162:1088",
+      "data": {
+        "chapter": "1",
+        "stage": "0"
+      },
+      "condition": {}
+    },
+    {
+      "id": "4ba40869-83a5-4a3a-9bda-448fb8c84261",
+      "type": 0,
+      "name": "Bubble",
+      "pos": "1162:1285",
+      "data": {
+        "chapter": "1",
+        "stage": "20"
+      },
+      "condition": {}
+    },
+    {
+      "id": "bc7b951d-4b2b-4d05-8dd7-89012d165d32",
+      "type": 7,
+      "name": "Error examples",
+      "pos": "1268:1239",
+      "data": {
+        "chapter": "2",
+        "stage": "9"
+      },
+      "condition": null
+    }
+  ],
+  "spawns": [
+    {
+      "id": 0,
+      "title": "Dummy",
+      "description": null,
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 25,
+      "n": 1,
+      "pos": "1141:1247",
+      "data": {
+        "alwaysIgnored": [],
+        "immortal": [],
+        "ignorePlayer": []
+      },
+      "condition": {},
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "Dummy",
+      "description": null,
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 25,
+      "n": 1,
+      "pos": "1141:1247",
+      "data": {
+        "alwaysIgnored": [],
+        "immortal": [],
+        "ignorePlayer": []
+      },
+      "condition": {},
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "Dummy",
+      "description": null,
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 25,
+      "n": 1,
+      "pos": "1141:1247",
+      "data": {
+        "alwaysIgnored": [],
+        "immortal": [],
+        "ignorePlayer": []
+      },
+      "condition": {},
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "Dummy",
+      "description": null,
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 25,
+      "n": 1,
+      "pos": "1141:1247",
+      "data": {
+        "alwaysIgnored": [],
+        "immortal": [],
+        "ignorePlayer": []
+      },
+      "condition": {},
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "Dummy",
+      "description": null,
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 25,
+      "n": 1,
+      "pos": "1141:1247",
+      "data": {
+        "alwaysIgnored": [],
+        "immortal": [],
+        "ignorePlayer": []
+      },
+      "condition": {},
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "Dummy",
+      "description": null,
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 25,
+      "n": 1,
+      "pos": "1141:1247",
+      "data": {
+        "alwaysIgnored": [],
+        "immortal": [],
+        "ignorePlayer": []
+      },
+      "condition": {},
+      "actions": null
+    },
+    {
+      "id": 0,
+      "title": "Dummy",
+      "description": null,
+      "group": "LONERS",
+      "strength": "WEAK",
+      "r": 25,
+      "n": 1,
+      "pos": "1141:1247",
+      "data": {
+        "alwaysIgnored": [],
+        "immortal": [],
+        "ignorePlayer": []
+      },
+      "condition": {},
+      "actions": null
+    }
+  ]
+}

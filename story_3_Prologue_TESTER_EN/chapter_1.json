@@ -1,0 +1,807 @@
+{
+  "id": 1,
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_0.jpg",
+      "title": "Welcome to Quests!",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Hey there, Stalker! Glad to see you in the Quests section! To get started, you need to know what's what. The Quests section consists of separate stories that are connected to each other in one way or another. We recommend going through the stories in order from now on, so you don't lose the thread.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": 1,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 339.4886064928434,
+        "y": 52.31062902468835
+      }
+    },
+    {
+      "id": 1,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_0.jpg",
+      "title": "Prologue",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Right now you're in the prologue. This is an introductory set of quests that lays the groundwork for all the other stories. Here you'll get to play as three different characters. Later stories will play out as your own character, with your own gear and name.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": 2,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "reset": [
+          "relation_0",
+          "relation_1",
+          "relation_2",
+          "relation_3",
+          "relation_4",
+          "relation_5",
+          "relation_6"
+        ]
+      },
+      "editor": {
+        "x": 338.66575241641556,
+        "y": 160.34065182324343
+      }
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_0.jpg",
+      "title": "How to Play?",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Every story consists of two elements: text actions and map actions. Text actions play out like the ones you're seeing right now. In text actions you'll be given a choice of several options, and the story's future events will depend on your answers. You'll see map events later.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": 3,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "-": [
+          "relation_1:60",
+          "relation_2:60",
+          "relation_3:20",
+          "relation_5:100",
+          "relation_6:40"
+        ],
+        "+": [
+          "relation_0:40",
+          "relation_4:40"
+        ]
+      },
+      "editor": {
+        "x": 330.46169831010764,
+        "y": 281.83701415564065
+      }
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_0.jpg",
+      "title": "Gear, Achievements, Money, Reputation",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Just a reminder: literally everything you do affects everything else — your rank on the leaderboard, your gear, your achievements, faction relations, and much more. So think twice before picking an option.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": 4,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 269.56319129469296,
+        "y": 394.5794939874641
+      }
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_0.jpg",
+      "title": "Getting Started",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "That's the basics you need to know. Everything else is in your hands. Good luck out there, stalker!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": 5,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 337.563191294693,
+        "y": 508.57949398746416
+      }
+    },
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_1.jpg",
+      "title": "Chapter One. Vlad the Communist",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The Communist earned his nickname for the vibe he brings wherever he goes: he always knows how to create a cozy, warm atmosphere and bring people together, constantly cracking jokes about the Soviet Union and the idea of communism. Perceptive and reasonably demanding, kind and attentive, true to his word and fair. He helps anyone in a tough spot and tries to make friends with everyone. He can't stand it when people give up, won't let anyone wallow — otherwise he gets angry and feels guilty about it.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Start",
+          "stage": 6,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "1:1",
+          "14:1",
+          "71:1",
+          "29:24",
+          "40:90",
+          "84:1",
+          "Задание - Идти к Еврею (Пролог, Глава 1)"
+        ],
+        "money": [
+          "1200"
+        ]
+      },
+      "editor": {
+        "x": 170.56319129469296,
+        "y": 617.8196368827113
+      }
+    },
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_1.jpg",
+      "title": "Rookie Village, Cordon",
+      "message": "Quest complete: Find 5 blind dog tails.\nReward: 600 rubles.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The sky over the Zone hung like a felt blanket, fine raindrops sifting down from it like dust. Somewhere beyond the Perimeter, the December wind was raging, but here, on this land fenced off from the world by barbed wire, it was eternal autumn. And still, the day had turned out unusually rough.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": 7,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
+      "editor": {
+        "x": 329.69264073139675,
+        "y": 821.579493987464
+      }
+    },
+    {
+      "id": 7,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_2.jpg",
+      "title": "Rookie Village, Cordon",
+      "message": "Sidorovich: Swing by the receiving checkpoint before the Garbage — there's barely any guards, but new faces have started showing up: veterans, masters. Might build up some trust, or pick up some useful experience.",
+      "type_message": 1,
+      "texts": [
+        {
+          "text": "Lightning flashed in the west. Barking, the dogs circled the area but didn't dare come near the man. The Communist sighed and lazily lobbed another rusty bolt ahead of him. Where it landed, the air, which had been rippling uneasily, erupted in an electro-discharge.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Go toward the anomaly",
+          "stage": 8,
+          "condition": {
+            "!has": [
+              "Смерть игрока в Аномалии (Пролог, Глава1)"
+            ]
+          }
+        },
+        {
+          "text": "Walk past",
+          "stage": 9,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 330.6876200977369,
+        "y": 942.8990018982367
+      }
+    },
+    {
+      "id": 8,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_3.jpg",
+      "title": "Cordon",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Character death. Cause: wrong type of suit. Triggered by: a combined \"Burner\" and \"Electra\" anomaly.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue from checkpoint",
+          "stage": 10,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "Смерть игрока в Аномалии (Пролог, Глава1)"
+        ]
+      },
+      "editor": {
+        "x": 55.56038928056108,
+        "y": 1074.8822369334446
+      }
+    },
+    {
+      "id": 9,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_4.jpg",
+      "title": "Cordon",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The Communist figured it was easier to go around the anomaly than push straight through. He made his way to the road leading to the Garbage.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": 11,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 487.35346867543853,
+        "y": 1074.011686370148
+      }
+    },
+    {
+      "id": 10,
+      "type_stage": 5,
+      "actions": {
+        "openStage": [
+          "6"
+        ]
+      },
+      "transfers": [],
+      "editor": {
+        "x": 116.49892871128975,
+        "y": 1212.429225934232
+      }
+    },
+    {
+      "id": 11,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "261:1117"
+      },
+      "editor": {
+        "x": 479.5185136057735,
+        "y": 1177.6072034023873
+      }
+    },
+    {
+      "id": 12,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_6.jpg",
+      "title": "Checkpoint Before the Garbage",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "One of the Zone's phenomena — the eternal campfire. Beyond the Perimeter, the firewood would have gotten damp long ago and lost any ability to keep burning. An unknown stalker sat by the fire.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Hey there, stalker!",
+          "stage": 13,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1213.0448283967623,
+        "y": 173.86627380019183
+      }
+    },
+    {
+      "id": 13,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_7.jpg",
+      "title": "Unknown Stalker",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": " Hey yourself, if you're not joking.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Who might you be?",
+          "stage": 14,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1226.829208656727,
+        "y": 287.5874109448981
+      }
+    },
+    {
+      "id": 14,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_7.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The Jew. Arkady the Jew. And you?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Vlad the Communist. Quite the amusing crew we're turning out to be.",
+          "stage": 15,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1224.5318119467327,
+        "y": 396.71375466961615
+      }
+    },
+    {
+      "id": 15,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_7.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": " Yeah. Got any shekels to spare?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Nope. Where'd a smartass like you turn up from?",
+          "stage": 16,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1229.126605366721,
+        "y": 506.9887967493314
+      }
+    },
+    {
+      "id": 16,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_7.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Let's just say: from the West. I'm a military medic.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "And what, you couldn't sit still over there, comrade sawbones?",
+          "stage": 17,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1207.3013366217772,
+        "y": 623.0073306040317
+      }
+    },
+    {
+      "id": 17,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_7.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "It all just got old! Everything always goes to hell! I finished military medic school in that damn Hradec Kralove! I wanted to get posted to some hot zone! I could've made Captain! But they just turned me down at the last minute!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Well, there's always something happening around here: plenty of places to put your skills to use. Shoot a bit, patch someone up, even play some guitar to set the mood. So why were you so eager to go there, you fool?",
+          "stage": 18,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1207.3013366217772,
+        "y": 730.984975973753
+      }
+    },
+    {
+      "id": 18,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_7.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So what? I'd have gotten my rank. And if I'd died — so be it. But there's no point talking about it now…",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": 19,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1208.4500349767743,
+        "y": 841.260018053468
+      }
+    },
+    {
+      "id": 19,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_7.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Delightful weather. Perfect for sitting around and moping.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What's the point?",
+          "stage": 20,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1205.0039399117832,
+        "y": 948.0889650681921
+      }
+    },
+    {
+      "id": 20,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_7.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I don't know, I'm used to it.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Permanent gloom is bad for your health.",
+          "stage": 21,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1252.9711230299577,
+        "y": 1040.7470624666705
+      }
+    },
+    {
+      "id": 21,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_7.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I'm a honey badger, I don't care.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": 22,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1246.0067185235887,
+        "y": 1129.305157366022
+      }
+    },
+    {
+      "id": 22,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_7.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Vlad, where do you usually hang your hat?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "In the Rookie Village, why?",
+          "stage": 23,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1204.9518741116647,
+        "y": 1235.951301522536
+      }
+    },
+    {
+      "id": 23,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_7.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Just so I know where to find you. We're acquainted now, after all. Who knows, maybe we'll run raids together…",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Well, now you know, drop by sometime. Not coming along right now?",
+          "stage": 24,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1214.9518741116647,
+        "y": 1342.9140913073375
+      }
+    },
+    {
+      "id": 24,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_8.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Nah, I'll sit here a while, think things over.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Good luck then, philosopher. I'm heading out. Not keen on soaking up radioactive rain like a sponge out here.",
+          "stage": 25,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1216.8031757566673,
+        "y": 1459.7281827371414
+      }
+    },
+    {
+      "id": 25,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_8.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "See ya.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave.",
+          "stage": 26,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1255.6544774016704,
+        "y": 1569.0961791019545
+      }
+    },
+    {
+      "id": 26,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_0_8.jpg",
+      "title": "Chapter Complete!",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "And that's how the first chapter came to an end",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": 27,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "10"
+        ],
+        "reset": [
+          "items"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 1213.6544774016709,
+        "y": 1682.5050639517467
+      }
+    },
+    {
+      "id": 27,
+      "type_stage": 5,
+      "actions": {
+        "openStage": [
+          "2",
+          "1"
+        ],
+        "remove": [
+          "Задание - Идти к Еврею (Пролог, Глава 1)"
+        ]
+      },
+      "transfers": [],
+      "editor": {
+        "x": 1178.3711109853255,
+        "y": 1805.5553150889343
+      }
+    }
+  ],
+  "points": {
+    "1": [
+      {
+        "id": "add04123-00b3-47d1-a929-0c7b3a7bf78f",
+        "type": 1,
+        "name": "Swing by the receiving checkpoint",
+        "pos": "608:2259",
+        "data": {
+          "stage": 12,
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "Задание - Идти к Еврею (Пролог, Глава 1)"
+          ]
+        },
+        "editor": {
+          "x": 1172.722862672567,
+          "y": 46.80593054332596
+        }
+      }
+    ],
+    "2": [],
+    "3": []
+  },
+  "spawns": {},
+  "missions": [
+    {
+      "title": "Sidorovich's Tasks",
+      "name": "zadaniya-ot-sidorovicha",
+      "checkpoints": [
+        {
+          "title": "Swing by the receiving checkpoint",
+          "parameter": "Задание - Идти к Еврею (Пролог, Глава 1)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    }
+  ],
+  "title": "Первая Глава",
+  "_comment": "Игра за Коммуниста"
+}

@@ -1,0 +1,212 @@
+{
+  "id": 4,
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Alright, what exactly do you need?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Collect mutant parts",
+          "stage": "1",
+          "condition": {}
+        },
+        {
+          "text": "Look for information",
+          "stage": "2",
+          "condition": {}
+        },
+        {
+          "text": "Hand over an item",
+          "stage": "3",
+          "condition": {}
+        },
+        {
+          "text": "Task",
+          "stage": "4",
+          "condition": {}
+        },
+        {
+          "text": "Collect the reward",
+          "stage": "5",
+          "condition": {}
+        },
+        {
+          "text": "Never mind",
+          "stage": "6",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 875,
+        "y": 0
+      }
+    },
+    {
+      "id": 1,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 0,
+        "y": 150
+      }
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 350,
+        "y": 150
+      }
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 700,
+        "y": 150
+      }
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "New notification",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1050,
+        "y": 150
+      }
+    },
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1400,
+        "y": 150
+      }
+    },
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1750,
+        "y": 150
+      }
+    }
+  ],
+  "points": {
+    "9": []
+  },
+  "spawns": {},
+  "missions": [],
+  "title": "Квесты торговца"
+}

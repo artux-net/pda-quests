@@ -3,5 +3,6 @@
   "title": "TEST Ч-4: Пролог",
   "desc": "V 2.0.1 - Обновление: было добавлено завершение пролога, миссии и отредактированы точки",
   "icon": "story/backgrounds/test_prologue.png",
-  "access": "TESTER"
+  "access": "TESTER",
+  "locale": "ru"
 }

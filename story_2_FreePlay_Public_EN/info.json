@@ -1,0 +1,8 @@
+{
+  "id": 102,
+  "title": "Free Play",
+  "desc": "Play on your own: an endless supply of tasks and adventures.",
+  "icon": "story/freeplay/screen/24.jpg",
+  "access": "USER",
+  "locale": "en"
+}

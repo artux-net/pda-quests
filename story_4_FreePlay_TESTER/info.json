@@ -3,5 +3,6 @@
   "title": "TEST Свободная игра",
   "desc": "V 2.1.1 - Исправления Торговцев",
   "icon": "story/backgrounds/test_freeplay.png",
-  "access": "TESTER"
+  "access": "TESTER",
+  "locale": "ru"
 }

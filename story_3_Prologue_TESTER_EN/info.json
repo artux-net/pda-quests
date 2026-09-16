@@ -1,0 +1,8 @@
+{
+  "id": 103,
+  "title": "TEST Chernobyl-4: Prologue",
+  "desc": "V 2.0.1 update: added the prologue's ending, missions, and edited points",
+  "icon": "story/backgrounds/test_prologue.png",
+  "access": "TESTER",
+  "locale": "en"
+}

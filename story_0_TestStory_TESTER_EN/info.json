@@ -1,0 +1,11 @@
+{
+  "id": 100,
+  "title": "[Test] Range",
+  "desc": "[v1.4.2] A range for testers — experimental quests get loaded here so you can safely test different mechanics.",
+  "icon": "story/freeplay/screen/22.jpg",
+  "needs": [
+    100
+  ],
+  "access": "TESTER",
+  "locale": "en"
+}
