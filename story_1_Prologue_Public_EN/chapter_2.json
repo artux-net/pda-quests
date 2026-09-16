@@ -1,0 +1,767 @@
+{
+  "id": 2,
+  "stages": [
+    {
+      "id": 1,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "For a few minutes Arkady was completely absorbed in the moment. He no longer heard the footsteps of his new acquaintance fading away, but couldn't stop replaying the conversation that had just happened in his head.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": 2,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_1.jpg",
+      "title": "Arkady the Jew",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Nothing to be done about it now. Left with nothing. Lost that dream, and ruined you too: didn't stand up for you, let them chase you off our doorstep the moment you set foot on it, didn't run after you, didn't stop you on the riverbank! Need a drink. Now. At the '100 Roentgen'.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave the building",
+          "stage": 3,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3.0474679628929096,
+        "y": 107.95995982956711
+      }
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_2.jpg",
+      "title": "Checkpoint before the Garbage",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The stalker got ready to head to the bar. A watchtower stood next to the checkpoint building.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Climb up",
+          "stage": 4,
+          "condition": {}
+        },
+        {
+          "text": "Walk past",
+          "stage": 7,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "2:1",
+          "11:1",
+          "38:90",
+          "29:24",
+          "89:1",
+          "87:1",
+          "71:1"
+        ],
+        "syncNow": [],
+        "money": [
+          "600"
+        ]
+      },
+      "editor": {
+        "x": 6.493563027884022,
+        "y": 215.93760519928844
+      }
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_3.jpg",
+      "title": "Checkpoint before the Garbage",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Rusty steps rattled underfoot, sand stuck to his soles grinding with each step. Reaching the top, Arkady immediately came across a metal case.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Pry it open with a knife",
+          "stage": 5,
+          "condition": {}
+        },
+        {
+          "text": "Force it open by hand",
+          "stage": 6,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": -243.51596185336277,
+        "y": 534.958685104569
+      }
+    },
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_3.jpg",
+      "title": "Checkpoint before the Garbage",
+      "message": "Received: bandage x2, standard medkit.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The case turned out to hold medical supplies.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": 7,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "87:2",
+          "84:1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "xp": [
+          "1"
+        ]
+      },
+      "editor": {
+        "x": -369.7066084133114,
+        "y": 640.1518029389616
+      }
+    },
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_3.jpg",
+      "title": "Checkpoint before the Garbage",
+      "message": "Received: bandage x2, standard medkit.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Injury sustained: 'bleeding'. Cause: carelessness.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Next",
+          "stage": 7,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "87:2",
+          "84:1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": -123.52854120928552,
+        "y": 640.495095074699
+      },
+      "_comment": "Вычитание хп в стадиях?"
+    },
+    {
+      "id": 7,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_2.jpg",
+      "title": "Checkpoint before the Garbage",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Arkady stepped into a building on the checkpoint grounds for a moment, then came out and headed toward the Garbage.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": 8,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2.1433969701289186,
+        "y": 858.1659738415394
+      }
+    },
+    {
+      "id": 8,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_4.jpg",
+      "title": "Abandoned Vehicle Graveyard",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Here I am, just like this helicopter. Plenty of ability, don't look half bad either, and yet stuck rotting on this scrap of irradiated land.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": 9,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3.2857321281115333,
+        "y": 972.9854543459642
+      }
+    },
+    {
+      "id": 9,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_5.jpg",
+      "title": "Abandoned Vehicle Graveyard",
+      "message": "Listen up — keep your hands off your belt, don't go for your fly, don't pull out any hardware, and get your ass over here!",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Damn it...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Approach",
+          "stage": 10,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": -5.36635766817048,
+        "y": 1081.3885905501963
+      }
+    },
+    {
+      "id": 10,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Bandit",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Would ya look at this 'greenhorn'! Well, let's get acquainted: these are my buddies, and who the hell are you, sucker?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "The Jew. Arkady the Jew.",
+          "stage": 11,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5.16350277023237,
+        "y": 1202.2093579919529
+      }
+    },
+    {
+      "id": 11,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Bandit",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Listen, you don't happen to know Pynya, do you? He was about your height too, a timid little runt. Used to come round to your base all the time, and one day he got smart, walks in and says: 'Drinks on the house for everyone!' Ah, poor Pynya. Don't end up like him — turn out your pockets!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, alright, here you go.",
+          "stage": 12,
+          "condition": {
+            "money>=": [
+              "120"
+            ]
+          }
+        },
+        {
+          "text": "Look, I got jack squat anyway. How about I just turn around and walk off, like none of this happened?",
+          "stage": 15,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "Задание - Идти в Бар (Пролог, Глава 2)"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": -18.83944332009068,
+        "y": 1305.0801611597867
+      }
+    },
+    {
+      "id": 12,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Bandit",
+      "message": "Money lost: 120 RU.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "There we go, good boy, smart choice.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": 13,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "-120"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": -318.6871636188264,
+        "y": 1471.8474336893416
+      }
+    },
+    {
+      "id": 13,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Bandit",
+      "message": "Injury sustained: 'bleeding'",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You're free to go.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Ah, damn it...",
+          "stage": 14,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "5"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": -294.2110423542083,
+        "y": 1604.5522028802047
+      },
+      "_comment": "Вычитание хп в стадиях?"
+    },
+    {
+      "id": 14,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "747:503"
+      },
+      "editor": {
+        "x": -328.4107346851505,
+        "y": 1748.759082521451
+      }
+    },
+    {
+      "id": 15,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Bandit",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Eh, no, little stalker. That's not how things work, ya get me? You stepped onto our turf? You did. Now pay the toll, or me and the boys will finish you off. Stripping loot off a corpse ain't beneath us, ya get me?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Come on, guys, what's this about? I don't have anything!",
+          "stage": 16,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 409.22942478071695,
+        "y": 1446.163324642465
+      }
+    },
+    {
+      "id": 16,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Bandit",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "We're gonna strip you down now, so don't put up a fight, you ain't no blushing virgin.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Hey, don't touch me!",
+          "stage": 17,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 405.29840215383865,
+        "y": 1557.0790737898274
+      }
+    },
+    {
+      "id": 17,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Bandit",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Listen up! Either you hand over everything you got right now, or I drop you where you stand, ya get me?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Reach for your weapon",
+          "stage": 18,
+          "condition": {
+            "!has": [
+              "Смерть Игрока от Бандитов на свалке (Пролог, Глава 2)"
+            ]
+          }
+        },
+        {
+          "text": "Pay them off",
+          "stage": 22,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 401.4775540527782,
+        "y": 1667.6941692214496
+      }
+    },
+    {
+      "id": 18,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Bandit",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I swear to God, one twitch and I'll put a bullet in your skull!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'm just gonna turn around and walk back where I came from, okay?",
+          "stage": 19,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 24.751951446487084,
+        "y": 1836.58699078341
+      }
+    },
+    {
+      "id": 19,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Bandit",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I warned you, you damn fool!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": 20,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 30.26654731616813,
+        "y": 1947.7980074886445
+      }
+    },
+    {
+      "id": 20,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_7.jpg",
+      "title": "Bandit",
+      "message": "Stalker died: Arkady the Jew.\nCause: killed by bandits in the Garbage.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Game over",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue from checkpoint",
+          "stage": 21,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "Смерть Игрока от Бандитов на свалке (Пролог, Глава 2)"
+        ],
+        "syncNow": [],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": -70.53309204320433,
+        "y": 2057.807864499274
+      }
+    },
+    {
+      "id": 21,
+      "type_stage": 5,
+      "actions": {
+        "openStage": [
+          "6"
+        ]
+      },
+      "transfers": [],
+      "editor": {
+        "x": 28.881144581726716,
+        "y": 2192.940632043408
+      }
+    },
+    {
+      "id": 22,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_6.jpg",
+      "title": "Bandit",
+      "message": "Item lost: 'Echo Detector'",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The Jew slowly took off his backpack and tossed it toward the guys. One of them nodded approvingly and said he'd made the right call, and that his contribution to the communal pot was solid.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Continue",
+          "stage": 23,
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "3"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 607.462810783991,
+        "y": 1812.957712055349
+      }
+    },
+    {
+      "id": 23,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "747:503"
+      },
+      "editor": {
+        "x": 596.5928424929374,
+        "y": 1942.9949482327202
+      }
+    },
+    {
+      "id": 24,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_8.jpg",
+      "title": "Duty outpost before the Bar",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Head to the bar",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Cross over",
+          "stage": 25,
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 479.00204290167096,
+        "y": 112.58955089075226
+      }
+    },
+    {
+      "id": 25,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_1_8.jpg",
+      "title": "Chapter complete!",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "And that's how the second chapter came to an end",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "reset": [
+          "items"
+        ],
+        "remove": [
+          "Задание - Идти в Бар (Пролог, Глава 2)"
+        ],
+        "xp": [
+          "15"
+        ],
+        "syncNow": [],
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 457.03682312031515,
+        "y": 227.4362714618408
+      }
+    }
+  ],
+  "points": {
+    "2": [
+      {
+        "id": "0e55253f-833b-4186-8f32-595ee1462f08",
+        "type": 1,
+        "name": "From the bandits to the bar",
+        "pos": "700:1200",
+        "data": {
+          "stage": 24,
+          "chapter": "2"
+        },
+        "condition": {
+          "has": [
+            "Задание - Идти в Бар (Пролог, Глава 2)"
+          ]
+        },
+        "editor": {
+          "x": 442.2414016509139,
+          "y": -1.7818849733986468
+        }
+      }
+    ]
+  },
+  "spawns": {},
+  "missions": [
+    {
+      "title": "Get to the bar",
+      "name": "dobrat-sya-do-bara",
+      "checkpoints": [
+        {
+          "title": "Duty checkpoint",
+          "parameter": "Задание - Идти в Бар (Пролог, Глава 2)",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    }
+  ],
+  "title": "Chapter Two",
+  "_comment": "Игра за Еврея"
+}

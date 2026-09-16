@@ -1,0 +1,3291 @@
+{
+  "id": 1,
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Hey, stalker. What do you want?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Hello, could you tell me how to get into the Zone?",
+          "stage": "1",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "reset": [
+          "relation_0",
+          "relation_1",
+          "relation_2",
+          "relation_3",
+          "relation_4",
+          "relation_5",
+          "relation_6"
+        ]
+      },
+      "editor": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": 1,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Tourist? From the Mainland?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Is it that obvious?",
+          "stage": "2",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 0,
+        "y": 151.2921637931105
+      }
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Quit saying 'Hello' and hunch your back — otherwise you'll look like a clueless rookie.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "3",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "-": [
+          "relation_2:60",
+          "relation_5:100",
+          "relation_1:60"
+        ]
+      },
+      "editor": {
+        "x": 0,
+        "y": 300
+      }
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Let's get acquainted, I guess. My mother named me Aivar, but around here everyone calls me Joe.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "@name",
+          "stage": "4",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 0,
+        "y": 450
+      }
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Pleased to meet you, @name. Did you at least serve in the army?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Sure did",
+          "stage": "5",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 0,
+        "y": 600
+      }
+    },
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Better than nothing. Now listen to me: going into the Zone right now is suicide. Get settled in here first. Do you have any papers?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Just a passport",
+          "stage": "6",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 0,
+        "y": 749.0207229660688
+      }
+    },
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What the hell do I need your passport for — I mean a permit to be in Chernobyl-4.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Then no",
+          "stage": "7",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 0,
+        "y": 900
+      }
+    },
+    {
+      "id": 7,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "And money, I take it, you're not exactly flush with, right? ",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "About 500 RU",
+          "stage": "8",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 0,
+        "y": 1050
+      }
+    },
+    {
+      "id": 8,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, that's obviously not enough to get your papers sorted. I suggest you work for me a bit — run around the safe zone, earn enough for your documents, so you can at least move around without worrying about getting thrown in the holding cell and hauled off to Kiev for trial.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What will I need to do?",
+          "stage": "9",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 0,
+        "y": 1200
+      }
+    },
+    {
+      "id": 9,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "Item received: Papers for NIIChAZ",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Nothing complicated. First, take these papers to the scientists at NIIChAZ, I'll write you a pass to get in.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "The Zone, what is it exactly?",
+          "stage": "10",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
+      "editor": {
+        "x": 0,
+        "y": 1350
+      }
+    },
+    {
+      "id": 10,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The Zone, it's... I see you've done your homework, read the folklore? Truth is, it's scarier and stranger than that. Like the old-timers used to say: 'If you want to play cards with her, she picks chess instead — or some other game you barely understand a damn thing about.' As for the local folk: how you treat them is how they'll treat you, or so they say — I don't buy that crap. Sometimes you save a guy and the next day he kills you. Everything else — you'll find out yourself. Here, take this thing, it's called a PDA, a handheld personal computer, you'll figure it out.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What do I need it for?",
+          "stage": "11",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 0,
+        "y": 1500
+      }
+    },
+    {
+      "id": 11,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You won't survive here without it. The PDA has a built-in dosimeter, an anomaly detector, a map, and a sort of communicator between stalkers — they call it the Stalker Network. There's also a Zone encyclopedia in there, read it in your spare time, it'll help you survive, heh-heh. Ugh, I picked up that heh-heh from some poor bastard who's actually nicknamed that. Little punk. ",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "12",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 0,
+        "y": 1650
+      }
+    },
+    {
+      "id": 12,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "New task: Head to NIIChAZ",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Here's your pass, I've sent the marker to your PDA. Off you go, and try not to kick the bucket.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What an encouraging send-off. Bye",
+          "stage": "13",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 0,
+        "y": 1800
+      }
+    },
+    {
+      "id": 13,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1311:662"
+      },
+      "editor": {
+        "x": 0,
+        "y": 1950
+      }
+    },
+    {
+      "id": 14,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/1.jpg",
+      "title": "Checkpoint",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Halt. What's your business heading to NIIChAZ?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Delivering papers. Here's my pass",
+          "stage": "15",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 515,
+        "y": 150
+      }
+    },
+    {
+      "id": 15,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/1.jpg",
+      "title": "Checkpoint",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "From Joe, huh. And do you have a permit to be in the restricted area?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "No",
+          "stage": "16",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 515,
+        "y": 300
+      }
+    },
+    {
+      "id": 16,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/1.jpg",
+      "title": "Checkpoint",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "And how exactly were you planning to get onto a restricted site?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I don't know, boss. Maybe we can work something out?",
+          "stage": "17",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 515,
+        "y": 450
+      }
+    },
+    {
+      "id": 17,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/1.jpg",
+      "title": "Checkpoint",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "1000 RU and you're through.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I only have 500 RU.",
+          "stage": "18",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 515,
+        "y": 600
+      }
+    },
+    {
+      "id": 18,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/1.jpg",
+      "title": "Checkpoint",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, 500 RU to get in, 500 RU to get out. I'll let you in, sure, but you won't walk out of here for free. Either go in and figure out where to get the money on the spot, or get lost back where you came from.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Let me through, I'll figure it out",
+          "stage": "19",
+          "condition": {}
+        },
+        {
+          "text": "I'll go look around, be back soon",
+          "stage": "22",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "quest_0_0"
+        ]
+      },
+      "editor": {
+        "x": 515,
+        "y": 750
+      }
+    },
+    {
+      "id": 19,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/1.jpg",
+      "title": "Checkpoint",
+      "message": "Task updated: Go to the scientist",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Uh-huh, go on then, good luck.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Bye",
+          "stage": "20",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_post_uch1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
+      "editor": {
+        "x": 350,
+        "y": 900
+      }
+    },
+    {
+      "id": 20,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/1.jpg",
+      "title": "Checkpoint",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You've got 15 minutes, hurry up.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Yeah, got it",
+          "stage": "21",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_post_uch_dolg"
+        ]
+      },
+      "editor": {
+        "x": 350,
+        "y": 1050
+      }
+    },
+    {
+      "id": 21,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2373:1007"
+      },
+      "editor": {
+        "x": 350,
+        "y": 1200
+      }
+    },
+    {
+      "id": 22,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/1.jpg",
+      "title": "Checkpoint",
+      "message": "Task updated: Return to the bar",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Come on, get moving.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Bye",
+          "stage": "23",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_post_bar"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
+      "editor": {
+        "x": 700,
+        "y": 900
+      }
+    },
+    {
+      "id": 23,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2374:947"
+      },
+      "editor": {
+        "x": 700,
+        "y": 1050
+      }
+    },
+    {
+      "id": 24,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Scientist",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Hello. How can I help you?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Hello. Aivar asked me to give you these papers",
+          "stage": "25",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1225,
+        "y": 150
+      }
+    },
+    {
+      "id": 25,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Scientist",
+      "message": "Item lost: Papers for NIIChAZ",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Joe? Excellent, I've been waiting for these materials from him for a while. Sorry, what's your name?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "@name",
+          "stage": "26",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": 1225,
+        "y": 300
+      }
+    },
+    {
+      "id": 26,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Scientist",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "@name, you say? I don't recall you. I suppose you don't know me either. My surname is Klementyev, pleased to meet you.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Likewise",
+          "stage": "27",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1225,
+        "y": 450
+      }
+    },
+    {
+      "id": 27,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Yes, yes. If you have any questions regarding activity in the Zone, feel free to ask.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Can I get a pass into the Zone from you?",
+          "stage": "28",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1225,
+        "y": 600
+      }
+    },
+    {
+      "id": 28,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Unfortunately, we're not currently hiring freelance staff and have nothing to offer you.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "So how am I supposed to get in there?",
+          "stage": "29",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1225,
+        "y": 750
+      }
+    },
+    {
+      "id": 29,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I can't tell you, but through NIIChAZ, again, it's not possible right now.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Understood. In that case, I won't keep you any longer",
+          "stage": "30",
+          "condition": {
+            "!has": [
+              "quest_0_0_post_uch_dolg"
+            ]
+          }
+        },
+        {
+          "text": "I have an unusual request: could I borrow 500 RU from you to get out of here? The guards won't let me out without a bribe",
+          "stage": "32",
+          "condition": {
+            "has": [
+              "quest_0_0_post_uch_dolg"
+            ]
+          }
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_post_uch_bar"
+        ],
+        "remove": [
+          "quest_0_0_post_uch1"
+        ]
+      },
+      "editor": {
+        "x": 1225,
+        "y": 900
+      }
+    },
+    {
+      "id": 30,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Klementyev",
+      "message": "New task: Return to the bar",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "All the best.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave",
+          "stage": "31",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 1070.0226629558108,
+        "y": 1068.2815618292186
+      }
+    },
+    {
+      "id": 31,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2374:947"
+      },
+      "editor": {
+        "x": 1050,
+        "y": 1200
+      }
+    },
+    {
+      "id": 32,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "How terrible! I'll contact management immediately and demand they let you out.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'd be grateful",
+          "stage": "33",
+          "condition": {}
+        },
+        {
+          "text": "Wait...",
+          "stage": "34",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "quest_0_0_post_uch_dolg"
+        ]
+      },
+      "editor": {
+        "x": 1748.0414459321375,
+        "y": 1050
+      }
+    },
+    {
+      "id": 33,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Sergeant! Escort this young man to the exit and make sure he's let out. This is my personal order!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Thanks, I'm off. Take care",
+          "stage": "35",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1572.460950649911,
+        "y": 1190.5539049350089
+      }
+    },
+    {
+      "id": 34,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Klementyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What's the matter?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I really wouldn't want to start my dealings with NIIChAZ on a bad note, especially since it's my own fault for not having papers. Could you possibly still lend me 500 RU?",
+          "stage": "37",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1925,
+        "y": 1200
+      }
+    },
+    {
+      "id": 35,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/3.jpg",
+      "title": "Checkpoint",
+      "message": "New task: Return to the bar",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You little punk. I'll remember this.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave",
+          "stage": "36",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "-100"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 1573.2949796529763,
+        "y": 1350
+      }
+    },
+    {
+      "id": 36,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2373:947"
+      },
+      "editor": {
+        "x": 1575,
+        "y": 1500
+      }
+    },
+    {
+      "id": 37,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/2.jpg",
+      "title": "Klementyev",
+      "message": "Money received: 500 RU",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Understood, alright, here's the money. Please pay it back as soon as you can.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Thanks, I'm off. Take care",
+          "stage": "38",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_post_uch1_exit"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ],
+        "money": [
+          "500"
+        ]
+      },
+      "editor": {
+        "x": 1925,
+        "y": 1350
+      }
+    },
+    {
+      "id": 38,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2448:1291"
+      },
+      "editor": {
+        "x": 1925,
+        "y": 1500
+      }
+    },
+    {
+      "id": 39,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/3.jpg",
+      "title": "Checkpoint",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So, soldier, did you bring what you promised?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Here you go",
+          "stage": "40",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1575,
+        "y": 150
+      }
+    },
+    {
+      "id": 40,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/3.jpg",
+      "title": "Checkpoint",
+      "message": "New task: Return to the bar. Lost: 1000 RU",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "That's more like it. Don't come back without papers!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Bye",
+          "stage": "41",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "quest_0_0_post_uch1_exit"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "money": [
+          "-1000"
+        ]
+      },
+      "editor": {
+        "x": 1575,
+        "y": 300
+      }
+    },
+    {
+      "id": 41,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2374:947"
+      },
+      "editor": {
+        "x": 1575,
+        "y": 450
+      }
+    },
+    {
+      "id": 42,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What, you delivered the papers already?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Not yet. The checkpoint guards wouldn't let me through. Can I borrow 500 RU to get past them?",
+          "stage": "43",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1919.3755304101837,
+        "y": 125.2523338048091
+      }
+    },
+    {
+      "id": 43,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "Task updated: Return to NIIChAZ. Received: 500 RU",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Are you an idiot? Couldn't you work it out with him on the spot? Fine, here, you'll pay it off.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Thanks, I'm off",
+          "stage": "44",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "quest_0_0_post_bar"
+        ],
+        "money": [
+          "500"
+        ],
+        "add": [
+          "quest_0_0_post_bar1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
+      "editor": {
+        "x": 1925,
+        "y": 300
+      }
+    },
+    {
+      "id": 44,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1311:662"
+      },
+      "editor": {
+        "x": 1925,
+        "y": 450
+      }
+    },
+    {
+      "id": 45,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/1.jpg",
+      "title": "Checkpoint",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Got the grand?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Got it, here",
+          "stage": "46",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2275,
+        "y": 150
+      }
+    },
+    {
+      "id": 46,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/1.jpg",
+      "title": "Checkpoint",
+      "message": "New task: Go to the scientist. Lost: 1000 RU",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Run, there and back. I want you off NIIChAZ grounds in 15 minutes.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Thanks",
+          "stage": "47",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_post_uch1"
+        ],
+        "money": [
+          "-1000"
+        ],
+        "remove": [
+          "quest_0_0_post_bar1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 2275,
+        "y": 298.70783620688945
+      }
+    },
+    {
+      "id": 47,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2373:1007"
+      },
+      "editor": {
+        "x": 2275,
+        "y": 450
+      }
+    },
+    {
+      "id": 48,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/9.jpg",
+      "title": "Sergeant Krupov",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Halt, who are you?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Hey, I'm here to see Major Kirgizov",
+          "stage": "49",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 150
+      }
+    },
+    {
+      "id": 49,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/9.jpg",
+      "title": "Sergeant Krupov",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Regarding what matter?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Looking for work",
+          "stage": "50",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 300
+      }
+    },
+    {
+      "id": 50,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/9.jpg",
+      "title": "Sergeant Krupov",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What's your name?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "@name",
+          "stage": "51",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 450
+      }
+    },
+    {
+      "id": 51,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/9.jpg",
+      "title": "Sergeant Krupov",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Major, sir, there's a civilian, @name, here to see you, says it's about work.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "52",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 600
+      }
+    },
+    {
+      "id": 52,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/9.jpg",
+      "title": "Sergeant Krupov",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I'll take you to the major, follow me.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright",
+          "stage": "53",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 750
+      }
+    },
+    {
+      "id": 53,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/10.jpg",
+      "title": "Major Kirgizov",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well hello, @name. You're from Joe, right?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Weren't you told already?",
+          "stage": "54",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 900
+      }
+    },
+    {
+      "id": 54,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/10.jpg",
+      "title": "Major Kirgizov",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Of course I was told. So, you need an official pass into the Zone?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "That's right",
+          "stage": "55",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2625,
+        "y": 1050
+      }
+    },
+    {
+      "id": 55,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/10.jpg",
+      "title": "Major Kirgizov",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Alright, memorize your cover story. You're a contractor, known for good research and strategic skills. You were called in here on recommendation to carry out official duties. That said, you're not officially armed forces personnel — basically just a regular guy with a pass into the Zone, neat, huh? Here are the papers, now hand me the 5 documents the barman told you about.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Here you go",
+          "stage": "56",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2624.0207229660687,
+        "y": 1200
+      }
+    },
+    {
+      "id": 56,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/10.jpg",
+      "title": "Major Kirgizov",
+      "message": "Item lost: 5000 RU. Item received: Papers for the Zone pass",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Great, here are your papers, take them to Vasily Alekseevich at NIIChAZ. By the way, there's already a permit to be in Chernobyl-4 included, so you can move around freely. Just keep in mind, you won't be staff for nothing — you'll have to carry out tasks now and then. I'll send them to your PDA.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Got it, I'm off, thanks",
+          "stage": "57",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_sng2"
+        ],
+        "remove": [
+          "quest_0_0_sng1"
+        ],
+        "money": [
+          "-5000"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": 2625.9792770339313,
+        "y": 1333.3522904231684
+      }
+    },
+    {
+      "id": 57,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/10.jpg",
+      "title": "Major Kirgizov",
+      "message": "New task: Go to NIIChAZ",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The sergeant will walk you to the exit, good luck.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Bye",
+          "stage": "58",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "+": [
+          "relation_2:100"
+        ],
+        "syncNow": [],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 2625,
+        "y": 1500
+      },
+      "_comment": ""
+    },
+    {
+      "id": 58,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2093:1139"
+      },
+      "editor": {
+        "x": 2635.1240452616694,
+        "y": 1675.0486048629023
+      }
+    },
+    {
+      "id": 59,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/8.jpg",
+      "title": "Valerka",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Psst, stalker, you a rookie?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Yeah, why?",
+          "stage": "60",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3310.984681034858,
+        "y": 117.69590517223685
+      }
+    },
+    {
+      "id": 60,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/8.jpg",
+      "title": "Valerka",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I've got an offer. Want a cheap pass into the Zone? Say, for 800 RU.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "No thanks, I'll manage on my own",
+          "stage": "61",
+          "condition": {}
+        },
+        {
+          "text": "Alright, say I do. What do I need to do?",
+          "stage": "62",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "quest_0_0_naebka"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 3234.9502017777763,
+        "y": 272.5700840425531
+      }
+    },
+    {
+      "id": 61,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/8.jpg",
+      "title": "Valerka",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Sure? You won't get an offer like this again.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Fine, lay it out",
+          "stage": "62",
+          "condition": {}
+        },
+        {
+          "text": "Sure, bye",
+          "stage": "63",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3150,
+        "y": 450
+      }
+    },
+    {
+      "id": 62,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/8.jpg",
+      "title": "Valerka",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "It's simple. Tell me your handle, I'll pass it to the guy. Pay up and go see him.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Here's 800 RU",
+          "stage": "65",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_naebka1"
+        ]
+      },
+      "editor": {
+        "x": 2975,
+        "y": 600
+      }
+    },
+    {
+      "id": 63,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/8.jpg",
+      "title": "Valerka",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, good luck, kid.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave",
+          "stage": "64",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_sng1"
+        ]
+      },
+      "editor": {
+        "x": 3323.2949796529765,
+        "y": 600
+      }
+    },
+    {
+      "id": 64,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1323:705"
+      },
+      "editor": {
+        "x": 3325,
+        "y": 750
+      }
+    },
+    {
+      "id": 65,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/8.jpg",
+      "title": "Valerka",
+      "message": "New task: Go get the pass. Lost: 800 RU",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Thanks. I've sent the coordinates to your PDA, you can head over there right now.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Bye",
+          "stage": "66",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "-800"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 2975,
+        "y": 750
+      }
+    },
+    {
+      "id": 66,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1323:705"
+      },
+      "editor": {
+        "x": 2975,
+        "y": 900
+      }
+    },
+    {
+      "id": 67,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "House",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "There was no one in the backyard.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Wait 20 minutes",
+          "stage": "68",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3695,
+        "y": 150
+      }
+    },
+    {
+      "id": 68,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "House",
+      "message": "New task: Go to the CIS base",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "No one ever showed up.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Go to the CIS forces base",
+          "stage": "69",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_sng1"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 3695,
+        "y": 300
+      }
+    },
+    {
+      "id": 69,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2254:486"
+      },
+      "editor": {
+        "x": 3695,
+        "y": 450
+      }
+    },
+    {
+      "id": 70,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So, did you deliver the papers?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Yeah, it's done",
+          "stage": "71",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4045,
+        "y": 150
+      }
+    },
+    {
+      "id": 71,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Good job. No problems?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "The checkpoint wouldn't let me through without money since I don't have a permit",
+          "stage": "72",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4045,
+        "y": 300
+      }
+    },
+    {
+      "id": 72,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "That's normal, just live with it until you get your pass. By the way, new task for you. There's a guy at the table behind you, they call him Kalina, he owes me dough. Go have a word with him to get it back.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "And what exactly should I tell him?",
+          "stage": "73",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "quest_0_0_post_uch_bar"
+        ]
+      },
+      "editor": {
+        "x": 4045,
+        "y": 450
+      }
+    },
+    {
+      "id": 73,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "New task: Go to Kalina",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Figure it out yourself.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Got it",
+          "stage": "74",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 4045,
+        "y": 600
+      }
+    },
+    {
+      "id": 74,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/4.jpg",
+      "title": "Kalina",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What do you want?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Hello. Are you Kalina?",
+          "stage": "75",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4045,
+        "y": 750
+      }
+    },
+    {
+      "id": 75,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/4.jpg",
+      "title": "Kalina",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Say I am, so what?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "The barman asked me to tell you that you owe him money and wants it back",
+          "stage": "76",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4045,
+        "y": 900
+      }
+    },
+    {
+      "id": 76,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/4.jpg",
+      "title": "Kalina",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Kid, you're not old enough yet to be demanding cash off people, get lost.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "You misunderstood, that wasn't a request. The barman is demanding the money.",
+          "stage": "77",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4045,
+        "y": 1050
+      }
+    },
+    {
+      "id": 77,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/5.jpg",
+      "title": "Kalina",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well aren't you a cocky one, Alyosha. Genka, get over here",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What's going on?",
+          "stage": "78",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4045,
+        "y": 1200
+      }
+    },
+    {
+      "id": 78,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/6.jpg",
+      "title": "Genka",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Hey, Vasyan, is it you causing a scene here, shaking down my buddy for someone else's debt? ",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'm just doing what I was told to do...",
+          "stage": "79",
+          "condition": {}
+        },
+        {
+          "text": "Sweetheart, take a walk, nobody's talking to you",
+          "stage": "81",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4045,
+        "y": 1350
+      }
+    },
+    {
+      "id": 79,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/6.jpg",
+      "title": "Genka",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Now turn around and go back where you came from.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Maybe your friend, the one I was actually talking to, has something to say?",
+          "stage": "80",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_kalina_loh"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 3520,
+        "y": 1950
+      }
+    },
+    {
+      "id": 80,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/6.jpg",
+      "title": "Kalina",
+      "message": "Item received: 700 RU \nTask updated: Return to Joe",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "No argument, I owe the cash, I'll pay the cash. Go on, scoot, give him the dough, piggy.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Wish you a long life too",
+          "stage": "86",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
+      "editor": {
+        "x": 3520,
+        "y": 2100
+      }
+    },
+    {
+      "id": 81,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/6.jpg",
+      "title": "Genka",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You punk, have you completely lost it? Want me to blow your head off right now? ",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "In the most heavily guarded bar around? Good luck with that, bro",
+          "stage": "82",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_kalina_krasawa"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 4220,
+        "y": 1500
+      }
+    },
+    {
+      "id": 82,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/6.jpg",
+      "title": "Guard",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I'll blow all three of your heads off right now! Shut up and calm down. What's the beef? Kalina, you owe the barman money again? Go on, pay it back, cash or whatever, but if you don't, I'll waste you, I swear.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "83",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4220,
+        "y": 1650
+      }
+    },
+    {
+      "id": 83,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/6.jpg",
+      "title": "Kalina",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Heard what the boss said? Here's the cash, now scurry over to the barman, ha.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, listen up, you're going to get your ass moving and go pay your debt yourself. Otherwise you'd better watch your back, you clumsy motormouth",
+          "stage": "84",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4220,
+        "y": 1800
+      }
+    },
+    {
+      "id": 84,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/6.jpg",
+      "title": "Kalina",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Alright, alright, don't blow a fuse, I'll pay it now.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Chop chop",
+          "stage": "85",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4220,
+        "y": 1950
+      }
+    },
+    {
+      "id": 85,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/7.jpg",
+      "title": "Kalina",
+      "message": "Task updated: Go to Joe",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Joe, don't be mad, I just didn't have the funds to settle our little debt, I'll try not to let it happen again.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "86",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
+      "editor": {
+        "x": 4220,
+        "y": 2100
+      }
+    },
+    {
+      "id": 86,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So, how's it going with the money?",
+          "condition": {
+            "has": [
+              "quest_0_0_kalina_loh"
+            ]
+          }
+        },
+        {
+          "text": "You put them in their place nicely, respect.",
+          "condition": {
+            "has": [
+              "quest_0_0_kalina_krasawa"
+            ]
+          }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Brought the money. Who were those guys?",
+          "stage": "87",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4045,
+        "y": 2250
+      }
+    },
+    {
+      "id": 87,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "Lost: 700 RU",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "A couple of wannabe gangster kids, but really just suckers who're always in debt and never venture past the Cordon. You should've been tougher with them — honestly, you embarrassed yourself in front of the whole bar.",
+          "condition": {
+            "has": [
+              "quest_0_0_kalina_loh"
+            ]
+          }
+        },
+        {
+          "text": "A couple of wannabe gangster kids, but really just suckers who're always in debt and never venture past the Cordon. You did the right thing leaning on them, the whole bar noticed.",
+          "condition": {
+            "has": [
+              "quest_0_0_kalina_krasawa"
+            ]
+          }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What are my next steps?",
+          "stage": "88",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": 4045,
+        "y": 2400
+      }
+    },
+    {
+      "id": 88,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "Money received: 7000 RU",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I can see you're a confident guy, got some backbone. I'll give you money for a pass and a weapon, on credit of course. You can pay any trader back, they'll pass it on to me. Hope you don't kick the bucket before you pay up, heh-heh. Anyway, here's 7 grand, enough for a pass and a Makarov — buy it from Sidorovich in the Rookie Village, you'll find it on the map. Study the encyclopedia carefully so you don't die in an anomaly. Good luck, stalker.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Thanks, Joe",
+          "stage": "89",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "+": [
+          "relation_0:10"
+        ],
+        "money": [
+          "7000"
+        ],
+        "remove": [
+          "quest_0_0_kalina_loh",
+          "quest_0_0_kalina_krasawa"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 3966.3317595527624,
+        "y": 2529.219710070541
+      }
+    },
+    {
+      "id": 89,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/0.jpg",
+      "title": "Barman Joe",
+      "message": "New task: Head to the CIS base",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Now head to the CIS base, tell them you're there for Major Kirgizov, they'll let you through. He'll give you a permit to be in Chernobyl-4 and a contract to carry out tasks in the Zone, for the NIIChAZ pass. They'll explain the rest. ",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Bye",
+          "stage": "90",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_naebka"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 4045,
+        "y": 2700
+      }
+    },
+    {
+      "id": 90,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "1311:662"
+      },
+      "editor": {
+        "x": 4045,
+        "y": 2850
+      }
+    },
+    {
+      "id": 91,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/11.jpg",
+      "title": "Captain Rusin",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Where you headed?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "To see Vasily Alekseevich, here's my pass",
+          "stage": "92",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4570,
+        "y": 150
+      }
+    },
+    {
+      "id": 92,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/11.jpg",
+      "title": "Captain Rusin",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Was it you who had a run-in with the soldier at the next post?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "If you can call it a run-in",
+          "stage": "93",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4570,
+        "y": 300
+      }
+    },
+    {
+      "id": 93,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/11.jpg",
+      "title": "Captain Rusin",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "He's new here, a contractor. Got sent to a court-martial for taking bribes.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "So we won't be seeing him around here anymore?",
+          "stage": "94",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4570,
+        "y": 450
+      }
+    },
+    {
+      "id": 94,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/11.jpg",
+      "title": "Captain Rusin",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "We won't be seeing him anywhere for the next few years. Alright, let's get you over to Vasily Alekseevich.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "95",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4570,
+        "y": 600
+      }
+    },
+    {
+      "id": 95,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/12.jpg",
+      "title": "Vasily Alekseevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Hello, @name. The major already told me about you. What brings you here?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Hello. To carry out Major Kirgizov's orders, I'm a contractor from the mainland",
+          "stage": "96",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4570,
+        "y": 750
+      }
+    },
+    {
+      "id": 96,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/12.jpg",
+      "title": "Vasily Alekseevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Good. Do you have basic knowledge of the Zone?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Of course, I went through the briefing and lectures",
+          "stage": "97",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4570,
+        "y": 900
+      }
+    },
+    {
+      "id": 97,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/12.jpg",
+      "title": "Vasily Alekseevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Excellent, I take it I don't need to ask about your combat skills?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Of course not",
+          "stage": "98",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4570,
+        "y": 1050
+      }
+    },
+    {
+      "id": 98,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/12.jpg",
+      "title": "Vasily Alekseevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Naturally. Well then, let's get acquainted. I'm Vasily Alekseevich, your NIIChAZ supervisor. I'll be advising you on various matters concerning the Zone. I'll also be handing out tasks from the institute. They won't come often, since we're in different departments after all, but still. Do you have any questions?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "When can I get my pass? ",
+          "stage": "99",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4570,
+        "y": 1200
+      }
+    },
+    {
+      "id": 99,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/12.jpg",
+      "title": "Vasily Alekseevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Of course. Let's fill out your paperwork now and issue the pass. Please hand over your passport or military ID.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Here you go",
+          "stage": "100",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4570,
+        "y": 1350
+      }
+    },
+    {
+      "id": 100,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/12.jpg",
+      "title": "Vasily Alekseevich",
+      "message": "Item received: Zone Pass",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Uh-huh... One moment... Done, here's your pass. It's valid for a month, after that you'll need to renew it. Now you can move freely around the Zone. Any more questions?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "No questions",
+          "stage": "101",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "propusk_001"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 4590.460244164284,
+        "y": 1494.884938958929
+      }
+    },
+    {
+      "id": 101,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/12.jpg",
+      "title": "Vasily Alekseevich",
+      "message": "Task updated: Go to the Perimeter",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Wonderful. I won't keep you any longer, the captain will escort you to the checkpoint.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Take care",
+          "stage": "102",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_0_0_sng3"
+        ],
+        "remove": [
+          "quest_0_0_sng2"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA.mp3"
+        ]
+      },
+      "editor": {
+        "x": 4570.59237636297,
+        "y": 1650
+      }
+    },
+    {
+      "id": 102,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2374:977"
+      },
+      "editor": {
+        "x": 4570,
+        "y": 1800
+      }
+    },
+    {
+      "id": 103,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/13.jpg",
+      "title": "Checkpoint",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Halt! Who goes there?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Callsign @name. Arrived to carry out orders from the CIS base. Here's my pass",
+          "stage": "104",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5117.262947150775,
+        "y": 186.277754480005
+      }
+    },
+    {
+      "id": 104,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/13.jpg",
+      "title": "Checkpoint",
+      "message": "Task updated: Cross the Perimeter",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Everything's in order, you may proceed",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Take care",
+          "stage": "105",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 5138.845430974378,
+        "y": 383.33299687572406
+      }
+    },
+    {
+      "id": 105,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/13.jpg",
+      "title": "Chapter complete!",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "And that's how chapter 1 came to an end",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Cross the perimeter",
+          "stage": "107",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5147.635616358923,
+        "y": 546.4687364313294
+      },
+      "_comment": "Связать с началом 2-й главы"
+    },
+    {
+      "id": 106,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "312:710"
+      },
+      "editor": {
+        "x": 5122.947550523222,
+        "y": 1087.6970257850494
+      }
+    },
+    {
+      "id": 107,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/14.jpg",
+      "title": "Lieutenant Saev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Greetings. Show your papers.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I just showed them to your colleague",
+          "stage": "108",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5126.233541593265,
+        "y": 709.1222793298788
+      }
+    },
+    {
+      "id": 108,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/14.jpg",
+      "title": "Lieutenant Saev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I need to check them before you pass the post.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Here you go",
+          "stage": "109",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5132.291878843703,
+        "y": 846.961396760154
+      }
+    },
+    {
+      "id": 109,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/14.jpg",
+      "title": "Lieutenant Saev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Uh-huh... Kirgizov's selling passes into the Zone again, got it. Anyway, take this armband — tie it on your arm so the military doesn't just open fire on you right away. After that, if you can talk your way through, you'll be fine.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Thanks",
+          "stage": "106",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "quest_0_0_sng3"
+        ]
+      },
+      "editor": {
+        "x": 5140.291878843703,
+        "y": 972.9613967601539
+      }
+    }
+  ],
+  "points": {
+    "0": [
+      {
+        "id": "ae10d06d-9edd-4bfe-a1aa-519750b26f3d",
+        "type": 0,
+        "name": "NIIChAZ Checkpoint",
+        "pos": "2374:977",
+        "data": {
+          "stage": "14",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0"
+          ]
+        },
+        "editor": {
+          "x": 515,
+          "y": 0
+        }
+      },
+      {
+        "id": "63126761-3e67-42ab-96e6-b86c7663cb54",
+        "type": 0,
+        "name": "Scientist",
+        "pos": "2448:1291",
+        "data": {
+          "stage": "24",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0_post_uch1"
+          ]
+        },
+        "editor": {
+          "x": 1225,
+          "y": 0
+        }
+      },
+      {
+        "id": "01257350-78cf-446c-9581-50b1c2e949bb",
+        "type": 1,
+        "name": "From the scientist, repay the guards' debt",
+        "pos": "2374:977",
+        "data": {
+          "stage": "39",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0_post_uch1_exit"
+          ]
+        },
+        "editor": {
+          "x": 1575,
+          "y": 0
+        }
+      },
+      {
+        "id": "0c700f4b-0a3e-4dae-805f-7c5686928e5b",
+        "type": 0,
+        "name": "From the post to the bar",
+        "pos": "1311:662",
+        "data": {
+          "stage": "42",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0_post_bar"
+          ]
+        },
+        "editor": {
+          "x": 1925,
+          "y": 0
+        }
+      },
+      {
+        "id": "0990c038-6885-45d6-a62a-141ae6e946c3",
+        "type": 0,
+        "name": "Checkpoint | got money from the bar",
+        "pos": "2374:977",
+        "data": {
+          "stage": "45",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0_post_bar1"
+          ]
+        },
+        "editor": {
+          "x": 2275,
+          "y": 0
+        }
+      },
+      {
+        "id": "4aa2a4eb-9cac-45f4-8b7a-19c5cd1e0ba5",
+        "type": 0,
+        "name": "To the CIS base",
+        "pos": "2093:1139",
+        "data": {
+          "stage": "48",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0_sng1"
+          ]
+        },
+        "editor": {
+          "x": 2625,
+          "y": 0
+        }
+      },
+      {
+        "id": "8f5abc52-8c33-4ef2-896f-0a3d082b7ffc",
+        "type": 3,
+        "name": "From the barman to the bar exit",
+        "pos": "1323:705",
+        "data": {
+          "stage": "59",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0_naebka"
+          ]
+        },
+        "editor": {
+          "x": 3242.5,
+          "y": 0
+        }
+      },
+      {
+        "id": "bbe51cd3-86b6-43a6-8385-7cae5592dc4c",
+        "type": 0,
+        "name": "From the bar exit, go get the pass",
+        "pos": "2254:486",
+        "data": {
+          "stage": "67",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0_naebka1"
+          ]
+        },
+        "editor": {
+          "x": 3695,
+          "y": 0
+        }
+      },
+      {
+        "id": "6d35aa38-a9bc-444e-81ef-88c83e1798c7",
+        "type": 0,
+        "name": "From the scientist, return to the bar",
+        "pos": "1311:662",
+        "data": {
+          "stage": "70",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0_post_uch_bar"
+          ]
+        },
+        "editor": {
+          "x": 4045,
+          "y": 0
+        }
+      },
+      {
+        "id": "61489d89-bacd-47b4-a9dc-dd50347544f9",
+        "type": 0,
+        "name": "From CIS to NIIChAZ",
+        "pos": "2374:977",
+        "data": {
+          "stage": "91",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0_sng2"
+          ]
+        },
+        "editor": {
+          "x": 4570,
+          "y": 0
+        }
+      },
+      {
+        "id": "cfcf63db-c38d-4654-aa0a-6a2f9a26d297",
+        "type": 0,
+        "name": "From NIIChAZ to the perimeter",
+        "pos": "1151:907",
+        "data": {
+          "stage": "103",
+          "chapter": "1"
+        },
+        "condition": {
+          "has": [
+            "quest_0_0_sng3"
+          ]
+        },
+        "editor": {
+          "x": 5057.131734444125,
+          "y": 34.861203473259025
+        }
+      }
+    ]
+  },
+  "spawns": {},
+  "missions": [
+    {
+      "title": "Head to NIIChAZ",
+      "name": "otpravit-sya-v-niichaz",
+      "checkpoints": [
+        {
+          "title": "Checkpoint",
+          "parameter": "quest_0_0",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Repay the Debt",
+      "name": "vernut-dolg",
+      "checkpoints": [
+        {
+          "title": "Return to the post with 500 RU",
+          "parameter": "quest_0_0_post_uch_dolg",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Get 500 RU",
+      "name": "poluchit-500r",
+      "checkpoints": [
+        {
+          "title": "Return to the bar",
+          "parameter": "quest_0_0_post_bar",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        },
+        {
+          "title": "Return to the checkpoint",
+          "parameter": "quest_0_0_post_bar1",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Give the papers to the scientist",
+      "name": "otdat-dokumenty-uchyonomu",
+      "checkpoints": [
+        {
+          "title": "Go to the scientist",
+          "parameter": "quest_0_0_post_uch1",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Return to the bar",
+      "name": "vernut-sya-v-bar",
+      "checkpoints": [
+        {
+          "title": "Bar",
+          "parameter": "quest_0_0_post_uch_bar",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Get the papers",
+      "name": "poluchit-dokumenty",
+      "checkpoints": [
+        {
+          "title": "Buy papers at the CIS base",
+          "parameter": "quest_0_0_sng1",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Pass \"On the Cheap\"",
+      "name": "propusk-po-deshyovke",
+      "checkpoints": [
+        {
+          "title": "Come to the meeting place",
+          "parameter": "quest_0_0_naebka1",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Get a pass to NIIChAZ",
+      "name": "poluchit-propusk-v-niichaz",
+      "checkpoints": [
+        {
+          "title": "Pick up the pass",
+          "parameter": "quest_0_0_sng2",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    },
+    {
+      "title": "Entry into the CEZ",
+      "name": "vhod-v-chzo",
+      "checkpoints": [
+        {
+          "title": "Go to the Perimeter",
+          "parameter": "quest_0_0_sng3",
+          "type": "FIND_ITEM",
+          "condition": {},
+          "actions": {}
+        }
+      ]
+    }
+  ],
+  "title": "Tutorial Chapter"
+}

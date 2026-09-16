@@ -1,0 +1,3342 @@
+{
+  "id": 8,
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background": "",
+      "title": "PDA",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The player approaches an overgrown tunnel in the Cordon and finds a group of stalkers there who look a lot like mercenaries. A small fortified post has been set up at the mouth of the tunnel — crates, mattresses, and even a whole grill someone dragged in from who-knows-where in the Zone. The group's leader is a stalker nicknamed Kastet. He's sitting in an old leather armchair, probably scavenged from a junk pile or pulled out of a car. Next to him, sitting on a wooden crate with a bedroll, is a heavily armored stalker who also looks like he's someone important...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Hey there, guys!",
+          "stage": "1",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 46.25,
+        "y": 16.25
+      }
+    },
+    {
+      "id": 1,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Halt! Who goes there?!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What? Hmm?",
+          "stage": "2",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 104.5,
+        "y": 121.75
+      }
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ah, relax, rookie, stand down. I was just testing your alertness. Don't be nervous, come on over, don't be shy.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Your uniforms look kind of different. Who exactly are you guys?",
+          "stage": "3",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 55.00382077557819,
+        "y": 232.64027974219317
+      }
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "We're an enterprising crew. We help traders, and we can help regular stalkers too, not for free, of course. My callsign's Kastet, sitting next to me is my right hand man — Lyzhnik.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "And who's that lying in the bushes over there in the greenery?",
+          "stage": "4",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 42.36813887061081,
+        "y": 339.4692267569174
+      }
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "That's one of ours too, wearing green so he doesn't stand out on position. Our gear's grey-blue because we like doing our business under cover of night.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Sounds just like mercenaries. You guys are them, aren't you?",
+          "stage": "5",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 50.983376533088546,
+        "y": 446.87252294914015
+      }
+    },
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, how do I put it — we're not tied to the syndicate, our line of work's more peaceable. Though we can spill blood too, if it comes to that. We draw up contracts just like mercenaries do, just not for killing. We've got our own business.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "So what exactly do you guys deal in? Care to tell me?",
+          "stage": "6",
+          "condition": {}
+        },
+        {
+          "text": "Alright, nice meeting you, I'll be going",
+          "stage": "11",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 52.70642406558409,
+        "y": 561.1680092713452
+      }
+    },
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well look here: ever wonder where traders get their goods in a cut-off territory like this? For instance, Sidorovich doesn't have some underground factory in his shack with Chinese workers stamping out guns for him, right? Where does the food and everything else come from? We do all that for him, guys like us.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "So where does the merchandise actually come from, then?",
+          "stage": "7",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 253.34216683378406,
+        "y": 666.5474442675455
+      }
+    },
+    {
+      "id": 7,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Trade routes, buddy, trade routes. Everything here is actually under the military's protection racket, and those who understand that and know how to deal with them can open up some special opportunities for themselves. I remember talking to a stalker once, they called him Shustry. Now that guy was so driven — first he hooked up with dealers and programmers on the mainland who know their way around the so-called 'darknet', then he tried out his connections and social skills here in the Zone. Last I heard, he's doing pretty well for himself, staying busy.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "And he managed to strike a deal with the military too, somehow!",
+          "stage": "8",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 250.36281866527617,
+        "y": 782.1989599107327
+      }
+    },
+    {
+      "id": 8,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Right. The military's bored out here. And Shustry had connections with drug dealers, so he struck a deal: in exchange for a pass and smooth paperwork, he'd supply them with a bit of weed, maybe something else too. I don't know exactly what channels or who Shustry works his schemes through these days, and I'm not interested either. I've got my own schemes.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "So so, care to tell me more?",
+          "stage": "9",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 254.16624163369437,
+        "y": 895.0104251227012
+      }
+    },
+    {
+      "id": 9,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Tell you what, go to Sidorovich, give him this suitcase, and say hi from me. You can hang around and listen in after that.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, hand over the suitcase, I'll take it.",
+          "stage": "10",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 254.16624163369437,
+        "y": 1011.7206007440017
+      }
+    },
+    {
+      "id": 10,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "New quest: Bring the suitcase to Sidorovich",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Here, just be careful with it.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave",
+          "stage": "11",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_chemodan",
+          "quest_kastet_start"
+        ]
+      },
+      "editor": {
+        "x": 183.6854212909609,
+        "y": 1124.6414849490266
+      }
+    },
+    {
+      "id": 11,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "1202:1497"
+      },
+      "editor": {
+        "x": 36.26625631316372,
+        "y": 1263.0635497371504
+      }
+    },
+    {
+      "id": 12,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What brings you here?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I delivered your suitcase, here's an envelope from the trader, he asked me to pass it along",
+          "stage": "13",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 654.0616807924387,
+        "y": 11.331752986958705
+      }
+    },
+    {
+      "id": 13,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "Quest completed: Deliver the envelope to Kastet. Item received: Energy drink",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Good job. Take a break, have a drink.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave",
+          "stage": "14",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_1_end"
+        ],
+        "remove": [
+          "quest_kastet_konvert",
+          "querst_kastet_start"
+        ]
+      },
+      "editor": {
+        "x": 547.3665765477916,
+        "y": 117.92654640694673
+      }
+    },
+    {
+      "id": 14,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "1202:1497"
+      },
+      "editor": {
+        "x": 592.5787089309458,
+        "y": 262.5145442347798
+      }
+    },
+    {
+      "id": 15,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Hello, @name, what brings you here?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "So really, Kastet, what is it you guys actually do? You must have come up in the world somehow?",
+          "stage": "16",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1106.9323757835919,
+        "y": 25.889677032262824
+      }
+    },
+    {
+      "id": 16,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What do you mean, come up?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Well, you've got some decent gear, and you know some interesting people around the Zone",
+          "stage": "17",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1130.076410216144,
+        "y": 126.0993787294953
+      }
+    },
+    {
+      "id": 17,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, it's relative, we're not standing around in exoskeletons showing off. We don't draw extra attention with our wealth. You still want to keep listening? Alright then. I'll tell you a bit more about how not to 'work for the man' here and run your own little schemes instead…",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Go on",
+          "stage": "18",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1112.777607579711,
+        "y": 225.27766201848044
+      }
+    },
+    {
+      "id": 18,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So like I said, the military is the official protection racket over the whole Zone. I'm serious. You think Monolith or Freedom just sprang up on their own? No way, buddy, they could've wiped out the Anarchist with everyone else ages ago and hit the fanatics with artillery, psi-rigs and all. The point is, they pay the soldiers a kind of tribute.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Then what about the clashes with the military? Command can't just sweep dead soldiers under the rug",
+          "stage": "19",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1118.1697977096928,
+        "y": 324.47835492069737
+      }
+    },
+    {
+      "id": 19,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Might even be cheaper for them than keeping soldiers around. They just find any old group of stalkers, pin it on them, either take them prisoner for interrogation or shoot them and bring the bodies to the generals for the report — 'found the bastards, punished them for our fallen comrades.' What did you expect?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Wow, that's quite a story",
+          "stage": "20",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1109.5545600472149,
+        "y": 428.75339700041275
+      }
+    },
+    {
+      "id": 20,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Yeah, what did you think? No, I might've believed once that everything was strict and by-the-book, that disturbing the military really did trigger a full sweep of the territory. But up top, people don't want to be dealing with dozens of criminal cases every single day. Soldiers die here in such numbers that it's easier to just rubber-stamp every incident. So the main ideological factions have long since been paying tribute — to cover the Ministry of Defense's budget instead of bloody confrontations.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "And how does that concern you?",
+          "stage": "21",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1119.791726597555,
+        "y": 530.6958024748552
+      }
+    },
+    {
+      "id": 21,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Same as it concerns every trader. Want to break the law and haul a couple hundred kilos of goods into the Zone? Pay up. At first I'd get documents on the mainland, dress up in a military uniform so I wouldn't get shot on sight right away, and go to the checkpoint commander. I remember giving him a lot of money back then, for an official, indefinite pass into the Exclusion Zone. Later on I found out the scientists at the Research Institute sell passes cheap, but whatever, I was a fool starting out. I packed a big backpack full of household stuff: powder, wet wipes, medicine, dry fuel, spices and seasonings. Went into the Zone and sold the whole lot to the locals within a week. Almost paid off the pass — didn't know seasoning and cold medicine were in such high demand out here…",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "So what did you decide to do after that?",
+          "stage": "22",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1113.611406684929,
+        "y": 635.0415154622885
+      }
+    },
+    {
+      "id": 22,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Then, one day some big guy walked up to me, pointed his gun, and took all my money and whatever goods I had left. I was pretty upset about it. When people came asking me for goods, I told the stalkers in the village what had happened to me. They took me to Sidorovich, and I told him the whole story too. He really liked the story about the in-demand goods and offered to make me his runner. I agreed. Empty-handed and upset, I left the Zone for another batch of goods. When I came back the second time, I handed over the ordered goods to the trader, and sold my own little extras at a markup — like the hit of the season!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Sidorovich must've been pretty happy?",
+          "stage": "23",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1111.111406684929,
+        "y": 742.5415154622885
+      }
+    },
+    {
+      "id": 23,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, emotionally he's more like a grumpy old man, but I think deep down he was very pleased. Actually, when I was heading back out for another batch of goods, Sidorovich gave me a lot of extra money on top of my fee — said he'd used his connections to track down the stalker who robbed me. Whatever you say about him, I appreciated the gesture. He always looks out for people he values.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "That all worked out great",
+          "stage": "24",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1110.9051251251424,
+        "y": 853.3631059374516
+      }
+    },
+    {
+      "id": 24,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Agreed, back then, a green rookie, alone in the Zone, I just stepped into the unknown — and didn't die, so there's that… Say, want to help me out? When I was putting together my crew, I hoped everyone would be solid guys, but I was wrong. One guy couldn't hold out a couple months before his contract was up, asked me for money and wanted to break the contract early. I didn't give him the money, since he still had two more months of guarding my group left, and he got offended and walked off. He headed toward the Garbage. Find him and tell him I'm giving him a chance to come back and finish the guard job. Will you do it?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, I'll try",
+          "stage": "25",
+          "condition": {}
+        },
+        {
+          "text": "No, I'll pass",
+          "stage": "26",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1112.1095675500387,
+        "y": 961.6995519975346
+      }
+    },
+    {
+      "id": 25,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "Quest received: Find the stalker",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Good, then.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave",
+          "stage": "26",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_findstalker_start",
+          "quest_kastet_findstalker"
+        ]
+      },
+      "editor": {
+        "x": 1229.6095675500387,
+        "y": 1062.6995519975346
+      }
+    },
+    {
+      "id": 26,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "1202:1497"
+      },
+      "editor": {
+        "x": 1099.940517551099,
+        "y": 1288.1662999916834
+      }
+    },
+    {
+      "id": 27,
+      "type_stage": 0,
+      "background": "",
+      "title": "PDA",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Near a small camp, on a pile of junk, a stalker in worn, tattered clothes is rummaging through scrap metal. Judging by the coveralls, this is the very guy Kastet mentioned — the one who left his post early.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Good day! What are you doing out here? This place is dangerous",
+          "stage": "28",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1736.4537790127124,
+        "y": 15.02386734260152
+      }
+    },
+    {
+      "id": 28,
+      "type_stage": 0,
+      "background": "",
+      "title": "Unknown stalker",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Hey, what's it to you?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "You wouldn't happen to know Kastet? He lost one of his guys, said he deserted without finishing his contract",
+          "stage": "29",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1756.9356732466506,
+        "y": 116.48085568147908
+      }
+    },
+    {
+      "id": 29,
+      "type_stage": 0,
+      "background": "",
+      "title": "Lyokha Nakhrap",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Name's Lyokha Nakhrap, the guy you're looking for is standing right in front of you. But I don't have much time. Gotta dig, look for old Soviet machinery, artifacts… Otherwise I'll starve.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "So drop everything, come back to the Cordon with me, get something to eat, wash off the dirt",
+          "stage": "30",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1740.705197921695,
+        "y": 220.60719940619737
+      }
+    },
+    {
+      "id": 30,
+      "type_stage": 0,
+      "background": "",
+      "title": "Lyokha Nakhrap",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Can't go back, bandits dug in south in the Dark Valley, they robbed me, and in exchange for my life made me dig through trash piles and hand over whatever I find. If I run, they'll blow me sky-high. (The stalker folds down his collar, showing an explosive collar)",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Whoa, how can I help you?",
+          "stage": "31",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1737.9821503891994,
+        "y": 322.90268572840233
+      }
+    },
+    {
+      "id": 31,
+      "type_stage": 0,
+      "background": "",
+      "title": "Lyokha Nakhrap",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "The key to the collar, same as the detonator, is with the gang leader. Go to him and get the key.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, I'll go talk to them",
+          "stage": "32",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_findstalker_true"
+        ],
+        "remove": [
+          "quest_kastet_findstalker"
+        ]
+      },
+      "editor": {
+        "x": 1731.738658614214,
+        "y": 424.95468027562225
+      }
+    },
+    {
+      "id": 32,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "633:516"
+      },
+      "editor": {
+        "x": 1726.5844126853174,
+        "y": 572.370097806019
+      }
+    },
+    {
+      "id": 33,
+      "type_stage": 0,
+      "background": "",
+      "title": "PDA",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Near the south gate, approaching the spot, you hear songs straight out of the '90s — prison ballad type stuff. That's where the bandit squad has set up, about 10 men strong.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Approach",
+          "stage": "34",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2324.4806021162617,
+        "y": 9.711749330270464
+      },
+      "_comment": "Квест не завершен, необходимо довести до ума"
+    },
+    {
+      "id": 34,
+      "type_stage": 0,
+      "background": "",
+      "title": "Seryoga Repka",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ohh! Look who's rolling up on us! What'd you bring us, pretty boy?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "You've got a stalker out there digging through scrap for you, wearing your little present around his neck. I want to take him off your hands.",
+          "stage": "35",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2325.325904944069,
+        "y": 112.48721196731992
+      }
+    },
+    {
+      "id": 35,
+      "type_stage": 0,
+      "background": "",
+      "title": "Seryoga Repka",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well look here, yeah, we got ourselves a stray dog like that. But why exactly should I hand him over to you? Maybe it'd be easier to put a fancy little present around your neck too, and you two can slave away together? Huh?!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Well, maybe we can settle this peacefully? You seem like a decent, up-and-coming member of the crew — how about showing the prisoner some mercy?",
+          "stage": "36",
+          "condition": {
+            "money>=": [
+              "5000"
+            ]
+          }
+        },
+        {
+          "text": "Bullets are on sale today!",
+          "stage": "39",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2331.4570630124203,
+        "y": 222.3023144800622
+      }
+    },
+    {
+      "id": 36,
+      "type_stage": 0,
+      "background": "",
+      "title": "Seryoga Repka",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You know what? I like you, stalker. Almost none of your herd shows proper respect to the crew, all acting like tough, stubborn rams! 5000 rubles for the collar key.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Here you go",
+          "stage": "37",
+          "condition": {}
+        },
+        {
+          "text": "Oh no, bullets are on sale today",
+          "stage": "39",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2201.8632965757815,
+        "y": 375.3896876976125
+      }
+    },
+    {
+      "id": 37,
+      "type_stage": 0,
+      "background": "",
+      "title": "Seryoga Repka",
+      "message": "Item received: Collar key. Lost: 5000 rubles.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "There we go, here's your key.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave",
+          "stage": "38",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_findstalker_key"
+        ],
+        "remove": [
+          "quest_kastet_findstalker_true"
+        ]
+      },
+      "editor": {
+        "x": 2196.5582885929957,
+        "y": 523.9299112156316
+      }
+    },
+    {
+      "id": 38,
+      "type_stage": 4,
+      "data": {
+        "map": "5",
+        "pos": "250:99"
+      },
+      "editor": {
+        "x": 2159.4232327134905,
+        "y": 791.4538852047165
+      }
+    },
+    {
+      "id": 39,
+      "type_stage": 0,
+      "background": "",
+      "title": "Seryoga Repka",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Boys, take him down!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave",
+          "stage": "38",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_lox_bez_deneg"
+        ],
+        "remove": [
+          "quest_kastet_findstalker_true"
+        ]
+      },
+      "editor": {
+        "x": 2461.0508294490596,
+        "y": 524.6436178504076
+      }
+    },
+    {
+      "id": 40,
+      "type_stage": 0,
+      "background": "",
+      "title": "Lyokha Nakhrap",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Hey, stalker, did you manage to get the key?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Yeah, here you go",
+          "stage": "41",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2794.0533874568514,
+        "y": 3.181609862289136
+      }
+    },
+    {
+      "id": 41,
+      "type_stage": 0,
+      "background": "",
+      "title": "Lyokha Nakhrap",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Thank you so much, when I get back to Kastet, I promise I'll put in a good word for you!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, good luck!",
+          "stage": "42",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_findstalker_pre_end"
+        ],
+        "remove": [
+          "quest_kastet_findstalker_key"
+        ]
+      },
+      "editor": {
+        "x": 2777.04406410943,
+        "y": 115.88246213616809
+      }
+    },
+    {
+      "id": 42,
+      "type_stage": 4,
+      "data": {
+        "map": "2",
+        "pos": "633:516"
+      },
+      "editor": {
+        "x": 2783.0867620584963,
+        "y": 265.8089486061717
+      }
+    },
+    {
+      "id": 43,
+      "type_stage": 0,
+      "background": "",
+      "title": "PDA",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "At the camp, Nakhrap is giving Lyzhnik a full report. Spotting you, Kastet smiles and waves you over for a chat.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Well, here's your man, Kastet! Good thing he's alive",
+          "stage": "44",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3198.539846516922,
+        "y": 9.414734982114219
+      }
+    },
+    {
+      "id": 44,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well done, well done! I know the whole story, the crooks grabbed the poor guy and put him to work on garbage duty. You lent Lyokha a hand, and now he's walking around happy as a clam. Here, I think this is fair payment.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Thanks, good luck, Lyokha!",
+          "stage": "45",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "84:2",
+          "quest_kastet_findstalker_end"
+        ],
+        "money": [
+          "10000"
+        ],
+        "remove": [
+          "quest_kastet_findstalker_pre_end"
+        ]
+      },
+      "editor": {
+        "x": 3086.9543912771824,
+        "y": 117.08196719181166
+      }
+    },
+    {
+      "id": 45,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "1202:1497"
+      },
+      "editor": {
+        "x": 3186.893327326569,
+        "y": 282.92647103653695
+      }
+    },
+    {
+      "id": 46,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Hey, @name, what brings you here?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Got any work?",
+          "stage": "47",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 134.7164329059151,
+        "y": -1723.964766440767
+      }
+    },
+    {
+      "id": 47,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Yeah, I've got something. Up for a risky job? A warrant officer sent me a message with a list of goods. Some medicine that's hard to find even back on the mainland. But you see, I've got a rule for him: money up front. Meaning he pays me first, then I give him what he's asking for.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, sounds simple enough, just a there-and-back trip. What's the risk?",
+          "stage": "48",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 133.32469788919752,
+        "y": -1620.6918179759582
+      }
+    },
+    {
+      "id": 48,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "That warrant officer's at Agroprom, and you'll need a pass onto the military territory there. Sure, at the south checkpoint you can bribe your way through with a crate of vodka, but access to that base is only for scientists or their contractors. See where I'm going with this? It's stricter over there… And the Military Police drops by regularly, checking everything real close!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "So what do I do?",
+          "stage": "49",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 131.82469788919752,
+        "y": -1512.6918179759582
+      }
+    },
+    {
+      "id": 49,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "Quest received: Get a pass",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You'll head over to the Research Institute now, I've got a contact there, name's Vyacheslav Anatolyevich. He'll write you up a pass. Only thing is, he turns away random hustlers, so there's a password he'll recognize as meaning you're my guy. When you meet him, say this: 'Any advice on which years' canned goods are best to grab?' He'll answer: 'Anything before the 2000s and you won't get off the toilet.' Got it all?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Yeah, got it",
+          "stage": "50",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_marafon_start"
+        ]
+      },
+      "editor": {
+        "x": 126.46028673112505,
+        "y": -1408.7546842419997
+      }
+    },
+    {
+      "id": 50,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "1202:1497"
+      },
+      "editor": {
+        "x": 118.38144050220853,
+        "y": -1285.3356840175643
+      }
+    },
+    {
+      "id": 51,
+      "type_stage": 0,
+      "background": "",
+      "title": "Scientist",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Good day, young man, did you need something?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Vyacheslav Anatolyevich?",
+          "stage": "52",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 603.5688187940086,
+        "y": -1747.12247369112
+      }
+    },
+    {
+      "id": 52,
+      "type_stage": 0,
+      "background": "",
+      "title": "Vyacheslav Anatolyevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Yes? And who might you be, young man?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'm here from a mutual acquaintance of ours. I don't know which years' canned goods to pick. Any advice?",
+          "stage": "53",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 610.0589624841641,
+        "y": -1645.0086527967408
+      }
+    },
+    {
+      "id": 53,
+      "type_stage": 0,
+      "background": "",
+      "title": "Vyacheslav Anatolyevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What? How should I know?!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Oh, sorry, my mistake",
+          "stage": "54",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 620.8714296108874,
+        "y": -1542.838700693459
+      }
+    },
+    {
+      "id": 54,
+      "type_stage": 0,
+      "background": "",
+      "title": "Vyacheslav Anatolyevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Wandering around the institute, you come across a scientist with the initials V.A. embroidered on his coat.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Vyacheslav Anatolyevich, is that you?",
+          "stage": "55",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 600.7734580026454,
+        "y": -1438.9949137474532
+      }
+    },
+    {
+      "id": 55,
+      "type_stage": 0,
+      "background": "",
+      "title": "Vyacheslav Anatolyevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Yes, that's me. And who are you?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'm here from a mutual acquaintance of ours. I don't know which years' canned goods to pick. Any advice?",
+          "stage": "56",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 620.795741380025,
+        "y": -1339.0117509730612
+      }
+    },
+    {
+      "id": 56,
+      "type_stage": 0,
+      "background": "",
+      "title": "Vyacheslav Anatolyevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Anything before the 2000s and you won't get off the toilet. You're here from Kastet, aren't you?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Yes, I need a pass onto the military base at the Agroprom Research Institute",
+          "stage": "57",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 604.4909168775703,
+        "y": -1235.7367088933458
+      }
+    },
+    {
+      "id": 57,
+      "type_stage": 0,
+      "background": "",
+      "title": "Vyacheslav Anatolyevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Whoa, quite a request. Tell you what, the pass will be ready in half an hour. Alright?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright",
+          "stage": "58",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 611.3087578300538,
+        "y": -1136.5155717486396
+      }
+    },
+    {
+      "id": 58,
+      "type_stage": 0,
+      "background": "",
+      "title": "Vyacheslav Anatolyevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You didn't forget the money, did you?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What money?",
+          "stage": "59",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 621.8811461579107,
+        "y": -1030.506679409339
+      }
+    },
+    {
+      "id": 59,
+      "type_stage": 0,
+      "background": "",
+      "title": "Vyacheslav Anatolyevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I don't exactly look like a fairy godmother. Five hundred for the pass.",
+          "condition": {
+            "!has": [
+              "quest_kastet_marafon_money_for_prop_usk"
+            ]
+          }
+        },
+        {
+          "text": "Brought the money?",
+          "condition": {
+            "has": [
+              "quest_kastet_marafon_money_for_prop_usk"
+            ]
+          }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'll bring it once I find the money",
+          "stage": "60",
+          "condition": {}
+        },
+        {
+          "text": "Here's your money",
+          "stage": "61",
+          "condition": {
+            "money>=": [
+              "500"
+            ]
+          }
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 599.6195058994799,
+        "y": -901.0054787070166
+      }
+    },
+    {
+      "id": 60,
+      "type_stage": 0,
+      "background": "",
+      "title": "Vyacheslav Anatolyevich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Good, I'll get the pass ready meanwhile",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I hope the pass will be ready by the time I get back.",
+          "stage": "62",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_marafon_money_for_prop_usk"
+        ],
+        "remove": [
+          "quest_kastet_marafon_start"
+        ]
+      },
+      "editor": {
+        "x": 394.1929919896238,
+        "y": -763.2292991291954
+      }
+    },
+    {
+      "id": 61,
+      "type_stage": 0,
+      "background": "",
+      "title": "Vyacheslav Anatolyevich",
+      "message": "Money lost: 500 RU, Quest completed: Get a pass",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Alright, that's it, here's your pass.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Thanks",
+          "stage": "62",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_marafon_prop_usk"
+        ],
+        "remove": [
+          "quest_kastet_marafon_start"
+        ]
+      },
+      "editor": {
+        "x": 755.0784055860095,
+        "y": -761.9097912184225
+      }
+    },
+    {
+      "id": 62,
+      "type_stage": 4,
+      "data": {
+        "map": "0",
+        "pos": "2374:947"
+      },
+      "editor": {
+        "x": 607.9259094031759,
+        "y": -612.2307505362799
+      }
+    },
+    {
+      "id": 63,
+      "type_stage": 0,
+      "background": "",
+      "title": "Warrant Officer Mikeleyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "At the checkpoint before the military base, your pass gets checked, everything matches up. You ask how to find Warrant Officer Mikeleyev, and you're told he's currently on patrol duty at the central camp.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Hello, are you Warrant Officer Mikeleyev?",
+          "stage": "64",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1242.7016573865712,
+        "y": -1751.8700430498102
+      }
+    },
+    {
+      "id": 64,
+      "type_stage": 0,
+      "background": "",
+      "title": "Warrant Officer Mikeleyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What do you want?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'm from Kastet",
+          "stage": "65",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1268.7638717880945,
+        "y": -1643.0359481205355
+      }
+    },
+    {
+      "id": 65,
+      "type_stage": 0,
+      "background": "",
+      "title": "Warrant Officer Mikeleyev",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Right on time, no wonder I've been hearing military police prosecutors' voices in my head at night, I can feel my file's about to surface. Brought the medicine?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "No, I came to tell you he says you have to pay for the goods first",
+          "stage": "66",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1247.2638717880936,
+        "y": -1534.0359481205355
+      }
+    },
+    {
+      "id": 66,
+      "type_stage": 0,
+      "background": "",
+      "title": "Warrant Officer Mikeleyev",
+      "message": "New quest: Bring the advance payment to Kastet",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Mmm… Well, if that's how he wants it, fine. Here's a sealed envelope, tell him it's more than half the payment up front. He'll get the rest after delivery.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'll pass that along.",
+          "stage": "67",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_marafon_predoplata"
+        ],
+        "remove": [
+          "quest_kastet_marafon_prop_usk"
+        ]
+      },
+      "editor": {
+        "x": 1230.3866741918437,
+        "y": -1430.0359481205355
+      }
+    },
+    {
+      "id": 67,
+      "type_stage": 4,
+      "data": {
+        "map": "8",
+        "pos": "482:469"
+      },
+      "editor": {
+        "x": 1227.7904230828626,
+        "y": -1282.2523506534942
+      }
+    },
+    {
+      "id": 68,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So, how'd it go? Bring the money?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Here, this is from the warrant officer, he said it's more than half the payment up front, you'll get the rest once you deliver the medicine",
+          "stage": "69",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1672.2190987367276,
+        "y": -1755.5809529286857
+      }
+    },
+    {
+      "id": 69,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "Item lost: Mikeleyev's advance payment",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "That's what he said? Well, at least there's an advance. He ordered some rare medical supplies. Here's this medkit, take it to him, tell him it's everything he asked for.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Okay",
+          "stage": "70",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_marafon_meds"
+        ],
+        "remove": [
+          "quest_kastet_marafon_predoplata"
+        ]
+      },
+      "editor": {
+        "x": 1625.9986626090467,
+        "y": -1639.2231495658234
+      }
+    },
+    {
+      "id": 70,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "Item received: Medical kit for Mikeleyev",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "That's what he said? Well, at least there's an advance. He ordered some rare medical supplies. Here's this medkit, take it to him, tell him it's everything he asked for.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Okay",
+          "stage": "71",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1645.9457624022461,
+        "y": -1492.7344136389652
+      }
+    },
+    {
+      "id": 71,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "1202:1497"
+      },
+      "editor": {
+        "x": 1632.5757064817399,
+        "y": -1375.7208433861495
+      }
+    },
+    {
+      "id": 72,
+      "type_stage": 0,
+      "background": "",
+      "title": "Checkpoint",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You approach the camp, a couple of soldiers are sitting at the post.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Anyone here? Could you tell me where Warrant Officer Mikeleyev went?",
+          "stage": "73",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2251.7766860397205,
+        "y": -1756.3228409265662
+      }
+    },
+    {
+      "id": 73,
+      "type_stage": 0,
+      "background": "",
+      "title": "Senior Lieutenant Bibikov",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "And who's asking?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'm from the Research Institute, I need to deliver a package",
+          "stage": "74",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2244.838900441244,
+        "y": -1645.8244224662567
+      }
+    },
+    {
+      "id": 74,
+      "type_stage": 0,
+      "background": "",
+      "title": "Senior Lieutenant Bibikov",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Warrant Officer Mikeleyev is suspected of manufacturing and possessing narcotics. He'll soon be under investigation and face a military tribunal, and you'll join him there if you don't tell me what you're carrying for him. Well?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I don't know, I was just told to deliver a package and I did. They didn't fill me in on much",
+          "stage": "75",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2241.54013066431,
+        "y": -1540.2637896044253
+      }
+    },
+    {
+      "id": 75,
+      "type_stage": 0,
+      "background": "",
+      "title": "Senior Lieutenant Bibikov",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well then, hand it over. You heard me? You're under arrest!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I've got medical supplies, the warrant officer said this medicine is being delivered to an assault squad, for treating soldiers",
+          "stage": "76",
+          "condition": {}
+        },
+        {
+          "text": "Yeah, I've got medical supplies here for the warrant officer, he orders a list of drugs through dealers. The shipment's coming from the Cordon",
+          "stage": "77",
+          "condition": {}
+        },
+        {
+          "text": "Go to hell!",
+          "stage": "78",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_marafon_pre_end"
+        ],
+        "remove": [
+          "quest_kastet_marafon_meds"
+        ]
+      },
+      "editor": {
+        "x": 2246.1584083520165,
+        "y": -1430.7446330102753
+      }
+    },
+    {
+      "id": 76,
+      "type_stage": 0,
+      "background": "",
+      "title": "Senior Lieutenant Bibikov",
+      "message": "Item lost: Medical kit",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "That's what he told you? Fine, get going, but I'm confiscating the box.",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "add": [
+          "quest_kastet_marafon_lox_vrun"
+        ]
+      },
+      "editor": {
+        "x": 1946.5820390714462,
+        "y": -1250.9295365963735
+      }
+    },
+    {
+      "id": 77,
+      "type_stage": 0,
+      "background": "",
+      "title": "Senior Lieutenant Bibikov",
+      "message": "Item lost: Medical kit",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Interesting, very useful information. We'll crack this case wide open. I'll take the package, get going. Here, for your trouble — thanks for assisting the Ministry of Defense!",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "add": [
+          "quest_kastet_marafon_lox_no_ne_vrun"
+        ]
+      },
+      "editor": {
+        "x": 2220.4792220852905,
+        "y": -1250.8338348699604
+      }
+    },
+    {
+      "id": 78,
+      "type_stage": 0,
+      "background": "",
+      "title": "Senior Lieutenant Bibikov",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You bastard, get out of my sight!",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "add": [
+          "quest_kastet_marafon_gigachad_1"
+        ]
+      },
+      "editor": {
+        "x": 2525.896164802516,
+        "y": -1250.0358750872265
+      }
+    },
+    {
+      "id": 79,
+      "type_stage": 0,
+      "background": "",
+      "title": "PDA",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Kastet is sitting with his crew, the guys are grilling boar haunches on the barbecue… A young kid, the center of everyone's attention, is playing guitar like a virtuoso. The men sing along to the strings: '…But the commissar caught me with his saber — I swayed and fell right off my horse!'",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Whoa, it's lively around here",
+          "stage": "80",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3625.9142115374207,
+        "y": 36.87914098957782
+      }
+    },
+    {
+      "id": 80,
+      "type_stage": 0,
+      "background": "",
+      "title": "Lyzhnik",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Eeeey, oh my raven-black horse! Eeeey, my steel sawed-off gun!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Eeeey, thick foooog",
+          "stage": "81",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3629.5436609741246,
+        "y": 156.12024211617006
+      }
+    },
+    {
+      "id": 81,
+      "type_stage": 0,
+      "background": "",
+      "title": "Lyzhnik",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Eeeey, oh our father chieftain, our father chieftain! Man, the guys really get going sometimes, and this is only our first bottle. By the way, Kastet was bragging just now, saying a brave guy like you wouldn't even be scared to take a stroll through the Dark Hollow!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "And why exactly would I go trudging out there? What's the payoff?",
+          "stage": "82",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3633.3428964916557,
+        "y": 265.13483774315614
+      }
+    },
+    {
+      "id": 82,
+      "type_stage": 0,
+      "background": "",
+      "title": "Lyzhnik",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I'll go get the boss.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "83",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3658.100592046011,
+        "y": 376.17083315029413
+      }
+    },
+    {
+      "id": 83,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Huh? What's up? Hey! I was just saying good things about you.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Lyzhnik just told me you've been bragging about me behind my back, saying I'm tough enough to take a walk through the Dark Hollow without soiling myself. Is that actually true?",
+          "stage": "84",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3634.849126981844,
+        "y": 492.12315048833943
+      }
+    },
+    {
+      "id": 84,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Oh, if only I were sober… I could've put it more simply. Well anyway, I think you're up for a little errand. You know what bartering is?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Yeah, I know, back when money wasn't used in society, people traded goods for goods",
+          "stage": "85",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3633.75189745445,
+        "y": 601.1918770110465
+      }
+    },
+    {
+      "id": 85,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Good job, thaaat's right.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What's on your mind?",
+          "stage": "86",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3664.824087067913,
+        "y": 711.8391863663056
+      }
+    },
+    {
+      "id": 86,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "New quest: Deliver supplies to the military",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Need to deliver this duffel bag of supplies to the military guys stationed in the Dark Hollow. They're posted up in the grocery store, it's a 'special' assignment for them. Then you need to get a flash drive from them. Tell them you're from Kastet.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Got it",
+          "stage": "87",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_samagon_1",
+          "quest_samagon_start"
+        ]
+      },
+      "editor": {
+        "x": 3582.3126718772564,
+        "y": 833.1078585508371
+      }
+    },
+    {
+      "id": 87,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "1202:1497"
+      },
+      "editor": {
+        "x": 3623.82537233161,
+        "y": 957.5720005849657
+      }
+    },
+    {
+      "id": 88,
+      "type_stage": 0,
+      "background": "",
+      "title": "Soldier",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Halt! Who are you?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Easy, I'm a stalker. Kastet's bag just walked over here on its own two legs",
+          "stage": "89",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4099.321217103824,
+        "y": -0.26776216561734145
+      }
+    },
+    {
+      "id": 89,
+      "type_stage": 0,
+      "background": "",
+      "title": "Soldier",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "We just got a message from him not long ago. Come on inside.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Enter",
+          "stage": "90",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4044.590432427277,
+        "y": 102.3533915843471
+      }
+    },
+    {
+      "id": 90,
+      "type_stage": 0,
+      "background": "",
+      "title": "PDA",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Inside, they've set up basic living quarters. There's wooden furniture, a working stove, beds hauled in from somewhere. There's even a boot dryer. In the center of the room, under a lamp, four soldiers are sitting, one of them a huge hulk of a guy (probably the commander) who waves you over to the table.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Here's the bag, Kastet said to give it to you, there's supplies in it",
+          "stage": "91",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4047.0863946983845,
+        "y": 204.65618799518103
+      }
+    },
+    {
+      "id": 91,
+      "type_stage": 0,
+      "background": "",
+      "title": "Sr. Sergeant Podgorny",
+      "message": "Quest completed: Deliver supplies to the military",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "That's right. So, stalker, been wandering around here long?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "More or less…",
+          "stage": "92",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "quest_samagon_1"
+        ]
+      },
+      "editor": {
+        "x": 4060.144653147827,
+        "y": 308.9163221754018
+      }
+    },
+    {
+      "id": 92,
+      "type_stage": 0,
+      "background": "",
+      "title": "Sr. Sergeant Podgorny",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You know I'm technically supposed to arrest you, right?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Uhh...",
+          "stage": "93",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4062.4601034519164,
+        "y": 432.9570787079258
+      }
+    },
+    {
+      "id": 93,
+      "type_stage": 0,
+      "background": "",
+      "title": "Sr. Sergeant Podgorny",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Lucky for you, you're tied up with that smuggler. All of us here in the Chernobyl Exclusion Zone need to stay sharp sometimes. But with no brass around, why not let ourselves take a breather? Am I right?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Right, right, even tough soldiers like you need to rest sometimes",
+          "stage": "94",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4067.6653532375967,
+        "y": 538.0155490750561
+      }
+    },
+    {
+      "id": 94,
+      "type_stage": 0,
+      "background": "",
+      "title": "Sr. Sergeant Podgorny",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "There you go. We're speaking almost the same language. So here's the deal: I'll let you go free, my boys won't touch you, but you take that thing over there to my colleagues.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "What is it?",
+          "stage": "95",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4063.608801806913,
+        "y": 645.4616841226638
+      }
+    },
+    {
+      "id": 95,
+      "type_stage": 0,
+      "background": "",
+      "title": "Sr. Sergeant Podgorny",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "It's an old machine I'm grateful for. Arms not too weak? Back not gonna give out on you? Haul it over to the southern homestead.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Okay, I'll try to carry it over. Kastet mentioned you might have some goods for him too",
+          "stage": "96",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4063.4750827679864,
+        "y": 755.7615114636674
+      }
+    },
+    {
+      "id": 96,
+      "type_stage": 0,
+      "background": "",
+      "title": "Sr. Sergeant Podgorny",
+      "message": "New quest: Deliver the package to Kastet, deliver the device to the military",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Yeah, there's ammo here. If you hadn't mentioned it, you'd have gone back to him empty-handed, and he'd have torn your balls off and stuffed them in your mouth. Heh-heh-heh… Take it. Listen up! If I find out you jackals on the Cordon are shooting at the military with this ammo, my rifle platoon will hunt you down fast.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Understood",
+          "stage": "97",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_samagon_device",
+          "quest_samagon_box"
+        ]
+      },
+      "editor": {
+        "x": 4004.1528041214706,
+        "y": 860.5491736450181
+      }
+    },
+    {
+      "id": 97,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "506:576"
+      },
+      "editor": {
+        "x": 4049.272870489697,
+        "y": 984.4272681359946
+      }
+    },
+    {
+      "id": 98,
+      "type_stage": 0,
+      "background": "",
+      "title": "Soldier",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Halt! Who are you?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "A package from Podgorny",
+          "stage": "99",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4504.976974070193,
+        "y": 5.47585299214208
+      }
+    },
+    {
+      "id": 99,
+      "type_stage": 0,
+      "background": "",
+      "title": "Soldier",
+      "message": "Quest completed: Deliver the device to the military",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Good job, now beat it, quick. And not a word about the device to anyone!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Take care",
+          "stage": "100",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "xp": [
+          "20"
+        ],
+        "remove": [
+          "quest_samagon_device"
+        ]
+      },
+      "editor": {
+        "x": 4454.11608959238,
+        "y": 119.63253496030507
+      }
+    },
+    {
+      "id": 100,
+      "type_stage": 4,
+      "data": {
+        "map": "5",
+        "pos": "147:237"
+      },
+      "editor": {
+        "x": 4415.599868427747,
+        "y": 247.14880985002048
+      }
+    },
+    {
+      "id": 101,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What'd you come with?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Here, take this. That sergeant of yours is quite a character. A real soldier: parade-ground straight by day, tipsy by evening",
+          "stage": "102",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4933.020860618989,
+        "y": 3.2035716752010615
+      }
+    },
+    {
+      "id": 102,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "Quest completed: Deliver the package to Kastet",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, what did you expect, huh? Our line of work is dangerous and hard, and at first glance it's like it doesn't even show… You know how it is.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Happy?",
+          "stage": "103",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_samagon_end"
+        ],
+        "remove": [
+          "quest_samagon_box",
+          "quest_samagon_start"
+        ]
+      },
+      "editor": {
+        "x": 4820.945447872234,
+        "y": 108.26378641884958
+      }
+    },
+    {
+      "id": 103,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "Item received: 1500 RU, 7N1 7.62x54mm x50",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Yeaaah. Little bullets, my little bullets. Right now they're mine, but in my head, in my plans, they're already spread out across the Freedom base, into the Barman's hands, even Clear Sky's getting a cut. And you're owed something for your trouble!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Thanks",
+          "stage": "104",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "44:50"
+        ],
+        "money": [
+          "1500"
+        ],
+        "xp": [
+          "20"
+        ]
+      },
+      "editor": {
+        "x": 4870.380615364947,
+        "y": 252.77947517999752
+      }
+    },
+    {
+      "id": 104,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "1202:1497"
+      },
+      "editor": {
+        "x": 4863.673093328606,
+        "y": 402.63898181185425
+      }
+    },
+    {
+      "id": 105,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What brings you here?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Got any work?",
+          "stage": "106",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3110.67155816145,
+        "y": -1735.1507724477074
+      }
+    },
+    {
+      "id": 106,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "There's a job for you here. I don't have enough time to gather everything. The Barman ordered a large quantity of any strong alcohol from me. I tried going through wholesalers, but their prices aren't exactly low, the hassle isn't worth the 'walruses.' I scraped together what I could from the plants, bargained what I could, but it's not enough. Need at least another hundred liters. The plants won't release a batch for such a small volume…",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Whoa, that's a lot of hooch you need. Trying to get all of Rostok drunk?",
+          "stage": "107",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3068.0846602016663,
+        "y": -1623.7450253152501
+      }
+    },
+    {
+      "id": 107,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I don't care who or how the Barman needs to get drunk, I need to fulfill this order no matter what it takes. This is the Barman we're talking about! Only a week and a half left…",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "But where do I get that much liquor?",
+          "stage": "108",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3067.925097370651,
+        "y": -1509.5186001650156
+      }
+    },
+    {
+      "id": 108,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "He said it doesn't matter what kind of alcohol it is. What matters is that it's strong and not bootleg garbage. We'll have to distill it ourselves, and it needs to be one huge batch.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Why does it have to be so big?",
+          "stage": "109",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3065.651522520886,
+        "y": -1397.355574243246
+      }
+    },
+    {
+      "id": 109,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "You understand yourself, buying it up from Sidorovich or other dealers is a huge loss. This is the ZONE, brother! Everyone's watching closely for a chance to profit off each other.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Nah, I mean something else. Did you decide to build a whole distillery in a week and a half?",
+          "stage": "110",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3061.862231104613,
+        "y": -1286.708264887987
+      }
+    },
+    {
+      "id": 110,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Hm. A distillery. Now there's an idea. I need one big batch because I won't have time to do it in stages, the mash won't have time to ferment. Maybe it can sit through three rounds. But those three rounds over 11 days need to be stored either in several tanks or one giant vat. Damn, so much to do… Here's a shovel, go dig up some roots, I'll mark it on the map. Head toward the Marshes. The more you dig up, the better. And don't bring it back here, bring it to the elevator.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Why doesn't the Barman just distill the rest himself?",
+          "stage": "111",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3069.468040782258,
+        "y": -1180.925941240467
+      }
+    },
+    {
+      "id": 111,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Because I'm already saddled with doing all of it for him, my dear fellow! Get going.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Nah, sketchy business, I'll pass",
+          "stage": "112",
+          "condition": {}
+        },
+        {
+          "text": "Alright, I'll come back once I've dug some up",
+          "stage": "113",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3074.6541987570436,
+        "y": -1066.8572672698856
+      }
+    },
+    {
+      "id": 112,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, get going then, come back if you change your mind.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave",
+          "stage": "114",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2884.25163373732,
+        "y": -943.6510901550317
+      }
+    },
+    {
+      "id": 113,
+      "type_stage": 0,
+      "background": "",
+      "title": "Kastet",
+      "message": "New quest: Dig up roots",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "That's the spirit.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Leave",
+          "stage": "114",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_distillery_start"
+        ]
+      },
+      "editor": {
+        "x": 3230.709982426215,
+        "y": -943.6925664227131
+      }
+    },
+    {
+      "id": 114,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "1202:1497"
+      },
+      "editor": {
+        "x": 3063.011031329206,
+        "y": -814.5109847245319
+      }
+    }
+  ],
+  "points": {
+    "0": [
+      {
+        "id": "52074fde-1fd9-402c-a4d4-dd9aba42d4a6",
+        "type": 0,
+        "name": "Get a pass",
+        "pos": "2448:1291",
+        "data": {
+          "stage": "51",
+          "chapter": "8"
+        },
+        "condition": {
+          "has": [
+            "quest_kastet_marafon_start"
+          ]
+        },
+        "editor": {
+          "x": 606.5993641956511,
+          "y": -1848.2691415365794
+        }
+      },
+      {
+        "id": "cf0a8b58-e51c-4c26-b884-a5cfe408f1c2",
+        "type": 0,
+        "name": "Bring money for the pass",
+        "pos": "2448:1291",
+        "data": {
+          "stage": "59",
+          "chapter": "8"
+        },
+        "condition": {
+          "has": [
+            "quest_kastet_marafon_money_for_prop_usk"
+          ]
+        },
+        "editor": {
+          "x": 868.7566107145303,
+          "y": -1088.6479601864016
+        }
+      }
+    ],
+    "1": [
+      {
+        "id": "f6a52155-d0f0-448b-a2b5-2769f1f9fcb6",
+        "type": 3,
+        "name": "Kastet, start",
+        "pos": "1258:1614",
+        "data": {
+          "stage": "0",
+          "chapter": "8"
+        },
+        "condition": {
+          "!has": [
+            "quest_kastet_start",
+            "quest_kastet_1_end"
+          ],
+          "has": [
+            "Beta"
+          ]
+        },
+        "editor": {
+          "x": -25.091868182531954,
+          "y": -138.73507454637453
+        }
+      },
+      {
+        "id": "0d2430bc-582d-4683-84b9-f770dc133b46",
+        "type": 1,
+        "name": "Kastet, start, return from Sidorovich",
+        "pos": "1258:1614",
+        "data": {
+          "stage": "12",
+          "chapter": "8"
+        },
+        "condition": {
+          "has": [
+            "quest_kastet_konvert"
+          ]
+        },
+        "editor": {
+          "x": 598.3070039736139,
+          "y": -93.4467855152957
+        }
+      },
+      {
+        "id": "6bc245c8-8250-4782-a5e1-54cbaae131a4",
+        "type": 1,
+        "name": "Kastet, braid a rope from threads",
+        "pos": "1258:1614",
+        "data": {
+          "stage": "15",
+          "chapter": "8"
+        },
+        "condition": {
+          "!has": [
+            "quest_kastet_findstalker"
+          ],
+          "has": [
+            "quest_kastet_1_end"
+          ]
+        },
+        "editor": {
+          "x": 1105.2955728413115,
+          "y": -94.16101869236
+        }
+      },
+      {
+        "id": "86dcef1e-e7b4-4e4d-a35b-974266eb6ff6",
+        "type": 1,
+        "name": "Check on Lyokha at Kastet's",
+        "pos": "1258:1614",
+        "data": {
+          "stage": "43",
+          "chapter": "8"
+        },
+        "condition": {
+          "has": [
+            "quest_kastet_findstalker_pre_end"
+          ]
+        },
+        "editor": {
+          "x": 3183.3327825722236,
+          "y": -99.65402516611985
+        }
+      },
+      {
+        "id": "c5c3e3b8-482d-4a67-8163-0034f2490cf3",
+        "type": 1,
+        "name": "Kastet, marathon",
+        "pos": "1258:1614",
+        "data": {
+          "stage": "46",
+          "chapter": "8"
+        },
+        "condition": {
+          "!has": [
+            "quest_kastet_marafon_start"
+          ],
+          "has": [
+            "quest_kastet_findstalker_end",
+            "Beta"
+          ]
+        },
+        "editor": {
+          "x": 18.4696211125256,
+          "y": -1847.4875809849937
+        }
+      },
+      {
+        "id": "7dcb5875-8cc8-40de-9aff-03c993d56c97",
+        "type": 1,
+        "name": "Bring the advance payment to Kastet",
+        "pos": "1258:1614",
+        "data": {
+          "stage": "68",
+          "chapter": "8"
+        },
+        "condition": {
+          "has": [
+            "quest_kastet_marafon_predoplata"
+          ]
+        },
+        "editor": {
+          "x": 1625.042582310144,
+          "y": -1859.7683680148548
+        }
+      },
+      {
+        "id": "c6b9b28a-0022-4331-a285-9078a3562e0e",
+        "type": 3,
+        "name": "Kastet, moonshine, start",
+        "pos": "1258:1614",
+        "data": {
+          "stage": "79",
+          "chapter": "8"
+        },
+        "condition": {
+          "!has": [
+            "quest_samagon_start",
+            "quest_samagon_end"
+          ],
+          "has": [
+            "quest_kastet_find_stalker_end"
+          ]
+        },
+        "editor": {
+          "x": 3576.3943369619756,
+          "y": -99.99986974645083
+        }
+      },
+      {
+        "id": "178db2e6-5840-4452-9fed-7cbd159631d8",
+        "type": 1,
+        "name": "Kastet, moonshine, to the military",
+        "pos": "506:576",
+        "data": {
+          "stage": "88",
+          "chapter": "8"
+        },
+        "condition": {
+          "has": [
+            "quest_samagon_1"
+          ]
+        },
+        "editor": {
+          "x": 4044.8686913505926,
+          "y": -101.36892795986165
+        }
+      },
+      {
+        "id": "633edb52-5015-4150-b725-5e9be67e67ad",
+        "type": 1,
+        "name": "Kastet, moonshine, return",
+        "pos": "1258:1614",
+        "data": {
+          "stage": "101",
+          "chapter": "8"
+        },
+        "condition": {
+          "has": [
+            "quest_samagon_box"
+          ]
+        },
+        "editor": {
+          "x": 4866.8039325925665,
+          "y": -101.2955861443807
+        }
+      },
+      {
+        "id": "559e1354-362a-4c4b-a6ee-d5e37a133564",
+        "type": 3,
+        "name": "Kastet, distillery, start",
+        "pos": "1258:1614",
+        "data": {
+          "stage": "105",
+          "chapter": "8"
+        },
+        "condition": {
+          "!has": [
+            "quest_distillery_start"
+          ],
+          "has": [
+            "quest_samagon_end",
+            "Beta"
+          ]
+        },
+        "editor": {
+          "x": 3024.5033683028996,
+          "y": -1860.1507724477074
+        }
+      }
+    ],
+    "2": [
+      {
+        "id": "c56c1e1c-05d9-4b2f-b234-a8cca551d398",
+        "type": 3,
+        "name": "Find the stalker",
+        "pos": "605:485",
+        "data": {
+          "stage": "27",
+          "chapter": "8"
+        },
+        "condition": {
+          "has": [
+            "quest_kastet_findstalker"
+          ]
+        },
+        "editor": {
+          "x": 1730.7115184384375,
+          "y": -83.9277352385088
+        }
+      },
+      {
+        "id": "46c16785-8a27-435d-be12-e5add4fc6d32",
+        "type": 3,
+        "name": "Return to the stalker",
+        "pos": "605:485",
+        "data": {
+          "stage": "40",
+          "chapter": "8"
+        },
+        "condition": {
+          "has": [
+            "quest_kastet_findstalker_key"
+          ]
+        },
+        "editor": {
+          "x": 2788.3698915068976,
+          "y": -101.05073940146772
+        }
+      }
+    ],
+    "3": [],
+    "5": [
+      {
+        "id": "112c17a1-b4bb-483e-b6a0-0d63caa9a675",
+        "type": 1,
+        "name": "Farm",
+        "pos": "250:99",
+        "data": {
+          "stage": "33",
+          "chapter": "8"
+        },
+        "condition": {
+          "has": [
+            "quest_kastet_findstalker_true"
+          ]
+        },
+        "editor": {
+          "x": 2290.551093301912,
+          "y": -93.8380022539462
+        }
+      },
+      {
+        "id": "db32dea6-5105-471b-9118-b8116f539d33",
+        "type": 1,
+        "name": "Deliver the device to the military",
+        "pos": "147:237",
+        "data": {
+          "stage": "98",
+          "chapter": "8"
+        },
+        "condition": {
+          "has": [
+            "quest_samagon_device"
+          ]
+        },
+        "editor": {
+          "x": 4420.675217963656,
+          "y": -99.43777471065374
+        }
+      }
+    ],
+    "8": [
+      {
+        "id": "8f20674a-1ab2-409c-9628-eb0dc58162f1",
+        "type": 0,
+        "name": "Collect money for medicine",
+        "pos": "412:467",
+        "data": {
+          "stage": "63",
+          "chapter": "8"
+        },
+        "condition": {
+          "has": [
+            "quest_kastet_marafon_prop_usk"
+          ]
+        },
+        "editor": {
+          "x": 1229.560276399664,
+          "y": -1858.1599075944337
+        }
+      },
+      {
+        "id": "e8957cbf-366a-44d8-bd50-47e652eb8980",
+        "type": 0,
+        "name": "Deliver medicine to Mikeleyev",
+        "pos": "412:467",
+        "data": {
+          "stage": "72",
+          "chapter": "8"
+        },
+        "condition": {
+          "has": [
+            "quest_kastet_marafon_meds"
+          ]
+        },
+        "editor": {
+          "x": 2236.213323950643,
+          "y": -1856.9530952899172
+        }
+      }
+    ]
+  },
+  "spawns": {},
+  "missions": [],
+  "title": "Knuckles' Storyline #1"
+}

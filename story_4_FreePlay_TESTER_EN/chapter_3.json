@@ -1,0 +1,1117 @@
+{
+  "id": 3,
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What do you want?",
+          "condition": {
+            "!has": [
+              "Диалог с торговцем"
+            ]
+          }
+        },
+        {
+          "text": "Anything else?",
+          "condition": {
+            "has": [
+              "Диалог с торговцем"
+            ]
+          }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'm here about work",
+          "stage": "3",
+          "condition": {}
+        },
+        {
+          "text": "I need some information",
+          "stage": "4",
+          "condition": {}
+        },
+        {
+          "text": "See ya",
+          "stage": "26",
+          "condition": {}
+        },
+        {
+          "text": "I'd like to see what you've got",
+          "stage": "38",
+          "condition": {
+            "has": [
+              "Beta"
+            ]
+          }
+        },
+        {
+          "text": "I'd like to see what you've got\n",
+          "stage": "39",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 315.1563826812869,
+        "y": -145.40159814961166
+      }
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "add": [
+          "Диалог с торговцем"
+        ],
+        "openStage": [
+          "4",
+          "0"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 0,
+        "y": 300
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Ask away, whatever you're after — I might be able to help...",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Never mind",
+          "stage": "6",
+          "condition": {}
+        },
+        {
+          "text": "I want to buy a stash",
+          "stage": "7",
+          "condition": {}
+        },
+        {
+          "text": "A group of stalkers",
+          "stage": "17",
+          "condition": {
+            "has": [
+              "quest_99_1_segun_gotosidor"
+            ]
+          }
+        }
+      ],
+      "actions": {
+        "add": [
+          "Диалог с торговцем"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 845.706466582576,
+        "y": 299.0676246789002
+      }
+    },
+    {
+      "id": 5,
+      "type_stage": 4,
+      "data": {
+        "map": "1",
+        "pos": "154:916"
+      },
+      "editor": {
+        "x": 350,
+        "y": 450
+      }
+    },
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 700,
+        "y": 450
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 7,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Alright, listen up. I got the info on the stash off a dead stalker's PDA, so I can't guarantee it's still there. Still, there should be ammo and medkits in it, can't say more than that. The stash is in the Garbage, behind the Flea Market. I'll forward you the exact coordinates and the description from the PDA. This stuff'll cost you 1000 rubles.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Never mind",
+          "stage": "8",
+          "condition": {}
+        },
+        {
+          "text": "Stash for 2000 RU",
+          "stage": "9",
+          "condition": {
+            "money>=": [
+              "2000"
+            ],
+            "!has": [
+              "stash_2_0_start"
+            ]
+          }
+        },
+        {
+          "text": "Stash for 1000 RU",
+          "stage": "13",
+          "condition": {
+            "money>=": [
+              "1000"
+            ],
+            "!has": [
+              "stash_1_0_start"
+            ]
+          }
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1050,
+        "y": 450
+      }
+    },
+    {
+      "id": 8,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 350,
+        "y": 600
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 9,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So, here's the deal. The stash was laid down by a guy who worked with me for quite a while. He gave me the coordinates once, and not long after that he ran into the military — either got shot or arrested, hell if I know. There's a 90% chance the stash is still there, and from what I know there's a good suit and some medkits in it. It's pretty far out though, in the wild territory. You interested?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Never mind",
+          "stage": "10",
+          "condition": {}
+        },
+        {
+          "text": "I'll take it",
+          "stage": "11",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 700,
+        "y": 600
+      }
+    },
+    {
+      "id": 10,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 525,
+        "y": 750
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 11,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "Money lost: 2000 RU \nCoordinates received: Stash in the Wild Territory",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "As always, if it turns out you don't need it — bring it back, I'll buy it off you.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Thanks",
+          "stage": "12",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "-2000"
+        ],
+        "add": [
+          "stash_2_0",
+          "stash_2_0_start"
+        ],
+        "syncNow": [],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 875,
+        "y": 750
+      },
+      "_comment": ""
+    },
+    {
+      "id": 12,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 944.9999999999999,
+        "y": 930
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 13,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Alright, listen up. I got the info on the stash off a dead stalker's PDA, so I can't guarantee it's still there. Still, there should be ammo and medkits in it, can't say more than that. The stash is in the Garbage, behind the Flea Market. I'll forward you the exact coordinates and the description from the PDA. This stuff'll cost you 1000 rubles.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Never mind",
+          "stage": "14",
+          "condition": {}
+        },
+        {
+          "text": "I'll take it",
+          "stage": "15",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1400,
+        "y": 600
+      }
+    },
+    {
+      "id": 14,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1225,
+        "y": 750
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 15,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "Money lost: 1000 RU \nCoordinates received: Stash in the Garbage",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Check your notes, I've sent you the info. If it comes to it, bring me the goods, I'll buy them off you, heh.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Thanks",
+          "stage": "16",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "stash_1_0_start",
+          "stash_1_0"
+        ],
+        "note": [
+          "...stashed the gear behind the Flea Market in the Garbage, on the way toward the Dark Valley... It's in a pile of tires..."
+        ],
+        "money": [
+          "-1000"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 1575,
+        "y": 750
+      }
+    },
+    {
+      "id": 16,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1575,
+        "y": 900
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 17,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, go on, ask.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "You wouldn't happen to know anything about a group of three or more heading toward the Garbage — one of them's got a scar across half his face, and another one's got a nickname that starts with 'S', I think?",
+          "stage": "18",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2100,
+        "y": 450
+      }
+    },
+    {
+      "id": 18,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Maybe you'd like me to just tell you who my suppliers are too, while I'm at it?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'm not asking for it for free",
+          "stage": "19",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2100,
+        "y": 600
+      }
+    },
+    {
+      "id": 19,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "500 rubles",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Here you go",
+          "stage": "20",
+          "condition": {
+            "money>=": [
+              "500"
+            ]
+          }
+        },
+        {
+          "text": "I don't have that kind of money on me right now",
+          "stage": "21",
+          "condition": {
+            "money<=": [
+              "500"
+            ],
+            "has": [
+              "Beta"
+            ]
+          }
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2100,
+        "y": 750
+      }
+    },
+    {
+      "id": 20,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "Money lost: 500 RU",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "And another 200, for emotional damages. I've got a very sensitive soul, you know.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Here. So, what's the story?",
+          "stage": "22",
+          "condition": {
+            "money>=": [
+              "200"
+            ]
+          }
+        },
+        {
+          "text": "Are you serious?",
+          "stage": "23",
+          "condition": {
+            "has": [
+              "Beta"
+            ]
+          }
+        }
+      ],
+      "actions": {
+        "money": [
+          "-500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": 1925,
+        "y": 900
+      }
+    },
+    {
+      "id": 21,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {},
+      "editor": {
+        "x": 2275,
+        "y": 900
+      },
+      "_comment": "Доделать вариант с недостатком суммы"
+    },
+    {
+      "id": 22,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "Money lost: 200 RU",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "There. Now who's the good guy. You help people and they still get lippy about it, then go around calling me greedy. I know that group, or rather I know their leader. They call him Strizh. He's got 2-3 guys in his crew. Why do you need him? ",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "He robbed a stalker",
+          "stage": "24",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "-200"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA1.mp3"
+        ]
+      },
+      "editor": {
+        "x": 1750,
+        "y": 1050
+      }
+    },
+    {
+      "id": 23,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {},
+      "editor": {
+        "x": 2100,
+        "y": 1050
+      },
+      "_comment": "Доделать ветку"
+    },
+    {
+      "id": 24,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "Task updated: Return to Wolf",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So this isn't the first time it's happened! You could ask Wolf, maybe he knows something. ",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Thank you",
+          "stage": "25",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_99_1_segun_gotowolf2"
+        ],
+        "remove": [
+          "quest_99_1_segun_gotosidor"
+        ],
+        "syncNow": [],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
+      "editor": {
+        "x": 1750,
+        "y": 1200
+      }
+    },
+    {
+      "id": 25,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1750,
+        "y": 1350
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 26,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Safe travels, @nickname.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "5",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "Диалог с торговцем"
+        ]
+      },
+      "editor": {
+        "x": 350,
+        "y": 300
+      }
+    },
+    {
+      "id": 29,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "I'm listening.",
+          "condition": {
+            "!has": [
+              "Диалог с торговцем"
+            ]
+          }
+        },
+        {
+          "text": "Anything else you're interested in?",
+          "condition": {
+            "has": [
+              "Диалог с торговцем"
+            ]
+          }
+        }
+      ],
+      "transfers": [
+        {
+          "text": "See ya",
+          "stage": "30",
+          "condition": {}
+        },
+        {
+          "text": "I want to see what you've got",
+          "stage": "32",
+          "condition": {}
+        },
+        {
+          "text": "I need some information",
+          "stage": "34",
+          "condition": {
+            "has": [
+              "Beta"
+            ]
+          }
+        },
+        {
+          "text": "I'm here about work",
+          "stage": "36",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "syncNow": []
+      },
+      "editor": {
+        "x": 3500,
+        "y": 150
+      }
+    },
+    {
+      "id": 30,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "And good health to you too.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "31",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "Диалог с торговцем"
+        ]
+      },
+      "editor": {
+        "x": 2800,
+        "y": 300
+      }
+    },
+    {
+      "id": 31,
+      "type_stage": 4,
+      "data": {
+        "map": "3",
+        "pos": "1501:1255"
+      },
+      "editor": {
+        "x": 2800,
+        "y": 450
+      }
+    },
+    {
+      "id": 32,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Go on, take a look at what we've got.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "33",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "Диалог с торговцем"
+        ],
+        "syncNow": [],
+        "openStage": [
+          "9",
+          "15"
+        ]
+      },
+      "editor": {
+        "x": 3144.3970649933963,
+        "y": 340.6851876401169
+      },
+      "_comment": "Переход на 9:15"
+    },
+    {
+      "id": 34,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What exactly do you want to know?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Never mind",
+          "stage": "35",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "Диалог с торговцем"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 3500,
+        "y": 300
+      },
+      "_comment": "В данный момент не функционирует"
+    },
+    {
+      "id": 35,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "29"
+        ]
+      },
+      "editor": {
+        "x": 3500,
+        "y": 450
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 36,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "add": [
+          "Диалог с торговцем"
+        ],
+        "openStage": [
+          "4",
+          "41"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 3849.186296247198,
+        "y": 302.441111258407
+      },
+      "_comment": "Переход на 4:41"
+    },
+    {
+      "id": 38,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "9",
+          "0"
+        ],
+        "add": [
+          "Диалог с торговцем"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": -355.523562786015,
+        "y": 293.78720793015736
+      },
+      "_comment": "Переход на 9:0"
+    },
+    {
+      "id": 39,
+      "type_stage": 5,
+      "actions": {
+        "openSeller": [
+          "1"
+        ],
+        "add": [
+          "Диалог с торговцем"
+        ],
+        "syncNow": [],
+        "openStage": [
+          "0"
+        ]
+      },
+      "transfers": [],
+      "editor": {
+        "x": -745.7197612273194,
+        "y": 274.38592993047723
+      }
+    }
+  ],
+  "points": {
+    "0": [],
+    "1": [
+      {
+        "id": "2cbfd233-098f-4330-8cf2-8754671bc876",
+        "type": 4,
+        "name": "Trader: Sidorovich",
+        "pos": "154:916",
+        "data": {
+          "stage": "0",
+          "chapter": "3"
+        },
+        "condition": {},
+        "editor": {
+          "x": 245.32406116852206,
+          "y": -337.61676045645703
+        }
+      }
+    ],
+    "3": [
+      {
+        "id": "754dfa36-7de2-4d7b-9075-5e95bbfd3ea6",
+        "type": 4,
+        "name": "Trader: Barman",
+        "pos": "1501:1255",
+        "data": {
+          "stage": "29",
+          "chapter": "3"
+        },
+        "condition": {},
+        "editor": {
+          "x": 3500,
+          "y": 0
+        }
+      }
+    ]
+  },
+  "spawns": {},
+  "missions": [],
+  "title": "Trader Dialogues Module"
+}

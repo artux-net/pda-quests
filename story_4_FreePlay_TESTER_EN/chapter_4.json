@@ -1,0 +1,1929 @@
+{
+  "id": 4,
+  "stages": [
+    {
+      "id": 0,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What exactly do you want?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Forget it",
+          "stage": "1",
+          "condition": {}
+        },
+        {
+          "text": "Turn in the job",
+          "stage": "2",
+          "condition": {}
+        },
+        {
+          "text": "Get a job",
+          "stage": "21",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "syncNow": []
+      },
+      "editor": {
+        "x": 324.44885041462925,
+        "y": -59.1974383041364
+      },
+      "_comment": "Работа у Сидоровича"
+    },
+    {
+      "id": 1,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 0,
+        "y": 150
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 2,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 350,
+        "y": 150
+      },
+      "_comment": "Переход на 4:3"
+    },
+    {
+      "id": 3,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, tell me.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Sidorovich, here's a package from Kastet, a whole briefcase, take it",
+          "stage": "4",
+          "condition": {
+            "has": [
+              "quest_kastet_chemodan",
+              "Beta"
+            ]
+          }
+        },
+        {
+          "text": "Forget it",
+          "stage": "8",
+          "condition": {}
+        },
+        {
+          "text": "I found out about the Monolith guy",
+          "stage": "9",
+          "condition": {
+            "has": [
+              "quest_1_0_monsvalka_sidor_fin"
+            ]
+          }
+        },
+        {
+          "text": "I dealt with the trader",
+          "stage": "13",
+          "condition": {
+            "has": [
+              "quest_1_0_sapyr_sidor_fin"
+            ]
+          }
+        },
+        {
+          "text": "I brought the flash drive",
+          "stage": "17",
+          "condition": {
+            "has": [
+              "quest_1_0_flash_sidor_fin"
+            ]
+          }
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1750,
+        "y": 0
+      },
+      "_comment": "Ветка с завершением заданий Сидоровича"
+    },
+    {
+      "id": 4,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "Quest completed:Bring the briefcase to Sidorovich",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Oh, that's good of him. Never forgets to do his job right. You've met him already, I take it?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Yeah, seems like peaceful guys are with him, looks like a mercenary. Why's he dressed like that?",
+          "stage": "5",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "remove": [
+          "quest_kastet_chemodan"
+        ]
+      },
+      "editor": {
+        "x": 1050,
+        "y": 150
+      }
+    },
+    {
+      "id": 5,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "New quest: Deliver the envelope to Kastet",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "He's got nothing to do with the syndicate, don't sweat it... I checked on him through my informants. He's a reliable guy. And as for what he wears, I don't care to know. Maybe he's just more comfortable in it. Anyway, you can head back to him and give him the envelope, here.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, but I've got other business",
+          "stage": "6",
+          "condition": {}
+        },
+        {
+          "text": "Alright, I'll deliver it now.",
+          "stage": "7",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_kastet_konvert"
+        ]
+      },
+      "editor": {
+        "x": 1050,
+        "y": 300
+      }
+    },
+    {
+      "id": 6,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 875,
+        "y": 450
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 7,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 1225,
+        "y": 450
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 8,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1400,
+        "y": 150
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 9,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Alright, spit it out.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "The Monolith guy didn't end up there by chance, bandits dragged him there, but from where — I have no idea",
+          "stage": "10",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 1750,
+        "y": 150
+      }
+    },
+    {
+      "id": 10,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "Received: 1500 RU",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So that's how it is. Interesting, drawing attention away to hit the Depot — I know their tricks, but this? Alright, you held up your end of the deal, here's 1500 RU, now get lost!",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, but I've got other business",
+          "stage": "11",
+          "condition": {}
+        },
+        {
+          "text": "See ya",
+          "stage": "12",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_monsvalka_sidor_rem"
+        ],
+        "remove": [
+          "quest_1_0_monsvalka_sidor_fin",
+          "1add_quest_1_0_monsvalka_sidor"
+        ],
+        "money": [
+          "1500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 1750,
+        "y": 300
+      }
+    },
+    {
+      "id": 11,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 1575,
+        "y": 450
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 12,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 1925,
+        "y": 450
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 13,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "How's that swindler doing?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "He won't bother anyone anymore",
+          "stage": "14",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 2450,
+        "y": 150
+      }
+    },
+    {
+      "id": 14,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "Received: 1000 RU",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Good job. Here's your cash, you helped the trader out.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, but I've got other business",
+          "stage": "15",
+          "condition": {}
+        },
+        {
+          "text": "See ya",
+          "stage": "16",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_sapyr_sidor_rem"
+        ],
+        "remove": [
+          "quest_1_0_sapyr_sidor_fin",
+          "add_quest_1_0_sapyr_sidor"
+        ],
+        "money": [
+          "1000"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 2450,
+        "y": 300
+      }
+    },
+    {
+      "id": 15,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 2275,
+        "y": 450
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 16,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 2625,
+        "y": 450
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 17,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Excellent. No trouble at all?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Small stuff, nothing serious",
+          "stage": "18",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3150,
+        "y": 150
+      }
+    },
+    {
+      "id": 18,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "Received: 1000 RU",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Good. Here, you earned 1000 RU",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, but I've got other business",
+          "stage": "19",
+          "condition": {}
+        },
+        {
+          "text": "See ya",
+          "stage": "20",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_flash_sidor_rem",
+          "quest_99_1_segun_sogl"
+        ],
+        "money": [
+          "1000"
+        ],
+        "remove": [
+          "quest_1_1_fleshka_sidora",
+          "add_quest_1_0_flash_sidor",
+          "quest_1_0_flash_sidor_fin"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 3128.2471825150074,
+        "y": 252.14380153301607
+      }
+    },
+    {
+      "id": 19,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 2975,
+        "y": 450
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 20,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 3325,
+        "y": 450
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 21,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "22"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 700,
+        "y": 150
+      },
+      "_comment": "Переход на 4:22"
+    },
+    {
+      "id": 22,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Choose",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Forget it",
+          "stage": "23",
+          "condition": {}
+        },
+        {
+          "text": "The matter with the trader",
+          "stage": "24",
+          "condition": {
+            "!has": [
+              "quest_1_0_sapyr_sidor_rem",
+              "add_quest_1_0_sapyr_sidor"
+            ]
+          }
+        },
+        {
+          "text": "Find the flash drive",
+          "stage": "30",
+          "condition": {
+            "!has": [
+              "quest_1_0_flash_sidor_rem",
+              "add_quest_1_0_flash_sidor"
+            ]
+          }
+        },
+        {
+          "text": "The Monolith guy at the Cordon",
+          "stage": "35",
+          "condition": {
+            "!has": [
+              "quest_1_0_monsvalka_sidor_rem",
+              "1add_quest_1_0_monsvalka_sidor"
+            ],
+            "has": [
+              "quest_1_0_sapyr_sidor_rem",
+              "quest_1_0_flash_sidor_rem"
+            ]
+          }
+        }
+      ],
+      "actions": {
+        "syncNow": []
+      },
+      "editor": {
+        "x": 4375,
+        "y": 0
+      },
+      "_comment": "Ветка с новыми заданиями Сидоровича"
+    },
+    {
+      "id": 23,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 3500,
+        "y": 150
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 24,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Look, if you need work — there's some asshole holed up in the ruins of the homestead selling crappy goods. On my territory too, heh. I need him gone.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "And how do I do that?",
+          "stage": "25",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3847.159460872774,
+        "y": 157.57477100593525
+      }
+    },
+    {
+      "id": 25,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "However your gut tells you, I don't care.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Forget it",
+          "stage": "26",
+          "condition": {}
+        },
+        {
+          "text": "I'm in",
+          "stage": "27",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 3850,
+        "y": 300
+      }
+    },
+    {
+      "id": 26,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 3675,
+        "y": 450
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 27,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "New quest: Sidorovich's Competitor",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Then hurry up",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "See ya",
+          "stage": "28",
+          "condition": {}
+        },
+        {
+          "text": "I've got other business",
+          "stage": "29",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_sapyr_sidor",
+          "add_quest_1_0_sapyr_sidor"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 4025,
+        "y": 450
+      }
+    },
+    {
+      "id": 28,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 3850,
+        "y": 600
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 29,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 4630.315362425809,
+        "y": 630.2990840237411
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 30,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Look, here's the deal. A guy was on his way to me with some important intel. He made it to the Elevator and then his PDA signal dropped. Go check it out, I don't care if he's alive or dead, just bring me the intel off him.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I'm in",
+          "stage": "31",
+          "condition": {}
+        },
+        {
+          "text": "Forget it",
+          "stage": "32",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 4701.328840606452,
+        "y": 167.99008113909622
+      }
+    },
+    {
+      "id": 31,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "New quest: Find the flash drive.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Damage the flash drive and you're paying for it. I sent you the coordinates on your PDA.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I've got other business",
+          "stage": "33",
+          "condition": {}
+        },
+        {
+          "text": "See ya",
+          "stage": "34",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_flash_sidor",
+          "add_quest_1_0_flash_sidor"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 4550.941135744104,
+        "y": 300
+      }
+    },
+    {
+      "id": 32,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 4900,
+        "y": 300
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 33,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 4375,
+        "y": 450
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 34,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 4725,
+        "y": 450
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 35,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "A job, huh... Let me think, I've got one job here. I can see you're experienced and know the Zone well enough now, so listen up carefully. Recently a Monolith fighter's body was found in the Garbage, how the hell he got there nobody knows, no witnesses either... None. Go ask around everyone you can, if anyone pulls a gun on you, say you're from me, they'll back off, and if not, well, you're on your own, ha-ha-ha... ",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "...",
+          "stage": "36",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5250,
+        "y": 150
+      }
+    },
+    {
+      "id": 36,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Just kidding, everyone there's peaceful, just don't mess with the bandits, they're hardened and know how things work. Right now you need to find Voron in the Garbage, but listen carefully, he's hiding somewhere in the Depot and doesn't let anyone near him, but he knows everything that happens in the Garbage. Tell him you're from me, he'll ask you something only he and I know — just say \"Book\", and after that he'll come to you himself, but mind you, you still have to find him first.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Forget it",
+          "stage": "37",
+          "condition": {}
+        },
+        {
+          "text": "Alright, I'm in",
+          "stage": "38",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 5250,
+        "y": 300
+      }
+    },
+    {
+      "id": 37,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 5075,
+        "y": 450
+      },
+      "_comment": "Переход на 3:0"
+    },
+    {
+      "id": 38,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "New quest: Find out about the Monolith guy.",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Head to the Garbage then, you'll see my marker there.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I've got other business",
+          "stage": "39",
+          "condition": {}
+        },
+        {
+          "text": "See ya",
+          "stage": "40",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_1_0_monsvalka_sidor",
+          "add_quest_1_0_monsvalka_sidor",
+          "1add_quest_1_0_monsvalka_sidor"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 5600,
+        "y": 450
+      }
+    },
+    {
+      "id": 39,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "0"
+        ]
+      },
+      "editor": {
+        "x": 5075,
+        "y": 600
+      },
+      "_comment": "Переход на 4:0"
+    },
+    {
+      "id": 40,
+      "type_stage": 0,
+      "background": "story/prologue/screen/chapter_2_21.jpg",
+      "title": "Sidorovich",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "26"
+        ]
+      },
+      "editor": {
+        "x": 5775,
+        "y": 600
+      },
+      "_comment": "Переход на 3:26"
+    },
+    {
+      "id": 41,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "What exactly do you want?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Forget it",
+          "stage": "42",
+          "condition": {}
+        },
+        {
+          "text": "Turn in the job",
+          "stage": "43",
+          "condition": {}
+        },
+        {
+          "text": "Get a job",
+          "stage": "44",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "syncNow": []
+      },
+      "editor": {
+        "x": 5950,
+        "y": 0
+      },
+      "_comment": "Работа у Бармена"
+    },
+    {
+      "id": 42,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "29"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 5600,
+        "y": 150
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 43,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "45"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 5950,
+        "y": 150
+      },
+      "_comment": "Переход на 4:45"
+    },
+    {
+      "id": 44,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "46"
+        ],
+        "syncNow": []
+      },
+      "editor": {
+        "x": 6300,
+        "y": 150
+      },
+      "_comment": "Переход на 4:46"
+    },
+    {
+      "id": 45,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Well, tell me.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "I found the stalker and the flash drive",
+          "stage": "47",
+          "condition": {
+            "has": [
+              "quest_2_0_flash_barmen2_fin"
+            ]
+          }
+        },
+        {
+          "text": "I paid off Syava's debt",
+          "stage": "48",
+          "condition": {
+            "has": [
+              "quest_2_0_flash_barmen_money_fin"
+            ]
+          }
+        },
+        {
+          "text": "Forget it",
+          "stage": "61",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 6788.020210275514,
+        "y": -153.35736326919854
+      },
+      "_comment": "Ветка с завершением заданий Бармена"
+    },
+    {
+      "id": 46,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Choose",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Search for the stalker",
+          "stage": "55",
+          "condition": {
+            "!has": [
+              "quest_2_0_flash_barmen_rem",
+              "add_quest_2_0_flash_barmen"
+            ]
+          }
+        },
+        {
+          "text": "Forget it",
+          "stage": "56",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7663.731783586692,
+        "y": -87.37343045024329
+      },
+      "_comment": "Ветка с новыми заданиями Бармена"
+    },
+    {
+      "id": 47,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So what happened?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "He owed the Duty guys at the checkpoint, they wouldn't let him through and wanted to shoot him. He hid from them at the farm. He apologized sincerely and asked me to pass along the flash drive, promised he'd come explain himself soon.",
+          "stage": "49",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 6587.320359442679,
+        "y": 150.87055056329615
+      }
+    },
+    {
+      "id": 48,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Good job. No problems?",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "No, all good",
+          "stage": "53",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7078.349550696651,
+        "y": 148.25889887340776
+      }
+    },
+    {
+      "id": 49,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "Item lost: Flash drive. Received: 500 RU, army medkit x2",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So that's how it is. Duty does whatever they want with their territory and authority. Alright, as promised, I'll throw in a bit extra.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Bye",
+          "stage": "50",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "money": [
+          "3500"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 6552.498336910833,
+        "y": 279.9773370441892
+      }
+    },
+    {
+      "id": 50,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "Quest updated: Pay off Syava's debt",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Hold on now. This guy's valuable, we need to help him. Go to the checkpoint in the Garbage, find Molotov and bring him the money for Syava, he said it was something like 3000 RU owed. Deliver it and come back.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, I'll deliver it, see ya.",
+          "stage": "51",
+          "condition": {}
+        },
+        {
+          "text": "Alright, but I've got other business with you",
+          "stage": "52",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "add_quest_2_0_flash_barmen_money",
+          "quest_2_0_flash_barmen_money1",
+          "quest_2_0_flash_barmen_rem"
+        ],
+        "remove": [
+          "quest_2_0_flash_barmen2_fin"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA3.mp3"
+        ]
+      },
+      "editor": {
+        "x": 6402.048155601576,
+        "y": 427.6840083437404
+      }
+    },
+    {
+      "id": 51,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "30"
+        ]
+      },
+      "editor": {
+        "x": 6125,
+        "y": 600
+      },
+      "_comment": "Переход на 3:30"
+    },
+    {
+      "id": 52,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "41"
+        ]
+      },
+      "editor": {
+        "x": 6825,
+        "y": 600
+      },
+      "_comment": "Переход на 4:41"
+    },
+    {
+      "id": 53,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "Received: 1500 RU",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Good. Here's your reward.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Thank you",
+          "stage": "54",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_2_0_flash_barmen_money_rem"
+        ],
+        "remove": [
+          "quest_2_0_flash_barmen_money_fin"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ],
+        "money": [
+          "1500"
+        ]
+      },
+      "editor": {
+        "x": 7040.915876474917,
+        "y": 264.30742690485897
+      },
+      "_comment": ""
+    },
+    {
+      "id": 54,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "29"
+        ]
+      },
+      "editor": {
+        "x": 7114.912674355088,
+        "y": 448.25889887340776
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 55,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "So, look. Same as always, a stalker was bringing me a flash drive with intel, and he went missing. His PDA was last seen near the farm, check there, maybe you'll dig something up. If you find his flash drive or PDA, that's good, and if you find him too — I'll throw in extra.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Forget it",
+          "stage": "57",
+          "condition": {}
+        },
+        {
+          "text": "I'm in",
+          "stage": "58",
+          "condition": {}
+        }
+      ],
+      "actions": {},
+      "editor": {
+        "x": 7525,
+        "y": 150
+      }
+    },
+    {
+      "id": 56,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "29"
+        ]
+      },
+      "editor": {
+        "x": 7891.096388387613,
+        "y": 97.92344933419503
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 57,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "29"
+        ]
+      },
+      "editor": {
+        "x": 7350,
+        "y": 300
+      },
+      "_comment": "Переход на 3:29"
+    },
+    {
+      "id": 58,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "New quest: Go to the farm in the Dark Valley",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "Then I'll be waiting, good luck.",
+          "condition": {}
+        }
+      ],
+      "transfers": [
+        {
+          "text": "Alright, but I've got other business with you",
+          "stage": "59",
+          "condition": {}
+        },
+        {
+          "text": "See ya",
+          "stage": "60",
+          "condition": {}
+        }
+      ],
+      "actions": {
+        "add": [
+          "quest_2_0_flash_barmen",
+          "add_quest_2_0_flash_barmen"
+        ],
+        "playMusic": [
+          "story/prologue/sound/PDA2.mp3"
+        ]
+      },
+      "editor": {
+        "x": 7700,
+        "y": 300
+      }
+    },
+    {
+      "id": 59,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "41"
+        ]
+      },
+      "editor": {
+        "x": 7525,
+        "y": 450
+      },
+      "_comment": "Переход на 4:41"
+    },
+    {
+      "id": 60,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "3",
+          "30"
+        ]
+      },
+      "editor": {
+        "x": 7875,
+        "y": 450
+      },
+      "_comment": "Переход на 3:30"
+    },
+    {
+      "id": 61,
+      "type_stage": 0,
+      "background": "story/freeplay/screen/27.jpg",
+      "title": "Barman",
+      "message": "",
+      "type_message": 0,
+      "texts": [
+        {
+          "text": "",
+          "condition": {}
+        }
+      ],
+      "transfers": [],
+      "actions": {
+        "openStage": [
+          "4",
+          "41"
+        ]
+      },
+      "editor": {
+        "x": 6866.953327571402,
+        "y": 175.56393147857844
+      },
+      "_comment": "Переход на 4:41"
+    }
+  ],
+  "points": {
+    "2": []
+  },
+  "spawns": {},
+  "missions": [],
+  "title": "Trader Quests Module"
+}

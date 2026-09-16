@@ -6,5 +6,6 @@
   "needs": [
     0
   ],
-  "access": "TESTER"
+  "access": "TESTER",
+  "locale": "ru"
 }
